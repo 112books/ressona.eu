@@ -164,6 +164,20 @@ ressona.eu/
 - Accés privat (enllaç compartible) o públic
 - Part del press kit digital de l'artista
 
+## Estratègia de promoció per perfils
+- No revelar les cartes del tot. Mostrar resultats, mai la metodologia completa.
+- Cada perfil d'artista (músic, actor, ballarí, circ, etc.) necessita una estratègia de promoció diferent.
+- Exemples públics: mostrar el "abans i després" sense detallar el "com".
+- Contingut de mostra: press kits, webs, fotos — però sempre amb aigua, mai el fitxer original.
+- El site ha de generar curiositat i leads, no resoldre tots els dubtes.
+- Estratègies per perfil:
+  - **Músics**: presència a Spotify/YouTube + web + agenda sincronitzada + rider online
+  - **Actors**: showreel + book digital + presència a càstings online
+  - **Circ/escena**: dossier d'espectacle + galeria + calendari de gires
+  - **Ballarins**: vídeo + bio + calendari de classes/tallers
+  - **Arts plàstiques**: portfolio + galeria + presència a xarxes visuals
+  - **Emergents**: paquet básic d'inici — foto + bio + web mínima
+
 ## Regles de desenvolupament
 1. **Minimalisme radical**: cada element ha de justificar la seva existència
 2. **Primer la tipografia**: abans que qualsevol decoració, que el text tingui pes
