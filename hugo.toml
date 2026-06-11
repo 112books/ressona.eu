@@ -1,0 +1,21 @@
+baseURL = "https://ressona.eu/"
+title = "Ressona"
+defaultContentLanguage = "ca"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+  description = "Identitat digital per a artistes"
+  author = "Ressona"
+  instagram = "https://www.instagram.com/ressona.eu/"
+  email = "hola@ressona.eu"
+
+[languages]
+  [languages.ca]
+    languageName = "Català"
+    contentDir = "content"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[build]
+  writeStats = false
