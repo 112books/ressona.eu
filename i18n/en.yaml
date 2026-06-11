@@ -1,0 +1,65 @@
+hero_brand: Ressona
+hero_tagline: Digital identity for artists
+hero_desc: We help creators build their digital presence.
+hero_desc2: From profile photo to press kit. From stage to network.
+
+nav_que_fem: What we do
+nav_per_qui: Who we serve
+nav_com_treballem: How we work
+nav_contacte: Contact
+nav_lang: CA
+
+section_que_fem_label: — 01
+section_que_fem_title: What it takes<br>to <span>be found</span>
+
+srv_visual_title: Visual identity
+srv_visual_desc: The look that sets you apart. Logo, palette, tone. The foundation.
+srv_photo_title: Photography & video
+srv_photo_desc: The material that opens doors. Sessions crafted for your press kit.
+srv_web_title: Synced website
+srv_web_desc: Showcase. Tool. Calendar. All connected, all in place.
+srv_social_title: Automated social
+srv_social_desc: Post when it matters. Silence when it doesn't. Zero burnout.
+srv_ai_title: AI with judgment
+srv_ai_desc: New tools, well used. Without losing control.
+srv_presskit_title: Digital press kit
+srv_presskit_desc: Bio, photos, videos, contact. One place for everything.
+
+section_per_qui_label: — 02
+section_per_qui_title: For those who<br><span>create and perform</span>
+
+aud_music: Musicians
+aud_music_desc: From demo to gig. The full digital journey.
+aud_actors: Actors
+aud_actors_desc: Book, showreel, presence. For castings and beyond.
+aud_circus: Circus & stage
+aud_circus_desc: Companies, shows, tours. Offstage too.
+aud_dance: Dance
+aud_dance_desc: Movement, calendar, classes. Your digital body.
+aud_visual: Visual arts
+aud_visual_desc: Portfolio, gallery. For galleries and collectors.
+aud_emerging: Emerging
+aud_emerging_desc: The first step. The foundation. Everything to build on.
+
+section_com_label: — 03
+section_com_title: How we do it,<br><span>step by step</span>
+
+step_1_title: We listen
+step_1_desc: The project. The context. What you truly need.
+step_2_title: We design
+step_2_desc: A tailored solution. What makes sense for you.
+step_3_title: We build
+step_3_desc: Block by block. Each step closed before the next.
+step_4_title: We accompany
+step_4_desc: The system runs itself. But we're still here.
+
+section_contact_label: — 04
+section_contact_title: Let's talk?
+contact_text: Tell us about your project. Or just say hello.
+contact_email: hola@ressona.eu
+contact_cta: Say hello
+
+footer_desc: Digital identity for artists
+footer_instagram: Instagram
+footer_pocallum: "Graphic design: Pocallum"
+footer_linuxbcn: "Technology: LinuxBCN"

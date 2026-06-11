@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" width="420" height="120">
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ece4d9"/>
+      <stop offset="30%" stop-color="#ece4d9"/>
+      <stop offset="55%" stop-color="#d49a2a"/>
+      <stop offset="100%" stop-color="#c1121f"/>
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+      .l { font-family: 'Syne', 'Arial Black', sans-serif; font-weight: 800; fill: url(#logo-grad); }
+      .lg { fill: #d49a2a; }
+    </style>
+  </defs>
+  <g transform="translate(70,96)">
+    <text x="-30" y="0" class="lg" font-size="100" text-anchor="middle" transform="scale(-1,1)">R</text>
+    <text x="10" y="0" class="l" font-size="100" text-anchor="start">e</text>
+    <text x="54" y="-10" class="l" font-size="85" text-anchor="start">s</text>
+    <text x="86" y="14" class="l" font-size="85" text-anchor="start">s</text>
+    <text x="118" y="12" class="l" font-size="85" text-anchor="start">o</text>
+    <text x="152" y="0" class="l" font-size="100" text-anchor="start">n</text>
+    <text x="202" y="0" class="l" font-size="100" text-anchor="start">a</text>
+  </g>
+</svg>

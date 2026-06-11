@@ -1,4 +1,4 @@
 ---
 title: "Ressona"
-language: ca
+language: en
 ---

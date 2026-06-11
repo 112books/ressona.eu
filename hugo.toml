@@ -8,11 +8,18 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
   author = "Ressona"
   instagram = "https://www.instagram.com/ressona.eu/"
   email = "hola@ressona.eu"
+  logo = "/img/ressona-logo.svg"
+  mark = "/img/ressona-mark.svg"
 
 [languages]
   [languages.ca]
     languageName = "Català"
     contentDir = "content"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 2
 
 [markup.goldmark.renderer]
   unsafe = true

@@ -1,0 +1,65 @@
+hero_brand: Ressona
+hero_tagline: Identitat digital per a artistes
+hero_desc: Acompanyem creadors a construir la seva presència digital.
+hero_desc2: De la foto de perfil al press kit. Del directe a la xarxa.
+
+nav_que_fem: Què fem
+nav_per_qui: Per a qui
+nav_com_treballem: Com treballem
+nav_contacte: Contacte
+nav_lang: EN
+
+section_que_fem_label: — 01
+section_que_fem_title: Tot el que cal<br>per <span>ser trobat</span>
+
+srv_visual_title: Identitat visual
+srv_visual_desc: La mirada que et distingeix. Logotip, paleta, to. La base.
+srv_photo_title: Fotografia i vídeo
+srv_photo_desc: El material que obre portes. Sessions pensades per al teu press kit.
+srv_web_title: Web sincronitzada
+srv_web_desc: Aparador. Eina. Agenda. Tot connectat, tot al seu lloc.
+srv_social_title: Xarxes automàtiques
+srv_social_desc: Publicació quan toca. Silenci quan no. Zero esclavitud.
+srv_ai_title: IA amb criteri
+srv_ai_desc: Les eines noves, ben utilitzades. Sense perdre el control.
+srv_presskit_title: Press kit digital
+srv_presskit_desc: Bio, fotos, vídeos, contacte. Un sol lloc per a tot.
+
+section_per_qui_label: — 02
+section_per_qui_title: Per a qui<br><span>crea i actua</span>
+
+aud_music: Músics
+aud_music_desc: De la maqueta al concert. Tot el camí digital.
+aud_actors: Actors
+aud_actors_desc: Book, showreel, presència. Per a càstings i més.
+aud_circus: Circ i escena
+aud_circus_desc: Companyies, espectacles, gires. Fora de l'escenari també.
+aud_dance: Dansa
+aud_dance_desc: Moviment, calendari, classes. El teu cos digital.
+aud_visual: Arts plàstiques
+aud_visual_desc: Portfolio, galeria. Per a galeries i col·leccionistes.
+aud_emerging: Emergents
+aud_emerging_desc: El primer pas. La base. Tot per construir.
+
+section_com_label: — 03
+section_com_title: Com ho fem,<br><span>pas a pas</span>
+
+step_1_title: Escoltem
+step_1_desc: El projecte. El context. El que necessites de veritat.
+step_2_title: Dissenyem
+step_2_desc: Una solució a mida. Amb el que té sentit per a tu.
+step_3_title: Construïm
+step_3_desc: Bloc a bloc. Cada pas tancat abans del següent.
+step_4_title: Acompanyem
+step_4_desc: El sistema funciona sol. Però seguim aquí.
+
+section_contact_label: — 04
+section_contact_title: Parlem?
+contact_text: Explica'ns el teu projecte. O simplement digues hola.
+contact_email: hola@ressona.eu
+contact_cta: Digues hola
+
+footer_desc: Identitat digital per a artistes
+footer_instagram: Instagram
+footer_pocallum: "Disseny gràfic: Pocallum"
+footer_linuxbcn: "Tecnologia: LinuxBCN"
