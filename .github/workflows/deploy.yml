@@ -44,6 +44,7 @@ jobs:
           echo "Protegint ${#html_files[@]} fitxers HTML..."
           npx staticrypt "${html_files[@]}" \
             --password "$PASSWORD" \
+            --short \
             --directory public
 
       - name: Deploy a gh-pages
