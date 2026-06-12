@@ -117,8 +117,8 @@ Totes les icones són SVG inline, traç simple, sense llibreries externes:
 - **Multi-idioma**: Català (defecte) + Anglès
 - **URLs**: `ressona.eu/` (CA), `ressona.eu/en/` (EN)
 - **Switcher d'idioma**: text sol, mai banderetes
-- **JavaScript**: zero — site estàtic pur
-- **Analytics**: GoatCounter (script extern mínim)
+- **JavaScript**: zero — site estàtic pur (excepte GoatCounter)
+- **Analytics**: GoatCounter (`ressona.goatcounter.com`) + dashboard propi a `/admin/`
 - **Responsive**: 27" desktop → tablet → mòbil
 - **Hosting**: LinuxBCN (mateix stack que awpcp.org)
 
@@ -127,6 +127,15 @@ Totes les icones són SVG inline, traç simple, sense llibreries externes:
 - **Idiomes**: gestió amb `i18n/` + `content/en/`
 - **CSS**: pur, sense frameworks. Minificat amb Hugo pipelines.
 - **Fonts**: Google Fonts (Syne + Inter), preconnect
+- **Dashboard**: GoatCounter API v0 → scripts/build-analytics-json.py + process-analytics.py → static/admin/analytics.json → static/admin/index.html (Chart.js, SHA-256 auth)
+
+## GoatCounter Analytics
+- **Compte**: `ressona.goatcounter.com` (script de tracking a `baseof.html`)
+- **Dashboard**: `ressona.eu/admin/` (protegit amb la mateixa contrasenya que el site)
+- **Workflow**: `.github/workflows/fetch-analytics.yml` — cada hora, obté dades de l'API GoatCounter i genera `static/admin/analytics.json`
+- **Scripts de processament**: `scripts/build-analytics-json.py` + `scripts/process-analytics.py`
+- **Secret necessari**: `GOATCOUNTER_TOKEN` — token API amb permisos "Read stats" des de `ressona.goatcounter.com/settings/api`
+- **Seccions del dashboard**: `inici` (home) + `legal` (pàgines legals)
 
 ## Estructura de fitxers
 ```
@@ -148,11 +157,21 @@ ressona.eu/
 │   │   ├── header.html
 │   │   └── footer.html
 │   └── index.html
+├── scripts/
+│   ├── build-analytics-json.py
+│   └── process-analytics.py
 ├── static/
+│   ├── admin/
+│   │   ├── index.html (dashboard)
+│   │   └── analytics.json (generat)
 │   ├── img/
 │   │   ├── ressona-logo.svg (logotip complet: ꓤessona amb syncopation)
 │   │   └── ressona-mark.svg (marca curta: ꓤ)
 │   └── favicon.ico
+├── .github/
+│   └── workflows/
+│       ├── deploy.yml
+│       └── fetch-analytics.yml
 ├── hugo.toml
 └── CLAUDE.md
 ```

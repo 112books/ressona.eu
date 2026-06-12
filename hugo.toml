@@ -10,6 +10,7 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
   email = "hola@ressona.eu"
   logo = "/img/ressona-logo.svg"
   mark = "/img/ressona-mark.svg"
+  goatcounter = "ressona"
 
 [languages]
   [languages.ca]

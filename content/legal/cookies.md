@@ -11,7 +11,7 @@ Podem utilitzar cookies estrictament necessàries per al funcionament tècnic de
 
 **Analítica**
 
-Si en el futur implementéssim eines d'analítica (com GoatCounter), aquestes no recollirien dades personals ni utilitzarien cookies persistents.
+Utilitzem **GoatCounter** per a l'anàlisi d'audiència. No recull cookies ni dades personals. Més informació a goatcounter.com.
 
 **Més informació**
 

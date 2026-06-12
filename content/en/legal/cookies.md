@@ -11,7 +11,7 @@ We may use strictly necessary cookies for the technical operation of the site. T
 
 **Analytics**
 
-If we implement analytics tools (such as GoatCounter) in the future, they will not collect personal data or use persistent cookies.
+We use **GoatCounter** for audience analytics. It does not collect cookies or personal data. More information at goatcounter.com.
 
 **More information**
 
