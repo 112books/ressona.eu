@@ -1,0 +1,114 @@
+<div class="rprog-bar" id="rprogBar"></div>
+<div class="rprog-pct" id="rprogPct">0%</div>
+<button class="rprog-top" id="rprogTop" type="button" aria-label="Torna a dalt">↑</button>
+
+<style>
+.rprog-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gold), var(--red));
+  z-index: 9999;
+  width: 0%;
+  transition: width 0.05s linear;
+}
+
+.rprog-pct {
+  position: fixed;
+  bottom: 72px;
+  right: 28px;
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  z-index: 9998;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.rprog-pct.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.rprog-top {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-dim);
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 9997;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s, transform 0.3s, background 0.3s, border-color 0.3s, color 0.3s;
+  pointer-events: none;
+  padding: 0;
+}
+
+.rprog-top.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.rprog-top:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--bg);
+}
+
+@media (max-width: 768px) {
+  .rprog-pct {
+    right: 16px;
+    bottom: 64px;
+  }
+  .rprog-top {
+    right: 16px;
+    bottom: 20px;
+    width: 36px;
+    height: 36px;
+    font-size: 1.1rem;
+  }
+}
+</style>
+
+<script>
+(function() {
+  var bar = document.getElementById('rprogBar');
+  var pct = document.getElementById('rprogPct');
+  var btn = document.getElementById('rprogTop');
+  if (!bar || !pct || !btn) return;
+
+  function update() {
+    var scrollTop = window.scrollY;
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    var progress = docHeight > 0 ? Math.min(scrollTop / docHeight * 100, 100) : 0;
+
+    bar.style.width = progress + '%';
+    pct.textContent = Math.round(progress) + '%';
+
+    var show = scrollTop > 300;
+    pct.classList.toggle('is-visible', show);
+    btn.classList.toggle('is-visible', show);
+  }
+
+  update();
+  window.addEventListener('scroll', update, { passive: true });
+
+  btn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>

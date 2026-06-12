@@ -173,9 +173,8 @@
     <p class="section-label section-label--light">{{ i18n "section_contact_label" }}</p>
     <h2 class="section-title section-title--light">{{ i18n "section_contact_title" }}</h2>
     <p class="contact-text">{{ i18n "contact_text" }}</p>
-    <form class="contact-form" action="https://formspree.io/f/xqeoyjjr" method="POST">
+    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xqeoyjjr" method="POST">
       <input type="hidden" name="_language" value="{{ .Site.Language.Lang }}">
-      <input type="hidden" name="_next" value="{{ "/#contacte" | relLangURL }}">
       <div class="contact-field">
         <label for="contact-name">{{ i18n "form_name" }}</label>
         <input type="text" id="contact-name" name="name" required>
@@ -192,8 +191,46 @@
         <input type="checkbox" id="contact-gdpr" name="gdpr" required>
         <label for="contact-gdpr">{{ i18n "form_gdpr" | safeHTML }}</label>
       </div>
-      <button type="submit" class="contact-submit">{{ i18n "contact_cta" }}</button>
+      <button type="submit" class="contact-submit" id="contactSubmit">{{ i18n "contact_cta" }}</button>
+      <div class="contact-status" id="contactStatus"></div>
+      <p class="contact-spam-note">{{ i18n "contact_spam_note" }}</p>
     </form>
+    <script>
+    (function() {
+      var form = document.getElementById('contactForm');
+      var status = document.getElementById('contactStatus');
+      var submit = document.getElementById('contactSubmit');
+      if (!form) return;
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        status.textContent = '';
+        status.className = 'contact-status';
+        submit.disabled = true;
+        submit.textContent = '…';
+        var data = new FormData(form);
+        fetch(form.action, {
+          method: 'POST',
+          body: data,
+          headers: { 'Accept': 'application/json' }
+        }).then(function(r) {
+          if (r.ok) {
+            status.textContent = '{{ i18n "form_ok" }}';
+            status.className = 'contact-status contact-status--ok';
+            form.reset();
+          } else {
+            status.textContent = '{{ i18n "form_error" }}';
+            status.className = 'contact-status contact-status--err';
+          }
+        }).catch(function() {
+          status.textContent = '{{ i18n "form_error" }}';
+          status.className = 'contact-status contact-status--err';
+        }).then(function() {
+          submit.disabled = false;
+          submit.textContent = '{{ i18n "contact_cta" }}';
+        });
+      });
+    })();
+    </script>
   </div>
 </section>
 

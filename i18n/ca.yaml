@@ -58,18 +58,21 @@ step_3_title: Construïm
 step_3_desc: Bloc a bloc, de forma lineal i amb els millors professionals per a cada necessitat.
 step_4_title: Acompanyem
 step_4_desc: El sistema funciona sol. Però seguim aquí.
-step_5_title: Monitoritzem
+step_5_title: Monitoritzem i interpretem
 step_5_desc: "A l'inici sempre auditem l'estat actual de cada projecte. En acabar ho tornem a fer i aquest cop amb les dades que determinen l'impacte de cada procés."
 
 section_contact_label: — 04
 section_contact_title: Parlem?
-contact_text: Explica'ns el teu projecte. O simplement digues hola.
+contact_text: "Explica'ns el teu projecte. O simplement digues hola. T'avisarem per email — si no reps res en 5 min, mira l'spam."
 contact_email: hola@ressona.eu
 contact_cta: Enviar
 form_name: Nom
 form_email: Correu electrònic
 form_message: Missatge
 form_gdpr: He llegit i accepto la <a href="/legal/privacitat" target="_blank">política de privacitat</a>
+form_ok: Gràcies! T'hem rebut correctament.
+form_error: No s'ha pogut enviar. Prova-ho de nou.
+contact_spam_note: T'avisarem per email. Si no reps res en 5 min, mira l'spam.
 
 footer_desc: Identitat digital per a artistes
 footer_instagram: Instagram

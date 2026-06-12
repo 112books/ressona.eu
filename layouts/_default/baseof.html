@@ -19,6 +19,7 @@
   {{ if .Site.Params.goatcounter }}
   <script data-goatcounter="https://{{ .Site.Params.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   {{ end }}
+  <noscript><style>.hero-tagline { visibility: visible; }</style></noscript>
 </head>
 <body>
   {{ partial "header.html" . }}
@@ -26,5 +27,38 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  {{ partial "progress.html" . }}
+  <script>
+  (function(){
+    var tagline = document.querySelector('.hero-tagline');
+    if (tagline) {
+      var text = tagline.textContent;
+      tagline.textContent = '';
+      tagline.style.visibility = 'visible';
+      var i = 0;
+      function type() {
+        if (i < text.length) {
+          tagline.textContent += text.charAt(i);
+          i++;
+          tagline.classList.toggle('typing-cursor', i < text.length);
+          setTimeout(type, 35 + Math.random() * 25);
+        } else {
+          tagline.classList.add('typing-done');
+          tagline.classList.remove('typing-cursor');
+        }
+      }
+      setTimeout(type, 800);
+    }
+
+    var items = document.querySelectorAll('.audience-item');
+    items.forEach(function(el, idx) {
+      var dx = (Math.random() - 0.5) * 60;
+      var dy = (Math.random() - 0.5) * 40;
+      el.style.setProperty('--drift-x', dx + 'px');
+      el.style.setProperty('--drift-y', dy + 'px');
+      el.style.animationDelay = (0.2 + idx * 0.1) + 's';
+    });
+  })();
+  </script>
 </body>
 </html>
