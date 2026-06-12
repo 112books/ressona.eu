@@ -35,16 +35,6 @@ jobs:
       - name: Build Hugo
         run: hugo --minify --baseURL "https://ressona.eu/"
 
-      - name: Protect amb password
-        env:
-          PASSWORD: ${{ secrets.SITE_PASSWORD || 'LinuxBCN2026' }}
-        run: |
-          echo "Protegint fitxers HTML..."
-          find public -name '*.html' | while read f; do
-            dir=$(dirname "$f")
-            npx staticrypt "$f" --password "$PASSWORD" --short --directory "$dir"
-          done
-
       - name: Deploy a gh-pages
         run: |
           cd public
