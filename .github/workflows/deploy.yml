@@ -24,14 +24,6 @@ jobs:
           tar -xzf hugo_extended_0.159.0_linux-amd64.tar.gz
           sudo mv hugo /usr/local/bin/
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install staticrypt
-        run: npm install staticrypt
-
       - name: Build Hugo
         run: hugo --minify --baseURL "https://ressona.eu/"
 

@@ -27,9 +27,9 @@ Músics, actors, circ, dansa, arts plàstiques, creadors emergents.
 
 ## Estructura (single page)
 1. **Hero**: marca massiva gradient + tagline typing + desc fade-in
-2. **Què fem** (10 serveis): icona visible, text apareix on hover
+2. **Què fem** (10 serveis): icona visible, text apareix on hover (desktop) / sempre visible (mobile)
 3. **Per a qui** (6 perfils): float-in aleatori, color invert on hover
-4. **Com ho fem** (5 passos): eix central, desc apareix on hover
+4. **Com ho fem** (5 passos): eix central, desc apareix on hover (desktop) / sempre visible (mobile)
 5. **Contacte**: form fetch + inline feedback
 6. **Footer**: links, powered by LinuxBCN
 
@@ -65,16 +65,19 @@ Músics, actors, circ, dansa, arts plàstiques, creadors emergents.
 - `sessionStorage` per mantenir sessió
 - NO staticrypt (el site públic és obert)
 
-## Social media (ressona-docs/xarxes/)
-- Estratègia: `ESTRATEGIA.md` — IG/FB/LI, 1 cop/setmana, 5 formats
-- Plantilla: `plantilla.html` — 4 layouts, 5 bgs, 6 icones, html2canvas
-- Pendent: portar a `/admin/plantilla.html` amb auth
+## Social media
+- Estratègia: `ressona-docs/xarxes/ESTRATEGIA.md` — IG/FB/LI, 1 cop/setmana, 5 formats
+- Generador: `/admin/plantilla.html` — 4 layouts (cita/servei/perfil/proces), 5 bgs, 6 icones, logo original, html2canvas → PNG download + clipboard, auth SHA-256
 
 ## Deploy
 - GitHub Actions: `.github/workflows/deploy.yml`
 - Trigger: push a `main`
 - Hugo build → gh-pages branch
 - `static/` es copia directament (admin, img, robots.txt, humans.txt)
+- Sense Node.js / staticrypt (public site open, admin auth via JS)
+
+## 404
+- `layouts/404.html` — pàgina personalitzada amb enllaç "Tornar / Go back"
 
 ## Google Search Console
 - Domini verificat via TXT record
@@ -83,19 +86,20 @@ Músics, actors, circ, dansa, arts plàstiques, creadors emergents.
 ## Estructura de fitxers
 ```
 ressona.eu/
-├── assets/css/main.css (~1145 línies)
+├── assets/css/main.css (~1111 línies)
 ├── content/
 │   ├── _index.md / en/_index.md
 │   └── legal/ (avis-legal, privacitat, cookies) + en/
 ├── i18n/ (ca.yaml, en.yaml)
 ├── layouts/
+│   ├── 404.html
 │   ├── _default/baseof.html (SEO meta + JSON-LD + JS animacions)
 │   ├── _default/single.html (pàgines legals)
 │   ├── partials/ (header.html, footer.html, progress.html)
 │   └── index.html (single page + form fetch)
 ├── scripts/ (build-analytics-json.py, process-analytics.py)
 ├── static/
-│   ├── admin/ (index.html amb auth + dashboard)
+│   ├── admin/ (index.html amb auth + dashboard, plantilla.html amb auth)
 │   ├── img/ (logotips SVG, PNG 874×874 OG, PNG 192 favicon)
 │   ├── CNAME, robots.txt, humans.txt
 ├── .github/workflows/ (deploy.yml, fetch-analytics.yml)
