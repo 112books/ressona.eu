@@ -74,11 +74,13 @@ body {
   background: var(--gold);
   color: var(--invert);
   border: none;
-  padding: .55rem 1.25rem;
+  padding: .7rem 1.4rem;
   font-family: inherit;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: .08em;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
 }
 .btn:hover { background: var(--red); color: #fff; }
 #login-err { min-height: 1.4em; color: var(--warn); font-size: 11px; margin-top: .75rem; }
@@ -86,6 +88,13 @@ body {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text-dim);
+  padding: .7rem 1.4rem;
+  font-family: inherit;
+  font-size: 13px;
+  letter-spacing: .08em;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
 }
 
 /* ── Toolbar ──────────────────────────────────────────── */
@@ -97,15 +106,7 @@ body {
   padding: 20px 28px;
   border-bottom: 1px solid var(--border);
 }
-.toolbar a {
-  color: var(--text-dim);
-  text-decoration: none;
-  font-size: 11px;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  margin-right: auto;
-}
-.toolbar a:hover { color: var(--gold); }
+
 
 /* ── Controls ─────────────────────────────────────────── */
 .controls-wrap {
@@ -391,7 +392,7 @@ body {
       <div class="canvas-sub" id="canvasSub">Acompanyem creadors a construir la seva presència digital.</div>
     </div>
     <div class="canvas-brand">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 65 340 60" width="340" height="60">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 110" width="340" height="110">
         <defs>
           <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stop-color="#ece4d9"/>
@@ -400,9 +401,8 @@ body {
             <stop offset="100%" stop-color="#c1121f"/>
           </linearGradient>
           <style>
-            @import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&amp;display=swap');
             .l { font-family: 'Syne','Arial Black',sans-serif; font-weight: 800; fill: url(#logo-grad); }
-            .lg { fill: #d49a2a; }
+            .lg { fill: #d49a2a; font-family: 'Syne','Arial Black',sans-serif; font-weight: 800; }
           </style>
         </defs>
         <g transform="translate(70,96)">
