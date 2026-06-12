@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Plantilla · Ressona · Xarxes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<style>
+:root {
+  --bg: #34454c;
+  --bg-alt: #2b3b41;
+  --text: #d9d0d5;
+  --text-dim: rgba(192, 169, 179, 0.4);
+  --text-subtle: rgba(192, 169, 179, 0.5);
+  --red: #501345;
+  --gold: #fdbf68;
+  --invert: #0c0b09;
+  --blue: #c0a9b3;
+  --border: rgba(192, 169, 179, 0.1);
+  --warn: #a83232;
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --canvas: 1080px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  min-height: 100vh;
+}
+
+/* ── Login ────────────────────────────────────────────── */
+#login {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.login-box {
+  width: 300px;
+  padding: 2.5rem;
+  border: 1px solid var(--border);
+}
+.login-logo {
+  color: var(--text-dim);
+  letter-spacing: .15em;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.login-logo em { color: var(--gold); font-style: normal; }
+#pwd {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  padding: .5rem 0;
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--text);
+  outline: none;
+  margin-bottom: 1.5rem;
+  letter-spacing: .1em;
+}
+#pwd:focus { border-bottom-color: var(--gold); }
+.btn {
+  background: var(--gold);
+  color: var(--invert);
+  border: none;
+  padding: .55rem 1.25rem;
+  font-family: inherit;
+  font-size: 12px;
+  letter-spacing: .08em;
+  cursor: pointer;
+}
+.btn:hover { background: var(--red); color: #fff; }
+#login-err { min-height: 1.4em; color: var(--warn); font-size: 11px; margin-top: .75rem; }
+.btn--secondary {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+}
+
+/* ── Toolbar ──────────────────────────────────────────── */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  padding: 20px 28px;
+  border-bottom: 1px solid var(--border);
+}
+.toolbar a {
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-right: auto;
+}
+.toolbar a:hover { color: var(--gold); }
+
+/* ── Controls ─────────────────────────────────────────── */
+.controls-wrap {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 28px;
+}
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.controls label {
+  color: var(--text-dim);
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.controls select, .controls input {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  border-radius: 0;
+}
+.controls input[type=text] { flex: 1; min-width: 200px; }
+.controls-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+/* ── Canvas ───────────────────────────────────────────── */
+.canvas-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 28px;
+}
+.canvas {
+  width: var(--canvas);
+  height: var(--canvas);
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  background: var(--bg);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+.canvas-layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.type-cita .canvas-icon { display: none; }
+.type-cita .canvas-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  max-width: 90%;
+}
+.type-cita .canvas-title em { font-style: normal; color: var(--gold); }
+.type-cita .canvas-sub {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 22px;
+  color: var(--text-dim);
+  margin-top: 32px;
+  max-width: 75%;
+  line-height: 1.5;
+}
+
+.type-servei .canvas-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  margin-bottom: 50px;
+  width: 80px;
+  height: 80px;
+}
+.type-servei .canvas-icon svg { width: 80px; height: 80px; }
+.type-servei .canvas-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 56px;
+  color: var(--text);
+  max-width: 85%;
+}
+.type-servei .canvas-title span { color: var(--gold); }
+.type-servei .canvas-sub {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--text-dim);
+  margin-top: 20px;
+  max-width: 80%;
+  line-height: 1.5;
+}
+
+.type-perfil .canvas-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  margin-bottom: 50px;
+  width: 80px;
+  height: 80px;
+}
+.type-perfil .canvas-icon svg { width: 80px; height: 80px; }
+.type-perfil .canvas-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 64px;
+  color: var(--text);
+  max-width: 85%;
+  line-height: 1.1;
+}
+.type-perfil .canvas-title em { font-style: normal; color: var(--gold); }
+.type-perfil .canvas-sub {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 22px;
+  color: var(--text-dim);
+  margin-top: 24px;
+  max-width: 80%;
+  line-height: 1.5;
+}
+
+.type-proces .canvas-icon { display: none; }
+.type-proces .canvas-step {
+  font-family: var(--font-display);
+  font-size: 120px;
+  font-weight: 800;
+  color: rgba(192, 169, 179, 0.08);
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.type-proces .canvas-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 52px;
+  color: var(--text);
+  max-width: 85%;
+}
+.type-proces .canvas-title span { color: var(--gold); }
+.type-proces .canvas-sub {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 22px;
+  color: var(--text-dim);
+  margin-top: 20px;
+  max-width: 80%;
+  line-height: 1.5;
+}
+
+.bg-default { background: var(--bg); }
+.bg-red { background: var(--red); }
+.bg-gold { background: var(--gold); }
+.bg-gold .canvas-title,
+.bg-gold .canvas-sub { color: var(--bg); }
+.bg-gold .canvas-title em,
+.bg-gold .canvas-title span { color: var(--bg); }
+.bg-gold .type-cita .canvas-sub { color: rgba(52, 69, 76, 0.6); }
+.bg-blue { background: var(--blue); }
+.bg-blue .canvas-title,
+.bg-blue .canvas-sub { color: var(--bg); }
+.bg-blue .canvas-title em,
+.bg-blue .canvas-title span { color: var(--bg); }
+.bg-dark { background: var(--bg-alt); }
+
+.canvas-brand {
+  position: absolute;
+  bottom: 50px;
+  left: 80px;
+  width: 200px;
+  height: 36px;
+  opacity: 0.7;
+}
+.canvas-brand svg { width: 100%; height: 100%; display: block; }
+
+@media (max-width: 1100px) {
+  .canvas { padding: 6vw; }
+  .type-cita .canvas-title { font-size: 6.5vw; }
+  .type-servei .canvas-title { font-size: 5vw; }
+  .type-perfil .canvas-title { font-size: 5.5vw; }
+  .type-proces .canvas-step { font-size: 10vw; }
+  .type-proces .canvas-title { font-size: 4.5vw; }
+  .canvas-brand { left: 6vw; bottom: 4vw; width: 140px; }
+}
+</style>
+</head>
+<body>
+
+<div id="login">
+  <div class="login-box">
+    <div class="login-logo"><em>Ressona</em> / Xarxes</div>
+    <input type="password" id="pwd" placeholder="Contrasenya" autocomplete="off">
+    <button class="btn" id="login-btn">Entrar</button>
+    <div id="login-err"></div>
+  </div>
+</div>
+
+<div id="app" style="display:none">
+
+<div class="toolbar">
+  <a href="/admin/">← Estadístiques</a>
+  <span style="color:var(--text-dim);font-size:11px;letter-spacing:.08em;text-transform:uppercase">Generador de contingut per a xarxes</span>
+</div>
+
+<div class="controls-wrap">
+  <div class="controls">
+    <div class="controls-row">
+      <label>Tipus</label>
+      <select id="selType">
+        <option value="cita">Cita / Concepte</option>
+        <option value="servei">Servei</option>
+        <option value="perfil">Perfil d'artista</option>
+        <option value="proces">Procés / Pas</option>
+      </select>
+
+      <label>Fons</label>
+      <select id="selBg">
+        <option value="default">Fosc</option>
+        <option value="red">Red</option>
+        <option value="gold">Gold</option>
+        <option value="blue">Blue</option>
+        <option value="dark">Fosc alt</option>
+      </select>
+
+      <label>Icona</label>
+      <select id="selIcon">
+        <option value="ull">Ull (visió)</option>
+        <option value="camera">Càmera (foto)</option>
+        <option value="web">Globus (web)</option>
+        <option value="mail">Sobre (email)</option>
+        <option value="estrella">Estrella</option>
+        <option value="persona">Persona</option>
+      </select>
+
+      <button class="btn" id="btnCapture">Descarrega PNG</button>
+      <button class="btn btn--secondary" id="btnCopy">Copia</button>
+    </div>
+
+    <div class="controls-row">
+      <label>Títol</label>
+      <input type="text" id="inpTitle" value="La teva identitat digital ha de <em>ressonar</em> amb tu" style="flex:1">
+    </div>
+    <div class="controls-row">
+      <label>Subtítol</label>
+      <input type="text" id="inpSub" value="Acompanyem creadors a construir la seva presència digital." style="flex:1">
+    </div>
+    <div class="controls-row" id="rowStep">
+      <label>Número pas</label>
+      <input type="text" id="inpStep" value="01" style="width:60px">
+    </div>
+  </div>
+</div>
+
+<div class="canvas-wrap">
+  <div class="canvas bg-default" id="canvas">
+    <div class="canvas-layout type-cita" id="canvasLayout">
+      <div class="canvas-icon" id="canvasIcon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+      </div>
+      <div class="canvas-step" id="canvasStep">01</div>
+      <div class="canvas-title" id="canvasTitle">La teva identitat digital ha de <em>ressonar</em> amb tu</div>
+      <div class="canvas-sub" id="canvasSub">Acompanyem creadors a construir la seva presència digital.</div>
+    </div>
+    <div class="canvas-brand">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 35 340 60" width="340" height="60">
+        <defs>
+          <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ece4d9"/>
+            <stop offset="30%" stop-color="#ece4d9"/>
+            <stop offset="55%" stop-color="#fdbf68"/>
+            <stop offset="100%" stop-color="#501345"/>
+          </linearGradient>
+        </defs>
+        <g transform="translate(70,96)">
+          <text x="-30" y="0" fill="#fdbf68" font-family="Syne,sans-serif" font-weight="800" font-size="100" text-anchor="middle" transform="scale(-1,1)">R</text>
+          <text x="10" y="0" fill="url(#lg)" font-family="Syne,sans-serif" font-weight="800" font-size="100" text-anchor="start">e</text>
+          <text x="54" y="-10" fill="url(#lg)" font-family="Syne,sans-serif" font-weight="800" font-size="85" text-anchor="start">s</text>
+          <text x="86" y="14" fill="url(#lg)" font-family="Syne,sans-serif" font-weight="800" font-size="85" text-anchor="start">s</text>
+          <text x="118" y="12" fill="url(#lg)" font-family="Syne,sans-serif" font-weight="800" font-size="85" text-anchor="start">o</text>
+          <text x="152" y="0" fill="url(#lg)" font-family="Syne,sans-serif" font-weight="800" font-size="100" text-anchor="start">n</text>
+          <text x="202" y="0" fill="url(#lg)" font-family="Syne,sans-serif" font-weight="800" font-size="100" text-anchor="start">a</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<script>
+/* ══ Auth ════════════════════════════════════════════════ */
+const PW_HASH = 'ec689a6b20231cab576cd7604ab478777e3e23bd4e4822dbc841779afa57fbbf';
+
+async function sha256(msg) {
+  const b = new TextEncoder().encode(msg);
+  const h = await crypto.subtle.digest('SHA-256', b);
+  return [...new Uint8Array(h)].map(b => b.toString(16).padStart(2,'0')).join('');
+}
+async function tryLogin() {
+  const pwd = document.getElementById('pwd').value;
+  const h = await sha256(pwd);
+  if (h !== PW_HASH) { document.getElementById('login-err').textContent = 'Contrasenya incorrecta'; return; }
+  sessionStorage.setItem('resona_admin', '1');
+  document.getElementById('login').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+  initApp();
+}
+if (sessionStorage.getItem('resona_admin') === '1') {
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('login').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    initApp();
+  });
+} else {
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('login').style.display = 'flex';
+    document.getElementById('login-btn').addEventListener('click', tryLogin);
+    document.getElementById('pwd').addEventListener('keydown', e => { if (e.key === 'Enter') tryLogin(); });
+  });
+}
+
+/* ══ Icones SVG ══════════════════════════════════════════════ */
+const ICONS = {
+  ull: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>',
+  camera: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>',
+  web: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
+  mail: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>',
+  estrella: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>',
+  persona: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>',
+};
+
+function initApp() {
+  var canvas = document.getElementById('canvas');
+  var layout = document.getElementById('canvasLayout');
+  var iconEl = document.getElementById('canvasIcon');
+  var stepEl = document.getElementById('canvasStep');
+  var titleEl = document.getElementById('canvasTitle');
+  var subEl = document.getElementById('canvasSub');
+  var selType = document.getElementById('selType');
+  var selBg = document.getElementById('selBg');
+  var selIcon = document.getElementById('selIcon');
+  var inpTitle = document.getElementById('inpTitle');
+  var inpSub = document.getElementById('inpSub');
+  var inpStep = document.getElementById('inpStep');
+  var rowStep = document.getElementById('rowStep');
+
+  function update() {
+    layout.className = 'canvas-layout type-' + selType.value;
+    var isProces = selType.value === 'proces';
+    iconEl.style.display = (selType.value === 'cita' || isProces) ? 'none' : 'flex';
+    stepEl.style.display = isProces ? 'block' : 'none';
+    rowStep.style.display = isProces ? 'flex' : 'none';
+    canvas.className = 'canvas bg-' + selBg.value;
+    iconEl.innerHTML = ICONS[selIcon.value] || '';
+    titleEl.innerHTML = inpTitle.value;
+    subEl.textContent = inpSub.value;
+    stepEl.textContent = inpStep.value;
+  }
+
+  selType.addEventListener('change', update);
+  selBg.addEventListener('change', update);
+  selIcon.addEventListener('change', update);
+  inpTitle.addEventListener('input', update);
+  inpSub.addEventListener('input', update);
+  inpStep.addEventListener('input', update);
+  update();
+
+  document.getElementById('btnCapture').addEventListener('click', function() {
+    html2canvas(canvas, {
+      scale: 2,
+      useCORS: true,
+      backgroundColor: null,
+      width: 1080,
+      height: 1080
+    }).then(function(c) {
+      var link = document.createElement('a');
+      link.download = 'ressona-' + selType.value + '-' + Date.now() + '.png';
+      link.href = c.toDataURL('image/png');
+      link.click();
+    });
+  });
+
+  document.getElementById('btnCopy').addEventListener('click', function() {
+    html2canvas(canvas, {
+      scale: 2,
+      useCORS: true,
+      backgroundColor: null,
+      width: 1080,
+      height: 1080
+    }).then(function(c) {
+      c.toBlob(function(blob) {
+        navigator.clipboard.write([
+          new ClipboardItem({ 'image/png': blob })
+        ]);
+      });
+    });
+  });
+}
+</script>
+
+</body>
+</html>
