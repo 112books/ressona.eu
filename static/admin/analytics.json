@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T14:08:28.716817Z",
+  "generated": "2026-06-12T17:29:38.766185Z",
   "period": {
     "start": "2025-06-12",
     "end": "2026-06-12"
@@ -10,9 +10,43 @@
   "hits": [],
   "by_lang": {},
   "by_section": {},
-  "browsers": [],
-  "systems": [],
-  "sizes": [],
-  "locations": [],
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 2
+    }
+  ],
+  "systems": [
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 1
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 1
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 1
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 1
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 2
+    }
+  ],
   "refs": []
 }
