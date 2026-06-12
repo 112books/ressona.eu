@@ -18,25 +18,53 @@
   const CFG = {
     siteName:     'Ressona',
     gcUrl:        'https://ressona.goatcounter.com',
+    pwHash:       'ec689a6b20231cab576cd7604ab478777e3e23bd4e4822dbc841779afa57fbbf',
     dataUrl:      'analytics.json',
     sectionNames: {"inici":"Inici","legal":"Legal"},
   };
+
+  async function sha256(msg) {
+    const b = new TextEncoder().encode(msg);
+    const h = await crypto.subtle.digest('SHA-256', b);
+    return [...new Uint8Array(h)].map(b => b.toString(16).padStart(2,'0')).join('');
+  }
+  async function tryLogin() {
+    const pwd = document.getElementById('pwd').value;
+    const h = await sha256(pwd);
+    if (h !== CFG.pwHash) { document.getElementById('login-err').textContent = 'Contrasenya incorrecta'; return; }
+    sessionStorage.setItem('resona_admin', '1');
+    document.getElementById('login').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    loadData();
+  }
+  if (sessionStorage.getItem('resona_admin') === '1') {
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('login').style.display = 'none';
+      document.getElementById('dashboard').style.display = 'block';
+      if (window.initDashboard) initDashboard();
+    });
+  } else {
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('login').style.display = 'flex';
+      document.getElementById('login-btn').addEventListener('click', tryLogin);
+      document.getElementById('pwd').addEventListener('keydown', e => { if (e.key === 'Enter') tryLogin(); });
+    });
+  }
   </script>
 
   <style>
     /* ── Variables ──────────────────────────────────────────── */
     :root {
-      --bg:      #f5f4f0;
-      --ink:     #111110;
-      --ink2:    #444440;
-      --ink3:    #6b6b66;
-      --accent:  #d4600a;
-      --accent2: #b04d06;
-      --green:   #2d7a2d;
-      --blue:    #1a5c9a;
-      --border:  #ddddd8;
-      --surface: #eeede9;
-      --warn:    #8b2500;
+      --bg:      #34454c;
+      --ink:     #d9d0d5;
+      --invert:  #0c0b09;
+      --ink2:    rgba(192,169,179,0.5);
+      --ink3:    rgba(192,169,179,0.4);
+      --accent:  #fdbf68;
+      --accent2: #501345;
+      --border:  rgba(192,169,179,0.1);
+      --surface: #2b3b41;
+      --warn:    #a83232;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -50,8 +78,55 @@
       min-height: 100vh;
     }
 
+    /* ── Login ──────────────────────────────────────────────── */
+    #login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .login-box {
+      width: 300px;
+      padding: 2.5rem;
+      border: 1px solid var(--border);
+    }
+    .login-logo {
+      color: var(--ink3);
+      letter-spacing: .15em;
+      font-size: 11px;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+    .login-logo em { color: var(--accent); font-style: normal; }
+    #pwd {
+      width: 100%;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--border);
+      padding: .5rem 0;
+      font-family: inherit;
+      font-size: 15px;
+      color: var(--ink);
+      outline: none;
+      margin-bottom: 1.5rem;
+      letter-spacing: .1em;
+    }
+    #pwd:focus { border-bottom-color: var(--accent); }
+    .btn {
+      background: var(--accent);
+      color: var(--invert);
+      border: none;
+      padding: .55rem 1.25rem;
+      font-family: inherit;
+      font-size: 12px;
+      letter-spacing: .08em;
+      cursor: pointer;
+    }
+    .btn:hover { background: var(--accent2); color: #fff; }
+    #login-err { min-height: 1.4em; color: var(--warn); font-size: 11px; margin-top: .75rem; }
+
     /* ── Topbar ─────────────────────────────────────────────── */
-    #dashboard { display: block; }
+    #dashboard { display: none; }
     .topbar {
       display: flex;
       align-items: center;
@@ -90,7 +165,7 @@
 
     /* ── Banner ─────────────────────────────────────────────── */
     .banner { padding: .85rem 1.1rem; margin-bottom: 1.5rem; font-size: 12px; line-height: 1.5; }
-    .banner-error   { background: #fef0ec; border: 1px solid #f4b49a; color: var(--warn); }
+    .banner-error   { background: rgba(168,50,50,0.12); border: 1px solid rgba(168,50,50,0.3); color: var(--warn); }
     .banner-loading { color: var(--ink3); font-size: 12px; }
 
     /* ── KPIs ───────────────────────────────────────────────── */
@@ -146,10 +221,10 @@
     .bar-label a:hover { color: var(--accent); }
     .bar-track { background: var(--surface); height: 22px; position: relative; overflow: hidden; border: 1px solid var(--border); }
     .bar-fill { height: 100%; width: 0; background: var(--accent); transition: width .9s cubic-bezier(.4,0,.2,1); display: flex; align-items: center; }
-    .bar-fill.blue   { background: var(--blue); }
-    .bar-fill.green  { background: var(--green); }
+    .bar-fill.blue   { background: var(--accent2); }
+    .bar-fill.green  { background: var(--accent); }
     .bar-fill.ink2   { background: var(--ink2); }
-    .bar-pct { font-size: 10px; color: #fff; position: absolute; right: 5px; }
+    .bar-pct { font-size: 10px; color: var(--invert); position: absolute; right: 5px; }
     .bar-count { font-size: 11px; color: var(--ink); text-align: right; }
 
     /* ── Lang bar ───────────────────────────────────────────── */
@@ -157,9 +232,9 @@
     .lang-seg { display: flex; align-items: center; justify-content: center; color: #fff; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; transition: width .8s ease; }
     .lang-ca { background: var(--accent); }
     .lang-en { background: var(--ink3); }
-    .lang-es { background: var(--ink2); }
-    .lang-fr { background: var(--blue); }
-    .lang-other { background: #aaa; }
+    .lang-es { background: var(--accent2); }
+    .lang-fr { background: var(--ink2); }
+    .lang-other { background: rgba(192,169,179,0.15); }
     .lang-detail { display: flex; gap: 1.5rem; color: var(--ink3); font-size: 11px; flex-wrap: wrap; }
 
     /* ── Device cards ───────────────────────────────────────── */
@@ -210,7 +285,15 @@
 <body>
 
 <!-- ══ DASHBOARD ════════════════════════════════════════════ -->
-<div id="dashboard">
+  <div id="login">
+    <div class="login-box">
+      <div class="login-logo"><em>Ressona</em> / Admin</div>
+      <input type="password" id="pwd" placeholder="Contrasenya" autocomplete="off">
+      <button class="btn" id="login-btn">Entrar</button>
+      <div id="login-err"></div>
+    </div>
+  </div>
+  <div id="dashboard">
 
   <div class="topbar">
     <div class="topbar-logo" id="topbar-logo"></div>
@@ -314,11 +397,13 @@
 
 <script>
 /* ══ INIT ════════════════════════════════════════════════════ */
+function initDashboard() {
 document.getElementById('topbar-logo').innerHTML =
   CFG.siteName.toUpperCase().replace(/(\w+)$/, '<em>$1</em>') + ' / STATS';
 document.getElementById('gc-link').href = CFG.gcUrl;
 document.title = 'Stats · ' + CFG.siteName;
 loadData();
+}
 
 /* ══ TABS ═════════════════════════════════════════════════════ */
 function showTab(id, btn) {
@@ -427,7 +512,7 @@ function renderChart(data) {
     visitsChart.update();
   } else {
     const ctx = document.getElementById('chart-canvas').getContext('2d');
-    Chart.defaults.color = '#6b6b66';
+    Chart.defaults.color = 'rgba(192,169,179,0.4)';
     Chart.defaults.font.family = "'IBM Plex Mono','Courier New',monospace";
     Chart.defaults.font.size   = 10;
     visitsChart = new Chart(ctx, {
@@ -436,17 +521,17 @@ function renderChart(data) {
         labels,
         datasets: [{
           label: 'Visites', data: values,
-          borderColor: '#d4600a',
+          borderColor: '#fdbf68',
           backgroundColor: ctx2 => {
             const g = ctx2.chart.ctx.createLinearGradient(0, 0, 0, ctx2.chart.height);
-            g.addColorStop(0, 'rgba(212,96,10,0.18)');
-            g.addColorStop(1, 'rgba(212,96,10,0.01)');
+            g.addColorStop(0, 'rgba(253,191,104,0.18)');
+            g.addColorStop(1, 'rgba(253,191,104,0.01)');
             return g;
           },
           fill: true, tension: 0.3,
           pointRadius: values.length > 60 ? 0 : 3,
           pointHoverRadius: 5,
-          pointBackgroundColor: '#d4600a',
+          pointBackgroundColor: '#fdbf68',
           borderWidth: 1.5,
         }],
       },
@@ -454,14 +539,14 @@ function renderChart(data) {
         responsive: true, maintainAspectRatio: false,
         interaction: { mode: 'index', intersect: false },
         scales: {
-          x: { grid: { color: 'rgba(17,17,16,0.05)' }, ticks: { color: '#6b6b66', maxTicksLimit: 10 }, border: { color: 'rgba(17,17,16,0.12)' } },
-          y: { grid: { color: 'rgba(17,17,16,0.05)' }, ticks: { color: '#6b6b66' }, border: { color: 'rgba(17,17,16,0.12)' }, beginAtZero: true },
+          x: { grid: { color: 'rgba(192,169,179,0.06)' }, ticks: { color: 'rgba(192,169,179,0.4)', maxTicksLimit: 10 }, border: { color: 'rgba(192,169,179,0.1)' } },
+          y: { grid: { color: 'rgba(192,169,179,0.06)' }, ticks: { color: 'rgba(192,169,179,0.4)' }, border: { color: 'rgba(192,169,179,0.1)' }, beginAtZero: true },
         },
         plugins: {
           legend: { display: false },
           tooltip: {
-            backgroundColor: '#f5f4f0', borderColor: '#ddddd8', borderWidth: 1,
-            titleColor: '#111110', bodyColor: '#6b6b66', padding: 10,
+            backgroundColor: '#2b3b41', borderColor: 'rgba(192,169,179,0.15)', borderWidth: 1,
+            titleColor: '#d9d0d5', bodyColor: 'rgba(192,169,179,0.5)', padding: 10,
             callbacks: { label: c => ' ' + c.parsed.y.toLocaleString('ca-ES') + ' visites' },
           },
         },

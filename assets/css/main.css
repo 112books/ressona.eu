@@ -967,12 +967,12 @@ img, svg { display: block; }
 
 .footer-desc {
   font-size: 0.8rem;
-  color: var(--text-dim);
+  color: var(--text-subtle);
 }
 
 .footer-copy {
   font-size: 0.75rem;
-  color: var(--border-strong);
+  color: var(--text-subtle);
 }
 
 .footer-social {
@@ -986,12 +986,12 @@ img, svg { display: block; }
   align-items: center;
   gap: 6px;
   font-size: 0.8rem;
-  color: var(--text-dim);
+  color: var(--text-subtle);
   text-decoration: none;
 }
 
 .footer-social a:hover {
-  color: var(--text);
+  color: var(--gold);
 }
 
 .footer-powered {
@@ -1003,17 +1003,17 @@ img, svg { display: block; }
 
 .footer-powered-text {
   font-size: 0.75rem;
-  color: var(--border-strong);
+  color: var(--text-subtle);
   letter-spacing: 0.05em;
 }
 
 .footer-powered-text a {
-  color: var(--text-dim);
+  color: var(--text-subtle);
   text-decoration: none;
 }
 
 .footer-powered-text a:hover {
-  color: var(--text);
+  color: var(--gold);
 }
 
 .footer-legal {
@@ -1025,17 +1025,17 @@ img, svg { display: block; }
 
 .footer-legal a {
   font-size: 0.8rem;
-  color: var(--text-dim);
+  color: var(--text-subtle);
   text-decoration: none;
 }
 
 .footer-legal a:hover {
-  color: var(--text);
+  color: var(--gold);
 }
 
 .footer-credits {
   font-size: 0.75rem;
-  color: var(--border-strong);
+  color: var(--text-subtle);
 }
 
 /* LEGAL PAGES */
