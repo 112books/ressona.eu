@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T21:26:39.389932Z",
+  "generated": "2026-06-12T23:05:23.099617Z",
   "period": {
     "start": "2025-06-12",
     "end": "2026-06-12"
@@ -22,6 +22,11 @@
       "count": 2
     },
     {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 1
+    },
+    {
       "name": "Firefox",
       "id": "Firefox",
       "count": 1
@@ -29,14 +34,14 @@
   ],
   "systems": [
     {
-      "name": "Windows",
-      "id": "Windows",
+      "name": "Linux",
+      "id": "Linux",
       "count": 3
     },
     {
-      "name": "Linux",
-      "id": "Linux",
-      "count": 2
+      "name": "Windows",
+      "id": "Windows",
+      "count": 3
     },
     {
       "name": "macOS",
@@ -58,7 +63,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 2
+      "count": 3
     },
     {
       "name": "phone",
@@ -80,7 +85,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 3
+      "count": 4
     }
   ],
   "refs": []
