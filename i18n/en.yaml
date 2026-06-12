@@ -24,6 +24,12 @@ srv_ai_title: AI with judgment
 srv_ai_desc: New tools, well used. Without losing control.
 srv_presskit_title: Digital press kit
 srv_presskit_desc: Bio, photos, videos, contact. One place for everything.
+srv_search_title: Search & AI listing
+srv_search_desc: Google, Bing, Perplexity, ChatGPT. Wherever they look.
+srv_print_title: Print materials
+srv_print_desc: Posters, flyers, business cards. Design that works on paper.
+srv_strategy_title: Social strategy
+srv_strategy_desc: What to post, where, when. Hands-free.
 
 section_per_qui_label: — 02
 section_per_qui_title: For those who<br><span>create and perform</span>

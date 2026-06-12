@@ -24,6 +24,12 @@ srv_ai_title: IA amb criteri
 srv_ai_desc: Les eines noves, ben utilitzades. Sense perdre el control.
 srv_presskit_title: Press kit digital
 srv_presskit_desc: Bio, fotos, vídeos, contacte. Un sol lloc per a tot.
+srv_search_title: Alta a cercadors i IA
+srv_search_desc: Google, Bing, Perplexity, ChatGPT. Allà on et busquin.
+srv_print_title: Cartelleria i materials
+srv_print_desc: Pòsters, flyers, targetes. El disseny que passa a paper.
+srv_strategy_title: Estratègia de xarxes
+srv_strategy_desc: Què publicar, on, quan. Amb les mans lliures.
 
 section_per_qui_label: — 02
 section_per_qui_title: Per a qui<br><span>crea i actua</span>
