@@ -17,13 +17,43 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: peaceiris/actions-hugo@v3
+
+      - name: Install Hugo
+        run: |
+          wget -q https://github.com/gohugoio/hugo/releases/download/v0.159.0/hugo_extended_0.159.0_linux-amd64.tar.gz
+          tar -xzf hugo_extended_0.159.0_linux-amd64.tar.gz
+          sudo mv hugo /usr/local/bin/
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          hugo-version: '0.159.0'
-          extended: true
-      - run: hugo --minify
-      - uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          cname: ressona.eu
+          node-version: '20'
+
+      - name: Install staticrypt
+        run: npm install staticrypt
+
+      - name: Build Hugo
+        run: hugo --minify --baseURL "https://ressona.eu/"
+
+      - name: Protect amb password
+        env:
+          PASSWORD: ${{ secrets.SITE_PASSWORD }}
+        run: |
+          shopt -s globstar
+          html_files=(public/**/*.html)
+          echo "Protegint ${#html_files[@]} fitxers HTML..."
+          npx staticrypt "${html_files[@]}" \
+            --password "$PASSWORD" \
+            --directory public
+
+      - name: Deploy a gh-pages
+        run: |
+          cd public
+          git init
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Deploy $(date +'%Y-%m-%d %H:%M')"
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git branch -M gh-pages
+          git push --force origin gh-pages
