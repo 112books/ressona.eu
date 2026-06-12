@@ -65,7 +65,11 @@ section_contact_label: — 04
 section_contact_title: Let's talk?
 contact_text: Tell us about your project. Or just say hello.
 contact_email: hola@ressona.eu
-contact_cta: Say hello
+contact_cta: Send
+form_name: Name
+form_email: Email
+form_message: Message
+form_gdpr: I have read and accept the <a href="/en/legal/privacy" target="_blank">privacy policy</a>
 
 footer_desc: Digital identity for artists
 footer_instagram: Instagram

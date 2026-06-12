@@ -620,60 +620,108 @@ img, svg { display: block; }
 .contact-text {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
-.contact-email {
-  display: inline-block;
-  font-family: var(--font-display);
-  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 32px;
-  position: relative;
-  transition: opacity 0.3s;
+.contact-form {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-.contact-email::after {
-  content: '';
+.contact-field {
+  margin-bottom: 20px;
+}
+
+.contact-field label {
   display: block;
-  width: 100%;
-  height: 2px;
-  background: rgba(255, 255, 255, 0.3);
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.4s ease;
-}
-
-.contact-email:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
-
-.contact-email:hover {
-  opacity: 0.8;
-}
-
-.contact-social {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
-.contact-social a {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 600;
   color: rgba(255, 255, 255, 0.5);
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  transition: color 0.3s;
+  margin-bottom: 6px;
 }
 
-.contact-social a:hover {
+.contact-field input[type="text"],
+.contact-field input[type="email"],
+.contact-field textarea {
+  width: 100%;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
   color: #fff;
-  opacity: 1;
+  outline: none;
+  transition: border-color 0.3s, background 0.3s;
+  box-sizing: border-box;
+}
+
+.contact-field input::placeholder,
+.contact-field textarea::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-field input:focus,
+.contact-field textarea:focus {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.contact-field textarea {
+  resize: vertical;
+}
+
+.contact-field--checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.contact-field--checkbox input[type="checkbox"] {
+  margin-top: 2px;
+  accent-color: var(--gold);
+}
+
+.contact-field--checkbox label {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.contact-field--checkbox label a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+}
+
+.contact-field--checkbox label a:hover {
+  color: #fff;
+}
+
+.contact-submit {
+  display: inline-block;
+  padding: 14px 40px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.contact-submit:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 /* FOOTER */

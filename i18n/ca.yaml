@@ -65,7 +65,11 @@ section_contact_label: — 04
 section_contact_title: Parlem?
 contact_text: Explica'ns el teu projecte. O simplement digues hola.
 contact_email: hola@ressona.eu
-contact_cta: Digues hola
+contact_cta: Enviar
+form_name: Nom
+form_email: Correu electrònic
+form_message: Missatge
+form_gdpr: He llegit i accepto la <a href="/legal/privacitat" target="_blank">política de privacitat</a>
 
 footer_desc: Identitat digital per a artistes
 footer_instagram: Instagram
