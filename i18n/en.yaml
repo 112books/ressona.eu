@@ -70,9 +70,9 @@ form_name: Name
 form_email: Email
 form_message: Message
 form_gdpr: I have read and accept the <a href="/en/legal/privacy" target="_blank">privacy policy</a>
-form_ok: Thanks! We received your message.
+form_ok: Thanks! We received your message. If you don't hear back in 5 min, check your spam.
 form_error: Could not send. Please try again.
-contact_spam_note: We'll reply by email. If you don't hear back in 5 min, check your spam.
+
 
 footer_desc: Digital identity for artists
 footer_instagram: Instagram

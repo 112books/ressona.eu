@@ -18,7 +18,6 @@
   const CFG = {
     siteName:     'Ressona',
     gcUrl:        'https://ressona.goatcounter.com',
-    pwHash:       'ec689a6b20231cab576cd7604ab478777e3e23bd4e4822dbc841779afa57fbbf',
     dataUrl:      'analytics.json',
     sectionNames: {"inici":"Inici","legal":"Legal"},
   };
@@ -51,55 +50,8 @@
       min-height: 100vh;
     }
 
-    /* ── Login ──────────────────────────────────────────────── */
-    #login {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-    }
-    .login-box {
-      width: 300px;
-      padding: 2.5rem;
-      border: 1px solid var(--border);
-    }
-    .login-logo {
-      color: var(--ink3);
-      letter-spacing: .15em;
-      font-size: 11px;
-      text-transform: uppercase;
-      margin-bottom: 2rem;
-    }
-    .login-logo em { color: var(--accent); font-style: normal; }
-    #pwd {
-      width: 100%;
-      background: transparent;
-      border: none;
-      border-bottom: 1px solid var(--border);
-      padding: .5rem 0;
-      font-family: inherit;
-      font-size: 15px;
-      color: var(--ink);
-      outline: none;
-      margin-bottom: 1.5rem;
-      letter-spacing: .1em;
-    }
-    #pwd:focus { border-bottom-color: var(--accent); }
-    .btn {
-      background: var(--accent);
-      color: #fff;
-      border: none;
-      padding: .55rem 1.25rem;
-      font-family: inherit;
-      font-size: 12px;
-      letter-spacing: .08em;
-      cursor: pointer;
-    }
-    .btn:hover { background: var(--accent2); }
-    #login-err { min-height: 1.4em; color: var(--warn); font-size: 11px; margin-top: .75rem; }
-
     /* ── Topbar ─────────────────────────────────────────────── */
-    #dashboard { display: none; }
+    #dashboard { display: block; }
     .topbar {
       display: flex;
       align-items: center;
@@ -257,16 +209,6 @@
 </head>
 <body>
 
-<!-- ══ LOGIN ════════════════════════════════════════════════ -->
-<div id="login">
-  <form id="login-form" class="login-box" novalidate>
-    <div class="login-logo" id="login-logo"></div>
-    <input id="pwd" type="password" placeholder="·····" autocomplete="current-password" autofocus>
-    <button type="submit" class="btn">→ entrar</button>
-    <div id="login-err"></div>
-  </form>
-</div>
-
 <!-- ══ DASHBOARD ════════════════════════════════════════════ -->
 <div id="dashboard">
 
@@ -277,7 +219,7 @@
     </div>
     <div class="topbar-actions">
       <a id="gc-link" class="btn-sm" target="_blank" rel="noopener noreferrer">↗ GoatCounter</a>
-      <button type="button" class="btn-sm" id="btn-logout">sortir ×</button>
+
     </div>
   </div>
 
@@ -371,50 +313,12 @@
 </div>
 
 <script>
-/* ══ INIT CONFIG ══════════════════════════════════════════════ */
-document.getElementById('login-logo').innerHTML =
-  CFG.siteName.toUpperCase().replace(/(\w+)$/, '<em>$1</em>') + ' / STATS';
+/* ══ INIT ════════════════════════════════════════════════════ */
 document.getElementById('topbar-logo').innerHTML =
   CFG.siteName.toUpperCase().replace(/(\w+)$/, '<em>$1</em>') + ' / STATS';
 document.getElementById('gc-link').href = CFG.gcUrl;
 document.title = 'Stats · ' + CFG.siteName;
-
-/* ══ AUTH ═════════════════════════════════════════════════════ */
-async function sha256(str) {
-  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
-  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
-}
-
-document.getElementById('login-form').addEventListener('submit', async e => {
-  e.preventDefault();
-  const v = document.getElementById('pwd').value;
-  const h = await sha256(v);
-  if (h === CFG.pwHash) {
-    sessionStorage.setItem('gc_ok', '1');
-    showDashboard();
-  } else {
-    document.getElementById('login-err').textContent = 'contrasenya incorrecta';
-    document.getElementById('pwd').value = '';
-    document.getElementById('pwd').focus();
-  }
-});
-
-document.getElementById('btn-logout').addEventListener('click', () => {
-  sessionStorage.removeItem('gc_ok');
-  if (visitsChart) { visitsChart.destroy(); visitsChart = null; }
-  globalData = null;
-  document.getElementById('dashboard').style.display = 'none';
-  document.getElementById('login').style.display = 'flex';
-  document.getElementById('pwd').value = '';
-});
-
-if (sessionStorage.getItem('gc_ok')) showDashboard();
-
-function showDashboard() {
-  document.getElementById('login').style.display = 'none';
-  document.getElementById('dashboard').style.display = 'block';
-  loadData();
-}
+loadData();
 
 /* ══ TABS ═════════════════════════════════════════════════════ */
 function showTab(id, btn) {

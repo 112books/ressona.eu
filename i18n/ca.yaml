@@ -70,9 +70,9 @@ form_name: Nom
 form_email: Correu electrònic
 form_message: Missatge
 form_gdpr: He llegit i accepto la <a href="/legal/privacitat" target="_blank">política de privacitat</a>
-form_ok: Gràcies! T'hem rebut correctament.
+form_ok: Gràcies! T'hem rebut correctament. Si no reps res en 5 min, mira l'spam.
 form_error: No s'ha pogut enviar. Prova-ho de nou.
-contact_spam_note: T'avisarem per email. Si no reps res en 5 min, mira l'spam.
+
 
 footer_desc: Identitat digital per a artistes
 footer_instagram: Instagram
