@@ -39,13 +39,11 @@ jobs:
         env:
           PASSWORD: ${{ secrets.SITE_PASSWORD || 'LinuxBCN2026' }}
         run: |
-          shopt -s globstar
-          html_files=(public/**/*.html)
-          echo "Protegint ${#html_files[@]} fitxers HTML..."
-          npx staticrypt "${html_files[@]}" \
-            --password "$PASSWORD" \
-            --short \
-            --directory public
+          echo "Protegint fitxers HTML..."
+          find public -name '*.html' | while read f; do
+            dir=$(dirname "$f")
+            npx staticrypt "$f" --password "$PASSWORD" --short --directory "$dir"
+          done
 
       - name: Deploy a gh-pages
         run: |
