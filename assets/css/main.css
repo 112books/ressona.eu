@@ -209,7 +209,9 @@ img, svg { display: block; }
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  -webkit-box-decoration-break: clone;
   margin: 0 auto 28px;
+  padding: 0 0.08em;
   user-select: none;
   animation: heroResonance 1.4s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
   max-width: 100%;

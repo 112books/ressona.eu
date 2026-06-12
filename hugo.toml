@@ -1,7 +1,8 @@
 baseURL = "https://ressona.eu/"
 title = "Ressona"
 defaultContentLanguage = "ca"
-disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+disableKinds = ["taxonomy", "term", "RSS"]
+enableRobotsTXT = true
 
 [params]
   description = "Identitat digital per a artistes"
