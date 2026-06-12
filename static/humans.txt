@@ -1,0 +1,16 @@
+/* TEAM */
+Developer: LinuxBCN
+Contact: hola@ressona.eu
+Twitter: @linuxbcn
+Location: Barcelona, Catalonia
+
+/* SITE */
+Language: Catalan, English
+Standards: HTML5, CSS3
+Backend: Static site (Hugo)
+Hosting: LinuxBCN
+
+/* THANKS */
+GoatCounter — privacy-friendly analytics
+Formspree — form handling
+GitHub Pages — hosting
