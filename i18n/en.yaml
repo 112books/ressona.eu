@@ -1,7 +1,6 @@
 hero_brand: Ressona
 hero_tagline: Digital identity for artists
-hero_desc: We help creators build their digital presence.
-hero_desc2: From profile photo to press kit. From stage to network.
+hero_desc: We help creators build their digital presence
 
 nav_que_fem: What we do
 nav_per_qui: Who we serve
@@ -54,11 +53,13 @@ section_com_title: How we do it,<br><span>step by step</span>
 step_1_title: We listen
 step_1_desc: The project. The context. What you truly need.
 step_2_title: We design
-step_2_desc: A tailored solution. What makes sense for you.
+step_2_desc: A tailored, modular proposal. What makes sense for you.
 step_3_title: We build
-step_3_desc: Block by block. Each step closed before the next.
+step_3_desc: Block by block, linearly, with the best professionals for each need.
 step_4_title: We accompany
 step_4_desc: The system runs itself. But we're still here.
+step_5_title: We monitor
+step_5_desc: "We always audit the current state of each project at the start. When finished, we do it again — this time with data that shows the impact of every process."
 
 section_contact_label: — 04
 section_contact_title: Let's talk?
@@ -70,3 +71,9 @@ footer_desc: Digital identity for artists
 footer_instagram: Instagram
 footer_pocallum: "Graphic design: Pocallum"
 footer_linuxbcn: "Technology: LinuxBCN"
+footer_link_legal_notice: /en/legal/legal-notice
+footer_link_privacy: /en/legal/privacy
+footer_link_cookies: /en/legal/cookies
+footer_legal_notice: Legal notice
+footer_privacy: Privacy
+footer_cookies: Cookies

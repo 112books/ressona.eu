@@ -1,7 +1,6 @@
 hero_brand: Ressona
 hero_tagline: Identitat digital per a artistes
-hero_desc: Acompanyem creadors a construir la seva presència digital.
-hero_desc2: De la foto de perfil al press kit. Del directe a la xarxa.
+hero_desc: Acompanyem creadors a construir la seva presència digital
 
 nav_que_fem: Què fem
 nav_per_qui: Per a qui
@@ -54,11 +53,13 @@ section_com_title: Com ho fem,<br><span>pas a pas</span>
 step_1_title: Escoltem
 step_1_desc: El projecte. El context. El que necessites de veritat.
 step_2_title: Dissenyem
-step_2_desc: Una solució a mida. Amb el que té sentit per a tu.
+step_2_desc: Una proposta a mida i modular. Amb el que té sentit per a tu.
 step_3_title: Construïm
-step_3_desc: Bloc a bloc. Cada pas tancat abans del següent.
+step_3_desc: Bloc a bloc, de forma lineal i amb els millors professionals per a cada necessitat.
 step_4_title: Acompanyem
 step_4_desc: El sistema funciona sol. Però seguim aquí.
+step_5_title: Monitoritzem
+step_5_desc: "A l'inici sempre auditem l'estat actual de cada projecte. En acabar ho tornem a fer i aquest cop amb les dades que determinen l'impacte de cada procés."
 
 section_contact_label: — 04
 section_contact_title: Parlem?
@@ -70,3 +71,9 @@ footer_desc: Identitat digital per a artistes
 footer_instagram: Instagram
 footer_pocallum: "Disseny gràfic: Pocallum"
 footer_linuxbcn: "Tecnologia: LinuxBCN"
+footer_link_legal_notice: /legal/avis-legal
+footer_link_privacy: /legal/privacitat
+footer_link_cookies: /legal/cookies
+footer_legal_notice: Avís legal
+footer_privacy: Privacitat
+footer_cookies: Galetes
