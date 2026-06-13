@@ -7,7 +7,7 @@ enableRobotsTXT = true
 [params]
   description = "Identitat digital per a artistes"
   author = "Ressona"
-  instagram = "https://www.instagram.com/ressona.eu/"
+  instagram = "https://www.instagram.com/ressona_identitat_digital/"
   email = "hola@ressona.eu"
   logo = "/img/ressona-logo.svg"
   mark = "/img/ressona-mark.svg"
