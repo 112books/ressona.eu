@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T22:01:34.142575Z",
+  "generated": "2026-06-13T23:54:58.403007Z",
   "period": {
     "start": "2025-06-13",
     "end": "2026-06-13"
@@ -38,14 +38,14 @@
       "count": 11
     },
     {
-      "name": "Edge",
-      "id": "Edge",
+      "name": "Desconegut",
+      "id": "Desconegut",
       "count": 2
     },
     {
-      "name": "Desconegut",
-      "id": "Desconegut",
-      "count": 1
+      "name": "Edge",
+      "id": "Edge",
+      "count": 2
     },
     {
       "name": "Firefox",
@@ -67,7 +67,7 @@
     {
       "name": "Linux",
       "id": "Linux",
-      "count": 5
+      "count": 6
     },
     {
       "name": "macOS",
@@ -89,7 +89,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 8
+      "count": 9
     },
     {
       "name": "tablet",
@@ -111,7 +111,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Cyprus",
