@@ -1,15 +1,35 @@
 {
-  "generated": "2026-06-14T17:05:06.220575Z",
+  "generated": "2026-06-14T19:03:35.798350Z",
   "period": {
     "start": "2025-06-14",
     "end": "2026-06-14"
   },
-  "total": 0,
+  "total": 29,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
+  "hits_by_day": [
+    {
+      "date": "2026-06-12",
+      "count": 8
+    },
+    {
+      "date": "2026-06-13",
+      "count": 20
+    },
+    {
+      "date": "2026-06-14",
+      "count": 1
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 29
+    }
+  ],
   "by_lang": {},
-  "by_section": {},
+  "by_section": {
+    "inici": 29
+  },
   "browsers": [
     {
       "name": "Chrome",
