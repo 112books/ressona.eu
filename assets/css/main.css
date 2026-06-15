@@ -90,6 +90,9 @@ img, svg { display: block; }
   .header-row--nav {
     display: contents;
   }
+  .header-lang {
+    margin-left: 24px;
+  }
 }
 
 .header-inner {
