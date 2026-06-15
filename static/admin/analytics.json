@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-14T23:58:07.143521Z",
+  "generated": "2026-06-15T03:39:57.528588Z",
   "period": {
-    "start": "2025-06-14",
-    "end": "2026-06-14"
+    "start": "2025-06-15",
+    "end": "2026-06-15"
   },
-  "total": 29,
+  "total": 32,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -17,18 +17,22 @@
     },
     {
       "date": "2026-06-14",
+      "count": 3
+    },
+    {
+      "date": "2026-06-15",
       "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 29
+      "count": 32
     }
   ],
   "by_lang": {},
   "by_section": {
-    "inici": 29
+    "inici": 32
   },
   "browsers": [
     {
@@ -142,7 +146,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 25
+      "count": 28
     },
     {
       "name": "bing.com",
