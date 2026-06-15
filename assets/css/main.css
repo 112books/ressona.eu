@@ -287,6 +287,7 @@ img, svg { display: block; }
   -webkit-box-decoration-break: clone;
   padding: 0;
   user-select: none;
+  transform: translateZ(0);
 }
 
 @keyframes heroResonance {
@@ -306,7 +307,7 @@ img, svg { display: block; }
   letter-spacing: 0.35em;
   text-transform: uppercase;
   margin-bottom: 48px;
-  visibility: visible;
+  visibility: hidden;
   overflow: visible;
 }
 

@@ -135,11 +135,22 @@
   (function(){
     var tagline = document.querySelector('.hero-tagline');
     if (tagline) {
+      var fullText = tagline.textContent.trim();
+      tagline.textContent = '';
+      tagline.style.visibility = 'visible';
       tagline.classList.add('typing-cursor');
-      setTimeout(function() {
-        tagline.classList.add('typing-done');
-        tagline.classList.remove('typing-cursor');
-      }, 1200);
+      var i = 0;
+      function typeChar() {
+        if (i < fullText.length) {
+          tagline.textContent = fullText.slice(0, i + 1);
+          i++;
+          setTimeout(typeChar, 35 + Math.floor(Math.random() * 26));
+        } else {
+          tagline.classList.add('typing-done');
+          tagline.classList.remove('typing-cursor');
+        }
+      }
+      setTimeout(typeChar, 800);
     }
 
     var items = document.querySelectorAll('.audience-item');
