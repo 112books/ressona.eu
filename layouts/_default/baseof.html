@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src fonts.gstatic.com; script-src 'self' gc.zgo.at 'unsafe-inline'; img-src 'self' data:; connect-src 'self' ressona.goatcounter.com formspree.io; frame-ancestors 'none'; base-uri 'self'">
   <title>{{ if .IsHome }}{{ i18n "hero_brand" }} · {{ i18n "hero_tagline" }}{{ else }}{{ .Title }} · {{ i18n "hero_brand" }}{{ end }}</title>
   <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ i18n "hero_tagline" }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
@@ -23,41 +24,81 @@
   <meta name="twitter:image" content="{{ .Site.BaseURL }}img/ressona-eu-rounded.png">
   <meta name="theme-color" content="#34454c">
   <link rel="icon" href="/img/ressona-eu-rounded-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="/img/ressona-eu-rounded-192.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@700;800&display=swap"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@700;800&display=swap">
+  </noscript>
   {{ $css := resources.Get "css/main.css" | resources.Minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   {{ if .Site.Params.goatcounter }}
-  <script data-goatcounter="https://{{ .Site.Params.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://{{ .Site.Params.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   {{ end }}
   <noscript><style>.hero-tagline { visibility: visible; }</style></noscript>
+  {{ if and .IsHome (eq .Language.Lang "ca") }}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://ressona.eu/#website",
     "name": "Ressona",
     "alternateName": "Ressona — {{ i18n "hero_tagline" }}",
     "url": "{{ .Site.BaseURL }}",
-    "description": "{{ i18n "hero_tagline" }}",
-    "inLanguage": "{{ .Site.Language.Lang }}"
+    "description": "Assessoria i acompanyament en identitat digital per a artistes a Barcelona. Web, identitat visual, press kit, xarxes i alta a cercadors.",
+    "inLanguage": ["ca", "en"],
+    "publisher": { "@id": "https://ressona.eu/#organization" }
   }
   </script>
+  {{ end }}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "ProfessionalService"],
+    "@id": "https://ressona.eu/#organization",
     "name": "Ressona",
+    "description": "Assessoria i acompanyament en identitat digital per a artistes a Barcelona. Combina fotografia, identitat visual, tecnologia i automatització.",
     "url": "{{ .Site.BaseURL }}",
-    "logo": "{{ .Site.BaseURL }}img/ressona-logo.svg",
-    "sameAs": [
-      "{{ .Site.Params.instagram }}"
-    ],
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}img/ressona-eu-rounded.png",
+      "width": 874,
+      "height": 874
+    },
+    "image": "{{ .Site.BaseURL }}img/ressona-eu-rounded.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Barcelona",
+      "addressRegion": "Catalunya",
+      "addressCountry": "ES"
+    },
+    "areaServed": { "@type": "Country", "name": "Spain" },
+    "knowsLanguage": ["ca", "es", "en"],
+    "email": "{{ .Site.Params.email }}",
     "contactPoint": {
       "@type": "ContactPoint",
       "email": "{{ .Site.Params.email }}",
-      "contactType": "customer support",
-      "availableLanguage": ["Catalan", "English", "Spanish"]
+      "contactType": "sales",
+      "availableLanguage": ["Catalan", "Spanish", "English"]
+    },
+    "sameAs": ["{{ .Site.Params.instagram }}"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Serveis Ressona",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Identitat visual", "description": "Logotip, paleta de color i to de comunicació. La base visual de la marca artística." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fotografia i vídeo", "description": "Sessions fotogràfiques i de vídeo pensades per al press kit de l'artista." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web sincronitzada", "description": "Lloc web com a aparador, eina i agenda. Tot connectat." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Press kit digital", "description": "Bio, fotos, vídeos i contacte en un sol lloc accessible per a programadors i mitjans." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Alta a cercadors i IA", "description": "Posicionament a Google, Bing, Perplexity i ChatGPT per a artistes." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Xarxes automàtiques", "description": "Gestió i automatització de xarxes socials per a artistes." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Estratègia de xarxes", "description": "Calendari editorial, formats i veu per a xarxes socials d'artistes." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IA amb criteri", "description": "Integració d'eines d'intel·ligència artificial en el flux creatiu i de comunicació." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cartelleria i materials", "description": "Pòsters, flyers i targetes de visita. El disseny que passa a paper." } }
+      ]
     }
   }
   </script>
@@ -84,7 +125,7 @@
 </head>
 <body>
   {{ partial "header.html" . }}
-  <main>
+  <main id="main-content">
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
@@ -93,22 +134,11 @@
   (function(){
     var tagline = document.querySelector('.hero-tagline');
     if (tagline) {
-      var text = tagline.textContent;
-      tagline.textContent = '';
-      tagline.style.visibility = 'visible';
-      var i = 0;
-      function type() {
-        if (i < text.length) {
-          tagline.textContent += text.charAt(i);
-          i++;
-          tagline.classList.toggle('typing-cursor', i < text.length);
-          setTimeout(type, 35 + Math.random() * 25);
-        } else {
-          tagline.classList.add('typing-done');
-          tagline.classList.remove('typing-cursor');
-        }
-      }
-      setTimeout(type, 800);
+      tagline.classList.add('typing-cursor');
+      setTimeout(function() {
+        tagline.classList.add('typing-done');
+        tagline.classList.remove('typing-cursor');
+      }, 1200);
     }
 
     var items = document.querySelectorAll('.audience-item');
@@ -119,6 +149,18 @@
       el.style.setProperty('--drift-y', dy + 'px');
       el.style.animationDelay = (0.2 + idx * 0.1) + 's';
     });
+
+    var revealObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('section--visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    var sections = document.querySelectorAll('.section-reveal');
+    sections.forEach(function(s) { revealObserver.observe(s); });
   })();
   </script>
 </body>

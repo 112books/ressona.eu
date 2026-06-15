@@ -1,6 +1,6 @@
 hero_brand: Ressona
 hero_tagline: Digital identity for artists
-hero_desc: We help creators build their digital presence
+hero_desc: We help Barcelona-based creators build their digital presence
 
 nav_que_fem: What we do
 nav_per_qui: Who we serve
@@ -13,23 +13,23 @@ section_que_fem_title: What it takes<br>to <span>be found</span>
 section_que_fem_tagline: "Leave it to us how the world finds out what you do."
 
 srv_visual_title: Visual identity
-srv_visual_desc: The look that sets you apart. Logo, palette, tone. The foundation.
+srv_visual_desc: "Complete visual identity consulting: logo design, color palette, typography and communication tone. We deliver a style guide so everything —from web to poster— is consistent. For artists starting out or refreshing their image."
 srv_photo_title: Photography & video
-srv_photo_desc: The material that opens doors. Sessions crafted for your press kit.
+srv_photo_desc: Photography and video sessions crafted for your digital press kit. Natural and studio light to capture your artistic essence. Edited images ready for web, social media and press.
 srv_web_title: Synced website
-srv_web_desc: Showcase. Tool. Calendar. All connected, all in place.
+srv_web_desc: We build your website as a showcase, tool and calendar. Synced with your social channels, calendar and contact form. Responsive, fast and search-engine optimized. For musicians, actors and companies needing professional digital presence.
 srv_social_title: Automated social
-srv_social_desc: Post when it matters. Silence when it doesn't. Zero burnout.
+srv_social_desc: "We manage and automate your social media: calendar, formats and voice. Post when it matters, silence when it doesn't. You do your work; we handle the communication."
 srv_ai_title: AI with judgment
-srv_ai_desc: New tools, well used. Without losing control.
+srv_ai_desc: "We integrate AI tools into your workflow: text automation, data analysis, idea generation. Ethical and practical consulting for artists. Without losing your voice or control."
 srv_presskit_title: Digital press kit
-srv_presskit_desc: Bio, photos, videos, contact. One place for everything.
+srv_presskit_desc: "One place with everything you need to open doors: bio, photos, videos, contact and links. Web and PDF formats. Perfect for programmers, media and venues. Updated whenever you change."
 srv_search_title: Search & AI listing
-srv_search_desc: Google, Bing, Perplexity, ChatGPT. Wherever they look.
+srv_search_desc: We list your profile on Google, Bing, Perplexity and ChatGPT. We optimize your content so you appear when searched. Includes keyword analysis and quarterly ranking tracking.
 srv_print_title: Print materials
-srv_print_desc: Posters, flyers, business cards. Design that works on paper.
+srv_print_desc: Poster, flyer, business card and print design for concerts, exhibitions and shows. From digital design to print. We coordinate printing if needed.
 srv_strategy_title: Social strategy
-srv_strategy_desc: What to post, where, when. Hands-free.
+srv_strategy_desc: "We design the social media strategy that works for you: what to post, where, when and in what tone. We analyze your audience, competition and best-performing formats. You stay in control."
 
 section_per_qui_label: — 02
 section_per_qui_title: For those who<br><span>create and perform</span>
@@ -47,7 +47,18 @@ aud_visual_desc: Portfolio, gallery. For galleries and collectors.
 aud_emerging: Emerging
 aud_emerging_desc: The first step. The foundation. Everything to build on.
 
-section_com_label: — 03
+section_quisom_label: — 03
+section_quisom_title: Who we are
+section_quisom_tagline: Ressona emerges from the confluence of <span>photography</span>, <span>technology</span> and <span>editorial vision</span>. A broad perspective for building digital identity.
+
+about_pillar_photo_title: Photography
+about_pillar_photo_desc: Years of experience capturing the essence of artists and creators. The image as the first layer of digital identity.
+about_pillar_tech_title: Technology
+about_pillar_tech_desc: Infrastructure, automation and AI serving artistic communication. The code that makes talent visible.
+about_pillar_editorial_title: Editorial vision
+about_pillar_editorial_desc: Curatorial judgment and cultural context. Every artist is a unique publication deserving a coherent narrative.
+
+section_com_label: — 04
 section_com_title: How we do it,<br><span>step by step</span>
 
 step_1_title: We listen
@@ -61,13 +72,16 @@ step_4_desc: The system runs itself. But we're still here.
 step_5_title: We monitor and interpret
 step_5_desc: "We always audit the current state of each project at the start. When finished, we do it again — this time with data that shows the impact of every process."
 
-section_contact_label: — 04
+section_contact_label: — 05
 section_contact_title: Let's talk?
 contact_text: "Tell us about your project. Or just say hello. We'll reply by email — if you don't hear back in 5 min, check your spam."
 contact_email: hola@ressona.eu
 contact_cta: Send
 form_name: Name
 form_email: Email
+form_service: What service are you interested in?
+form_service_placeholder: Choose an option
+form_service_unsure: Not sure yet
 form_message: Message
 form_gdpr: I have read and accept the <a href="/en/legal/privacy" target="_blank">privacy policy</a>
 form_ok: Thanks! We received your message. If you don't hear back in 5 min, check your spam.

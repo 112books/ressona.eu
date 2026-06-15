@@ -1,20 +1,21 @@
+<a href="#main-content" class="skip-link">{{ if eq .Language.Lang "ca" }}Salta al contingut{{ else }}Skip to content{{ end }}</a>
 <header class="site-header">
   <div class="header-inner">
     <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}" class="nav-brand"><span class="nav-logo"><span class="flip-r">R</span>e<span class="shift-up">s</span><span class="shift-down">s</span><span class="shift-down">o</span>na</span></a>
     <nav class="nav-links" aria-label="{{ if eq .Language.Lang "ca" }}Navegació principal{{ else }}Main navigation{{ end }}">
-      <a href="#que-fem">
+      <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#que-fem">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="{{ i18n "nav_que_fem" }}"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
         <span>{{ i18n "nav_que_fem" }}</span>
       </a>
-      <a href="#per-qui">
+      <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#per-qui">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="{{ i18n "nav_per_qui" }}"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         <span>{{ i18n "nav_per_qui" }}</span>
       </a>
-      <a href="#com-treballem">
+      <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#com-treballem">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="{{ i18n "nav_com_treballem" }}"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
         <span>{{ i18n "nav_com_treballem" }}</span>
       </a>
-      <a href="#contacte">
+      <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#contacte">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="{{ i18n "nav_contacte" }}"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
         <span>{{ i18n "nav_contacte" }}</span>
       </a>
