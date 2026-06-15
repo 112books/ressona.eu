@@ -4,13 +4,6 @@
     <div class="header-row header-row--top">
       <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}" class="nav-brand"><span class="nav-logo"><span class="flip-r">R</span>e<span class="shift-up">s</span><span class="shift-down">s</span><span class="shift-down">o</span>na</span></a>
       <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}" class="nav-brand-scrolled"><img src="/img/ressona-eu-rounded-192.png" alt="Ressona" class="nav-scrolled-logo"></a>
-      <div class="header-lang">
-        {{ if eq .Language.Lang "ca" }}
-          <a href="/en/" class="lang-link">{{ i18n "nav_lang" }}</a>
-        {{ else }}
-          <a href="/" class="lang-link">{{ i18n "nav_lang" }}</a>
-        {{ end }}
-      </div>
     </div>
     <div class="header-row header-row--nav">
       <nav class="nav-links" aria-label="{{ if eq .Language.Lang "ca" }}Navegació principal{{ else }}Main navigation{{ end }}">
@@ -31,6 +24,13 @@
           <span>{{ i18n "nav_contacte" }}</span>
         </a>
       </nav>
+      <div class="header-lang">
+        {{ if eq .Language.Lang "ca" }}
+          <a href="/en/" class="lang-link">{{ i18n "nav_lang" }}</a>
+        {{ else }}
+          <a href="/" class="lang-link">{{ i18n "nav_lang" }}</a>
+        {{ end }}
+      </div>
     </div>
   </div>
 </header>
