@@ -161,6 +161,15 @@
 
     var sections = document.querySelectorAll('.section-reveal');
     sections.forEach(function(s) { revealObserver.observe(s); });
+
+    var header = document.querySelector('.site-header');
+    if (header) {
+      function onScroll() {
+        header.classList.toggle('header-scrolled', window.scrollY > 80);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    }
   })();
   </script>
 </body>
