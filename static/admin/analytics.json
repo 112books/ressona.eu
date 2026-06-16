@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T11:59:30.890053Z",
+  "generated": "2026-06-16T16:49:58.916535Z",
   "period": {
     "start": "2025-06-16",
     "end": "2026-06-16"
@@ -38,7 +38,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 18
+      "count": 23
     },
     {
       "name": "Safari",
@@ -63,14 +63,14 @@
   ],
   "systems": [
     {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 14
+    },
+    {
       "name": "iOS",
       "id": "iOS",
       "count": 12
-    },
-    {
-      "name": "macOS",
-      "id": "macOS",
-      "count": 11
     },
     {
       "name": "Windows",
@@ -85,19 +85,19 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 3
+      "count": 5
     }
   ],
   "sizes": [
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 16
+      "count": 19
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 14
+      "count": 16
     },
     {
       "name": "tablet",
@@ -114,7 +114,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 21
+      "count": 26
     },
     {
       "name": "United States",
