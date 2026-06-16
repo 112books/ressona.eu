@@ -124,8 +124,9 @@
   {{ end }}
 </head>
 <body>
+  <a href="#main-content" class="skip-link">{{ if eq .Language.Lang "ca" }}Salta al contingut{{ else }}Skip to content{{ end }}</a>
   {{ partial "header.html" . }}
-  <main id="main-content">
+  <main id="main-content" tabindex="-1">
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
