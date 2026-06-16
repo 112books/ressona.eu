@@ -1,44 +1,20 @@
 {
-  "generated": "2026-06-16T16:49:58.916535Z",
+  "generated": "2026-06-16T20:00:03.168186Z",
   "period": {
     "start": "2025-06-16",
     "end": "2026-06-16"
   },
-  "total": 38,
+  "total": 0,
   "total_unique": 0,
-  "hits_by_day": [
-    {
-      "date": "2026-06-12",
-      "count": 8
-    },
-    {
-      "date": "2026-06-13",
-      "count": 20
-    },
-    {
-      "date": "2026-06-14",
-      "count": 3
-    },
-    {
-      "date": "2026-06-15",
-      "count": 7
-    }
-  ],
-  "hits": [
-    {
-      "path": "/",
-      "count": 38
-    }
-  ],
+  "hits_by_day": [],
+  "hits": [],
   "by_lang": {},
-  "by_section": {
-    "inici": 38
-  },
+  "by_section": {},
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 23
+      "count": 24
     },
     {
       "name": "Safari",
@@ -75,7 +51,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Linux",
@@ -92,7 +68,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 19
+      "count": 20
     },
     {
       "name": "phone",
@@ -129,6 +105,11 @@
     {
       "name": "France",
       "id": "FR",
+      "count": 1
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
       "count": 1
     },
     {
