@@ -893,9 +893,9 @@ async function syncFromGoatCounter() {
     clearBanner();
     renderAll(data);
   } catch (e) {
+    const isCors = e.message.includes('CORS') || e.message.includes('Failed to fetch') || e.message.includes('Load failed');
     setBanner('error', 'Error sincronitzant: ' + e.message +
-      (e.message.includes('CORS') || e.message.includes('Failed to fetch')
-        ? ' — Comprova que el token sigui vàlid i que GoatCounter permeti CORS.' : ''));
+      (isCors ? ' — Safari pot bloquejar goatcounter.com. Prova en Chrome/Firefox, o comprova que el token sigui vàlid.' : ''));
   } finally {
     btn.textContent = '↻ Sincronitza';
     btn.disabled = false;
