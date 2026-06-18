@@ -64,9 +64,9 @@
     "url": "{{ .Site.BaseURL }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ .Site.BaseURL }}img/ressona-eu-rounded-192.png",
-      "width": 192,
-      "height": 192
+      "url": "{{ .Site.BaseURL }}img/ressona-eu-rounded.png",
+      "width": 874,
+      "height": 874
     },
     "image": "{{ .Site.BaseURL }}img/ressona-eu-rounded.png",
     "address": {
@@ -136,6 +136,7 @@
     var tagline = document.querySelector('.hero-tagline');
     if (tagline) {
       var fullText = tagline.textContent.trim();
+      tagline.style.visibility = 'hidden';
       tagline.textContent = '';
       tagline.style.visibility = 'visible';
       tagline.classList.add('typing-cursor');

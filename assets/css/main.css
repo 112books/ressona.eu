@@ -307,7 +307,6 @@ img, svg { display: block; }
   letter-spacing: 0.35em;
   text-transform: uppercase;
   margin-bottom: 48px;
-  visibility: hidden;
   overflow: visible;
 }
 
