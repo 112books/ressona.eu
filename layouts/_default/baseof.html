@@ -162,10 +162,15 @@
       el.style.animationDelay = (0.2 + idx * 0.1) + 's';
     });
 
+    var gcLangPrefix = document.documentElement.lang === 'en' ? '/en/' : '/';
     var revealObserver = new IntersectionObserver(function(entries) {
       entries.forEach(function(entry) {
         if (entry.isIntersecting) {
           entry.target.classList.add('section--visible');
+          var sid = entry.target.id;
+          if (sid && window.goatcounter && window.goatcounter.count) {
+            window.goatcounter.count({ path: gcLangPrefix + '#' + sid, event: false });
+          }
           revealObserver.unobserve(entry.target);
         }
       });

@@ -38,3 +38,23 @@ jobs:
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git branch -M gh-pages
           git push --force origin gh-pages
+
+      - name: Notify IndexNow (Bing, Yandex)
+        run: |
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "host": "ressona.eu",
+              "key": "98cc5eb439e66231e6a7821b576a1b30",
+              "keyLocation": "https://ressona.eu/98cc5eb439e66231e6a7821b576a1b30.txt",
+              "urlList": [
+                "https://ressona.eu/",
+                "https://ressona.eu/en/",
+                "https://ressona.eu/legal/avis-legal/",
+                "https://ressona.eu/legal/privacitat/",
+                "https://ressona.eu/legal/cookies/",
+                "https://ressona.eu/en/legal/legal-notice/",
+                "https://ressona.eu/en/legal/privacy/",
+                "https://ressona.eu/en/legal/cookies/"
+              ]
+            }' || true
