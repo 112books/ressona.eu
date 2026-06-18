@@ -6,14 +6,15 @@ type: serveis
 icon: '<svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/><line x1="10" y1="7" x2="10" y2="13"/><line x1="7" y1="10" x2="13" y2="10"/></svg>'
 tagline: "Presence across all search engines, including the new generation of AI."
 challenge: "When someone searches 'jazz musician in Barcelona' or 'dance school in Gràcia', the ones who appear in the first results get the work. If you don't appear, you don't exist for that potential client. And now AI search tools (ChatGPT, Perplexity) are completely changing the rules."
-outcome: "Your name and work appear when it matters: on Google, Bing, Google Maps and AI tools. We build the technical and content infrastructure so search engines recommend you as a reference in your discipline in Barcelona."
+outcome: "Your name and work appear when it matters: on Google, Bing, Google Maps and AI tools. We build the technical and content infrastructure so search engines recommend you as a reference in your discipline in Barcelona. And with the proprietary tools we've developed, we don't just collect data — we interpret and analyse it to draw conclusions that make a real difference."
 deliverables:
   - "Initial SEO audit of your website or current digital presence"
   - "Setup and optimisation of Google Business Profile (Google Maps)"
   - "Bing Places listing and relevant sector directories"
   - "Structured data (schema.org) implementation on your website"
   - "Keyword analysis for your discipline and location"
-  - "Quarterly position tracking report"
+  - "Proprietary data collection, interpretation and analysis tools: statistics that become concrete decisions"
+  - "Quarterly tracking report with conclusions and recommended actions"
 personas:
   - "Artists who want to be found by promoters and local clients"
   - "Music, dance or circus schools that need visibility on Google Maps"
