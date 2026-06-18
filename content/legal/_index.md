@@ -2,6 +2,8 @@
 title: Informació legal
 build:
   list: never
+sitemap:
+  disable: true
 ---
 
 - [Avís legal](avis-legal)
