@@ -163,6 +163,12 @@
       el.style.animationDelay = (0.2 + idx * 0.1) + 's';
     });
 
+    if (location.hash) {
+      document.querySelectorAll('.section-reveal').forEach(function(s) {
+        s.classList.add('section--visible');
+      });
+    }
+
     var gcLangPrefix = document.documentElement.lang === 'en' ? '/en/' : '/';
     var revealObserver = new IntersectionObserver(function(entries) {
       entries.forEach(function(entry) {
