@@ -1,6 +1,7 @@
 ---
 title: Legal information
-build:
+_build:
+  render: never
   list: never
 sitemap:
   disable: true
