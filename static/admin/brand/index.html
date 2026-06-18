@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Guia d'Estil · Ressona</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:      #34454c;
+      --ink:     #d9d0d5;
+      --ink2:    rgba(217,208,213,0.55);
+      --ink3:    rgba(217,208,213,0.35);
+      --gold:    #fdbf68;
+      --gold2:   #d49a2a;
+      --red:     #501345;
+      --red2:    #c1121f;
+      --blue:    #c0a9b3;
+      --cream:   #ece4d9;
+      --border:  rgba(192,169,179,0.15);
+      --surface: #2b3b41;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Inter', 'Helvetica Neue', sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    /* ── Cover ── */
+    .cover {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 5vw 7vw 8vw;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+    .cover::before {
+      content: '';
+      position: absolute;
+      top: -10%; right: -5%;
+      width: 60vw; height: 60vw;
+      background: radial-gradient(ellipse at center, rgba(80,19,69,0.18) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .cover-label {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: clamp(10px,1.1vw,13px);
+      letter-spacing: .32em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 5vw;
+    }
+    .cover-logo {
+      margin-bottom: 3.5vw;
+    }
+    .cover-logo svg {
+      width: clamp(200px, 38vw, 520px);
+      height: auto;
+    }
+    .cover-title {
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      font-size: clamp(13px,1.3vw,16px);
+      letter-spacing: .28em;
+      text-transform: uppercase;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+    .cover-meta {
+      font-size: clamp(11px, 1vw, 13px);
+      color: var(--ink3);
+      letter-spacing: .05em;
+    }
+
+    /* ── Layout ── */
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 7vw 5vw;
+    }
+    .page + .page {
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Section header ── */
+    .sec-num {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: clamp(52px,8vw,100px);
+      line-height: 1;
+      color: rgba(217,208,213,0.06);
+      margin-bottom: -0.3em;
+      letter-spacing: -.03em;
+    }
+    .sec-title {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: clamp(18px,2.5vw,26px);
+      color: var(--ink);
+      letter-spacing: -.02em;
+      margin-bottom: 2.5rem;
+      padding-bottom: .8rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sec-title em {
+      color: var(--gold);
+      font-style: normal;
+    }
+
+    /* ── Logo section ── */
+    .logo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .logo-cell {
+      padding: 3rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.5rem;
+    }
+    .logo-cell.dark  { background: var(--bg); border: 1px solid var(--border); }
+    .logo-cell.light { background: #f5f0ea; }
+    .logo-cell.black { background: #0a0a0a; }
+    .logo-cell.white { background: #ffffff; }
+    .logo-cell svg   { width: 100%; max-width: 280px; height: auto; }
+    .logo-cell-label {
+      font-size: 10px;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+    .logo-cell.light .logo-cell-label,
+    .logo-cell.white .logo-cell-label { color: rgba(52,69,76,0.5); }
+    .logo-cell.black .logo-cell-label { color: rgba(217,208,213,0.4); }
+
+    .logo-anatomy {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 2.5rem;
+      margin-bottom: 3rem;
+    }
+    .logo-anatomy-title {
+      font-size: 10px;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+    }
+    .anatomy-items {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .anatomy-item {}
+    .anatomy-item-title {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--gold);
+      margin-bottom: .4rem;
+    }
+    .anatomy-item-desc {
+      font-size: 12px;
+      color: var(--ink2);
+      line-height: 1.6;
+    }
+
+    .logo-donot {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+    .donot-cell {
+      border: 1px solid rgba(168,50,50,0.3);
+      padding: 1.5rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .75rem;
+      position: relative;
+    }
+    .donot-cell::after {
+      content: '✕';
+      position: absolute;
+      top: .4rem; right: .5rem;
+      font-size: 10px;
+      color: #a83232;
+    }
+    .donot-cell svg { width: 80px; height: auto; }
+    .donot-label { font-size: 10px; color: rgba(168,50,50,0.7); text-align: center; letter-spacing: .04em; }
+
+    /* ── Colors ── */
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .color-card {
+      display: flex;
+      flex-direction: column;
+    }
+    .color-swatch {
+      height: 100px;
+      border-radius: 0;
+    }
+    .color-info {
+      padding: .85rem .9rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-top: none;
+    }
+    .color-name {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      color: var(--ink);
+      margin-bottom: .2rem;
+    }
+    .color-hex {
+      font-family: 'Inter', monospace;
+      font-weight: 400;
+      font-size: 11px;
+      color: var(--gold);
+      letter-spacing: .04em;
+    }
+    .color-use {
+      font-size: 10px;
+      color: var(--ink3);
+      margin-top: .2rem;
+      line-height: 1.4;
+    }
+
+    .gradient-card {
+      height: 80px;
+      margin-bottom: 1rem;
+    }
+    .gradient-stops {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 11px;
+      color: var(--ink2);
+    }
+    .gradient-stops span { color: var(--gold); }
+
+    /* ── Typography ── */
+    .type-samples { display: flex; flex-direction: column; gap: 3rem; }
+    .type-sample {}
+    .type-meta {
+      display: flex;
+      align-items: baseline;
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+      padding-bottom: .5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .type-name {
+      font-size: 11px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .type-spec {
+      font-size: 11px;
+      color: var(--ink3);
+    }
+    .type-use {
+      font-size: 11px;
+      color: var(--blue);
+      margin-left: auto;
+    }
+    .type-display-800 {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: clamp(42px, 6vw, 72px);
+      line-height: 1.05;
+      letter-spacing: -.02em;
+      color: var(--ink);
+    }
+    .type-display-700 {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: clamp(26px, 3.5vw, 42px);
+      line-height: 1.1;
+      letter-spacing: -.01em;
+      color: var(--ink);
+    }
+    .type-body-300 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--ink);
+      max-width: 60ch;
+    }
+    .type-body-400 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--ink);
+      max-width: 60ch;
+    }
+    .type-body-500 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 1.6;
+      letter-spacing: .02em;
+      color: var(--ink2);
+      max-width: 60ch;
+    }
+    .type-alphabet {
+      margin-top: 1rem;
+      font-size: 11px;
+      color: var(--ink3);
+      letter-spacing: .08em;
+    }
+
+    /* ── Spacing scale ── */
+    .spacing-row {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: .75rem;
+    }
+    .spacing-bar {
+      background: var(--gold);
+      height: 4px;
+      flex-shrink: 0;
+    }
+    .spacing-label { font-size: 11px; color: var(--ink3); min-width: 80px; }
+    .spacing-val   { font-size: 11px; color: var(--ink2); font-family: monospace; }
+
+    /* ── Files ── */
+    .files-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    .file-card {
+      border: 1px solid var(--border);
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+      color: var(--ink);
+      transition: border-color .2s;
+    }
+    .file-card:hover { border-color: var(--gold); }
+    .file-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .file-name { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 13px; }
+    .file-desc { font-size: 11px; color: var(--ink3); margin-top: .1rem; }
+    .file-size { font-size: 11px; color: var(--gold); margin-left: auto; flex-shrink: 0; }
+
+    /* ── Footer ── */
+    .brand-footer {
+      border-top: 1px solid var(--border);
+      padding: 3rem 5vw;
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 11px;
+      color: var(--ink3);
+      letter-spacing: .08em;
+    }
+
+    /* ── Print ── */
+    @media print {
+      .cover { min-height: auto; padding: 2cm 2.5cm; }
+      .page  { padding: 1.5cm 2.5cm; }
+      body   { background: white; color: #1a1a1a; }
+      .color-info { background: #f5f5f5; }
+    }
+
+    @media (max-width: 680px) {
+      .logo-grid    { grid-template-columns: 1fr; }
+      .color-grid   { grid-template-columns: repeat(2,1fr); }
+      .anatomy-items { grid-template-columns: 1fr; }
+      .logo-donot   { grid-template-columns: repeat(2,1fr); }
+      .files-grid   { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══ COVER ══════════════════════════════════════════════════════ -->
+<section class="cover">
+  <div class="cover-label">Ressona · Identitat Visual</div>
+  <div class="cover-logo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 340 50" aria-label="Ressona">
+      <defs>
+        <linearGradient id="cg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#ece4d9"/>
+          <stop offset="30%" stop-color="#ece4d9"/>
+          <stop offset="55%" stop-color="#d49a2a"/>
+          <stop offset="100%" stop-color="#c1121f"/>
+        </linearGradient>
+      </defs>
+      <g font-family="Syne,sans-serif" font-weight="800" letter-spacing="-1.5">
+        <g transform="matrix(-1 0 0 1 22 0)">
+          <text x="4" y="40" fill="#d49a2a" font-size="42">R</text>
+        </g>
+        <text x="18" y="40" fill="url(#cg)" font-size="42">e<tspan font-size="36" dy="-5">s</tspan><tspan font-size="36" dy="6">s</tspan><tspan font-size="36" dy="5">o</tspan>na</text>
+      </g>
+    </svg>
+  </div>
+  <div class="cover-title">Guia d'Estil de Marca</div>
+  <div class="cover-meta">v1.0 · Juny 2026 · Ressona / LinuxBCN × Pocallum</div>
+</section>
+
+<!-- ══ 1. LOGOTIP ═════════════════════════════════════════════════ -->
+<section class="page">
+  <div class="sec-num">01</div>
+  <h2 class="sec-title">El <em>Logotip</em></h2>
+
+  <!-- Versions -->
+  <div class="logo-grid">
+    <div class="logo-cell dark">
+      <div class="logo-cell-label">Versió principal · Fons fosc</div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 340 50" aria-label="Ressona">
+        <defs>
+          <linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ece4d9"/>
+            <stop offset="30%" stop-color="#ece4d9"/>
+            <stop offset="55%" stop-color="#d49a2a"/>
+            <stop offset="100%" stop-color="#c1121f"/>
+          </linearGradient>
+        </defs>
+        <g font-family="Syne,sans-serif" font-weight="800" letter-spacing="-1.5">
+          <g transform="matrix(-1 0 0 1 22 0)"><text x="4" y="40" fill="#d49a2a" font-size="42">R</text></g>
+          <text x="18" y="40" fill="url(#lg1)" font-size="42">e<tspan font-size="36" dy="-5">s</tspan><tspan font-size="36" dy="6">s</tspan><tspan font-size="36" dy="5">o</tspan>na</text>
+        </g>
+      </svg>
+    </div>
+    <div class="logo-cell light">
+      <div class="logo-cell-label" style="color:rgba(52,69,76,0.45)">Versió positiu · Fons clar</div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 340 50" aria-label="Ressona">
+        <defs>
+          <linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#34454c"/>
+            <stop offset="40%" stop-color="#34454c"/>
+            <stop offset="70%" stop-color="#501345"/>
+            <stop offset="100%" stop-color="#c1121f"/>
+          </linearGradient>
+        </defs>
+        <g font-family="Syne,sans-serif" font-weight="800" letter-spacing="-1.5">
+          <g transform="matrix(-1 0 0 1 22 0)"><text x="4" y="40" fill="#501345" font-size="42">R</text></g>
+          <text x="18" y="40" fill="url(#lg2)" font-size="42">e<tspan font-size="36" dy="-5">s</tspan><tspan font-size="36" dy="6">s</tspan><tspan font-size="36" dy="5">o</tspan>na</text>
+        </g>
+      </svg>
+    </div>
+    <div class="logo-cell black">
+      <div class="logo-cell-label">Versió sobre negre</div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 340 50" aria-label="Ressona">
+        <defs>
+          <linearGradient id="lg3" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ece4d9"/>
+            <stop offset="30%" stop-color="#ece4d9"/>
+            <stop offset="55%" stop-color="#d49a2a"/>
+            <stop offset="100%" stop-color="#c1121f"/>
+          </linearGradient>
+        </defs>
+        <g font-family="Syne,sans-serif" font-weight="800" letter-spacing="-1.5">
+          <g transform="matrix(-1 0 0 1 22 0)"><text x="4" y="40" fill="#d49a2a" font-size="42">R</text></g>
+          <text x="18" y="40" fill="url(#lg3)" font-size="42">e<tspan font-size="36" dy="-5">s</tspan><tspan font-size="36" dy="6">s</tspan><tspan font-size="36" dy="5">o</tspan>na</text>
+        </g>
+      </svg>
+    </div>
+    <div class="logo-cell white">
+      <div class="logo-cell-label" style="color:rgba(52,69,76,0.45)">Monocrom · Negre pur</div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 340 50" aria-label="Ressona">
+        <g font-family="Syne,sans-serif" font-weight="800" letter-spacing="-1.5">
+          <g transform="matrix(-1 0 0 1 22 0)"><text x="4" y="40" fill="#1a1a1a" font-size="42">R</text></g>
+          <text x="18" y="40" fill="#1a1a1a" font-size="42">e<tspan font-size="36" dy="-5">s</tspan><tspan font-size="36" dy="6">s</tspan><tspan font-size="36" dy="5">o</tspan>na</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Anatomy -->
+  <div class="logo-anatomy">
+    <div class="logo-anatomy-title">// Anatomia del logotip</div>
+    <div class="anatomy-items">
+      <div class="anatomy-item">
+        <div class="anatomy-item-title">La R invertida</div>
+        <div class="anatomy-item-desc">La R s'inverte horitzontalment (transform="scale(-1,1)"). Evoca el ressò, el reflex i la distinció visual. És el tret diferenciador més reconeixible de la marca.</div>
+      </div>
+      <div class="anatomy-item">
+        <div class="anatomy-item-title">Gradient diagonal</div>
+        <div class="anatomy-item-desc">El text flueix de crema (#ece4d9) a or (#d49a2a) a vermell (#c1121f) en diagonal. Representa la calidesa, la creativitat i l'energia artística.</div>
+      </div>
+      <div class="anatomy-item">
+        <div class="anatomy-item-title">Ritme vertical</div>
+        <div class="anatomy-item-desc">Les lletres s, s, o oscil·len verticalment (dy=−5, +6, +5). Evoca la vibració musical, el moviment i la dansa. Cap lletra repta el mateix eix.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Don't do -->
+  <p style="font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:rgba(168,50,50,0.6);margin-bottom:1rem;">// Usos incorrectes</p>
+  <div class="logo-donot">
+    <div class="donot-cell">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 340 50">
+        <g font-family="Syne,sans-serif" font-weight="800" letter-spacing="-1.5">
+          <text x="-18" y="40" fill="#d49a2a" font-size="42">R</text>
+          <text x="18" y="40" fill="#ece4d9" font-size="42">essona</text>
+        </g>
+      </svg>
+      <div class="donot-label">R sense invertir</div>
+    </div>
+    <div class="donot-cell">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 340 50">
+        <g font-family="Arial,sans-serif" font-weight="800" letter-spacing="-1.5">
+          <g transform="matrix(-1 0 0 1 22 0)"><text x="4" y="40" fill="#d49a2a" font-size="42">R</text></g>
+          <text x="18" y="40" fill="#ece4d9" font-size="42">essona</text>
+        </g>
+      </svg>
+      <div class="donot-label">Sense font Syne</div>
+    </div>
+    <div class="donot-cell">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 340 50">
+        <defs>
+          <linearGradient id="bd1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ece4d9"/>
+            <stop offset="100%" stop-color="#c1121f"/>
+          </linearGradient>
+        </defs>
+        <g font-family="Syne,sans-serif" font-weight="800" letter-spacing="-1.5">
+          <g transform="matrix(-1 0 0 1 22 0)"><text x="4" y="40" fill="#d49a2a" font-size="42">R</text></g>
+          <text x="18" y="40" fill="url(#bd1)" font-size="42">essona</text>
+        </g>
+      </svg>
+      <div class="donot-label">Sense ritme de lletres</div>
+    </div>
+    <div class="donot-cell">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 340 50">
+        <rect width="340" height="50" x="-40" fill="#fdbf68"/>
+        <g font-family="Syne,sans-serif" font-weight="800" letter-spacing="-1.5">
+          <g transform="matrix(-1 0 0 1 22 0)"><text x="4" y="40" fill="#501345" font-size="42">R</text></g>
+          <text x="18" y="40" fill="#501345" font-size="42">e<tspan font-size="36" dy="-5">s</tspan><tspan font-size="36" dy="6">s</tspan><tspan font-size="36" dy="5">o</tspan>na</text>
+        </g>
+      </svg>
+      <div class="donot-label">Fons d'accent com a fons del logo</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 2. COLORS ══════════════════════════════════════════════════ -->
+<section class="page">
+  <div class="sec-num">02</div>
+  <h2 class="sec-title">La <em>Paleta</em></h2>
+
+  <div class="color-grid">
+    <div class="color-card">
+      <div class="color-swatch" style="background:#34454c;border:1px solid rgba(255,255,255,0.05)"></div>
+      <div class="color-info">
+        <div class="color-name">Nit marina</div>
+        <div class="color-hex">#34454c</div>
+        <div class="color-use">Fons principal · Espai negatiu dominant</div>
+      </div>
+    </div>
+    <div class="color-card">
+      <div class="color-swatch" style="background:#fdbf68"></div>
+      <div class="color-info">
+        <div class="color-name">Or artista</div>
+        <div class="color-hex">#fdbf68</div>
+        <div class="color-use">Accent principal · CTA · Highlights</div>
+      </div>
+    </div>
+    <div class="color-card">
+      <div class="color-swatch" style="background:#501345"></div>
+      <div class="color-info">
+        <div class="color-name">Vermell escarlata</div>
+        <div class="color-hex">#501345</div>
+        <div class="color-use">Accent secundari · Blocs de color</div>
+      </div>
+    </div>
+    <div class="color-card">
+      <div class="color-swatch" style="background:#c0a9b3"></div>
+      <div class="color-info">
+        <div class="color-name">Blau pàl·lid</div>
+        <div class="color-hex">#c0a9b3</div>
+        <div class="color-use">Accent fred · Text secundari</div>
+      </div>
+    </div>
+    <div class="color-card">
+      <div class="color-swatch" style="background:#d9d0d5"></div>
+      <div class="color-info">
+        <div class="color-name">Bruma</div>
+        <div class="color-hex">#d9d0d5</div>
+        <div class="color-use">Text principal · Cos de text</div>
+      </div>
+    </div>
+    <div class="color-card">
+      <div class="color-swatch" style="background:#2b3b41;border:1px solid rgba(255,255,255,0.05)"></div>
+      <div class="color-info">
+        <div class="color-name">Profunditat</div>
+        <div class="color-hex">#2b3b41</div>
+        <div class="color-use">Superfícies · Cards · Modals</div>
+      </div>
+    </div>
+    <div class="color-card">
+      <div class="color-swatch" style="background:#ece4d9"></div>
+      <div class="color-info">
+        <div class="color-name">Crema</div>
+        <div class="color-hex">#ece4d9</div>
+        <div class="color-use">Inici del gradient · Paper impremta</div>
+      </div>
+    </div>
+    <div class="color-card">
+      <div class="color-swatch" style="background:#d49a2a"></div>
+      <div class="color-info">
+        <div class="color-name">Or gradient</div>
+        <div class="color-hex">#d49a2a</div>
+        <div class="color-use">Pas central del gradient · R del logo</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gradient -->
+  <p style="font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.75rem;">// Gradient de marca</p>
+  <div class="gradient-card" style="background:linear-gradient(135deg,#ece4d9 0%,#ece4d9 30%,#d49a2a 55%,#c1121f 100%)"></div>
+  <div class="gradient-stops">
+    <div>0% → <span>#ece4d9</span> Crema</div>
+    <div>30% → <span>#ece4d9</span> Crema (plateau)</div>
+    <div>55% → <span>#d49a2a</span> Or</div>
+    <div>100% → <span>#c1121f</span> Vermell</div>
+  </div>
+
+  <div style="height:2rem"></div>
+
+  <!-- Accessible combinations -->
+  <p style="font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">// Combinacions accessibles (WCAG AA)</p>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;">
+    <div style="background:#34454c;border:1px solid var(--border);padding:1.25rem;display:flex;flex-direction:column;gap:.4rem">
+      <div style="color:#fdbf68;font-family:'Syne',sans-serif;font-weight:700;font-size:15px">Or sobre fosc</div>
+      <div style="color:#fdbf68;font-size:11px">#fdbf68 / #34454c</div>
+      <div style="color:rgba(192,169,179,0.5);font-size:10px">Contrast: 7.2:1 ✓</div>
+    </div>
+    <div style="background:#34454c;border:1px solid var(--border);padding:1.25rem;display:flex;flex-direction:column;gap:.4rem">
+      <div style="color:#d9d0d5;font-family:'Syne',sans-serif;font-weight:700;font-size:15px">Bruma sobre fosc</div>
+      <div style="color:#d9d0d5;font-size:11px">#d9d0d5 / #34454c</div>
+      <div style="color:rgba(192,169,179,0.5);font-size:10px">Contrast: 5.8:1 ✓</div>
+    </div>
+    <div style="background:#ece4d9;padding:1.25rem;display:flex;flex-direction:column;gap:.4rem">
+      <div style="color:#34454c;font-family:'Syne',sans-serif;font-weight:700;font-size:15px">Fosc sobre crema</div>
+      <div style="color:#34454c;font-size:11px">#34454c / #ece4d9</div>
+      <div style="color:rgba(52,69,76,0.5);font-size:10px">Contrast: 6.1:1 ✓</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 3. TIPOGRAFIA ══════════════════════════════════════════════ -->
+<section class="page">
+  <div class="sec-num">03</div>
+  <h2 class="sec-title">La <em>Tipografia</em></h2>
+
+  <div class="type-samples">
+
+    <!-- Syne ExtraBold 800 -->
+    <div class="type-sample">
+      <div class="type-meta">
+        <div class="type-name">Syne ExtraBold</div>
+        <div class="type-spec">800 · Sans-serif geomètrica</div>
+        <div class="type-use">Marca · Títols principals · Hero</div>
+      </div>
+      <div class="type-display-800">Ressona</div>
+      <div class="type-display-800" style="background:linear-gradient(135deg,#ece4d9 0%,#ece4d9 30%,#d49a2a 55%,#c1121f 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Identitat digital<br>per a artistes</div>
+      <div class="type-alphabet" style="font-family:'Syne',sans-serif;font-weight:800;">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z · a b c d e f g h i j k l m n o p q r s t u v w x y z · 0 1 2 3 4 5 6 7 8 9</div>
+    </div>
+
+    <!-- Syne Bold 700 -->
+    <div class="type-sample">
+      <div class="type-meta">
+        <div class="type-name">Syne Bold</div>
+        <div class="type-spec">700 · Sans-serif geomètrica</div>
+        <div class="type-use">Subtítols · Navegació · Labels</div>
+      </div>
+      <div class="type-display-700">Acompanyem artistes<br>en la seva identitat digital</div>
+      <div class="type-alphabet" style="font-family:'Syne',sans-serif;font-weight:700;margin-top:.75rem">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z · a b c d e f g h i j k l m n o p q r s t u v w x y z</div>
+    </div>
+
+    <!-- Inter Light 300 -->
+    <div class="type-sample">
+      <div class="type-meta">
+        <div class="type-name">Inter Light</div>
+        <div class="type-spec">300 · Sans-serif humanista</div>
+        <div class="type-use">Cos principal · Descripcions llargues</div>
+      </div>
+      <div class="type-body-300">Ressona neix per acompanyar músics, actors, artistes de circ, dansa i arts plàstiques en la construcció de la seva presència digital. No és màrqueting. És identitat.</div>
+    </div>
+
+    <!-- Inter Regular 400 -->
+    <div class="type-sample">
+      <div class="type-meta">
+        <div class="type-name">Inter Regular</div>
+        <div class="type-spec">400 · Sans-serif humanista</div>
+        <div class="type-use">Cos secundari · UI · Botons</div>
+      </div>
+      <div class="type-body-400">Fotografia editorial · Identitat visual · Web a mida · SEO per a artistes · Estratègia a xarxes socials · Gestió de continguts · Arxiu digital · Branding sonor</div>
+    </div>
+
+    <!-- Inter Medium 500 -->
+    <div class="type-sample">
+      <div class="type-meta">
+        <div class="type-name">Inter Medium</div>
+        <div class="type-spec">500 · Sans-serif humanista</div>
+        <div class="type-use">Labels · Capçaleres de taula · Tags</div>
+      </div>
+      <div class="type-body-500">FOTOGRAFIA · IDENTITAT · WEB · SEO · XARXES SOCIALS · ARXIU DIGITAL · CA / EN</div>
+    </div>
+
+  </div>
+
+  <!-- Scale -->
+  <div style="margin-top:3rem">
+    <p style="font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1.25rem;">// Escala tipogràfica</p>
+    <div style="display:grid;grid-template-columns:80px 1fr 1fr;gap:.5rem .5rem;align-items:baseline;font-size:11px;color:var(--ink3);">
+      <div style="color:var(--gold)">Token</div><div style="color:var(--gold)">Mida</div><div style="color:var(--gold)">Ús</div>
+      <div>xs</div><div style="color:var(--ink2)">10–11px</div><div>Labels, metadata, caps de columna</div>
+      <div>sm</div><div style="color:var(--ink2)">12–13px</div><div>Text UI, subtítols petits</div>
+      <div>base</div><div style="color:var(--ink2)">15–16px</div><div>Cos principal</div>
+      <div>lg</div><div style="color:var(--ink2)">17–20px</div><div>Intro, destacats</div>
+      <div>xl</div><div style="color:var(--ink2)">26–36px</div><div>Títols de secció</div>
+      <div>2xl</div><div style="color:var(--ink2)">42–72px</div><div>Hero, marca massiva</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 4. ARXIUS ══════════════════════════════════════════════════ -->
+<section class="page">
+  <div class="sec-num">04</div>
+  <h2 class="sec-title">Arxius de <em>Marca</em></h2>
+
+  <div class="files-grid">
+    <a href="../../../img/ressona-logo-papeleria.svg" class="file-card" download>
+      <div class="file-icon">◈</div>
+      <div>
+        <div class="file-name">Logotip · SVG papeleria</div>
+        <div class="file-desc">Vector escalable, fons transparent, Syne embeguda via GFonts</div>
+      </div>
+      <div class="file-size">SVG</div>
+    </a>
+    <a href="../../../img/ressona-logo-papeleria.png" class="file-card" download>
+      <div class="file-icon">⬚</div>
+      <div>
+        <div class="file-name">Logotip · PNG alta resolució</div>
+        <div class="file-desc">4800 × 706 px · Fons transparent RGBA · 300 DPI equiv.</div>
+      </div>
+      <div class="file-size">PNG 146K</div>
+    </a>
+    <a href="fonts/Syne-ExtraBold-800.ttf" class="file-card" download>
+      <div class="file-icon">Aa</div>
+      <div>
+        <div class="file-name">Syne ExtraBold 800</div>
+        <div class="file-desc">Tipografia de marca · Títols i logotip</div>
+      </div>
+      <div class="file-size">TTF 52K</div>
+    </a>
+    <a href="fonts/Syne-Bold-700.ttf" class="file-card" download>
+      <div class="file-icon">Aa</div>
+      <div>
+        <div class="file-name">Syne Bold 700</div>
+        <div class="file-desc">Tipografia de marca · Subtítols i navegació</div>
+      </div>
+      <div class="file-size">TTF 51K</div>
+    </a>
+    <a href="fonts/Inter-Light-300.ttf" class="file-card" download>
+      <div class="file-icon">Aa</div>
+      <div>
+        <div class="file-name">Inter Light 300</div>
+        <div class="file-desc">Tipografia de cos · Text principal</div>
+      </div>
+      <div class="file-size">TTF 318K</div>
+    </a>
+    <a href="fonts/Inter-Regular-400.ttf" class="file-card" download>
+      <div class="file-icon">Aa</div>
+      <div>
+        <div class="file-name">Inter Regular 400</div>
+        <div class="file-desc">Tipografia de cos · UI i botons</div>
+      </div>
+      <div class="file-size">TTF 317K</div>
+    </a>
+    <a href="fonts/Inter-Medium-500.ttf" class="file-card" download>
+      <div class="file-icon">Aa</div>
+      <div>
+        <div class="file-name">Inter Medium 500</div>
+        <div class="file-desc">Tipografia de cos · Labels i etiquetes</div>
+      </div>
+      <div class="file-size">TTF 318K</div>
+    </a>
+    <a href="../../../img/ressona-mark.svg" class="file-card" download>
+      <div class="file-icon">ℝ</div>
+      <div>
+        <div class="file-name">Marca — R invertida</div>
+        <div class="file-desc">Símbol sol, per a favicon i icones</div>
+      </div>
+      <div class="file-size">SVG</div>
+    </a>
+  </div>
+</section>
+
+<!-- ══ FOOTER ═════════════════════════════════════════════════════ -->
+<footer class="brand-footer">
+  <div>Ressona · Identitat digital per a artistes</div>
+  <div>LinuxBCN × Pocallum · <span style="color:var(--gold)">ressona.eu</span></div>
+</footer>
+
+</body>
+</html>

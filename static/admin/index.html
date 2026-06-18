@@ -21,6 +21,9 @@
     pwHash:       'ec689a6b20231cab576cd7604ab478777e3e23bd4e4822dbc841779afa57fbbf',
     dataUrl:      'analytics.json',
     sectionNames: {"inici":"Inici","legal":"Legal"},
+    // Token API de GoatCounter (llegit-only). Genera'l a:
+    // https://ressona.goatcounter.com/-/settings/api
+    gcToken:      '',
   };
 
   async function sha256(msg) {
@@ -301,8 +304,10 @@
       <div class="topbar-gen" id="topbar-gen">carregant…</div>
     </div>
     <div class="topbar-actions">
+      <button id="gc-sync-btn" class="btn-sm" onclick="syncFromGoatCounter()" title="Recarrega dades en directe des de GoatCounter API">↻ Sincronitza</button>
       <a id="gc-link" class="btn-sm" target="_blank" rel="noopener noreferrer">↗ GoatCounter</a>
       <a href="/admin/plantilla.html" class="btn-sm">Plantilla</a>
+      <a href="/admin/brand/" class="btn-sm" title="Guia d'estil de marca">◈ Marca</a>
     </div>
   </div>
 
@@ -849,6 +854,119 @@ function setBanner(type, msg) {
 function clearBanner() {
   const el = document.getElementById('banner');
   el.className = ''; el.textContent = '';
+}
+
+/* ══ SINCRONITZAR DES DE GOATCOUNTER ════════════════════════════ */
+async function syncFromGoatCounter() {
+  if (!CFG.gcToken) {
+    setBanner('error',
+      'Afegeix el token API a CFG.gcToken. ' +
+      'Genera\'l a <a href="' + CFG.gcUrl + '/-/settings/api" target="_blank" style="color:inherit">' +
+      CFG.gcUrl + '/-/settings/api</a>'
+    );
+    return;
+  }
+  const btn = document.getElementById('gc-sync-btn');
+  btn.textContent = '↻ …';
+  btn.disabled = true;
+  setBanner('loading', 'Connectant amb GoatCounter…');
+
+  try {
+    const end   = isoToday();
+    const start = daysAgo(365);
+    const base  = CFG.gcUrl + '/api/v0';
+    const hdrs  = { 'Authorization': 'Bearer ' + CFG.gcToken };
+
+    setBanner('loading', 'Descarregant estadístiques (7 consultes)…');
+    const [hitsR, totalR, browsersR, systemsR, sizesR, locationsR, refsR] = await Promise.all([
+      gcFetch(base + '/stats/hits?start='      + start + '&end=' + end + '&limit=100', hdrs),
+      gcFetch(base + '/stats/total?start='     + start + '&end=' + end,                hdrs),
+      gcFetch(base + '/stats/browsers?start='  + start + '&end=' + end + '&limit=10',  hdrs),
+      gcFetch(base + '/stats/systems?start='   + start + '&end=' + end + '&limit=10',  hdrs),
+      gcFetch(base + '/stats/sizes?start='     + start + '&end=' + end + '&limit=10',  hdrs),
+      gcFetch(base + '/stats/locations?start=' + start + '&end=' + end + '&limit=15',  hdrs),
+      gcFetch(base + '/stats/toprefs?start='   + start + '&end=' + end + '&limit=10',  hdrs),
+    ]);
+
+    const data = gcProcess(hitsR, totalR, browsersR, systemsR, sizesR, locationsR, refsR, start, end);
+    globalData = data;
+    clearBanner();
+    renderAll(data);
+  } catch (e) {
+    setBanner('error', 'Error sincronitzant: ' + e.message +
+      (e.message.includes('CORS') || e.message.includes('Failed to fetch')
+        ? ' — Comprova que el token sigui vàlid i que GoatCounter permeti CORS.' : ''));
+  } finally {
+    btn.textContent = '↻ Sincronitza';
+    btn.disabled = false;
+  }
+}
+
+async function gcFetch(url, headers) {
+  const r = await fetch(url, { headers });
+  if (!r.ok) throw new Error('GoatCounter ' + r.status + ' a ' + url.split('?')[0].split('/').pop());
+  return r.json();
+}
+
+function gcProcess(hitsR, totalR, browsersR, systemsR, sizesR, locationsR, refsR, start, end) {
+  const LANGS = new Set(['ca','es','en','fr','de','it','pt']);
+
+  function extractLang(path) {
+    const parts = (path||'').replace(/^\/|\/$/g,'').split('/').filter(Boolean);
+    if (parts.length && LANGS.has(parts[0])) return parts[0];
+    if (parts.length >= 2 && LANGS.has(parts[1])) return parts[1];
+    return null;
+  }
+  function extractSection(path) {
+    if (!path) return 'inici';
+    const parts = (path||'').replace(/^\/|\/$/g,'').split('/').filter(Boolean);
+    if (!parts.length) return 'inici';
+    let idx = LANGS.has(parts[0]) ? 1 : 0;
+    if (idx === 0 && parts.length > 1 && LANGS.has(parts[1])) idx = 2;
+    return idx < parts.length ? parts[idx] : 'inici';
+  }
+  function normItems(stats) {
+    return (stats||[])
+      .map(i => ({ name: i.name||i.browser||i.system||i.id||'?', id: i.id||i.name||'?', count: i.count||0 }))
+      .filter(i => i.count > 0)
+      .sort((a,b) => b.count - a.count);
+  }
+
+  const by_lang = {}, by_section = {}, hits_by_day = {}, hits_pages = {};
+  let total = 0;
+
+  ((hitsR && hitsR.hits) || []).forEach(pathItem => {
+    const path = pathItem.path || '';
+    const lang = extractLang(path);
+    const sec  = extractSection(path);
+    let pTotal = 0;
+    (pathItem.stats || []).forEach(stat => {
+      const date  = (stat.day||'').slice(0,10);
+      const count = stat.daily || 0;
+      if (!count) return;
+      total += count; pTotal += count;
+      if (lang) by_lang[lang] = (by_lang[lang]||0) + count;
+      by_section[sec] = (by_section[sec]||0) + count;
+      if (date) hits_by_day[date] = (hits_by_day[date]||0) + count;
+    });
+    if (pTotal > 0) hits_pages[path] = (hits_pages[path]||0) + pTotal;
+  });
+
+  return {
+    generated:    new Date().toISOString(),
+    period:       { start, end },
+    total,
+    total_unique: (totalR && totalR.total_unique) || 0,
+    hits_by_day:  Object.entries(hits_by_day).sort(([a],[b]) => a.localeCompare(b)).map(([date,count]) => ({date,count})),
+    hits:         Object.entries(hits_pages).sort(([,a],[,b]) => b-a).slice(0,30).map(([path,count]) => ({path,count})),
+    by_lang,
+    by_section,
+    browsers:  normItems(browsersR  && browsersR.stats),
+    systems:   normItems(systemsR   && systemsR.stats),
+    sizes:     normItems(sizesR     && sizesR.stats),
+    locations: normItems(locationsR && locationsR.stats),
+    refs:      normItems(refsR      && refsR.stats),
+  };
 }
 </script>
 </body>
