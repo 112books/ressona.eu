@@ -49,14 +49,14 @@ aud_emerging_desc: El primer pas. La base. Tot per construir.
 
 section_quisom_label: — 03
 section_quisom_title: Qui som
-section_quisom_tagline: Ressona neix de la confluència de <span>fotografia</span>, <span>tecnologia</span> i <span>visió editorial</span>. Una mirada àmplia per construir identitat digital.
+section_quisom_tagline: Ressona és un projecte de Joan Mz, creat a Barcelona a partir de tres branques de treball complementàries. Una mirada àmplia per construir identitat digital per a artistes.
 
-about_pillar_photo_title: Fotografia
-about_pillar_photo_desc: Anys d'experiència captant l'essència d'artistes i creadors. La imatge com a primera capa de la identitat digital.
-about_pillar_tech_title: Tecnologia
-about_pillar_tech_desc: Infraestructura, automatització i intel·ligència artificial al servei de la comunicació artística. El codi que fa visible el talent.
-about_pillar_editorial_title: Visió editorial
-about_pillar_editorial_desc: Criteri curatorial i context cultural. Cada artista és una publicació única que mereix una narrativa coherent.
+about_pillar_photo_title: Fotografia i identitat visual
+about_pillar_photo_desc: "<a href=\"https://pocallum.cat\" target=\"_blank\" rel=\"noopener\">Pocallum</a> aporta anys d'experiència en fotografia artística, disseny de logotips i identitat visual. La imatge com a primera capa de la marca d'un artista."
+about_pillar_tech_title: Tecnologia i automatització
+about_pillar_tech_desc: "<a href=\"https://linuxbcn.com\" target=\"_blank\" rel=\"noopener\">LinuxBCN</a> aporta la infraestructura digital: webs estàtics, automatitzacions, IA aplicada i programari lliure. El codi que fa visible el talent."
+about_pillar_editorial_title: Comunicació i editorial
+about_pillar_editorial_desc: "<a href=\"https://112books.eu\" target=\"_blank\" rel=\"noopener\">112books</a> aporta criteri editorial i experiència en comunicació cultural. Cada artista és una publicació única que mereix una narrativa coherent."
 
 section_com_label: — 04
 section_com_title: Com ho fem,<br><span>pas a pas</span>
