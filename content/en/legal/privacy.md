@@ -1,4 +1,5 @@
 ---
+translationKey: "privacy-policy"
 title: "Privacy policy"
 slug: "privacy"
 ---

@@ -1,4 +1,5 @@
 ---
+translationKey: "privacy-policy"
 title: "Política de privacitat"
 slug: "privacitat"
 ---

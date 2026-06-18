@@ -1,4 +1,5 @@
 ---
+translationKey: "legal-notice"
 title: "Avís legal"
 slug: "avis-legal"
 ---

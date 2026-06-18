@@ -1,4 +1,5 @@
 ---
+translationKey: "cookie-policy"
 title: "Cookie policy"
 slug: "cookies"
 ---
