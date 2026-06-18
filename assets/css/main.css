@@ -1395,6 +1395,10 @@ img, svg { display: block; }
   margin-bottom: 24px;
   color: var(--gold);
 }
+.service-page__icon svg {
+  width: 96px;
+  height: 96px;
+}
 .service-page__title {
   font-family: var(--font-display);
   font-size: clamp(2rem, 5vw, 3.2rem);
