@@ -1,0 +1,102 @@
+{{ define "main" }}
+{{ $lang := .Language.Lang }}
+<div class="service-page">
+  <div class="service-page__inner">
+
+    <a href="{{ if eq $lang "en" }}/en/{{ else }}/{{ end }}#que-fem" class="service-page__back">
+      ← {{ if eq $lang "en" }}Back to services{{ else }}Tornar als serveis{{ end }}
+    </a>
+
+    <header class="service-page__header">
+      <div class="service-page__icon" aria-hidden="true">
+        {{ .Params.icon | safeHTML }}
+      </div>
+      <h1 class="service-page__title">{{ .Title }}</h1>
+      {{ with .Params.tagline }}<p class="service-page__tagline">{{ . }}</p>{{ end }}
+    </header>
+
+    <div class="service-page__body">
+      {{ with .Params.challenge }}
+      <section class="service-page__section">
+        <h2>{{ if eq $lang "en" }}The challenge{{ else }}El repte{{ end }}</h2>
+        <p>{{ . }}</p>
+      </section>
+      {{ end }}
+
+      {{ with .Params.outcome }}
+      <section class="service-page__section service-page__section--highlight">
+        <h2>{{ if eq $lang "en" }}What changes{{ else }}Què canvia{{ end }}</h2>
+        <p>{{ . }}</p>
+      </section>
+      {{ end }}
+
+      {{ with .Params.deliverables }}
+      <section class="service-page__section">
+        <h2>{{ if eq $lang "en" }}What you get{{ else }}Rebràs{{ end }}</h2>
+        <ul class="service-page__list">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </section>
+      {{ end }}
+
+      {{ with .Params.personas }}
+      <section class="service-page__section">
+        <h2>{{ if eq $lang "en" }}For whom{{ else }}Per a qui{{ end }}</h2>
+        <ul class="service-page__list service-page__list--personas">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </section>
+      {{ end }}
+
+      {{ with .Params.faqs }}
+      <section class="service-page__section service-page__faq">
+        <h2>{{ if eq $lang "en" }}Frequently asked{{ else }}Preguntes freqüents{{ end }}</h2>
+        {{ range . }}
+        <details class="faq-item">
+          <summary class="faq-q">{{ .q }}</summary>
+          <p class="faq-a">{{ .a }}</p>
+        </details>
+        {{ end }}
+      </section>
+      {{ end }}
+    </div>
+
+    <div class="service-page__cta">
+      <p>{{ if eq $lang "en" }}Ready to start?{{ else }}Comencem?{{ end }}</p>
+      <a href="{{ if eq $lang "en" }}/en/{{ else }}/{{ end }}#contacte" class="service-page__cta-btn">
+        {{ if eq $lang "en" }}Tell us about your project{{ else }}Explica'ns el teu projecte{{ end }}
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "provider": { "@id": "https://ressona.eu/#organization" },
+  "areaServed": { "@type": "City", "name": "Barcelona" },
+  "url": "{{ .Permalink }}"
+}
+</script>
+{{ with .Params.faqs }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $i, $faq := . }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $faq.q | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ $faq.a | jsonify }} }
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+{{ end }}

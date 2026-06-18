@@ -98,3 +98,10 @@ footer_link_cookies: /legal/cookies
 footer_legal_notice: Avís legal
 footer_privacy: Privacitat
 footer_cookies: Galetes
+
+srv_more: "Saber-ne més →"
+srv_visual_url: "/serveis/identitat-visual/"
+srv_photo_url: "/serveis/fotografia-video/"
+srv_web_url: "/serveis/web-artistes/"
+srv_presskit_url: "/serveis/press-kit-digital/"
+srv_search_url: "/serveis/alta-cercadors-ia/"

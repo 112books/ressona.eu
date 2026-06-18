@@ -98,3 +98,10 @@ footer_link_cookies: /en/legal/cookies
 footer_legal_notice: Legal notice
 footer_privacy: Privacy
 footer_cookies: Cookies
+
+srv_more: "Learn more →"
+srv_visual_url: "/en/services/visual-identity/"
+srv_photo_url: "/en/services/photography-video/"
+srv_web_url: "/en/services/website-for-artists/"
+srv_presskit_url: "/en/services/digital-press-kit/"
+srv_search_url: "/en/services/search-ai-listing/"

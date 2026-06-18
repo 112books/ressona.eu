@@ -24,6 +24,7 @@
 | M5 | IndexNow ping a deploy workflow (Bing) | 2026-06-15 |
 | M6 | Sitemap producció: URLs `https://ressona.eu/` ✓ | 2026-06-18 |
 | M7 | SVGs decoratives: `aria-hidden="true"` | 2026-06-15 |
+| E1 | Pàgines de servei: 5 pàgines CA+EN (identitat visual, foto, web, press kit, cercadors) | 2026-06-18 |
 
 ---
 
@@ -62,14 +63,6 @@ Eliminar o actualitzar camp `Twitter: @linuxbcn` → handle Ressona quan existei
 ---
 
 ## 🎯 ESTRATÈGIC — Horitzó 3-6 mesos
-
-### E1 — Pàgines de servei dedicades (màxim impacte SEO)
-Prioritat per tràfic potencial:
-1. `/serveis/press-kit-digital/` — "press kit digital actor", "press kit artista"
-2. `/serveis/web-artistes-barcelona/` — "web per a artistes Barcelona"
-3. `/serveis/identitat-visual-artistes/` — "identitat visual artista"
-
-Format: 600-900 paraules, exemple visual, rang de preus, 3-5 FAQs amb `FAQPage` schema, CTA.
 
 ### E2 — Blog `/recursos/` (3 articles inicials)
 1. "Com construir la identitat digital com a artista emergent a Barcelona"

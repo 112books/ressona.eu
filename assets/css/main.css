@@ -1366,3 +1366,180 @@ img, svg { display: block; }
     overflow: visible;
   }
 }
+
+/* ── SERVICE PAGES ────────────────────────────────────── */
+.service-page {
+  background: var(--bg);
+  min-height: 100vh;
+  padding: 120px 48px 80px;
+}
+.service-page__inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.service-page__back {
+  display: inline-block;
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 48px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.service-page__back:hover { opacity: 1; }
+.service-page__header {
+  margin-bottom: 56px;
+}
+.service-page__icon {
+  margin-bottom: 24px;
+  color: var(--gold);
+}
+.service-page__title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+.service-page__tagline {
+  font-size: 1.05rem;
+  color: var(--blue);
+  font-weight: 300;
+  max-width: 520px;
+}
+.service-page__section {
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid var(--border);
+}
+.service-page__section:last-of-type {
+  border-bottom: none;
+}
+.service-page__section h2 {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+.service-page__section p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text);
+  max-width: 620px;
+}
+.service-page__section--highlight {
+  background: rgba(253,191,104,0.06);
+  border: 1px solid rgba(253,191,104,0.15);
+  border-radius: 2px;
+  padding: 28px 32px;
+  margin-bottom: 48px;
+}
+.service-page__section--highlight h2 { margin-bottom: 12px; }
+.service-page__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.service-page__list li {
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.6;
+  color: var(--text);
+}
+.service-page__list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  font-weight: 700;
+}
+.service-page__list--personas li::before { color: var(--blue); }
+.service-page__faq { border-bottom: none; }
+.faq-item {
+  border-bottom: 1px solid var(--border);
+  padding: 4px 0;
+}
+.faq-item:last-child { border-bottom: none; }
+.faq-q {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+  cursor: pointer;
+  padding: 14px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.faq-q::-webkit-details-marker { display: none; }
+.faq-q::after {
+  content: '+';
+  color: var(--gold);
+  font-size: 1.2rem;
+  font-weight: 300;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+.faq-item[open] .faq-q::after {
+  transform: rotate(45deg);
+}
+.faq-a {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: rgba(217,208,213,0.75);
+  padding-bottom: 16px;
+  max-width: 580px;
+}
+.service-page__cta {
+  margin-top: 64px;
+  padding: 48px;
+  background: var(--red);
+  text-align: center;
+}
+.service-page__cta p {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 24px;
+}
+.service-page__cta-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: background 0.2s, color 0.2s;
+}
+.service-page__cta-btn:hover {
+  background: var(--gold);
+  color: var(--bg);
+}
+.service-more {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.78rem;
+  color: var(--gold);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.service-more:hover { opacity: 1; }
+@media (max-width: 700px) {
+  .service-page { padding: 100px 24px 60px; }
+  .service-page__section--highlight { padding: 20px; }
+  .service-page__cta { padding: 32px 24px; }
+}
