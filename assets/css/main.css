@@ -1544,13 +1544,11 @@ img, svg { display: block; }
   letter-spacing: 0.04em;
   opacity: 0.8;
   transition: opacity 0.2s;
-  position: relative;
-  z-index: 1;
 }
 .service-more::after {
   content: '';
   position: absolute;
-  inset: -999px;
+  inset: 0;
 }
 .service-more:hover { opacity: 1; }
 @media (max-width: 700px) {
