@@ -1,11 +1,8 @@
 ---
 title: Informació legal
-build:
+_build:
+  render: never
   list: never
 sitemap:
   disable: true
 ---
-
-- [Avís legal](avis-legal)
-- [Política de privacitat](privacitat)
-- [Política de cookies](cookies)
