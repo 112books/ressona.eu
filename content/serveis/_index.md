@@ -1,6 +1,6 @@
 ---
 title: Serveis
-_build:
+build:
   render: never
   list: never
 sitemap:

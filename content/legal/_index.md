@@ -1,6 +1,6 @@
 ---
 title: Informació legal
-_build:
+build:
   render: never
   list: never
 sitemap:
