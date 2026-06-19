@@ -1,15 +1,132 @@
 {
-  "generated": "2026-06-18T22:48:55.531607Z",
+  "generated": "2026-06-19T00:17:45.603596Z",
   "period": {
-    "start": "2025-06-18",
-    "end": "2026-06-18"
+    "start": "2025-06-19",
+    "end": "2026-06-19"
   },
-  "total": 0,
+  "total": 96,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-06-12",
+      "count": 8
+    },
+    {
+      "date": "2026-06-13",
+      "count": 20
+    },
+    {
+      "date": "2026-06-14",
+      "count": 3
+    },
+    {
+      "date": "2026-06-15",
+      "count": 7
+    },
+    {
+      "date": "2026-06-16",
+      "count": 11
+    },
+    {
+      "date": "2026-06-17",
+      "count": 4
+    },
+    {
+      "date": "2026-06-18",
+      "count": 38
+    },
+    {
+      "date": "2026-06-19",
+      "count": 5
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 62
+    },
+    {
+      "path": "/#que-fem",
+      "count": 5
+    },
+    {
+      "path": "/serveis/estrategia-xarxes",
+      "count": 4
+    },
+    {
+      "path": "/#quisom",
+      "count": 4
+    },
+    {
+      "path": "/#per-qui",
+      "count": 4
+    },
+    {
+      "path": "/#contacte",
+      "count": 3
+    },
+    {
+      "path": "/#com-treballem",
+      "count": 3
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 1
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 1
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 1
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 1
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 1
+    },
+    {
+      "path": "/en",
+      "count": 1
+    },
+    {
+      "path": "/serveis/cartelleria-materials",
+      "count": 1
+    },
+    {
+      "path": "/legal/privacitat",
+      "count": 1
+    },
+    {
+      "path": "/serveis/identitat-visual",
+      "count": 1
+    },
+    {
+      "path": "/serveis/fotografia-video",
+      "count": 1
+    },
+    {
+      "path": "/legal/avis-legal",
+      "count": 1
+    }
+  ],
+  "by_lang": {
+    "en": 6
+  },
+  "by_section": {
+    "inici": 63,
+    "#que-fem": 6,
+    "serveis": 7,
+    "#quisom": 5,
+    "#per-qui": 5,
+    "#contacte": 4,
+    "#com-treballem": 4,
+    "legal": 2
+  },
   "browsers": [
     {
       "name": "Chrome",
@@ -127,7 +244,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 41
+      "count": 54
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 2
     },
     {
       "name": "bing.com",
