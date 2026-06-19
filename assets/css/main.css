@@ -249,7 +249,7 @@ img, svg { display: block; }
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 180px 48px 100px;
+  padding: 180px 0 100px;
   position: relative;
 }
 
@@ -265,7 +265,8 @@ img, svg { display: block; }
   position: relative;
   z-index: 2;
   overflow: visible;
-  padding: 0 4vw;
+  padding: 0 3vw;
+  width: 100%;
 }
 
 .hero-brand-wrap {
@@ -280,7 +281,7 @@ img, svg { display: block; }
 
 .hero-brand {
   font-family: var(--font-display);
-  font-size: clamp(6rem, 18vw, 14rem);
+  font-size: clamp(2.5rem, 15vw, 14rem);
   font-weight: 800;
   line-height: 0.88;
   letter-spacing: -0.03em;
