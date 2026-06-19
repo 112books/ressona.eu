@@ -143,8 +143,12 @@
       gap: 1rem;
       flex-wrap: wrap;
     }
-    .topbar-logo { color: var(--ink3); letter-spacing: .12em; font-size: 11px; text-transform: uppercase; }
-    .topbar-logo em { color: var(--accent); font-style: normal; }
+    .topbar-logo { display: flex; align-items: center; gap: .75rem; text-decoration: none; }
+    .topbar-logo .nav-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.35rem; color: var(--ink); letter-spacing: normal; text-transform: none; line-height: 1; white-space: nowrap; }
+    .topbar-logo .nav-logo .flip-r { display: inline-block; transform: scaleX(-1); color: var(--accent); }
+    .topbar-logo .nav-logo .shift-up { vertical-align: 0.12em; font-size: 0.85em; }
+    .topbar-logo .nav-logo .shift-down { vertical-align: -0.12em; font-size: 0.85em; }
+    .topbar-logo .logo-sep { color: var(--ink3); font-size: 10px; letter-spacing: .15em; text-transform: uppercase; font-family: 'IBM Plex Mono', monospace; }
     .topbar-meta { flex: 1; min-width: 0; }
     .topbar-gen { font-size: 10px; color: var(--ink3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .topbar-gen strong { color: var(--ink2); }
@@ -301,7 +305,10 @@
   <div id="dashboard">
 
   <div class="topbar">
-    <div class="topbar-logo" id="topbar-logo"></div>
+    <div class="topbar-logo" id="topbar-logo">
+      <span class="nav-logo"><span class="flip-r">R</span>e<span class="shift-up">s</span><span class="shift-down">s</span><span class="shift-down">o</span>na</span>
+      <span class="logo-sep">/ Stats</span>
+    </div>
     <div class="topbar-meta">
       <div class="topbar-gen" id="topbar-gen">carregant…</div>
     </div>
@@ -416,8 +423,6 @@
 <script>
 /* ══ INIT ════════════════════════════════════════════════════ */
 function initDashboard() {
-document.getElementById('topbar-logo').innerHTML =
-  CFG.siteName.toUpperCase().replace(/(\w+)$/, '<em>$1</em>') + ' / STATS';
 document.getElementById('gc-link').href = CFG.gcUrl;
 document.title = 'Stats · ' + CFG.siteName;
 loadData();
