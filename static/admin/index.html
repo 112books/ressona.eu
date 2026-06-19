@@ -263,6 +263,8 @@
     }
     .insight em { color: var(--ink); font-style: normal; }
     .insight-line::before { content: '→ '; color: var(--accent); }
+    .funnel-note { margin-top: .75rem; font-size: 11px; color: var(--ink2); border-top: 1px solid rgba(192,169,179,0.1); padding-top: .6rem; }
+    .funnel-note strong { color: var(--accent); }
 
     /* ── Empty ──────────────────────────────────────────────── */
     .empty { color: var(--ink3); font-size: 11px; font-style: italic; padding: .4rem 0; display: block; }
@@ -321,6 +323,7 @@
       <div class="kpi"><dt>30 dies</dt><dd><div class="kpi-value" id="kpi-30d">—</div><div class="kpi-sub">últims 30 dies</div></dd></div>
       <div class="kpi"><dt>total any</dt><dd><div class="kpi-value" id="kpi-total">—</div><div class="kpi-sub" id="sub-total"></div></dd></div>
       <div class="kpi"><dt>mitjana/dia</dt><dd><div class="kpi-value" id="kpi-pps">—</div><div class="kpi-sub">visites diàries (mitjana)</div></dd></div>
+      <div class="kpi"><dt>tendència</dt><dd><div class="kpi-value" id="kpi-trend">—</div><div class="kpi-sub">28d vs 28d anterior</div></dd></div>
     </dl>
 
     <!-- Tabs -->
@@ -344,6 +347,9 @@
       </div>
       <div class="chart-wrap"><canvas id="chart-canvas"></canvas></div>
       <div class="chart-summary" id="chart-summary"></div>
+      <h2 class="section-title">visites per dia de la setmana</h2>
+      <div id="weekday-wrap" class="bars"></div>
+
       <div id="insight-temporal" class="insight" style="display:none">
         <span class="label">// observació</span>
         <div id="insight-temporal-body"></div>
@@ -361,7 +367,13 @@
       <h2 class="section-title">pàgines top</h2>
       <div id="pages-wrap" class="bars"></div>
 
-      <h2 class="section-title">d'on vénen les visites</h2>
+      <h2 class="section-title">funnel home → serveis</h2>
+      <div id="funnel-wrap"></div>
+
+      <h2 class="section-title">origen del trànsit</h2>
+      <div id="origin-wrap" class="bars"></div>
+
+      <h2 class="section-title">referrers detallats</h2>
       <div id="refs-wrap" class="bars"></div>
 
       <h2 class="section-title">localització</h2>
@@ -484,9 +496,13 @@ function renderAll(data) {
   document.getElementById('topbar-gen').innerHTML = 'Actualitzat: <strong>' + gen + '</strong>';
 
   renderChart(data);
+  renderTrend(data);
+  renderWeekday(data);
   renderLang(data);
   renderSections(data);
   renderPages(data);
+  renderFunnel(data);
+  renderOrigin(data);
   renderRefs(data);
   renderLocations(data);
   renderDevices(data);
@@ -595,7 +611,11 @@ function groupHits(days, groupBy) {
 /* ══ PÀGINES TAB ═════════════════════════════════════════════ */
 function renderLang(data) {
   const el = document.getElementById('lang-wrap');
-  const by_lang = data.by_lang || {};
+  const by_lang = Object.assign({}, data.by_lang || {});
+  const explicitTotal = Object.values(by_lang).reduce((s,v) => s+v, 0);
+  const globalTotal = data.total || 0;
+  const caImplicit = globalTotal - explicitTotal;
+  if (caImplicit > 0) by_lang['ca'] = (by_lang['ca'] || 0) + caImplicit;
   const total = Object.values(by_lang).reduce((s,v) => s+v, 0);
   if (!total) { el.innerHTML = '<span class="empty">sense dades d\'idioma</span>'; return; }
 
@@ -688,18 +708,118 @@ function renderBrowsersSystems(data) {
   renderBars('systems-wrap',  systems);
 }
 
+/* ══ TENDÈNCIA ═══════════════════════════════════════════════ */
+function renderTrend(data) {
+  const hbd  = data.hits_by_day || [];
+  const curr = sumDays(hbd, daysAgo(28), daysAgo(1));
+  const prev = sumDays(hbd, daysAgo(56), daysAgo(29));
+  const el   = document.getElementById('kpi-trend');
+  if (!el) return;
+  if (!prev) { el.textContent = '—'; return; }
+  const pct  = Math.round((curr - prev) / prev * 100);
+  el.textContent = (pct >= 0 ? '+' : '') + pct + '%';
+  el.style.color = pct >= 0 ? '#fdbf68' : '#c0a9b3';
+}
+
+/* ══ DIA DE LA SETMANA ═══════════════════════════════════════ */
+function renderWeekday(data) {
+  const hbd = data.hits_by_day || [];
+  if (!hbd.length) return;
+  const DAYS = ['Dg','Dl','Dm','Dc','Dj','Dv','Ds'];
+  const counts = [0,0,0,0,0,0,0];
+  const occur  = [0,0,0,0,0,0,0];
+  hbd.forEach(({date, count}) => {
+    const d = new Date(date + 'T12:00:00').getDay();
+    counts[d] += count;
+    occur[d]++;
+  });
+  const avgs = counts.map((c, i) => occur[i] ? Math.round(c / occur[i]) : 0);
+  const items = DAYS.map((name, i) => ({ name, count: avgs[i] }));
+  renderBars('weekday-wrap', items, { colorClass: 'ink2' });
+}
+
+/* ══ FUNNEL HOME → SERVEIS ═══════════════════════════════════ */
+function renderFunnel(data) {
+  const el    = document.getElementById('funnel-wrap');
+  if (!el) return;
+  const hits  = data.hits || [];
+  const total = data.total || 1;
+  const homeCount     = hits.filter(h => h.path === '/' || h.path === '/en' || h.path === '/en/').reduce((s,h) => s+h.count, 0);
+  const serveisHits   = hits.filter(h => /\/serveis\//.test(h.path));
+  const serveisCount  = serveisHits.reduce((s,h) => s+h.count, 0);
+  const sectionCount  = hits.filter(h => /#/.test(h.path)).reduce((s,h) => s+h.count, 0);
+
+  if (!homeCount && !serveisCount) {
+    el.innerHTML = '<span class="empty">sense dades de funnel encara</span>';
+    return;
+  }
+
+  const rows = [
+    { label: 'Home (/)',         count: homeCount,    pct: Math.round(homeCount/total*100) },
+    { label: 'Seccions (#hash)', count: sectionCount, pct: Math.round(sectionCount/total*100) },
+    { label: 'Serveis',          count: serveisCount, pct: Math.round(serveisCount/total*100) },
+  ];
+  el.innerHTML = rows.map(r =>
+    '<div class="bar-row">' +
+    '<div class="bar-label">' + r.label + '</div>' +
+    '<div class="bar-track"><div class="bar-fill ink2" style="width:' + r.pct + '%">' +
+    (r.pct > 8 ? '<span class="bar-pct">' + r.pct + '%</span>' : '') + '</div></div>' +
+    '<div class="bar-count">' + fmt(r.count) + '</div>' +
+    '</div>'
+  ).join('');
+
+  if (serveisCount > 0 && homeCount > 0) {
+    const ratio = Math.round(serveisCount/homeCount*100);
+    el.innerHTML += '<div class="funnel-note">De cada 100 visites a la home, <strong>' + ratio + '</strong> acaben a una pàgina de servei.</div>';
+  }
+}
+
+/* ══ ORIGEN DEL TRÀNSIT ══════════════════════════════════════ */
+function renderOrigin(data) {
+  const refs = data.refs || [];
+  const SEARCH = ['google','bing','duckduckgo','yahoo','ecosia','brave search','qwant'];
+  const SOCIAL  = ['instagram','facebook','twitter','x.com','linkedin','tiktok','youtube','threads'];
+  let cercadors = 0, xarxes = 0, directe = 0, altres = 0;
+  refs.forEach(r => {
+    const name = (r.name || '').toLowerCase();
+    if (name === 'desconegut' || name === 'unknown' || !name) directe += r.count;
+    else if (SEARCH.some(s => name.includes(s))) cercadors += r.count;
+    else if (SOCIAL.some(s => name.includes(s))) xarxes += r.count;
+    else altres += r.count;
+  });
+  const items = [
+    { name: 'Directe / Desconegut', count: directe },
+    { name: 'Cercadors (Google, Bing…)', count: cercadors },
+    { name: 'Xarxes socials', count: xarxes },
+    { name: 'Altres webs', count: altres },
+  ].filter(i => i.count > 0).sort((a,b) => b.count - a.count);
+  renderBars('origin-wrap', items, { colorClass: 'blue' });
+}
+
 /* ══ INSIGHTS ════════════════════════════════════════════════ */
 function renderInsightTemporal(data) {
   const hbd = data.hits_by_day || [];
   if (!hbd.length) return;
   const total7  = sumDays(hbd, daysAgo(7),  isoToday());
   const total30 = sumDays(hbd, daysAgo(30), isoToday());
+  const prev30  = sumDays(hbd, daysAgo(60), daysAgo(31));
   const avg7    = Math.round(total7 / 7);
   const max     = hbd.reduce((a,b) => a.count>b.count?a:b, hbd[0]);
+
+  const DAYS_CA = ['Diumenge','Dilluns','Dimarts','Dimecres','Dijous','Divendres','Dissabte'];
+  const dayCounts = [0,0,0,0,0,0,0], dayOccur = [0,0,0,0,0,0,0];
+  hbd.forEach(({date, count}) => {
+    const d = new Date(date + 'T12:00:00').getDay();
+    dayCounts[d] += count; dayOccur[d]++;
+  });
+  const dayAvgs = dayCounts.map((c, i) => dayOccur[i] ? c / dayOccur[i] : 0);
+  const bestDay = dayAvgs.indexOf(Math.max(...dayAvgs));
+
   const lines = [
     'Mitjana dels últims 7 dies: <em>' + fmt(avg7) + ' visites/dia</em>.',
     'El dia amb més trànsit va ser el <em>' + fmtDateShort(max.date) + '</em> amb <em>' + fmt(max.count) + ' visites</em>.',
-    total30 > 0 ? 'Aquest mes: <em>' + fmt(total30) + ' visites</em> en 30 dies.' : '',
+    total30 > 0 ? 'Aquest mes (30d): <em>' + fmt(total30) + ' visites</em>' + (prev30 > 0 ? ' — mes anterior: ' + fmt(prev30) : '') + '.' : '',
+    dayAvgs[bestDay] > 0 ? 'El <em>' + DAYS_CA[bestDay] + '</em> és el dia amb més trànsit de mitjana. Ideal per publicar a xarxes.' : '',
   ].filter(Boolean);
   showInsight('temporal', lines);
 }
@@ -708,25 +828,53 @@ function renderInsightPagines(data) {
   const total = data.total || 0;
   if (!total) return;
   const lines = [];
-  const byLang = Object.entries(data.by_lang||{}).sort((a,b)=>b[1]-a[1]);
+  const NAMES = {ca:'Català',es:'Castellà',en:'Anglès',fr:'Francès',de:'Alemany',it:'Italià',pt:'Portuguès'};
+
+  const by_lang = Object.assign({}, data.by_lang || {});
+  const explicitTotal = Object.values(by_lang).reduce((s,v) => s+v, 0);
+  const caImplicit = total - explicitTotal;
+  if (caImplicit > 0) by_lang['ca'] = (by_lang['ca'] || 0) + caImplicit;
+  const byLang = Object.entries(by_lang).sort((a,b)=>b[1]-a[1]);
   const bySec  = Object.entries(data.by_section||{}).sort((a,b)=>b[1]-a[1]);
+
   if (byLang.length) {
     const [lang, cnt] = byLang[0];
-    const NAMES = {ca:'Català',es:'Castellà',en:'Anglès',fr:'Francès',de:'Alemany',it:'Italià',pt:'Portuguès'};
     lines.push('L\'idioma principal és el <em>' + (NAMES[lang]||lang) + '</em> (' + Math.round(cnt/total*100) + '% del trànsit).');
+    if (byLang.length > 1) {
+      const [l2, c2] = byLang[1];
+      lines.push('L\'<em>' + (NAMES[l2]||l2) + '</em> representa el ' + Math.round(c2/total*100) + '% — audiència internacional present.');
+    }
   }
   if (bySec.length) {
     const [sec, cnt] = bySec[0];
     const name = CFG.sectionNames[sec] || sec;
     lines.push('La secció més visitada és <em>' + name + '</em> amb ' + fmt(cnt) + ' visites (' + Math.round(cnt/total*100) + '% del total).');
   }
-  if (bySec.length > 1) {
-    const [sec2, cnt2] = bySec[1];
-    lines.push('La segueix <em>' + (CFG.sectionNames[sec2]||sec2) + '</em> amb ' + fmt(cnt2) + ' visites.');
+
+  const refs = data.refs || [];
+  const SEARCH = ['google','bing','duckduckgo','yahoo','ecosia'];
+  const SOCIAL  = ['instagram','facebook','twitter','x.com','linkedin','tiktok'];
+  let cercadors = 0, xarxes = 0, directe = 0;
+  refs.forEach(r => {
+    const name = (r.name||'').toLowerCase();
+    if (!name || name === 'desconegut') directe += r.count;
+    else if (SEARCH.some(s => name.includes(s))) cercadors += r.count;
+    else if (SOCIAL.some(s => name.includes(s))) xarxes += r.count;
+    else directe += r.count;
+  });
+  if (!refs.length) directe = total;
+  const directePct = Math.round(directe/total*100);
+  if (directePct > 70) lines.push('<em>' + directePct + '% del trànsit és directe</em> — el teu públic ja et coneix o ve des de xarxes sense rastre (Instagram Stories, WhatsApp).');
+  if (cercadors > 0) lines.push('<em>' + fmt(cercadors) + ' visites</em> des de cercadors — el SEO comença a funcionar.');
+  if (xarxes > 0) lines.push('<em>' + fmt(xarxes) + ' visites</em> des de xarxes socials.');
+
+  const locs = data.locations || [];
+  if (locs.length) {
+    const top = locs[0];
+    const topPct = Math.round(top.count/total*100);
+    lines.push('<em>' + topPct + '% del trànsit</em> ve de <em>' + top.name + '</em>.' + (locs[1] ? ' Seguit de ' + locs[1].name + ' (' + Math.round(locs[1].count/total*100) + '%).' : ''));
   }
-  if (!(data.refs||[]).length) {
-    lines.push('Sense referrers detectats: la majoria del trànsit és directe (marcadors, xarxes socials sense etiquetatge, navegació privada).');
-  }
+
   showInsight('pagines', lines);
 }
 
