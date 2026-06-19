@@ -401,9 +401,37 @@
       .logo-donot   { grid-template-columns: repeat(2,1fr); }
       .files-grid   { grid-template-columns: 1fr; }
     }
+    /* ── Topbar ── */
+    .topbar {
+      display: flex; align-items: center; gap: 1rem;
+      padding: .7rem 1.5rem;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky; top: 0; z-index: 100;
+    }
+    .topbar-logo { color: rgba(217,208,213,0.35); letter-spacing: .12em; font-size: 11px; text-transform: uppercase; font-family: 'IBM Plex Mono', monospace; }
+    .topbar-logo em { color: var(--gold); font-style: normal; }
+    .topbar-actions { display: flex; gap: .6rem; align-items: center; margin-left: auto; }
+    .btn-sm {
+      background: transparent; border: 1px solid rgba(192,169,179,0.2);
+      color: rgba(217,208,213,0.6); font-size: 10px; letter-spacing: .1em;
+      padding: .3rem .7rem; cursor: pointer; text-decoration: none;
+      font-family: 'IBM Plex Mono', monospace; text-transform: uppercase;
+      transition: border-color .2s, color .2s;
+    }
+    .btn-sm:hover { border-color: var(--gold); color: var(--gold); }
   </style>
 </head>
 <body>
+
+<div class="topbar">
+  <div class="topbar-logo">RESSONA / <em>MARCA</em></div>
+  <div class="topbar-actions">
+    <a href="/admin/" class="btn-sm">← Stats</a>
+    <a href="/admin/plantilla.html" class="btn-sm">Plantilla</a>
+    <a href="/" class="btn-sm" target="_blank" rel="noopener noreferrer">↗ Site</a>
+  </div>
+</div>
 
 <!-- ══ COVER ══════════════════════════════════════════════════════ -->
 <section class="cover">
