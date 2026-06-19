@@ -366,6 +366,10 @@
 
     <!-- TAB: Pàgines -->
     <div id="tab-pagines" class="tab-panel">
+      <h2 class="section-title">profunditat de navegació</h2>
+      <div id="depth-wrap" class="bars"></div>
+      <div id="depth-note" style="font-size:10px;color:var(--ink3);margin-top:.4rem"></div>
+
       <h2 class="section-title">visites per idioma</h2>
       <div id="lang-wrap"></div>
 
@@ -712,6 +716,32 @@ function renderBrowsersSystems(data) {
   const systems  = (data.systems ||[]).map(s => ({ name: getIcon(s.name||'',OS_ICON)     +' '+(s.name||'?'), count: s.count }));
   renderBars('browsers-wrap', browsers);
   renderBars('systems-wrap',  systems);
+}
+
+/* ══ PROFUNDITAT DE NAVEGACIÓ ════════════════════════════════ */
+function renderDepth(data) {
+  const hits  = data.hits || [];
+  const total = data.total || 1;
+  const home     = hits.filter(h => /^\/?(en\/?)?$/.test(h.path)).reduce((s,h) => s+h.count, 0);
+  const sections = hits.filter(h => h.path.includes('#')).reduce((s,h) => s+h.count, 0);
+  const serveis  = hits.filter(h => h.path.includes('/serveis/')).reduce((s,h) => s+h.count, 0);
+  const altres   = total - home - sections - serveis;
+
+  const items = [
+    { name: 'Portada (entrada)',        count: home,     title: 'Visites que arriben a la home' },
+    { name: 'Seccions (exploren)',       count: sections, title: 'Naveguen per les seccions de la pàgina' },
+    { name: 'Serveis (compromís alt)',   count: serveis,  title: 'Arriben a pàgines de servei específiques' },
+    { name: 'Altres (legal…)',           count: altres,   title: 'Legal i altres pàgines' },
+  ].filter(i => i.count > 0);
+
+  renderBars('depth-wrap', items, { colorClass: 'ink2' });
+
+  const beyond = sections + serveis;
+  const beyondPct = Math.round(beyond / total * 100);
+  const noteEl = document.getElementById('depth-note');
+  if (noteEl) noteEl.textContent =
+    '→ ' + beyondPct + '% del trànsit va més lluny de la portada' +
+    (serveis > 0 ? ' · ' + Math.round(serveis/total*100) + '% arriba a un servei concret' : '') + '.';
 }
 
 /* ══ TENDÈNCIA ═══════════════════════════════════════════════ */
