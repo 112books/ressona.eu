@@ -62,3 +62,14 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: update analytics [skip ci]"
           git pull --rebase
           git push
+
+      - name: Push analytics to gh-pages
+        run: |
+          cp static/admin/analytics.json /tmp/analytics.json
+          git fetch origin gh-pages
+          git checkout gh-pages
+          cp /tmp/analytics.json admin/analytics.json
+          git add admin/analytics.json
+          git diff --staged --quiet || git commit -m "chore: update analytics live [skip ci]"
+          git push origin gh-pages
+          git checkout main
