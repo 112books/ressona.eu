@@ -52,10 +52,26 @@
       content: '';
       position: absolute;
       top: -10%; right: -5%;
-      width: 60vw; height: 60vw;
-      background: radial-gradient(ellipse at center, rgba(80,19,69,0.18) 0%, transparent 70%);
+      width: 70vw; height: 70vw;
+      background: radial-gradient(ellipse at center, rgba(80,19,69,0.45) 0%, rgba(80,19,69,0.12) 40%, transparent 70%);
       pointer-events: none;
     }
+    .cover-rings {
+      position: absolute;
+      top: -10%; right: -5%;
+      width: 70vw; height: 70vw;
+      pointer-events: none;
+    }
+    .cover-rings circle {
+      fill: none;
+      stroke: rgba(192,169,179,0.12);
+      stroke-width: 1;
+    }
+    .cover-rings circle:nth-child(1) { stroke: rgba(253,191,104,0.18); stroke-width: 1.5; }
+    .cover-rings circle:nth-child(2) { stroke: rgba(192,169,179,0.14); }
+    .cover-rings circle:nth-child(3) { stroke: rgba(192,169,179,0.10); }
+    .cover-rings circle:nth-child(4) { stroke: rgba(192,169,179,0.07); }
+    .cover-rings circle:nth-child(5) { stroke: rgba(192,169,179,0.04); }
     .cover-label {
       font-family: 'Syne', sans-serif;
       font-weight: 800;
@@ -435,6 +451,13 @@
 
 <!-- ══ COVER ══════════════════════════════════════════════════════ -->
 <section class="cover">
+  <svg class="cover-rings" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="50" cy="50" r="18"/>
+    <circle cx="50" cy="50" r="30"/>
+    <circle cx="50" cy="50" r="42"/>
+    <circle cx="50" cy="50" r="56"/>
+    <circle cx="50" cy="50" r="72"/>
+  </svg>
   <div class="cover-label">Ressona · Identitat Visual</div>
   <div class="cover-logo">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 340 50" aria-label="Ressona">
