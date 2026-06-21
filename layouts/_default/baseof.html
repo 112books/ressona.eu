@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' gc.zgo.at 'unsafe-inline'; img-src 'self' data:; connect-src 'self' ressona.goatcounter.com formspree.io; frame-ancestors 'none'; base-uri 'self'">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), interest-cohort=()">
   <title>{{ if .IsHome }}{{ i18n "hero_brand" }} · {{ i18n "hero_tagline" }}{{ if and .IsHome (eq .Site.Language.Lang "ca") }} a Barcelona{{ end }}{{ else }}{{ .Title }} · {{ i18n "hero_brand" }}{{ end }}</title>
   <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ i18n "hero_tagline" }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
@@ -25,8 +29,10 @@
   <meta name="theme-color" content="#34454c">
   <link rel="icon" href="/img/ressona-eu-rounded-192.png" type="image/png">
   <link rel="apple-touch-icon" href="/img/ressona-eu-rounded-192.png">
-  <link rel="preload" href="/fonts/syne-800.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/syne-800.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
   <link rel="preload" href="/fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="dns-prefetch" href="https://ressona.goatcounter.com">
+  <link rel="preconnect" href="https://ressona.goatcounter.com" crossorigin>
   {{ $css := resources.Get "css/main.css" | resources.Minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   {{ if .Site.Params.goatcounter }}
@@ -233,6 +239,9 @@
             window.goatcounter.count({ path: gcLangPrefix + '#' + sid, event: false });
           }
           revealObserver.unobserve(entry.target);
+          entry.target.addEventListener('animationend', function() {
+            entry.target.style.willChange = 'auto';
+          }, { once: true });
         }
       });
     }, { threshold: 0.15 });

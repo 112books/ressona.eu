@@ -2,33 +2,33 @@
 <header class="site-header">
   <div class="header-inner">
     <div class="header-row header-row--top">
-      <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}" class="nav-brand"><span class="nav-logo"><span class="flip-r">R</span>e<span class="shift-up">s</span><span class="shift-down">s</span><span class="shift-down">o</span>na</span></a>
-      <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}" class="nav-brand-scrolled"><img src="/img/ressona-eu-rounded-192.png" alt="Ressona" class="nav-scrolled-logo"></a>
+      <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}" class="nav-brand" aria-label="Ressona — {{ i18n "hero_tagline" }}"><span class="nav-logo" aria-hidden="true"><span class="flip-r">R</span>e<span class="shift-up">s</span><span class="shift-down">s</span><span class="shift-down">o</span>na</span></a>
+      <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}" class="nav-brand-scrolled" aria-label="Ressona — {{ i18n "hero_tagline" }}"><img src="/img/ressona-eu-rounded-192.png" alt="Ressona" class="nav-scrolled-logo" loading="lazy"></a>
     </div>
     <div class="header-row header-row--nav">
       <nav class="nav-links" aria-label="{{ if eq .Language.Lang "ca" }}Navegació principal{{ else }}Main navigation{{ end }}">
-        <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#que-fem">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="{{ i18n "nav_que_fem" }}"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#que-fem" aria-label="{{ i18n "nav_que_fem" }}">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
           <span>{{ i18n "nav_que_fem" }}</span>
         </a>
-        <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#per-qui">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="{{ i18n "nav_per_qui" }}"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#per-qui" aria-label="{{ i18n "nav_per_qui" }}">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
           <span>{{ i18n "nav_per_qui" }}</span>
         </a>
-        <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#com-treballem">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="{{ i18n "nav_com_treballem" }}"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#com-treballem" aria-label="{{ i18n "nav_com_treballem" }}">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
           <span>{{ i18n "nav_com_treballem" }}</span>
         </a>
-        <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#contacte">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="{{ i18n "nav_contacte" }}"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#contacte" aria-label="{{ i18n "nav_contacte" }}">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           <span>{{ i18n "nav_contacte" }}</span>
         </a>
       </nav>
       <div class="header-lang">
         {{ if eq .Language.Lang "ca" }}
-          <a href="/en/" class="lang-link">{{ i18n "nav_lang" }}</a>
+          <a href="/en/" class="lang-link" aria-label="Switch to English" lang="en">{{ i18n "nav_lang" }}</a>
         {{ else }}
-          <a href="/" class="lang-link">{{ i18n "nav_lang" }}</a>
+          <a href="/" class="lang-link" aria-label="Canvia a català" lang="ca">{{ i18n "nav_lang" }}</a>
         {{ end }}
       </div>
     </div>

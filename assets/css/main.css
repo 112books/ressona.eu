@@ -407,6 +407,8 @@ img, svg { display: block; }
 /* SECTION common */
 .section {
   padding: 120px 48px;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 800px;
 }
 
 .section--dark {
@@ -542,6 +544,7 @@ img, svg { display: block; }
   text-align: center;
   padding: 48px 40px;
   background: var(--bg);
+  contain: layout style;
   position: relative;
   transition: background 0.4s;
 }
