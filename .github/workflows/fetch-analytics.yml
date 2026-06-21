@@ -59,6 +59,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           cp static/admin/analytics.json /tmp/analytics_fresh.json
+          git checkout -- static/admin/analytics.json
           git pull --rebase
           cp /tmp/analytics_fresh.json static/admin/analytics.json
           git add static/admin/analytics.json
