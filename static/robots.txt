@@ -7,10 +7,19 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: anthropic-ai
+Allow: /
+
 User-agent: PerplexityBot
 Allow: /
 
 User-agent: Googlebot-Extended
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: cohere-ai
 Allow: /
 
 User-agent: CCBot
@@ -21,3 +30,4 @@ Allow: /
 Disallow: /admin/
 
 Sitemap: https://ressona.eu/sitemap.xml
+LLMs: https://ressona.eu/llms.txt
