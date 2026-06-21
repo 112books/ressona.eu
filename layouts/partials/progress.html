@@ -1,6 +1,6 @@
 <div class="rprog-bar" id="rprogBar"></div>
 <div class="rprog-pct" id="rprogPct">0%</div>
-<button class="rprog-top" id="rprogTop" type="button" aria-label="Torna a dalt">↑</button>
+<button class="rprog-top" id="rprogTop" type="button" aria-label="Torna a dalt" tabindex="-1">↑</button>
 
 <style>
 .rprog-bar {
@@ -102,6 +102,7 @@
     var show = scrollTop > 300;
     pct.classList.toggle('is-visible', show);
     btn.classList.toggle('is-visible', show);
+    btn.tabIndex = show ? 0 : -1;
   }
 
   update();

@@ -50,6 +50,7 @@
     "url": "{{ .Site.BaseURL }}",
     "description": "Assessoria i acompanyament en identitat digital per a artistes a Barcelona. Web, identitat visual, press kit, xarxes i alta a cercadors.",
     "inLanguage": ["ca", "en"],
+    "dateModified": "{{ now.Format "2006-01-02" }}",
     "publisher": { "@id": "https://ressona.eu/#organization" }
   }
   </script>
@@ -57,7 +58,7 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": ["Organization", "ProfessionalService"],
+    "@type": ["Organization", "ProfessionalService", "LocalBusiness"],
     "@id": "https://ressona.eu/#organization",
     "name": "Ressona",
     "description": "Assessoria i acompanyament en identitat digital per a artistes a Barcelona. Combina fotografia, identitat visual, tecnologia i automatització.",
@@ -89,15 +90,15 @@
       "@type": "OfferCatalog",
       "name": "Serveis Ressona",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Identitat visual", "description": "Logotip, paleta de color i to de comunicació. La base visual de la marca artística." } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fotografia i vídeo", "description": "Sessions fotogràfiques i de vídeo pensades per al press kit de l'artista." } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web sincronitzada", "description": "Lloc web com a aparador, eina i agenda. Tot connectat." } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Press kit digital", "description": "Bio, fotos, vídeos i contacte en un sol lloc accessible per a programadors i mitjans." } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Alta a cercadors i IA", "description": "Posicionament a Google, Bing, Perplexity i ChatGPT per a artistes." } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Xarxes automàtiques", "description": "Gestió i automatització de xarxes socials per a artistes." } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Estratègia de xarxes", "description": "Calendari editorial, formats i veu per a xarxes socials d'artistes." } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IA amb criteri", "description": "Integració d'eines d'intel·ligència artificial en el flux creatiu i de comunicació." } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cartelleria i materials", "description": "Pòsters, flyers i targetes de visita. El disseny que passa a paper." } }
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Identitat visual", "description": "Assessoria completa d'identitat visual per a artistes: disseny de logotip, paleta de color, tipografia i to de comunicació. Inclou manual d'estil per mantenir coherència en tots els suports." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fotografia i vídeo", "description": "Sessions de fotografia i vídeo per al press kit digital de l'artista. Llum natural i artificial per capturar l'essència artística. Imatges editades per a web, xarxes i mitjans." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web sincronitzada", "description": "Lloc web per a artistes com a aparador, eina i agenda. Sincronitzat amb xarxes, calendari i formulari de contacte. Responsive, ràpid i optimitzat per a cercadors." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Press kit digital", "description": "Un sol lloc amb tot el que necessita un artista per obrir portes: bio, fotos, vídeos, contacte i enllaços. En format web i PDF. Per a programadors, mitjans i sales." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Alta a cercadors i IA", "description": "Alta del perfil artístic a Google, Bing, Perplexity i ChatGPT. Optimització de contingut per aparèixer quan et busquen. Inclou anàlisi de paraules clau i seguiment de posicionament." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Xarxes automàtiques", "description": "Gestió i automatització de xarxes socials per a artistes: calendari editorial, formats i veu de marca. Publicació constant sense dedicació diària." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Estratègia de xarxes", "description": "Disseny d'estratègia de xarxes socials per a artistes: què publicar, on, quan i amb quin to. Anàlisi de públic, competència i formats que millor funcionen." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IA amb criteri", "description": "Integració d'eines d'intel·ligència artificial en el flux de treball creatiu: automatització de textos, anàlisi de dades, generació d'idees. Assessoria ètica i pràctica per a artistes." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cartelleria i materials", "description": "Disseny de pòsters, flyers, targetes de visita i cartelleria per a concerts, exposicions i espectacles. Del disseny digital al paper. Coordinació d'impressió si cal." } }
       ]
     }
   }
@@ -133,35 +134,43 @@
   {{ partial "progress.html" . }}
   <script>
   (function(){
+    var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
     var tagline = document.querySelector('.hero-tagline');
     if (tagline) {
-      var fullText = tagline.textContent.trim();
-      tagline.classList.add('typing-cursor');
-      var i = 0;
-      function typeChar() {
-        if (i === 0) {
-          tagline.textContent = '';
-          tagline.style.visibility = 'visible';
+      if (reducedMotion) {
+        tagline.style.visibility = 'visible';
+      } else {
+        var fullText = tagline.textContent.trim();
+        tagline.classList.add('typing-cursor');
+        var i = 0;
+        function typeChar() {
+          if (i === 0) {
+            tagline.textContent = '';
+            tagline.style.visibility = 'visible';
+          }
+          if (i < fullText.length) {
+            tagline.textContent = fullText.slice(0, i + 1);
+            i++;
+            setTimeout(typeChar, 35 + Math.floor(Math.random() * 26));
+          } else {
+            tagline.classList.add('typing-done');
+            tagline.classList.remove('typing-cursor');
+          }
         }
-        if (i < fullText.length) {
-          tagline.textContent = fullText.slice(0, i + 1);
-          i++;
-          setTimeout(typeChar, 35 + Math.floor(Math.random() * 26));
-        } else {
-          tagline.classList.add('typing-done');
-          tagline.classList.remove('typing-cursor');
-        }
+        setTimeout(typeChar, 800);
       }
-      setTimeout(typeChar, 800);
     }
 
     var items = document.querySelectorAll('.audience-item');
     items.forEach(function(el, idx) {
-      var dx = (Math.random() - 0.5) * 60;
-      var dy = (Math.random() - 0.5) * 40;
-      el.style.setProperty('--drift-x', dx + 'px');
-      el.style.setProperty('--drift-y', dy + 'px');
-      el.style.animationDelay = (0.2 + idx * 0.1) + 's';
+      if (!reducedMotion) {
+        var dx = (Math.random() - 0.5) * 60;
+        var dy = (Math.random() - 0.5) * 40;
+        el.style.setProperty('--drift-x', dx + 'px');
+        el.style.setProperty('--drift-y', dy + 'px');
+        el.style.animationDelay = (0.2 + idx * 0.1) + 's';
+      }
     });
 
     if (location.hash) {
