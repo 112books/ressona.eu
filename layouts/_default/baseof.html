@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src fonts.gstatic.com; script-src 'self' gc.zgo.at 'unsafe-inline'; img-src 'self' data:; connect-src 'self' ressona.goatcounter.com formspree.io; frame-ancestors 'none'; base-uri 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' gc.zgo.at 'unsafe-inline'; img-src 'self' data:; connect-src 'self' ressona.goatcounter.com formspree.io; frame-ancestors 'none'; base-uri 'self'">
   <title>{{ if .IsHome }}{{ i18n "hero_brand" }} · {{ i18n "hero_tagline" }}{{ if and .IsHome (eq .Site.Language.Lang "ca") }} a Barcelona{{ end }}{{ else }}{{ .Title }} · {{ i18n "hero_brand" }}{{ end }}</title>
   <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ i18n "hero_tagline" }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
@@ -26,14 +26,7 @@
   <link rel="icon" href="/img/ressona-eu-rounded-192.png" type="image/png">
   <link rel="apple-touch-icon" href="/img/ressona-eu-rounded-192.png">
   <link rel="preload" href="/fonts/syne-800.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style"
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
-    onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap">
-  </noscript>
+  <link rel="preload" href="/fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin>
   {{ $css := resources.Get "css/main.css" | resources.Minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   {{ if .Site.Params.goatcounter }}
@@ -121,6 +114,56 @@
       "name": "{{ .Title }}",
       "item": "{{ .Permalink }}"
     }{{ end }}]
+  }
+  </script>
+  {{ end }}
+  {{ if and .IsHome (eq .Language.Lang "ca") }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Per a qui és Ressona?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ressona és exclusivament per a artistes: músics, actors, ballarins, artistes de circ i escena, arts plàstiques i creadors emergents. No és una agència de màrqueting digital genèrica." }
+      },
+      {
+        "@type": "Question",
+        "name": "Què és la identitat digital per a un artista?",
+        "acceptedAnswer": { "@type": "Answer", "text": "La identitat digital és tot el que representa un artista en línia: el seu web, fotografies, perfils a xarxes socials, press kit, com apareix als cercadors i com les IAs el descriuen. Ressona construeix i alinea tots aquests elements perquè expliquin una història coherent i professional." }
+      },
+      {
+        "@type": "Question",
+        "name": "Quins serveis ofereix Ressona?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ressona ofereix: identitat visual (logotip, paleta, tipografia), fotografia i vídeo per a press kit, web sincronitzada, press kit digital, alta a cercadors i IA (Google, Bing, Perplexity, ChatGPT), xarxes automàtiques, estratègia de xarxes, IA amb criteri i cartelleria i materials impresos." }
+      },
+      {
+        "@type": "Question",
+        "name": "Cal contractar tots els serveis alhora?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. L'oferta de Ressona és modular. Un artista pot començar només amb un press kit o un web, i ampliar més endavant. Cada servei està dissenyat per funcionar de forma independent o com a part d'un projecte més gran." }
+      },
+      {
+        "@type": "Question",
+        "name": "On treballa Ressona?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ressona té seu a Barcelona i atén principalment artistes de Catalunya i Espanya. El treball remot està disponible per a artistes de qualsevol lloc del món." }
+      },
+      {
+        "@type": "Question",
+        "name": "Com funciona el posicionament a IAs per a artistes?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ressona optimitza la presència digital de l'artista perquè aparegui quan el busquen a Google i Bing, però també quan el pregunten a plataformes d'IA com ChatGPT, Perplexity i Gemini. Això inclou dades estructurades (schema.org), contingut citable, alta a directoris i senyals de marca consistents a totes les plataformes." }
+      },
+      {
+        "@type": "Question",
+        "name": "Quant costa treballar amb Ressona?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ressona no publica preus fixos, ja que cada projecte es pressupost individualment. Contacta a hola@ressona.eu per explicar el teu projecte i rebre una proposta a mida." }
+      },
+      {
+        "@type": "Question",
+        "name": "Quant triga un projecte típic?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Els terminis varien segons l'abast. Un press kit triga 1-2 setmanes. Un projecte complet d'identitat i web sol trigar 4-8 setmanes. Ressona treballa de forma lineal i transparent perquè l'artista sempre sàpiga en quin punt es troba el projecte." }
+      }
+    ]
   }
   </script>
   {{ end }}
