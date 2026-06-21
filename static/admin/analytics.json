@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-19T06:46:33.808341Z",
+  "generated": "2026-06-21T14:24:32.384826Z",
   "period": {
-    "start": "2025-06-19",
-    "end": "2026-06-19"
+    "start": "2025-06-21",
+    "end": "2026-06-21"
   },
-  "total": 96,
+  "total": 161,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -37,106 +37,134 @@
     },
     {
       "date": "2026-06-19",
-      "count": 5
+      "count": 55
+    },
+    {
+      "date": "2026-06-20",
+      "count": 15
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 62
+      "count": 72
     },
     {
       "path": "/#que-fem",
-      "count": 5
-    },
-    {
-      "path": "/serveis/estrategia-xarxes",
-      "count": 4
-    },
-    {
-      "path": "/#quisom",
-      "count": 4
+      "count": 12
     },
     {
       "path": "/#per-qui",
-      "count": 4
+      "count": 11
+    },
+    {
+      "path": "/#quisom",
+      "count": 10
     },
     {
       "path": "/#contacte",
-      "count": 3
+      "count": 9
     },
     {
       "path": "/#com-treballem",
-      "count": 3
+      "count": 9
     },
     {
-      "path": "/en/#contacte",
-      "count": 1
-    },
-    {
-      "path": "/en/#com-treballem",
-      "count": 1
-    },
-    {
-      "path": "/en/#quisom",
-      "count": 1
-    },
-    {
-      "path": "/en/#per-qui",
-      "count": 1
-    },
-    {
-      "path": "/en/#que-fem",
-      "count": 1
-    },
-    {
-      "path": "/en",
-      "count": 1
-    },
-    {
-      "path": "/serveis/cartelleria-materials",
-      "count": 1
-    },
-    {
-      "path": "/legal/privacitat",
-      "count": 1
+      "path": "/serveis/estrategia-xarxes",
+      "count": 6
     },
     {
       "path": "/serveis/identitat-visual",
-      "count": 1
+      "count": 4
     },
     {
       "path": "/serveis/fotografia-video",
-      "count": 1
+      "count": 3
+    },
+    {
+      "path": "/serveis/web-artistes",
+      "count": 2
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 2
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 2
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 2
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 2
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 2
+    },
+    {
+      "path": "/en",
+      "count": 2
+    },
+    {
+      "path": "/serveis/cartelleria-materials",
+      "count": 2
+    },
+    {
+      "path": "/legal/privacitat",
+      "count": 2
     },
     {
       "path": "/legal/avis-legal",
+      "count": 2
+    },
+    {
+      "path": "/legal/cookies",
+      "count": 1
+    },
+    {
+      "path": "/serveis/alta-cercadors-ia",
+      "count": 1
+    },
+    {
+      "path": "/serveis/ia-amb-criteri",
+      "count": 1
+    },
+    {
+      "path": "/serveis/press-kit-digital",
+      "count": 1
+    },
+    {
+      "path": "/serveis/xarxes-automatiques",
       "count": 1
     }
   ],
   "by_lang": {
-    "en": 6
+    "en": 12
   },
   "by_section": {
-    "inici": 63,
-    "#que-fem": 6,
-    "serveis": 7,
-    "#quisom": 5,
-    "#per-qui": 5,
-    "#contacte": 4,
-    "#com-treballem": 4,
-    "legal": 2
+    "inici": 74,
+    "#que-fem": 14,
+    "#per-qui": 13,
+    "#quisom": 12,
+    "#contacte": 11,
+    "#com-treballem": 11,
+    "serveis": 21,
+    "legal": 5
   },
   "browsers": [
     {
-      "name": "Chrome",
-      "id": "Chrome",
-      "count": 55
-    },
-    {
       "name": "Safari",
       "id": "Safari",
-      "count": 44
+      "count": 105
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 56
     },
     {
       "name": "Desconegut",
@@ -158,12 +186,12 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 58
+      "count": 103
     },
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 20
+      "count": 37
     },
     {
       "name": "Linux",
@@ -185,29 +213,29 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 49
+      "count": 65
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 26
-    },
-    {
-      "name": "desktophd",
-      "id": "desktophd",
-      "count": 19
+      "count": 43
     },
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 12
+      "count": 35
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 25
     }
   ],
   "locations": [
     {
       "name": "Spain",
       "id": "ES",
-      "count": 80
+      "count": 142
     },
     {
       "name": "United States",
@@ -244,11 +272,16 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 54
+      "count": 79
     },
     {
       "name": "Google",
       "id": "Google",
+      "count": 2
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
       "count": 2
     },
     {
@@ -257,8 +290,8 @@
       "count": 1
     },
     {
-      "name": "www.facebook.com",
-      "id": "www.facebook.com",
+      "name": "ig",
+      "id": "ig",
       "count": 1
     }
   ]
