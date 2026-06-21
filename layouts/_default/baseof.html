@@ -25,13 +25,14 @@
   <meta name="theme-color" content="#34454c">
   <link rel="icon" href="/img/ressona-eu-rounded-192.png" type="image/png">
   <link rel="apple-touch-icon" href="/img/ressona-eu-rounded-192.png">
+  <link rel="preload" href="/fonts/syne-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="style"
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
     onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@700;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap">
   </noscript>
   {{ $css := resources.Get "css/main.css" | resources.Minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
