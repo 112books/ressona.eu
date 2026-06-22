@@ -1,15 +1,164 @@
 {
-  "generated": "2026-06-22T00:03:33.485640Z",
+  "generated": "2026-06-22T05:53:32.562297Z",
   "period": {
     "start": "2025-06-22",
     "end": "2026-06-22"
   },
-  "total": 0,
+  "total": 179,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-06-12",
+      "count": 8
+    },
+    {
+      "date": "2026-06-13",
+      "count": 20
+    },
+    {
+      "date": "2026-06-14",
+      "count": 3
+    },
+    {
+      "date": "2026-06-15",
+      "count": 7
+    },
+    {
+      "date": "2026-06-16",
+      "count": 11
+    },
+    {
+      "date": "2026-06-17",
+      "count": 4
+    },
+    {
+      "date": "2026-06-18",
+      "count": 38
+    },
+    {
+      "date": "2026-06-19",
+      "count": 55
+    },
+    {
+      "date": "2026-06-20",
+      "count": 15
+    },
+    {
+      "date": "2026-06-21",
+      "count": 18
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 76
+    },
+    {
+      "path": "/#que-fem",
+      "count": 15
+    },
+    {
+      "path": "/#quisom",
+      "count": 13
+    },
+    {
+      "path": "/#per-qui",
+      "count": 13
+    },
+    {
+      "path": "/#contacte",
+      "count": 12
+    },
+    {
+      "path": "/#com-treballem",
+      "count": 11
+    },
+    {
+      "path": "/serveis/estrategia-xarxes",
+      "count": 6
+    },
+    {
+      "path": "/serveis/identitat-visual",
+      "count": 5
+    },
+    {
+      "path": "/serveis/fotografia-video",
+      "count": 3
+    },
+    {
+      "path": "/serveis/web-artistes",
+      "count": 2
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 2
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 2
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 2
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 2
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 2
+    },
+    {
+      "path": "/en",
+      "count": 2
+    },
+    {
+      "path": "/serveis/cartelleria-materials",
+      "count": 2
+    },
+    {
+      "path": "/legal/privacitat",
+      "count": 2
+    },
+    {
+      "path": "/legal/avis-legal",
+      "count": 2
+    },
+    {
+      "path": "/legal/cookies",
+      "count": 1
+    },
+    {
+      "path": "/serveis/alta-cercadors-ia",
+      "count": 1
+    },
+    {
+      "path": "/serveis/ia-amb-criteri",
+      "count": 1
+    },
+    {
+      "path": "/serveis/press-kit-digital",
+      "count": 1
+    },
+    {
+      "path": "/serveis/xarxes-automatiques",
+      "count": 1
+    }
+  ],
+  "by_lang": {
+    "en": 12
+  },
+  "by_section": {
+    "inici": 78,
+    "#que-fem": 17,
+    "#quisom": 15,
+    "#per-qui": 15,
+    "#contacte": 14,
+    "#com-treballem": 13,
+    "serveis": 22,
+    "legal": 5
+  },
   "browsers": [
     {
       "name": "Safari",
