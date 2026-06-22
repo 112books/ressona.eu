@@ -65,4 +65,4 @@ La identitat digital d'un músic no és un luxe ni una prioritat per "quan tingu
 
 El talent s'escolta. La identitat digital es veu. Les dues coses importen.
 
-Si vols construir la teva identitat digital des de zero o posar ordre en el que ja tens, [explica'ns el teu projecte](//#contacte).
+Si vols construir la teva identitat digital des de zero o posar ordre en el que ja tens, [explica'ns el teu projecte](/#contacte).

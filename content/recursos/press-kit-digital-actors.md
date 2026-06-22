@@ -79,4 +79,4 @@ Un press kit digital ben construït no és només una fitxa d'informació. És u
 
 Per a que funcioni així, necessita tres coses: **estar en un domini propi** (no una plataforma de tercers), **tenir contingut que els cercadors puguin llegir** (no tot en PDFs o imatges), i **estar actualitzat**.
 
-Si vols que et construïm el press kit digital o revisem el que ja tens, [explica'ns el teu projecte](//#contacte).
+Si vols que et construïm el press kit digital o revisem el que ja tens, [explica'ns el teu projecte](/#contacte).

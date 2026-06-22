@@ -68,4 +68,4 @@ Si la resposta és sí, necessites web ara. No quan tinguis temps, no quan acabi
 
 Una web professional no necessita ser complexa. Necessita tres coses: qui ets, on et poden veure i com et poden contactar. Amb això és suficient per existir professionalment al món digital.
 
-Si vols que et construïm una web pròpia o que avaluem el que ja tens, [explica'ns el teu projecte](//#contacte).
+Si vols que et construïm una web pròpia o que avaluem el que ja tens, [explica'ns el teu projecte](/#contacte).
