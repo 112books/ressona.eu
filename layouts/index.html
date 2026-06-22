@@ -208,6 +208,27 @@
   </div>
 </section>
 
+{{ $section := cond (eq .Site.Language.Lang "en") "resources" "recursos" }}
+{{ $articles := where site.RegularPages "Section" $section }}
+{{ if $articles }}
+<section class="section section--alt section-reveal" id="recursos">
+  <div class="section-inner">
+    <p class="section-label">{{ i18n "section_recursos_label" }}</p>
+    <h2 class="section-title">{{ i18n "section_recursos_title" }}</h2>
+    <p class="section-tagline">{{ i18n "section_recursos_tagline" }}</p>
+  </div>
+  <div class="recursos-grid">
+    {{ range $articles }}
+    <a href="{{ .Permalink }}" class="recurs-card">
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Description }}</p>
+      <span class="recurs-card__more">{{ i18n "srv_more" }}</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
 <section class="section-contact section-reveal" id="contacte">
   <div class="contact-inner">
     <p class="section-label section-label--light">{{ i18n "section_contact_label" }}</p>

@@ -88,6 +88,12 @@ form_ok: Thanks! We received your message. If you don't hear back in 5 min, chec
 form_error: Could not send. Please try again.
 
 
+section_recursos_label: "— 05"
+section_recursos_title: Guides for artists
+section_recursos_tagline: Practical guides for artists who want to manage their digital presence.
+section_recursos_cta: View all resources →
+
+footer_recursos_title: Resources
 footer_desc: Digital identity for artists
 footer_instagram: Instagram
 footer_pocallum: "Graphic design: Pocallum"

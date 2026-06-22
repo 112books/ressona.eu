@@ -88,6 +88,12 @@ form_ok: Gràcies! T'hem rebut correctament. Si no reps res en 5 min, mira l'spa
 form_error: No s'ha pogut enviar. Prova-ho de nou.
 
 
+section_recursos_label: "— 05"
+section_recursos_title: Guies per a artistes
+section_recursos_tagline: Guies pràctiques per a artistes que volen gestionar la seva presència digital.
+section_recursos_cta: Veure tots els recursos →
+
+footer_recursos_title: Recursos
 footer_desc: Identitat digital per a artistes
 footer_instagram: Instagram
 footer_pocallum: "Disseny gràfic: Pocallum"

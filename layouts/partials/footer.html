@@ -15,8 +15,17 @@
         </a>
       </div>
     </div>
-    <div class="footer-powered">
-      <span class="footer-powered-text">Powered by <a href="https://linuxbcn.com" target="_blank" rel="noopener noreferrer" aria-label="LinuxBCN (obre en nova pestanya)">LinuxBCN</a></span>
+    <div class="footer-col-mid">
+      <div class="footer-recursos">
+        <span class="footer-recursos-title">{{ i18n "footer_recursos_title" }}</span>
+        {{ $section := cond (eq .Site.Language.Lang "en") "resources" "recursos" }}
+        {{ range where site.RegularPages "Section" $section }}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+      </div>
+      <div class="footer-powered">
+        <span class="footer-powered-text">Powered by <a href="https://linuxbcn.com" target="_blank" rel="noopener noreferrer" aria-label="LinuxBCN (obre en nova pestanya)">LinuxBCN</a></span>
+      </div>
     </div>
     <div class="footer-legal">
       <a href="{{ i18n "footer_link_legal_notice" }}">{{ i18n "footer_legal_notice" }}</a>

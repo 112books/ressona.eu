@@ -1,0 +1,66 @@
+{{ define "main" }}
+{{ $lang := .Language.Lang }}
+<div class="service-page">
+  <div class="service-page__inner">
+
+    <a href="{{ if eq $lang "en" }}/en/{{ else }}/{{ end }}" class="service-page__back">
+      ← {{ if eq $lang "en" }}Back{{ else }}Tornar{{ end }}
+    </a>
+
+    <header class="service-page__header">
+      <p class="section-label" style="margin-bottom:16px">{{ if eq $lang "en" }}Resources{{ else }}Recursos{{ end }}</p>
+      <h1 class="service-page__title">{{ .Title }}</h1>
+      {{ with .Description }}<p class="service-page__tagline">{{ . }}</p>{{ end }}
+      <p style="font-size:0.8rem;color:var(--text-dim);margin-top:16px">
+        {{ .Date.Format "2 January 2006" }}
+        · {{ math.Round (div (countwords .Content) 200.0) }} {{ if eq $lang "en" }}min read{{ else }}min de lectura{{ end }}
+      </p>
+    </header>
+
+    <div class="service-page__body">
+      <div class="article-body">
+        {{ .Content }}
+      </div>
+    </div>
+
+    {{ $section := cond (eq $lang "en") "resources" "recursos" }}
+    {{ $others := where (where site.RegularPages "Section" $section) "Permalink" "!=" .Permalink }}
+    {{ if $others }}
+    <div class="article-related">
+      <p class="article-related__title">{{ if eq $lang "en" }}More articles{{ else }}Més articles{{ end }}</p>
+      <div class="article-related__list">
+        {{ range $others }}
+        <a href="{{ .Permalink }}" class="article-related__item">
+          <span class="article-related__item-title">{{ .Title }}</span>
+          <span class="article-related__item-desc">{{ .Description }}</span>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    <div class="service-page__cta">
+      <p>{{ if eq $lang "en" }}Ready to build your digital identity?{{ else }}Llest per construir la teva identitat digital?{{ end }}</p>
+      <a href="{{ if eq $lang "en" }}/en/{{ else }}/{{ end }}#contacte" class="service-page__cta-btn">
+        {{ if eq $lang "en" }}Tell us about your project{{ else }}Explica'ns el teu projecte{{ end }}
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ .Description | jsonify }},
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "author": { "@type": "Organization", "@id": "https://ressona.eu/#organization", "name": "Ressona" },
+  "publisher": { "@id": "https://ressona.eu/#organization" },
+  "url": "{{ .Permalink }}",
+  "inLanguage": "{{ $lang }}"
+}
+</script>
+{{ end }}
