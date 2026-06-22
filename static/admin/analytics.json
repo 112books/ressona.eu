@@ -1,160 +1,15 @@
 {
-  "generated": "2026-06-21T22:56:31.491652Z",
+  "generated": "2026-06-22T00:03:33.485640Z",
   "period": {
-    "start": "2025-06-21",
-    "end": "2026-06-21"
+    "start": "2025-06-22",
+    "end": "2026-06-22"
   },
-  "total": 161,
+  "total": 0,
   "total_unique": 0,
-  "hits_by_day": [
-    {
-      "date": "2026-06-12",
-      "count": 8
-    },
-    {
-      "date": "2026-06-13",
-      "count": 20
-    },
-    {
-      "date": "2026-06-14",
-      "count": 3
-    },
-    {
-      "date": "2026-06-15",
-      "count": 7
-    },
-    {
-      "date": "2026-06-16",
-      "count": 11
-    },
-    {
-      "date": "2026-06-17",
-      "count": 4
-    },
-    {
-      "date": "2026-06-18",
-      "count": 38
-    },
-    {
-      "date": "2026-06-19",
-      "count": 55
-    },
-    {
-      "date": "2026-06-20",
-      "count": 15
-    }
-  ],
-  "hits": [
-    {
-      "path": "/",
-      "count": 72
-    },
-    {
-      "path": "/#que-fem",
-      "count": 12
-    },
-    {
-      "path": "/#per-qui",
-      "count": 11
-    },
-    {
-      "path": "/#quisom",
-      "count": 10
-    },
-    {
-      "path": "/#contacte",
-      "count": 9
-    },
-    {
-      "path": "/#com-treballem",
-      "count": 9
-    },
-    {
-      "path": "/serveis/estrategia-xarxes",
-      "count": 6
-    },
-    {
-      "path": "/serveis/identitat-visual",
-      "count": 4
-    },
-    {
-      "path": "/serveis/fotografia-video",
-      "count": 3
-    },
-    {
-      "path": "/serveis/web-artistes",
-      "count": 2
-    },
-    {
-      "path": "/en/#contacte",
-      "count": 2
-    },
-    {
-      "path": "/en/#com-treballem",
-      "count": 2
-    },
-    {
-      "path": "/en/#quisom",
-      "count": 2
-    },
-    {
-      "path": "/en/#per-qui",
-      "count": 2
-    },
-    {
-      "path": "/en/#que-fem",
-      "count": 2
-    },
-    {
-      "path": "/en",
-      "count": 2
-    },
-    {
-      "path": "/serveis/cartelleria-materials",
-      "count": 2
-    },
-    {
-      "path": "/legal/privacitat",
-      "count": 2
-    },
-    {
-      "path": "/legal/avis-legal",
-      "count": 2
-    },
-    {
-      "path": "/legal/cookies",
-      "count": 1
-    },
-    {
-      "path": "/serveis/alta-cercadors-ia",
-      "count": 1
-    },
-    {
-      "path": "/serveis/ia-amb-criteri",
-      "count": 1
-    },
-    {
-      "path": "/serveis/press-kit-digital",
-      "count": 1
-    },
-    {
-      "path": "/serveis/xarxes-automatiques",
-      "count": 1
-    }
-  ],
-  "by_lang": {
-    "en": 12
-  },
-  "by_section": {
-    "inici": 74,
-    "#que-fem": 14,
-    "#per-qui": 13,
-    "#quisom": 12,
-    "#contacte": 11,
-    "#com-treballem": 11,
-    "serveis": 21,
-    "legal": 5
-  },
+  "hits_by_day": [],
+  "hits": [],
+  "by_lang": {},
+  "by_section": {},
   "browsers": [
     {
       "name": "Safari",
@@ -272,7 +127,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 79
+      "count": 85
     },
     {
       "name": "Google",
