@@ -1,15 +1,186 @@
 {
-  "generated": "2026-06-23T02:43:35.630353Z",
+  "generated": "2026-06-23T06:36:33.929117Z",
   "period": {
     "start": "2025-06-23",
     "end": "2026-06-23"
   },
-  "total": 0,
+  "total": 203,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-06-12",
+      "count": 8
+    },
+    {
+      "date": "2026-06-13",
+      "count": 20
+    },
+    {
+      "date": "2026-06-14",
+      "count": 3
+    },
+    {
+      "date": "2026-06-15",
+      "count": 7
+    },
+    {
+      "date": "2026-06-16",
+      "count": 11
+    },
+    {
+      "date": "2026-06-17",
+      "count": 4
+    },
+    {
+      "date": "2026-06-18",
+      "count": 38
+    },
+    {
+      "date": "2026-06-19",
+      "count": 55
+    },
+    {
+      "date": "2026-06-20",
+      "count": 15
+    },
+    {
+      "date": "2026-06-21",
+      "count": 18
+    },
+    {
+      "date": "2026-06-22",
+      "count": 24
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 81
+    },
+    {
+      "path": "/#que-fem",
+      "count": 18
+    },
+    {
+      "path": "/#quisom",
+      "count": 16
+    },
+    {
+      "path": "/#contacte",
+      "count": 15
+    },
+    {
+      "path": "/#per-qui",
+      "count": 15
+    },
+    {
+      "path": "/#com-treballem",
+      "count": 13
+    },
+    {
+      "path": "/serveis/estrategia-xarxes",
+      "count": 6
+    },
+    {
+      "path": "/serveis/identitat-visual",
+      "count": 5
+    },
+    {
+      "path": "/serveis/fotografia-video",
+      "count": 4
+    },
+    {
+      "path": "/#recursos",
+      "count": 2
+    },
+    {
+      "path": "/serveis/web-artistes",
+      "count": 2
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 2
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 2
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 2
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 2
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 2
+    },
+    {
+      "path": "/en",
+      "count": 2
+    },
+    {
+      "path": "/serveis/cartelleria-materials",
+      "count": 2
+    },
+    {
+      "path": "/legal/privacitat",
+      "count": 2
+    },
+    {
+      "path": "/legal/avis-legal",
+      "count": 2
+    },
+    {
+      "path": "/recursos/press-kit-digital-actors",
+      "count": 1
+    },
+    {
+      "path": "/recursos/identitat-digital-musics",
+      "count": 1
+    },
+    {
+      "path": "/recursos/per-que-web-propia-instagram",
+      "count": 1
+    },
+    {
+      "path": "/legal/cookies",
+      "count": 1
+    },
+    {
+      "path": "/serveis/alta-cercadors-ia",
+      "count": 1
+    },
+    {
+      "path": "/serveis/ia-amb-criteri",
+      "count": 1
+    },
+    {
+      "path": "/serveis/press-kit-digital",
+      "count": 1
+    },
+    {
+      "path": "/serveis/xarxes-automatiques",
+      "count": 1
+    }
+  ],
+  "by_lang": {
+    "en": 12
+  },
+  "by_section": {
+    "inici": 83,
+    "#que-fem": 20,
+    "#quisom": 18,
+    "#contacte": 17,
+    "#per-qui": 17,
+    "#com-treballem": 15,
+    "serveis": 23,
+    "#recursos": 2,
+    "legal": 5,
+    "recursos": 3
+  },
   "browsers": [
     {
       "name": "Safari",
@@ -19,7 +190,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 71
+      "count": 72
     },
     {
       "name": "Desconegut",
@@ -41,7 +212,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 131
+      "count": 132
     },
     {
       "name": "iOS",
@@ -68,7 +239,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 93
+      "count": 94
     },
     {
       "name": "phone",
@@ -90,7 +261,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 175
+      "count": 176
     },
     {
       "name": "United States",
