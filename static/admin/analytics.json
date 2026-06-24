@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-23T23:45:07.829376Z",
+  "generated": "2026-06-24T01:53:38.153422Z",
   "period": {
-    "start": "2025-06-23",
-    "end": "2026-06-23"
+    "start": "2025-06-24",
+    "end": "2026-06-24"
   },
-  "total": 203,
+  "total": 211,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -50,32 +50,36 @@
     {
       "date": "2026-06-22",
       "count": 24
+    },
+    {
+      "date": "2026-06-23",
+      "count": 8
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 81
+      "count": 83
     },
     {
       "path": "/#que-fem",
-      "count": 18
+      "count": 19
     },
     {
       "path": "/#quisom",
-      "count": 16
+      "count": 17
     },
     {
       "path": "/#contacte",
-      "count": 15
+      "count": 16
     },
     {
       "path": "/#per-qui",
-      "count": 15
+      "count": 16
     },
     {
       "path": "/#com-treballem",
-      "count": 13
+      "count": 14
     },
     {
       "path": "/serveis/estrategia-xarxes",
@@ -91,7 +95,7 @@
     },
     {
       "path": "/#recursos",
-      "count": 2
+      "count": 3
     },
     {
       "path": "/serveis/web-artistes",
@@ -170,14 +174,14 @@
     "en": 12
   },
   "by_section": {
-    "inici": 83,
-    "#que-fem": 20,
-    "#quisom": 18,
-    "#contacte": 17,
-    "#per-qui": 17,
-    "#com-treballem": 15,
+    "inici": 85,
+    "#que-fem": 21,
+    "#quisom": 19,
+    "#contacte": 18,
+    "#per-qui": 18,
+    "#com-treballem": 16,
     "serveis": 23,
-    "#recursos": 2,
+    "#recursos": 3,
     "legal": 5,
     "recursos": 3
   },
@@ -298,7 +302,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 87
+      "count": 94
     },
     {
       "name": "Google",
