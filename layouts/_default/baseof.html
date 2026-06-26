@@ -182,6 +182,7 @@
   </main>
   {{ partial "footer.html" . }}
   {{ partial "progress.html" . }}
+  {{ partial "search.html" . }}
   <script>
   (function(){
     var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -256,6 +257,38 @@
       }
       window.addEventListener('scroll', onScroll, { passive: true });
       onScroll();
+    }
+
+    // Nav active state
+    var navLinks = document.querySelectorAll('.nav-links a');
+    var currentPath = location.pathname;
+    navLinks.forEach(function(a) {
+      var href = a.getAttribute('href') || '';
+      if (href.indexOf('#') === -1 && href !== '/' && href !== '/en/' && currentPath.indexOf(href.replace(/^\/en/, '').replace(/\/$/, '')) !== -1) {
+        a.classList.add('nav-active');
+      }
+    });
+    var sectionMap = {};
+    navLinks.forEach(function(a) {
+      var href = a.getAttribute('href') || '';
+      var hash = href.split('#')[1];
+      if (hash) sectionMap[hash] = a;
+    });
+    if (Object.keys(sectionMap).length) {
+      var activeSection = null;
+      var sectionObs = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) {
+          if (e.isIntersecting && e.intersectionRatio > 0.2) {
+            if (activeSection) activeSection.classList.remove('nav-active');
+            activeSection = sectionMap[e.target.id] || null;
+            if (activeSection) activeSection.classList.add('nav-active');
+          }
+        });
+      }, { threshold: 0.2 });
+      Object.keys(sectionMap).forEach(function(id) {
+        var el = document.getElementById(id);
+        if (el) sectionObs.observe(el);
+      });
     }
   })();
   </script>
