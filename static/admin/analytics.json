@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-25T23:04:48.165902Z",
+  "generated": "2026-06-26T01:59:07.439428Z",
   "period": {
-    "start": "2025-06-25",
-    "end": "2026-06-25"
+    "start": "2025-06-26",
+    "end": "2026-06-26"
   },
-  "total": 211,
+  "total": 217,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -54,27 +54,31 @@
     {
       "date": "2026-06-23",
       "count": 8
+    },
+    {
+      "date": "2026-06-25",
+      "count": 6
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 83
+      "count": 86
     },
     {
       "path": "/#que-fem",
-      "count": 19
+      "count": 21
     },
     {
       "path": "/#quisom",
       "count": 17
     },
     {
-      "path": "/#contacte",
-      "count": 16
+      "path": "/#per-qui",
+      "count": 17
     },
     {
-      "path": "/#per-qui",
+      "path": "/#contacte",
       "count": 16
     },
     {
@@ -174,11 +178,11 @@
     "en": 12
   },
   "by_section": {
-    "inici": 85,
-    "#que-fem": 21,
+    "inici": 88,
+    "#que-fem": 23,
     "#quisom": 19,
+    "#per-qui": 19,
     "#contacte": 18,
-    "#per-qui": 18,
     "#com-treballem": 16,
     "serveis": 23,
     "#recursos": 3,
@@ -302,7 +306,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 94
+      "count": 100
     },
     {
       "name": "Google",
