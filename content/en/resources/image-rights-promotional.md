@@ -3,7 +3,7 @@ title: "Image rights and licences for promotional material: what every artist ne
 description: "Who owns the copyright on your promotional photos? What usage rights do you need to agree with your photographer? Can you use the images freely? A practical guide to copyright for artists."
 translationKey: "blog-image-rights"
 type: resources
-date: 2026-06-27
+date: 2026-06-26
 author: "Ressona"
 ---
 

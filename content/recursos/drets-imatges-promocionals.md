@@ -3,7 +3,7 @@ title: "Drets d'imatge i llicències per a material promocional: el que tot arti
 description: "Qui té el copyright de les teves fotos promocionals? Quina cessió cal acordar amb el fotògraf? Pots usar les imatges lliurement? Guia pràctica sobre drets d'autoria per a artistes."
 translationKey: "blog-image-rights"
 type: recursos
-date: 2026-06-27
+date: 2026-06-26
 author: "Ressona"
 ---
 
