@@ -19,21 +19,21 @@ Presentar un projecte a un festival no és enviar tot el que tens. És respondre
 <span class="resource-steps__num" aria-hidden="true">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">1</text></svg>
 </span>
-<strong>Encaixa amb la nostra programació?</strong> — no amb la teva qualitat artística, amb el que ells programen. Un festival de jazz no és una porta per a una companyia de dansa contemporània, per molt excel·lent que sigui.
+**Encaixa amb la nostra programació?** — no amb la teva qualitat artística, amb el que ells programen. Un festival de jazz no és una porta per a una companyia de dansa contemporània, per molt excel·lent que sigui.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num" aria-hidden="true">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">2</text></svg>
 </span>
-<strong>Podem acollir-lo tècnicament?</strong> — el seu escenari té les dimensions necessàries, el seu equip tècnic pot gestionar les necessitats del rider, el pressupost encaixa.
+**Podem acollir-lo tècnicament?** — el seu escenari té les dimensions necessàries, el seu equip tècnic pot gestionar les necessitats del rider, el pressupost encaixa.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num" aria-hidden="true">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">3</text></svg>
 </span>
-<strong>Puc defensar-ho davant del meu equip?</strong> — el programador ha de poder explicar la tria als seus superiors, al consell, als patrocinadors. Necessita arguments: referents, credencials, premsa anterior.
+**Puc defensar-ho davant del meu equip?** — el programador ha de poder explicar la tria als seus superiors, al consell, als patrocinadors. Necessita arguments: referents, credencials, premsa anterior.
 </div>
 
 </div>

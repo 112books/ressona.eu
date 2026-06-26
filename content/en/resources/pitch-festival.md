@@ -19,21 +19,21 @@ Submitting a project to a festival isn't about sending everything you have. It's
 <span class="resource-steps__num" aria-hidden="true">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">1</text></svg>
 </span>
-<strong>Does it fit our programming?</strong> — not your artistic quality, their programming. A jazz festival is not an entry point for a contemporary dance company, however excellent.
+**Does it fit our programming?** — not your artistic quality, their programming. A jazz festival is not an entry point for a contemporary dance company, however excellent.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num" aria-hidden="true">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">2</text></svg>
 </span>
-<strong>Can we host it technically?</strong> — does our stage have the right dimensions, can our technical team handle the rider requirements, does the budget work.
+**Can we host it technically?** — does our stage have the right dimensions, can our technical team handle the rider requirements, does the budget work.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num" aria-hidden="true">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">3</text></svg>
 </span>
-<strong>Can I defend it to my team?</strong> — the programmer needs to justify the booking to their board, sponsors, and colleagues. They need arguments: credentials, references, previous press.
+**Can I defend it to my team?** — the programmer needs to justify the booking to their board, sponsors, and colleagues. They need arguments: credentials, references, previous press.
 </div>
 
 </div>

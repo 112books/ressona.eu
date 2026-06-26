@@ -1887,7 +1887,11 @@ img, svg { display: block; }
   gap: 14px;
   align-items: start;
 }
+.resource-steps__item > *:not(.resource-steps__num) {
+  grid-column: 2;
+}
 .resource-steps__num {
   color: var(--gold);
   flex-shrink: 0;
+  grid-row: 1;
 }
