@@ -177,6 +177,22 @@ El que cal tenir per escrit quan es contracta redacció de material promocional:
 - Que l'artista pot modificar, adaptar i distribuir el text lliurement
 - Si el redactor vol crèdit o no (per a bios i notes de premsa, habitualment no)
 
+## La fotografia professional no és una despesa: és una inversió en credibilitat
+
+Tot el que hem explicat fins ara (cessions, llicències, crèdits) pressuposa que el material que distribueixes val la pena distribuir. I aquí hi ha un error freqüent que convé nomenar directament.
+
+Una foto de mala qualitat —per barata, feta amb el mòbil en males condicions o cedida de franc sense intenció professional— no és neutral. Comunica exactament el mateix que comunicaria un músic que apareix a un càsting sense preparar: que el projecte no es pren seriosament.
+
+Un programador de festival o un director de càsting fa una primera valoració del teu perfil en menys de trenta segons. En aquell moment, la qualitat visual del material és un indicador proxy de la qualitat professional del projecte. Una foto pèssima no et descarta per raons estètiques: et descarta perquè suggereix que no tens els recursos o la consciència professional per presentar-te bé.
+
+**El que es guanya amb fotografia professional:**
+
+- Una foto ben il·luminada, ben enquadrada i tècnicament correcta és reutilitzable durant anys en qualsevol suport
+- El fotògraf professional inclou la cessió de drets en el pressupost — s'estalvien negociacions futures i conflictes legals
+- El material visual de qualitat és el que els mitjans realment publiquen sense retocar ni demanar substituir
+
+La sessió fotogràfica no s'ha de repetir cada any: amb una bona sessió i el contracte de cessió correcte, tens material per a tres o quatre anys. El cost es distribueix.
+
 ## En resum: el que has de tenir clar abans de distribuir material
 
 Abans de posar qualsevol foto o text promocional al teu EPK, al web o a qualsevol material de difusió, comprova que tens per escrit:
@@ -192,4 +208,6 @@ No cal un contracte de vint pàgines. Cal un acord clar, per escrit, abans de di
 
 ---
 
-Si vols que t'ajudem a estructurar els materials promocionals amb les llicències correctes integrades des del principi, [explica'ns el teu projecte](/#contacte).
+Si necessites fotografia professional per al teu material de premsa, [Pocallum](https://pocallum.cat) és l'estudi especialitzat en retrat artístic i imatge promocional per a artistes amb qui treballem. Totes les sessions inclouen cessió de drets editorial per a ús professional.
+
+Si vols que t'ajudem a estructurar tots els materials promocionals —fotografia, textos i llicències— des del principi, [explica'ns el teu projecte](/#contacte).

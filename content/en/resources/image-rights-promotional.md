@@ -178,6 +178,22 @@ What you should have in writing when commissioning promotional copy:
 - That the artist can freely modify, adapt and distribute the text
 - Whether the writer wants credit or not (for bios and press releases, typically no)
 
+## Professional photography is not an expense — it's an investment in credibility
+
+Everything discussed above (assignments, licences, credits) assumes the material you're distributing is worth distributing. And here there's a common mistake worth naming directly.
+
+A poor-quality photo — taken cheaply, shot on a phone in bad conditions, or offered for free with no professional intent — is not neutral. It communicates exactly the same thing as a musician showing up to an audition unprepared: that the project doesn't take itself seriously.
+
+A festival programmer or casting director forms a first impression of your profile in under thirty seconds. In that moment, the visual quality of your material is a proxy indicator of your professional quality. A poor photo doesn't disqualify you for aesthetic reasons — it does so because it suggests you lack either the resources or the professional awareness to present yourself well.
+
+**What professional photography delivers:**
+
+- A well-lit, well-composed, technically correct photo is reusable for years across any format
+- A professional photographer includes usage rights in the quote — this avoids future negotiations and legal disputes
+- Quality visual material is what press and media actually publish without asking you to replace it
+
+The photography session doesn't need to be repeated every year: with one good session and the correct usage agreement, you have material for three or four years. The cost spreads out.
+
 ## In summary: what to confirm before distributing any material
 
 Before putting any photo or text in your EPK, on your website, or in any promotional material, confirm in writing that you have:
@@ -193,4 +209,6 @@ You don't need a twenty-page contract. You need a clear agreement, in writing, b
 
 ---
 
-If you'd like help structuring your promotional materials with the right licences built in from the start, [tell us about your project](/en/#contacte).
+If you need professional photography for your press materials, [Pocallum](https://pocallum.cat) is the studio specialising in artistic portraiture and promotional photography for artists that we work with. All sessions include editorial usage rights for professional use.
+
+If you'd like help putting together all your promotional materials — photography, copy and licences — from the start, [tell us about your project](/en/#contacte).
