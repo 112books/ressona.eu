@@ -67,6 +67,8 @@ Als EUA el sistema és diferent: el **moral right** s'aplica molt més restricti
 
 Sí. Un fotògraf pot cedir tots els drets d'ús sense compensació econòmica addicional — si així ho acorda i ho signa. Molts fotògrafs emergents ho fan a canvi de visibilitat, de crèdit prominent o perquè els interessa el projecte artístic.
 
+**Però compte**: si no pagues, difícilment pots ser exigent. Ni en qualitat, ni en entregues, ni en assolir uns mínims de professionalitat. El material gratuït arriba "tal qual", de gent entusiasta i il·lusionada — però sovint sense l'experiència tècnica ni el criteri editorial que marca la diferència. Per experiència, comptar amb professionals per als grans concerts o les sessions importants de promoció no és una despesa: és una inversió. I a més, si ets autònom o empresari, és fiscalment deduïble.
+
 Però cal que consti per escrit. Una conversa de WhatsApp dient "pots usar-les" no és suficient si hi ha un conflicte posterior.
 
 El document no ha de ser complex: un email amb resposta confirmada ja té validesa legal en la majoria de jurisdiccions europees. Millor un contracte curt, però com a mínim un email explícit que especifiqui:

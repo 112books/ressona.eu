@@ -1895,3 +1895,72 @@ img, svg { display: block; }
   flex-shrink: 0;
   grid-row: 1;
 }
+
+/* Recursos hub page */
+.section--recursos {
+  padding: 80px 0 120px;
+}
+.recursos-hub__title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  color: var(--text);
+  margin: 0 0 16px;
+}
+.recursos-hub__desc {
+  font-size: 1.05rem;
+  color: var(--text-subtle);
+  margin: 0 0 48px;
+  max-width: 56ch;
+  line-height: 1.7;
+}
+.recursos-hub__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+.recursos-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 28px 24px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+.recursos-card:hover {
+  background: rgba(253,191,104,0.07);
+  border-color: var(--gold);
+}
+.recursos-card__title {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.35;
+}
+.recursos-card__desc {
+  font-size: 0.85rem;
+  color: var(--text-subtle);
+  line-height: 1.6;
+  flex: 1;
+}
+.recursos-card__cta {
+  font-size: 0.78rem;
+  color: var(--gold);
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+/* Footer recursos — "see all" link */
+.footer-recursos-all {
+  margin-top: 4px;
+  font-size: 0.78rem !important;
+  color: var(--gold) !important;
+  font-weight: 600;
+}
+.footer-recursos-all::before {
+  display: none !important;
+}

@@ -67,6 +67,8 @@ In the US the system differs: **moral rights** apply very restrictively (only to
 
 Yes. A photographer can assign all usage rights with no additional financial compensation — if they agree and sign it. Many emerging photographers do this in exchange for visibility, prominent credit, or because the artistic project interests them.
 
+**But be careful**: if you're not paying, you can't be demanding. Not about quality, not about delivery, not about meeting any minimum standard. Free photography arrives "as is", from people who may be enthusiastic and eager — but often without the technical skill or editorial eye that makes the difference. From experience, hiring professionals for big concerts or key promotional sessions isn't a cost: it's an investment. And if you're self-employed or running a business, it's also tax-deductible.
+
 But it must be in writing. A WhatsApp message saying "you can use them" isn't enough if there's a dispute later.
 
 The document doesn't need to be complex: a confirmed email already has legal validity in most European jurisdictions. Better a short contract, but at minimum an explicit email specifying:

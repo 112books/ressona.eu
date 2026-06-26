@@ -5,6 +5,7 @@ hero_desc: We help Barcelona-based creators|build their digital presence
 nav_que_fem: What we do
 nav_per_qui: Who we serve
 nav_com_treballem: How we work
+nav_recursos: Resources
 nav_contacte: Contact
 nav_lang: CA
 
@@ -94,10 +95,11 @@ section_recursos_tagline: Practical guides for artists who want to manage their 
 section_recursos_cta: View all resources →
 
 footer_recursos_title: Resources
+footer_recursos_all: "See all resources →"
 footer_desc: Digital identity for artists
 footer_instagram: Instagram
-footer_pocallum: "Graphic design: Pocallum"
-footer_linuxbcn: "Technology: LinuxBCN"
+footer_pocallum: "Graphic design: <a href=\"https://pocallum.cat\" target=\"_blank\" rel=\"noopener noreferrer\">Pocallum</a>"
+footer_linuxbcn: "Powered by: <a href=\"https://linuxbcn.com\" target=\"_blank\" rel=\"noopener noreferrer\">LinuxBCN</a>"
 footer_link_legal_notice: /en/legal/legal-notice
 footer_link_privacy: /en/legal/privacy
 footer_link_cookies: /en/legal/cookies

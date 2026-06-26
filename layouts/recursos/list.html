@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="section section--recursos">
+  <div class="section-inner section-inner--narrow">
+    <h1 class="recursos-hub__title">{{ .Title }}</h1>
+    <p class="recursos-hub__desc">{{ .Description }}</p>
+    <div class="recursos-hub__grid">
+      {{ range sort .Pages "Date" "desc" }}
+      {{ if not .Draft }}
+      <a href="{{ .Permalink }}" class="recursos-card">
+        <span class="recursos-card__title">{{ .Title }}</span>
+        {{ with .Description }}<span class="recursos-card__desc">{{ . }}</span>{{ end }}
+        <span class="recursos-card__cta">Llegir →</span>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
