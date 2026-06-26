@@ -680,7 +680,21 @@ img, svg { display: block; }
 
 .audience-item svg {
   margin-bottom: 24px;
-  opacity: 0.7;
+  opacity: 0.85;
+  transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1),
+              opacity 0.3s ease,
+              color 0.3s ease;
+  transform-origin: center;
+  display: block;
+}
+
+.audience-item:hover svg {
+  transform: translateY(-10px) scale(1.2);
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .audience-item:hover svg { transform: none; }
 }
 
 .audience-item h3 {
@@ -697,86 +711,51 @@ img, svg { display: block; }
   max-width: 280px;
 }
 
+/* -- red: hover → gold bg + dark text (true inversion) */
 .audience-item--red {
   background: var(--red);
-  transition: background 0.3s;
+  transition: background 0.35s ease;
 }
-
-.audience-item--red:hover {
-  background: var(--bg);
-}
-
+.audience-item--red:hover { background: var(--gold); }
 .audience-item--red h3,
-.audience-item--red p {
-  color: #fff;
-  transition: color 0.3s;
-}
-
+.audience-item--red p { color: #fff; transition: color 0.3s ease; }
 .audience-item--red:hover h3,
-.audience-item--red:hover p {
-  color: var(--gold);
-}
+.audience-item--red:hover p { color: var(--bg); }
+.audience-item--red svg { color: rgba(255,255,255,0.9); }
+.audience-item--red:hover svg { color: var(--bg); }
 
-.audience-item--red svg {
-  opacity: 0.9;
-}
-
+/* -- gold: hover → red bg + white text (true inversion) */
 .audience-item--gold {
   background: var(--gold);
-  transition: background 0.3s;
+  transition: background 0.35s ease;
 }
-
-.audience-item--gold:hover {
-  background: var(--bg);
-}
-
+.audience-item--gold:hover { background: var(--red); }
 .audience-item--gold h3,
-.audience-item--gold p {
-  color: #fff;
-  transition: color 0.3s;
-}
+.audience-item--gold p { color: #fff; transition: color 0.3s ease; }
+.audience-item--gold svg { color: rgba(255,255,255,0.9); }
+.audience-item--gold:hover svg { color: #fff; }
 
-.audience-item--gold:hover h3,
-.audience-item--gold:hover p {
-  color: var(--gold);
-}
-
-.audience-item--gold svg {
-  opacity: 0.9;
-}
-
+/* -- blue: hover → red bg + white text */
 .audience-item--blue {
   background: var(--blue);
-  transition: background 0.3s;
+  transition: background 0.35s ease;
 }
-
-.audience-item--blue:hover {
-  background: var(--bg);
-}
-
+.audience-item--blue:hover { background: var(--red); }
 .audience-item--blue h3,
-.audience-item--blue p {
-  color: #fff;
-  transition: color 0.3s;
-}
+.audience-item--blue p { color: #fff; transition: color 0.3s ease; }
+.audience-item--blue svg { color: rgba(255,255,255,0.9); }
+.audience-item--blue:hover svg { color: #fff; }
 
-.audience-item--blue:hover h3,
-.audience-item--blue:hover p {
-  color: var(--text);
-}
-
-.audience-item--blue svg {
-  opacity: 0.9;
-}
-
+/* -- dark: hover → gold bg + dark text (true inversion) */
 .audience-item--dark {
   background: var(--bg-alt);
-  transition: background 0.3s;
+  transition: background 0.35s ease;
 }
-
-.audience-item--dark:hover {
-  background: var(--bg);
-}
+.audience-item--dark:hover { background: var(--gold); }
+.audience-item--dark h3,
+.audience-item--dark p { color: var(--text); transition: color 0.3s ease; }
+.audience-item--dark:hover h3,
+.audience-item--dark:hover p { color: var(--bg); }
 
 /* ABOUT / Qui som pillars */
 .about-pillars {
@@ -830,10 +809,8 @@ img, svg { display: block; }
   }
 }
 
-.audience-item--dark:hover svg {
-  color: var(--gold);
-  opacity: 0.9;
-}
+.audience-item--dark svg { color: var(--text); opacity: 0.7; }
+.audience-item--dark:hover svg { color: var(--bg); opacity: 1; }
 
 /* STEPS */
 .steps {
@@ -1870,12 +1847,16 @@ img, svg { display: block; }
   border-bottom: 1px solid rgba(255,255,255,0.07);
 }
 .resource-checklist__item:last-child { border-bottom: none; }
+.resource-checklist__item > *:not(.resource-checklist__icon) {
+  grid-column: 2;
+}
 .resource-checklist__icon {
   display: flex;
   align-items: flex-start;
   padding-top: 4px;
   color: var(--gold);
   flex-shrink: 0;
+  grid-row: 1;
 }
 .resource-checklist__item h3 {
   font-family: var(--font-display);
