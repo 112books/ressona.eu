@@ -5,7 +5,6 @@ translationKey: "blog-image-rights"
 type: recursos
 date: 2026-06-27
 author: "Ressona"
-draft: true
 ---
 
 Un músic paga una sessió fotogràfica. Rep les fotos, les posa al web, les envia a festivals i mitjans. Anys més tard, el fotògraf reclama compensació econòmica per cada ús. El músic no tenia cap contracte signat.
