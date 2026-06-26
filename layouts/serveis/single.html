@@ -16,6 +16,12 @@
     </header>
 
     <div class="service-page__body">
+      {{ with .Params.intro }}
+      <section class="service-page__section service-page__section--intro">
+        <p class="service-page__intro">{{ . }}</p>
+      </section>
+      {{ end }}
+
       {{ with .Params.challenge }}
       <section class="service-page__section">
         <h2>{{ if eq $lang "en" }}The challenge{{ else }}El repte{{ end }}</h2>
@@ -54,7 +60,7 @@
         {{ range . }}
         <details class="faq-item">
           <summary class="faq-q">{{ .q }}</summary>
-          <p class="faq-a">{{ .a }}</p>
+          <p class="faq-a">{{ .a | safeHTML }}</p>
         </details>
         {{ end }}
       </section>
