@@ -210,4 +210,8 @@ No cal un contracte de vint pàgines. Cal un acord clar, per escrit, abans de di
 
 Si necessites fotografia professional per al teu material de premsa, [Pocallum](https://pocallum.cat) és l'estudi especialitzat en retrat artístic i imatge promocional per a artistes amb qui treballem. Totes les sessions inclouen cessió de drets editorial per a ús professional.
 
-Si vols que t'ajudem a estructurar tots els materials promocionals —fotografia, textos i llicències— des del principi, [explica'ns el teu projecte](/#contacte).
+**Ressona també s'encarrega dels textos.** Si necessites la bio, la nota de premsa o qualsevol text promocional redactat amb criteris professionals i amb la cessió de drets correctament acordada des del principi, és part del que fem.
+
+I si has de tancar un contracte amb un fotògraf, un realitzador de vídeo o un copywriter i no saps com estructurar la cessió de drets, t'assessorem perquè l'acord protegeixi tant el teu projecte com el professional que contractes. Perquè si vols ser professional, actua com a tal: remunera i protegeix legalment les persones que fan possible els teus materials.
+
+[Explica'ns el teu projecte](/#contacte).

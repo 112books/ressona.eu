@@ -211,4 +211,8 @@ You don't need a twenty-page contract. You need a clear agreement, in writing, b
 
 If you need professional photography for your press materials, [Pocallum](https://pocallum.cat) is the studio specialising in artistic portraiture and promotional photography for artists that we work with. All sessions include editorial usage rights for professional use.
 
-If you'd like help putting together all your promotional materials — photography, copy and licences — from the start, [tell us about your project](/en/#contacte).
+**Ressona also handles the copy.** If you need a bio, a press release or any promotional text written to professional standards — with usage rights correctly agreed from the start — that's part of what we do.
+
+And if you're negotiating a contract with a photographer, video producer or copywriter and aren't sure how to structure the rights agreement, we can advise you so the arrangement protects both your project and the professional you're working with. Because if you want to be professional, act like one: pay and legally protect the people who make your materials possible.
+
+[Tell us about your project](/en/#contacte).
