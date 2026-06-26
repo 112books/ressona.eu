@@ -379,6 +379,9 @@
       <h2 class="section-title">pàgines top</h2>
       <div id="pages-wrap" class="bars"></div>
 
+      <h2 class="section-title">articles de recursos (més visitats)</h2>
+      <div id="recursos-wrap" class="bars"></div>
+
       <h2 class="section-title">funnel home → serveis</h2>
       <div id="funnel-wrap"></div>
 
@@ -511,6 +514,7 @@ function renderAll(data) {
   renderLang(data);
   renderSections(data);
   renderPages(data);
+  renderRecursos(data);
   renderFunnel(data);
   renderOrigin(data);
   renderRefs(data);
@@ -664,6 +668,22 @@ function renderPages(data) {
   renderBars('pages-wrap', items, { withLinks: true, colorClass: 'ink2' });
 }
 
+function renderRecursos(data) {
+  const hits = data.hits || [];
+  const recursosPaths = hits.filter(h => /\/(recursos|resources)\//.test(h.path));
+  const wrap = document.getElementById('recursos-wrap');
+  if (!recursosPaths.length) {
+    wrap.innerHTML = '<span class="empty">Sense visites als articles de recursos encara.</span>';
+    return;
+  }
+  const items = recursosPaths.map(h => ({
+    name: h.path.replace(/^\/(en\/)?resources?\//, '').replace(/\/$/, '') || h.path,
+    count: h.count,
+    href: h.path
+  }));
+  renderBars('recursos-wrap', items, { withLinks: true, colorClass: 'gold' });
+}
+
 function renderRefs(data) {
   const refs = (data.refs || []).slice(0, 10);
   if (!refs.length) {
@@ -725,12 +745,14 @@ function renderDepth(data) {
   const home     = hits.filter(h => /^\/?(en\/?)?$/.test(h.path)).reduce((s,h) => s+h.count, 0);
   const sections = hits.filter(h => h.path.includes('#')).reduce((s,h) => s+h.count, 0);
   const serveis  = hits.filter(h => h.path.includes('/serveis/')).reduce((s,h) => s+h.count, 0);
-  const altres   = total - home - sections - serveis;
+  const recursos = hits.filter(h => /\/(recursos|resources)\//.test(h.path)).reduce((s,h) => s+h.count, 0);
+  const altres   = total - home - sections - serveis - recursos;
 
   const items = [
     { name: 'Portada (entrada)',        count: home,     title: 'Visites que arriben a la home' },
     { name: 'Seccions (exploren)',       count: sections, title: 'Naveguen per les seccions de la pàgina' },
     { name: 'Serveis (compromís alt)',   count: serveis,  title: 'Arriben a pàgines de servei específiques' },
+    { name: 'Recursos (blog/guies)',     count: recursos, title: 'Arriben als articles de la secció de recursos' },
     { name: 'Altres (legal…)',           count: altres,   title: 'Legal i altres pàgines' },
   ].filter(i => i.count > 0);
 
