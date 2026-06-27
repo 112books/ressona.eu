@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ $lang := .Language.Lang }}
+<section class="section section--recursos">
+  <div class="section-inner section-inner--narrow">
+    <header style="margin-bottom:3rem">
+      <p class="section-label" style="margin-bottom:12px">{{ if eq $lang "en" }}Resources{{ else }}Recursos{{ end }}</p>
+      <h1 class="recursos-hub__title">{{ if eq $lang "en" }}Browse by topic{{ else }}Navega per tema{{ end }}</h1>
+    </header>
+    <div class="tag-cloud">
+      {{ range .Data.Terms.Alphabetical }}
+      <a href="{{ .Page.Permalink }}" class="tag-cloud__item">
+        {{ .Page.Title }}
+        <span class="tag-cloud__count">{{ .Count }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
