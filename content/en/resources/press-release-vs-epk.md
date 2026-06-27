@@ -5,6 +5,7 @@ translationKey: "blog-press-release-vs-epk"
 type: resources
 date: 2026-06-26
 author: "Ressona"
+tags: ["professional-materials", "epk"]
 ---
 
 A cultural journalist receives between twenty and fifty pitches a day from artists wanting coverage. Most are discarded in ten seconds. The fastest way to get discarded: sending the wrong document.

@@ -5,6 +5,7 @@ translationKey: "blog-press-photos"
 type: resources
 date: 2026-06-26
 author: "Ressona"
+tags: ["photography", "professional-materials"]
 ---
 
 A journalist receives your press release. They want to run a piece on you. They need a photo. They open your Instagram and find a series of low-resolution vertical stories, a group shot where they can't tell which one is you, and a selfie with a filter. They close the tab and look for an artist with press materials.

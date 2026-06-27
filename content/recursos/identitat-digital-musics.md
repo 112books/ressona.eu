@@ -5,6 +5,7 @@ translationKey: "blog-musician-identity"
 type: recursos
 date: 2026-06-22
 author: "Ressona"
+tags: ["identitat-digital"]
 ---
 
 Tens música. Tens talent. Tens actuacions. Però quan algú et busca a Google, el que troba és un perfil d'Instagram desactualitzat, una pàgina de Facebook que no toques des del 2021 i res més. O pitjor: no troba res.

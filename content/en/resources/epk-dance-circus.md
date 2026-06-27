@@ -5,6 +5,7 @@ translationKey: "blog-epk-dance-circus"
 type: resources
 date: 2026-06-26
 author: "Ressona"
+tags: ["epk", "professional-materials"]
 ---
 
 A dance or circus programmer doesn't make decisions based on artistic talent alone. They make decisions based on whether the theatre can technically host the work, whether the company's profile fits their audience, and whether the materials they receive let them defend the booking to their own team.

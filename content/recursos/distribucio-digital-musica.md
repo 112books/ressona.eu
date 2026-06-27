@@ -2,6 +2,7 @@
 title: "Distribució digital de música: royalties, plataformes i com cobrar"
 description: "Tens la música gravada. Ara cal posar-la a Spotify, Apple Music i la resta. T'expliquem com funciona la distribució digital, quant pagues i quant cobra un músic realment."
 date: 2026-06-14
+tags: ["distribucio", "eines-digitals"]
 ---
 
 La distribució digital ha democratitzat l'accés als mercats globals: qualsevol artista independent pot tenir la seva música a Spotify, Apple Music, Amazon Music, Tidal i 150 plataformes més sense necessitar un segell discogràfic. Però el sistema té matisos que cal entendre per no perdre diners ni drets.

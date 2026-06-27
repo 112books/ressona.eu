@@ -2,6 +2,7 @@
 title: "L'artista a LinkedIn: té sentit?"
 description: "LinkedIn no és per a músics ni actors, diuen molts. Però depèn de qué vols fer-hi. Aquí t'expliquem per a qui té sentit, per a qui no, i com usar-lo si decideixe que sí."
 date: 2026-06-12
+tags: ["xarxes-socials", "eines-digitals"]
 ---
 
 La resposta ràpida: **depèn**. LinkedIn no és Instagram ni Spotify. Però per a alguns perfils d'artistes és una eina que no s'hauria d'ignorar.

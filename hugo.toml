@@ -1,7 +1,7 @@
 baseURL = "https://ressona.eu/"
 title = "Ressona"
 defaultContentLanguage = "ca"
-disableKinds = ["taxonomy", "term", "RSS"]
+disableKinds = ["RSS"]
 enableRobotsTXT = true
 
 [params]

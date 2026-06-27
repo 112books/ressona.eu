@@ -5,6 +5,7 @@ translationKey: "blog-actor-presskit"
 type: recursos
 date: 2026-06-22
 author: "Ressona"
+tags: ["epk", "materials-professionals"]
 ---
 
 Un director de càsting obre el teu perfil. Té vint-i-cinc pestanyes obertes i tres minuts per decidir si trucar-te o passar al següent. En aquell moment, el teu press kit és l'únic comercial que tens treballant per tu.

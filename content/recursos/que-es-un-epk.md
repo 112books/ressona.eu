@@ -5,6 +5,7 @@ translationKey: "blog-what-is-epk"
 type: recursos
 date: 2026-06-26
 author: "Ressona"
+tags: ["epk", "materials-professionals"]
 ---
 
 Un programador de festival veu la teva actuació un dijous a la nit. Li agrades. Cerca el teu nom el divendres al matí. Troba un Instagram sense bio, un Spotify sense fotos professionals i cap forma de contactar-te en menys de dos minuts. Obre el perfil del següent artista.

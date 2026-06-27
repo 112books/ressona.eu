@@ -5,6 +5,7 @@ translationKey: "blog-press-release-vs-epk"
 type: recursos
 date: 2026-06-26
 author: "Ressona"
+tags: ["materials-professionals", "epk"]
 ---
 
 Un redactor d'un mitjà cultural rep de mitjana entre vint i cinquanta missatges al dia d'artistes que volen aparèixer. Descarta la majoria en deu segons. L'error que descarta més ràpid: rebre el document equivocat.

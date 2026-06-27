@@ -2,6 +2,7 @@
 title: "Music digital distribution: royalties, platforms and how to get paid"
 description: "You have the music recorded. Now you need it on Spotify, Apple Music and everywhere else. Here's how digital distribution works, what you pay and what a musician actually earns."
 date: 2026-06-14
+tags: ["distribution", "digital-tools"]
 ---
 
 Digital distribution has democratised access to global markets: any independent artist can have their music on Spotify, Apple Music, Amazon Music, Tidal and 150 more platforms without needing a record label. But the system has nuances you need to understand to avoid losing money or rights.

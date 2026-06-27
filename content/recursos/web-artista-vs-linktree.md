@@ -2,6 +2,7 @@
 title: "Web pròpia vs. Linktree: quan et cal cadascun"
 description: "Linktree és pràctic i gratuït. Un web propi és l'única presència digital que realment et pertany. Aquí t'expliquem quan usar cada eina i per qué no es substitueixen."
 date: 2026-06-17
+tags: ["eines-digitals", "identitat-digital"]
 ---
 
 Molts artistes substitueixen el seu web per un Linktree (o una eina similar com Beacons, bio.link o Later's link-in-bio). És comprensible: és gratuït, s'actualitza en dos minuts i compleix la funció "un sol lloc amb tots els meus links". Però hi ha coses que un Linktree mai podrà fer per tu.

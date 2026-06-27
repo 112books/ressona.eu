@@ -5,6 +5,7 @@ translationKey: "blog-epk-musicians"
 type: recursos
 date: 2026-06-26
 author: "Ressona"
+tags: ["epk", "materials-professionals"]
 ---
 
 Un programador de festival rep centenars de propostes cada temporada. La majoria les descarta en menys de dos minuts. No perquè la música sigui dolenta: perquè el material no li permet imaginar l'artista en el seu escenari.

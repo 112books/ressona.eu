@@ -2,6 +2,7 @@
 title: "From stage to page: documenting your tour or album as a book"
 description: "A book about your tour or recording isn't a luxury — it's a tool for connecting with fans and a permanent record of your work. Here's how it works and where to start."
 date: 2026-06-21
+tags: ["publications"]
 ---
 
 Some moments in an artist's life deserve to be fixed in a way that a social media post simply cannot achieve. A long tour. Recording an album that took years. The creative process behind a show that defined an era.

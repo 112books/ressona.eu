@@ -5,6 +5,7 @@ translationKey: "blog-web-vs-instagram"
 type: resources
 date: 2026-06-22
 author: "Ressona"
+tags: ["digital-identity", "digital-tools"]
 ---
 
 You have five thousand followers on Instagram. You post three times a week. Your stories reach a lot of people. And when someone asks for your website, you say: "I have Instagram."

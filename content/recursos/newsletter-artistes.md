@@ -2,6 +2,7 @@
 title: "Per qué un artista necessita una newsletter"
 description: "Instagram pot desaparèixer demà. La teva llista de correu, no. La newsletter és l'única audiència que realment et pertany."
 date: 2026-06-16
+tags: ["eines-digitals", "xarxes-socials"]
 ---
 
 Les xarxes socials et presten l'audiència. La newsletter te la dona en propietat. Quan Instagram canvia l'algorisme o TikTok es prohibeix en algun mercat, els teus seguidors queden atrapats a la plataforma. La teva llista de correu et segueix a qualsevol lloc.

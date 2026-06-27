@@ -5,6 +5,7 @@ translationKey: "blog-actor-identity"
 type: resources
 date: 2026-06-26
 author: "Ressona"
+tags: ["digital-identity", "professional-materials"]
 ---
 
 A casting director doesn't look in the same place as a music promoter. An actor needs to be visible to production companies, directors and talent agencies — not necessarily to the general public. An actor's digital identity must be built for the people who make hiring decisions, not for ticket buyers.
