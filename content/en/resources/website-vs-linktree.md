@@ -27,6 +27,8 @@ The problem isn't Linktree itself — it's using it as a **replacement** for a w
 <span class="resource-steps__num">01</span>
 
 **Your website belongs to you; Linktree doesn't.** If Linktree shuts down, raises prices or changes its terms, there's nothing you can do. If your domain and website disappear, it's because you chose not to pay for hosting. The difference between owning infrastructure and renting it from someone else.
+
+Remember MySpace. For years it was the near-essential platform for musicians: a personal page, a music player, a fan network. Many bands built their entire digital presence there. Today it no longer exists. All that work, all those followers, all that digital history: gone. Artists who had their own website survived the shift; those who only had MySpace started from zero.
 </div>
 
 <div class="resource-steps__item">

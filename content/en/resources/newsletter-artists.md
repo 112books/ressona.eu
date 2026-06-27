@@ -71,14 +71,29 @@ The worst mistake is going months without sending anything and then sending thre
 
 ## Which tool to use
 
-Some common options for artists:
+There are three main approaches, each with a different logic:
 
-- **Mailchimp** — free up to 500 contacts, great for starting out
-- **Substack** — free, integrates paid subscriptions, very popular with creators
+### All-in-one: platforms that already include a mailing list
+
+Some platforms you're already using as an artist let you message your followers without needing a separate tool:
+
+- **Bandcamp** — if you have followers on Bandcamp, you can message them directly. It's not a full newsletter, but it's a direct line to people who've already bought your music.
+- **Substack** — combines newsletter, blog and paid subscriptions in one place. Very popular with creators. Free until you activate paid subscriptions.
+- **Patreon** — if you're already working with patronage, it includes tiered messaging to your supporters.
+
+### Independent newsletter tools (free or freemium)
+
+If you want a mailing list separate from your platforms:
+
+- **Brevo (ex-Sendinblue)** — free plan up to 300 emails/day, good automation tools
 - **Beehiiv** — designed for creators, clean interface, generous free plan
-- **Brevo (ex-Sendinblue)** — great for larger volumes, free plan up to 300 emails/day
+- **Mailchimp** — widely known, but the free plan has been cut back considerably and the interface has grown complex; there are better alternatives now
 
-None of these require technical knowledge. You can have your first newsletter done in an hour.
+None of these require technical knowledge. You can have your first newsletter sent within an hour.
+
+### Custom solution: full data sovereignty
+
+If privacy and total control matter to you — and they should, your fans' email addresses are your most valuable digital asset — the best option is your own setup. [LinuxBCN](https://linuxbcn.com) builds newsletter systems based on free/open source software (such as Listmonk or Mautic) hosted on your own server: no third-party company accesses your list, no platform can cancel your account, no algorithm decides who receives your emails. You have complete control over your data and deliverability. It's the solution Ressona recommends for artists who want to build their digital communication on solid, lasting foundations.
 
 ## How to get your first subscribers
 

@@ -27,6 +27,8 @@ El problema no és Linktree en si — és usar-lo com a **substitut** del web.
 <span class="resource-steps__num">01</span>
 
 **El web et pertany; Linktree no.** Si Linktree tanca, puja preus o canvia les condicions d'ús, no pots fer res. Si el teu domini i web desapareix, és perquè tu has decidit no pagar l'allotjament. La diferència entre tenir infraestructura pròpia i llogar-la a un tercer.
+
+Recorda MySpace. Durant anys va ser la plataforma quasi imprescindible per a músics: pàgina pròpia, reproductor de cançons, xarxa de fans. Moltes bandes hi van construir tota la seva presència digital. Avui no existeix. Tot aquell treball, tots aquells seguidors, tota aquella història digital: desapareguda. Els artistes que tenien web propi van sobreviure al canvi; els que només tenien MySpace van començar de zero.
 </div>
 
 <div class="resource-steps__item">

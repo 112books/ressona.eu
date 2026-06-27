@@ -71,14 +71,29 @@ El pitjor error és no enviar res durant mesos i de cop enviar tres newsletters 
 
 ## Quina eina usar
 
-Algunes opcions habituals per a artistes:
+Tens tres grans enfocaments, cadascun amb una lògica diferent:
 
-- **Mailchimp** — gratuïta fins a 500 contactes, bona per começar
-- **Substack** — gratuïta, integra subscripcions de pagament, molt popular per a creadors
+### Tot en un: plataformes que ja inclouen llista de correu
+
+Algunes plataformes que ja uses com a artista permeten enviar newsletters als teus seguidors sense necessitar una eina separada:
+
+- **Bandcamp** — si tens seguidors a Bandcamp, pots enviar-los missatges directament. No és una newsletter completa, però és una forma directa de comunicar-te amb qui ja ha comprat la teva música.
+- **Substack** — barreja newsletter, blog i subscripcions de pagament en un sol lloc. Molt popular entre creadors de contingut. Gratuïta fins que actives les subscripcions de pagament.
+- **Patreon** — si ja treballes amb mecenatge, inclou missatgeria als teus patrons per nivells.
+
+### Eines de newsletter independents (gratuïtes o freemium)
+
+Si vols una llista de correu separada de les plataformes:
+
+- **Brevo (ex-Sendinblue)** — pla gratuït fins a 300 correus/dia, bones eines d'automatització
 - **Beehiiv** — dissenyada per a creadors, interfície neta, pla gratuït generós
-- **Brevo (ex-Sendinblue)** — molt bona per a volums grans, pla gratuït fins a 300 correus/dia
+- **Mailchimp** — molt coneguda, però el pla gratuït s'ha anat retallant i la interfície s'ha tornat complexa; hi ha millors alternatives ara
 
-Cap d'elles requereix coneixements tècnics. Pots tenir la primera newsletter feta en una hora.
+Cap d'elles requereix coneixements tècnics. Pots tenir la primera newsletter enviada en una hora.
+
+### La solució a mida: sobirania total de dades
+
+Si la privacitat i el control total t'importen — i hauria d'importar-te, els correus dels teus fans són el teu actiu digital més valuós — la millor opció és una solució pròpia. [LinuxBCN](https://linuxbcn.com) munta sistemes de newsletter basats en programari lliure (com Listmonk o Mautic) allotjats al teu servidor: cap empresa tercera accedeix a la teva llista, cap plataforma pot cancel·lar el teu compte, cap algorisme decideix qui rep els teus correus. Tens control absolut sobre les dades i el lliurament. És la solució que Ressona recomana per a artistes que volen construir la seva comunicació digital amb fonaments sòlids i duradors.
 
 ## Com aconseguir els primers subscriptors
 
