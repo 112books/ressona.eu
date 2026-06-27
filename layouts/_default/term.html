@@ -3,21 +3,19 @@
 <section class="section section--recursos">
   <div class="section-inner section-inner--narrow">
     <a href="{{ if eq $lang "en" }}/en/resources/{{ else }}/recursos/{{ end }}" class="service-page__back">
-      ← {{ if eq $lang "en" }}All resources{{ else }}Tots els recursos{{ end }}
+      {{ if eq $lang "en" }}&larr; All resources{{ else }}&larr; Tots els recursos{{ end }}
     </a>
     <header style="margin-top:2rem;margin-bottom:3rem">
       <p class="section-label" style="margin-bottom:12px">{{ if eq $lang "en" }}Tag{{ else }}Etiqueta{{ end }}</p>
-      <h1 class="recursos-hub__title">{{ .Title }}</h1>
-      <p class="recursos-hub__desc">
-        {{ len .Pages }} {{ if eq $lang "en" }}articles{{ else }}articles{{ end }}
-      </p>
+      <h1 class="recursos-hub__title">{{ replace .Title "-" " " }}</h1>
+      <p class="recursos-hub__desc">{{ len .Pages }} articles</p>
     </header>
     <div class="recursos-hub__grid">
-      {{ range sort .Pages "Date" "desc" }}
+      {{ range .Pages.ByDate.Reverse }}
       <a href="{{ .Permalink }}" class="recursos-card">
         <span class="recursos-card__title">{{ .Title }}</span>
         {{ with .Description }}<span class="recursos-card__desc">{{ . }}</span>{{ end }}
-        <span class="recursos-card__cta">{{ if eq $lang "en" }}Read →{{ else }}Llegir →{{ end }}</span>
+        <span class="recursos-card__cta">{{ if eq $lang "en" }}Read &rarr;{{ else }}Llegir &rarr;{{ end }}</span>
       </a>
       {{ end }}
     </div>

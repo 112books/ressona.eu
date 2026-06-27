@@ -9,7 +9,7 @@
     <div class="tag-cloud">
       {{ range .Data.Terms.Alphabetical }}
       <a href="{{ .Page.Permalink }}" class="tag-cloud__item">
-        {{ .Page.Title }}
+        {{ replace .Page.Title "-" " " }}
         <span class="tag-cloud__count">{{ .Count }}</span>
       </a>
       {{ end }}
