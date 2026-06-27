@@ -1511,39 +1511,6 @@ img, svg { display: block; }
   .footer-powered {
     justify-content: flex-start;
   }
-  .recursos-grid {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    gap: 0;
-    margin-top: 24px;
-  }
-  .recurs-card {
-    background: none;
-    border: none;
-    border-bottom: 1px solid var(--border);
-    border-radius: 0;
-    padding: 14px 0;
-    gap: 0;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .recurs-card:first-child {
-    border-top: 1px solid var(--border);
-  }
-  .recurs-card:hover {
-    background: none;
-    border-color: var(--border);
-    border-bottom-color: var(--gold);
-  }
-  .recurs-card h3 {
-    font-size: 0.9rem;
-  }
-  .recurs-card p,
-  .recurs-card__more {
-    display: none;
-  }
   .recursos-card__desc,
   .recursos-card__cta {
     display: none;
@@ -1686,6 +1653,40 @@ img, svg { display: block; }
   font-size: 0.8rem;
   color: var(--gold);
   letter-spacing: 0.03em;
+}
+@media (max-width: 768px) {
+  .recursos-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+    margin-top: 24px;
+  }
+  .recurs-card {
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+    padding: 14px 0;
+    gap: 0;
+    flex-direction: row;
+    align-items: center;
+  }
+  .recurs-card:first-child {
+    border-top: 1px solid var(--border);
+  }
+  .recurs-card:hover {
+    background: none;
+    border-color: var(--border);
+    border-bottom-color: var(--gold);
+  }
+  .recurs-card h3 {
+    font-size: 0.9rem;
+  }
+  .recurs-card p,
+  .recurs-card__more {
+    display: none;
+  }
 }
 
 /* ── ARTICLE RELATED ───────────────────────────────────── */
