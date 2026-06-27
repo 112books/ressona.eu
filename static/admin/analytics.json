@@ -1,15 +1,211 @@
 {
-  "generated": "2026-06-27T08:04:39.380851Z",
+  "generated": "2026-06-27T08:06:20.077852Z",
   "period": {
     "start": "2025-06-27",
     "end": "2026-06-27"
   },
-  "total": 0,
+  "total": 267,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-06-12",
+      "count": 8
+    },
+    {
+      "date": "2026-06-13",
+      "count": 20
+    },
+    {
+      "date": "2026-06-14",
+      "count": 3
+    },
+    {
+      "date": "2026-06-15",
+      "count": 7
+    },
+    {
+      "date": "2026-06-16",
+      "count": 11
+    },
+    {
+      "date": "2026-06-17",
+      "count": 4
+    },
+    {
+      "date": "2026-06-18",
+      "count": 38
+    },
+    {
+      "date": "2026-06-19",
+      "count": 55
+    },
+    {
+      "date": "2026-06-20",
+      "count": 15
+    },
+    {
+      "date": "2026-06-21",
+      "count": 18
+    },
+    {
+      "date": "2026-06-22",
+      "count": 24
+    },
+    {
+      "date": "2026-06-23",
+      "count": 8
+    },
+    {
+      "date": "2026-06-25",
+      "count": 6
+    },
+    {
+      "date": "2026-06-26",
+      "count": 13
+    },
+    {
+      "date": "2026-06-27",
+      "count": 37
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 105
+    },
+    {
+      "path": "/#que-fem",
+      "count": 23
+    },
+    {
+      "path": "/#quisom",
+      "count": 19
+    },
+    {
+      "path": "/#per-qui",
+      "count": 19
+    },
+    {
+      "path": "/#contacte",
+      "count": 18
+    },
+    {
+      "path": "/#com-treballem",
+      "count": 15
+    },
+    {
+      "path": "/serveis/estrategia-xarxes",
+      "count": 6
+    },
+    {
+      "path": "/serveis/identitat-visual",
+      "count": 5
+    },
+    {
+      "path": "/#recursos",
+      "count": 4
+    },
+    {
+      "path": "/serveis/fotografia-video",
+      "count": 4
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 3
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 3
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 3
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 3
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 3
+    },
+    {
+      "path": "/en",
+      "count": 3
+    },
+    {
+      "path": "/recursos/press-kit-digital-actors",
+      "count": 2
+    },
+    {
+      "path": "/recursos/identitat-digital-musics",
+      "count": 2
+    },
+    {
+      "path": "/recursos/per-que-web-propia-instagram",
+      "count": 2
+    },
+    {
+      "path": "/serveis/press-kit-digital",
+      "count": 2
+    },
+    {
+      "path": "/serveis/web-artistes",
+      "count": 2
+    },
+    {
+      "path": "/serveis/cartelleria-materials",
+      "count": 2
+    },
+    {
+      "path": "/legal/privacitat",
+      "count": 2
+    },
+    {
+      "path": "/legal/avis-legal",
+      "count": 2
+    },
+    {
+      "path": "/recursos",
+      "count": 1
+    },
+    {
+      "path": "/recursos/drets-imatges-promocionals",
+      "count": 1
+    },
+    {
+      "path": "/en/resources/press-release-vs-epk",
+      "count": 1
+    },
+    {
+      "path": "/en/#recursos",
+      "count": 1
+    },
+    {
+      "path": "/recursos/bio-artista",
+      "count": 1
+    },
+    {
+      "path": "/recursos/fotos-de-premsa",
+      "count": 1
+    }
+  ],
+  "by_lang": {
+    "en": 20
+  },
+  "by_section": {
+    "inici": 108,
+    "#que-fem": 26,
+    "#quisom": 22,
+    "#per-qui": 22,
+    "#contacte": 21,
+    "#com-treballem": 18,
+    "serveis": 24,
+    "#recursos": 5,
+    "recursos": 15,
+    "legal": 5,
+    "resources": 1
+  },
   "browsers": [
     {
       "name": "Safari",
@@ -19,7 +215,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 103
+      "count": 104
     },
     {
       "name": "Firefox",
@@ -51,7 +247,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Windows",
@@ -73,7 +269,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 70
+      "count": 71
     },
     {
       "name": "tablet",
@@ -95,7 +291,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 39
+      "count": 40
     },
     {
       "name": "France",
