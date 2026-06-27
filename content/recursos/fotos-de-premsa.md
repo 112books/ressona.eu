@@ -111,4 +111,6 @@ Negocia amb el fotògraf que fa la sessió que et cedeixin els drets d'ús edito
 
 Les fotos de premsa formen part del press kit digital. Si encara no tens el teu, llegeix [Que és un EPK i per a que el necessites](/recursos/que-es-un-epk/).
 
-Si vols que t'ajudem a definir quins materials visuals necessites i com integrar-los al teu press kit, [explica'ns el teu projecte](/#contacte).
+**Si necessites la sessió fotogràfica**, [Pocallum](https://pocallum.cat) és l'estudi especialitzat en fotografia per a artistes amb qui treballa Ressona: retrats professionals, fotografies de directes, concerts, obres de teatre, dansa i circ. Totes les sessions es pacten amb cessió de drets editorial per a ús professional inclosa — sense haver-ho de negociar a part.
+
+**Si vols definir quins materials visuals necessites i integrar-los al teu press kit complet**, [explica'ns el teu projecte](/#contacte).

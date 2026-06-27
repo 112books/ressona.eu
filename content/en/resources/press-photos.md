@@ -111,4 +111,6 @@ When hiring a photographer, negotiate the editorial usage rights into the contra
 
 Press photos are part of the digital press kit. If you don't have yours structured yet, read [What is an EPK and why you need one](/en/resources/what-is-an-epk/).
 
-If you'd like help defining what visual materials you need and how to integrate them into your press kit, [tell us about your project](/en/#contacte).
+**If you need the photo session itself**, [Pocallum](https://pocallum.cat) is the studio specialising in photography for artists that Ressona works with: professional portraits, live photography, concerts, theatre, dance and circus. All sessions are arranged with editorial usage rights for professional use included — no separate negotiation needed.
+
+**If you want help defining what visual materials you need and integrating them into your full press kit**, [tell us about your project](/en/#contacte).
