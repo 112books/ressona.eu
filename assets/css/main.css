@@ -1696,6 +1696,14 @@ img, svg { display: block; }
   color: var(--text-subtle);
   line-height: 1.5;
 }
+@media (max-width: 768px) {
+  .article-related__item {
+    padding: 14px 16px;
+  }
+  .article-related__item-desc {
+    display: none;
+  }
+}
 
 /* ── SERVICE PAGES ────────────────────────────────────── */
 .service-page {
