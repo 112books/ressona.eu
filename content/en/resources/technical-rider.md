@@ -42,17 +42,23 @@ A **technical rider** describes equipment and infrastructure needs. A **hospital
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
 
-**Monitors.** How many floor wedges, what mix each person needs (the singer wants to hear more vocals and guitar; the drummer wants everything). If you use in-ears, specify whether you bring your own or need the venue's.
+**Alternatives and order of preference.** For each important piece of equipment — amplifiers, mixing desk, processors — list your first choice and one or two acceptable alternatives. The standard format is: *"Guitar amplifier: Fender Twin Reverb (preferred) / Marshall JCM800 / any valve combo minimum 40W"*. This lets the venue's technician find a solution within their means without having to call you on show day. If an item is absolutely non-negotiable (you bring your own, no substitute accepted), mark it explicitly as **[OWN GEAR - NOT SUBSTITUTABLE]**.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">06</span>
 
-**Lighting.** If your show has specific lighting requirements: colours, spotlights, special effects. If you leave lighting to the venue, say so explicitly: "lighting design left to the venue technician's discretion".
+**Monitors.** How many floor wedges, what mix each person needs (the singer wants to hear more vocals and guitar; the drummer wants everything). If you use in-ears, specify whether you bring your own or need the venue's.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">07</span>
+
+**Lighting.** If your show has specific lighting requirements: colours, spotlights, special effects. If you leave lighting to the venue, say so explicitly: "lighting design left to the venue technician's discretion".
+</div>
+
+<div class="resource-steps__item">
+<span class="resource-steps__num">08</span>
 
 **Schedule.** What time you arrive, how long you need for load-in, how long the soundcheck takes, how much free time you need between soundcheck and show.
 </div>

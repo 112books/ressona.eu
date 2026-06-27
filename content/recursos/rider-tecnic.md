@@ -42,17 +42,23 @@ Un **rider tècnic** descriu les necessitats d'equip i infraestructura. Un **rid
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
 
+**Alternatives i ordre de preferència.** Per a cada element d'equipament important — amplificadors, consola, processadors — especifica la teva primera opció i una o dues alternatives acceptables. El format habitual és: *"Amplificador de guitarra: Fender Twin Reverb (preferit) / Marshall JCM800 / qualsevol combo valve de 40W mínim"*. Això permet al tècnic de la sala trobar una solució dins les seves possibilitats sense haver de trucar-te el dia del concert. Si un element és absolutament innegociable (portes el teu propi, no admet substitut), marqueu-lo explícitament com a **[PROPI - NO SUBSTITUÏBLE]**.
+</div>
+
+<div class="resource-steps__item">
+<span class="resource-steps__num">07</span>
+
 **Monitors.** Quants wedges (monitors de pis), quina mescla vol cadascú (el cantant vol sentir més veu i guitarra; el bateria vol tot). Si necessites in-ears, especifica si portes els teus o necessites els de la sala.
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">06</span>
+<span class="resource-steps__num">08</span>
 
 **Llums.** Si fas un espectacle amb requeriments de llum específics: colors, focus, efectes especials. Si deixes la llum en mans de la sala, posa-ho explícitament: "deixem el disseny de llums a criteri del tècnic de la sala".
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">07</span>
+<span class="resource-steps__num">09</span>
 
 **Horaris.** A quina hora arribeu, quant temps necessiteu per muntar, quant dura la prova de so, quant de temps lliure necessiteu entre prova i concert.
 </div>
