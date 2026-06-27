@@ -33,8 +33,8 @@
   <link rel="preload" href="/fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="dns-prefetch" href="https://ressona.goatcounter.com">
   <link rel="preconnect" href="https://ressona.goatcounter.com" crossorigin>
-  {{ $css := resources.Get "css/main.css" | resources.Minify }}
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  {{ $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint "sha256" }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
   {{ if .Site.Params.goatcounter }}
   <script data-goatcounter="https://{{ .Site.Params.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   {{ end }}
