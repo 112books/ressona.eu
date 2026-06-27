@@ -8,10 +8,12 @@
     <header style="margin-top:2rem;margin-bottom:3rem">
       <p class="section-label" style="margin-bottom:12px">{{ if eq $lang "en" }}Tag{{ else }}Etiqueta{{ end }}</p>
       <h1 class="recursos-hub__title">{{ replace .Title "-" " " }}</h1>
-      <p class="recursos-hub__desc">{{ len .Pages }} articles</p>
+      {{ $section := cond (eq $lang "en") "resources" "recursos" }}
+      {{ $pages := where .Pages "Section" $section }}
+      <p class="recursos-hub__desc">{{ len $pages }} articles</p>
     </header>
     <div class="recursos-hub__grid">
-      {{ range .Pages.ByDate.Reverse }}
+      {{ range $pages.ByDate.Reverse }}
       <a href="{{ .Permalink }}" class="recursos-card">
         <span class="recursos-card__title">{{ .Title }}</span>
         {{ with .Description }}<span class="recursos-card__desc">{{ . }}</span>{{ end }}
