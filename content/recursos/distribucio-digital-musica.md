@@ -88,6 +88,39 @@ Bandcamp és diferent de Spotify: la gent compra directament, i Bandcamp cobra u
 
 Els divendres de Bandcamp (Bandcamp Friday), la plataforma renuncia a la seva comissió — és el dia amb més vendes de l'any per a molts artistes independents.
 
+## Plataformes lliures i de cultura lliure
+
+Més enllà de Spotify i Apple Music hi ha un ecosistema de plataformes que funcionen amb principis diferents: llicències obertes, codi lliure, sense algorismes comercials i on l'artista conserva un control total. No substitueixen les plataformes mainstream, però per a certs projectes artístics i certs públics poden ser la millor opció — o un complement valuós.
+
+**[Jamendo](https://www.jamendo.com)** — Una de les plataformes de referència per a música sota llicències Creative Commons. Gratuïta per a artistes, permet escollir exactament quins usos autorítzes (ús personal, comercial, modificació). Té un catàleg de més de 600.000 tracks i una secció de licensing per a empreses que busquen música lliure de drets per a vídeos, publicitat i projeccions. Si publiques a Jamendo, la música pot arribar a productores i creadors de contingut que busquen alternatives legals i gratuïtes.
+
+**[SoundCloud](https://soundcloud.com)** — Tècnicament no és "lliure" en el sentit del programari lliure, però el seu pla gratuït permet pujar fins a 3 hores d'àudio sense cost i ha sigut durant anys la plataforma de referència per a la descoberta d'artistes independents i emergents. La comunitat és activa, els comentaris per posició temporal (pots deixar un comentari en el segon exacte d'una cançó) generen interacció única. Molts gèneres — electrònica, hip-hop, indie — mantenen a SoundCloud una escena pròpia paral·lela al mainstream.
+
+**[Funkwhale](https://funkwhale.audio)** — Plataforma federada i de codi obert per a compartir i escoltar música, part del Fediverse (el mateix ecosistema que Mastodon). Cada instància la gestiona una comunitat diferent; et pots connectar entre instàncies. No té ànim de lucre, no hi ha algorismes, no ven dades. Orientada a col·lectius, labels independents i comunitats musicals que volen una infraestructura pròpia sense dependre de plataformes corporatives.
+
+**[Internet Archive (archive.org)](https://archive.org/details/audio)** — La biblioteca digital més gran del món, amb una secció d'àudio immensa. Permet pujar música amb llicència Creative Commons o de domini públic per a distribució totalment lliure i permanent. No és una plataforma de descoberta activa, però és una eina d'arxiu i distribució molt valuosa per a música experimental, improvisació, enregistraments en directe o projectes amb vocació de lliure accés.
+
+**[ccMixter](https://ccmixter.org)** — Comunitat específicament orientada a la remescla i la col·laboració sota llicències Creative Commons. Molt activa en música electrònica, ambient i experimental. Si publiques aquí, l'estàs posant explícitament a disposició d'altres creadors per remezclar, adaptar i construir-hi a sobre — amb el crèdit que correspongui.
+
+### Quan té sentit usar plataformes lliures
+
+- Quan el teu projecte artístic té una **dimensió ideològica** compatible amb la cultura lliure (música experimental, activisme, comuns digitals)
+- Quan vols que la teva música pugui ser **reutilitzada legalment** per creadors de contingut, documentalistes o educadors
+- Quan vols **arxivar enregistraments en directe** sense dependre d'una plataforma comercial
+- Quan el teu públic és una **comunitat tècnica o activista** que prefereix alternatives al mainstream
+- Com a complement de la distribució mainstream: pots estar a Spotify *i* a Jamendo alhora — no s'exclouen
+
+### Creative Commons: la clau
+
+La majoria de plataformes lliures funcionen amb llicències **Creative Commons (CC)**, que permeten a l'artista definir exactament quins usos autoritza:
+
+- **CC BY** — Ús lliure amb atribució (el més obert)
+- **CC BY-NC** — Ús lliure no comercial amb atribució
+- **CC BY-NC-ND** — Ús no comercial, sense modificacions (el més restrictiu de les CC)
+- **CC BY-SA** — Ús lliure amb atribució i la mateixa llicència per a les obres derivades
+
+Triar la llicència adequada és una decisió artística i estratègica. No has de renunciar als teus drets — simplement els defineixes amb més precisió del que fan els drets reservats tradicionals.
+
 ## La distribució digital no és suficient
 
 Pujar la música és el pas inicial. Però ningú escoltarà el teu disc si no sap que existeix. El streaming funciona quan va acompanyat d'una estratègia de comunicació: presència a xarxes, press kit per a mitjans, pitching a playlists editorials, i una web que doni context al teu treball.

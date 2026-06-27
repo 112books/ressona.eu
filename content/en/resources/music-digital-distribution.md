@@ -88,6 +88,39 @@ Bandcamp is different from Spotify: people buy directly, and Bandcamp takes a 10
 
 On Bandcamp Fridays, the platform waives its commission — the highest-sales day of the year for many independent artists.
 
+## Free and open culture platforms
+
+Beyond Spotify and Apple Music there's an ecosystem of platforms that operate on different principles: open licences, free/open source code, no commercial algorithms, and where the artist retains full control. They don't replace mainstream platforms, but for certain artistic projects and certain audiences they can be the best option — or a valuable complement.
+
+**[Jamendo](https://www.jamendo.com)** — One of the reference platforms for music under Creative Commons licences. Free for artists, letting you choose exactly what uses you authorise (personal use, commercial, modification). It has a catalogue of over 600,000 tracks and a licensing section for businesses looking for rights-free music for videos, advertising and screenings. Publishing on Jamendo means your music can reach producers and content creators looking for legal, free alternatives.
+
+**[SoundCloud](https://soundcloud.com)** — Technically not "free" in the free software sense, but its free plan allows uploading up to 3 hours of audio at no cost, and it has been for years the go-to platform for discovering independent and emerging artists. The community is active, and the timed comments (you can leave a comment at the exact second of a track) create a unique kind of interaction. Many genres — electronic, hip-hop, indie — maintain their own parallel scene on SoundCloud alongside the mainstream.
+
+**[Funkwhale](https://funkwhale.audio)** — A federated, open-source platform for sharing and listening to music, part of the Fediverse (the same ecosystem as Mastodon). Each instance is managed by a different community; you can connect across instances. Non-profit, no algorithms, no data selling. Aimed at collectives, independent labels and music communities that want their own infrastructure without depending on corporate platforms.
+
+**[Internet Archive (archive.org)](https://archive.org/details/audio)** — The world's largest digital library, with a vast audio section. Lets you upload music under Creative Commons or public domain licences for completely free and permanent distribution. Not an active discovery platform, but a highly valuable archival and distribution tool for experimental music, improvisation, live recordings or projects with an open access ethos.
+
+**[ccMixter](https://ccmixter.org)** — A community specifically oriented towards remixing and collaboration under Creative Commons licences. Very active in electronic, ambient and experimental music. Publishing here means explicitly making your work available for other creators to remix, adapt and build upon — with appropriate credit.
+
+### When free platforms make sense
+
+- When your artistic project has an **ideological dimension** compatible with free culture (experimental music, activism, digital commons)
+- When you want your music to be **legally reusable** by content creators, documentary makers or educators
+- When you want to **archive live recordings** without depending on a commercial platform
+- When your audience is a **technical or activist community** that prefers alternatives to the mainstream
+- As a complement to mainstream distribution: you can be on Spotify *and* Jamendo at the same time — they're not mutually exclusive
+
+### Creative Commons: the key
+
+Most free platforms work with **Creative Commons (CC)** licences, which let the artist define exactly what uses they authorise:
+
+- **CC BY** — Free use with attribution (most open)
+- **CC BY-NC** — Free non-commercial use with attribution
+- **CC BY-NC-ND** — Non-commercial use, no modifications (most restrictive of the CC licences)
+- **CC BY-SA** — Free use with attribution and the same licence for derivative works
+
+Choosing the right licence is an artistic and strategic decision. You're not giving up your rights — you're simply defining them with more precision than traditional all-rights-reserved allows.
+
 ## Distribution alone isn't enough
 
 Uploading your music is just the first step. Nobody will listen to your record if they don't know it exists. Streaming works when it's paired with a communication strategy: social media presence, press kit for media, pitching to editorial playlists, and a website that gives context to your work.
