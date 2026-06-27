@@ -28,6 +28,12 @@
       </div>
     </div>
 
+    <div class="service-page__cta">
+      <a href="{{ if eq $lang "en" }}/en/{{ else }}/{{ end }}#contacte" class="service-page__cta-btn">
+        {{ if eq $lang "en" }}Tell us about your project{{ else }}Explica'ns el teu projecte{{ end }}
+      </a>
+    </div>
+
     {{ $section := cond (eq $lang "en") "resources" "recursos" }}
     {{ $others := where (where site.RegularPages "Section" $section) "Permalink" "!=" .Permalink }}
     {{ if $others }}
@@ -43,13 +49,6 @@
       </div>
     </div>
     {{ end }}
-
-    <div class="service-page__cta">
-      <p>{{ if eq $lang "en" }}Ready to build your digital identity?{{ else }}Llest per construir la teva identitat digital?{{ end }}</p>
-      <a href="{{ if eq $lang "en" }}/en/{{ else }}/{{ end }}#contacte" class="service-page__cta-btn">
-        {{ if eq $lang "en" }}Tell us about your project{{ else }}Explica'ns el teu projecte{{ end }}
-      </a>
-    </div>
 
   </div>
 </div>
