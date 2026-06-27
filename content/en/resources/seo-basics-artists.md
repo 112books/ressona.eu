@@ -2,7 +2,6 @@
 title: "SEO basics for artists: how to appear on Google"
 description: "You don't need to be an SEO expert. But you do need to understand the 5 concepts that determine whether people find you when they search."
 date: 2026-06-19
-draft: true
 ---
 
 When a booker, journalist or record label searches your name on Google, what they see in the first results defines their first impression. This guide walks you through the essentials so you can take control of that.

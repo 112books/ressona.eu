@@ -2,7 +2,6 @@
 title: "Visual identity for artists: where to start"
 description: "Logo, colours, typography. Visual identity isn't a luxury — it's the first thing any booker, journalist or listener sees. Here's your starting point."
 date: 2026-06-13
-draft: true
 ---
 
 When your profile photo is different across all your platforms, your website clashes with your poster design and your artist name is spelled three different ways, you're sending an unintentional message: a lack of professionalism, or at least a lack of attention to detail.

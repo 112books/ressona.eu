@@ -2,7 +2,6 @@
 title: "Artists on LinkedIn: does it make sense?"
 description: "LinkedIn isn't for musicians or actors, many say. But it depends what you want to do there. Here's who it makes sense for, who it doesn't, and how to use it if you decide yes."
 date: 2026-06-12
-draft: true
 ---
 
 The short answer: **it depends**. LinkedIn isn't Instagram or Spotify. But for some artist profiles, it's a tool that shouldn't be ignored.

@@ -2,7 +2,6 @@
 title: "Com preparar un dossier per a beques i subvencions"
 description: "Un dossier per a beques no és un press kit. Té una estructura diferent, un to diferent i uns requisits molt concrets que determinen si el teu projecte passa o no el filtre."
 date: 2026-06-15
-draft: true
 ---
 
 Les beques i subvencions culturals —de l'ICEC, el Ministeri de Cultura, l'INAEM, fundacions privades o convocatòries europees— requereixen un dossier específic. Diferent del press kit que envies a un festival. Diferent de la bio per a un programador. Aquí et donem les claus.

@@ -5,7 +5,6 @@ translationKey: "blog-social-media-artists"
 type: resources
 date: 2026-06-26
 author: "Ressona"
-draft: true
 ---
 
 Most artists waste time on platforms that don't serve their professional goals, while neglecting the ones that could. Getting this right isn't a matter of digital talent — it's understanding who each platform is actually for.

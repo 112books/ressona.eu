@@ -107,6 +107,21 @@ ressona.eu/
 └── CLAUDE.md
 ```
 
+## Estratègia de continguts (recursos)
+Els articles de recursos sempre són **contingut de captació**: informació útil i real, però amb l'objectiu final d'atraure clients per a les filials del grup:
+
+- **Ressona**: assessoria identitat digital per a artistes (servei principal)
+- **Pocallum** (pocallum.cat): fotografia professional, identitat visual, disseny gràfic, impressió (cartells, voladors, llibres via 112Books)
+- **LinuxBCN** (linuxbcn.com): tecnologia, infraestructura, automatització, solucions a mida (newsletters, webs, etc.)
+- **112Books**: projectes editorials impresos (llibres, cartells, voladors)
+
+Regles per als articles:
+- Aportar **informació genuïnament útil** — no vendre directament
+- **No explicar-ho tot**: el contingut ha d'atraure, no substituir la consulta
+- Quan sigui natural, **recomanar les filials en tercera persona** (p. ex. "a Pocallum treballen amb artistes", "des de LinuxBCN ofereixen solucions a mida")
+- Mai en primera persona col·lectiva quan es parla de les filials ("fem", "treballem") — sempre tercera persona o "a Ressona"
+- Les CTAs al final d'article redirigeixen al formulari de contacte (`/en/#contacte` o `/#contacte`)
+
 ## Regles
 1. **SVG inline**: icons fetes a mà, sense llibreries
 2. **Zero JS dependencies**: tret de GoatCounter i Chart.js (admin)
