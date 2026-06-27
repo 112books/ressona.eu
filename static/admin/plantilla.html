@@ -293,6 +293,60 @@ body {
 .bg-blue .canvas-title span { color: var(--bg); }
 .bg-dark { background: var(--bg-alt); }
 
+.type-recurs {
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+.type-recurs .canvas-icon { display: none; }
+.type-recurs .canvas-step { display: none; }
+.type-recurs .canvas-cat {
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 36px;
+}
+.type-recurs .canvas-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 66px;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  max-width: 92%;
+}
+.type-recurs .canvas-sub {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 26px;
+  color: var(--text-subtle);
+  margin-top: 28px;
+  max-width: 80%;
+  line-height: 1.5;
+}
+.type-recurs .canvas-url {
+  position: absolute;
+  bottom: 50px;
+  right: 80px;
+  font-family: var(--font-body);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: rgba(192, 169, 179, 0.35);
+}
+.bg-gold .type-recurs .canvas-cat { color: var(--bg); }
+.bg-gold .type-recurs .canvas-url { color: rgba(52, 69, 76, 0.4); }
+.bg-blue .type-recurs .canvas-cat { color: var(--bg); }
+.bg-blue .type-recurs .canvas-url { color: rgba(52, 69, 76, 0.4); }
+@media (max-width: 1100px) {
+  .type-recurs .canvas-cat { font-size: 1.7vw; margin-bottom: 3vw; }
+  .type-recurs .canvas-title { font-size: 6vw; }
+  .type-recurs .canvas-sub { font-size: 2.4vw; }
+  .type-recurs .canvas-url { font-size: 1.6vw; right: 6vw; bottom: 4vw; }
+}
+
 .canvas-brand {
   position: absolute;
   bottom: 50px;
@@ -345,6 +399,7 @@ body {
         <option value="servei">Servei</option>
         <option value="perfil">Perfil d'artista</option>
         <option value="proces">Procés / Pas</option>
+        <option value="recurs">Article / Recurs</option>
       </select>
 
       <label>Fons</label>
@@ -382,18 +437,26 @@ body {
       <label>Número pas</label>
       <input type="text" id="inpStep" value="01" style="width:60px">
     </div>
+    <div class="controls-row" id="rowCat">
+      <label>Categoria</label>
+      <input type="text" id="inpCat" value="Identitat digital" style="width:220px">
+      <label style="margin-left:16px">URL</label>
+      <input type="text" id="inpUrl" value="ressona.eu/recursos" style="width:220px">
+    </div>
   </div>
 </div>
 
 <div class="canvas-wrap">
   <div class="canvas bg-default" id="canvas">
     <div class="canvas-layout type-cita" id="canvasLayout">
+      <div class="canvas-cat" id="canvasCat">Identitat digital</div>
       <div class="canvas-icon" id="canvasIcon">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
       </div>
       <div class="canvas-step" id="canvasStep">01</div>
       <div class="canvas-title" id="canvasTitle">La teva identitat digital ha de <em>ressonar</em> amb tu</div>
       <div class="canvas-sub" id="canvasSub">Acompanyem creadors a construir la seva presència digital.</div>
+      <div class="canvas-url" id="canvasUrl">ressona.eu/recursos</div>
     </div>
     <div class="canvas-brand">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 340 50" width="340" height="50">
@@ -465,6 +528,8 @@ function initApp() {
   var layout = document.getElementById('canvasLayout');
   var iconEl = document.getElementById('canvasIcon');
   var stepEl = document.getElementById('canvasStep');
+  var catEl = document.getElementById('canvasCat');
+  var urlEl = document.getElementById('canvasUrl');
   var titleEl = document.getElementById('canvasTitle');
   var subEl = document.getElementById('canvasSub');
   var selType = document.getElementById('selType');
@@ -473,19 +538,29 @@ function initApp() {
   var inpTitle = document.getElementById('inpTitle');
   var inpSub = document.getElementById('inpSub');
   var inpStep = document.getElementById('inpStep');
+  var inpCat = document.getElementById('inpCat');
+  var inpUrl = document.getElementById('inpUrl');
   var rowStep = document.getElementById('rowStep');
+  var rowCat = document.getElementById('rowCat');
 
   function update() {
-    layout.className = 'canvas-layout type-' + selType.value;
-    var isProces = selType.value === 'proces';
-    iconEl.style.display = (selType.value === 'cita' || isProces) ? 'none' : 'flex';
+    var t = selType.value;
+    layout.className = 'canvas-layout type-' + t;
+    var isProces = t === 'proces';
+    var isRecurs = t === 'recurs';
+    iconEl.style.display = (t === 'cita' || isProces || isRecurs) ? 'none' : 'flex';
     stepEl.style.display = isProces ? 'block' : 'none';
+    catEl.style.display = isRecurs ? 'block' : 'none';
+    urlEl.style.display = isRecurs ? 'block' : 'none';
     rowStep.style.display = isProces ? 'flex' : 'none';
+    rowCat.style.display = isRecurs ? 'flex' : 'none';
     canvas.className = 'canvas bg-' + selBg.value;
     iconEl.innerHTML = ICONS[selIcon.value] || '';
     titleEl.innerHTML = inpTitle.value;
     subEl.textContent = inpSub.value;
     stepEl.textContent = inpStep.value;
+    catEl.textContent = inpCat.value.toUpperCase();
+    urlEl.textContent = inpUrl.value;
   }
 
   selType.addEventListener('change', update);
@@ -494,6 +569,8 @@ function initApp() {
   inpTitle.addEventListener('input', update);
   inpSub.addEventListener('input', update);
   inpStep.addEventListener('input', update);
+  inpCat.addEventListener('input', update);
+  inpUrl.addEventListener('input', update);
   update();
 
   document.getElementById('btnCapture').addEventListener('click', function() {
