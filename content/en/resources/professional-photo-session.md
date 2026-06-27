@@ -108,4 +108,4 @@ Agree in writing (or by email) what uses are included in the price: social media
 
 ## Our recommendation
 
-At [Pocallum](https://pocallum.cat) we do photo sessions designed specifically for artists' press kits and digital identity: portraits, live performances, theatre, dance, circus and concerts. If you want material that actually opens doors, [get in touch](/en/#contacte).
+[Pocallum](https://pocallum.cat) is the studio specialising in photography for artists that Ressona works with: portraits, live performances, theatre, dance, circus and concerts — all designed for the press kit and digital identity. If you want material that actually opens doors, [get in touch with Ressona](/en/#contacte).

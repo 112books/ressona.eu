@@ -211,7 +211,7 @@ You don't need a twenty-page contract. You need a clear agreement, in writing, b
 
 ---
 
-If you need professional photography for your press materials, [Pocallum](https://pocallum.cat) is the studio specialising in photography for artists that we work with: professional portraits, live photography, concerts, theatre productions, dance and circus performances. All sessions include editorial usage rights for professional use.
+If you need professional photography for your press materials, [Pocallum](https://pocallum.cat) is the studio specialising in photography for artists that Ressona works with: professional portraits, live photography, concerts, theatre productions, dance and circus performances. All sessions include editorial usage rights for professional use.
 
 **Ressona also handles the copy.** If you need a bio, a press release or any promotional text written to professional standards — with usage rights correctly agreed from the start — that's part of what we do.
 

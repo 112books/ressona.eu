@@ -108,4 +108,4 @@ Acorda per escrit (o per email) quins usos inclou el preu: xarxes socials, web, 
 
 ## Recomanació
 
-A [Pocallum](https://pocallum.cat) fem sessions de fotografia dissenyades específicament per al press kit i la identitat digital d'artistes: retrats, directes, obres de teatre, dansa, circ i concerts. Si vols material que realment obri portes, [parla amb nosaltres](/contact).
+[Pocallum](https://pocallum.cat) és l'estudi especialitzat en fotografia per a artistes amb qui treballa Ressona: retrats, directes, obres de teatre, dansa, circ i concerts, tot dissenyat per al press kit i la identitat digital. Si vols material que realment obri portes, [parla amb Ressona](/contact).

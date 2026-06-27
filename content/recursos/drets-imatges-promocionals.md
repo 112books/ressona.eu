@@ -210,7 +210,7 @@ No cal un contracte de vint pàgines. Cal un acord clar, per escrit, abans de di
 
 ---
 
-Si necessites fotografia professional per al teu material de premsa, [Pocallum](https://pocallum.cat) és l'estudi especialitzat en imatge per a artistes amb qui treballem: retrat professional, fotografies de directes, concerts, obres de teatre, espectacles de dansa i circ. Totes les sessions inclouen cessió de drets editorial per a ús professional.
+Si necessites fotografia professional per al teu material de premsa, [Pocallum](https://pocallum.cat) és l'estudi especialitzat en imatge per a artistes amb qui treballa Ressona: retrat professional, fotografies de directes, concerts, obres de teatre, espectacles de dansa i circ. Totes les sessions inclouen cessió de drets editorial per a ús professional.
 
 **Ressona també s'encarrega dels textos.** Si necessites la bio, la nota de premsa o qualsevol text promocional redactat amb criteris professionals i amb la cessió de drets correctament acordada des del principi, és part del que fem.
 
