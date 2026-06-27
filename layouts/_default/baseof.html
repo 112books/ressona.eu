@@ -228,6 +228,14 @@
       document.querySelectorAll('.section-reveal').forEach(function(s) {
         s.classList.add('section--visible');
       });
+      setTimeout(function() {
+        var target = document.querySelector(location.hash);
+        if (target) {
+          var headerH = (document.querySelector('.site-header') || {}).offsetHeight || 0;
+          var top = target.getBoundingClientRect().top + window.scrollY - headerH - 16;
+          window.scrollTo({ top: Math.max(0, top), behavior: 'auto' });
+        }
+      }, 50);
     }
 
     var gcLangPrefix = document.documentElement.lang === 'en' ? '/en/' : '/';
