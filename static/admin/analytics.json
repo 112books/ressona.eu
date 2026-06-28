@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-27T23:50:07.058609Z",
+  "generated": "2026-06-28T02:02:50.642569Z",
   "period": {
-    "start": "2025-06-27",
-    "end": "2026-06-27"
+    "start": "2025-06-28",
+    "end": "2026-06-28"
   },
-  "total": 267,
+  "total": 355,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -65,44 +65,76 @@
     },
     {
       "date": "2026-06-27",
-      "count": 37
+      "count": 125
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 105
+      "count": 132
     },
     {
       "path": "/#que-fem",
-      "count": 23
+      "count": 28
     },
     {
       "path": "/#quisom",
-      "count": 19
+      "count": 23
     },
     {
       "path": "/#per-qui",
-      "count": 19
+      "count": 23
     },
     {
       "path": "/#contacte",
-      "count": 18
+      "count": 22
     },
     {
       "path": "/#com-treballem",
-      "count": 15
+      "count": 19
+    },
+    {
+      "path": "/#recursos",
+      "count": 8
     },
     {
       "path": "/serveis/estrategia-xarxes",
       "count": 6
     },
     {
+      "path": "/recursos",
+      "count": 5
+    },
+    {
       "path": "/serveis/identitat-visual",
       "count": 5
     },
     {
-      "path": "/#recursos",
+      "path": "/recursos/drets-imatges-promocionals",
+      "count": 4
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 4
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 4
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 4
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 4
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 4
+    },
+    {
+      "path": "/en",
       "count": 4
     },
     {
@@ -110,28 +142,28 @@
       "count": 4
     },
     {
-      "path": "/en/#contacte",
+      "path": "/recursos/per-que-web-propia-instagram",
       "count": 3
     },
     {
-      "path": "/en/#com-treballem",
-      "count": 3
+      "path": "/tags/materials-professionals",
+      "count": 2
     },
     {
-      "path": "/en/#quisom",
-      "count": 3
+      "path": "/en/#recursos",
+      "count": 2
     },
     {
-      "path": "/en/#per-qui",
-      "count": 3
+      "path": "/recursos/fotos-de-premsa",
+      "count": 2
     },
     {
-      "path": "/en/#que-fem",
-      "count": 3
+      "path": "/recursos/presentar-projecte-festival",
+      "count": 2
     },
     {
-      "path": "/en",
-      "count": 3
+      "path": "/recursos/que-es-un-epk",
+      "count": 2
     },
     {
       "path": "/recursos/press-kit-digital-actors",
@@ -142,11 +174,11 @@
       "count": 2
     },
     {
-      "path": "/recursos/per-que-web-propia-instagram",
+      "path": "/serveis/press-kit-digital",
       "count": 2
     },
     {
-      "path": "/serveis/press-kit-digital",
+      "path": "/serveis/xarxes-automatiques",
       "count": 2
     },
     {
@@ -156,55 +188,24 @@
     {
       "path": "/serveis/cartelleria-materials",
       "count": 2
-    },
-    {
-      "path": "/legal/privacitat",
-      "count": 2
-    },
-    {
-      "path": "/legal/avis-legal",
-      "count": 2
-    },
-    {
-      "path": "/recursos",
-      "count": 1
-    },
-    {
-      "path": "/recursos/drets-imatges-promocionals",
-      "count": 1
-    },
-    {
-      "path": "/en/resources/press-release-vs-epk",
-      "count": 1
-    },
-    {
-      "path": "/en/#recursos",
-      "count": 1
-    },
-    {
-      "path": "/recursos/bio-artista",
-      "count": 1
-    },
-    {
-      "path": "/recursos/fotos-de-premsa",
-      "count": 1
     }
   ],
   "by_lang": {
-    "en": 20
+    "en": 31
   },
   "by_section": {
-    "inici": 108,
-    "#que-fem": 26,
-    "#quisom": 22,
-    "#per-qui": 22,
-    "#contacte": 21,
-    "#com-treballem": 18,
-    "serveis": 24,
-    "#recursos": 5,
-    "recursos": 15,
+    "inici": 136,
+    "#que-fem": 32,
+    "#quisom": 27,
+    "#per-qui": 27,
+    "#contacte": 26,
+    "#com-treballem": 23,
+    "#recursos": 10,
+    "serveis": 25,
+    "recursos": 33,
+    "tags": 7,
     "legal": 5,
-    "resources": 1
+    "resources": 4
   },
   "browsers": [
     {
@@ -323,7 +324,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 133
+      "count": 164
     },
     {
       "name": "Google",
