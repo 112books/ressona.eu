@@ -1,222 +1,25 @@
 {
-  "generated": "2026-06-28T06:50:01.621301Z",
+  "generated": "2026-06-28T09:49:57.025741Z",
   "period": {
     "start": "2025-06-28",
     "end": "2026-06-28"
   },
-  "total": 355,
+  "total": 0,
   "total_unique": 0,
-  "hits_by_day": [
-    {
-      "date": "2026-06-12",
-      "count": 8
-    },
-    {
-      "date": "2026-06-13",
-      "count": 20
-    },
-    {
-      "date": "2026-06-14",
-      "count": 3
-    },
-    {
-      "date": "2026-06-15",
-      "count": 7
-    },
-    {
-      "date": "2026-06-16",
-      "count": 11
-    },
-    {
-      "date": "2026-06-17",
-      "count": 4
-    },
-    {
-      "date": "2026-06-18",
-      "count": 38
-    },
-    {
-      "date": "2026-06-19",
-      "count": 55
-    },
-    {
-      "date": "2026-06-20",
-      "count": 15
-    },
-    {
-      "date": "2026-06-21",
-      "count": 18
-    },
-    {
-      "date": "2026-06-22",
-      "count": 24
-    },
-    {
-      "date": "2026-06-23",
-      "count": 8
-    },
-    {
-      "date": "2026-06-25",
-      "count": 6
-    },
-    {
-      "date": "2026-06-26",
-      "count": 13
-    },
-    {
-      "date": "2026-06-27",
-      "count": 125
-    }
-  ],
-  "hits": [
-    {
-      "path": "/",
-      "count": 132
-    },
-    {
-      "path": "/#que-fem",
-      "count": 28
-    },
-    {
-      "path": "/#quisom",
-      "count": 23
-    },
-    {
-      "path": "/#per-qui",
-      "count": 23
-    },
-    {
-      "path": "/#contacte",
-      "count": 22
-    },
-    {
-      "path": "/#com-treballem",
-      "count": 19
-    },
-    {
-      "path": "/#recursos",
-      "count": 8
-    },
-    {
-      "path": "/serveis/estrategia-xarxes",
-      "count": 6
-    },
-    {
-      "path": "/recursos",
-      "count": 5
-    },
-    {
-      "path": "/serveis/identitat-visual",
-      "count": 5
-    },
-    {
-      "path": "/recursos/drets-imatges-promocionals",
-      "count": 4
-    },
-    {
-      "path": "/en/#contacte",
-      "count": 4
-    },
-    {
-      "path": "/en/#com-treballem",
-      "count": 4
-    },
-    {
-      "path": "/en/#quisom",
-      "count": 4
-    },
-    {
-      "path": "/en/#per-qui",
-      "count": 4
-    },
-    {
-      "path": "/en/#que-fem",
-      "count": 4
-    },
-    {
-      "path": "/en",
-      "count": 4
-    },
-    {
-      "path": "/serveis/fotografia-video",
-      "count": 4
-    },
-    {
-      "path": "/recursos/per-que-web-propia-instagram",
-      "count": 3
-    },
-    {
-      "path": "/tags/materials-professionals",
-      "count": 2
-    },
-    {
-      "path": "/en/#recursos",
-      "count": 2
-    },
-    {
-      "path": "/recursos/fotos-de-premsa",
-      "count": 2
-    },
-    {
-      "path": "/recursos/presentar-projecte-festival",
-      "count": 2
-    },
-    {
-      "path": "/recursos/que-es-un-epk",
-      "count": 2
-    },
-    {
-      "path": "/recursos/press-kit-digital-actors",
-      "count": 2
-    },
-    {
-      "path": "/recursos/identitat-digital-musics",
-      "count": 2
-    },
-    {
-      "path": "/serveis/press-kit-digital",
-      "count": 2
-    },
-    {
-      "path": "/serveis/xarxes-automatiques",
-      "count": 2
-    },
-    {
-      "path": "/serveis/web-artistes",
-      "count": 2
-    },
-    {
-      "path": "/serveis/cartelleria-materials",
-      "count": 2
-    }
-  ],
-  "by_lang": {
-    "en": 31
-  },
-  "by_section": {
-    "inici": 136,
-    "#que-fem": 32,
-    "#quisom": 27,
-    "#per-qui": 27,
-    "#contacte": 26,
-    "#com-treballem": 23,
-    "#recursos": 10,
-    "serveis": 25,
-    "recursos": 33,
-    "tags": 7,
-    "legal": 5,
-    "resources": 4
-  },
+  "hits_by_day": [],
+  "hits": [],
+  "by_lang": {},
+  "by_section": {},
   "browsers": [
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 191
+      "count": 194
     },
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 154
+      "count": 158
     },
     {
       "name": "Firefox",
@@ -238,12 +41,12 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 217
+      "count": 221
     },
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 60
+      "count": 63
     },
     {
       "name": "Android",
@@ -265,12 +68,12 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 178
+      "count": 182
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 109
+      "count": 112
     },
     {
       "name": "tablet",
@@ -287,7 +90,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 288
+      "count": 295
     },
     {
       "name": "United States",
