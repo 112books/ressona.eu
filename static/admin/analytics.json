@@ -1,15 +1,216 @@
 {
-  "generated": "2026-06-29T12:16:48.721410Z",
+  "generated": "2026-06-29T12:19:35.131133Z",
   "period": {
     "start": "2025-06-29",
     "end": "2026-06-29"
   },
-  "total": 0,
+  "total": 370,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-06-12",
+      "count": 8
+    },
+    {
+      "date": "2026-06-13",
+      "count": 20
+    },
+    {
+      "date": "2026-06-14",
+      "count": 3
+    },
+    {
+      "date": "2026-06-15",
+      "count": 7
+    },
+    {
+      "date": "2026-06-16",
+      "count": 11
+    },
+    {
+      "date": "2026-06-17",
+      "count": 4
+    },
+    {
+      "date": "2026-06-18",
+      "count": 38
+    },
+    {
+      "date": "2026-06-19",
+      "count": 55
+    },
+    {
+      "date": "2026-06-20",
+      "count": 15
+    },
+    {
+      "date": "2026-06-21",
+      "count": 18
+    },
+    {
+      "date": "2026-06-22",
+      "count": 24
+    },
+    {
+      "date": "2026-06-23",
+      "count": 8
+    },
+    {
+      "date": "2026-06-25",
+      "count": 6
+    },
+    {
+      "date": "2026-06-26",
+      "count": 13
+    },
+    {
+      "date": "2026-06-27",
+      "count": 125
+    },
+    {
+      "date": "2026-06-28",
+      "count": 15
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 135
+    },
+    {
+      "path": "/#que-fem",
+      "count": 29
+    },
+    {
+      "path": "/#contacte",
+      "count": 24
+    },
+    {
+      "path": "/#quisom",
+      "count": 24
+    },
+    {
+      "path": "/#per-qui",
+      "count": 24
+    },
+    {
+      "path": "/#com-treballem",
+      "count": 20
+    },
+    {
+      "path": "/#recursos",
+      "count": 10
+    },
+    {
+      "path": "/recursos",
+      "count": 6
+    },
+    {
+      "path": "/serveis/estrategia-xarxes",
+      "count": 6
+    },
+    {
+      "path": "/recursos/drets-imatges-promocionals",
+      "count": 5
+    },
+    {
+      "path": "/en",
+      "count": 5
+    },
+    {
+      "path": "/serveis/identitat-visual",
+      "count": 5
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 4
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 4
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 4
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 4
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 4
+    },
+    {
+      "path": "/serveis/fotografia-video",
+      "count": 4
+    },
+    {
+      "path": "/recursos/per-que-web-propia-instagram",
+      "count": 3
+    },
+    {
+      "path": "/tags/materials-professionals",
+      "count": 2
+    },
+    {
+      "path": "/en/#recursos",
+      "count": 2
+    },
+    {
+      "path": "/recursos/fotos-de-premsa",
+      "count": 2
+    },
+    {
+      "path": "/recursos/presentar-projecte-festival",
+      "count": 2
+    },
+    {
+      "path": "/recursos/que-es-un-epk",
+      "count": 2
+    },
+    {
+      "path": "/recursos/press-kit-digital-actors",
+      "count": 2
+    },
+    {
+      "path": "/recursos/identitat-digital-musics",
+      "count": 2
+    },
+    {
+      "path": "/serveis/press-kit-digital",
+      "count": 2
+    },
+    {
+      "path": "/serveis/xarxes-automatiques",
+      "count": 2
+    },
+    {
+      "path": "/serveis/web-artistes",
+      "count": 2
+    },
+    {
+      "path": "/serveis/cartelleria-materials",
+      "count": 2
+    }
+  ],
+  "by_lang": {
+    "en": 33
+  },
+  "by_section": {
+    "inici": 140,
+    "#que-fem": 33,
+    "#contacte": 28,
+    "#quisom": 28,
+    "#per-qui": 28,
+    "#com-treballem": 24,
+    "#recursos": 12,
+    "recursos": 35,
+    "serveis": 25,
+    "tags": 7,
+    "legal": 5,
+    "resources": 5
+  },
   "browsers": [
     {
       "name": "Safari",
@@ -19,7 +220,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 174
+      "count": 175
     },
     {
       "name": "Firefox",
@@ -51,7 +252,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 50
+      "count": 51
     },
     {
       "name": "Windows",
@@ -73,7 +274,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 112
+      "count": 113
     },
     {
       "name": "tablet",
@@ -95,7 +296,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 61
+      "count": 62
     },
     {
       "name": "France",
