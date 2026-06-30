@@ -36,7 +36,7 @@ section_per_qui_label: — 02
 section_per_qui_title: Per a qui<br><span>crea i actua</span>
 
 aud_music: Músics
-aud_music_desc: De la maqueta al concert. Tot el camí digital.
+aud_music_desc: De la primera maqueta al concert. Construïm la teva identitat digital: web, EPK, fotografia, Bandcamp, xarxes i eines per presentar el teu projecte.
 aud_actors: Actors
 aud_actors_desc: Book, showreel, presència. Per a càstings i més.
 aud_circus: Circ i escena
@@ -52,12 +52,12 @@ section_quisom_label: — 03
 section_quisom_title: Qui som
 section_quisom_tagline: Ressona és un projecte de Joan Mz, creat a Barcelona a partir de tres branques de treball complementàries. Una mirada àmplia per construir identitat digital per a artistes.
 
-about_pillar_photo_title: Fotografia i identitat visual
-about_pillar_photo_desc: "<a href=\"https://pocallum.cat\" target=\"_blank\" rel=\"noopener\">Pocallum</a> aporta anys d'experiència en fotografia artística, disseny de logotips i identitat visual. La imatge com a primera capa de la marca d'un artista."
-about_pillar_tech_title: Tecnologia i automatització
-about_pillar_tech_desc: "<a href=\"https://linuxbcn.com\" target=\"_blank\" rel=\"noopener\">LinuxBCN</a> aporta la infraestructura digital: webs estàtics, automatitzacions, IA aplicada i programari lliure. El codi que fa visible el talent."
-about_pillar_editorial_title: Comunicació i editorial
-about_pillar_editorial_desc: "<a href=\"https://112books.eu\" target=\"_blank\" rel=\"noopener\">112books</a> aporta criteri editorial i experiència en comunicació cultural. Cada artista és una publicació única que mereix una narrativa coherent."
+about_pillar_photo_title: Mirada
+about_pillar_photo_desc: "La primera capa de qualsevol artista és visual. A <a href=\"https://pocallum.cat\" target=\"_blank\" rel=\"noopener\">Pocallum</a> treballen la fotografia artística, el disseny de logotips i la identitat visual que comuniquen abans que parlin les paraules."
+about_pillar_tech_title: Estructura
+about_pillar_tech_desc: "El talent necessita una base sòlida. Des de <a href=\"https://linuxbcn.com\" target=\"_blank\" rel=\"noopener\">LinuxBCN</a> dissenyen la infraestructura digital: webs, automatitzacions, IA aplicada i programari lliure que fan visible el teu projecte."
+about_pillar_editorial_title: Relat
+about_pillar_editorial_desc: "Un artista és una publicació única. A <a href=\"https://112books.eu\" target=\"_blank\" rel=\"noopener\">112books</a> aporten criteri editorial i experiència en comunicació cultural per construir una narrativa coherent i duradora."
 
 section_com_label: — 04
 section_com_title: Com ho fem,<br><span>pas a pas</span>
