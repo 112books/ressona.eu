@@ -2293,7 +2293,7 @@ img, svg { display: block; }
   margin-bottom: 20px;
 }
 .starter-desc {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   color: var(--text-subtle);
   max-width: 52ch;
   line-height: 1.75;
@@ -2327,15 +2327,15 @@ img, svg { display: block; }
 }
 .starter-step__body strong {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   font-weight: 600;
   color: var(--text);
   margin-bottom: 8px;
 }
 .starter-step__body p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--text-subtle);
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
 /* Inclou / No inclou */
@@ -2368,7 +2368,7 @@ img, svg { display: block; }
   gap: 10px;
 }
 .starter-col ul li {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   color: var(--text-subtle);
   line-height: 1.5;
   padding-left: 16px;
@@ -2438,7 +2438,7 @@ img, svg { display: block; }
   background: rgba(253,191,104,0.04);
 }
 .starter-approval__text {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--text-subtle);
   line-height: 1.8;
   max-width: 64ch;
