@@ -4,7 +4,7 @@ description: "Els CDs han desaparegut però la gent al concert vol donar suport.
 translationKey: "blog-concert-music-distribution"
 type: recursos
 date: 2026-06-30
-draft: true
+draft: false
 author: "Ressona"
 tags: ["eines-digitals", "musics", "concerts"]
 ---

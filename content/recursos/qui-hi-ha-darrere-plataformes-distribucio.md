@@ -4,7 +4,7 @@ description: "Quan publiques música a Spotify o Bandcamp, a qui dones els teus 
 translationKey: "blog-platform-ethics"
 type: recursos
 date: 2026-06-30
-draft: true
+draft: false
 author: "Ressona"
 tags: ["eines-digitals", "musics", "distribucio"]
 ---

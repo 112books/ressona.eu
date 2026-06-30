@@ -4,7 +4,7 @@ description: "Web propi, descàrregues directes, RSS, Faircamp, Funkwhale. Com p
 translationKey: "blog-diy-music-distribution"
 type: recursos
 date: 2026-06-30
-draft: true
+draft: false
 author: "Ressona"
 tags: ["eines-digitals", "musics", "distribucio"]
 ---

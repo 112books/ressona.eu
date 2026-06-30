@@ -88,6 +88,8 @@ Bandcamp és diferent de Spotify: la gent compra directament, i Bandcamp cobra u
 
 Els divendres de Bandcamp (Bandcamp Friday), la plataforma renuncia a la seva comissió — és el dia amb més vendes de l'any per a molts artistes independents.
 
+→ [Com construir una presència professional a Bandcamp](/recursos/bandcamp-musics-presencia-professional/)
+
 ## Plataformes lliures i de cultura lliure
 
 Més enllà de Spotify i Apple Music hi ha un ecosistema de plataformes que funcionen amb principis diferents: llicències obertes, codi lliure, sense algorismes comercials i on l'artista conserva un control total. No substitueixen les plataformes mainstream, però per a certs projectes artístics i certs públics poden ser la millor opció — o un complement valuós.
