@@ -3,6 +3,7 @@ title: "How to prepare for a professional photo session"
 description: "Everything you need to do before, during and after a photo session to get the most out of it and end up with images that actually open doors."
 date: 2026-06-20
 tags: ["photography"]
+category: comunicacio
 ---
 
 A good photo session is an investment. To get the most out of it, preparation is just as important as the photographer's talent. Here's everything you need to know.

@@ -7,6 +7,7 @@ date: 2026-06-30
 draft: false
 author: "Ressona"
 tags: ["eines-digitals", "musics", "distribucio"]
+category: distribucio
 ---
 
 Hi ha artistes que no volen donar ni un cèntim a Spotify, Apple ni Amazon. Ni per principi ni per estratègia. Volen que els seus fans puguin accedir a la música directament, sense intermediaris, sense algorismes, sense rastres de dades que van a parar a una corporació.

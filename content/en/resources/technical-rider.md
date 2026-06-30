@@ -3,6 +3,7 @@ title: "Technical rider: what it is and how to write one properly"
 description: "The rider is the document that determines whether a concert goes smoothly or falls apart. Learn how to write it clearly, realistically and professionally."
 date: 2026-06-18
 tags: ["professional-materials"]
+category: projectes
 ---
 
 A technical rider is the document you send to every venue, festival or promoter before a performance. It covers everything you need to be able to perform: sound equipment, lighting, stage space, dressing rooms, catering... A good rider saves hours of misunderstandings and signals that you know what you're doing.

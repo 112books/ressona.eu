@@ -1,19 +1,81 @@
 {{ define "main" }}
+{{ $allPages := where .Pages ".Draft" false }}
+
+{{ $iconDistribucio := `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>` }}
+{{ $iconIdentitat := `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.58-7 8-7s8 3 8 7"/></svg>` }}
+{{ $iconComunicacio := `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>` }}
+{{ $iconXarxes := `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/><circle cx="12" cy="12" r="2"/></svg>` }}
+{{ $iconProjectes := `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>` }}
+
 <section class="section section--recursos">
   <div class="section-inner section-inner--narrow">
     <h1 class="recursos-hub__title">{{ .Title }}</h1>
     <p class="recursos-hub__desc">{{ .Description }}</p>
-    <div class="recursos-hub__grid">
-      {{ range sort .Pages "Date" "desc" }}
-      {{ if not .Draft }}
-      <a href="{{ .Permalink }}" class="recursos-card">
-        <span class="recursos-card__title">{{ .Title }}</span>
-        {{ with .Description }}<span class="recursos-card__desc">{{ . }}</span>{{ end }}
-        <span class="recursos-card__cta">Llegir →</span>
-      </a>
-      {{ end }}
-      {{ end }}
+
+    {{/* ── Nous ─────────────────────────────────────────── */}}
+    <div class="recursos-section">
+      <div class="recursos-section__header">
+        <span class="recursos-section__label">Nous</span>
+      </div>
+      <div class="recursos-hub__grid">
+        {{ range first 4 (sort $allPages "Date" "desc") }}
+        <a href="{{ .Permalink }}" class="recursos-card">
+          <span class="recursos-card__title">{{ .Title }}</span>
+          {{ with .Description }}<span class="recursos-card__desc">{{ . }}</span>{{ end }}
+          <span class="recursos-card__cta">Llegir →</span>
+        </a>
+        {{ end }}
+      </div>
     </div>
+
+    {{/* ── Més consultats ───────────────────────────────── */}}
+    {{ $featured := where $allPages ".Params.featured" true }}
+    {{ if $featured }}
+    <div class="recursos-section">
+      <div class="recursos-section__header">
+        <span class="recursos-section__label">Més consultats</span>
+      </div>
+      <div class="recursos-hub__grid">
+        {{ range sort $featured "Date" "desc" }}
+        <a href="{{ .Permalink }}" class="recursos-card recursos-card--featured">
+          <span class="recursos-card__title">{{ .Title }}</span>
+          {{ with .Description }}<span class="recursos-card__desc">{{ . }}</span>{{ end }}
+          <span class="recursos-card__cta">Llegir →</span>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{/* ── Per categoria ────────────────────────────────── */}}
+    {{ $cats := slice
+      (dict "slug" "distribucio"  "label" "Distribució"            "icon" $iconDistribucio)
+      (dict "slug" "identitat"    "label" "Identitat digital"       "icon" $iconIdentitat)
+      (dict "slug" "comunicacio"  "label" "Comunicació i premsa"    "icon" $iconComunicacio)
+      (dict "slug" "xarxes"       "label" "Xarxes i contingut"      "icon" $iconXarxes)
+      (dict "slug" "projectes"    "label" "Projectes i presentació" "icon" $iconProjectes)
+    }}
+    {{ range $cats }}
+    {{ $catPages := where $allPages ".Params.category" .slug }}
+    {{ if $catPages }}
+    <div class="recursos-section">
+      <div class="recursos-section__header">
+        <span class="recursos-section__icon" aria-hidden="true">{{ .icon | safeHTML }}</span>
+        <span class="recursos-section__label">{{ .label }}</span>
+      </div>
+      <div class="recursos-hub__grid">
+        {{ range sort $catPages "Date" "desc" }}
+        <a href="{{ .Permalink }}" class="recursos-card">
+          <span class="recursos-card__title">{{ .Title }}</span>
+          {{ with .Description }}<span class="recursos-card__desc">{{ . }}</span>{{ end }}
+          <span class="recursos-card__cta">Llegir →</span>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+
   </div>
 </section>
 {{ end }}

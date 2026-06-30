@@ -3,6 +3,7 @@ title: "Com preparar una sessió de fotos professionals"
 description: "Tot el que cal fer abans, durant i després d'una sessió fotogràfica per aprofitar-la al màxim i obtenir imatges que realment obrin portes."
 date: 2026-06-20
 tags: ["fotografia"]
+category: comunicacio
 ---
 
 Una bona sessió fotogràfica és una inversió. Per treure-li el màxim profit, la preparació és tan important com el talent del fotògraf. Aquí tens tot el que necessites saber.

@@ -7,6 +7,7 @@ date: 2026-06-30
 draft: true
 author: "Ressona"
 tags: ["digital-tools", "musicians", "distribution"]
+category: distribucio
 ---
 
 Some artists don't want to give a single cent to Spotify, Apple or Amazon. By principle or by strategy. They want their fans to access their music directly — no intermediaries, no algorithms, no data trails ending up at a corporation.

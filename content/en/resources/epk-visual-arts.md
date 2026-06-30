@@ -6,6 +6,7 @@ type: resources
 date: 2026-06-26
 author: "Ressona"
 tags: ["epk", "professional-materials"]
+category: comunicacio
 ---
 
 A gallerist receiving your materials has one question in the first thirty seconds: does this artist have consistent work and can I tell what it's about? If the answer isn't immediate, they move to the next profile.

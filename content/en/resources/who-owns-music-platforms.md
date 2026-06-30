@@ -7,6 +7,7 @@ date: 2026-06-30
 draft: true
 author: "Ressona"
 tags: ["digital-tools", "musicians", "distribution"]
+category: distribucio
 ---
 
 When you decide where to publish your music, you're making decisions that go beyond visibility. You're choosing who gets your fans' money, who holds your data, what interests sit behind the platform presenting your project.

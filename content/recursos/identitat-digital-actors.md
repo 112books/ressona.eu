@@ -6,6 +6,7 @@ type: recursos
 date: 2026-06-26
 author: "Ressona"
 tags: ["identitat-digital", "materials-professionals"]
+category: identitat
 ---
 
 Un director de càsting no busca al mateix lloc que un promotor musical. Un actor necessita estar visible per a productores, directors i agències de representació — no necessàriament per al públic general. La identitat digital d'un actor ha d'estar construïda per a qui pren decisions de contractació, no per a qui compra entrades.

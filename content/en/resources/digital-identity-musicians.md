@@ -6,6 +6,8 @@ type: resources
 date: 2026-06-22
 author: "Ressona"
 tags: ["digital-identity"]
+category: identitat
+featured: true
 ---
 
 You have music. You have talent. You have gigs. But when someone searches for you on Google, what they find is an outdated Instagram profile, a Facebook page you haven't touched since 2021, and nothing else. Or worse: they find nothing at all.

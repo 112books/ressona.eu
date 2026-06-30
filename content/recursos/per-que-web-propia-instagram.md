@@ -6,6 +6,8 @@ type: recursos
 date: 2026-06-22
 author: "Ressona"
 tags: ["identitat-digital", "eines-digitals"]
+category: identitat
+featured: true
 ---
 
 Tens cinc mil seguidors a Instagram. Publiques tres cops per setmana. Les teves stories arriben a molta gent. I quan algú et pregunta per la teva web, dius: "Tinc Instagram."

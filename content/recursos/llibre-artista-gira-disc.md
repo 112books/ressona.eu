@@ -3,6 +3,7 @@ title: "Del directe al paper: documenta la teva gira o el teu disc en un llibre"
 description: "Un llibre sobre la teva gira o el teu enregistrament no és un luxe: és una eina de connexió amb els fans i un record permanent de la teva feina. Aquí t'expliquem com funciona."
 date: 2026-06-21
 tags: ["publicacions"]
+category: projectes
 ---
 
 Hi ha moments en la vida d'un artista que mereixen quedar fixats d'una manera que una publicació de xarxes socials no pot aconseguir. Una gira llarga. L'enregistrament d'un disc que ha costat anys. El procés de creació d'un espectacle que ha definit una etapa.

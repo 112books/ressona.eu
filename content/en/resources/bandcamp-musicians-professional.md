@@ -6,6 +6,7 @@ type: resources
 date: 2026-06-30
 author: "Ressona"
 tags: ["digital-tools", "musicians"]
+category: distribucio
 ---
 
 Remember MySpace? For years it was the go-to platform for independent musicians. Thousands of artists invested time, built communities, grew followings. When MySpace collapsed, all that effort disappeared with it.

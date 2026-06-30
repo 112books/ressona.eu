@@ -6,6 +6,7 @@ type: recursos
 date: 2026-06-30
 author: "Ressona"
 tags: ["eines-digitals", "musics"]
+category: distribucio
 ---
 
 Recordes MySpace? Va ser durant anys la plataforma de referència per a músics independents. Milers d'artistes hi van invertir temps, van construir comunitats, van aconseguir seguidors. Quan MySpace va enfonsar-se, tot aquell esforç va desaparèixer amb ell.

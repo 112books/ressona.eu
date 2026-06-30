@@ -6,6 +6,8 @@ type: resources
 date: 2026-06-26
 author: "Ressona"
 tags: ["grants-festivals", "professional-materials"]
+category: projectes
+featured: true
 ---
 
 A festival programmer receives between one hundred and three hundred applications per season. Many are discarded in under two minutes. Not because the project is poor — because the materials don't answer the right questions in the time the programmer can give them.

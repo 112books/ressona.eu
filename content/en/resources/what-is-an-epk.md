@@ -6,6 +6,8 @@ type: resources
 date: 2026-06-26
 author: "Ressona"
 tags: ["epk", "professional-materials"]
+category: comunicacio
+featured: true
 ---
 
 A festival promoter sees your show on a Thursday night. They like you. On Friday morning they search your name. They find an Instagram without a bio, a Spotify page with no professional photos, and no way to contact you in under two minutes. They open the next artist's profile.

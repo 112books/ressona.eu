@@ -7,6 +7,7 @@ date: 2026-06-30
 draft: false
 author: "Ressona"
 tags: ["eines-digitals", "musics", "concerts"]
+category: distribucio
 ---
 
 Fa deu anys, al final d'un concert podies vendre CDs a la merxa. La gent en comprava per donar suport, per emportar-se alguna cosa, per tenir una peça física del projecte. Molts ni els sentien mai — però els compraven perquè volien que l'artista continués.

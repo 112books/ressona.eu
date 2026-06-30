@@ -6,6 +6,8 @@ type: recursos
 date: 2026-06-26
 author: "Ressona"
 tags: ["fotografia", "materials-professionals"]
+category: comunicacio
+featured: true
 ---
 
 Un periodista rep el teu comunicat de premsa. Vol publicar una peça sobre tu. Necessita una foto. Obre el teu Instagram i el que troba és una sèrie de stories verticals de baixa resolució, una foto de grup on no se sap qui ets tu, i una selfie amb un filtre. Tanca la pestanya i busca un artista que tingui materials de premsa.

@@ -3,6 +3,7 @@ title: "Why every artist needs a newsletter"
 description: "Instagram could disappear tomorrow. Your mailing list can't. A newsletter is the only audience that truly belongs to you."
 date: 2026-06-16
 tags: ["digital-tools", "social-media"]
+category: xarxes
 ---
 
 Social networks lend you an audience. A newsletter gives you one you own. When Instagram changes its algorithm or TikTok gets banned in a market, your followers are trapped on the platform. Your mailing list follows you anywhere.

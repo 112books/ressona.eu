@@ -7,6 +7,7 @@ date: 2026-06-30
 draft: true
 author: "Ressona"
 tags: ["digital-tools", "musicians", "concerts"]
+category: distribucio
 ---
 
 Ten years ago, at the end of a concert you could sell CDs at the merch table. People bought them to show support, to take something home, to own a physical piece of the project. Many never even played them — but they bought them because they wanted the artist to keep going.

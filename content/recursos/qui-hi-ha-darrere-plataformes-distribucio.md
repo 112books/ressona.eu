@@ -7,6 +7,7 @@ date: 2026-06-30
 draft: false
 author: "Ressona"
 tags: ["eines-digitals", "musics", "distribucio"]
+category: distribucio
 ---
 
 Quan tries on publicar la teva música, prens decisions que van més enllà de la visibilitat. Tries a qui dones els diners dels teus fans, qui s'emporta les teves dades, quins interessos hi ha darrere de la plataforma que presenta el teu projecte.

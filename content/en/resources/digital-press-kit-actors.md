@@ -6,6 +6,7 @@ type: resources
 date: 2026-06-22
 author: "Ressona"
 tags: ["epk", "professional-materials"]
+category: comunicacio
 ---
 
 A casting director opens your profile. They have twenty-five tabs open and three minutes to decide whether to call you or move on to the next person. In that moment, your press kit is the only salesperson working on your behalf.

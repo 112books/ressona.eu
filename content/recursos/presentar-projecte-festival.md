@@ -6,6 +6,8 @@ type: recursos
 date: 2026-06-26
 author: "Ressona"
 tags: ["beques-festivals", "materials-professionals"]
+category: projectes
+featured: true
 ---
 
 Un programador de festival rep entre cent i tres-centes candidatures per temporada. Moltes d'elles queden descartades en menys de dos minuts. No perquè el projecte sigui dolent: perquè els materials no responen les preguntes correctes en el temps que el programador pot dedicar-hi.

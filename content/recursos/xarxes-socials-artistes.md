@@ -6,6 +6,8 @@ type: recursos
 date: 2026-06-26
 author: "Ressona"
 tags: ["xarxes-socials"]
+category: xarxes
+featured: true
 ---
 
 La majoria dels artistes perden temps en xarxes que no serveixen per als seus objectius professionals, i descuiden les que sí que hi podrien contribuir. Fer-ho al revés no és una qüestió de talent digital: és entendre per a qui fas cada plataforma.
