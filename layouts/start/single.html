@@ -1,0 +1,107 @@
+{{ define "main" }}
+<section class="section section--starter">
+  <div class="section-inner section-inner--narrow">
+
+    <div class="starter-hero">
+      <p class="starter-kicker">Starter Pack</p>
+      <h1 class="starter-title">Your website.<br>Under our name.<br>No fuss.</h1>
+      <p class="starter-desc">A professional one-page website for emerging artists. Live in 48 hours. Grow with Ressona.</p>
+    </div>
+
+    <div class="starter-steps">
+      <div class="starter-step">
+        <span class="starter-step__num">01</span>
+        <div><strong>Send us your material</strong><p>Bio, photos, music and social links. We do the rest.</p></div>
+      </div>
+      <div class="starter-step">
+        <span class="starter-step__num">02</span>
+        <div><strong>Invoice and payment</strong><p>Setup €120 · Maintenance €12/month or €120/year.</p></div>
+      </div>
+      <div class="starter-step">
+        <span class="starter-step__num">03</span>
+        <div><strong>Live in 48h</strong><p><em>yourprojectname</em>.ressona.eu active and indexed.</p></div>
+      </div>
+    </div>
+
+    <div class="starter-cols">
+      <div class="starter-col starter-col--yes">
+        <h2 class="starter-col__title">Included</h2>
+        <ul>
+          <li>Subdomain <code>artistname.ressona.eu</code></li>
+          <li>One-page website (bio, music, shows, socials, contact)</li>
+          <li>Modern design, mobile-first</li>
+          <li>Contact form routed to your existing email</li>
+          <li>Bandcamp, Spotify, YouTube embeds and links</li>
+          <li>Basic SEO and Open Graph for social sharing</li>
+          <li>Up to 2 updates per month</li>
+          <li>HTTPS included</li>
+        </ul>
+      </div>
+      <div class="starter-col starter-col--no">
+        <h2 class="starter-col__title">Not included</h2>
+        <ul>
+          <li>Custom domain <code>artistname.com</code> — available as upgrade*</li>
+          <li>Professional email — you use your existing account</li>
+          <li>Direct audio hosting (.mp3/.flac) — music must be on Bandcamp or Spotify</li>
+          <li>Online shop</li>
+          <li>Blog or multiple pages</li>
+          <li>Fully custom design from scratch</li>
+        </ul>
+        <p class="starter-note">* Custom domain available as upgrade (+€200) if the name is available.</p>
+      </div>
+    </div>
+
+    <div class="starter-price">
+      <div class="starter-price__item">
+        <span class="starter-price__amount">€120</span>
+        <span class="starter-price__label">One-time setup</span>
+      </div>
+      <div class="starter-price__sep">+</div>
+      <div class="starter-price__item">
+        <span class="starter-price__amount">€12<small>/mo</small></span>
+        <span class="starter-price__label">or €120/year</span>
+      </div>
+    </div>
+
+    <div class="starter-form-wrap">
+      <h2 class="starter-form__title">Tell us about your project</h2>
+      <p class="starter-form__desc">Fill in the form and we'll get back to you within 24 hours with a proposal and invoice.</p>
+      <form class="starter-form" id="starterForm" action="https://formspree.io/f/xqeoyjjr" method="POST">
+        <input type="hidden" name="_subject" value="Starter Pack — new project">
+        <div class="starter-form__row">
+          <div class="starter-form__field">
+            <label for="s-nom">Artist / band name</label>
+            <input type="text" id="s-nom" name="nom_artista" required placeholder="e.g. Deriva, The Mutes, Marc Puig…">
+          </div>
+          <div class="starter-form__field">
+            <label for="s-email">Your email</label>
+            <input type="email" id="s-email" name="_replyto" required placeholder="where we send the invoice">
+          </div>
+        </div>
+        <div class="starter-form__field">
+          <label for="s-musica">Where is your music now?</label>
+          <input type="text" id="s-musica" name="plataforma_musica" placeholder="e.g. Bandcamp, Spotify, SoundCloud, not published yet…">
+        </div>
+        <div class="starter-form__field">
+          <label for="s-msg">Tell us about the project <span>(optional)</span></label>
+          <textarea id="s-msg" name="missatge" rows="4" placeholder="Genre, where you perform, what you need…"></textarea>
+        </div>
+        <button type="submit" class="starter-form__submit">Send — we'll reply within 24h</button>
+        <p class="starter-form__ok" id="starterOk" style="display:none">✓ Received! We'll be in touch shortly.</p>
+      </form>
+    </div>
+
+  </div>
+</section>
+<script>
+(function(){
+  var form=document.getElementById('starterForm');
+  if(!form)return;
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
+    .then(function(r){if(r.ok){form.style.display='none';document.getElementById('starterOk').style.display='block';}});
+  });
+})();
+</script>
+{{ end }}

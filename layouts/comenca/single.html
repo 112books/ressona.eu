@@ -1,0 +1,130 @@
+{{ define "main" }}
+<section class="section section--starter">
+  <div class="section-inner section-inner--narrow">
+
+    <!-- Hero -->
+    <div class="starter-hero">
+      <p class="starter-kicker">Starter Pack</p>
+      <h1 class="starter-title">El teu web.<br>Sota el nostre nom.<br>Sense complicacions.</h1>
+      <p class="starter-desc">Una pàgina web professional per a artistes que comencen. Llançament en 48 hores. Creix amb Ressona.</p>
+    </div>
+
+    <!-- Com funciona -->
+    <div class="starter-steps">
+      <div class="starter-step">
+        <span class="starter-step__num">01</span>
+        <div>
+          <strong>Ens envies el material</strong>
+          <p>Bio, fotos, links de música i xarxes. Fem la resta.</p>
+        </div>
+      </div>
+      <div class="starter-step">
+        <span class="starter-step__num">02</span>
+        <div>
+          <strong>Factura i pagament</strong>
+          <p>Setup €120 · Manteniment €12/mes o €120/any.</p>
+        </div>
+      </div>
+      <div class="starter-step">
+        <span class="starter-step__num">03</span>
+        <div>
+          <strong>Live en 48h</strong>
+          <p><em>elnomdelteuprojcte</em>.ressona.eu actiu i indexat.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Inclou / No inclou -->
+    <div class="starter-cols">
+      <div class="starter-col starter-col--yes">
+        <h2 class="starter-col__title">Inclou</h2>
+        <ul>
+          <li>Subdomini <code>nomartista.ressona.eu</code></li>
+          <li>Web d'una pàgina (bio, música, concerts, xarxes, contacte)</li>
+          <li>Disseny modern, adaptat al mòbil</li>
+          <li>Formulari de contacte al teu email habitual</li>
+          <li>Links i embeds de Bandcamp, Spotify, YouTube…</li>
+          <li>SEO bàsic i Open Graph per compartir</li>
+          <li>Fins a 2 actualitzacions al mes</li>
+          <li>HTTPS inclòs</li>
+        </ul>
+      </div>
+      <div class="starter-col starter-col--no">
+        <h2 class="starter-col__title">No inclou</h2>
+        <ul>
+          <li>Domini propi <code>nomartista.com</code> — disponible com a upgrade*</li>
+          <li>Email professional — fas servir el teu compte actual</li>
+          <li>Hosting d'àudio directe (.mp3/.flac) — cal tenir música a Bandcamp o Spotify</li>
+          <li>Botiga en línia</li>
+          <li>Blog o múltiples pàgines</li>
+          <li>Disseny personalitzat des de zero</li>
+        </ul>
+        <p class="starter-note">* Domini propi disponible com a upgrade (+€200) si el nom està lliure.</p>
+      </div>
+    </div>
+
+    <!-- Preu -->
+    <div class="starter-price">
+      <div class="starter-price__item">
+        <span class="starter-price__amount">€120</span>
+        <span class="starter-price__label">Setup únic</span>
+      </div>
+      <div class="starter-price__sep">+</div>
+      <div class="starter-price__item">
+        <span class="starter-price__amount">€12<small>/mes</small></span>
+        <span class="starter-price__label">o €120/any</span>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <div class="starter-form-wrap">
+      <h2 class="starter-form__title">Explica'ns el teu projecte</h2>
+      <p class="starter-form__desc">Omple el formulari i et contactem en 24 hores amb la proposta i la factura.</p>
+      <form class="starter-form" id="starterForm" action="https://formspree.io/f/xqeoyjjr" method="POST">
+        <input type="hidden" name="_subject" value="Starter Pack — nou projecte">
+        <div class="starter-form__row">
+          <div class="starter-form__field">
+            <label for="s-nom">Nom artístic / grup</label>
+            <input type="text" id="s-nom" name="nom_artista" required placeholder="ex: Deriva, La Muda, Marc Puig…">
+          </div>
+          <div class="starter-form__field">
+            <label for="s-email">El teu email</label>
+            <input type="email" id="s-email" name="_replyto" required placeholder="on t'enviem la factura">
+          </div>
+        </div>
+        <div class="starter-form__field">
+          <label for="s-musica">On és la teva música ara?</label>
+          <input type="text" id="s-musica" name="plataforma_musica" placeholder="ex: Bandcamp, Spotify, SoundCloud, encara no publicada…">
+        </div>
+        <div class="starter-form__field">
+          <label for="s-msg">Explica'ns el projecte <span>(opcional)</span></label>
+          <textarea id="s-msg" name="missatge" rows="4" placeholder="Gènere, on actueu, què necessiteu…"></textarea>
+        </div>
+        <button type="submit" class="starter-form__submit">Enviar — us contactem en 24h</button>
+        <p class="starter-form__ok" id="starterOk" style="display:none">✓ Rebut! Et contactem aviat.</p>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<script>
+(function(){
+  const form = document.getElementById('starterForm');
+  if (!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    }).then(r => {
+      if (r.ok) {
+        form.style.display = 'none';
+        document.getElementById('starterOk').style.display = 'block';
+      }
+    });
+  });
+})();
+</script>
+{{ end }}
