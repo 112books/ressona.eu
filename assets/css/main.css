@@ -2293,10 +2293,10 @@ img, svg { display: block; }
   margin-bottom: 20px;
 }
 .starter-desc {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   color: var(--text-subtle);
   max-width: 52ch;
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
 /* Steps */
@@ -2327,15 +2327,15 @@ img, svg { display: block; }
 }
 .starter-step__body strong {
   display: block;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: var(--text);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 .starter-step__body p {
-  font-size: 0.92rem;
+  font-size: 1rem;
   color: var(--text-subtle);
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 /* Inclou / No inclou */
@@ -2368,7 +2368,7 @@ img, svg { display: block; }
   gap: 10px;
 }
 .starter-col ul li {
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   color: var(--text-subtle);
   line-height: 1.5;
   padding-left: 16px;
@@ -2428,6 +2428,20 @@ img, svg { display: block; }
   font-size: 1.8rem;
   font-weight: 300;
   color: var(--border);
+}
+
+/* Approval note */
+.starter-approval {
+  margin-bottom: 48px;
+  padding: 28px 32px;
+  border-left: 2px solid var(--gold);
+  background: rgba(253,191,104,0.04);
+}
+.starter-approval__text {
+  font-size: 1rem;
+  color: var(--text-subtle);
+  line-height: 1.8;
+  max-width: 64ch;
 }
 
 /* Form */
