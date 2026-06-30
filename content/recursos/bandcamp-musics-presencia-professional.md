@@ -77,4 +77,6 @@ La sobirania digital d'un artista es mesura per la seva capacitat de comunicar-s
 
 L'ordre importa. El web primer. La resta, quan té sentit.
 
+**Llegeix també:** [Qui hi ha darrere de cada plataforma de distribució?](/recursos/qui-hi-ha-darrere-plataformes-distribucio/) · [Distribuir la teva música sense plataformes](/recursos/distribucio-musical-sense-plataformes/) · [Com distribuir als concerts sense CD](/recursos/vendre-musica-concerts-carrer-sense-cd/)
+
 A Ressona ajudem artistes a construir una identitat digital amb base pròpia: web, domini, imatge i eines de difusió que no depenen de plataformes alienes. Si vols construir-ho bé des del principi, [parla amb nosaltres](/#contacte).

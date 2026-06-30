@@ -103,4 +103,6 @@ For artists who already have an established audience and a direct communication 
 
 The answer isn't one or the other: it's knowing which platform you use for discovery and which infrastructure you own for direct relationships with your audience.
 
+**Read also:** [Who owns each music platform?](/en/resources/who-owns-music-platforms/) · [Bandcamp: first recommended complement](/en/resources/bandcamp-musicians-professional/) · [Distributing at concerts without CDs](/en/resources/selling-music-concerts-street-without-cd/)
+
 At Ressona we help artists build their own infrastructure: website, domain, mailing list and distribution tools that don't depend on any third-party company. [Get in touch](/en/#contacte).

@@ -128,4 +128,6 @@ No hi ha una resposta única. Però aquí tens algunes preguntes per orientar la
 
 Sigui quina sigui la plataforma que tries, la sobirania de les teves dades i la teva relació directa amb el teu públic sempre serà teva si tens un web propi i una llista de correu. Les plataformes canvien de propietari, redueixen royalties, tanquen funcions o desapareixen. El teu domini, no.
 
+**Llegeix també:** [Distribuir la teva música sense plataformes](/recursos/distribucio-musical-sense-plataformes/) · [Bandcamp: diferent però no perfecte](/recursos/bandcamp-musics-presencia-professional/) · [Distribució als concerts sense CD](/recursos/vendre-musica-concerts-carrer-sense-cd/)
+
 A Ressona ajudem artistes a construir una presència digital amb base pròpia i a prendre decisions informades sobre quines plataformes i eines els serveixen millor. [Parla amb nosaltres](/#contacte).

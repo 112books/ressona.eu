@@ -126,3 +126,5 @@ Choosing the right licence is an artistic and strategic decision. You're not giv
 Uploading your music is just the first step. Nobody will listen to your record if they don't know it exists. Streaming works when it's paired with a communication strategy: social media presence, press kit for media, pitching to editorial playlists, and a website that gives context to your work.
 
 Distribution is the tool. Digital identity is what makes the tool actually useful.
+
+**Read also:** [Bandcamp: useful tool but your website is HQ](/en/resources/bandcamp-musicians-professional/) · [Who owns each platform?](/en/resources/who-owns-music-platforms/) · [Distribute without platforms: full sovereignty](/en/resources/music-distribution-without-platforms/)

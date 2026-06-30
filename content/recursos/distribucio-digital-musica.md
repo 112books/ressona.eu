@@ -128,3 +128,5 @@ Triar la llicència adequada és una decisió artística i estratègica. No has 
 Pujar la música és el pas inicial. Però ningú escoltarà el teu disc si no sap que existeix. El streaming funciona quan va acompanyat d'una estratègia de comunicació: presència a xarxes, press kit per a mitjans, pitching a playlists editorials, i una web que doni context al teu treball.
 
 La distribució digital és l'eina. La identitat digital és el que fa que l'eina serveixi per a alguna cosa.
+
+**Llegeix també:** [Bandcamp: eina útil però el quarter general és el teu web](/recursos/bandcamp-musics-presencia-professional/) · [Qui hi ha darrere de cada plataforma?](/recursos/qui-hi-ha-darrere-plataformes-distribucio/) · [Distribuir sense plataformes: sobirania total](/recursos/distribucio-musical-sense-plataformes/)

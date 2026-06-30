@@ -126,4 +126,6 @@ People want to support. You just need to tell them how.
 | Bar or small space | NFC at the bar + QR | Discreet, always visible |
 | Festival (shared merch) | Download cards + USB | Physical object people keep |
 
+**Read also:** [Distributing music without platforms](/en/resources/music-distribution-without-platforms/) · [Bandcamp: direct online sales](/en/resources/bandcamp-musicians-professional/)
+
 At Ressona we help artists design their distribution strategy: from the website to the merch fans take home from concerts. [Get in touch](/en/#contacte).

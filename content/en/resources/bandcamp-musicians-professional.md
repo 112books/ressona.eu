@@ -77,4 +77,6 @@ An artist's digital sovereignty is measured by their ability to communicate with
 
 The order matters. Website first. Everything else, when it makes sense.
 
+**Read also:** [Who owns each music platform?](/en/resources/who-owns-music-platforms/) · [Distributing music without platforms](/en/resources/music-distribution-without-platforms/) · [Selling music at concerts without CDs](/en/resources/selling-music-concerts-street-without-cd/)
+
 At Ressona we help artists build digital identities with their own foundation: website, domain, image and communication tools that don't depend on third-party platforms. If you want to build it right from the start, [get in touch](/en/#contacte).

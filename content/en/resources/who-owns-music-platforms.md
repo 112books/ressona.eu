@@ -128,4 +128,6 @@ There's no single right answer. But here are some questions to guide your decisi
 
 Whatever platform you choose, sovereignty over your data and your direct relationship with your audience will always be yours if you have your own website and a mailing list. Platforms change ownership, cut royalties, drop features or shut down. Your own domain doesn't.
 
+**Read also:** [Distributing music without platforms](/en/resources/music-distribution-without-platforms/) · [Bandcamp: different but not perfect](/en/resources/bandcamp-musicians-professional/) · [Distribution at concerts without CDs](/en/resources/selling-music-concerts-street-without-cd/)
+
 At Ressona we help artists build a digital presence with their own foundation and make informed decisions about which platforms and tools actually serve them. [Get in touch](/en/#contacte).

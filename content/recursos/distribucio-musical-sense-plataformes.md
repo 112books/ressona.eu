@@ -103,4 +103,6 @@ Per als artistes que ja tenen un públic consolidat i un canal de comunicació d
 
 La solució no és una o l'altra: és saber quina plataforma uses per descoberta i quina infraestructura pròpia uses per a la relació directa amb el teu públic.
 
+**Llegeix també:** [Qui hi ha darrere de cada plataforma?](/recursos/qui-hi-ha-darrere-plataformes-distribucio/) · [Bandcamp: primer complement recomanat](/recursos/bandcamp-musics-presencia-professional/) · [Distribuir als concerts sense CD](/recursos/vendre-musica-concerts-carrer-sense-cd/)
+
 A Ressona ajudem artistes a construir aquesta infraestructura pròpia: web, domini, llista de correu i eines de distribució que no depenen de cap empresa aliena. [Parla amb nosaltres](/#contacte).

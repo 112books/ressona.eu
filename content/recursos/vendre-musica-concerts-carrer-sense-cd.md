@@ -126,4 +126,6 @@ La gent vol donar suport. Cal dir-los com.
 | Bar o espai petit | NFC a la barra + QR | Discret, sempre visible |
 | Festival (merxa compartida) | Targetes de descàrrega + USB | Objecte físic que es conserva |
 
+**Llegeix també:** [Distribuir la teva música sense plataformes](/recursos/distribucio-musical-sense-plataformes/) · [Bandcamp: venda directa en línia](/recursos/bandcamp-musics-presencia-professional/)
+
 A Ressona ajudem artistes a dissenyar la seva estratègia de distribució: des del web fins a la merxa que els fans s'emporten del concert. [Parla amb nosaltres](/#contacte).
