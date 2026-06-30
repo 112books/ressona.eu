@@ -13,6 +13,24 @@ When you decide where to publish your music, you're making decisions that go bey
 
 For many artists, ethics are part of their value system. Here's the information to decide with open eyes.
 
+## Quick comparison table
+
+| Platform | Owner / Model | €/1k streams | Fan data | Tech barrier | Audience | Status |
+|---|---|---|---|---|---|---|
+| **Spotify** | Daniel Ek + Tencent (8.4%) / NYSE listed | ~€2.75 | Spotify | None | Global giant | Active |
+| **Apple Music** | Apple Inc. | ~€5.70 | Apple | None | Very large | Active |
+| **Amazon Music** | Amazon | ~€3.50 | Amazon | None | Very large | Active |
+| **YouTube Music** | Alphabet / Google | ~€1–2 | Google | None | Global giant | Active |
+| **Tidal** | Block Inc. (Jack Dorsey) | ~€9–11 | Block | None | Small–mid | Scaling back 2024 |
+| **Bandcamp** | Songtradr (since 2023) | 10% sales commission | Songtradr | None | Active indie | Unstable |
+| **Jamendo** | Winamp Group (Belgium) | CC licensing | Jamendo | None | Mid (CC) | Active |
+| **Resonate** | Member co-op | ~€10/1k | Co-op | Low | Very small | Fragile |
+| **Funkwhale** | Open source / Fediverse | You decide | **You** | Medium | Communities | Active |
+| **Faircamp** | Open source (AGPL) | 0% — direct sales | **You** | Medium–high | Your website | Active (v1.0 2024) |
+| **Internet Archive** | Public nonprofit | — (free) | **You** | Low | Public archive | Active |
+
+**Tech barrier key**: None = upload via web · Low = account + form · Medium = server or config · High = full self-hosting
+
 ## Who owns the main platforms
 
 ### Spotify

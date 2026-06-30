@@ -13,6 +13,24 @@ Quan tries on publicar la teva música, prens decisions que van més enllà de l
 
 Per a molts artistes, l'ètica forma part de la seva escala de valors. Aquí tens la informació per decidir amb coneixement de causa.
 
+## Taula comparativa ràpida
+
+| Plataforma | Propietari / Model | €/1k reprod. | Dades del fan | Barrera tècnica | Audiència | Estat |
+|---|---|---|---|---|---|---|
+| **Spotify** | Daniel Ek + Tencent (8,4%) / Borsa NYSE | ~2,75€ | Spotify | Cap | Gegant global | Actiu |
+| **Apple Music** | Apple Inc. | ~5,70€ | Apple | Cap | Molt gran | Actiu |
+| **Amazon Music** | Amazon | ~3,50€ | Amazon | Cap | Molt gran | Actiu |
+| **YouTube Music** | Alphabet / Google | ~1-2€ | Google | Cap | Gegant global | Actiu |
+| **Tidal** | Block Inc. (Jack Dorsey) | ~9-11€ | Block | Cap | Petita-mitjana | Escala enrere 2024 |
+| **Bandcamp** | Songtradr (des de 2023) | Comissió 10% vendes | Songtradr | Cap | Indie activa | Inestable |
+| **Jamendo** | Winamp Group (Bèlgica) | Llicències CC | Jamendo | Cap | Mitjana (CC) | Actiu |
+| **Resonate** | Cooperativa membres | ~10€/1k | Cooperativa | Baixa | Molt petita | Fràgil |
+| **Funkwhale** | Codi obert / Fediverse | Tu decideixes | **Tu** | Mitjana | Comunitats | Actiu |
+| **Faircamp** | Codi obert (AGPL) | 0% — venda directa | **Tu** | Mitjana-alta | El teu web | Actiu (v1.0 2024) |
+| **Internet Archive** | Nonprofit públic | — (gratuït) | **Tu** | Baixa | Arxiu públic | Actiu |
+
+**Llegenda barrera tècnica**: Cap = puja fitxers via web · Baixa = compte i formulari · Mitjana = servidor o configuració · Alta = auto-allotjament complet
+
 ## Qui posseeix les principals plataformes
 
 ### Spotify
