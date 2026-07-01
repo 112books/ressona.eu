@@ -211,25 +211,39 @@
 {{ $section := cond (eq .Site.Language.Lang "en") "resources" "recursos" }}
 {{ $articles := where site.RegularPages "Section" $section }}
 {{ if $articles }}
+{{ $hubURL := cond (eq .Site.Language.Lang "en") "/en/resources/" "/recursos/" }}
+{{ $iconD := `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>` }}
+{{ $iconI := `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.58-7 8-7s8 3 8 7"/></svg>` }}
+{{ $iconC := `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>` }}
+{{ $iconX := `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/><circle cx="12" cy="12" r="2"/></svg>` }}
+{{ $iconP := `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>` }}
+{{ $homeCats := slice
+  (dict "slug" "distribucio" "labelCA" "Distribució"            "labelEN" "Distribution"           "icon" $iconD)
+  (dict "slug" "identitat"   "labelCA" "Identitat digital"       "labelEN" "Digital identity"        "icon" $iconI)
+  (dict "slug" "comunicacio" "labelCA" "Comunicació i premsa"    "labelEN" "Communication & press"   "icon" $iconC)
+  (dict "slug" "xarxes"      "labelCA" "Xarxes i contingut"      "labelEN" "Social media & content"  "icon" $iconX)
+  (dict "slug" "projectes"   "labelCA" "Projectes"               "labelEN" "Projects"               "icon" $iconP)
+}}
 <section class="section section--alt section-reveal" id="recursos">
   <div class="section-inner">
     <p class="section-label">{{ i18n "section_recursos_label" }}</p>
     <h2 class="section-title">{{ i18n "section_recursos_title" }}</h2>
     <p class="section-tagline">{{ i18n "section_recursos_tagline" }}</p>
-  </div>
-  <div class="recursos-grid">
-    {{ range first 6 ($articles.ByDate.Reverse) }}
-    <a href="{{ .Permalink }}" class="recurs-card">
-      <h3>{{ .Title }}</h3>
-      <p>{{ .Description }}</p>
-      <span class="recurs-card__more">{{ i18n "srv_more" }}</span>
-    </a>
-    {{ end }}
-  </div>
-  <div class="recursos-grid__more">
-    <a href="{{ if eq .Site.Language.Lang "en" }}/en/resources/{{ else }}/recursos/{{ end }}" class="recursos-grid__more-link">
-      {{ i18n "footer_recursos_all" }}
-    </a>
+    <div class="recursos-home-cats">
+      {{ range $homeCats }}
+      {{ $count := len (where $articles ".Params.category" .slug) }}
+      {{ if gt $count 0 }}
+      <a href="{{ $hubURL }}#cat-{{ .slug }}" class="recursos-home-cat">
+        <span class="recursos-home-cat__icon" aria-hidden="true">{{ .icon | safeHTML }}</span>
+        <span class="recursos-home-cat__label">{{ if eq $.Site.Language.Lang "en" }}{{ .labelEN }}{{ else }}{{ .labelCA }}{{ end }}</span>
+        <span class="recursos-home-cat__count">{{ $count }} {{ if eq $.Site.Language.Lang "en" }}articles{{ else }}articles{{ end }}</span>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+    <div class="recursos-grid__more">
+      <a href="{{ $hubURL }}" class="recursos-grid__more-link">{{ i18n "footer_recursos_all" }}</a>
+    </div>
   </div>
 </section>
 {{ end }}
