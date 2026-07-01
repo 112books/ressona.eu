@@ -2153,12 +2153,60 @@ img, svg { display: block; }
   background: rgba(253,191,104,0.07);
   border-color: var(--gold);
 }
+.recursos-cat-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+.recursos-cat-nav__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 18px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--text-subtle);
+  transition: border-color 0.2s, color 0.2s;
+  min-width: 80px;
+}
+.recursos-cat-nav__item:hover {
+  border-color: var(--gold);
+  color: var(--text);
+  opacity: 1;
+}
+.recursos-cat-nav__icon svg { display: block; }
+.recursos-cat-nav__label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+}
+
 .recursos-card__title {
   font-family: var(--font-display);
   font-size: 1rem;
   font-weight: 700;
   color: var(--text);
   line-height: 1.35;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.recursos-card__cat-icon {
+  flex-shrink: 0;
+  opacity: 0.35;
+  margin-top: 1px;
+}
+.recursos-card__cat-icon svg {
+  width: 14px;
+  height: 14px;
+  display: block;
 }
 .recursos-card__desc {
   font-size: 0.85rem;
