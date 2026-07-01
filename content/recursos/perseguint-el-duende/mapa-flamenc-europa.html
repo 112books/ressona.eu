@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <title>Perseguint el Duende — Mapa de Flamenc per Europa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #1a1a1a; }
+
+    .header {
+      background: #2c0b0b;
+      color: #f5f5f0;
+      padding: 20px 30px;
+      text-align: center;
+      border-bottom: 3px solid #c0392b;
+    }
+    .header h1 { font-size: 26px; font-weight: 600; margin-bottom: 5px; }
+    .header p { font-size: 14px; color: #aaa; }
+
+    .controls {
+      background: #2c2c2c;
+      padding: 15px 30px;
+      border-bottom: 1px solid #444;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .controls button {
+      padding: 8px 18px;
+      border: 2px solid #c0392b;
+      background: transparent;
+      color: #f5f5f0;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .controls button:hover, .controls button.active {
+      background: #c0392b;
+      color: #fff;
+    }
+    .controls .legend {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      font-size: 13px;
+      color: #aaa;
+    }
+    .legend-dot {
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .legend-dot.tablao { background: #c0392b; }
+    .legend-dot.pena { background: #e67e22; }
+    .legend-dot.festival { background: #f1c40f; }
+
+    #map { height: calc(100vh - 140px); width: 100%; }
+
+    .popup-content { min-width: 220px; }
+    .popup-content h3 { 
+      margin: 0 0 6px; 
+      font-size: 15px; 
+      font-weight: 600;
+      color: #2c0b0b;
+    }
+    .popup-content .meta {
+      font-size: 12px;
+      color: #888;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .popup-content p { 
+      margin: 0 0 10px; 
+      font-size: 13px; 
+      color: #555;
+      line-height: 1.4;
+    }
+    .popup-content a { 
+      color: #c0392b; 
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .popup-content a:hover { text-decoration: underline; }
+
+    .leaflet-popup-content-wrapper {
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .leaflet-popup-content { margin: 14px 16px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Perseguint el Duende</h1>
+    <p>Tablaos, peñas i festivals de flamenc — Mapa interactiu per a Ressona.eu</p>
+  </div>
+
+  <div class="controls">
+    <button onclick="filterAll()" class="active" id="btn-all">Tots</button>
+    <button onclick="filterTablaos()" id="btn-tablaos">Tablaos</button>
+    <button onclick="filterPenas()" id="btn-penas">Peñas</button>
+    <button onclick="filterFestivals()" id="btn-festivals">Festivals</button>
+    <div class="legend">
+      <span><span class="legend-dot tablao"></span> Tablaos</span>
+      <span><span class="legend-dot pena"></span> Peñas</span>
+      <span><span class="legend-dot festival"></span> Festivals</span>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <script>
+    var map = L.map('map').setView([40.4168, -3.7038], 6);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors',
+      maxZoom: 18
+    }).addTo(map);
+
+    var tablaoIcon = L.divIcon({
+      className: 'custom-marker',
+      html: '<div style="width:14px;height:14px;background:#c0392b;border-radius:50%;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>',
+      iconSize: [14, 14],
+      iconAnchor: [7, 7]
+    });
+
+    var penaIcon = L.divIcon({
+      className: 'custom-marker',
+      html: '<div style="width:14px;height:14px;background:#e67e22;border-radius:50%;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>',
+      iconSize: [14, 14],
+      iconAnchor: [7, 7]
+    });
+
+    var festivalIcon = L.divIcon({
+      className: 'custom-marker',
+      html: '<div style="width:16px;height:16px;background:#f1c40f;border-radius:50%;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>',
+      iconSize: [16, 16],
+      iconAnchor: [8, 8]
+    });
+
+    var locations = [
+      // TABLAOS - MADRID
+      { name: "Corral de la Morería", type: "tablao", city: "Madrid", address: "Calle de la Morería 17, 28005", lat: 40.4150, lng: -3.7100, url: "https://www.corraldelamoreria.com/", desc: "Tablao flamenc més antic i prestigiós del món, fundat el 1956." },
+      { name: "Casa Patas", type: "tablao", city: "Madrid", address: "Calle de los Cañizares 10, 28012", lat: 40.4130, lng: -3.7050, url: "https://www.casapatas.com/", desc: "Temple del flamenc pur des de 1985. Sense microfonia." },
+      { name: "Villa Rosa", type: "tablao", city: "Madrid", address: "Plaza de Santa Ana 15, 28012", lat: 40.4155, lng: -3.7055, url: "https://www.villarosa.es/", desc: "Des de 1911. Rajoles d'azulejos i història flamenca." },
+      { name: "Torres Bermejas", type: "tablao", city: "Madrid", address: "Calle de Mesonero Romanos 11, 28013", lat: 40.4180, lng: -3.7080, url: "https://www.torresbermejas.com/", desc: "Interior que reprodueix l'Alhambra de Granada." },
+      { name: "Café de Chinitas", type: "tablao", city: "Madrid", address: "Calle de Torija 7, 28013", lat: 40.4175, lng: -3.7070, url: "https://www.cafedechinitas.com/", desc: "Íntim. Homenatge a la copla de Lorca." },
+      { name: "Cardamomo", type: "tablao", city: "Madrid", address: "Calle de Echegaray 15, 28014", lat: 40.4160, lng: -3.7000, url: "https://www.cardamomo.es/", desc: "Flamenc contemporani que respecta les arrels." },
+      { name: "Tablao Flamenco 1911", type: "tablao", city: "Madrid", address: "Calle de la Paz 10, 28012", lat: 40.4165, lng: -3.7040, url: "https://www.tablao1911.com/", desc: "Edifici modernista de 1911. Espai íntim." },
+      { name: "Las Carboneras", type: "tablao", city: "Madrid", address: "Plaza del Conde de Miranda 1, 28005", lat: 40.4135, lng: -3.7090, url: "https://www.lascarboneras.com/", desc: "Antic palau del segle XVI a La Latina." },
+      { name: "Tablao Flamenco La Quimera", type: "tablao", city: "Madrid", address: "Calle de la Salud 20, 28013", lat: 40.4200, lng: -3.7100, url: "https://www.laquimeraflamenco.com/", desc: "Flamenc tradicional amb preus assequibles." },
+
+      // PEÑAS - MADRID
+      { name: "Peña La Platería", type: "peña", city: "Madrid", address: "Madrid", lat: 40.4250, lng: -3.6950, url: "", desc: "Associació cultural dedicada a la difusió del flamenc." },
+
+      // TABLAOS - SEVILLA
+      { name: "El Palacio Andaluz", type: "tablao", city: "Sevilla", address: "Plaza de la Encarnación, Sevilla", lat: 37.3930, lng: -5.9920, url: "https://www.elpalacioandaluz.com/", desc: "Més de 20 artistes a l'escenari. Espectacle de gran format." },
+      { name: "Tablao El Arenal", type: "tablao", city: "Sevilla", address: "Calle Rodo 7, 41001", lat: 37.3880, lng: -5.9960, url: "https://www.tablaoelarenal.es/", desc: "Fundat el 1975 al barri d'El Arenal." },
+      { name: "Los Gallos", type: "tablao", city: "Sevilla", address: "Plaza de Santa Cruz 11, 41004", lat: 37.3860, lng: -5.9900, url: "https://www.tablaolosgallos.com/", desc: "Des de 1966 al cor del barri de Santa Cruz." },
+      { name: "La Casa del Flamenco", type: "tablao", city: "Sevilla", address: "Calle Ximénez de Enciso 28, 41004", lat: 37.3850, lng: -5.9870, url: "https://www.lacasadelflamencosevilla.com/", desc: "Pati andalús al barri de Santa Cruz." },
+      { name: "El Patio Sevillano", type: "tablao", city: "Sevilla", address: "Paseo de Cristóbal Colón 11, 41001", lat: 37.3820, lng: -5.9960, url: "https://www.elpatiossevillano.es/", desc: "Vistes al riu Guadalquivir i la Torre del Oro." },
+
+      // PEÑAS - SEVILLA
+      { name: "Peña Flamenca La Bulería", type: "peña", city: "Sevilla", address: "Sevilla", lat: 37.3900, lng: -5.9850, url: "", desc: "Una de les peñas més actives de Sevilla." },
+      { name: "Peña Torres Macarena", type: "peña", city: "Sevilla", address: "Sevilla", lat: 37.3950, lng: -5.9800, url: "", desc: "Peña històrica del barri de la Macarena." },
+      { name: "Peña El Cerro", type: "peña", city: "Sevilla", address: "Sevilla", lat: 37.3850, lng: -5.9750, url: "", desc: "Al barri del Cerro, zona flamenca de Sevilla." },
+
+      // TABLAOS - BARCELONA
+      { name: "Tablao Flamenco Cordobés", type: "tablao", city: "Barcelona", address: "La Rambla 35, 08002", lat: 41.3780, lng: 2.1760, url: "https://www.tablaocordobes.com/", desc: "Des de 1970 a la Rambla. Rajoles d'azulejos." },
+      { name: "Tablao de Carmen", type: "tablao", city: "Barcelona", address: "Avinguda Paral·lel 62, 08001", lat: 41.3750, lng: 2.1690, url: "https://www.tablaodecarmen.com/", desc: "Homenatge a Carmen Amaya al Poble Espanyol." },
+      { name: "Palacio del Flamenco", type: "tablao", city: "Barcelona", address: "Carrer de Balmes 139, 08008", lat: 41.3950, lng: 2.1580, url: "https://www.palaciodelflamenco.com/", desc: "Espai gran per a espectacles espectaculars." },
+      { name: "Los Tarantos", type: "tablao", city: "Barcelona", address: "Plaça Reial 17, 08002", lat: 41.3792, lng: 2.1754, url: "https://www.tablaolostarantos.com/", desc: "Més de 50 anys al cor del Barri Gòtic." },
+
+      // PEÑAS - BARCELONA
+      { name: "Peña Flamenca Catalana", type: "peña", city: "Barcelona", address: "Carrer de la Riereta 7, 08001", lat: 41.3780, lng: 2.1700, url: "https://www.penaflamencacatalana.com/", desc: "Des de 1964. Una de les peñas més antigues de Catalunya." },
+      { name: "Peña Flamenca La Planta", type: "peña", city: "Barcelona", address: "Barcelona", lat: 41.3850, lng: 2.1800, url: "", desc: "Programació regular de concerts i activitats." },
+      { name: "Peña Flamenca Fosforito", type: "peña", city: "Barcelona", address: "Barcelona", lat: 41.3900, lng: 2.1650, url: "", desc: "Homenatge al gran cantaor Fosforito." },
+      { name: "Peña Flamenca Niño de la Huerta", type: "peña", city: "Barcelona", address: "Barcelona", lat: 41.3820, lng: 2.1720, url: "", desc: "Dedicada a la memòria del cantaor Niño de la Huerta." },
+
+      // TABLAOS - GRANADA
+      { name: "Jardines de Zoraya", type: "tablao", city: "Granada", address: "Calle Panaderos 32, 18010", lat: 37.1800, lng: -3.5950, url: "https://www.jardinesdezoraya.com/", desc: "Vistes a l'Alhambra des de l'Albaicín." },
+      { name: "Tablao Flamenco Albayzín", type: "tablao", city: "Granada", address: "Calle Panaderos 14, 18010", lat: 37.1780, lng: -3.5970, url: "https://www.tablaoalbayzin.com/", desc: "Al cor de l'Albaicín, a pocs metres de la Catedral." },
+      { name: "La Soleá", type: "tablao", city: "Granada", address: "Calle del Cardenal 5, 18009", lat: 37.1760, lng: -3.6000, url: "https://www.tablaolasolea.com/", desc: "Tablao tradicional al centre històric." },
+      { name: "Cuevas Los Tarantos", type: "tablao", city: "Granada", address: "Camino del Sacromonte 9, 18010", lat: 37.1810, lng: -3.5850, url: "https://www.cuevaslostarantos.es/", desc: "Espectacles en coves tradicionals al Sacromonte." },
+      { name: "Ventas El Gallo", type: "tablao", city: "Granada", address: "Calle Panaderos 40, 18010", lat: 37.1790, lng: -3.5940, url: "https://www.ventaselgallo.com/", desc: "Pati andalús amb vistes a l'Alhambra." },
+
+      // PEÑAS - GRANADA
+      { name: "Peña Flamenca La Platería", type: "peña", city: "Granada", address: "Placeta de Toqueros 7, 18010", lat: 37.1770, lng: -3.5980, url: "https://www.laplateria.org.es/", desc: "Des de 1949. La peña més antiga de Granada." },
+      { name: "Peña Flamenca El Chato", type: "peña", city: "Granada", address: "Granada", lat: 37.1750, lng: -3.6050, url: "", desc: "Programació regular de flamenc al centre." },
+
+      // PEÑAS - JEREZ
+      { name: "Peña Flamenca La Bulería", type: "peña", city: "Jerez de la Frontera", address: "Jerez", lat: 36.6860, lng: -6.1360, url: "", desc: "Una de les peñas més actives de Jerez." },
+      { name: "Peña Flamenca Tío José de Paula", type: "peña", city: "Jerez de la Frontera", address: "Jerez", lat: 36.6880, lng: -6.1400, url: "", desc: "Homenatge al gran cantaor Tío José de Paula." },
+      { name: "Peña Flamenca El Garbanzo de Jerez", type: "peña", city: "Jerez de la Frontera", address: "Jerez", lat: 36.6850, lng: -6.1380, url: "", desc: "Programació regular per a la comunitat flamenca." },
+      { name: "Peña Flamenca Niño de la Huerta", type: "peña", city: "Jerez de la Frontera", address: "Jerez", lat: 36.6900, lng: -6.1350, url: "", desc: "Dedicada a la memòria del cantaor." },
+      { name: "Peña Flamenca El Zoco", type: "peña", city: "Jerez de la Frontera", address: "Jerez", lat: 36.6840, lng: -6.1420, url: "", desc: "Espai de trobada per a aficionats al flamenc." },
+
+      // TABLAOS - MÀLAGA
+      { name: "Kelipe Centro de Arte Flamenco", type: "tablao", city: "Màlaga", address: "Calle Calderería 6, 29008", lat: 36.7200, lng: -4.4200, url: "https://www.kelipe.net/", desc: "Espai íntim al centre històric. Classes i espectacles." },
+      { name: "Tablao Flamenco Los Amayas", type: "tablao", city: "Màlaga", address: "Málaga", lat: 36.7250, lng: -4.4150, url: "", desc: "Flamenc tradicional en ambient autèntic." },
+
+      // TABLAOS - CÒRDOVA
+      { name: "Tablao El Cardenal", type: "tablao", city: "Còrdova", address: "Calle de Torrijos 10, 14003", lat: 37.8790, lng: -4.7800, url: "https://www.tablaoelcardenal.com/", desc: "Al costat de la Mesquita-Catedral. Pati andalús." },
+      { name: "Tablao Flamenco El Tablao", type: "tablao", city: "Còrdova", address: "Córdoba", lat: 37.8850, lng: -4.7750, url: "", desc: "Flamenc tradicional al centre històric." },
+
+      // TABLAOS - LONDRES
+      { name: "Ronnie Scott's Jazz Club", type: "tablao", city: "Londres", address: "47 Frith Street, London W1D 4HT", lat: 51.5130, lng: -0.1315, url: "https://www.ronniescotts.co.uk/", desc: "Ocasionalment programa flamenc i fusió flamenca." },
+
+      // PEÑAS - LONDRES
+      { name: "Peña Flamenca de Londres", type: "peña", city: "Londres", address: "Londres", lat: 51.5100, lng: -0.1200, url: "https://www.penaflamencadelondres.com/", desc: "La peña flamenca més antiga del Regne Unit." },
+
+      // TABLAOS - PARÍS
+      { name: "Casa Patas (París)", type: "tablao", city: "París", address: "París", lat: 48.8566, lng: 2.3522, url: "", desc: "Filial parisenca de la mítica Casa Patas de Madrid." },
+      { name: "Tablao Flamenco de París", type: "tablao", city: "París", address: "París", lat: 48.8600, lng: 2.3500, url: "", desc: "Flamenc tradicional per a públic francès i internacional." },
+
+      // PEÑAS - AMSTERDAM
+      { name: "Pena Flamenca de Amsterdam", type: "peña", city: "Amsterdam", address: "Amsterdam", lat: 52.3676, lng: 4.9041, url: "", desc: "Programació regular de concerts i classes." },
+
+      // FESTIVALS
+      { name: "Bienal de Flamenco de Sevilla", type: "festival", city: "Sevilla", address: "Diversos espais de Sevilla", lat: 37.3880, lng: -5.9840, url: "https://www.labienal.com/", desc: "Setembre 2026. El festival de flamenc més important del món." },
+      { name: "Festival de Jerez", type: "festival", city: "Jerez de la Frontera", address: "Diversos espais de Jerez", lat: 36.6860, lng: -6.1360, url: "https://www.festivaldejerez.es/", desc: "Febrer 2027. Un dels festivals més prestigiosos." },
+      { name: "Suma Flamenca", type: "festival", city: "Madrid", address: "Teatros del Canal, Madrid", lat: 40.4380, lng: -3.7050, url: "https://www.sumaflamenca.com/", desc: "Juny 2027. Tres setmanes de flamenc a Madrid." },
+      { name: "Festival de las Minas", type: "festival", city: "La Unión", address: "La Unión, Múrcia", lat: 37.6200, lng: -0.8800, url: "https://www.festivaldelasminas.es/", desc: "Agost. Festival miner amb 60 anys d'història." },
+      { name: "Festival Flamenco de Nimes", type: "festival", city: "Nimes", address: "Nimes, França", lat: 43.8367, lng: 4.3600, url: "https://www.flamenco-nimes.com/", desc: "Gener. Un dels festivals més importants fora d'Espanya." },
+      { name: "Festival Flamenco de Mont-de-Marsan", type: "festival", city: "Mont-de-Marsan", address: "Mont-de-Marsan, França", lat: 43.8900, lng: -0.5000, url: "", desc: "Juliol. Festival flamenc més antic d'Europa." },
+      { name: "Festival de Flamenco de Londres", type: "festival", city: "Londres", address: "Londres", lat: 51.5150, lng: -0.1250, url: "", desc: "Principal festival de flamenc del Regne Unit." },
+      { name: "Festival de Flamenco d'Amsterdam", type: "festival", city: "Amsterdam", address: "Amsterdam", lat: 52.3700, lng: 4.9100, url: "", desc: "Programació de flamenc a diversos espais." },
+      { name: "Festival Flamenco de Barcelona", type: "festival", city: "Barcelona", address: "Barcelona", lat: 41.3850, lng: 2.1730, url: "", desc: "Enfocament en fusió i experimental." }
+    ];
+
+    var markers = L.markerClusterGroup();
+    var allMarkers = [];
+    var tablaoMarkers = [];
+    var penaMarkers = [];
+    var festivalMarkers = [];
+
+    locations.forEach(function(loc) {
+      var icon = loc.type === 'tablao' ? tablaoIcon : loc.type === 'peña' ? penaIcon : festivalIcon;
+      var marker = L.marker([loc.lat, loc.lng], { icon: icon });
+
+      var typeLabel = loc.type === 'tablao' ? 'TABLAO' : loc.type === 'peña' ? 'PEÑA' : 'FESTIVAL';
+      var popupContent = 
+        '<div class="popup-content">' +
+        '<div class="meta">' + typeLabel + ' · ' + loc.city + '</div>' +
+        '<h3>' + loc.name + '</h3>' +
+        '<p>' + loc.address + '</p>' +
+        '<p>' + loc.desc + '</p>' +
+        (loc.url ? '<a href="' + loc.url + '" target="_blank">Més info →</a>' : '') +
+        '</div>';
+
+      marker.bindPopup(popupContent);
+      markers.addLayer(marker);
+      allMarkers.push(marker);
+
+      if (loc.type === 'tablao') tablaoMarkers.push(marker);
+      else if (loc.type === 'peña') penaMarkers.push(marker);
+      else festivalMarkers.push(marker);
+    });
+
+    map.addLayer(markers);
+
+    var group = new L.featureGroup(allMarkers);
+    map.fitBounds(group.getBounds().pad(0.1));
+
+    function filterAll() {
+      map.removeLayer(markers);
+      markers.clearLayers();
+      allMarkers.forEach(function(m) { markers.addLayer(m); });
+      map.addLayer(markers);
+      updateButtons('btn-all');
+    }
+
+    function filterTablaos() {
+      map.removeLayer(markers);
+      markers.clearLayers();
+      tablaoMarkers.forEach(function(m) { markers.addLayer(m); });
+      map.addLayer(markers);
+      updateButtons('btn-tablaos');
+    }
+
+    function filterPenas() {
+      map.removeLayer(markers);
+      markers.clearLayers();
+      penaMarkers.forEach(function(m) { markers.addLayer(m); });
+      map.addLayer(markers);
+      updateButtons('btn-penas');
+    }
+
+    function filterFestivals() {
+      map.removeLayer(markers);
+      markers.clearLayers();
+      festivalMarkers.forEach(function(m) { markers.addLayer(m); });
+      map.addLayer(markers);
+      updateButtons('btn-festivals');
+    }
+
+    function updateButtons(activeId) {
+      ['btn-all', 'btn-tablaos', 'btn-penas', 'btn-festivals'].forEach(function(id) {
+        document.getElementById(id).classList.toggle('active', id === activeId);
+      });
+    }
+  </script>
+</body>
+</html>
