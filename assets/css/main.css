@@ -2240,12 +2240,12 @@ img, svg { display: block; }
 }
 .recursos-card__cat-icon {
   flex-shrink: 0;
-  opacity: 0.35;
+  color: var(--gold);
   margin-top: 1px;
 }
 .recursos-card__cat-icon svg {
-  width: 14px;
-  height: 14px;
+  width: 28px;
+  height: 28px;
   display: block;
 }
 .recursos-card__desc {
