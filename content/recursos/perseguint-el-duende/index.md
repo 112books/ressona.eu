@@ -277,4 +277,4 @@ Peña activa amb programació regular de concerts, classes i activitats flamenqu
 
 Tablaos, peñas i festivals de flamenc a Espanya i Europa. Fes clic a qualsevol marcador per veure el nom, adreça i web.
 
-<iframe src="mapa-flamenc-europa/" width="100%" height="540" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;" title="Mapa de flamenc per Europa" loading="lazy"></iframe>
+<iframe src="mapa-flamenc-europa.html" width="100%" height="540" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;" title="Mapa de flamenc per Europa" loading="lazy"></iframe>
