@@ -7,24 +7,127 @@
 <meta name="robots" content="noindex, follow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
 <meta name="theme-color" content="#34454c">
 <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}img/ressona-eu-rounded-192.png">
+<style>
+  .e404 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg);
+  }
+  .e404__body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 24px;
+  }
+  .e404__inner {
+    max-width: 560px;
+    width: 100%;
+  }
+  .e404__label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 24px;
+  }
+  .e404__num {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(96px, 20vw, 180px);
+    line-height: 0.85;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--gold);
+    margin-bottom: 40px;
+    letter-spacing: -4px;
+  }
+  .e404__title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(20px, 4vw, 28px);
+    color: var(--text);
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+  .e404__desc {
+    font-size: 0.95rem;
+    color: var(--text-subtle);
+    line-height: 1.65;
+    margin-bottom: 48px;
+    max-width: 400px;
+  }
+  .e404__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .e404__link--primary {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--bg);
+    padding: 12px 24px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+  .e404__link--primary:hover { opacity: 0.85; }
+  .e404__link--secondary {
+    display: inline-block;
+    border: 1px solid var(--border);
+    color: var(--text-subtle);
+    padding: 12px 24px;
+    font-size: 0.82rem;
+    text-decoration: none;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .e404__link--secondary:hover {
+    border-color: var(--gold);
+    color: var(--text);
+  }
+  .e404__divider {
+    width: 40px;
+    height: 2px;
+    background: var(--gold);
+    margin-bottom: 40px;
+    opacity: 0.5;
+  }
+</style>
 </head>
 <body>
+<div class="e404">
 
-{{ partial "header.html" . }}
+  {{ partial "header.html" . }}
 
-<section class="section" style="min-height:60vh;display:flex;align-items:center;justify-content:center;text-align:center">
-  <div class="section-inner">
-    <h1 style="font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(48px,8vw,96px);color:var(--gold);margin-bottom:16px">404</h1>
-    <p style="font-size:clamp(16px,2.5vw,22px);color:var(--text-dim);max-width:480px;margin:0 auto 32px">Aquesta pàgina no existeix.<br><em style="font-style:normal;color:var(--gold)">This page does not exist.</em></p>
-    <a href="{{ .Site.BaseURL }}" style="display:inline-block;background:var(--gold);color:var(--invert);padding:12px 28px;font-family:'Syne',sans-serif;font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none">← Tornar / Go back</a>
+  <div class="e404__body">
+    <div class="e404__inner">
+      <p class="e404__label">Error 404</p>
+      <div class="e404__num">404</div>
+      <div class="e404__divider"></div>
+      <h1 class="e404__title">Aquesta pàgina no ressona.</h1>
+      <p class="e404__desc">
+        Pot ser que l'adreça hagi canviat, s'hagi eliminat, o simplement no existeixi.<br>
+        <span style="font-style:italic;color:var(--text-subtle)">This page doesn't exist — but the rest of the site does.</span>
+      </p>
+      <div class="e404__links">
+        <a href="{{ .Site.BaseURL }}" class="e404__link--primary">← Inici</a>
+        <a href="{{ .Site.BaseURL }}recursos/" class="e404__link--secondary">Recursos</a>
+        <a href="{{ .Site.BaseURL }}#contacte" class="e404__link--secondary">Contacte</a>
+      </div>
+    </div>
   </div>
-</section>
 
-{{ partial "footer.html" . }}
+  {{ partial "footer.html" . }}
 
+</div>
 </body>
 </html>
