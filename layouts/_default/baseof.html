@@ -183,6 +183,48 @@
   {{ partial "footer.html" . }}
   {{ partial "progress.html" . }}
   {{ partial "search.html" . }}
+  {{ if not (or (eq .RelPermalink "/comenca/") (eq .RelPermalink "/en/start/")) }}
+  <div id="debut-popup" class="debut-popup" role="complementary" aria-label="{{ if eq .Language.Lang "en" }}Web Debut offer{{ else }}Oferta Web de debut{{ end }}">
+    <button id="debut-close" class="debut-popup__close" aria-label="{{ if eq .Language.Lang "en" }}Close{{ else }}Tancar{{ end }}">×</button>
+    <p class="debut-popup__kicker">{{ if eq .Language.Lang "en" }}New{{ else }}Nou{{ end }}</p>
+    <strong class="debut-popup__title">Web de debut</strong>
+    {{ if eq .Language.Lang "en" }}
+    <p class="debut-popup__desc">Professional one-page website for artists. Your own subdomain at ressona.eu, live in 48h.</p>
+    <p class="debut-popup__price">From <strong>€120</strong></p>
+    <a href="/en/start/" class="debut-popup__cta">Find out more →</a>
+    {{ else }}
+    <p class="debut-popup__desc">Web professional per a artistes. El teu subdomini a ressona.eu llest en 48h.</p>
+    <p class="debut-popup__price">Des de <strong>€120</strong></p>
+    <a href="/comenca/" class="debut-popup__cta">Saber-ne més →</a>
+    {{ end }}
+  </div>
+  <button id="debut-tab" class="debut-tab" aria-label="{{ if eq .Language.Lang "en" }}Web Debut offer{{ else }}Oferta Web de debut{{ end }}">
+    <span>Web de debut</span>
+  </button>
+  <script>
+  (function(){
+    var popup=document.getElementById('debut-popup');
+    var tab=document.getElementById('debut-tab');
+    var btn=document.getElementById('debut-close');
+    if(!popup||!tab||!btn)return;
+    var KEY='ressona_debut';
+    if(sessionStorage.getItem(KEY)==='dismissed'){tab.style.display='flex';return;}
+    if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      setTimeout(function(){popup.classList.add('debut-popup--visible');},4000);
+    }
+    btn.addEventListener('click',function(){
+      popup.classList.remove('debut-popup--visible');
+      tab.style.display='flex';
+      sessionStorage.setItem(KEY,'dismissed');
+    });
+    tab.addEventListener('click',function(){
+      popup.classList.add('debut-popup--visible');
+      tab.style.display='none';
+      sessionStorage.setItem(KEY,'shown');
+    });
+  })();
+  </script>
+  {{ end }}
   <script>
   (function(){
     var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
