@@ -112,13 +112,17 @@ El press kit ven. El dossier de beca **justifica**. Les comissions avaluadores n
 
 ## On buscar beques i subvencions
 
-- **ICEC** (Institut Català de les Empreses Culturals): beques de creació, mobilitat, fires i festivals
-- **INAEM** (Instituto Nacional de las Artes Escénicas y de la Música): ajudes per a la producció i exhibició
-- **Fundació Ars**: beques per a projectes artístics innovadors
-- **Mecenatge cultural**: deduccions fiscals per a empreses que donin suport a projectes culturals
-- **Europa Creativa**: programa europeu amb ajudes per a projectes de cooperació
+| Institució | Àmbit | Tipus d'ajuda |
+|---|---|---|
+| [ICEC — Institut Català de les Empreses Culturals](https://cultura.gencat.cat/ca/departament/estructura_i_adreces/organismes/icec/) | Catalunya | Creació, mobilitat, fires, festivals |
+| [INAEM — Instituto Nacional de las Artes Escénicas](https://www.culturaydeporte.gob.es/inaem/ayudas-y-subvenciones.html) | Espanya | Producció, exhibició, gira |
+| [Europa Creativa](https://culture.ec.europa.eu/funding/creative-europe) | Europa | Cooperació, distribució, traducció |
+| [Fundació Ars](https://fundacioars.org/) | Catalunya | Projectes artístics innovadors |
+| [Mecenatge cultural — Generalitat](https://cultura.gencat.cat/ca/departament/estructura_i_adreces/organismes/icec/mecenatge/) | Catalunya | Deduccions fiscals per a empreses mecenes |
+| [Convocatòries del Ministeri de Cultura](https://www.culturaydeporte.gob.es/servicios-al-ciudadano/catalogo/subvenciones-y-ayudas.html) | Espanya | Múltiples línies |
+| [Creative Europe Desk Spain](https://www.creativeeuropespain.eu/) | Europa | Orientació i acompanyament |
 
-Subscriu-te a les butlletins d'aquestes institucions per no perdre les convocatòries.
+**Consell pràctic:** subscriu-te als butlletins de l'ICEC i l'INAEM. Les convocatòries s'obren i es tanquen en setmanes, sovint sense avís previ. Tenir alerta de correu val més que revisar les webs periòdicament.
 
 ## La justificació, l'últim pas
 
