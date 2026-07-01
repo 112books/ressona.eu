@@ -6,7 +6,7 @@ type: resources
 date: 2026-06-26
 author: "Ressona"
 tags: ["epk", "professional-materials"]
-category: comunicacio
+category: epk
 ---
 
 A festival promoter receives hundreds of pitches every season. Most are discarded in under two minutes. Not because the music is bad — because the materials don't let them picture the artist on their stage.

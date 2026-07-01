@@ -6,7 +6,7 @@ type: recursos
 date: 2026-06-26
 author: "Ressona"
 tags: ["epk", "materials-professionals"]
-category: comunicacio
+category: epk
 ---
 
 Un programador de dansa o circ no pren decisions basant-se en el talent artístic. Pren decisions basant-se en si el teatre pot acollir la proposta tècnicament, si el perfil de la companyia encaixa amb el seu públic i si el material que rep li permet defensar la contractació davant del seu equip.

@@ -6,7 +6,7 @@ type: resources
 date: 2026-06-26
 author: "Ressona"
 tags: ["epk", "professional-materials"]
-category: comunicacio
+category: epk
 featured: true
 ---
 

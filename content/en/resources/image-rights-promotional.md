@@ -6,7 +6,7 @@ type: resources
 date: 2026-06-26
 author: "Ressona"
 tags: ["photography", "professional-materials"]
-category: comunicacio
+category: legal
 ---
 
 A musician pays for a photography session. They receive the photos, put them on their website, send them to festivals and media. Years later, the photographer claims compensation for each use. The musician had no signed contract.

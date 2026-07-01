@@ -6,7 +6,7 @@ type: recursos
 date: 2026-06-26
 author: "Ressona"
 tags: ["epk", "materials-professionals"]
-category: comunicacio
+category: epk
 ---
 
 Un galerista que rep el teu material fa una sola pregunta en els primers trenta segons: té obra consistent i pot explicar de que va? Si la resposta no és immediata, passa al perfil següent.
