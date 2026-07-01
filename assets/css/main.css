@@ -1278,7 +1278,8 @@ img, svg { display: block; }
 
 .footer-social {
   display: flex;
-  gap: 16px;
+  flex-direction: column;
+  gap: 8px;
   margin-top: 6px;
 }
 
@@ -1759,6 +1760,37 @@ img, svg { display: block; }
   .article-related__item-desc {
     display: none;
   }
+}
+
+.article-cats-nav {
+  margin: 40px 0 0;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+.article-cats-nav__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+.article-cats-nav__pill {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--text-subtle);
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+}
+.article-cats-nav__pill:hover {
+  border-color: var(--gold);
+  color: var(--text);
+}
+.article-cats-nav__pill--active {
+  border-color: var(--gold);
+  color: var(--gold);
 }
 
 /* ── SERVICE PAGES ────────────────────────────────────── */

@@ -35,12 +35,16 @@
     </div>
 
     {{ $section := cond (eq $lang "en") "resources" "recursos" }}
-    {{ $others := where (where site.RegularPages "Section" $section) "Permalink" "!=" .Permalink }}
-    {{ if $others }}
+    {{ $sectionPages := where (where site.RegularPages "Section" $section) ".Draft" false }}
+    {{ $thisCat := .Params.category }}
+    {{ $hubURL := cond (eq $lang "en") "/en/resources/" "/recursos/" }}
+
+    {{ $related := where (where $sectionPages ".Params.category" $thisCat) "Permalink" "!=" .Permalink }}
+    {{ if $related }}
     <div class="article-related">
-      <p class="article-related__title">{{ if eq $lang "en" }}More articles{{ else }}Més articles{{ end }}</p>
+      <p class="article-related__title">{{ if eq $lang "en" }}Related articles{{ else }}Articles relacionats{{ end }}</p>
       <div class="article-related__list">
-        {{ range $others }}
+        {{ range first 4 (sort $related "Date" "desc") }}
         <a href="{{ .Permalink }}" class="article-related__item">
           <span class="article-related__item-title">{{ .Title }}</span>
           <span class="article-related__item-desc">{{ .Description }}</span>
@@ -49,6 +53,31 @@
       </div>
     </div>
     {{ end }}
+
+    {{ $cats := slice
+      (dict "slug" "distribucio" "labelCA" "Distribució"        "labelEN" "Distribution")
+      (dict "slug" "identitat"   "labelCA" "Identitat digital"  "labelEN" "Digital identity")
+      (dict "slug" "epk"         "labelCA" "EPK i premsa"       "labelEN" "EPK & press kit")
+      (dict "slug" "comunicacio" "labelCA" "Comunicació"        "labelEN" "Communication")
+      (dict "slug" "xarxes"      "labelCA" "Xarxes i contingut" "labelEN" "Social media")
+      (dict "slug" "projectes"   "labelCA" "Projectes"          "labelEN" "Projects")
+      (dict "slug" "rider"       "labelCA" "Rider tècnic"       "labelEN" "Technical rider")
+      (dict "slug" "legal"       "labelCA" "Legal i drets"      "labelEN" "Legal & rights")
+      (dict "slug" "ajudes"      "labelCA" "Beques i ajudes"    "labelEN" "Grants & funding")
+      (dict "slug" "ia"          "labelCA" "IA per a artistes"  "labelEN" "AI for artists")
+    }}
+    <div class="article-cats-nav">
+      <p class="article-related__title">{{ if eq $lang "en" }}Explore by topic{{ else }}Explorar per tema{{ end }}</p>
+      <div class="article-cats-nav__pills">
+        {{ range $cats }}
+        {{ if where $sectionPages ".Params.category" .slug }}
+        <a href="{{ $hubURL }}#cat-{{ .slug }}" class="article-cats-nav__pill{{ if eq $thisCat .slug }} article-cats-nav__pill--active{{ end }}">
+          {{ if eq $lang "en" }}{{ .labelEN }}{{ else }}{{ .labelCA }}{{ end }}
+        </a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
 
   </div>
 </div>
