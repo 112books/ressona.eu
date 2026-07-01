@@ -2124,6 +2124,7 @@ img, svg { display: block; }
   font-weight: 800;
   color: var(--text);
   margin: 0 0 16px;
+  line-height: 1.1;
 }
 .recursos-hub__desc {
   font-size: 1.05rem;

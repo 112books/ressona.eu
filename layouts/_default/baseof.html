@@ -187,7 +187,7 @@
   <div id="debut-popup" class="debut-popup" role="complementary" aria-label="{{ if eq .Language.Lang "en" }}Web Debut offer{{ else }}Oferta Web de debut{{ end }}">
     <button id="debut-close" class="debut-popup__close" aria-label="{{ if eq .Language.Lang "en" }}Close{{ else }}Tancar{{ end }}">×</button>
     <p class="debut-popup__kicker">{{ if eq .Language.Lang "en" }}New{{ else }}Nou{{ end }}</p>
-    <strong class="debut-popup__title">Web de debut</strong>
+    <strong class="debut-popup__title">{{ if eq .Language.Lang "en" }}Debut website{{ else }}Web de debut{{ end }}</strong>
     {{ if eq .Language.Lang "en" }}
     <p class="debut-popup__desc">Professional one-page website for artists. Your own subdomain at ressona.eu, live in 48h.</p>
     <p class="debut-popup__price">From <strong>€120</strong></p>
