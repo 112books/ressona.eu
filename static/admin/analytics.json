@@ -1,15 +1,229 @@
 {
-  "generated": "2026-07-01T13:33:36.260319Z",
+  "generated": "2026-07-01T16:13:13.532855Z",
   "period": {
     "start": "2025-07-01",
     "end": "2026-07-01"
   },
-  "total": 0,
+  "total": 459,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-06-12",
+      "count": 8
+    },
+    {
+      "date": "2026-06-13",
+      "count": 20
+    },
+    {
+      "date": "2026-06-14",
+      "count": 3
+    },
+    {
+      "date": "2026-06-15",
+      "count": 7
+    },
+    {
+      "date": "2026-06-16",
+      "count": 11
+    },
+    {
+      "date": "2026-06-17",
+      "count": 4
+    },
+    {
+      "date": "2026-06-18",
+      "count": 38
+    },
+    {
+      "date": "2026-06-19",
+      "count": 55
+    },
+    {
+      "date": "2026-06-20",
+      "count": 15
+    },
+    {
+      "date": "2026-06-21",
+      "count": 18
+    },
+    {
+      "date": "2026-06-22",
+      "count": 24
+    },
+    {
+      "date": "2026-06-23",
+      "count": 8
+    },
+    {
+      "date": "2026-06-25",
+      "count": 6
+    },
+    {
+      "date": "2026-06-26",
+      "count": 13
+    },
+    {
+      "date": "2026-06-27",
+      "count": 125
+    },
+    {
+      "date": "2026-06-28",
+      "count": 15
+    },
+    {
+      "date": "2026-06-29",
+      "count": 12
+    },
+    {
+      "date": "2026-06-30",
+      "count": 65
+    },
+    {
+      "date": "2026-07-01",
+      "count": 12
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 158
+    },
+    {
+      "path": "/#que-fem",
+      "count": 36
+    },
+    {
+      "path": "/#per-qui",
+      "count": 31
+    },
+    {
+      "path": "/#contacte",
+      "count": 30
+    },
+    {
+      "path": "/#quisom",
+      "count": 30
+    },
+    {
+      "path": "/#com-treballem",
+      "count": 26
+    },
+    {
+      "path": "/#recursos",
+      "count": 16
+    },
+    {
+      "path": "/recursos",
+      "count": 10
+    },
+    {
+      "path": "/en",
+      "count": 7
+    },
+    {
+      "path": "/recursos/drets-imatges-promocionals",
+      "count": 6
+    },
+    {
+      "path": "/serveis/estrategia-xarxes",
+      "count": 6
+    },
+    {
+      "path": "/serveis/identitat-visual",
+      "count": 6
+    },
+    {
+      "path": "/recursos/per-que-web-propia-instagram",
+      "count": 4
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 4
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 4
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 4
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 4
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 4
+    },
+    {
+      "path": "/serveis/fotografia-video",
+      "count": 4
+    },
+    {
+      "path": "/recursos/xarxes-socials-artistes",
+      "count": 3
+    },
+    {
+      "path": "/recursos/presentar-projecte-festival",
+      "count": 3
+    },
+    {
+      "path": "/recursos/que-es-un-epk",
+      "count": 3
+    },
+    {
+      "path": "/recursos/press-kit-digital-actors",
+      "count": 3
+    },
+    {
+      "path": "/serveis/xarxes-automatiques",
+      "count": 3
+    },
+    {
+      "path": "/legal/privacitat",
+      "count": 3
+    },
+    {
+      "path": "/recursos/bandcamp-musics-presencia-professional",
+      "count": 2
+    },
+    {
+      "path": "/recursos/rider-tecnic",
+      "count": 2
+    },
+    {
+      "path": "/tags/materials-professionals",
+      "count": 2
+    },
+    {
+      "path": "/recursos/llibre-artista-gira-disc",
+      "count": 2
+    },
+    {
+      "path": "/en/#recursos",
+      "count": 2
+    }
+  ],
+  "by_lang": {
+    "en": 35
+  },
+  "by_section": {
+    "inici": 165,
+    "#que-fem": 40,
+    "#per-qui": 35,
+    "#contacte": 34,
+    "#quisom": 34,
+    "#com-treballem": 30,
+    "#recursos": 18,
+    "recursos": 57,
+    "serveis": 27,
+    "legal": 6,
+    "tags": 7,
+    "comenca": 1,
+    "resources": 5
+  },
   "browsers": [
     {
       "name": "Safari",
