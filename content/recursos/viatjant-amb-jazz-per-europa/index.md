@@ -34,7 +34,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 ## Clubs i sessions per país
 
 <details>
-<summary><strong>🇪🇸 Espanya</strong> — Barcelona, Madrid, Sevilla, Donostia, Bilbao, Granada, València i més</summary>
+<summary><strong>Espanya</strong> — Barcelona, Madrid, Sevilla, Donostia, Bilbao, Granada, València i més</summary>
 
 ### Barcelona
 
@@ -143,7 +143,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 ---
 
 <details>
-<summary><strong>🇵🇹 Portugal</strong> — Lisboa, Porto</summary>
+<summary><strong>Portugal</strong> — Lisboa, Porto</summary>
 
 ### Lisboa
 
@@ -165,7 +165,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 ---
 
 <details>
-<summary><strong>🇫🇷 França</strong> — París, Lió, Marsella, Tolosa, Fontainebleau</summary>
+<summary><strong>França</strong> — París, Lió, Marsella, Tolosa, Fontainebleau</summary>
 
 ### París
 
@@ -217,7 +217,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 ---
 
 <details>
-<summary><strong>🇬🇧 🇮🇪 Illes Britàniques</strong> — Londres, Edimburg, Glasgow, Dublín</summary>
+<summary><strong>Illes Britàniques</strong> — Londres, Edimburg, Glasgow, Dublín</summary>
 
 ### Londres
 
@@ -265,7 +265,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 ---
 
 <details>
-<summary><strong>🇧🇪 🇳🇱 Benelux</strong> — Brussel·les, Gant, Amsterdam</summary>
+<summary><strong>Benelux</strong> — Brussel·les, Gant, Amsterdam</summary>
 
 ### Brussel·les
 
@@ -290,7 +290,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 ---
 
 <details>
-<summary><strong>🇩🇪 🇦🇹 🇨🇭 Centre Europa</strong> — Berlín, Viena, Zuric, Ginebra</summary>
+<summary><strong>Centre Europa</strong> — Berlín, Viena, Zuric, Ginebra</summary>
 
 ### Berlín
 
@@ -328,7 +328,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 ---
 
 <details>
-<summary><strong>🇵🇱 🇨🇿 🇭🇺 🇭🇷 Europa Central</strong> — Cracòvia, Varsòvia, Praga, Brno, Budapest, Zagreb</summary>
+<summary><strong>Europa Central</strong> — Cracòvia, Varsòvia, Praga, Brno, Budapest, Zagreb</summary>
 
 ### Cracòvia
 
@@ -373,7 +373,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 ---
 
 <details>
-<summary><strong>🇮🇹 Itàlia</strong> — Milà, Roma</summary>
+<summary><strong>Itàlia</strong> — Milà, Roma</summary>
 
 ### Milà
 
@@ -398,7 +398,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 ---
 
 <details>
-<summary><strong>🇩🇰 🇸🇪 🇳🇴 🇫🇮 🇮🇸 Escandinàvia</strong> — Copenhaguen, Estocolm, Oslo, Hèlsinki, Reykjavik</summary>
+<summary><strong>Escandinàvia</strong> — Copenhaguen, Estocolm, Oslo, Hèlsinki, Reykjavik</summary>
 
 ### Copenhaguen
 
@@ -456,37 +456,37 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 
 | Festival | País | Dates 2026 | Estil |
 |---|---|---|---|
-| JazzFestBrno | República Txeca | Feb–Maig | Jazz contemporani |
-| Jazz sous les Pommiers | França | 8–16 Maig | Jazz, world |
-| Moers Jazz Festival | Alemanya | 21–25 Maig | Improvisat, experimental |
-| Jazz Middelheim | Bèlgica | 23–25 Maig | Jazz, soul |
-| Jazzkaar | Estònia | 24 Abr–2 Maig | Jazz modern |
-| Nattjazz | Noruega | 29 Maig–6 Jun | Jazz escandinau |
-| Casa del Jazz Summer | Itàlia | 1 Jun–10 Set | Jazz internacional |
-| Jazz à Saint-Germain | França | 18–24 Maig | Jazz clàssic |
-| Festival Django Reinhardt | França | 25–28 Jun | Jazz manouche |
-| Jazz Baltica | Alemanya | 25–28 Jun | Jazz a la platja |
-| JazzAscona | Suïssa | 25 Jun–4 Jul | Nova Orleans, 200 concerts gratuïts |
-| Jazz à Vienne | França | 25 Jun–11 Jul | Jazz, world, 250.000 espectadors |
-| Montreux Jazz Festival | Suïssa | 3–18 Jul | La llegenda (60a edició) |
-| Umbria Jazz | Itàlia | 3–12 Jul | Jazz, rock, soul |
-| Copenhagen Jazz Festival | Dinamarca | 3–12 Jul | +1.000 concerts per la ciutat |
-| Love Supreme Jazz | Regne Unit | 3–5 Jul | Jazz a l'aire lliure, el + gran d'Europa |
-| North Sea Jazz | Països Baixos | 10–12 Jul | 1.300 artistes, 17 escenaris |
-| Pori Jazz | Finlàndia | 10–18 Jul | Jazz, blues, pop |
-| Gent Jazz | Bèlgica | 2–18 Jul | Jazz, soul, rock |
-| Jazz à Juan | França | 9–19 Jul | Costa Blava, 65a edició |
-| Edinburgh Jazz & Blues | Escòcia | 17–26 Jul | Jazz, blues |
-| Nice Jazz Festival | França | 23–26 Jul | Jazz a la plaça |
-| Marciac Jazz Festival | França | 20 Jul–5 Ago | Poble de 1.200 hab, 250.000 visitants |
-| Molde Jazz | Noruega | 13–19 Jul | Jazz nòrdic amb vistes als Alps |
-| Ystad Sweden Jazz | Suècia | 29 Jul–2 Ago | Esglésies medievals i castells |
-| Heineken Jazzaldia | Espanya (Donostia) | 22–26 Jul | La millor programació d'Europa |
+| [Jazzkaar](https://www.jazzkaar.ee/) | Estònia | 24 Abr–2 Maig | Jazz modern |
+| [Jazz sous les Pommiers](https://www.jazzsouslespommiers.com/) | França | 8–16 Maig | Jazz, world |
+| [Jazz à Saint-Germain](https://www.jazzasaintgermain.com/) | França | 18–24 Maig | Jazz clàssic |
+| [Moers Jazz Festival](https://www.moers-festival.de/) | Alemanya | 21–25 Maig | Improvisat, experimental |
+| [Jazz Middelheim](https://www.jazzmiddelheim.be/) | Bèlgica | 23–25 Maig | Jazz, soul |
+| [Nattjazz](https://www.nattjazz.no/) | Noruega | 29 Maig–6 Jun | Jazz escandinau |
+| [JazzFestBrno](https://www.jazzfestbrno.cz/) | República Txeca | Feb–Jun | Jazz contemporani |
+| [Festival Blues Barcelona](https://www.barcelonabluesfestival.com/) | Espanya | 3–5 Jul | Blues, gratuït |
+| [Festival Django Reinhardt](https://www.festivaldjangoreinhardt.com/) | França | 25–28 Jun | Jazz manouche |
+| [Jazz Baltica](https://www.jazzbaltica.de/) | Alemanya | 25–28 Jun | Jazz a la platja |
+| [JazzAscona](https://www.jazzascona.ch/) | Suïssa | 25 Jun–4 Jul | Nova Orleans, 200 concerts gratuïts |
+| [Jazz à Vienne](https://www.jazzavienne.com/) | França | 25 Jun–11 Jul | Jazz, world, 250.000 espectadors |
+| [Gent Jazz](https://www.gentjazz.be/) | Bèlgica | 2–18 Jul | Jazz, soul, rock |
+| [Montreux Jazz Festival](https://www.montreuxjazzfestival.com/) | Suïssa | 3–18 Jul | La llegenda (60a edició) |
+| [Umbria Jazz](https://www.umbriajazz.com/) | Itàlia | 3–12 Jul | Jazz, rock, soul |
+| [Copenhagen Jazz Festival](https://www.cphjazz.dk/) | Dinamarca | 3–12 Jul | +1.000 concerts per la ciutat |
+| [Love Supreme Jazz](https://www.lovesupremefestival.com/) | Regne Unit | 3–5 Jul | Jazz a l'aire lliure, el + gran d'Europa |
+| [North Sea Jazz](https://www.northseajazz.com/) | Països Baixos | 10–12 Jul | 1.300 artistes, 17 escenaris |
+| [Pori Jazz](https://www.porijazz.fi/) | Finlàndia | 10–18 Jul | Jazz, blues, pop |
+| [Casa del Jazz Summer](https://www.casajazz.it/) | Itàlia | 1 Jun–10 Set | Jazz internacional |
+| [Jazz à Juan](https://www.jazzajuan.com/) | França | 9–19 Jul | Costa Blava, 65a edició |
+| [Heineken Jazzaldia](https://www.jazzaldia.com/) | Espanya (Donostia) | 22–26 Jul | La millor programació d'Europa |
+| [Edinburgh Jazz & Blues](https://www.edinburghjazzfestival.com/) | Escòcia | 17–26 Jul | Jazz, blues |
+| [Molde Jazz](https://www.moldejazz.no/) | Noruega | 13–19 Jul | Jazz nòrdic amb vistes als fjords |
+| [Nice Jazz Festival](https://www.nicejazzfestival.fr/) | França | 23–26 Jul | Jazz a la plaça |
+| [Marciac Jazz Festival](https://www.jazz-in-marciac.com/) | França | 20 Jul–5 Ago | Poble de 1.200 hab, 250.000 visitants |
+| [Ystad Sweden Jazz](https://www.ystadsjazz.com/) | Suècia | 29 Jul–2 Ago | Esglésies medievals i castells |
 | Festival de Jazz de Cadis | Espanya | 21–26 Jul | Jazz, vistes al mar |
-| Festival Blues Barcelona | Espanya | 3–5 Jul | Blues, gratuït |
+| [Tanjazz](https://www.tanjazz.org/) | Marroc (Tànger) | 18–20 Set | Jazz, sons mediterranis, medina |
 | Festival de Jazz de Granada | Espanya | Novembre | Jazz, +80 concerts |
-| JAZZMADRID | Espanya | Novembre | Jazz internacional, tots els clubs |
-| Tanjazz | Marroc (Tànger) | 18–20 Set | Jazz, sons mediterranis, medina |
+| [JAZZMADRID](https://www.jazzmadrid.com/) | Espanya | Novembre | Jazz internacional, tots els clubs |
 
 ---
 
