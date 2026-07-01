@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-30T23:55:12.051095Z",
+  "generated": "2026-07-01T02:03:49.031250Z",
   "period": {
-    "start": "2025-06-30",
-    "end": "2026-06-30"
+    "start": "2025-07-01",
+    "end": "2026-07-01"
   },
-  "total": 383,
+  "total": 459,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -77,57 +77,65 @@
     },
     {
       "date": "2026-06-30",
-      "count": 1
+      "count": 65
+    },
+    {
+      "date": "2026-07-01",
+      "count": 12
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 140
+      "count": 158
     },
     {
       "path": "/#que-fem",
-      "count": 30
-    },
-    {
-      "path": "/#contacte",
-      "count": 25
-    },
-    {
-      "path": "/#quisom",
-      "count": 25
+      "count": 36
     },
     {
       "path": "/#per-qui",
-      "count": 25
+      "count": 31
+    },
+    {
+      "path": "/#contacte",
+      "count": 30
+    },
+    {
+      "path": "/#quisom",
+      "count": 30
     },
     {
       "path": "/#com-treballem",
-      "count": 21
+      "count": 26
     },
     {
       "path": "/#recursos",
-      "count": 11
+      "count": 16
     },
     {
       "path": "/recursos",
+      "count": 10
+    },
+    {
+      "path": "/en",
       "count": 7
+    },
+    {
+      "path": "/recursos/drets-imatges-promocionals",
+      "count": 6
     },
     {
       "path": "/serveis/estrategia-xarxes",
       "count": 6
     },
     {
-      "path": "/recursos/drets-imatges-promocionals",
-      "count": 5
-    },
-    {
-      "path": "/en",
-      "count": 5
-    },
-    {
       "path": "/serveis/identitat-visual",
-      "count": 5
+      "count": 6
+    },
+    {
+      "path": "/recursos/per-que-web-propia-instagram",
+      "count": 4
     },
     {
       "path": "/en/#contacte",
@@ -154,76 +162,73 @@
       "count": 4
     },
     {
-      "path": "/recursos/per-que-web-propia-instagram",
+      "path": "/recursos/xarxes-socials-artistes",
       "count": 3
+    },
+    {
+      "path": "/recursos/presentar-projecte-festival",
+      "count": 3
+    },
+    {
+      "path": "/recursos/que-es-un-epk",
+      "count": 3
+    },
+    {
+      "path": "/recursos/press-kit-digital-actors",
+      "count": 3
+    },
+    {
+      "path": "/serveis/xarxes-automatiques",
+      "count": 3
+    },
+    {
+      "path": "/legal/privacitat",
+      "count": 3
+    },
+    {
+      "path": "/recursos/bandcamp-musics-presencia-professional",
+      "count": 2
+    },
+    {
+      "path": "/recursos/rider-tecnic",
+      "count": 2
     },
     {
       "path": "/tags/materials-professionals",
       "count": 2
     },
     {
+      "path": "/recursos/llibre-artista-gira-disc",
+      "count": 2
+    },
+    {
       "path": "/en/#recursos",
-      "count": 2
-    },
-    {
-      "path": "/recursos/fotos-de-premsa",
-      "count": 2
-    },
-    {
-      "path": "/recursos/presentar-projecte-festival",
-      "count": 2
-    },
-    {
-      "path": "/recursos/que-es-un-epk",
-      "count": 2
-    },
-    {
-      "path": "/recursos/press-kit-digital-actors",
-      "count": 2
-    },
-    {
-      "path": "/recursos/identitat-digital-musics",
-      "count": 2
-    },
-    {
-      "path": "/serveis/press-kit-digital",
-      "count": 2
-    },
-    {
-      "path": "/serveis/xarxes-automatiques",
-      "count": 2
-    },
-    {
-      "path": "/serveis/web-artistes",
-      "count": 2
-    },
-    {
-      "path": "/serveis/cartelleria-materials",
       "count": 2
     }
   ],
   "by_lang": {
-    "en": 33
+    "en": 35
   },
   "by_section": {
-    "inici": 145,
-    "#que-fem": 34,
-    "#contacte": 29,
-    "#quisom": 29,
-    "#per-qui": 29,
-    "#com-treballem": 25,
-    "#recursos": 13,
-    "recursos": 37,
-    "serveis": 25,
+    "inici": 165,
+    "#que-fem": 40,
+    "#per-qui": 35,
+    "#contacte": 34,
+    "#quisom": 34,
+    "#com-treballem": 30,
+    "#recursos": 18,
+    "recursos": 57,
+    "serveis": 27,
+    "legal": 6,
     "tags": 7,
-    "legal": 5,
+    "comenca": 1,
     "resources": 5
   },
   "browsers": [
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 228
+      "count": 229
     },
     {
       "name": "Chrome",
@@ -255,7 +260,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 76
+      "count": 77
     },
     {
       "name": "Android",
@@ -282,7 +287,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 136
+      "count": 137
     },
     {
       "name": "desktophd",
@@ -299,7 +304,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 379
+      "count": 380
     },
     {
       "name": "United States",
@@ -341,16 +346,16 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 173
-    },
-    {
-      "name": "Google",
-      "id": "Google",
-      "count": 2
+      "count": 202
     },
     {
       "name": "ig",
       "id": "ig",
+      "count": 9
+    },
+    {
+      "name": "Google",
+      "id": "Google",
       "count": 2
     },
     {
