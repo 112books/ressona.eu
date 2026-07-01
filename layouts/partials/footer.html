@@ -30,6 +30,13 @@
         {{ $hubURL := cond (eq $.Site.Language.Lang "en") "/en/resources/" "/recursos/" }}
         <a href="{{ $hubURL }}" class="footer-recursos-all">{{ i18n "footer_recursos_all" }}</a>
       </div>
+      <div class="footer-starter">
+        {{ if eq .Site.Language.Lang "en" }}
+        <a href="/en/start/" class="footer-starter__link">Starter Pack — your website from €120</a>
+        {{ else }}
+        <a href="/comenca/" class="footer-starter__link">Starter Pack — el teu web des de €120</a>
+        {{ end }}
+      </div>
       <div class="footer-powered">
         <span class="footer-powered-text">Powered by <a href="https://linuxbcn.com" target="_blank" rel="noopener noreferrer" aria-label="LinuxBCN (obre en nova pestanya)">LinuxBCN</a></span>
       </div>
