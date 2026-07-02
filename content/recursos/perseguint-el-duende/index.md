@@ -269,6 +269,8 @@ Peña activa amb programació regular de concerts, classes i activitats flamenqu
 | [Festival Flamenco de Nimes](https://www.flamenco-nimes.com/) | Nimes, França | Gener | flamenco-nimes.com |
 | [Festival Flamenco de Mont-de-Marsan](https://www.flamencomont.com/) | Mont-de-Marsan, França | Juliol | flamencomont.com |
 | Festival de Flamenco de Nou Barris | Barcelona (Nou Barris) | Primavera | — |
+| [Flamenco de Barrio](https://www.instagram.com/flamencodebarrio_oficial/) | Barcelona (Nou Barris) | Novembre | Places i patis de barri |
+| [Ciutat Flamenco Barcelona](https://ciutatflamenco.com/) | Barcelona (diverses sales) | Octubre | Taller de Músics, flamenc contemporani |
 | Festival de Flamenco de Londres | Londres, Regne Unit | Variable | — |
 | Festival de Flamenco de Barcelona | Barcelona | Variable | — |
 

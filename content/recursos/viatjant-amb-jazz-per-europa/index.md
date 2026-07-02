@@ -130,19 +130,37 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 
 ---
 
-### Festivals a Catalunya
+### Festivals a Catalunya i Espanya
 
-**Voll-Damm Festival Internacional de Jazz de Barcelona (ViJazz)**
-[voll-dammfestivaldejazz.com](https://www.voll-dammfestivaldejazz.com/) — Novembre. Fundat el 1966, un dels festivals de jazz més antics del món. Palau de la Música Catalana, Barts, Apolo, Luz de Gas i altres sales de la ciutat. +100 concerts en dues setmanes. Estreles internacionals i artistes emergents del jazz mundial. **Per a músics en gira: el moment en que Barcelona concentra la major densitat de professionals del sector.**
+**Jazz I Am**
+[jazziam.barcelona](https://jazziam.barcelona/ca/) — Març. A El Molino (des de 2026). Festival que canvia de format cada any: noves sales, noves propostes. Emergents al costat de referents consolidats, sense jerarquies. El jazz del Taller de Músics en la sala que li pertoca.
+
+**VijazZ — Jazz Vilafranca del Penedès**
+[vijazz.cat](https://vijazz.cat) — Juliol. Festival íntim a Vilafranca del Penedès (Alt Penedès). Músics europeus i americans cara a cara amb el públic, sense distàncies. Joe Lovano, Makaya McCraven i Avishai Cohen hi han actuat.
+
+**Voll-Damm Festival Internacional de Jazz de Barcelona**
+[voll-dammfestivaldejazz.com](https://www.voll-dammfestivaldejazz.com/) — Novembre. Fundat el 1966, un dels festivals de jazz més antics del món. Palau de la Música Catalana, Barts, Apolo, Luz de Gas i més de 100 concerts en dues setmanes. **Per a músics en gira: el moment en que Barcelona concentra la major densitat de professionals del sector.**
+
+**Sax-o-Rama**
+— La Paloma, Barcelona. Festival internacional de saxofon creat per Dani Nel·lo. Músics del Japó, el Carib i Espanya amb la Barcelona Big Blues Band com a fil conductor. "Exigent, generós i sense concessions."
 
 **Festival de Jazz de Terrassa**
 [jazzterrassa.org](https://www.jazzterrassa.org/) — Març. Des de 1980, un dels festivals de referència de l'escena catalana. +30 concerts en deu dies. Nova Jazz Cava com a epicentre, amb programació als carrers i espais singulars de la ciutat.
 
+**Festival de Blues de Barcelona**
+[festivalbluesbarcelona.com](https://www.festivalbluesbarcelona.com) — Juliol. 22+ edicions, organitzat des de Nou Barris. Blues nacional i internacional, jam sessions de clausura. Entrada gratuïta.
+
+**Pícnic de Blues**
+— Maig. Parc Central de Nou Barris. Gratuït, de barri, sense pretensions. Blues a l'herba com a preescalfament de temporada. Organitzat per Capibola Blues des de 2013.
+
+**Clot amb Blues**
+— Febrer i novembre. El Clot, Barcelona. Blues als espais del barri: places, locals, equipaments. "Petit de mida, gran de contingut."
+
+**Calella Harmònica Festival**
+— Setembre. Calella (Maresme). Concerts, masterclasses per a tots els nivells i exposicions fotogràfiques. Blues, jazz, bluegrass i folk amb l'harmònica com a protagonista.
+
 **Festival de Jazz de Girona**
 [jazzgirona.cat](https://jazzgirona.cat/) — Estiu. Jazz al Barri Vell, concerts als patis i esglésies romàniques. Entrada gratuïta a la majoria dels concerts.
-
-**Festival Internacional de Jazz de Getxo**
-[jazzdegetxo.com](https://www.jazzdegetxo.com/) — Juliol. Des de 1975, un dels veterans de l'estat. Al port de Getxo, entrada lliure.
 
 ---
 
@@ -503,8 +521,13 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 | [Tanjazz](https://www.tanjazz.org/) | Marroc (Tànger) | 18–20 Set | Jazz, sons mediterranis, medina |
 | Festival de Jazz de Granada | Espanya | Novembre | Jazz, +80 concerts |
 | [JAZZMADRID](https://www.jazzmadrid.com/) | Espanya | Novembre | Jazz internacional, tots els clubs |
-| [Voll-Damm Festival Internacional de Jazz de Barcelona (ViJazz)](https://www.voll-dammfestivaldejazz.com/) | Espanya (Barcelona) | Novembre | +100 concerts, Palau de la Música + sales |
+| [Jazz I Am](https://jazziam.barcelona/ca/) | Espanya (Barcelona) | Març | El Molino, emergents + referents |
+| [VijazZ](https://vijazz.cat) | Espanya (Vilafranca del Penedès) | Juliol | Íntim, Joe Lovano, Avishai Cohen |
+| [Voll-Damm Festival Internacional de Jazz de Barcelona](https://www.voll-dammfestivaldejazz.com/) | Espanya (Barcelona) | Novembre | +100 concerts, Palau de la Música + sales |
+| [Sax-o-Rama](https://pocallum.cat/festivals/sax-o-rama/) | Espanya (Barcelona) | Variable | Festival internacional de saxofon, La Paloma |
 | [Festival de Jazz de Terrassa](https://www.jazzterrassa.org/) | Espanya (Catalunya) | Març | Des de 1980, +30 concerts |
+| [Pícnic de Blues](https://pocallum.cat/festivals/picnic-de-blues/) | Espanya (Barcelona, Nou Barris) | Maig | Gratuït, Parc Central de Nou Barris |
+| [Calella Harmònica Festival](https://pocallum.cat/festivals/calella-harmonica-festival/) | Espanya (Calella) | Setembre | Blues, jazz, harmònica, masterclasses |
 | [Festival Internacional de Jazz de Getxo](https://www.jazzdegetxo.com/) | Espanya (Getxo) | Juliol | Des de 1975, entrada lliure |
 
 ---
