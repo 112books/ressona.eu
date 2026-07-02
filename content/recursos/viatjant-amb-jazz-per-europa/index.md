@@ -50,7 +50,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 **JazzMan** · C/ de Roger de Flor 238
 [jazzmanbcn.com](https://jazzmanbcn.com/) — Des de 1979, petit club de l'Eixample. Jazz, soul i blues. Sessions de vinil els dijous.
 
-**Pipa Club** · Plaça Reial 3 — Club privat, ambient íntim. Gypsy jazz i swing els dijous.
+**[Pipa Club](https://pipaclub.es/)** · Plaça Reial 3 (2n pis) — Club privat (soci o convidat). Ambient íntim als anys 20. Gypsy jazz i swing els dijous.
 
 ---
 
