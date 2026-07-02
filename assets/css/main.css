@@ -499,7 +499,7 @@ img, svg { display: block; }
 }
 
 .hero-tagline {
-  font-size: clamp(0.75rem, 1.4vw, 0.95rem);
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
   font-weight: 400;
   color: var(--text-dim);
   letter-spacing: 0.35em;
@@ -537,9 +537,9 @@ img, svg { display: block; }
 }
 
 .hero-desc {
-  font-size: clamp(0.95rem, 1.3vw, 1.1rem);
+  font-size: clamp(1.25rem, 2vw, 1.45rem);
   font-weight: 300;
-  color: var(--text-faint);
+  color: rgba(217, 208, 213, 0.8);
   max-width: 560px;
   margin: 0 auto;
   line-height: 1.8;

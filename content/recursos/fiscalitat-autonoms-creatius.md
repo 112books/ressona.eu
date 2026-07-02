@@ -136,7 +136,7 @@ Per reduir el rendiment net i pagar menys impostos, pots deduir les despeses nec
 <h3>La identitat professional desgrava</h3>
 <p>Web, sessions de fotos de premsa, disseny gràfic, impressió de materials, allotjament web, gestió de xarxes... tot el que construeix la teva presència professional és una despesa d'activitat econòmica i, per tant, deduïble com a autònom.</p>
 <p>Dit d'una altra manera: si inverteixes 600€ en una sessió de fotos per als teus materials de premsa, el cost real és menys del que sembla —l'estalvi fiscal del teu tram se'n fa càrrec de la diferència.</p>
-<p>A <a href="https://pocallum.cat">Pocallum</a> treballen amb artistes en fotografia professional, identitat visual, disseny gràfic i impressió (cartells, díptics, material de sala). Des de <a href="https://linuxbcn.com">LinuxBCN</a> ofereixen webs, automatitzacions i eines digitals a mida. Totes dues emeten factura correcta —deduïble en la seva totalitat per a autònoms.</p>
+<p>Ressona treballa amb <a href="https://pocallum.cat">Pocallum</a> per a fotografia professional, identitat visual, disseny gràfic i impressió (cartells, díptics, material de sala), i amb <a href="https://linuxbcn.com">LinuxBCN</a> per a webs, automatitzacions i eines digitals a mida. Totes dues emeten factura correcta —deduïble en la seva totalitat per a autònoms.</p>
 </div>
 
 **La regla d'or:** guarda totes les factures. Una despesa sense factura no és deduïble. Un tiquet de caixa sense NIF al nom no és vàlid per a Hisenda. Organitza les factures per trimestres des del primer dia.
