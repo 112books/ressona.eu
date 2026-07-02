@@ -31,8 +31,9 @@ jobs:
 
           fetch_json() {
             local url="$1"
+            local timeout="${2:-15}"
             local result
-            result=$(curl -s --max-time 15 --retry 2 -H "${AUTH}" "${url}" 2>/dev/null) || true
+            result=$(curl -s --max-time "${timeout}" --retry 2 -H "${AUTH}" "${url}" 2>/dev/null) || true
             if echo "${result}" | python3 -c "import sys,json; json.load(sys.stdin)" 2>/dev/null; then
               echo "${result}"
             else
@@ -40,7 +41,7 @@ jobs:
             fi
           }
 
-          fetch_json "${BASE}/stats/hits?start=${START}&end=${END}&limit=100"     > /tmp/hits.json
+          fetch_json "${BASE}/stats/hits?start=${START}&end=${END}&limit=100" 40  > /tmp/hits.json
           fetch_json "${BASE}/stats/total?start=${START}&end=${END}"              > /tmp/total.json
           fetch_json "${BASE}/stats/browsers?start=${START}&end=${END}&limit=10"  > /tmp/browsers.json
           fetch_json "${BASE}/stats/systems?start=${START}&end=${END}&limit=10"   > /tmp/systems.json
