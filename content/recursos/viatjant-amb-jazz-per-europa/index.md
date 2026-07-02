@@ -517,7 +517,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 | [Nice Jazz Festival](https://www.nicejazzfestival.fr/) | França | 23–26 Jul | Jazz a la plaça |
 | [Marciac Jazz Festival](https://www.jazz-in-marciac.com/) | França | 20 Jul–5 Ago | Poble de 1.200 hab, 250.000 visitants |
 | [Ystad Sweden Jazz](https://www.ystadsjazz.com/) | Suècia | 29 Jul–2 Ago | Esglésies medievals i castells |
-| Festival de Jazz de Cadis | Espanya | 21–26 Jul | Jazz, vistes al mar |
+| [Festival de Jazz de Cadis](https://www.festivaljazzcadiz.com) | Espanya | 21–26 Jul | Jazz, vistes al mar |
 | [Tanjazz](https://www.tanjazz.org/) | Marroc (Tànger) | 18–20 Set | Jazz, sons mediterranis, medina |
 | Festival de Jazz de Granada | Espanya | Novembre | Jazz, +80 concerts |
 | [JAZZMADRID](https://www.jazzmadrid.com/) | Espanya | Novembre | Jazz internacional, tots els clubs |
