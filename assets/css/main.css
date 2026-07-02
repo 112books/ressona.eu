@@ -2163,6 +2163,25 @@ img, svg { display: block; }
   margin: 0 0 10px;
 }
 
+.resource-callout {
+  background: rgba(253, 191, 104, 0.07);
+  border-left: 3px solid #fdbf68;
+  border-radius: 0 6px 6px 0;
+  padding: 20px 24px;
+  margin: 32px 0;
+}
+.resource-callout h3 {
+  color: #fdbf68;
+  font-family: 'Syne', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.resource-callout p { margin: 0 0 8px; }
+.resource-callout p:last-child { margin-bottom: 0; }
+
 .resource-steps {
   margin: 28px 0;
   display: flex;

@@ -130,9 +130,25 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 
 ---
 
+### Festivals a Catalunya
+
+**Voll-Damm Festival Internacional de Jazz de Barcelona (ViJazz)**
+[voll-dammfestivaldejazz.com](https://www.voll-dammfestivaldejazz.com/) — Novembre. Fundat el 1966, un dels festivals de jazz més antics del món. Palau de la Música Catalana, Barts, Apolo, Luz de Gas i altres sales de la ciutat. +100 concerts en dues setmanes. Estreles internacionals i artistes emergents del jazz mundial. **Per a músics en gira: el moment en que Barcelona concentra la major densitat de professionals del sector.**
+
+**Festival de Jazz de Terrassa**
+[jazzterrassa.org](https://www.jazzterrassa.org/) — Març. Des de 1980, un dels festivals de referència de l'escena catalana. +30 concerts en deu dies. Nova Jazz Cava com a epicentre, amb programació als carrers i espais singulars de la ciutat.
+
+**Festival de Jazz de Girona**
+[jazzgirona.cat](https://jazzgirona.cat/) — Estiu. Jazz al Barri Vell, concerts als patis i esglésies romàniques. Entrada gratuïta a la majoria dels concerts.
+
+**Festival Internacional de Jazz de Getxo**
+[jazzdegetxo.com](https://www.jazzdegetxo.com/) — Juliol. Des de 1975, un dels veterans de l'estat. Al port de Getxo, entrada lliure.
+
+---
+
 ### Terrassa
 
-**Nova Jazz Cava** · Passatge Tete Montoliu 24 — +30 anys. Bebop i hard bop de dimarts a diumenge. Al març: Festival de Jazz de Terrassa (+30 concerts).
+**Nova Jazz Cava** · Passatge Tete Montoliu 24 — +30 anys. Bebop i hard bop de dimarts a diumenge. Epicentre del Festival de Jazz de Terrassa cada març.
 
 ### Gijón
 
@@ -487,6 +503,9 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 | [Tanjazz](https://www.tanjazz.org/) | Marroc (Tànger) | 18–20 Set | Jazz, sons mediterranis, medina |
 | Festival de Jazz de Granada | Espanya | Novembre | Jazz, +80 concerts |
 | [JAZZMADRID](https://www.jazzmadrid.com/) | Espanya | Novembre | Jazz internacional, tots els clubs |
+| [Voll-Damm Festival Internacional de Jazz de Barcelona (ViJazz)](https://www.voll-dammfestivaldejazz.com/) | Espanya (Barcelona) | Novembre | +100 concerts, Palau de la Música + sales |
+| [Festival de Jazz de Terrassa](https://www.jazzterrassa.org/) | Espanya (Catalunya) | Març | Des de 1980, +30 concerts |
+| [Festival Internacional de Jazz de Getxo](https://www.jazzdegetxo.com/) | Espanya (Getxo) | Juliol | Des de 1975, entrada lliure |
 
 ---
 
@@ -501,7 +520,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 - Donostia: Be Bop (nits de festival i caps de setmana)
 
 **Consells per a músics en gira:**
-1. **Porta materials digitals**: EPK en PDF, àudio/vídeo accessible des del mòbil. Molts clubs programen a última hora per cobrir baixes.
+1. **Porta materials digitals**: EPK en PDF, àudio/vídeo accessible des del mòbil. Molts clubs programen a última hora per cobrir baixes. Si no tens web professional, el [Starter Pack de Ressona](/comenca/) et posa en marxa en 48 hores.
 2. **Arriba d'hora a la jam session**: els primers que toquen solen ser els millors situats per a una conversa amb el programador.
 3. **Xarxes locals**: cada escena té grups de Facebook o fòrums específics. Busca "jazz musicians [city]" + les xarxes de les associacions locals (Assejazz a Sevilla, Bilbaina Jazz Club a Bilbao).
 4. **Temporada alta**: juny-agost pels festivals; setembre-novembre per als clubs. L'estiu és el moment per als festivals, la tardor per als clubs.

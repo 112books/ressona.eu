@@ -268,6 +268,7 @@ Peña activa amb programació regular de concerts, classes i activitats flamenqu
 | [Festival de las Minas](https://www.festivaldelasminas.es/) | La Unión, Múrcia | Agost | festivaldelasminas.es |
 | [Festival Flamenco de Nimes](https://www.flamenco-nimes.com/) | Nimes, França | Gener | flamenco-nimes.com |
 | [Festival Flamenco de Mont-de-Marsan](https://www.flamencomont.com/) | Mont-de-Marsan, França | Juliol | flamencomont.com |
+| Festival de Flamenco de Nou Barris | Barcelona (Nou Barris) | Primavera | — |
 | Festival de Flamenco de Londres | Londres, Regne Unit | Variable | — |
 | Festival de Flamenco de Barcelona | Barcelona | Variable | — |
 
@@ -278,3 +279,5 @@ Peña activa amb programació regular de concerts, classes i activitats flamenqu
 Tablaos, peñas i festivals de flamenc a Espanya i Europa. Fes clic a qualsevol marcador per veure el nom, adreça i web.
 
 <iframe src="mapa-flamenc-europa.html" width="100%" height="540" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;" title="Mapa de flamenc per Europa" loading="lazy"></iframe>
+
+*Coneixes un tablao, peña o festival que no hi és? Envia'ns les dades a [hola@ressona.eu](mailto:hola@ressona.eu) i l'afegim.*
