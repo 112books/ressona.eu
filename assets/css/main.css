@@ -2535,6 +2535,45 @@ img, svg { display: block; }
   line-height: 1.75;
 }
 
+/* Exemple de web */
+.starter-example {
+  margin: 32px 0;
+}
+.starter-example__link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 24px;
+  background: rgba(253, 191, 104, 0.07);
+  border: 1px solid rgba(253, 191, 104, 0.25);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+.starter-example__link:hover {
+  background: rgba(253, 191, 104, 0.13);
+  border-color: rgba(253, 191, 104, 0.5);
+}
+.starter-example__label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #fdbf68;
+  white-space: nowrap;
+}
+.starter-example__name {
+  flex: 1;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+.starter-example__cta {
+  font-size: 0.85rem;
+  color: #fdbf68;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 /* Inclou / No inclou */
 .starter-cols {
   display: grid;
