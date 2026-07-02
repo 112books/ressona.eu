@@ -103,9 +103,11 @@ footer_linuxbcn: "Powered by: <a href=\"https://linuxbcn.com\" target=\"_blank\"
 footer_link_legal_notice: /legal/avis-legal
 footer_link_privacy: /legal/privacitat
 footer_link_cookies: /legal/cookies
+footer_link_accessibility: /legal/accessibilitat
 footer_legal_notice: Avís legal
 footer_privacy: Privacitat
 footer_cookies: Galetes
+footer_accessibility: Accessibilitat
 
 srv_more: "Saber-ne més →"
 srv_visual_url: "/serveis/identitat-visual/"

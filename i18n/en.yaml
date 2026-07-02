@@ -103,9 +103,11 @@ footer_linuxbcn: "Powered by: <a href=\"https://linuxbcn.com\" target=\"_blank\"
 footer_link_legal_notice: /en/legal/legal-notice
 footer_link_privacy: /en/legal/privacy
 footer_link_cookies: /en/legal/cookies
+footer_link_accessibility: /en/legal/accessibility
 footer_legal_notice: Legal notice
 footer_privacy: Privacy
 footer_cookies: Cookies
+footer_accessibility: Accessibility
 
 srv_more: "Learn more →"
 srv_visual_url: "/en/services/visual-identity/"
