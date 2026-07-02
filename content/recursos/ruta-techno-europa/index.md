@@ -2,7 +2,7 @@
 title: "Ruta Techno per Europa: festivals imprescindibles i clubs de referència"
 description: "Del Berghain al Sonar, del Dekmantel al Time Warp. Una guia per a aficionats que volen seguir el circuit i per a artistes electrònics que volen entendre l'escena des de dins."
 date: 2026-07-02
-tags: ["techno", "música electrònica", "electrònica", "viatges", "música en viu", "festivals", "on tocar", "clubs", "underground"]
+tags: ["techno", "música-electrònica", "electrònica", "viatges", "música-en-viu", "festivals", "on-tocar", "clubs", "underground"]
 category: on-tocar
 featured: true
 ---

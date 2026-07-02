@@ -2,7 +2,7 @@
 title: "Guia del rock dur europeu: venues, festivals i escenes"
 description: "De Led Zeppelin a Sangtraït, de Wacken a Rock Fest Barcelona. Clubs, festivals i escenes de hard rock, heavy metal i punk per Catalunya, Espanya i Europa. Per a aficionats i per a músics en gira."
 date: 2026-07-03
-tags: ["rock", "heavy metal", "punk", "hard rock", "música en viu", "festivals", "on tocar", "clubs", "gira"]
+tags: ["rock", "heavy-metal", "punk", "hard-rock", "música-en-viu", "festivals", "on-tocar", "clubs", "gira"]
 category: on-tocar
 featured: true
 ---

@@ -26,9 +26,14 @@ enableRobotsTXT = true
 [markup.goldmark.renderer]
   unsafe = true
 
+[taxonomies]
+  tag = "tags"
+
 [outputs]
-  home = ["HTML", "JSON"]
-  section = ["HTML", "JSON"]
+  home     = ["HTML", "JSON"]
+  section  = ["HTML", "JSON"]
+  taxonomy = ["HTML"]
+  term     = ["HTML"]
 
 [build]
   writeStats = false

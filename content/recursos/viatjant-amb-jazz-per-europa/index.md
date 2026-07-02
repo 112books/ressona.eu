@@ -2,7 +2,7 @@
 title: "Viatjant amb jazz per Europa"
 description: "Des de Barcelona fins a Copenhaguen: clubs, festivals i jam sessions de jazz i blues per a músics en gira i aficionats. Guia completa per país i per ciutat."
 date: 2026-07-01
-tags: ["jazz", "blues", "viatges", "música en viu", "festivals", "gira", "on tocar", "clubs"]
+tags: ["jazz", "blues", "viatges", "música-en-viu", "festivals", "gira", "on-tocar", "clubs"]
 category: on-tocar
 featured: true
 ---
