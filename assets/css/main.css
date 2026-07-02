@@ -1394,6 +1394,14 @@ img, svg { display: block; }
   color: var(--text-subtle);
 }
 
+.footer-legal .footer-credits:first-of-type {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(192, 169, 179, 0.12);
+  width: 100%;
+  text-align: right;
+}
+
 /* LEGAL PAGES */
 .section--legal {
   padding: 160px 48px 120px;
@@ -1414,7 +1422,7 @@ img, svg { display: block; }
 
 .legal-body {
   font-size: 0.85rem;
-  color: var(--text-dim);
+  color: var(--text);
   line-height: 1.8;
 }
 
