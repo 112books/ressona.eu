@@ -121,7 +121,7 @@ The **Heineken Jazzaldia** in San Sebastián (July, since 1966) is one of the be
 
 Jazz clubs and festivals on the European route. Festivals (gold) · Clubs (blue) · Click for details and links.
 
-<iframe src="/recursos/ruta-jazz-europa/mapa-jazz-ruta.html" width="100%" height="540" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;" title="Jazz route map across Europe" loading="lazy"></iframe>
+<iframe src="/recursos/ruta-jazz-europa/mapa-jazz-ruta.html" width="100%" height="380" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;max-height:60vh;" title="Jazz route map across Europe" loading="lazy"></iframe>
 
 *Know a club or festival we've missed? Write to us at [hola@ressona.eu](mailto:hola@ressona.eu) and we'll add it.*
 

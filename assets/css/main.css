@@ -2275,7 +2275,7 @@ img, svg { display: block; }
 }
 .recursos-hub__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
   gap: 20px;
 }
 .recursos-card {
@@ -2465,9 +2465,14 @@ img, svg { display: block; }
   text-decoration: none;
   transition: border-color 0.2s, color 0.2s;
 }
-.article-tag:hover {
+.article-tag:hover,
+.article-tag:focus-visible {
   border-color: var(--gold);
   color: var(--gold);
+  outline: none;
+}
+.article-tag {
+  word-break: break-word;
 }
 
 /* Tag cloud (taxonomy page) */

@@ -170,7 +170,7 @@ A dance festival in the streets and public spaces of the Basque Country. Perform
 
 Dance festivals across Europe. Click any marker to see the name, location and website.
 
-<iframe src="/recursos/festivals-dansa-europa/mapa-dansa-europa.html" width="100%" height="540" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;" title="Map of dance festivals across Europe" loading="lazy"></iframe>
+<iframe src="/recursos/festivals-dansa-europa/mapa-dansa-europa.html" width="100%" height="380" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;max-height:60vh;" title="Map of dance festivals across Europe" loading="lazy"></iframe>
 
 *Do you know a dance festival that's missing? Send us the details at [hola@ressona.eu](mailto:hola@ressona.eu) and we'll add it.*
 

@@ -22,8 +22,8 @@ For enthusiasts: you'll find the venues that define each city's scene, the festi
 <iframe
   src="/recursos/viatjant-amb-jazz-per-europa/mapa-jazz-europa.html"
   width="100%"
-  height="540"
-  style="border:none;border-radius:4px;margin:24px 0 8px;"
+  height="380"
+  style="border:none;border-radius:4px;margin:24px 0 8px;max-height:60vh;"
   title="Map of jazz clubs and festivals across Europe"
   loading="lazy"
 ></iframe>

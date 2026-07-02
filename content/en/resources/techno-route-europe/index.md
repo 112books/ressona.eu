@@ -18,8 +18,8 @@ This guide is for both. The thread is not the genre in the abstract — techno i
 <iframe
   src="/recursos/ruta-techno-europa/mapa-techno-europa.html"
   width="100%"
-  height="540"
-  style="border:none;border-radius:4px;margin:24px 0 8px;"
+  height="380"
+  style="border:none;border-radius:4px;margin:24px 0 8px;max-height:60vh;"
   title="Map of techno festivals and electronic clubs across Europe"
   loading="lazy"
 ></iframe>

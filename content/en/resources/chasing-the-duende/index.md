@@ -280,7 +280,7 @@ Active peña with a regular programme of concerts, classes and flamenco activiti
 
 Tablaos, peñas and flamenco festivals in Spain and Europe. Click any marker to see the name, address and website.
 
-<iframe src="/recursos/perseguint-el-duende/mapa-flamenc-europa.html" width="100%" height="540" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;" title="Flamenco map across Europe" loading="lazy"></iframe>
+<iframe src="/recursos/perseguint-el-duende/mapa-flamenc-europa.html" width="100%" height="380" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;max-height:60vh;" title="Flamenco map across Europe" loading="lazy"></iframe>
 
 *Do you know a tablao, peña or festival that isn't listed? Send us the details at [hola@ressona.eu](mailto:hola@ressona.eu) and we'll add it.*
 

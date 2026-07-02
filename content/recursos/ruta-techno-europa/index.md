@@ -18,8 +18,8 @@ Aquesta guia és per als dos. El fil conductor no és el gènere en abstracte �
 <iframe
   src="mapa-techno-europa.html"
   width="100%"
-  height="540"
-  style="border:none;border-radius:4px;margin:24px 0 8px;"
+  height="380"
+  style="border:none;border-radius:4px;margin:24px 0 8px;max-height:60vh;"
   title="Mapa de festivals de techno i clubs electrònics per Europa"
   loading="lazy"
 ></iframe>

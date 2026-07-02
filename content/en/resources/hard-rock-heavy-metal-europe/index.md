@@ -17,8 +17,8 @@ This guide covers both perspectives. From the cradle of hard rock — Birmingham
 <iframe
   src="/recursos/guia_rock_dur/mapa-rock-dur-europa.html"
   width="100%"
-  height="540"
-  style="border:none;border-radius:4px;margin:24px 0 8px;"
+  height="380"
+  style="border:none;border-radius:4px;margin:24px 0 8px;max-height:60vh;"
   title="Map of hard rock festivals and clubs across Europe"
   loading="lazy"
 ></iframe>

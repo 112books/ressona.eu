@@ -185,7 +185,7 @@
   {{ partial "search.html" . }}
   {{ if not (or (eq .RelPermalink "/comenca/") (eq .RelPermalink "/en/start/")) }}
   <div id="debut-popup" class="debut-popup" role="complementary" aria-label="{{ if eq .Language.Lang "en" }}Web Debut offer{{ else }}Oferta Web de debut{{ end }}">
-    <button id="debut-close" class="debut-popup__close" aria-label="{{ if eq .Language.Lang "en" }}Close{{ else }}Tancar{{ end }}">×</button>
+    <button id="debut-close" class="debut-popup__close" aria-label="{{ if eq .Language.Lang "en" }}Close{{ else }}Tancar{{ end }}"><span aria-hidden="true">×</span></button>
     <p class="debut-popup__kicker">{{ if eq .Language.Lang "en" }}New{{ else }}Nou{{ end }}</p>
     <strong class="debut-popup__title">{{ if eq .Language.Lang "en" }}Debut website{{ else }}Web de debut{{ end }}</strong>
     {{ if eq .Language.Lang "en" }}

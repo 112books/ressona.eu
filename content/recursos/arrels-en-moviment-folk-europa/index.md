@@ -192,7 +192,7 @@ El Sziget Festival —un dels festivals multitudinaris més grans d'Europa, cada
 
 Festivals i sales de folk i música tradicional per Europa. Fes clic a qualsevol marcador per veure el nom, ubicació i web.
 
-<iframe src="mapa-folk-europa.html" width="100%" height="540" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;" title="Mapa de folk i música tradicional per Europa" loading="lazy"></iframe>
+<iframe src="mapa-folk-europa.html" width="100%" height="380" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;max-height:60vh;" title="Mapa de folk i música tradicional per Europa" loading="lazy"></iframe>
 
 *Coneixes un festival, venue o cicle de folk que no hi és? Envia'ns les dades a [hola@ressona.eu](mailto:hola@ressona.eu) i l'afegim.*
 
