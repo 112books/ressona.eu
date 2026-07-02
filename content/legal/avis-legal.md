@@ -6,7 +6,13 @@ slug: "avis-legal"
 
 **Titular del lloc web**
 
-Ressona és una marca de LinuxBCN.
+En compliment de la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i Comerç Electrònic (LSSI-CE), s'informa:
+
+- **Titular:** Juan Martínez i Serres
+- **NIF:** 38121766W
+- **Marca comercial:** Ressona (LinuxBCN)
+- **Adreça:** Nau Bostik, Carrer Ferran Turné 1-11, 08027 Barcelona
+- **Correu electrònic:** hola@ressona.eu
 
 **Propietat intel·lectual**
 
@@ -18,4 +24,4 @@ Ressona no es fa responsable dels danys o perjudicis derivats de l'ús dels cont
 
 **Llei aplicable**
 
-Aquest avís legal es regeix per la legislació espanyola.
+Aquest avís legal es regeix per la legislació espanyola. Per a qualsevol controvèrsia, les parts se sotmeten als jutjats i tribunals de Barcelona.

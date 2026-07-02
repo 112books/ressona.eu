@@ -6,7 +6,13 @@ slug: "legal-notice"
 
 **Website owner**
 
-Ressona is a brand of LinuxBCN.
+In compliance with Spanish Law 34/2002 on Information Society Services (LSSI-CE):
+
+- **Owner:** Juan Martínez i Serres
+- **Tax ID (NIF):** 38121766W
+- **Trade name:** Ressona (LinuxBCN)
+- **Address:** Nau Bostik, Carrer Ferran Turné 1-11, 08027 Barcelona
+- **Email:** hola@ressona.eu
 
 **Intellectual property**
 
@@ -18,4 +24,4 @@ Ressona is not liable for damages arising from the use of this website's content
 
 **Applicable law**
 
-This legal notice is governed by Spanish law.
+This legal notice is governed by Spanish law. For any dispute, the parties submit to the courts of Barcelona.
