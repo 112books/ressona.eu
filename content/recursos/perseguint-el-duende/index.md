@@ -1,6 +1,6 @@
 ---
 title: "Perseguint el Duende"
-description: "Guia completa de tablaos, peñas i festivals de flamenc per ciutat. El flamenc no només es balla i es canta: es viu, es respira i es comparteix en espais que porten dècades transmetent aquesta emoció."
+description: "Des dels tablaos de Barcelona fins a les peñas de Jerez i els festivals de tota Europa: guia completa de flamenc per a qui vol viure'l de primera mà."
 date: 2026-07-01
 tags: ["flamenc", "duende", "viatges", "cultura", "música-en-viu"]
 category: on-tocar
@@ -8,7 +8,7 @@ category: on-tocar
 
 El flamenc no és només un estil musical: és una manera de sentir. Lorca en deia "duende", aquella emoció profunda que neix de la terra i esclata en el cos del cantaor, del guitarrista, del bailaor. Perseguint el duende és viatjar als llocs on el flamenc encara és viu, on les parets han absorbit segles de soleà, buleria i seguiriya.
 
-Aquí tens una guia per descobrir el millor del flamenc per ciutat, des dels tablaos barcelonins fins a les peñas más autèntiques de Jerez, passant per festivals que converteixen carrers i places en escenaris de passions desfermades.
+Aquí tens una guia per descobrir el millor del flamenc per ciutat. El punt de partida és **Barcelona**: quatre tablaos, quatre peñas i festivals propis —el Flamenco de Barrio a Nou Barris, el Ciutat Flamenco al Taller de Músics, el Festival de Nou Barris— que fan de la ciutat un epicentre flamenc molt més viu del que sembla. Des d'aquí, la ruta s'estén fins a les peñas más autèntiques de Jerez, els palaus andalusos de Sevilla i els festivals que converteixen carrers i places en escenaris de passions desfermades.
 
 ## Tablaos i peñas per ciutat
 

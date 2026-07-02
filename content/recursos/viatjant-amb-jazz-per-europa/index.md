@@ -1,6 +1,6 @@
 ---
 title: "Viatjant amb jazz per Europa"
-description: "Clubs, festivals i jam sessions de jazz i blues per a músics en gira i aficionats que volen viure la música en directe. Guia completa per país i per ciutat."
+description: "Des de Barcelona fins a Copenhaguen: clubs, festivals i jam sessions de jazz i blues per a músics en gira i aficionats. Guia completa per país i per ciutat."
 date: 2026-07-01
 tags: ["jazz", "blues", "viatges", "música en viu", "festivals", "gira", "on tocar", "clubs"]
 category: on-tocar
@@ -9,7 +9,7 @@ featured: true
 
 Hi ha dues maneres de viatjar amb jazz. La del **músic** que busca on tocar, on connectar amb escenes locals, on trobar la jam session del dijous per mantenir-se en forma i pagar la pensió. I la de l'**aficionat** que organitza les vacances al voltant d'un festival, que busca aquell club íntim que surti a les llistes de millors d'Europa, que vol arribar a una nova ciutat i tenir un pla per al vespre.
 
-Aquesta guia és per als dos.
+Aquesta guia és per als dos. El punt de partida és **Barcelona i Catalunya** —amb el Jamboree, el JazzSí, el Voll-Damm Festival, el Jazz I Am, el VijazZ de Vilafranca i una escena de festivals de blues i harmònica que no té equivalent a l'estat— i des d'aquí s'estén cap a la resta d'Europa.
 
 Per als músics: trobareu clubs que programen regularment, festivals que accepten propostes espontànies, i jam sessions obertes on presentar-vos i tocar. Europa és un circuit real: milers de músics el recorren cada any al rebuf del món del jazz. Amb la xarxa adequada, es pot viure.
 
@@ -477,7 +477,7 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 ---
 
 <details>
-<summary><strong>🇪🇪 Estònia</strong> — Tallin</summary>
+<summary><strong>Estònia</strong> — Tallin</summary>
 
 **Philly Joe's Jazz Club** · Vabaduse väljak 10
 [phillyjoes.ee](https://www.phillyjoes.ee/) — L'incubador del jazz estonià. Concerts, classes magistrals, tallers, cinema musical. Només sonen vinils; els músics tenen plena llibertat creativa.
