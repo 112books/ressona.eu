@@ -118,8 +118,8 @@ Els articles de recursos sempre són **contingut de captació**: informació út
 Regles per als articles:
 - Aportar **informació genuïnament útil** — no vendre directament
 - **No explicar-ho tot**: el contingut ha d'atraure, no substituir la consulta
-- Quan sigui natural, **recomanar les filials en tercera persona** (p. ex. "a Pocallum treballen amb artistes", "des de LinuxBCN ofereixen solucions a mida")
-- Mai en primera persona col·lectiva quan es parla de les filials ("fem", "treballem") — sempre tercera persona o "a Ressona"
+- Quan sigui natural, **recomanar les filials sempre com "Ressona treballa amb…"** (p. ex. "Ressona treballa amb Pocallum per a fotografia i identitat visual", "Ressona treballa amb LinuxBCN per a la infraestructura digital"). **MAI** com "A Pocallum treballen…" o "Des de LinuxBCN ofereixen…" — les filials no parlen soles, Ressona les coordina.
+- Mai en primera persona col·lectiva quan es parla de les filials ("fem", "treballem") — la veu és sempre "Ressona" com a marca integradora
 - Les CTAs al final d'article redirigeixen al formulari de contacte (`/en/#contacte` o `/#contacte`)
 
 ## Regles
