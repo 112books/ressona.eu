@@ -11,13 +11,9 @@ Ressona s'ha compromès a fer el seu lloc web accessible, de conformitat amb les
 
 Aquesta declaració s'aplica a **ressona.eu**.
 
----
-
 ## Estat de conformitat
 
 El lloc web ressona.eu **és parcialment conforme** amb WCAG 2.1, nivell AA. Parcialment conforme significa que algunes parts del contingut no compleixen plenament la norma d'accessibilitat.
-
----
 
 ## Mesures tècniques implementades
 
@@ -60,20 +56,14 @@ El lloc web ressona.eu **és parcialment conforme** amb WCAG 2.1, nivell AA. Par
 - `robots.txt` configurat
 - `humans.txt` disponible a `/humans.txt`
 
----
-
 ## Contingut no accessible
 
 - Alguns **mapes interactius** en iframe (Leaflet) no són plenament navegables per teclat ni per lectors de pantalla. Es recomana consultar la informació de cada lloc als llistats de text que acompanyen cada mapa.
 - Els **vídeos externs** incrustats de tercers (si n'hi ha) podrien no tenir subtítols complets.
 
----
-
 ## Preparació d'aquesta declaració
 
 Aquesta declaració es va preparar el **2 de juliol de 2026** mitjançant una avaluació interna del lloc web.
-
----
 
 ## Contacte i reclamacions
 

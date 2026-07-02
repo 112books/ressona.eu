@@ -11,13 +11,9 @@ Ressona is committed to making its website accessible, in accordance with the We
 
 This statement applies to **ressona.eu**.
 
----
-
 ## Conformance status
 
 ressona.eu is **partially conformant** with WCAG 2.1, level AA. Partially conformant means that some parts of the content do not fully conform to the accessibility standard.
-
----
 
 ## Technical measures implemented
 
@@ -60,20 +56,14 @@ ressona.eu is **partially conformant** with WCAG 2.1, level AA. Partially confor
 - `robots.txt` configured
 - `humans.txt` available at `/humans.txt`
 
----
-
 ## Non-accessible content
 
 - Some **interactive maps** in iframe (Leaflet) are not fully navigable by keyboard or screen readers. We recommend consulting the text listings that accompany each map.
 - **Embedded third-party videos** (if any) may not have complete captions.
 
----
-
 ## Preparation of this statement
 
 This statement was prepared on **2 July 2026** through an internal evaluation of the website.
-
----
 
 ## Contact and complaints
 

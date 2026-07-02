@@ -1398,8 +1398,6 @@ img, svg { display: block; }
   margin-top: 12px;
   padding-top: 12px;
   border-top: 1px solid rgba(192, 169, 179, 0.12);
-  width: 100%;
-  text-align: right;
 }
 
 /* LEGAL PAGES */
