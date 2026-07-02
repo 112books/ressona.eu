@@ -385,7 +385,10 @@
       <h2 class="section-title">articles de recursos EN — tots</h2>
       <div id="recursos-en-wrap" class="bars"></div>
 
-      <h2 class="section-title">funnel home → serveis</h2>
+      <h2 class="section-title">promo web debut — /comenca/</h2>
+      <div id="promo-wrap"></div>
+
+      <h2 class="section-title">funnel home → serveis → debut</h2>
       <div id="funnel-wrap"></div>
 
       <h2 class="section-title">origen del trànsit</h2>
@@ -518,6 +521,7 @@ function renderAll(data) {
   renderSections(data);
   renderPages(data);
   renderRecursos(data);
+  renderPromo(data);
   renderFunnel(data);
   renderOrigin(data);
   renderRefs(data);
@@ -843,24 +847,79 @@ function renderFunnel(data) {
     return;
   }
 
+  const comenzaCount = hits.filter(h => /^\/(comenca|en\/start)\/?$/.test(h.path)).reduce((s,h) => s+h.count, 0);
+
+  if (!homeCount && !serveisCount && !comenzaCount) {
+    el.innerHTML = '<span class="empty">sense dades de funnel encara</span>';
+    return;
+  }
+
   const rows = [
-    { label: 'Home (/)',         count: homeCount,    pct: Math.round(homeCount/total*100) },
-    { label: 'Seccions (#hash)', count: sectionCount, pct: Math.round(sectionCount/total*100) },
-    { label: 'Serveis',          count: serveisCount, pct: Math.round(serveisCount/total*100) },
+    { label: 'Home (/)',              count: homeCount,     pct: Math.round(homeCount/total*100),     cls: 'ink2' },
+    { label: 'Seccions (#hash)',      count: sectionCount,  pct: Math.round(sectionCount/total*100),  cls: 'ink2' },
+    { label: 'Serveis',               count: serveisCount,  pct: Math.round(serveisCount/total*100),  cls: 'ink2' },
+    { label: 'Debut web (/comenca/)', count: comenzaCount,  pct: Math.round(comenzaCount/total*100),  cls: 'gold' },
   ];
   el.innerHTML = rows.map(r =>
     '<div class="bar-row">' +
     '<div class="bar-label">' + r.label + '</div>' +
-    '<div class="bar-track"><div class="bar-fill ink2" style="width:' + r.pct + '%">' +
+    '<div class="bar-track"><div class="bar-fill ' + r.cls + '" style="width:' + Math.max(r.pct, r.count > 0 ? 1 : 0) + '%">' +
     (r.pct > 8 ? '<span class="bar-pct">' + r.pct + '%</span>' : '') + '</div></div>' +
     '<div class="bar-count">' + fmt(r.count) + '</div>' +
     '</div>'
   ).join('');
 
+  const notes = [];
   if (serveisCount > 0 && homeCount > 0) {
-    const ratio = Math.round(serveisCount/homeCount*100);
-    el.innerHTML += '<div class="funnel-note">De cada 100 visites a la home, <strong>' + ratio + '</strong> acaben a una pàgina de servei.</div>';
+    notes.push('De cada 100 visites a la home, <strong>' + Math.round(serveisCount/homeCount*100) + '</strong> arriben a un servei.');
   }
+  if (comenzaCount > 0 && homeCount > 0) {
+    notes.push('<strong>' + Math.round(comenzaCount/homeCount*100) + '%</strong> de la home acaba a /comenca/ (intent de contractació).');
+  }
+  if (notes.length) el.innerHTML += '<div class="funnel-note">' + notes.join(' ') + '</div>';
+}
+
+/* ══ PROMO WEB DEBUT ════════════════════════════════════════ */
+function renderPromo(data) {
+  const el = document.getElementById('promo-wrap');
+  if (!el) return;
+  const hits  = data.hits || [];
+  const hbd   = data.hits_by_day || [];
+  const total = data.total || 1;
+
+  const caCount = hits.filter(h => /^\/comenca\/?$/.test(h.path)).reduce((s,h) => s+h.count, 0);
+  const enCount = hits.filter(h => /^\/en\/start\/?$/.test(h.path)).reduce((s,h) => s+h.count, 0);
+  const combined = caCount + enCount;
+
+  const today   = isoToday();
+  const hbd7    = hbd.filter(d => d.date >= daysAgo(7));
+  const hbd7p   = hbd.filter(d => d.date >= daysAgo(14) && d.date < daysAgo(7));
+
+  /* visites diàries /comenca/ via hits_by_day no les tenim desagregades per pàgina
+     (GoatCounter agrega tot), però podem mostrar les totals del període */
+  const pctTotal = combined ? Math.round(combined / total * 100) : 0;
+
+  if (!combined) {
+    el.innerHTML = '<span class="empty">Encara no hi ha visites registrades a /comenca/ ni /en/start/. Les dades apareixeran a la propera sincronització.</span>';
+    return;
+  }
+
+  const rows = [
+    { label: 'CA — /comenca/',   count: caCount,   pct: total > 1 ? Math.round(caCount/total*100)   : 0, href: '/comenca/'   },
+    { label: 'EN — /en/start/',  count: enCount,   pct: total > 1 ? Math.round(enCount/total*100)   : 0, href: '/en/start/'  },
+    { label: 'Total combinat',   count: combined,  pct: pctTotal,                                         href: null          },
+  ];
+
+  el.innerHTML = rows.map(r =>
+    '<div class="bar-row">' +
+    '<div class="bar-label">' + (r.href ? '<a href="' + r.href + '" target="_blank" rel="noopener noreferrer" style="color:inherit">' + r.label + '</a>' : r.label) + '</div>' +
+    '<div class="bar-track"><div class="bar-fill gold" style="width:' + Math.max(r.pct, r.count > 0 ? 2 : 0) + '%">' +
+    (r.pct > 8 ? '<span class="bar-pct">' + r.pct + '%</span>' : '') + '</div></div>' +
+    '<div class="bar-count">' + fmt(r.count) + '</div>' +
+    '</div>'
+  ).join('') +
+  '<div class="funnel-note">El <strong>' + pctTotal + '%</strong> del trànsit total arriba a la pàgina de debut. ' +
+  (caCount > enCount ? 'La versió catalana lidera.' : enCount > caCount ? 'La versió anglesa lidera.' : 'CA i EN empatades.') + '</div>';
 }
 
 /* ══ ORIGEN DEL TRÀNSIT ══════════════════════════════════════ */
