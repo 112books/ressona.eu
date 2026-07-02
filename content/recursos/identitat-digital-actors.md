@@ -37,7 +37,7 @@ El primer que fa qualsevol director o productora quan el teu nom els arriba per 
 
 ### Plataformes de càsting especialitzades
 
-A Catalunya i Espanya s'utilitzen plataformes com Casting.es, LatinCast o Mandy.com per a produccions internacionals. Tenir un perfil actualitzat en almenys una o dues és imprescindible per als actors que busquen feina en audiovisual i publicitat. Però el perfil de càsting **no substitueix** el press kit: té un format molt restringit i no pots controlar com et presents.
+A Catalunya i Espanya s'utilitzen plataformes com [Casting.es](https://www.casting.es/), [LatinCast](https://www.latincast.com/) o [Mandy.com](https://www.mandy.com/) per a produccions internacionals. Tenir un perfil actualitzat en almenys una o dues és imprescindible per als actors que busquen feina en audiovisual i publicitat. Però el perfil de càsting **no substitueix** el press kit: té un format molt restringit i no pots controlar com et presents.
 
 </div>
 

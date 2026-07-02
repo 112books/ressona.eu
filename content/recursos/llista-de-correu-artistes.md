@@ -139,4 +139,4 @@ Totes les eines de newsletter generen un codi embegut (embed) que pots copiar i 
 
 La newsletter és el canal on tens més llibertat de veu. No l'has de fer perfecta: l'has de fer teva.
 
-A Ressona acompanyem artistes a configurar la seva llista de correu des de zero: elecció d'eina, integració al web, primer template i estratègia de continguts. Si vols que ho posem en marxa junts, [escriu-nos](//#contacte).
+A Ressona acompanyem artistes a configurar la seva llista de correu des de zero: elecció d'eina, integració al web, primer template i estratègia de continguts. Si vols que ho posem en marxa junts, [escriu-nos](/#contacte).

@@ -134,7 +134,7 @@ Punts que molts autors no saben:
 
 Per a contractes d'actuació habituals amb cachets moderats, una plantilla ben redactada que tots dos firmeu és suficient. Per a acords amb discogràfiques, plataformes, o cessions de drets importants, invertir en una consulta amb un advocat especialitzat en propietat intel·lectual és una de les millors inversions que pots fer com a músic professional.
 
-A Ressona acompanyem artistes a construir la seva identitat digital i estructura professional. Si tens dubtes sobre com presentar-te al mercat o quins passos donar per professionalitzar la teva carrera, [escriu-nos](//#contacte).
+A Ressona acompanyem artistes a construir la seva identitat digital i estructura professional. Si tens dubtes sobre com presentar-te al mercat o quins passos donar per professionalitzar la teva carrera, [escriu-nos](/#contacte).
 
 ## Articles relacionats
 

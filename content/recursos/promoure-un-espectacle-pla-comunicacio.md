@@ -125,4 +125,4 @@ No t'allarguis més d'una pàgina. Un redactor de cultura rep desenes de notes p
 - **Gestió de xarxes**: Meta Business Suite per a Instagram/Facebook simultani; Buffer o Later per a programació
 - **Web**: una pàgina d'event o un apartat al teu web amb tota la informació centralitzada — la gent ha de poder compartir un sol link
 
-A Ressona acompanyem artistes a construir la infraestructura de comunicació que funciona a llarg termini: web, identitat visual, press kit i estratègia de xarxes. Si tens una estrena pròxima i no saps per on començar, [escriu-nos](//#contacte).
+A Ressona acompanyem artistes a construir la infraestructura de comunicació que funciona a llarg termini: web, identitat visual, press kit i estratègia de xarxes. Si tens una estrena pròxima i no saps per on començar, [escriu-nos](/#contacte).

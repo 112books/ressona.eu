@@ -21,11 +21,11 @@ El flux és:
 
 | Distribuïdor | Model | Comissió | Notes |
 |---|---|---|---|
-| **DistroKid** | Quota anual (~22€/any) | 0% | Il·limitat llançaments, molt popular |
-| **TuneCore** | Per llançament (~10€ àlbum/any) | 0% | Bo per a pocs llançaments |
-| **CD Baby** | Pagament únic (~10€ single) | 9% | Sense quota anual, bo per a pocs llançaments |
-| **Amuse** | Gratuït (pla basic) | 0% o comissió | Pla gratuït amb limitacions |
-| **Bandcamp** | Plataforma pròpia | 10-15% | Venda directa, molt valorat per artistes indie |
+| **[DistroKid](https://distrokid.com/)** | Quota anual (~22€/any) | 0% | Il·limitat llançaments, molt popular |
+| **[TuneCore](https://www.tunecore.com/)** | Per llançament (~10€ àlbum/any) | 0% | Bo per a pocs llançaments |
+| **[CD Baby](https://cdbaby.com/)** | Pagament únic (~10€ single) | 9% | Sense quota anual, bo per a pocs llançaments |
+| **[Amuse](https://www.amuse.io/)** | Gratuït (pla basic) | 0% o comissió | Pla gratuït amb limitacions |
+| **[Bandcamp](https://bandcamp.com/)** | Plataforma pròpia | 10-15% | Venda directa, molt valorat per artistes indie |
 
 Per a la majoria d'artistes independents que llancen regularment, **DistroKid** o **TuneCore** ofereixen la millor relació qualitat-preu.
 
@@ -51,7 +51,7 @@ El streaming paga **royalties mecànics** (per la gravació) però hi ha altres 
 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
 </span>
 <div>
-<h3>SGAE / CEDRO — drets d'autor en comunicació pública</h3>
+<h3><a href="https://www.sgae.es/" target="_blank" rel="noopener noreferrer">SGAE</a> / <a href="https://www.cedro.org/" target="_blank" rel="noopener noreferrer">CEDRO</a> — drets d'autor en comunicació pública</h3>
 <p>Cada vegada que la teva música sona en un bar, restaurant, ràdio, televisió o sala de concerts, genera royalties de comunicació pública. Si ets membre de la SGAE i tens les teves obres registrades, cobres. Si no estàs registrat, perds aquests diners.</p>
 </div>
 </div>
@@ -61,7 +61,7 @@ El streaming paga **royalties mecànics** (per la gravació) però hi ha altres 
 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
 </span>
 <div>
-<h3>AIE — drets dels artistes intèrprets</h3>
+<h3><a href="https://www.aie.es/" target="_blank" rel="noopener noreferrer">AIE</a> — drets dels artistes intèrprets</h3>
 <p>A diferència de la SGAE (que gestiona els drets dels compositors i letristes), l'AIE gestiona els drets dels músics intèrprets. Si toques en una gravació que s'emet per ràdio, TV o streaming, pots tenir dret a cobrar a través de l'AIE.</p>
 </div>
 </div>

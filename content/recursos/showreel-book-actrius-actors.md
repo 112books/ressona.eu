@@ -129,4 +129,4 @@ Les fotos de càsting han de ser netes, actuals i tècnicament correctes. A **Po
 
 El showreel i el book no s'han de fer "quan hi hagi temps i diners". Són documents de treball actius. Un showreel desactualitzat et treu de circuits als quals podries accedir. Un book mal fet és la primera impressió que dona la mesura de com et prens la teva carrera.
 
-A Ressona treballem amb actors i actrius per construir una presència professional coherent: web, bio, materials de presentació i estratègia digital. Si vols revisar com et presentes al mercat, [escriu-nos](//#contacte).
+A Ressona treballem amb actors i actrius per construir una presència professional coherent: web, bio, materials de presentació i estratègia digital. Si vols revisar com et presentes al mercat, [escriu-nos](/#contacte).

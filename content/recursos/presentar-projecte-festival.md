@@ -95,7 +95,7 @@ Sense rider, el programador no pot saber si pot acollir el teu projecte. No és 
 
 ### Historial de bolos i credencials
 
-On has actuat, quan, en quin context. No cal que siguin grans venues: una llista neta que mostri activitat professional consistent i, si és possible, algun nom que el programador reconeixi. Si has estat en circuits reconeguts (Mercat de les Flors, FIRA de Tàrrega, Circostrada), menciona-ho explícitament.
+On has actuat, quan, en quin context. No cal que siguin grans venues: una llista neta que mostri activitat professional consistent i, si és possible, algun nom que el programador reconeixi. Si has estat en circuits reconeguts ([Mercat de les Flors](https://mercatflors.cat/), [FIRA de Tàrrega](https://firatarrega.cat/), [Circostrada](https://www.circostrada.org/)), menciona-ho explícitament.
 
 </div>
 

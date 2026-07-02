@@ -43,8 +43,8 @@ Tots ells busquen la mateixa cosa: informació precisa, accessible i descarregab
 
 Un EPK pot ser senzill. Però ha de tenir, com a mínim:
 
-1. **Fotografies en alta resolució** — descàrrega lliure, llicència d'ús clara, mínim una foto neutra i una d'acció
-2. **Bio en dos formats** — curta (50-80 paraules, per a programes i fitxes) i llarga (200-300 paraules, per a premsa i presentacions)
+1. **[Fotografies en alta resolució](/recursos/fotos-de-premsa/)** — descàrrega lliure, llicència d'ús clara, mínim una foto neutra i una d'acció
+2. **[Bio en dos formats](/recursos/bio-artista/)** — curta (50-80 paraules, per a programes i fitxes) i llarga (200-300 paraules, per a premsa i presentacions)
 3. **Vídeo o àudio recent en streaming** — no per descàrrega, que es pugui veure directament des de la pàgina
 4. **Contacte directe** — un email que algú llegeixi; si tens representació, les dades de l'agent
 5. **URL pròpia, fàcil de recordar i compartir** — no un enllaç de Dropbox ni un Google Drive, una adreça web neta

@@ -75,4 +75,4 @@ La identitat visual és un sistema viu — evolucionarà amb tu. El que mata la 
 
 ## Com podem ajudar-te
 
-A Ressona fem assessoria completa d'identitat visual per a artistes: logotip, paleta, tipografia i to de comunicació. Et lliurem un manual d'estil per mantenir la coherència en tot el que fas, del web al cartell. [Parla amb nosaltres](/contact) si vols posar ordre a la teva imatge.
+A Ressona fem assessoria completa d'identitat visual per a artistes: logotip, paleta, tipografia i to de comunicació. Et lliurem un manual d'estil per mantenir la coherència en tot el que fas, del web al cartell. [Parla amb nosaltres](/#contacte) si vols posar ordre a la teva imatge.

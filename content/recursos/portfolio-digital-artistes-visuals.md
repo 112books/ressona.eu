@@ -129,4 +129,4 @@ La documentació fotogràfica professional de l'obra és la base de tot portfoli
 
 Un portfolio digital no és un lloc on "posar les obres" per si algú les veu. És una eina de treball que s'actualitza, s'adapta i s'envia activament en contextos concrets. La diferència entre un artista que obté exposicions i un que no sovint no és la qualitat de l'obra: és la qualitat de com es presenta.
 
-A Ressona acompanyem artistes visuals en la construcció de la seva identitat digital professional: web, bio, estratègia i materials de presentació adaptats al mercat de l'art. Si vols revisar com et presentes, [escriu-nos](//#contacte).
+A Ressona acompanyem artistes visuals en la construcció de la seva identitat digital professional: web, bio, estratègia i materials de presentació adaptats al mercat de l'art. Si vols revisar com et presentes, [escriu-nos](/#contacte).

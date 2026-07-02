@@ -127,9 +127,9 @@ Aquest càlcul et dona la xifra per sota de la qual treballes a pèrdues. És el
 
 Un artista que cobra poc no sembla accessible: sembla que val poc. El preu és part de la teva comunicació professional, igual que el portafoli, la bio o el showreel.
 
-Pujar preus és incòmode. Però la alternativa —continuar cobrant menys del que necesssites— té un cost molt més alt: esgotament, ressentiment i la impossibilitat de sostenir la teva pràctica artística a llarg termini.
+Pujar preus és incòmode. Però la alternativa —continuar cobrant menys del que necessites— té un cost molt més alt: esgotament, ressentiment i la impossibilitat de sostenir la teva pràctica artística a llarg termini.
 
-Si vols acompanyament per estructurar la teva proposta de valor i la teva comunicació professional com a artista, a Ressona t'ajudem a trobar el marc adequat. [Escriu-nos](//#contacte).
+Si vols acompanyament per estructurar la teva proposta de valor i la teva comunicació professional com a artista, a Ressona t'ajudem a trobar el marc adequat. [Escriu-nos](/#contacte).
 
 ## Articles relacionats
 

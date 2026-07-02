@@ -6,7 +6,7 @@ tags: ["eines-digitals", "identitat-digital"]
 category: identitat
 ---
 
-Molts artistes substitueixen el seu web per un Linktree (o una eina similar com Beacons, bio.link o Later's link-in-bio). És comprensible: és gratuït, s'actualitza en dos minuts i compleix la funció "un sol lloc amb tots els meus links". Però hi ha coses que un Linktree mai podrà fer per tu.
+Molts artistes substitueixen el seu web per un [Linktree](https://linktr.ee/) (o una eina similar com [Beacons](https://beacons.ai/), [bio.link](https://bio.link/) o [Later](https://later.com/link-in-bio/)). És comprensible: és gratuït, s'actualitza en dos minuts i compleix la funció "un sol lloc amb tots els meus links". Però hi ha coses que un Linktree mai podrà fer per tu.
 
 ## Què és i per a què serveix Linktree
 
@@ -79,4 +79,4 @@ Si t'has de quedar amb un de sol: el web. Sempre el web.
 
 ## Vols un web que treballi per tu?
 
-A Ressona creem webs per a artistes que funcionen com a aparador, press kit i agenda alhora — sincronitzat amb les teves xarxes i optimitzat per als cercadors. [Parla amb nosaltres](/contact).
+A Ressona creem webs per a artistes que funcionen com a aparador, press kit i agenda alhora — sincronitzat amb les teves xarxes i optimitzat per als cercadors. [Parla amb nosaltres](/#contacte).

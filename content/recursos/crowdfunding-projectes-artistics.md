@@ -133,7 +133,7 @@ Per a projectes culturals a Catalunya, **Verkami** és la plataforma local amb m
 
 Un punt que molts artistes descuiden: els diners de crowdfunding tributen. En general, si estàs donat d'alta com a autònom, els ingressos de la campanya s'incorporen als teus rendiments d'activitat econòmica. Si no estàs d'alta, pots tenir obligació de declarar-los com a rendiments irregulars.
 
-Consulta amb un gestor o assessor fiscal abans de llançar la campanya per saber com has de declarar els ingressos i si la plataforma et passarà alguna certificació a efectes d'IRPF.
+Consulta amb un gestor o assessor fiscal abans de llançar la campanya per saber com has de declarar els ingressos i si la plataforma et passarà alguna certificació a efectes d'IRPF. Llegeix la nostra guia de [fiscalitat per a autònoms creatius](/recursos/fiscalitat-autonoms-creatius/) per tenir el marc general clar.
 
 ## El crowdfunding com a primera narrativa del projecte
 
@@ -141,4 +141,4 @@ Més enllà del finançament, una campanya ben feta construeix la primera audiè
 
 Tracta la campanya com el primer capítol de la història pública del teu projecte, no com un tràmit per obtenir finançament.
 
-A Ressona acompanyem artistes que volen professionalitzar la seva presència i comunicació digital. Si tens un projecte que vols llançar i no saps com construir la narrativa al voltant, [parla amb nosaltres](//#contacte).
+A Ressona acompanyem artistes que volen professionalitzar la seva presència i comunicació digital. Si tens un projecte que vols llançar i no saps com construir la narrativa al voltant, [parla amb nosaltres](/#contacte).

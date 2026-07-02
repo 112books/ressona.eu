@@ -98,4 +98,4 @@ Cada residència és diferent, però alguns punts s'apliquen gairebé sempre:
 
 Si mai has fet cap residència, comença per convocatòries locals o regionals amb menys competència internacional. Acumula experiència documentada —una residència ben aprofitada obre portes a la següent. I busca mentoria: artistes que ja han passat per residències similars t'evitaran errors i t'orientaran sobre com presentar-te.
 
-A Ressona treballem amb artistes que volen construir una presència professional sòlida: arxiu de treball, materials de presentació, estratègia de comunicació. Si vols que t'ajudem a preparar el teu dossier de residència o a construir la narrativa del teu projecte, [explica'ns on vols arribar](//#contacte).
+A Ressona treballem amb artistes que volen construir una presència professional sòlida: arxiu de treball, materials de presentació, estratègia de comunicació. Si vols que t'ajudem a preparar el teu dossier de residència o a construir la narrativa del teu projecte, [explica'ns on vols arribar](/#contacte).

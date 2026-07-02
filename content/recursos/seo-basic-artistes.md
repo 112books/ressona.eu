@@ -102,4 +102,4 @@ A diferència d'una botiga en línia, el teu públic no busca "comprar actuació
 
 ## Vols que ens encarreguem nosaltres?
 
-A Ressona fem l'alta completa als cercadors: Google, Bing, Perplexity i ChatGPT. Incloem dades estructurades (schema.org), anàlisi de paraules clau i seguiment trimestral de posicionament. [Contacta'ns](/contact) per saber més.
+A Ressona fem l'alta completa als cercadors: Google, Bing, Perplexity i ChatGPT. Incloem dades estructurades (schema.org), anàlisi de paraules clau i seguiment trimestral de posicionament. [Contacta'ns](/#contacte) per saber més.
