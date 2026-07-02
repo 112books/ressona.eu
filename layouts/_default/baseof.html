@@ -342,5 +342,32 @@
     }
   })();
   </script>
+  <script>
+  (function() {
+    var isEN = document.documentElement.lang === 'en';
+    var manifestUrl = isEN ? '/en/resources/index.json' : '/recursos/index.json';
+    var links = document.getElementById('footer-recursos-links');
+    if (!links) return;
+    Promise.all([
+      fetch('/admin/analytics.json').then(function(r) { return r.json(); }),
+      fetch(manifestUrl).then(function(r) { return r.json(); })
+    ]).then(function(results) {
+      var analytics = results[0];
+      var manifest  = results[1];
+      var prefix = isEN ? '/en/resources/' : '/recursos/';
+      var titleMap = {};
+      manifest.forEach(function(p) { titleMap[p.url.replace(/\/$/, '')] = p.title; });
+      var hits = (analytics.hits || []).filter(function(h) { return h.path.indexOf(prefix) === 0 && h.path !== prefix; });
+      hits.sort(function(a, b) { return b.count - a.count; });
+      var top = hits.slice(0, 4);
+      if (top.length < 2) return;
+      var html = top.map(function(h) {
+        var title = titleMap[h.path.replace(/\/$/, '')] || h.path.split('/').filter(Boolean).pop();
+        return '<a href="' + h.path + '">' + title + '</a>';
+      }).join('');
+      links.innerHTML = html;
+    }).catch(function() {});
+  })();
+  </script>
 </body>
 </html>

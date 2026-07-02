@@ -379,8 +379,11 @@
       <h2 class="section-title">pàgines top</h2>
       <div id="pages-wrap" class="bars"></div>
 
-      <h2 class="section-title">articles de recursos (més visitats)</h2>
+      <h2 class="section-title">articles de recursos CA — tots</h2>
       <div id="recursos-wrap" class="bars"></div>
+
+      <h2 class="section-title">articles de recursos EN — tots</h2>
+      <div id="recursos-en-wrap" class="bars"></div>
 
       <h2 class="section-title">funnel home → serveis</h2>
       <div id="funnel-wrap"></div>
@@ -668,20 +671,48 @@ function renderPages(data) {
   renderBars('pages-wrap', items, { withLinks: true, colorClass: 'ink2' });
 }
 
-function renderRecursos(data) {
+async function renderRecursos(data) {
   const hits = data.hits || [];
-  const recursosPaths = hits.filter(h => /\/(recursos|resources)\//.test(h.path));
-  const wrap = document.getElementById('recursos-wrap');
-  if (!recursosPaths.length) {
-    wrap.innerHTML = '<span class="empty">Sense visites als articles de recursos encara.</span>';
-    return;
+  const hitsMap = {};
+  hits.filter(h => /\/(recursos|resources)\//.test(h.path)).forEach(h => {
+    hitsMap[h.path.replace(/\/$/, '')] = h.count;
+  });
+
+  document.getElementById('recursos-wrap').innerHTML = '<span class="empty">carregant…</span>';
+  document.getElementById('recursos-en-wrap').innerHTML = '<span class="empty">carregant…</span>';
+
+  function manifestToItems(manifest, hitsMap) {
+    return manifest.map(p => ({
+      name: p.slug,
+      count: hitsMap[p.url.replace(/\/$/, '')] || 0,
+      href: p.url
+    })).sort((a, b) => b.count - a.count);
   }
-  const items = recursosPaths.map(h => ({
-    name: h.path.replace(/^\/(en\/)?resources?\//, '').replace(/\/$/, '') || h.path,
-    count: h.count,
-    href: h.path
-  }));
-  renderBars('recursos-wrap', items, { withLinks: true, colorClass: 'gold' });
+
+  try {
+    const [caManifest, enManifest] = await Promise.all([
+      fetch('/recursos/index.json').then(r => r.json()),
+      fetch('/en/resources/index.json').then(r => r.json())
+    ]);
+    const caItems = manifestToItems(caManifest, hitsMap);
+    const enItems = manifestToItems(enManifest, hitsMap);
+    if (!caItems.length) document.getElementById('recursos-wrap').innerHTML = '<span class="empty">Sense recursos publicats.</span>';
+    else renderBars('recursos-wrap', caItems, { withLinks: true, colorClass: 'gold' });
+    if (!enItems.length) document.getElementById('recursos-en-wrap').innerHTML = '<span class="empty">Sense recursos EN publicats.</span>';
+    else renderBars('recursos-en-wrap', enItems, { withLinks: true, colorClass: 'ink2' });
+  } catch(e) {
+    const fallback = hits.filter(h => /\/(recursos|resources)\//.test(h.path)).map(h => ({
+      name: h.path.replace(/^\/(en\/)?resources?\//, '').replace(/\/$/, '') || h.path,
+      count: h.count, href: h.path
+    }));
+    if (!fallback.length) {
+      document.getElementById('recursos-wrap').innerHTML = '<span class="empty">Sense visites als articles de recursos encara.</span>';
+      document.getElementById('recursos-en-wrap').innerHTML = '<span class="empty">No s\'ha pogut carregar el manifest.</span>';
+    } else {
+      renderBars('recursos-wrap', fallback, { withLinks: true, colorClass: 'gold' });
+      document.getElementById('recursos-en-wrap').innerHTML = '<span class="empty">No s\'ha pogut carregar el manifest.</span>';
+    }
+  }
 }
 
 function renderRefs(data) {

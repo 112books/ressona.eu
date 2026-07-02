@@ -28,6 +28,7 @@ enableRobotsTXT = true
 
 [outputs]
   home = ["HTML", "JSON"]
+  section = ["HTML", "JSON"]
 
 [build]
   writeStats = false

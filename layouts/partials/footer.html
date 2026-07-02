@@ -22,15 +22,17 @@
     <div class="footer-col-mid">
       <div class="footer-recursos">
         <span class="footer-recursos-title">{{ i18n "footer_recursos_title" }}</span>
-        {{ $section := cond (eq .Site.Language.Lang "en") "resources" "recursos" }}
-        {{ $featured := slice "que-es-un-epk" "bio-artista" "drets-imatges-promocionals" "presentar-projecte-festival" }}
-        {{ if eq .Site.Language.Lang "en" }}
-          {{ $featured = slice "what-is-an-epk" "artist-bio" "image-rights-promotional" "pitch-festival" }}
-        {{ end }}
-        {{ range $featured }}
-          {{ $page := site.GetPage (printf "/%s/%s" $section .) }}
-          {{ with $page }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
-        {{ end }}
+        <div id="footer-recursos-links">
+          {{ $section := cond (eq .Site.Language.Lang "en") "resources" "recursos" }}
+          {{ $featured := slice "que-es-un-epk" "bio-artista" "drets-imatges-promocionals" "presentar-projecte-festival" }}
+          {{ if eq .Site.Language.Lang "en" }}
+            {{ $featured = slice "what-is-an-epk" "artist-bio" "image-rights-promotional" "pitch-festival" }}
+          {{ end }}
+          {{ range $featured }}
+            {{ $page := site.GetPage (printf "/%s/%s" $section .) }}
+            {{ with $page }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
+          {{ end }}
+        </div>
         {{ $hubURL := cond (eq $.Site.Language.Lang "en") "/en/resources/" "/recursos/" }}
         <a href="{{ $hubURL }}" class="footer-recursos-all">{{ i18n "footer_recursos_all" }}</a>
       </div>

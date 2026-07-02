@@ -1,0 +1,7 @@
+{{- $pages := where .Pages "Draft" false -}}
+[
+{{- range $i, $p := $pages -}}
+{{- if $i }},{{ end }}
+{"slug":{{ $p.File.ContentBaseName | jsonify }},"title":{{ $p.Title | jsonify }},"url":{{ $p.RelPermalink | jsonify }}}
+{{- end }}
+]
