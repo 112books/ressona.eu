@@ -72,10 +72,12 @@ jobs:
           git push
 
       - name: Push analytics to gh-pages
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           cp static/admin/analytics.json /tmp/analytics.json
           git fetch origin gh-pages
           git checkout gh-pages
+          git pull --rebase origin gh-pages
           cp /tmp/analytics.json admin/analytics.json
           git add admin/analytics.json
           git diff --staged --quiet || git commit -m "chore: update analytics live [skip ci]"
