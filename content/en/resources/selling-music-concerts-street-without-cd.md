@@ -4,7 +4,7 @@ description: "CDs are gone but people at concerts still want to support you. QR 
 translationKey: "blog-concert-music-distribution"
 type: resources
 date: 2026-06-30
-draft: true
+draft: false
 author: "Ressona"
 tags: ["digital-tools", "musicians", "concerts"]
 category: distribucio

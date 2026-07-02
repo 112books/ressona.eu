@@ -4,7 +4,7 @@ description: "When you publish music on Spotify or Bandcamp, who gets your fans'
 translationKey: "blog-platform-ethics"
 type: resources
 date: 2026-06-30
-draft: true
+draft: false
 author: "Ressona"
 tags: ["digital-tools", "musicians", "distribution"]
 category: distribucio

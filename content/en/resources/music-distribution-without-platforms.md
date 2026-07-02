@@ -4,7 +4,7 @@ description: "Your own website, direct downloads, RSS, Faircamp, Funkwhale. How 
 translationKey: "blog-diy-music-distribution"
 type: resources
 date: 2026-06-30
-draft: true
+draft: false
 author: "Ressona"
 tags: ["digital-tools", "musicians", "distribution"]
 category: distribucio
