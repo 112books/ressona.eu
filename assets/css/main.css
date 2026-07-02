@@ -2048,6 +2048,57 @@ img, svg { display: block; }
   background: rgba(253,191,104,0.04);
 }
 
+.article-body details {
+  margin: 0 0 14px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: 4px;
+  background: rgba(255,255,255,0.02);
+  overflow: hidden;
+}
+.article-body summary {
+  cursor: pointer;
+  padding: 16px 20px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  transition: background 0.2s ease;
+}
+.article-body summary::-webkit-details-marker { display: none; }
+.article-body summary::after {
+  content: '+';
+  color: var(--gold);
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.article-body details[open] > summary::after {
+  content: '−';
+}
+.article-body details[open] > summary {
+  border-bottom: 1px solid var(--border);
+}
+.article-body summary:hover {
+  background: rgba(253,191,104,0.05);
+}
+.article-body details > *:not(summary) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.article-body details > p:last-child {
+  margin-bottom: 20px;
+}
+.article-body details > p:first-of-type {
+  margin-top: 18px;
+}
+
 .service-page__cta {
   margin-top: 64px;
   margin-bottom: 64px;

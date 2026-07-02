@@ -3,7 +3,7 @@ title: "Fiscalitat per a autònoms creatius: el que cal saber per no portar-se s
 description: "Alta d'autònom, IRPF, IVA, retencions, despeses deduïbles. El règim fiscal d'un artista té particularitats que convé conèixer abans que Hisenda et recorni."
 translationKey: "blog-taxes-creative-freelancers"
 date: 2026-07-01
-draft: true
+draft: false
 author: "Ressona"
 tags: ["materials-professionals", "musics"]
 category: legal
@@ -22,6 +22,22 @@ La regla general: si exerceixes una activitat econòmica de forma habitual, pers
 Un músic que fa dos concerts a l'any probablement no necessita estar d'alta com a autònom. Un músic que fa concerts regularment, cobra cachets, dóna classes i genera ingressos recurrents, sí.
 
 **Alta parcial (pluriactivitat):** Si tens un treball per compte aliè i compagines activitat artística per compte propi, pots estar d'alta com a autònom en pluriactivitat. Hi ha bonificacions a la quota d'autònom en aquests casos.
+
+## Cooperatives de facturació: una alternativa amb matisos legals
+
+Per a ingressos molt puntuals i irregulars —per sota del llindar d'habitualitat de què parlàvem més amunt— existeix una figura intermèdia: fer-se soci treballador d'una cooperativa que factura en el teu nom, cotitza per tu proporcionalment a la feina facturada, i es queda una comissió pel servei. No cal donar-te d'alta com a autònom amb quota fixa.
+
+**No totes les cooperatives de facturació són iguals, i la diferència té conseqüències legals reals.**
+
+El Tribunal Suprem ho ha deixat clar en la sentència de 24 de setembre de 2024 (cas Servicarne): estar inscrit com a cooperativa, celebrar assemblees i pagar retorns cooperatius **no és suficient** per ser una cooperativa real. Cal que funcioni amb estructura productiva i organitzativa pròpia. Quan una entitat es limita a intermediar mà d'obra —el client fixa horaris, ritme de feina i instruccions diàries, i la "cooperativa" només transmet ordres i controla hores per facturar— els tribunals ho poden qualificar de cessió il·legal de treballadors (article 43 de l'Estatut dels Treballadors) i falsos autònoms. Factoo, una de les cooperatives de facturació més conegudes d'Espanya, va ser obligada a dissoldre's pel Ministeri de Treball per aquest motiu.
+
+Això no vol dir que totes ho siguin. **SMart-Ib** (smart-ib.coop), cooperativa nascuda a Espanya el 2008 com a filial de la belga Smart, es dedica específicament a projectes artístics i culturals i va superar sense sancions la campanya d'inspecció massiva que Hisenda i la Seguretat Social van llançar el 2017 contra societats i cooperatives de facturació sospitoses. És un exemple documentat que el model pot funcionar de forma legítima quan hi ha estructura i acompanyament real darrere, no només intermediació de factures.
+
+<div class="resource-callout">
+<h3>Com valorar-ho amb dades objectives</h3>
+<p>Abans d'unir-t'hi, verifica: si tens drets reals de soci (vot, accés a comptes, assemblees) o només ets un "client" que factura a través seu; quin règim de Seguretat Social apliques; i si la cooperativa ofereix estructura i suport real (assessorament, gestió de projectes) o només transmet factures. El Registre de Cooperatives és consultable públicament.</p>
+<p>Per a feina puntual i esporàdica pot ser una via legítima. Per a una activitat regular amb un client fix, l'alta d'autònom convencional sol tenir menys risc legal. En cas de dubte, consulta un gestor abans de triar.</p>
+</div>
 
 ## La quota d'autònom: el sistema de cotització per ingressos reals
 
