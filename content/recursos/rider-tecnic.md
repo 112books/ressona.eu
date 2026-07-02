@@ -121,3 +121,10 @@ El rider és un annex al contracte. Sense el contracte, el rider és un full de 
 Un rider ben fet diu molt de tu com a professional. Quan un festival rep un rider clar, actualitzat i realista, sap que treballar amb tu serà fàcil. Quan rep un rider amb demandes il·lògiques o un document descuidat, ja és una primera impressió negativa.
 
 El rider és part de la teva identitat professional — igual que el press kit.
+
+## Articles relacionats
+
+- [Contractes bàsics que tot músic ha de conèixer](/recursos/contractes-basics-musics/) — el rider és un annex al contracte; llegeix-los junts
+- [Com posar preu al teu treball com a artista](/recursos/com-posar-preu-al-teu-treball/) — el rider és part de la negociació econòmica
+- [Fiscalitat per a autònoms creatius](/recursos/fiscalitat-autonoms-creatius/) — IVA, IRPF i quota d'autònom per al sector cultural
+- [Com buscar representació: agent, booker o manager](/recursos/buscar-representacio-agent-booking-manager/) — un bon representant gestiona els riders i les negociacions per tu

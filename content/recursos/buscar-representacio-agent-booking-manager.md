@@ -107,3 +107,10 @@ Un booker no fa màrqueting per tu. Un manager no substitueix la teva pròpia xa
 Abans de buscar representació, assegura't de tenir la teva identitat digital en ordre: web, press kit, fotos de premsa, perfils actualitzats. Un representant potencial sempre farà una cerca a Google del teu nom. El que trobi és la primera impressió que tindrà de la teva professionalitat.
 
 A Ressona acompanyem artistes a preparar exactament aquesta base: la presència digital que obre portes a programadors, agències i mitjans. Si vols parlar del teu cas concret, [escriu-nos](//#contacte).
+
+## Articles relacionats
+
+- [Com posar preu al teu treball com a artista](/recursos/com-posar-preu-al-teu-treball/) — les tarifes que un representant defensarà en nom teu
+- [Contractes bàsics que tot músic ha de conèixer](/recursos/contractes-basics-musics/) — inclou el contracte de representació i les seves clàusules clau
+- [Fiscalitat per a autònoms creatius](/recursos/fiscalitat-autonoms-creatius/) — la comissió del representant és una despesa deduïble
+- [Rider tècnic per a músics](/recursos/rider-tecnic/) — el document que el teu representant enviarà als programadors

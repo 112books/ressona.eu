@@ -82,3 +82,10 @@ Un press kit digital ben construït no és només una fitxa d'informació. És u
 Per a que funcioni així, necessita tres coses: **estar en un domini propi** (no una plataforma de tercers), **tenir contingut que els cercadors puguin llegir** (no tot en PDFs o imatges), i **estar actualitzat**.
 
 Si vols que et construïm el press kit digital o revisem el que ja tens, [explica'ns el teu projecte](/#contacte).
+
+## Articles relacionats
+
+- [Què és un EPK i per a què serveix](/recursos/que-es-un-epk/) — la guia general del press kit digital per a qualsevol disciplina artística
+- [Showreel i book d'actors](/recursos/showreel-book-actrius-actors/) — com preparar el material audiovisual i fotogràfic per a càstings
+- [Identitat digital per a actors](/recursos/identitat-digital-actors/) — web, perfils i presència en línia per al sector de les arts escèniques
+- [Fotos de premsa professionals](/recursos/fotos-de-premsa/) — per a saber com han de ser les fotografies del teu press kit

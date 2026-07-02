@@ -172,3 +172,10 @@ Per reduir el rendiment net i pagar menys impostos, pots deduir les despeses nec
 Un autònom creatiu amb activitat regular —actuacions, classes, drets, col·laboracions puntuals— genera prou complexitat fiscal per justificar àmpliament la despesa d'un gestor o assessor fiscal. El cost d'un gestor que coneix el sector cultural és molt inferior al cost dels errors que t'estalviarà.
 
 Si estàs buscant professionalitzar la teva carrera artística, a Ressona t'acompanyem en la part de identitat digital i presència professional. Per a la part fiscal i legal, treballem juntament amb assessors especialitzats que coneixen el sector. [Explica'ns la teva situació](//#contacte) i et diem quins passos donar.
+
+## Articles relacionats
+
+- [Com posar preu al teu treball com a artista](/recursos/com-posar-preu-al-teu-treball/) — metodologia per calcular tarifes sostenibles
+- [Contractes bàsics que tot músic ha de conèixer](/recursos/contractes-basics-musics/) — els documents que protegeixen el teu treball
+- [Rider tècnic per a músics](/recursos/rider-tecnic/) — el document professional que acompanya cada actuació
+- [Com buscar representació: agent, booker o manager](/recursos/buscar-representacio-agent-booking-manager/) — estructura professional per a la gestió de la teva carrera

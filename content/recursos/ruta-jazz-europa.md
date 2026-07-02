@@ -132,3 +132,6 @@ El **Heineken Jazzaldia** de Sant Sebastià (juliol, des de 1966) és un dels fe
 - [Viatjant amb Jazz per Europa](/recursos/viatjant-amb-jazz-per-europa/) — directori complet de clubs, sessions i festivals per país
 - [Perseguint el Duende](/recursos/perseguint-el-duende/) — tablaos, peñas i festivals de flamenc
 - [Arrels en Moviment](/recursos/arrels-en-moviment-folk-europa/) — folk i música tradicional per Europa
+- [Viatge sense parar: festivals de dansa per Europa](/recursos/festivals-dansa-europa/) — dansa contemporània, flamenc i dansa urbana
+- [Ruta Techno per Europa](/recursos/ruta-techno-europa/) — festivals i clubs de referència del circuit electrònic underground
+- [Guia de Rock Dur i Heavy Metal per Europa](/recursos/guia_rock_dur/) — escenes, festivals i venues del rock pesant europeu

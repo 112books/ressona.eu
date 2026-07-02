@@ -241,3 +241,4 @@ El circuit europeu de música electrònica és més accessible del que sembla de
 - [Perseguint el duende: ruta flamenca per la Península](/recursos/perseguint-el-duende/) — quadres, peñas i festivals de flamenc
 - [Arrels en moviment: folk i tradicional per Europa](/recursos/arrels-en-moviment-folk-europa/) — música de tradició oral i festivals folk
 - [Viatge sense parar: festivals de dansa per Europa](/recursos/festivals-dansa-europa/) — dansa contemporània, flamenc i dansa urbana
+- [Guia de Rock Dur i Heavy Metal per Europa](/recursos/guia_rock_dur/) — escenes, festivals i venues del rock pesant europeu

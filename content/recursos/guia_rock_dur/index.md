@@ -245,3 +245,4 @@ El circuit de rock dur és un dels més estratificats de la música en viu. Des 
 - [Viatjant amb jazz per Europa](/recursos/viatjant-amb-jazz-per-europa/) — clubs, festivals i jam sessions de jazz
 - [Perseguint el duende: ruta flamenca per la Península](/recursos/perseguint-el-duende/) — quadres, peñas i festivals de flamenc
 - [Arrels en moviment: folk i tradicional per Europa](/recursos/arrels-en-moviment-folk-europa/) — música de tradició oral i festivals folk
+- [Viatge sense parar: festivals de dansa per Europa](/recursos/festivals-dansa-europa/) — dansa contemporània, flamenc i dansa urbana

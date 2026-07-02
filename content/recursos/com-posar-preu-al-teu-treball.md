@@ -130,3 +130,10 @@ Un artista que cobra poc no sembla accessible: sembla que val poc. El preu és p
 Pujar preus és incòmode. Però la alternativa —continuar cobrant menys del que necesssites— té un cost molt més alt: esgotament, ressentiment i la impossibilitat de sostenir la teva pràctica artística a llarg termini.
 
 Si vols acompanyament per estructurar la teva proposta de valor i la teva comunicació professional com a artista, a Ressona t'ajudem a trobar el marc adequat. [Escriu-nos](//#contacte).
+
+## Articles relacionats
+
+- [Contractes bàsics que tot músic ha de conèixer](/recursos/contractes-basics-musics/) — els documents que protegeixen el teu treball i els teus cachets
+- [Fiscalitat per a autònoms creatius](/recursos/fiscalitat-autonoms-creatius/) — IVA, IRPF i quota d'autònom explicats per al sector cultural
+- [Com buscar representació: agent, booker o manager](/recursos/buscar-representacio-agent-booking-manager/) — quan delegar la negociació a un professional
+- [Rider tècnic per a músics](/recursos/rider-tecnic/) — com documentar les teves necessitats professionals

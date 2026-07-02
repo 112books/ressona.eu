@@ -558,3 +558,6 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 - [10 Parades de Jazz: La Ruta Europea](/recursos/ruta-jazz-europa/) — una ruta opinada per les capitals jazzístiques d'Europa: París, Londres, Copenhaguen, Montreux, Barcelona…
 - [Perseguint el Duende](/recursos/perseguint-el-duende/) — tablaos, peñas i festivals de flamenc a Espanya i Europa
 - [Arrels en Moviment](/recursos/arrels-en-moviment-folk-europa/) — folk i música tradicional des de Barcelona fins als Balcans
+- [Viatge sense parar: festivals de dansa per Europa](/recursos/festivals-dansa-europa/) — dansa contemporània, flamenc i dansa urbana
+- [Ruta Techno per Europa](/recursos/ruta-techno-europa/) — festivals i clubs de referència del circuit electrònic underground
+- [Guia de Rock Dur i Heavy Metal per Europa](/recursos/guia_rock_dur/) — escenes, festivals i venues del rock pesant europeu

@@ -179,3 +179,5 @@ Festivals de dansa per Europa. Fes clic a qualsevol marcador per veure el nom, u
 - [Perseguint el Duende](/recursos/perseguint-el-duende/) — tablaos, peñas i festivals de flamenc a Espanya i Europa
 - [Viatjant amb Jazz per Europa](/recursos/viatjant-amb-jazz-per-europa/) — clubs i festivals de jazz al continent
 - [Arrels en Moviment](/recursos/arrels-en-moviment-folk-europa/) — folk i música tradicional des de Barcelona fins als Balcans
+- [Ruta Techno per Europa](/recursos/ruta-techno-europa/) — festivals i clubs de referència del circuit electrònic underground
+- [Guia de Rock Dur i Heavy Metal per Europa](/recursos/guia_rock_dur/) — escenes, festivals i venues del rock pesant europeu
