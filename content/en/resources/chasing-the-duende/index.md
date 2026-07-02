@@ -286,4 +286,7 @@ Tablaos, peñas and flamenco festivals in Spain and Europe. Click any marker to 
 
 ## Related guides
 - [Travelling with Jazz Across Europe](/en/resources/travelling-with-jazz-europe/) — clubs, festivals and the jazz circuit across the continent
+- [10 Jazz Stops: The European Route](/en/resources/jazz-route-europe/) — an opinionated route through Europe's jazz capitals
 - [Roots in Motion: Folk Music Across Europe](/en/resources/folk-traditional-music-europe/) — folk and traditional music festivals from Barcelona to the Balkans
+- [Techno Route Across Europe](/en/resources/techno-route-europe/) — festivals and reference clubs of the underground electronic circuit
+- [Hard Rock and Heavy Metal in Europe](/en/resources/hard-rock-heavy-metal-europe/) — scenes, festivals and venues of European heavy music

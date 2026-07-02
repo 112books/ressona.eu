@@ -130,3 +130,10 @@ An artist who charges little does not come across as accessible: they come acros
 Raising your prices is uncomfortable. But the alternative — continuing to charge less than you need — carries a far higher cost: burnout, resentment, and the impossibility of sustaining your artistic practice in the long term.
 
 If you would like support in structuring your value proposition and your professional communication as an artist, at Ressona we help you find the right framework. [Contact us](/en/#contacte).
+
+## Related articles
+
+- [Basic Contracts Every Musician Should Know](/en/resources/basic-contracts-musicians/) — the documents that protect your work and your fees
+- [Taxes for Freelance Creatives](/en/resources/taxes-freelance-creatives/) — VAT, income tax and self-employed contributions for the cultural sector
+- [Finding Representation: Agent, Booker or Manager](/en/resources/finding-representation-agent-booking-manager/) — when to delegate negotiation to a professional
+- [Technical Rider for Musicians](/en/resources/technical-rider/) — how to document your professional requirements

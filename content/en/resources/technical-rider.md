@@ -121,3 +121,10 @@ The rider is an annex to the contract. Without the contract, the rider is a wish
 A well-written rider says a lot about you as a professional. When a festival receives a clear, up-to-date and realistic rider, they know working with you will be easy. When they receive one with unrealistic demands or a sloppy document, that's already a negative first impression.
 
 The rider is part of your professional identity — just like your press kit.
+
+## Related articles
+
+- [Basic Contracts Every Musician Should Know](/en/resources/basic-contracts-musicians/) — the rider is an annex to the contract; read them together
+- [Pricing Your Work as an Artist](/en/resources/pricing-your-work-as-an-artist/) — the rider is part of the economic negotiation
+- [Taxes for Freelance Creatives](/en/resources/taxes-freelance-creatives/) — VAT, income tax and self-employed contributions for the cultural sector
+- [Finding Representation: Agent, Booker or Manager](/en/resources/finding-representation-agent-booking-manager/) — a good representative manages riders and negotiations on your behalf

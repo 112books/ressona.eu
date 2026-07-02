@@ -117,6 +117,16 @@ The **Heineken Jazzaldia** in San Sebastián (July, since 1966) is one of the be
 
 ---
 
+## Interactive map
+
+Jazz clubs and festivals on the European route. Festivals (gold) · Clubs (blue) · Click for details and links.
+
+<iframe src="/recursos/ruta-jazz-europa/mapa-jazz-ruta.html" width="100%" height="540" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;" title="Jazz route map across Europe" loading="lazy"></iframe>
+
+*Know a club or festival we've missed? Write to us at [hola@ressona.eu](mailto:hola@ressona.eu) and we'll add it.*
+
+---
+
 ## When to travel
 
 **Summer (June–July):** Red Light Jazz Amsterdam (June), Copenhagen Jazz Festival and Jazzaldia (July), Montreux Jazz Festival (July). The concentration of festivals makes summer the best time to combine 3–4 stops on the route.
@@ -132,3 +142,5 @@ The **Heineken Jazzaldia** in San Sebastián (July, since 1966) is one of the be
 - [Travelling with Jazz Across Europe](/en/resources/travelling-with-jazz-europe/) — full directory of clubs, jam sessions and festivals by country
 - [Chasing the Duende](/en/resources/chasing-the-duende/) — tablaos, peñas and flamenco festivals across Spain and Europe
 - [Roots in Motion: Folk Music Across Europe](/en/resources/folk-traditional-music-europe/) — folk and traditional music festivals from Barcelona to the Balkans
+- [Techno Route Across Europe](/en/resources/techno-route-europe/) — festivals and reference clubs of the underground electronic circuit
+- [Hard Rock and Heavy Metal in Europe](/en/resources/hard-rock-heavy-metal-europe/) — scenes, festivals and venues of European heavy music

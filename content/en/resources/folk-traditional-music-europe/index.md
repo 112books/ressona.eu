@@ -199,3 +199,6 @@ Festivals and folk and traditional music venues across Europe. Click any marker 
 ## Related guides
 - [Chasing the Duende](/en/resources/chasing-the-duende/) — tablaos, peñas and flamenco festivals across Spain and Europe
 - [Travelling with Jazz Across Europe](/en/resources/travelling-with-jazz-europe/) — clubs, festivals and the jazz circuit across the continent
+- [10 Jazz Stops: The European Route](/en/resources/jazz-route-europe/) — an opinionated route through Europe's jazz capitals
+- [Techno Route Across Europe](/en/resources/techno-route-europe/) — festivals and reference clubs of the underground electronic circuit
+- [Hard Rock and Heavy Metal in Europe](/en/resources/hard-rock-heavy-metal-europe/) — scenes, festivals and venues of European heavy music

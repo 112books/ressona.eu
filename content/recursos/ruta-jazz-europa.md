@@ -117,6 +117,16 @@ El **Heineken Jazzaldia** de Sant Sebastià (juliol, des de 1966) és un dels fe
 
 ---
 
+## Mapa interactiu
+
+Clubs i festivals de la ruta de jazz europeu. Festivals (or) · Clubs (blau) · Fes clic per a informació i links.
+
+<iframe src="/recursos/ruta-jazz-europa/mapa-jazz-ruta.html" width="100%" height="540" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;" title="Mapa de la ruta de jazz per Europa" loading="lazy"></iframe>
+
+*Coneixes un club o festival que hi falta? Escriu-nos a [hola@ressona.eu](mailto:hola@ressona.eu) i l'afegim.*
+
+---
+
 ## Quan viatjar
 
 **Estiu (juny–juliol):** Red Light Jazz Amsterdam (juny), Copenhagen Jazz Festival i Jazzaldia (juliol), Montreux Jazz Festival (juliol). La concentració de festivals fa que l'estiu sigui la millor època per combinar 3–4 parades de la ruta.

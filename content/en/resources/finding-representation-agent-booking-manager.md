@@ -107,3 +107,10 @@ A booker won't do your marketing. A manager won't replace your own network. An a
 Before looking for representation, make sure your digital identity is in order: website, press kit, press photos, up-to-date profiles. Any potential representative will search your name on Google. What they find is the first impression they'll have of your professionalism.
 
 At Ressona we help artists build exactly this foundation: the digital presence that opens doors to programmers, agencies and media. If you'd like to talk about your specific situation, [contact us](/en/#contacte).
+
+## Related articles
+
+- [Pricing Your Work as an Artist](/en/resources/pricing-your-work-as-an-artist/) — the rates a representative will defend on your behalf
+- [Basic Contracts Every Musician Should Know](/en/resources/basic-contracts-musicians/) — includes the representation contract and its key clauses
+- [Taxes for Freelance Creatives](/en/resources/taxes-freelance-creatives/) — the representative's commission is a deductible expense
+- [Technical Rider for Musicians](/en/resources/technical-rider/) — the document your representative will send to programmers

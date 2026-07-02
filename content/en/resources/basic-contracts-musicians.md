@@ -131,8 +131,11 @@ Things many authors don't know:
 
 For standard performance contracts with moderate fees, a well-drafted template signed by both parties is sufficient. For agreements with labels, platforms, or significant rights assignments, investing in a consultation with a lawyer specialising in intellectual property is one of the best investments you can make as a professional musician.
 
-## Related articles
-- [Taxes for Freelance Creatives](/en/resources/taxes-freelance-creatives/) — VAT, income tax and deductions for self-employed artists
-- [Crowdfunding for Artistic Projects](/en/resources/crowdfunding-artistic-projects/) — when it makes sense and how to run a successful campaign
-
 At Ressona we support artists in building their digital identity and professional structure. If you have questions about how to present yourself in the market or which steps to take to professionalise your career, [get in touch](/en/#contacte).
+
+## Related articles
+
+- [Pricing Your Work as an Artist](/en/resources/pricing-your-work-as-an-artist/) — methodology for calculating sustainable rates and holding them in negotiation
+- [Taxes for Freelance Creatives](/en/resources/taxes-freelance-creatives/) — VAT, income tax and self-employed contributions for the cultural sector
+- [Technical Rider for Musicians](/en/resources/technical-rider/) — the document that accompanies your performance contract
+- [Finding Representation: Agent, Booker or Manager](/en/resources/finding-representation-agent-booking-manager/) — when it's time to have representation and how to find it

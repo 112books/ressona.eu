@@ -155,5 +155,8 @@ A freelance creative with regular activity — performances, classes, rights inc
 If you're looking to professionalise your artistic career, at Ressona we support you on digital identity and professional presence. For the tax and legal side, we work alongside specialist advisers who know the sector. [Tell us your situation](/en/#contacte) and we'll help you work out the next steps.
 
 ## Related articles
-- [Basic Contracts Every Musician Should Know](/en/resources/basic-contracts-musicians/) — contracts, rights assignments and what to watch out for before signing
-- [Crowdfunding for Artistic Projects](/en/resources/crowdfunding-artistic-projects/) — crowdfunding income also has tax implications
+
+- [Pricing Your Work as an Artist](/en/resources/pricing-your-work-as-an-artist/) — methodology for calculating sustainable rates
+- [Basic Contracts Every Musician Should Know](/en/resources/basic-contracts-musicians/) — the documents that protect your work
+- [Technical Rider for Musicians](/en/resources/technical-rider/) — the professional document that accompanies every performance
+- [Finding Representation: Agent, Booker or Manager](/en/resources/finding-representation-agent-booking-manager/) — professional structure for managing your career

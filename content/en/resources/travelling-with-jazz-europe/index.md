@@ -554,5 +554,8 @@ For enthusiasts: you'll find the venues that define each city's scene, the festi
 *Have a club or festival we've missed? Write to us at [hola@ressona.eu](mailto:hola@ressona.eu) and we'll add it.*
 
 ## Related guides
+- [10 Jazz Stops: The European Route](/en/resources/jazz-route-europe/) — an opinionated route through Europe's jazz capitals
 - [Chasing the Duende](/en/resources/chasing-the-duende/) — tablaos, peñas and flamenco festivals across Spain and Europe
 - [Roots in Motion: Folk Music Across Europe](/en/resources/folk-traditional-music-europe/) — folk and traditional music festivals from Barcelona to the Balkans
+- [Techno Route Across Europe](/en/resources/techno-route-europe/) — festivals and reference clubs of the underground electronic circuit
+- [Hard Rock and Heavy Metal in Europe](/en/resources/hard-rock-heavy-metal-europe/) — scenes, festivals and venues of European heavy music

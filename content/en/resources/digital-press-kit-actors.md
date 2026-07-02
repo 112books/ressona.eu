@@ -82,3 +82,10 @@ A well-built digital press kit is not just an information sheet. It is a passive
 For this to happen, it needs three things: **to be on its own domain** (not a third-party platform), **to have content that search engines can read** (not everything in PDFs or images), and **to be kept up to date**.
 
 If you want us to build your digital press kit or review what you already have, [tell us about your project](/en/#contacte).
+
+## Related articles
+
+- [What Is an EPK and What Is It For](/en/resources/what-is-an-epk/) — the general guide to digital press kits for any artistic discipline
+- [Showreel and Photo Book for Actors](/en/resources/showreel-and-book-actors/) — how to prepare audiovisual and photographic material for castings
+- [Digital Identity for Actors](/en/resources/digital-identity-actors/) — website, profiles and online presence for the performing arts
+- [Professional Press Photos](/en/resources/press-photos/) — what your press kit photos need to look like
