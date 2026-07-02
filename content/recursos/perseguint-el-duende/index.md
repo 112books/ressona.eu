@@ -283,3 +283,9 @@ Tablaos, peñas i festivals de flamenc a Espanya i Europa. Fes clic a qualsevol 
 <iframe src="mapa-flamenc-europa.html" width="100%" height="540" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;" title="Mapa de flamenc per Europa" loading="lazy"></iframe>
 
 *Coneixes un tablao, peña o festival que no hi és? Envia'ns les dades a [hola@ressona.eu](mailto:hola@ressona.eu) i l'afegim.*
+
+## Altres guies de música en viu
+
+- [Viatjant amb Jazz per Europa](/recursos/viatjant-amb-jazz-per-europa/) — clubs, sessions i festivals de jazz al continent
+- [10 Parades de Jazz: La Ruta Europea](/recursos/ruta-jazz-europa/) — una ruta opinada per les capitals jazzístiques d'Europa
+- [Arrels en Moviment](/recursos/arrels-en-moviment-folk-europa/) — folk i música tradicional des de Barcelona fins als Balcans

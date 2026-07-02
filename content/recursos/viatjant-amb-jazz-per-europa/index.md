@@ -552,3 +552,9 @@ Per als aficionats: trobareu les sales que defineixen l'escena de cada ciutat, e
 ---
 
 *Tens un club o festival que hi falta? Escriu-nos a [hola@ressona.eu](mailto:hola@ressona.eu) i l'afegim.*
+
+## Altres guies de música en viu
+
+- [10 Parades de Jazz: La Ruta Europea](/recursos/ruta-jazz-europa/) — una ruta opinada per les capitals jazzístiques d'Europa: París, Londres, Copenhaguen, Montreux, Barcelona…
+- [Perseguint el Duende](/recursos/perseguint-el-duende/) — tablaos, peñas i festivals de flamenc a Espanya i Europa
+- [Arrels en Moviment](/recursos/arrels-en-moviment-folk-europa/) — folk i música tradicional des de Barcelona fins als Balcans

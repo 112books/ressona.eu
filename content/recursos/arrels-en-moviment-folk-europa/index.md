@@ -195,3 +195,9 @@ Festivals i sales de folk i música tradicional per Europa. Fes clic a qualsevol
 <iframe src="mapa-folk-europa.html" width="100%" height="540" style="border:none;border-radius:4px;display:block;margin:1.5rem 0;" title="Mapa de folk i música tradicional per Europa" loading="lazy"></iframe>
 
 *Coneixes un festival, venue o cicle de folk que no hi és? Envia'ns les dades a [hola@ressona.eu](mailto:hola@ressona.eu) i l'afegim.*
+
+## Altres guies de música en viu
+
+- [Viatjant amb Jazz per Europa](/recursos/viatjant-amb-jazz-per-europa/) — clubs, sessions i festivals de jazz al continent
+- [10 Parades de Jazz: La Ruta Europea](/recursos/ruta-jazz-europa/) — una ruta opinada per les capitals jazzístiques d'Europa
+- [Perseguint el Duende](/recursos/perseguint-el-duende/) — tablaos, peñas i festivals de flamenc a Espanya i Europa
