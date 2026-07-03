@@ -2977,50 +2977,108 @@ img, svg { display: block; }
   }
 }
 
-/* ── Brevo Newsletter (footer) ─────────────────────────── */
-.footer-newsletter {
-  grid-column: 1 / -1;
-  padding-top: 40px;
-  margin-top: 8px;
-  border-top: 1px solid var(--border);
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 48px;
-  align-items: start;
+/* ── Footer newsletter button ──────────────────────────── */
+.footer-newsletter-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 1px solid rgba(253,191,104,0.3);
+  border-radius: 2px;
+  color: var(--gold);
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 7px 12px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: background 0.2s, border-color 0.2s;
 }
-.footer-newsletter__kicker {
-  font-size: 0.7rem;
+.footer-newsletter-btn:hover {
+  background: rgba(253,191,104,0.08);
+  border-color: var(--gold);
+}
+
+/* ── Newsletter popup modal ────────────────────────────── */
+.nl-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.nl-modal[hidden] { display: none; }
+.nl-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(30,40,44,0.85);
+  backdrop-filter: blur(4px);
+}
+.nl-modal__box {
+  position: relative;
+  background: var(--bg-alt, #2a363c);
+  border: 1px solid rgba(192,169,179,0.15);
+  border-radius: 4px;
+  padding: 40px 40px 32px;
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.nl-modal__close {
+  position: absolute;
+  top: 12px; right: 16px;
+  background: none; border: none;
+  color: var(--text-subtle);
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: color 0.15s;
+}
+.nl-modal__close:hover { color: var(--text); }
+.nl-modal__kicker {
+  font-size: 0.68rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--gold);
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
-.footer-newsletter__desc {
-  font-size: 0.85rem;
+.nl-modal__title {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text);
+  margin: 0 0 8px;
+  line-height: 1.2;
+}
+.nl-modal__desc {
+  font-size: 0.88rem;
   color: var(--text-subtle);
+  margin: 0 0 24px;
   line-height: 1.6;
-  margin: 0;
 }
-/* Brevo form overrides — dark theme */
-.footer-newsletter .sib-form {
+/* Brevo form overrides inside popup */
+.nl-modal .sib-form {
   background: transparent !important;
   text-align: left !important;
-  padding: 0;
 }
-.footer-newsletter #sib-container {
+.nl-modal #sib-container {
   background: transparent !important;
   border: none !important;
   padding: 0;
   text-align: left !important;
   max-width: 100% !important;
 }
-.footer-newsletter .sib-form-block {
+.nl-modal .sib-form-block {
   text-align: left !important;
   padding: 4px 0 !important;
 }
-.footer-newsletter .entry__label {
+.nl-modal .entry__label {
   font-family: var(--font-body) !important;
   font-size: 0.72rem !important;
   font-weight: 600 !important;
@@ -3028,7 +3086,7 @@ img, svg { display: block; }
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.footer-newsletter .input {
+.nl-modal .input {
   font-family: var(--font-body) !important;
   font-size: 0.9rem !important;
   color: var(--text) !important;
@@ -3039,62 +3097,72 @@ img, svg { display: block; }
   width: 100%;
   box-sizing: border-box;
 }
-.footer-newsletter .input:focus {
+.nl-modal .input:focus {
   border-color: rgba(253,191,104,0.4) !important;
   outline: none !important;
 }
-.footer-newsletter .input::placeholder {
-  color: rgba(217,208,213,0.35) !important;
-}
-.footer-newsletter .sib-form-block__button {
+.nl-modal .input::placeholder { color: rgba(217,208,213,0.35) !important; }
+.nl-modal .sib-form-block__button {
   font-family: var(--font-body) !important;
-  font-size: 0.85rem !important;
+  font-size: 0.9rem !important;
   font-weight: 600 !important;
   background-color: var(--gold) !important;
   color: #1d2c34 !important;
   border: none !important;
   border-radius: 2px !important;
-  padding: 10px 24px !important;
+  padding: 12px 28px !important;
   cursor: pointer;
   transition: opacity 0.2s;
-  text-align: left;
 }
-.footer-newsletter .sib-form-block__button:hover { opacity: 0.85; }
-.footer-newsletter .entry__error {
+.nl-modal .sib-form-block__button:hover { opacity: 0.85; }
+.nl-modal .entry__error {
   font-size: 0.75rem !important;
   color: #ff9090 !important;
   background: transparent !important;
   border: none !important;
   padding: 2px 0 !important;
 }
-.footer-newsletter #error-message {
+.nl-modal #error-message {
   background: rgba(80,19,69,0.25) !important;
   border-color: rgba(80,19,69,0.5) !important;
   color: var(--text) !important;
   max-width: 100% !important;
 }
-.footer-newsletter #success-message {
-  background: rgba(253,191,104,0.1) !important;
-  border-color: rgba(253,191,104,0.3) !important;
+.nl-modal #success-message {
+  background: rgba(253,191,104,0.08) !important;
+  border-color: rgba(253,191,104,0.25) !important;
   max-width: 100% !important;
 }
-.footer-newsletter #success-message .sib-form-message-panel__inner-text,
-.footer-newsletter #success-message .sib-icon { color: var(--gold) !important; }
-.footer-newsletter .brevo-gdpr {
-  font-size: 0.7rem;
-  color: rgba(217,208,213,0.4);
-  line-height: 1.5;
-  margin: 8px 0 4px;
+.nl-modal #success-message .sib-form-message-panel__inner-text { color: var(--gold) !important; }
+.nl-modal .brevo-gdpr {
+  margin: 12px 0 8px;
 }
-.footer-newsletter .brevo-gdpr a {
-  color: rgba(217,208,213,0.5);
+.nl-modal .brevo-gdpr__label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+.nl-modal .brevo-gdpr__check {
+  margin-top: 3px;
+  flex-shrink: 0;
+  accent-color: var(--gold);
+  width: 15px;
+  height: 15px;
+}
+.nl-modal .brevo-gdpr__label span {
+  font-size: 0.82rem;
+  color: var(--text-subtle);
+  line-height: 1.55;
+}
+.nl-modal .brevo-gdpr a {
+  color: var(--gold);
   text-decoration: underline;
+  text-underline-offset: 2px;
 }
-.footer-newsletter .entry__specification { display: none !important; }
-.footer-newsletter .declaration-block-icon { display: none !important; }
-@media (max-width: 768px) {
-  .footer-newsletter {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
+.nl-modal .entry__specification { display: none !important; }
+.nl-modal .declaration-block-icon { display: none !important; }
+@media (max-width: 600px) {
+  .nl-modal__box { padding: 32px 24px 24px; }
+  .nl-modal__title { font-size: 1.2rem; }
 }

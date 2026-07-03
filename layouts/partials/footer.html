@@ -4,6 +4,10 @@
       <span class="footer-logo" aria-hidden="true"><span class="flip-r">R</span>e<span class="shift-up">s</span><span class="shift-down">s</span><span class="shift-down">o</span>na</span>
       <span class="footer-desc">{{ i18n "footer_desc" }}</span>
       <span class="footer-copy">© Ressona 2026</span>
+      <button class="footer-newsletter-btn" id="newsletter-open" aria-haspopup="dialog">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        {{ if eq .Site.Language.Lang "en" }}Subscribe to newsletter{{ else }}Subscriu-te al butlletí{{ end }}
+      </button>
       <div class="footer-social">
         <a href="https://www.instagram.com/ressona_identitat_digital/" target="_blank" rel="noopener noreferrer" aria-label="Ressona a Instagram (obre en nova pestanya)">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
@@ -45,15 +49,6 @@
       </div>
       <div class="footer-powered">
         <span class="footer-powered-text">Powered by <a href="https://linuxbcn.com" target="_blank" rel="noopener noreferrer" aria-label="LinuxBCN (obre en nova pestanya)">LinuxBCN</a></span>
-      </div>
-    </div>
-    <div class="footer-newsletter" id="newsletter">
-      <div class="footer-newsletter__intro">
-        <span class="footer-newsletter__kicker">{{ if eq .Site.Language.Lang "en" }}Newsletter{{ else }}Butlletí{{ end }}</span>
-        <p class="footer-newsletter__desc">{{ if eq .Site.Language.Lang "en" }}Monthly resources for artists: guides, tools and what's happening in the arts scene.{{ else }}Recursos mensuals per a artistes: guies, eines i el que passa a l'escena cultural.{{ end }}</p>
-      </div>
-      <div class="footer-newsletter__form">
-        {{ partial "newsletter-form.html" . }}
       </div>
     </div>
     <div class="footer-legal">

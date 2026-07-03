@@ -37,7 +37,12 @@
           </div>
         </div>
         <div class="brevo-gdpr">
-          {{ if eq .Site.Language.Lang "en" }}By subscribing, you agree that the personal data you provided will be transferred to Brevo for processing. <a href="https://www.brevo.com/en/legal/privacypolicy/" target="_blank" rel="nofollow noopener">Brevo's Privacy Policy</a>.{{ else }}En subscriure't, acceptes que les dades personals facilitades siguin transferides a Brevo per al seu tractament. <a href="https://www.brevo.com/en/legal/privacypolicy/" target="_blank" rel="nofollow noopener">Política de privacitat de Brevo</a>.{{ end }}
+          <label class="brevo-gdpr__label">
+            <input type="checkbox" class="brevo-gdpr__check" required />
+            <span>
+              {{ if eq .Site.Language.Lang "en" }}I accept the <a href="/en/legal/privacy/" target="_blank" rel="noopener">Ressona Privacy Policy</a> and agree that my data will be processed by <a href="https://www.brevo.com/en/legal/privacypolicy/" target="_blank" rel="nofollow noopener">Brevo</a> for sending the newsletter.{{ else }}Accepto la <a href="/legal/privacitat/" target="_blank" rel="noopener">Política de privacitat de Ressona</a> i consento que les meves dades siguin tractades per <a href="https://www.brevo.com/en/legal/privacypolicy/" target="_blank" rel="nofollow noopener">Brevo</a> per a l'enviament del butlletí.{{ end }}
+            </span>
+          </label>
         </div>
         <div class="g-recaptcha-v3" data-sitekey="6LeXlUItAAAAAEXYWurezhvEN7uRaBg5dXepfdLn" style="display:none"></div>
         <div class="sib-form-block">

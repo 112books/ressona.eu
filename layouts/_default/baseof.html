@@ -184,6 +184,41 @@
   {{ partial "footer.html" . }}
   {{ partial "progress.html" . }}
   {{ partial "search.html" . }}
+  <div id="newsletter-modal" class="nl-modal" role="dialog" aria-modal="true" aria-label="{{ if eq .Language.Lang "en" }}Subscribe to newsletter{{ else }}Subscriu-te al butlletí{{ end }}" hidden>
+    <div class="nl-modal__backdrop" id="newsletter-backdrop"></div>
+    <div class="nl-modal__box">
+      <button class="nl-modal__close" id="newsletter-close" aria-label="{{ if eq .Language.Lang "en" }}Close{{ else }}Tancar{{ end }}"><span aria-hidden="true">×</span></button>
+      <p class="nl-modal__kicker">{{ if eq .Language.Lang "en" }}Newsletter{{ else }}Butlletí{{ end }}</p>
+      <h2 class="nl-modal__title">{{ if eq .Language.Lang "en" }}Monthly resources for artists{{ else }}Recursos mensuals per a artistes{{ end }}</h2>
+      <p class="nl-modal__desc">{{ if eq .Language.Lang "en" }}Guides, tools and what's happening in the arts scene. No spam.{{ else }}Guies, eines i el que passa a l'escena cultural. Sense spam.{{ end }}</p>
+      {{ partial "newsletter-form.html" . }}
+    </div>
+  </div>
+  <script>
+  (function(){
+    var modal = document.getElementById('newsletter-modal');
+    var openBtn = document.getElementById('newsletter-open');
+    var closeBtn = document.getElementById('newsletter-close');
+    var backdrop = document.getElementById('newsletter-backdrop');
+    if (!modal || !openBtn) return;
+    function openModal() {
+      modal.hidden = false;
+      document.body.style.overflow = 'hidden';
+      closeBtn && closeBtn.focus();
+    }
+    function closeModal() {
+      modal.hidden = true;
+      document.body.style.overflow = '';
+      openBtn.focus();
+    }
+    openBtn.addEventListener('click', openModal);
+    closeBtn && closeBtn.addEventListener('click', closeModal);
+    backdrop && backdrop.addEventListener('click', closeModal);
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && !modal.hidden) closeModal();
+    });
+  })();
+  </script>
   {{ if not (or (eq .RelPermalink "/comenca/") (eq .RelPermalink "/en/start/")) }}
   <div id="debut-popup" class="debut-popup" role="complementary" aria-label="{{ if eq .Language.Lang "en" }}Web Debut offer{{ else }}Oferta Web de debut{{ end }}">
     <button id="debut-close" class="debut-popup__close" aria-label="{{ if eq .Language.Lang "en" }}Close{{ else }}Tancar{{ end }}"><span aria-hidden="true">×</span></button>
