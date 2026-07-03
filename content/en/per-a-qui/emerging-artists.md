@@ -17,27 +17,32 @@ Emerging doesn't mean inexperienced. It means new to the professional sector —
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">01</span>
-<strong>A professional bio.</strong> In two lengths: short (three lines for Instagram, forms and quick introductions) and long (a paragraph for dossiers and press). It's the first thing absolutely everyone will ask you for — organisers, journalists, galleries, programmers, grant juries. Without a clear and up-to-date bio, every opportunity starts with a delay. Read: <a href="/en/resources/artist-bio/">how to write an artist bio</a>.
+
+**A professional bio.** In two lengths: short (three lines for Instagram, forms and quick introductions) and long (a paragraph for dossiers and press). It's the first thing absolutely everyone will ask you for — organisers, journalists, galleries, programmers, grant juries. Without a clear and up-to-date bio, every opportunity starts with a delay. Read: <a href="/en/resources/artist-bio/">how to write an artist bio</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">02</span>
-<strong>Minimum press photos.</strong> A professional portrait and one photo in action or in your working context. Without this pair, you can't send anything to any programmer, journalist or promoter. This isn't a luxury — it's the functional minimum. Phone photos taken by a well-meaning friend don't serve the purpose. Ressona works with Pocallum for photography sessions for artists in their early stage. Read: <a href="/en/resources/press-photos/">press photos for artists</a>.
+
+**Minimum press photos.** A professional portrait and one photo in action or in your working context. Without this pair, you can't send anything to any programmer, journalist or promoter. This isn't a luxury — it's the functional minimum. Phone photos taken by a well-meaning friend don't serve the purpose. Ressona works with Pocallum for photography sessions for artists in their early stage. Read: <a href="/en/resources/press-photos/">press photos for artists</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">03</span>
-<strong>A professional contact address.</strong> `name@artisticname.com` instead of `artisticname2003@gmail.com`. It's a small detail with a disproportionate impact on how you're perceived. Your own domain costs just a few euros a year and sends a clear signal that you take your project seriously. Ressona works with LinuxBCN to set up professional email for artists.
+
+**A professional contact address.** `name@artisticname.com` instead of `artisticname2003@gmail.com`. It's a small detail with a disproportionate impact on how you're perceived. Your own domain costs just a few euros a year and sends a clear signal that you take your project seriously. Ressona works with LinuxBCN to set up professional email for artists.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">04</span>
-<strong>A digital presence point.</strong> It can be a Linktree or a simple page to start with — but the goal is to have your own website within a reasonable timeframe. The reason: platforms change their terms, disappear or lose relevance. Your own domain is the only digital asset you fully control. Read the debate: <a href="/en/resources/website-vs-linktree/">own website vs Linktree: when to switch</a>.
+
+**A digital presence point.** It can be a Linktree or a simple page to start with — but the goal is to have your own website within a reasonable timeframe. The reason: platforms change their terms, disappear or lose relevance. Your own domain is the only digital asset you fully control. Read the debate: <a href="/en/resources/website-vs-linktree/">own website vs Linktree: when to switch</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
-<strong>A minimum EPK.</strong> It doesn't need to be perfect — it needs to be functional and up to date. Bio, downloadable photos, project description and contact. An outdated EPK is worse than not having one: it projects carelessness. The goal is to have a document you can send today that accurately represents where you are right now. Read: <a href="/en/resources/what-is-an-epk/">what is an EPK and what it's for</a>.
+
+**A minimum EPK.** It doesn't need to be perfect — it needs to be functional and up to date. Bio, downloadable photos, project description and contact. An outdated EPK is worse than not having one: it projects carelessness. The goal is to have a document you can send today that accurately represents where you are right now. Read: <a href="/en/resources/what-is-an-epk/">what is an EPK and what it's for</a>.
 </div>
 
 </div>

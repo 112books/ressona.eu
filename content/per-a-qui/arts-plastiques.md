@@ -53,27 +53,32 @@ El circuit de les arts visuals té les seves pròpies convencions. No és el mat
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">01</span>
-<strong>Portfolio digital.</strong> No un PDF, sinó una web actualitzable. Ha d'estar organitzat per sèries, amb dates, dimensions, tècnica i disponibilitat de cada peça. El portfolio és la primera impressió i el document de referència permanent — ha de ser navegable en mòbil i càrrega ràpid. Ressona treballa amb LinuxBCN per construir portfolios d'artista optimitzats per a cercadors i fàcils de mantenir.
+
+**Portfolio digital.** No un PDF, sinó una web actualitzable. Ha d'estar organitzat per sèries, amb dates, dimensions, tècnica i disponibilitat de cada peça. El portfolio és la primera impressió i el document de referència permanent — ha de ser navegable en mòbil i càrrega ràpid. Ressona treballa amb LinuxBCN per construir portfolios d'artista optimitzats per a cercadors i fàcils de mantenir.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">02</span>
-<strong>Dossier artístic i EPK.</strong> El document que presentes a galeries, festivals, residències i convocatòries. Inclou: statement artístic (versió curta i llarga), CV d'exposicions i formació, selecció d'obra amb fitxes tècniques i imatges en alta resolució, exposicions anteriors i, si és el cas, premis i reconeixements. Llegeix la guia: <a href="/recursos/epk-arts-plastiques/">EPK per a arts plàstiques</a>.
+
+**Dossier artístic i EPK.** El document que presentes a galeries, festivals, residències i convocatòries. Inclou: statement artístic (versió curta i llarga), CV d'exposicions i formació, selecció d'obra amb fitxes tècniques i imatges en alta resolució, exposicions anteriors i, si és el cas, premis i reconeixements. Llegeix la guia: <a href="/recursos/epk-arts-plastiques/">EPK per a arts plàstiques</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">03</span>
-<strong>Fotografies de l'obra.</strong> Una mala foto destrueix una obra excel·lent. Les imatges d'obra han de ser fetes amb llum adequada, angle correcte i resolució suficient per a ús editorial i impressió. Ressona treballa amb Pocallum per a les sessions de documentació d'obra d'artistes plàstiques i plàstics. Llegeix: <a href="/recursos/fotos-de-premsa/">fotografies professionals per a artistes</a>.
+
+**Fotografies de l'obra.** Una mala foto destrueix una obra excel·lent. Les imatges d'obra han de ser fetes amb llum adequada, angle correcte i resolució suficient per a ús editorial i impressió. Ressona treballa amb Pocallum per a les sessions de documentació d'obra d'artistes plàstiques i plàstics. Llegeix: <a href="/recursos/fotos-de-premsa/">fotografies professionals per a artistes</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">04</span>
-<strong>Identitat visual coherent.</strong> El teu nom artístic ha de ser recognoscible: logotip o marca personal, paleta de colors, tipografia. Quan algú rep el teu dossier, visita el teu web i et troba a Instagram, ha de tenir la mateixa sensació visual. La coherència projecta professionalitat sense necessitat d'explicar-ho. Ressona treballa amb Pocallum per al disseny d'identitat visual d'artistes.
+
+**Identitat visual coherent.** El teu nom artístic ha de ser recognoscible: logotip o marca personal, paleta de colors, tipografia. Quan algú rep el teu dossier, visita el teu web i et troba a Instagram, ha de tenir la mateixa sensació visual. La coherència projecta professionalitat sense necessitat d'explicar-ho. Ressona treballa amb Pocallum per al disseny d'identitat visual d'artistes.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
-<strong>Web amb contacte directe.</strong> El portfolio ha d'incloure una forma de contacte clara per a galeries, col·leccionistes i institucions. Un formulari específic per a consultes comercials és diferent d'un formulari genèric. El context importa: la persona que et contacta ha de saber que parla amb algú que entén la diferència entre una consulta de col·leccionista i una d'exposició.
+
+**Web amb contacte directe.** El portfolio ha d'incloure una forma de contacte clara per a galeries, col·leccionistes i institucions. Un formulari específic per a consultes comercials és diferent d'un formulari genèric. El context importa: la persona que et contacta ha de saber que parla amb algú que entén la diferència entre una consulta de col·leccionista i una d'exposició.
 </div>
 
 </div>

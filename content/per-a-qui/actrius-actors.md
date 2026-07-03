@@ -51,27 +51,32 @@ Cada professional del sector utilitza eines i criteris de cerca diferents. Conè
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">01</span>
-<strong>Showreel actualitzat.</strong> La peça central de la teva identitat professional. Ha de mostrar el millor de la teva feina recent, amb varietat de registres si el tens. Durada màxima: 2-3 minuts. Ha de ser accessible en streaming (YouTube o Vimeo privat amb contrasenya si cal) i actualitzar-se quan la teva carrera avança. Un showreel de 2019 diu que no has treballat des del 2019.
+
+**Showreel actualitzat.** La peça central de la teva identitat professional. Ha de mostrar el millor de la teva feina recent, amb varietat de registres si el tens. Durada màxima: 2-3 minuts. Ha de ser accessible en streaming (YouTube o Vimeo privat amb contrasenya si cal) i actualitzar-se quan la teva carrera avança. Un showreel de 2019 diu que no has treballat des del 2019.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">02</span>
-<strong>Press kit digital.</strong> Bio professional en dues longituds (curta per a programes, llarga per a dossiers), currículum per disciplines (teatre, cinema, televisió, doblatge), fotos de premsa descarregables i links a tot el material audiovisual. Tot en un sol espai web accessible des d'un enllaç. Llegeix: <a href="/recursos/press-kit-digital-actors/">press kit digital per a actors i actrius</a>.
+
+**Press kit digital.** Bio professional en dues longituds (curta per a programes, llarga per a dossiers), currículum per disciplines (teatre, cinema, televisió, doblatge), fotos de premsa descarregables i links a tot el material audiovisual. Tot en un sol espai web accessible des d'un enllaç. Llegeix: <a href="/recursos/press-kit-digital-actors/">press kit digital per a actors i actrius</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">03</span>
-<strong>Plataformes de càsting.</strong> Perfil actualitzat a les plataformes rellevants per al teu mercat: Casting.es, Mandy.com, Backstage (per a mercat internacional), ActorsAccess. Cada plataforma té la seva lògica i el seu públic. La clau és mantenir-les actualitzades — un perfil obsolet és pitjor que no tenir-ne cap.
+
+**Plataformes de càsting.** Perfil actualitzat a les plataformes rellevants per al teu mercat: Casting.es, Mandy.com, Backstage (per a mercat internacional), ActorsAccess. Cada plataforma té la seva lògica i el seu públic. La clau és mantenir-les actualitzades — un perfil obsolet és pitjor que no tenir-ne cap.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">04</span>
-<strong>Web pròpia.</strong> El teu espai digital independent de qualsevol plataforma. Inclou el teu showreel, el currículum complet, les fotos professionals i un formulari de contacte directe. A diferència de les plataformes de càsting, el teu web no filtra ni et posa en competència directa amb cent altres perfils — ets l'únic protagonista.
+
+**Web pròpia.** El teu espai digital independent de qualsevol plataforma. Inclou el teu showreel, el currículum complet, les fotos professionals i un formulari de contacte directe. A diferència de les plataformes de càsting, el teu web no filtra ni et posa en competència directa amb cent altres perfils — ets l'únic protagonista.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
-<strong>Fotos professionals: headshot i en acció.</strong> El headshot és la teva carta de presentació en totes les plataformes. Ha de ser actual, ben il·luminat i representar com ets ara. Les fotos en acció mostren registres, presència escènica i versatilitat. Ressona treballa amb Pocallum per a sessions fotogràfiques d'actrius i actors. Llegeix: <a href="/recursos/fotos-de-premsa/">fotos de premsa per a artistes</a>.
+
+**Fotos professionals: headshot i en acció.** El headshot és la teva carta de presentació en totes les plataformes. Ha de ser actual, ben il·luminat i representar com ets ara. Les fotos en acció mostren registres, presència escènica i versatilitat. Ressona treballa amb Pocallum per a sessions fotogràfiques d'actrius i actors. Llegeix: <a href="/recursos/fotos-de-premsa/">fotos de premsa per a artistes</a>.
 </div>
 
 </div>

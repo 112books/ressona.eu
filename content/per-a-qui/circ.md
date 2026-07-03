@@ -51,27 +51,32 @@ Les oportunitats per a una companyia de circ no arriben totes per la mateixa via
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">01</span>
-<strong>EPK tècnic complet.</strong> Per al circ, el rider tècnic és el document més crític. Ha d'especificar les dimensions mínimes d'escenari, l'altura de graella necessària, els punts de rigging i les càrregues màximes, el temps de muntatge i desmuntatge, el número de tècnics necessaris i els requeriments elèctrics. Sense un rider clar, la negociació amb qualsevol festival o sala és impossible. Llegeix la guia: <a href="/recursos/epk-dansa-circ/">EPK per a companyies de dansa i circ</a>.
+
+**EPK tècnic complet.** Per al circ, el rider tècnic és el document més crític. Ha d'especificar les dimensions mínimes d'escenari, l'altura de graella necessària, els punts de rigging i les càrregues màximes, el temps de muntatge i desmuntatge, el número de tècnics necessaris i els requeriments elèctrics. Sense un rider clar, la negociació amb qualsevol festival o sala és impossible. Llegeix la guia: <a href="/recursos/epk-dansa-circ/">EPK per a companyies de dansa i circ</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">02</span>
-<strong>Vídeo de la peça (no una compilació).</strong> El vídeo que necessita un programador no és un muntatge dels millors moments de la companyia dels darrers anys. Necessita veure la peça concreta que es proposa: la seva estructura, ritme, durada real i qualitat tècnica. El format ideal és la gravació d'una actuació professional completa, o els millors deu minuts en context real. Un vídeo net i ben enregistrat sempre supera una producció elaborada d'un espectacle diferent.
+
+**Vídeo de la peça (no una compilació).** El vídeo que necessita un programador no és un muntatge dels millors moments de la companyia dels darrers anys. Necessita veure la peça concreta que es proposa: la seva estructura, ritme, durada real i qualitat tècnica. El format ideal és la gravació d'una actuació professional completa, o els millors deu minuts en context real. Un vídeo net i ben enregistrat sempre supera una producció elaborada d'un espectacle diferent.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">03</span>
-<strong>Fotos d'acció professionals.</strong> El circ és visualment potent: les fotos han de capturar el moviment i el risc sense trampantull. Una foto estàtica en un estudi no transmet res de l'espectacle. Les imatges han de mostrar la peça en actuació real, amb llum d'escena i context espacial. Ressona treballa amb Pocallum per a sessions fotogràfiques d'arts escèniques. Llegeix: <a href="/recursos/fotos-de-premsa/">fotos de premsa per a artistes</a>.
+
+**Fotos d'acció professionals.** El circ és visualment potent: les fotos han de capturar el moviment i el risc sense trampantull. Una foto estàtica en un estudi no transmet res de l'espectacle. Les imatges han de mostrar la peça en actuació real, amb llum d'escena i context espacial. Ressona treballa amb Pocallum per a sessions fotogràfiques d'arts escèniques. Llegeix: <a href="/recursos/fotos-de-premsa/">fotos de premsa per a artistes</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">04</span>
-<strong>Web amb fitxa tècnica en PDF descàrregable.</strong> La fitxa tècnica ha d'estar disponible com a PDF descarregable des del web de la companyia, sense que el programador hagi de demanar-la per correu. El web és el centre de la identitat digital: ha d'incloure fitxa tècnica, galeria de fotos, vídeos, historial de gira i contacte directe. Ressona treballa amb LinuxBCN per construir webs de companyies escèniques optimitzades per a cercadors i fàcils de mantenir.
+
+**Web amb fitxa tècnica en PDF descàrregable.** La fitxa tècnica ha d'estar disponible com a PDF descarregable des del web de la companyia, sense que el programador hagi de demanar-la per correu. El web és el centre de la identitat digital: ha d'incloure fitxa tècnica, galeria de fotos, vídeos, historial de gira i contacte directe. Ressona treballa amb LinuxBCN per construir webs de companyies escèniques optimitzades per a cercadors i fàcils de mantenir.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
-<strong>Presència a directoris especialitzats.</strong> Circostrada és el directori de referència del circ contemporani europeu; FEDEC, la federació europea d'escoles de circ. Aparèixer-hi no és automàtic ni garanteix contractació, però és el mapa on naveguen els programadors i coproductors del sector. La presència és condició necessària per a la distribució internacional.
+
+**Presència a directoris especialitzats.** Circostrada és el directori de referència del circ contemporani europeu; FEDEC, la federació europea d'escoles de circ. Aparèixer-hi no és automàtic ni garanteix contractació, però és el mapa on naveguen els programadors i coproductors del sector. La presència és condició necessària per a la distribució internacional.
 </div>
 
 </div>

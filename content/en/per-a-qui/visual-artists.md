@@ -53,27 +53,32 @@ The visual arts circuit has its own conventions. It's not the same as the music 
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">01</span>
-<strong>Digital portfolio.</strong> Not a PDF — an updatable website. It should be organised by series, with dates, dimensions, technique and availability for each piece. The portfolio is the first impression and the permanent reference document — it must be mobile-friendly and load quickly. Ressona works with LinuxBCN to build artist portfolios optimised for search engines and easy to maintain.
+
+**Digital portfolio.** Not a PDF — an updatable website. It should be organised by series, with dates, dimensions, technique and availability for each piece. The portfolio is the first impression and the permanent reference document — it must be mobile-friendly and load quickly. Ressona works with LinuxBCN to build artist portfolios optimised for search engines and easy to maintain.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">02</span>
-<strong>Artistic dossier and EPK.</strong> The document you present to galleries, festivals, residencies and open calls. It includes: artistic statement (short and long version), exhibition and education CV, selected works with technical sheets and high-resolution images, previous exhibitions and, where relevant, awards and recognition. Read the guide: <a href="/en/resources/epk-visual-arts/">EPK for visual arts</a>.
+
+**Artistic dossier and EPK.** The document you present to galleries, festivals, residencies and open calls. It includes: artistic statement (short and long version), exhibition and education CV, selected works with technical sheets and high-resolution images, previous exhibitions and, where relevant, awards and recognition. Read the guide: <a href="/en/resources/epk-visual-arts/">EPK for visual arts</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">03</span>
-<strong>Artwork photography.</strong> A bad photo destroys excellent work. Artwork images must be taken with appropriate lighting, correct angle and sufficient resolution for editorial use and print. Ressona works with Pocallum for artwork documentation sessions for visual artists. Read: <a href="/en/resources/press-photos/">professional photos for artists</a>.
+
+**Artwork photography.** A bad photo destroys excellent work. Artwork images must be taken with appropriate lighting, correct angle and sufficient resolution for editorial use and print. Ressona works with Pocallum for artwork documentation sessions for visual artists. Read: <a href="/en/resources/press-photos/">professional photos for artists</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">04</span>
-<strong>Coherent visual identity.</strong> Your artistic name needs to be recognisable: logotype or personal brand, colour palette, typography. When someone receives your dossier, visits your website and finds you on Instagram, they should have the same visual experience. Coherence projects professionalism without needing to explain it. Ressona works with Pocallum for visual identity design for artists.
+
+**Coherent visual identity.** Your artistic name needs to be recognisable: logotype or personal brand, colour palette, typography. When someone receives your dossier, visits your website and finds you on Instagram, they should have the same visual experience. Coherence projects professionalism without needing to explain it. Ressona works with Pocallum for visual identity design for artists.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
-<strong>Website with direct contact.</strong> The portfolio must include a clear way for galleries, collectors and institutions to get in touch. A specific form for commercial enquiries is different from a generic contact form. Context matters: the person contacting you needs to feel they're speaking with someone who understands the difference between a collector enquiry and an exhibition proposal.
+
+**Website with direct contact.** The portfolio must include a clear way for galleries, collectors and institutions to get in touch. A specific form for commercial enquiries is different from a generic contact form. Context matters: the person contacting you needs to feel they're speaking with someone who understands the difference between a collector enquiry and an exhibition proposal.
 </div>
 
 </div>

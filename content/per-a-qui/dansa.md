@@ -51,27 +51,32 @@ Cada oportunitat arriba acompanyada d'algú que ha de prendre una decisió ràpi
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">01</span>
-<strong>EPK de companyia.</strong> L'EPK de dansa és diferent de l'EPK d'un músic: inclou fitxa tècnica completa (dimensions d'escenari, requeriments de rigging, temps de muntatge, personal necessari), dossier artístic, sinopsi en dos formats (curta i llarga), fitxa de l'equip artístic i rider. Tot accessible en un sol enllaç. Llegeix la guia: <a href="/recursos/epk-dansa-circ/">EPK per a companyies de dansa i circ</a>.
+
+**EPK de companyia.** L'EPK de dansa és diferent de l'EPK d'un músic: inclou fitxa tècnica completa (dimensions d'escenari, requeriments de rigging, temps de muntatge, personal necessari), dossier artístic, sinopsi en dos formats (curta i llarga), fitxa de l'equip artístic i rider. Tot accessible en un sol enllaç. Llegeix la guia: <a href="/recursos/epk-dansa-circ/">EPK per a companyies de dansa i circ</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">02</span>
-<strong>Fotos d'escena en alta resolució.</strong> La diferència clau per a la dansa: han de ser fotos d'acció, no de posada. Una foto posada d'intèrprets en escenari buit no comunica res sobre l'espectacle. El que necessita un programador és veure el moviment, la llum, la relació entre cossos i espai. Ressona treballa amb Pocallum per a sessions fotogràfiques d'escena durant assajos i estrenes. Llegeix: <a href="/recursos/fotos-de-premsa/">fotos de premsa per a artistes</a>.
+
+**Fotos d'escena en alta resolució.** La diferència clau per a la dansa: han de ser fotos d'acció, no de posada. Una foto posada d'intèrprets en escenari buit no comunica res sobre l'espectacle. El que necessita un programador és veure el moviment, la llum, la relació entre cossos i espai. Ressona treballa amb Pocallum per a sessions fotogràfiques d'escena durant assajos i estrenes. Llegeix: <a href="/recursos/fotos-de-premsa/">fotos de premsa per a artistes</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">03</span>
-<strong>Vídeo de la peça concreta.</strong> No un showreel de la companyia: el vídeo de l'espectacle que es proposa. Un programador necessita veure com és la peça de principi a fi (o els millors quinze minuts), amb so correcte i enquadrament que permeti llegir l'espai escènic. Un vídeo de mòbil ben fet és millor que un vídeo professional de fa set anys d'un espectacle diferent.
+
+**Vídeo de la peça concreta.** No un showreel de la companyia: el vídeo de l'espectacle que es proposa. Un programador necessita veure com és la peça de principi a fi (o els millors quinze minuts), amb so correcte i enquadrament que permeti llegir l'espai escènic. Un vídeo de mòbil ben fet és millor que un vídeo professional de fa set anys d'un espectacle diferent.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">04</span>
-<strong>Web de la companyia amb fitxa tècnica descàrregable.</strong> El web és el centre permanent de la identitat digital de la companyia. Ha d'incloure fitxa tècnica en PDF descàrregable, galeria de fotos d'escena, vídeos, historial de gira, bio de l'equip i contacte directe. Ressona treballa amb LinuxBCN per construir webs de companyies escèniques optimitzades per a cercadors i fàcils d'actualitzar.
+
+**Web de la companyia amb fitxa tècnica descàrregable.** El web és el centre permanent de la identitat digital de la companyia. Ha d'incloure fitxa tècnica en PDF descàrregable, galeria de fotos d'escena, vídeos, historial de gira, bio de l'equip i contacte directe. Ressona treballa amb LinuxBCN per construir webs de companyies escèniques optimitzades per a cercadors i fàcils d'actualitzar.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
-<strong>Presència als circuits europeus.</strong> Circostrada, Aerowaves, On the Move: directoris i xarxes de programadors europeus que treballen específicament amb arts escèniques contemporànies. Aparèixer-hi no garanteix res, però no aparèixer-hi elimina oportunitats de manera sistemàtica. La presència és el primer pas per als circuits de distribució internacional.
+
+**Presència als circuits europeus.** Circostrada, Aerowaves, On the Move: directoris i xarxes de programadors europeus que treballen específicament amb arts escèniques contemporànies. Aparèixer-hi no garanteix res, però no aparèixer-hi elimina oportunitats de manera sistemàtica. La presència és el primer pas per als circuits de distribució internacional.
 </div>
 
 </div>
