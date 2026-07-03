@@ -2385,6 +2385,12 @@ img, svg { display: block; }
   opacity: 1;
 }
 .recursos-cat-nav__icon svg { display: block; }
+.recursos-cat-nav__count {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1;
+}
 .recursos-cat-nav__label {
   font-size: 0.65rem;
   font-weight: 600;
