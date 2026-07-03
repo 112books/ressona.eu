@@ -41,6 +41,7 @@
       {{ if $catPages }}
       <a href="#cat-{{ .slug }}" class="recursos-cat-nav__item">
         <span class="recursos-cat-nav__icon" aria-hidden="true">{{ .icon | safeHTML }}</span>
+        <span class="recursos-cat-nav__count" aria-label="{{ len $catPages }} articles">{{ len $catPages }}</span>
         <span class="recursos-cat-nav__label">{{ .label }}</span>
       </a>
       {{ end }}
