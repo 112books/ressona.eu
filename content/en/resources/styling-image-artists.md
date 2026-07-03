@@ -33,6 +33,8 @@ Not to copy them: to understand how the process works.
 
 **[Nick Cave](https://www.nickcave.com/)** has spent decades with an image that does not change but is absolutely his own: the black, the seriousness, the visual intensity that perfectly anticipates his music.
 
+**[Sun Ra](https://www.sunra.com/)** built a complete visual universe from the 1950s onwards: Egyptian mythology, cosmic aesthetics, elaborate costumes, an artistic name as a statement of principles. Fifty years before anyone spoke of "personal branding", Sun Ra was already a total brand — unmistakable, coherent and radically his own.
+
 The question is not "how do I copy them". The question is: **what is your visual universe, and how does it look?**
 
 ## How to build your own style

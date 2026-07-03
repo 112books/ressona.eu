@@ -33,6 +33,8 @@ No per copiar-los: per entendre com funciona el procés.
 
 **[Nick Cave](https://www.nickcave.com/)** porta dècades amb una imatge que no canvia però que és absolutament seva: el negre, la seriositat, la intensitat visual que anticipa perfectament la seva música.
 
+**[Sun Ra](https://www.sunra.com/)** va construir un univers visual complet des dels anys 50: mitologia egípcia, estètica còsmica, vestuari elaboradíssim, nom artístic com a declaració de principis. Cinquanta anys abans que ningú parlés de "personal branding", Sun Ra ja era una marca total —inconfusible, coherent i radicalment pròpia.
+
 La pregunta no és "com me'ls copio". La pregunta és: **quin univers visual és el teu, i com es veu?**
 
 ## Com construir un estil propi
