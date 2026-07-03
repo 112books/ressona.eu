@@ -3,6 +3,7 @@ title: "Techno Route Across Europe: Essential Festivals and Reference Clubs"
 description: "From Berghain to Sónar, from Dekmantel to Time Warp. A guide for fans who want to follow the circuit and for electronic artists who want to understand the scene from the inside."
 date: 2026-07-02
 tags: ["techno", "electronic-music", "travel", "live-music", "festivals", "where-to-play", "clubs", "underground"]
+translationKey: "techno-route-europe"
 category: on-tocar
 featured: true
 ---
