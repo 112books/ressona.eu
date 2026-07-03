@@ -4,6 +4,7 @@ description: "LinkedIn isn't for musicians or actors, many say. But it depends w
 date: 2026-06-12
 tags: ["social-media", "digital-tools"]
 category: identitat
+translationKey: "blog-artist-on-linkedin"
 ---
 
 The short answer: **it depends**. LinkedIn isn't Instagram or Spotify. But for some artist profiles, it's a tool that shouldn't be ignored.

@@ -4,6 +4,7 @@ description: "París, Londres, Copenhaguen, Amsterdam, Berlín, Viena, Montreux,
 date: 2026-07-02
 tags: ["jazz", "viatges", "festivals", "música-en-viu"]
 category: on-tocar
+translationKey: "blog-jazz-route-europe"
 ---
 
 Existeix una ruta que connecta les capitals jazzístiques d'Europa sense salts bruscos ni zig-zags. Deu ciutats, deu escenes, dues setmanes possibles. Des dels clubs del carrer Rue des Lombards a París fins als canals d'Amsterdam, les muralles de Montreux i la badia de La Concha a Sant Sebastià.

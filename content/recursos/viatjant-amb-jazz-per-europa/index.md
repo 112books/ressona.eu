@@ -5,6 +5,7 @@ date: 2026-07-01
 tags: ["jazz", "blues", "viatges", "música-en-viu", "festivals", "gira", "on-tocar", "clubs"]
 category: on-tocar
 featured: true
+translationKey: "travelling-with-jazz-europe"
 ---
 
 Hi ha dues maneres de viatjar amb jazz. La del **músic** que busca on tocar, on connectar amb escenes locals, on trobar la jam session del dijous per mantenir-se en forma i pagar la pensió. I la de l'**aficionat** que organitza les vacances al voltant d'un festival, que busca aquell club íntim que surti a les llistes de millors d'Europa, que vol arribar a una nova ciutat i tenir un pla per al vespre.

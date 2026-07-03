@@ -4,6 +4,7 @@ description: "Instagram could disappear tomorrow. Your mailing list can't. A new
 date: 2026-06-16
 tags: ["digital-tools", "social-media"]
 category: xarxes
+translationKey: "blog-newsletter-artists"
 ---
 
 Social networks lend you an audience. A newsletter gives you one you own. When Instagram changes its algorithm or TikTok gets banned in a market, your followers are trapped on the platform. Your mailing list follows you anywhere.

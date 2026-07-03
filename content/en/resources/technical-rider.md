@@ -4,6 +4,7 @@ description: "The rider is the document that determines whether a concert goes s
 date: 2026-06-18
 tags: ["professional-materials", "musicians", "concerts"]
 category: rider
+translationKey: "blog-technical-rider"
 ---
 
 A technical rider is the document you send to every venue, festival or promoter before a performance. It covers everything you need to be able to perform: sound equipment, lighting, stage space, dressing rooms, catering... A good rider saves hours of misunderstandings and signals that you know what you're doing.

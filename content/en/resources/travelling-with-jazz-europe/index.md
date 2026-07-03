@@ -5,6 +5,7 @@ date: 2026-07-01
 tags: ["jazz", "blues", "travel", "live music", "festivals", "touring", "where to play", "clubs"]
 category: on-tocar
 featured: true
+translationKey: "travelling-with-jazz-europe"
 ---
 
 There are two ways to travel with jazz. The **musician's** way: looking for places to play, for connections with local scenes, for the Thursday jam session to stay sharp and cover the rent. And the **enthusiast's** way: organising a holiday around a festival, hunting down that intimate club on Europe's best lists, arriving in a new city with a plan for the evening.

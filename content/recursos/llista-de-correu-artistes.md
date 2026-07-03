@@ -4,6 +4,7 @@ description: "La llista de correu és l'únic canal de comunicació directa que 
 date: 2026-07-02
 tags: ["materials-professionals", "xarxes-socials", "identitat-digital"]
 category: identitat
+translationKey: "blog-mailing-list-artists"
 ---
 
 Les xarxes socials canvien d'algoritme, limiten el teu abast orgànic o desapareixen. La llista de correu no: és teva, és directa i arriba a qui ha dit que vol rebre informació teva. Un missatge de newsletter té una taxa d'obertura del 20-40%; una publicació d'Instagram arriba orgànicament al 2-5% dels teus seguidors.

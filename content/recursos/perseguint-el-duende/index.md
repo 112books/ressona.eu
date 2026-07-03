@@ -4,6 +4,7 @@ description: "Des dels tablaos de Barcelona fins a les peñas de Jerez i els fes
 date: 2026-07-01
 tags: ["flamenc", "duende", "viatges", "cultura", "música-en-viu"]
 category: on-tocar
+translationKey: "chasing-the-duende"
 ---
 
 El flamenc no és només un estil musical: és una manera de sentir. Lorca en deia "duende", aquella emoció profunda que neix de la terra i esclata en el cos del cantaor, del guitarrista, del bailaor. Perseguint el duende és viatjar als llocs on el flamenc encara és viu, on les parets han absorbit segles de soleà, buleria i seguiriya.

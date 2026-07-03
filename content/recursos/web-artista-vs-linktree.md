@@ -4,6 +4,7 @@ description: "Linktree és pràctic i gratuït. Un web propi és l'única presè
 date: 2026-06-17
 tags: ["eines-digitals", "identitat-digital"]
 category: identitat
+translationKey: "blog-website-vs-linktree"
 ---
 
 Molts artistes substitueixen el seu web per un [Linktree](https://linktr.ee/) (o una eina similar com [Beacons](https://beacons.ai/), [bio.link](https://bio.link/) o [Later](https://later.com/link-in-bio/)). És comprensible: és gratuït, s'actualitza en dos minuts i compleix la funció "un sol lloc amb tots els meus links". Però hi ha coses que un Linktree mai podrà fer per tu.

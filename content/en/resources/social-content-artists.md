@@ -4,6 +4,7 @@ description: "Creative block on social media is real. Here are 20 content ideas 
 date: 2026-06-11
 tags: ["social-media", "digital-tools", "content"]
 category: xarxes
+translationKey: "blog-social-content-artists"
 ---
 
 Most artists fail on social media not from lack of talent or content, but from lack of structure. When it's time to post and you don't know what to say, you either don't post at all or you post something mediocre that doesn't represent your work.

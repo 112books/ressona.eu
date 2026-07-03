@@ -4,6 +4,7 @@ description: "From Black Sabbath's Birmingham to the Wacken fields. Scenes, subg
 date: 2026-07-02
 tags: ["rock", "heavy-metal", "hard-rock", "travel", "festivals", "live-music", "where-to-play"]
 category: on-tocar
+translationKey: "hard-rock-heavy-metal-europe"
 ---
 
 There are two ways to enter European hard rock. The **fan** who wants to know where heavy metal was born, which festival is worth the trip, which club in Birmingham or Oslo won't appear in any tourist guide. And the **musician** who wants to understand the circuit: which festivals programme emerging bands, where to send proposals, what the real path looks like for a metal band in Catalonia or Spain.

@@ -4,6 +4,7 @@ description: "A grants dossier is not a press kit. It has a different structure,
 date: 2026-06-15
 tags: ["grants-festivals", "materials-professionals", "funding"]
 category: ajudes
+translationKey: "blog-grants-dossier-artists"
 ---
 
 Arts grants and subsidies — from national arts councils, cultural ministries, private foundations or European programmes — require a specific dossier. Different from the press kit you send a festival. Different from the bio you send a booker. Here are the keys.

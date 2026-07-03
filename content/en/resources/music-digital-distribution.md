@@ -5,6 +5,7 @@ date: 2026-06-14
 tags: ["distribution", "digital-tools"]
 category: distribucio
 featured: true
+translationKey: "blog-music-digital-distribution"
 ---
 
 Digital distribution has democratised access to global markets: any independent artist can have their music on Spotify, Apple Music, Amazon Music, Tidal and 150 more platforms without needing a record label. But the system has nuances you need to understand to avoid losing money or rights.

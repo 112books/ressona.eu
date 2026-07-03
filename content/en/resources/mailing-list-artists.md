@@ -4,6 +4,7 @@ description: "Your mailing list is the only direct communication channel that's 
 date: 2026-07-02
 tags: ["professional-materials", "social-media", "digital-identity"]
 category: identitat
+translationKey: "blog-mailing-list-artists"
 ---
 
 Social media platforms change their algorithms, limit your organic reach or disappear altogether. Your mailing list doesn't: it's yours, it's direct and it reaches people who have said they want to hear from you. A newsletter has an open rate of 20–40%; an Instagram post reaches 2–5% of your followers organically.

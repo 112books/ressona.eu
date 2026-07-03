@@ -4,6 +4,7 @@ description: "Un llibre sobre la teva gira o el teu enregistrament no és un lux
 date: 2026-06-21
 tags: ["publicacions", "musics", "materials-professionals"]
 category: projectes
+translationKey: "blog-artist-book-tour-album"
 ---
 
 Hi ha moments en la vida d'un artista que mereixen quedar fixats d'una manera que una publicació de xarxes socials no pot aconseguir. Una gira llarga. L'enregistrament d'un disc que ha costat anys. El procés de creació d'un espectacle que ha definit una etapa.

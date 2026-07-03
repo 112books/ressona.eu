@@ -4,6 +4,7 @@ description: "Tot el que cal fer abans, durant i després d'una sessió fotogrà
 date: 2026-06-20
 tags: ["fotografia", "materials-professionals", "identitat-visual"]
 category: epk
+translationKey: "blog-professional-photo-session"
 ---
 
 Una bona sessió fotogràfica és una inversió. Per treure-li el màxim profit, la preparació és tan important com el talent del fotògraf. Aquí tens tot el que necessites saber.

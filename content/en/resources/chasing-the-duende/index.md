@@ -4,6 +4,7 @@ description: "From the tablaos of Barcelona to the peñas of Jerez and festivals
 date: 2026-07-01
 tags: ["flamenco", "duende", "travel", "culture", "live-music"]
 category: on-tocar
+translationKey: "chasing-the-duende"
 ---
 
 Flamenco is not just a musical style: it is a way of feeling. Lorca called it "duende" — that deep emotion born from the earth and erupting in the body of the cantaor, the guitarist, the bailaor. Chasing the duende means travelling to the places where flamenco is still alive, where the walls have absorbed centuries of soleá, bulería and seguiriya.

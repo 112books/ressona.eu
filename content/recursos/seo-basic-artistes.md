@@ -4,6 +4,7 @@ description: "No necessites ser expert en SEO. Però sí que necessites entendre
 date: 2026-06-19
 tags: ["eines-digitals", "identitat-digital", "cercadors"]
 category: identitat
+translationKey: "blog-seo-basics-artists"
 ---
 
 Quan un programador, un periodista o un segell discogràfic busca el teu nom a Google, el que veu en els primers resultats és el que defineix la seva primera impressió. Aquesta guia t'explica els conceptes essencials perquè puguis controlar-ho.

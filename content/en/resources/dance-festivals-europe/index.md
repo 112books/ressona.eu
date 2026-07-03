@@ -4,6 +4,7 @@ description: "Contemporary dance, folk, flamenco, urban and social. From Olot's 
 date: 2026-07-02
 tags: ["dance", "travel", "festivals", "live-music"]
 category: on-tocar
+translationKey: "dance-festivals-europe"
 ---
 
 Dance has no single home: it lives in the theatre and on the street, at summer festivals and intimate winter venues, in a European capital park and in a field in the middle of France where five thousand people dance together until dawn. Travelling from festival to festival is the most direct way to understand how the body moves across each tradition.

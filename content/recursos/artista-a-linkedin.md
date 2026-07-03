@@ -4,6 +4,7 @@ description: "LinkedIn no és per a músics ni actors, diuen molts. Però depèn
 date: 2026-06-12
 tags: ["xarxes-socials", "eines-digitals"]
 category: identitat
+translationKey: "blog-artist-on-linkedin"
 ---
 
 La resposta ràpida: **depèn**. LinkedIn no és Instagram ni Spotify. Però per a alguns perfils d'artistes és una eina que no s'hauria d'ignorar.

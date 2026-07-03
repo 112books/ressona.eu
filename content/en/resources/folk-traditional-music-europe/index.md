@@ -4,6 +4,7 @@ description: "From Tradicionàrius and the Fira Mediterrània to the Celtic fest
 date: 2026-07-01
 tags: ["folk", "traditional-music", "travel", "culture", "live-music"]
 category: on-tocar
+translationKey: "folk-traditional-music-europe"
 ---
 
 Folk music is not nostalgia: it is the living memory of a territory that keeps breathing. In Ireland, pub sessions stretch into the early hours with no stage and no billing. In Serbia, the brass horns of Guča ring out across the fields for a whole week. In Brittany, ten days of pipes and bombards transform Lorient into the Celtic capital of the world. And in Catalonia, the Tradicionàrius cycle brings the best of Mediterranean and world folk to Barcelona stages every winter.

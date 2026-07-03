@@ -4,6 +4,7 @@ description: "Registering as self-employed, income tax, VAT, deductible expenses
 date: 2026-07-01
 tags: ["professional-materials", "musicians"]
 category: legal
+translationKey: "blog-taxes-creative-freelancers"
 ---
 
 Tax is nobody's favourite topic. But it's one of the most important ones to understand, because the consequences of ignoring it arrive with surcharges and penalties.

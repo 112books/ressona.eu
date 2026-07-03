@@ -4,6 +4,7 @@ description: "A book about your tour or recording isn't a luxury — it's a tool
 date: 2026-06-21
 tags: ["publications", "musicians", "materials-professionals"]
 category: projectes
+translationKey: "blog-artist-book-tour-album"
 ---
 
 Some moments in an artist's life deserve to be fixed in a way that a social media post simply cannot achieve. A long tour. Recording an album that took years. The creative process behind a show that defined an era.

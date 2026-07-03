@@ -5,6 +5,7 @@ date: 2026-07-03
 tags: ["rock", "heavy-metal", "punk", "hard-rock", "música-en-viu", "festivals", "on-tocar", "clubs", "gira"]
 category: on-tocar
 featured: true
+translationKey: "hard-rock-heavy-metal-europe"
 ---
 
 Hi ha dues maneres d'entrar al rock dur europeu. La del **fan** que vol saber on va néixer l'heavy metal, quin festival val el viatge, quin club de Birmingham o d'Oslo és el que no surt a les guies de turisme. I la del **músic** que busca entendre el circuit: quins festivals programen bandes emergents, on es poden enviar propostes, quin és el recorregut real d'una banda de metal a Catalunya o a Espanya.

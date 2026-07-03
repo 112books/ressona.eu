@@ -4,6 +4,7 @@ description: "Dansa contemporània, folk, flamenc, urbana, social. Des del Sism�
 date: 2026-07-02
 tags: ["dansa", "viatges", "festivals", "música-en-viu"]
 category: on-tocar
+translationKey: "dance-festivals-europe"
 ---
 
 La dansa no té una sola casa: viu al teatre i al carrer, al festival d'estiu i a la sala íntima d'hivern, al parc d'una capital europea i al camp de mig França on cinc mil persones ballen juntes fins a l'alba. Viatjar de festival en festival és la manera més directa d'entendre com es mou el cos a cada tradició.

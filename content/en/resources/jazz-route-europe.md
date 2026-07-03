@@ -4,6 +4,7 @@ description: "Paris, London, Copenhagen, Amsterdam, Berlin, Vienna, Montreux, Ba
 date: 2026-07-02
 tags: ["jazz", "travel", "festivals", "live-music"]
 category: on-tocar
+translationKey: "blog-jazz-route-europe"
 ---
 
 There is a route that connects Europe's jazz capitals without unnecessary detours. Ten cities, ten scenes, two possible weeks. From the clubs on Rue des Lombards in Paris to the canals of Amsterdam, the lakeside stage at Montreux and the bay of La Concha in San Sebastián.

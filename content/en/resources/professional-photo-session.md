@@ -4,6 +4,7 @@ description: "Everything you need to do before, during and after a photo session
 date: 2026-06-20
 tags: ["photography", "materials-professionals", "visual-identity"]
 category: epk
+translationKey: "blog-professional-photo-session"
 ---
 
 A good photo session is an investment. To get the most out of it, preparation is just as important as the photographer's talent. Here's everything you need to know.

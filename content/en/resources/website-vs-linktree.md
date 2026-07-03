@@ -4,6 +4,7 @@ description: "Linktree is practical and free. Your own website is the only digit
 date: 2026-06-17
 tags: ["digital-tools", "digital-identity"]
 category: identitat
+translationKey: "blog-website-vs-linktree"
 ---
 
 Many artists replace their website with a Linktree (or a similar tool like Beacons, bio.link or Later's link-in-bio). It's understandable: free, updated in two minutes, solves the "one link with everything" problem. But there are things a Linktree can never do for you.

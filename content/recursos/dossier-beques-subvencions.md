@@ -4,6 +4,7 @@ description: "Un dossier per a beques no és un press kit. Té una estructura di
 date: 2026-06-15
 tags: ["beques-festivals", "materials-professionals", "finançament"]
 category: ajudes
+translationKey: "blog-grants-dossier-artists"
 ---
 
 Les beques i subvencions culturals —de l'ICEC, el Ministeri de Cultura, l'INAEM, fundacions privades o convocatòries europees— requereixen un dossier específic. Diferent del press kit que envies a un festival. Diferent de la bio per a un programador. Aquí et donem les claus.

@@ -4,6 +4,7 @@ description: "El bloqueig creatiu a les xarxes és real. Aquí tens 20 idees de 
 date: 2026-06-11
 tags: ["xarxes-socials", "eines-digitals", "contingut"]
 category: xarxes
+translationKey: "blog-social-content-artists"
 ---
 
 La majoria d'artistes fallen a les xarxes no per falta de talent ni de contingut, sinó per falta d'estructura. Quan et toca publicar i no saps qué dir, acabes no publicant. O publicant alguna cosa mediocre que no representa el teu treball.

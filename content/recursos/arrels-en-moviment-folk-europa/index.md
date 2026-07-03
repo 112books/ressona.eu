@@ -4,6 +4,7 @@ description: "Des de Tradicionàrius i la Fira Mediterrània fins als festivals 
 date: 2026-07-01
 tags: ["folk", "música-tradicional", "viatges", "cultura", "música-en-viu"]
 category: on-tocar
+translationKey: "folk-traditional-music-europe"
 ---
 
 La música folk no és nostàlgia: és la memòria viva d'un territori que continua respirant. A Irlanda, les sessions de pub s'allarguen fins a la matinada sense escenari ni cartell. A Sèrbia, les trompes de Guca ressonen als camps durant una setmana sencera. A Bretanya, deu dies de gaita i bombarda transformen Lorient en la capital celta del món. I a Catalunya, el cicle Tradicionàrius porta cada hivern el millor del folk mediterrani i mundial als escenaris de Barcelona.

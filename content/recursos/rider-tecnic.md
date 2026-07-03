@@ -4,6 +4,7 @@ description: "El rider és el document que determina si un concert es desenvolup
 date: 2026-06-18
 tags: ["materials-professionals", "musics", "concerts"]
 category: rider
+translationKey: "blog-technical-rider"
 ---
 
 El rider tècnic és el document que lliures a cada sala, festival o promotor on actuaràs. Conté tot el que necessites per poder actuar: equip de so, llums, espai d'escenari, camerinos, dinars de corda... Un bon rider estalvia hores de malentesos i deixa clar que saps el que fas.
