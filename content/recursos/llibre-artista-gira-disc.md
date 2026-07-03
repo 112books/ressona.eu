@@ -2,7 +2,7 @@
 title: "Del directe al paper: documenta la teva gira o el teu disc en un llibre"
 description: "Un llibre sobre la teva gira o el teu enregistrament no és un luxe: és una eina de connexió amb els fans i un record permanent de la teva feina. Aquí t'expliquem com funciona."
 date: 2026-06-21
-tags: ["publicacions"]
+tags: ["publicacions", "musics", "materials-professionals"]
 category: projectes
 ---
 

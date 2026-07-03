@@ -2,7 +2,7 @@
 title: "Identitat visual per a artistes: per on començar"
 description: "Logotip, colors, tipografia. La identitat visual no és un luxe — és la primera cosa que veu qualsevol programador, periodista o oient. Aquí tens el punt de partida."
 date: 2026-06-13
-tags: ["identitat-digital"]
+tags: ["identitat-digital", "identitat-visual", "eines-digitals"]
 category: identitat
 ---
 

@@ -2,7 +2,7 @@
 title: "Com preparar un dossier per a beques i subvencions"
 description: "Un dossier per a beques no és un press kit. Té una estructura diferent, un to diferent i uns requisits molt concrets que determinen si el teu projecte passa o no el filtre."
 date: 2026-06-15
-tags: ["beques-festivals"]
+tags: ["beques-festivals", "materials-professionals", "finançament"]
 category: ajudes
 ---
 

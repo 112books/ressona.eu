@@ -2,7 +2,7 @@
 title: "Qué publicar a les xarxes si ets artista (i no saps qué dir)"
 description: "El bloqueig creatiu a les xarxes és real. Aquí tens 20 idees de contingut que funcionen per a músics, actors, ballarins i artistes visuals, sense necessitat de ser influencer."
 date: 2026-06-11
-tags: ["xarxes-socials"]
+tags: ["xarxes-socials", "eines-digitals", "contingut"]
 category: xarxes
 ---
 

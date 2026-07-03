@@ -3,7 +3,7 @@ title: "How to Price Your Work as an Artist"
 description: "Hourly rate, project fee, minimum performance fee. Most artists charge less than they should. Here is the framework for calculating what you need to charge."
 translationKey: "blog-pricing-your-work"
 date: 2026-07-02
-tags: ["professional-materials"]
+tags: ["professional-materials", "business", "career-management"]
 category: legal
 ---
 

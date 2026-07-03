@@ -3,7 +3,7 @@ title: "Com posar preu al teu treball com a artista"
 description: "Tarifa hora, preu per projecte, cachet mínim. La majoria d'artistes cobren menys del que haurien. Aquí tens el marc per calcular el que has de cobrar."
 translationKey: "blog-pricing-your-work"
 date: 2026-07-02
-tags: ["materials-professionals"]
+tags: ["materials-professionals", "negoci", "gestio-carrera"]
 category: legal
 ---
 

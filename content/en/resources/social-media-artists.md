@@ -5,7 +5,7 @@ translationKey: "blog-social-media-artists"
 type: resources
 date: 2026-06-26
 author: "Ressona"
-tags: ["social-media"]
+tags: ["social-media", "digital-tools", "content"]
 category: xarxes
 featured: true
 ---

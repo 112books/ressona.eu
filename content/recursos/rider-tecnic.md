@@ -2,7 +2,7 @@
 title: "Rider tècnic: què és i com fer-lo bé"
 description: "El rider és el document que determina si un concert es desenvolupa bé o malament. Aprèn a redactar-lo de forma clara, realista i professional."
 date: 2026-06-18
-tags: ["materials-professionals"]
+tags: ["materials-professionals", "musics", "concerts"]
 category: rider
 ---
 

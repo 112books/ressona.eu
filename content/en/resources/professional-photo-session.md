@@ -2,7 +2,7 @@
 title: "How to prepare for a professional photo session"
 description: "Everything you need to do before, during and after a photo session to get the most out of it and end up with images that actually open doors."
 date: 2026-06-20
-tags: ["photography"]
+tags: ["photography", "materials-professionals", "visual-identity"]
 category: epk
 ---
 

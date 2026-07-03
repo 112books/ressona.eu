@@ -2,7 +2,7 @@
 title: "Technical rider: what it is and how to write one properly"
 description: "The rider is the document that determines whether a concert goes smoothly or falls apart. Learn how to write it clearly, realistically and professionally."
 date: 2026-06-18
-tags: ["professional-materials"]
+tags: ["professional-materials", "musicians", "concerts"]
 category: rider
 ---
 

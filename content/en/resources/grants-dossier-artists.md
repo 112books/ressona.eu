@@ -2,7 +2,7 @@
 title: "How to prepare a dossier for arts grants and subsidies"
 description: "A grants dossier is not a press kit. It has a different structure, a different tone and very specific requirements that determine whether your project passes the first filter or not."
 date: 2026-06-15
-tags: ["grants-festivals"]
+tags: ["grants-festivals", "materials-professionals", "funding"]
 category: ajudes
 ---
 

@@ -2,7 +2,7 @@
 title: "SEO basics for artists: how to appear on Google"
 description: "You don't need to be an SEO expert. But you do need to understand the 5 concepts that determine whether people find you when they search."
 date: 2026-06-19
-tags: ["digital-tools"]
+tags: ["digital-tools", "digital-identity", "search-engines"]
 category: identitat
 ---
 

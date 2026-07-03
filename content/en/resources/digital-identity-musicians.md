@@ -5,7 +5,7 @@ translationKey: "blog-musician-identity"
 type: resources
 date: 2026-06-22
 author: "Ressona"
-tags: ["digital-identity"]
+tags: ["digital-identity", "digital-tools", "musicians"]
 category: identitat
 featured: true
 ---

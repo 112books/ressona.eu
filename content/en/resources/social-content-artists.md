@@ -2,7 +2,7 @@
 title: "What to post on social media if you're an artist (and don't know what to say)"
 description: "Creative block on social media is real. Here are 20 content ideas that work for musicians, actors, dancers and visual artists — no need to be an influencer."
 date: 2026-06-11
-tags: ["social-media"]
+tags: ["social-media", "digital-tools", "content"]
 category: xarxes
 ---
 

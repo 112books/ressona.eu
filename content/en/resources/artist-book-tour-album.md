@@ -2,7 +2,7 @@
 title: "From stage to page: documenting your tour or album as a book"
 description: "A book about your tour or recording isn't a luxury — it's a tool for connecting with fans and a permanent record of your work. Here's how it works and where to start."
 date: 2026-06-21
-tags: ["publications"]
+tags: ["publications", "musicians", "materials-professionals"]
 category: projectes
 ---
 

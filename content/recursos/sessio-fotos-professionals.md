@@ -2,7 +2,7 @@
 title: "Com preparar una sessió de fotos professionals"
 description: "Tot el que cal fer abans, durant i després d'una sessió fotogràfica per aprofitar-la al màxim i obtenir imatges que realment obrin portes."
 date: 2026-06-20
-tags: ["fotografia"]
+tags: ["fotografia", "materials-professionals", "identitat-visual"]
 category: epk
 ---
 
