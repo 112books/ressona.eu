@@ -1,0 +1,66 @@
+{{ define "main" }}
+{{ $lang := .Language.Lang }}
+{{ $slug := .File.ContentBaseName }}
+{{ $baseURL := cond (eq $lang "en") "/en/per-a-qui/" "/per-a-qui/" }}
+
+{{ $profiles := slice
+  (dict "slug" "musics"              "slugEN" "musicians"          "labelCA" "Músics"              "labelEN" "Musicians")
+  (dict "slug" "actrius-actors"      "slugEN" "actors-actresses"   "labelCA" "Actrius i Actors"    "labelEN" "Actors & Actresses")
+  (dict "slug" "dansa"               "slugEN" "dance"              "labelCA" "Dansa"               "labelEN" "Dance")
+  (dict "slug" "circ"                "slugEN" "circus"             "labelCA" "Circ"                "labelEN" "Circus")
+  (dict "slug" "arts-plastiques"     "slugEN" "visual-artists"     "labelCA" "Arts Plàstiques"     "labelEN" "Visual Artists")
+  (dict "slug" "creadors-emergents"  "slugEN" "emerging-artists"   "labelCA" "Creadors Emergents"  "labelEN" "Emerging Artists")
+}}
+
+<div class="service-page">
+  <div class="service-page__inner">
+
+    <a href="{{ if eq $lang "en" }}/en/{{ else }}/{{ end }}" class="service-page__back">
+      ← {{ if eq $lang "en" }}Back{{ else }}Tornar{{ end }}
+    </a>
+
+    <header class="service-page__header">
+      <p class="section-label" style="margin-bottom:16px">{{ if eq $lang "en" }}For who{{ else }}Per a qui{{ end }}</p>
+      <h1 class="service-page__title">{{ .Title }}</h1>
+      {{ with .Description }}<p class="service-page__tagline">{{ . }}</p>{{ end }}
+    </header>
+
+    <nav class="article-cats-nav" aria-label="{{ if eq $lang "en" }}Profiles{{ else }}Perfils{{ end }}" style="margin-top:0;margin-bottom:40px">
+      <div class="article-cats-nav__pills">
+        {{ range $profiles }}
+        {{ $thisSlug := cond (eq $lang "en") .slugEN .slug }}
+        {{ $active := eq $slug $thisSlug }}
+        <a href="{{ $baseURL }}{{ $thisSlug }}/" class="article-cats-nav__pill{{ if $active }} article-cats-nav__pill--active{{ end }}">
+          {{ if eq $lang "en" }}{{ .labelEN }}{{ else }}{{ .labelCA }}{{ end }}
+        </a>
+        {{ end }}
+      </div>
+    </nav>
+
+    <div class="service-page__body">
+      <div class="article-body">
+        {{ .Content }}
+      </div>
+    </div>
+
+    <div class="service-page__cta">
+      <a href="{{ if eq $lang "en" }}/en/{{ else }}/{{ end }}#contacte" class="service-page__cta-btn">
+        {{ if eq $lang "en" }}Tell us about your project{{ else }}Explica'ns el teu projecte{{ end }}
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ .Title | jsonify }},
+  "description": {{ .Description | jsonify }},
+  "url": "{{ .Permalink }}",
+  "inLanguage": "{{ $lang }}",
+  "publisher": { "@id": "https://ressona.eu/#organization" }
+}
+</script>
+{{ end }}
