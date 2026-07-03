@@ -101,7 +101,9 @@ def main():
     )[:30]
 
     total_data   = safe_get(raw, "total_data") or {}
-    total_unique = safe_get(total_data, "total_unique") or 0
+    total_stats  = safe_get(total_data, "stats") or []
+    total_from_api = sum(s.get("daily", 0) for s in total_stats)
+    total_unique   = sum(s.get("unique", 0) for s in total_stats)
 
     # GoatCounter API v0: GET /stats/{page} → {"stats": [{id, name, count}]}
     browsers_raw  = safe_get(safe_get(raw, "browsers")  or {}, "stats") or []
@@ -113,7 +115,7 @@ def main():
     output = {
         "generated":    datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
         "period":       {"start": start_date, "end": end_date},
-        "total":        total,
+        "total":        total if total > 0 else total_from_api,
         "total_unique": total_unique,
         "hits_by_day":  hits_by_day_list,
         "hits":         hits_top,

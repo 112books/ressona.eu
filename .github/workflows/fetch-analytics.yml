@@ -29,25 +29,22 @@ jobs:
           BASE="https://${GC_ACCOUNT}.goatcounter.com/api/v0"
           AUTH="Authorization: Bearer ${GC_TOKEN}"
 
-          fetch_json() {
-            local url="$1"
-            local timeout="${2:-15}"
-            local result
-            result=$(curl -s --max-time "${timeout}" --retry 2 -H "${AUTH}" "${url}" 2>/dev/null) || true
-            if echo "${result}" | python3 -c "import sys,json; json.load(sys.stdin)" 2>/dev/null; then
-              echo "${result}"
-            else
-              echo "null"
-            fi
+          fetch_to_file() {
+            local url="$1" outfile="$2" timeout="${3:-15}"
+            curl -sf --max-time "${timeout}" --retry 2 -H "${AUTH}" "${url}" -o "${outfile}" 2>/dev/null \
+              || echo "null" > "${outfile}"
+            python3 -c "import json; json.load(open('${outfile}'))" 2>/dev/null \
+              || echo "null" > "${outfile}"
+            echo "DEBUG ${outfile}: $(wc -c < ${outfile}) bytes"
           }
 
-          fetch_json "${BASE}/stats/hits?start=${START}&end=${END}&limit=100" 40  > /tmp/hits.json
-          fetch_json "${BASE}/stats/total?start=${START}&end=${END}"              > /tmp/total.json
-          fetch_json "${BASE}/stats/browsers?start=${START}&end=${END}&limit=10"  > /tmp/browsers.json
-          fetch_json "${BASE}/stats/systems?start=${START}&end=${END}&limit=10"   > /tmp/systems.json
-          fetch_json "${BASE}/stats/sizes?start=${START}&end=${END}&limit=10"     > /tmp/sizes.json
-          fetch_json "${BASE}/stats/locations?start=${START}&end=${END}&limit=15" > /tmp/locations.json
-          fetch_json "${BASE}/stats/toprefs?start=${START}&end=${END}&limit=10"   > /tmp/refs.json
+          fetch_to_file "${BASE}/stats/hits?start=${START}&end=${END}&limit=100" /tmp/hits.json 60
+          fetch_to_file "${BASE}/stats/total?start=${START}&end=${END}"          /tmp/total.json
+          fetch_to_file "${BASE}/stats/browsers?start=${START}&end=${END}&limit=10"  /tmp/browsers.json
+          fetch_to_file "${BASE}/stats/systems?start=${START}&end=${END}&limit=10"   /tmp/systems.json
+          fetch_to_file "${BASE}/stats/sizes?start=${START}&end=${END}&limit=10"     /tmp/sizes.json
+          fetch_to_file "${BASE}/stats/locations?start=${START}&end=${END}&limit=15" /tmp/locations.json
+          fetch_to_file "${BASE}/stats/toprefs?start=${START}&end=${END}&limit=10"   /tmp/refs.json
 
           python3 scripts/build-analytics-json.py "${START}" "${END}"
 
