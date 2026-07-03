@@ -111,3 +111,10 @@ Acorda per escrit (o per email) quins usos inclou el preu: xarxes socials, web, 
 ## Recomanació
 
 [Pocallum](https://pocallum.cat) és l'estudi especialitzat en fotografia per a artistes amb qui treballa Ressona: retrats, directes, obres de teatre, dansa, circ i concerts, tot dissenyat per al press kit i la identitat digital. Si vols material que realment obri portes, [parla amb Ressona](/#contacte).
+
+## Articles relacionats
+
+- [Estilisme i imatge per a artistes](/recursos/estilisme-imatge-artistes/) — construir un estil visual propi abans d'arribar a la sessió
+- [Identitat visual per a artistes](/recursos/identitat-visual-artista/) — logotip, colors i tipografia
+- [Drets d'imatge en materials promocionals](/recursos/drets-imatges-promocionals/) — qui en té els drets i com protegir-los
+- [Que és un EPK i per a que el necessites](/recursos/que-es-un-epk/) — on aniran les fotos que sorgiran de la sessió

@@ -77,3 +77,10 @@ La identitat visual és un sistema viu — evolucionarà amb tu. El que mata la 
 ## Com podem ajudar-te
 
 A Ressona fem assessoria completa d'identitat visual per a artistes: logotip, paleta, tipografia i to de comunicació. Et lliurem un manual d'estil per mantenir la coherència en tot el que fas, del web al cartell. [Parla amb nosaltres](/#contacte) si vols posar ordre a la teva imatge.
+
+## Articles relacionats
+
+- [Estilisme i imatge per a artistes](/recursos/estilisme-imatge-artistes/) — construir un estil visual propi: referents, moodboard i els errors habituals
+- [Com preparar una sessió de fotos professionals](/recursos/sessio-fotos-professionals/) — quan la identitat es materialitza en imatges
+- [Que és un EPK i per a que el necessites](/recursos/que-es-un-epk/) — on s'aplica la identitat visual en un document professional
+- [Bio professional per a artistes](/recursos/bio-artista/) — la veu escrita que acompanya la identitat visual

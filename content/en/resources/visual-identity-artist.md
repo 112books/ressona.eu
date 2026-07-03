@@ -77,3 +77,10 @@ Visual identity is a living system — it will evolve with you. What kills credi
 ## How we can help
 
 At Ressona we do full visual identity consulting for artists: logo, palette, typography and communication tone. We deliver a style guide to maintain consistency across everything you do, from website to poster. [Get in touch](/en/#contacte) if you want to bring order to your image.
+
+## Related articles
+
+- [Styling and Image for Artists](/en/resources/styling-image-artists/) — building your own visual style: references, moodboard and common mistakes
+- [How to Prepare a Professional Photo Session](/en/resources/professional-photo-session/) — when your identity materialises in images
+- [What is an EPK and Why Do You Need One](/en/resources/what-is-an-epk/) — where visual identity is applied in a professional document
+- [Professional Bio for Artists](/en/resources/artist-bio/) — the written voice that accompanies your visual identity

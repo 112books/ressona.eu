@@ -111,3 +111,10 @@ Agree in writing (or by email) what uses are included in the price: social media
 ## Our recommendation
 
 [Pocallum](https://pocallum.cat) is the studio specialising in photography for artists that Ressona works with: portraits, live performances, theatre, dance, circus and concerts — all designed for the press kit and digital identity. If you want material that actually opens doors, [get in touch with Ressona](/en/#contacte).
+
+## Related articles
+
+- [Styling and Image for Artists](/en/resources/styling-image-artists/) — building your own visual style before you arrive at the session
+- [Visual Identity for Artists](/en/resources/visual-identity-artist/) — logo, colours and typography
+- [Image Rights in Promotional Materials](/en/resources/image-rights-promotional/) — who owns the rights and how to protect them
+- [What is an EPK and Why Do You Need One](/en/resources/what-is-an-epk/) — where the photos from the session will end up
