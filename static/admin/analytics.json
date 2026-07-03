@@ -1,20 +1,242 @@
 {
-  "generated": "2026-07-03T06:16:09.319551Z",
+  "generated": "2026-07-03T06:20:16.878413Z",
   "period": {
     "start": "2025-07-03",
     "end": "2026-07-03"
   },
-  "total": 0,
+  "total": 640,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-06-12",
+      "count": 8
+    },
+    {
+      "date": "2026-06-13",
+      "count": 20
+    },
+    {
+      "date": "2026-06-14",
+      "count": 3
+    },
+    {
+      "date": "2026-06-15",
+      "count": 7
+    },
+    {
+      "date": "2026-06-16",
+      "count": 11
+    },
+    {
+      "date": "2026-06-17",
+      "count": 4
+    },
+    {
+      "date": "2026-06-18",
+      "count": 38
+    },
+    {
+      "date": "2026-06-19",
+      "count": 55
+    },
+    {
+      "date": "2026-06-20",
+      "count": 15
+    },
+    {
+      "date": "2026-06-21",
+      "count": 18
+    },
+    {
+      "date": "2026-06-22",
+      "count": 24
+    },
+    {
+      "date": "2026-06-23",
+      "count": 8
+    },
+    {
+      "date": "2026-06-25",
+      "count": 6
+    },
+    {
+      "date": "2026-06-26",
+      "count": 13
+    },
+    {
+      "date": "2026-06-27",
+      "count": 125
+    },
+    {
+      "date": "2026-06-28",
+      "count": 15
+    },
+    {
+      "date": "2026-06-29",
+      "count": 12
+    },
+    {
+      "date": "2026-06-30",
+      "count": 65
+    },
+    {
+      "date": "2026-07-01",
+      "count": 85
+    },
+    {
+      "date": "2026-07-02",
+      "count": 96
+    },
+    {
+      "date": "2026-07-03",
+      "count": 12
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 224
+    },
+    {
+      "path": "/#que-fem",
+      "count": 46
+    },
+    {
+      "path": "/#per-qui",
+      "count": 39
+    },
+    {
+      "path": "/#quisom",
+      "count": 36
+    },
+    {
+      "path": "/#contacte",
+      "count": 35
+    },
+    {
+      "path": "/#com-treballem",
+      "count": 31
+    },
+    {
+      "path": "/#recursos",
+      "count": 21
+    },
+    {
+      "path": "/recursos",
+      "count": 19
+    },
+    {
+      "path": "/en",
+      "count": 9
+    },
+    {
+      "path": "/comenca",
+      "count": 8
+    },
+    {
+      "path": "/recursos/drets-imatges-promocionals",
+      "count": 7
+    },
+    {
+      "path": "/serveis/estrategia-xarxes",
+      "count": 6
+    },
+    {
+      "path": "/serveis/identitat-visual",
+      "count": 6
+    },
+    {
+      "path": "/recursos/viatjant-amb-jazz-per-europa",
+      "count": 5
+    },
+    {
+      "path": "/recursos/xarxes-socials-artistes",
+      "count": 5
+    },
+    {
+      "path": "/recursos/per-que-web-propia-instagram",
+      "count": 5
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 5
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 5
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 5
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 5
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 5
+    },
+    {
+      "path": "/recursos/perseguint-el-duende",
+      "count": 4
+    },
+    {
+      "path": "/recursos/rider-tecnic",
+      "count": 4
+    },
+    {
+      "path": "/recursos/presentar-projecte-festival",
+      "count": 4
+    },
+    {
+      "path": "/recursos/que-es-un-epk",
+      "count": 4
+    },
+    {
+      "path": "/recursos/press-kit-digital-actors",
+      "count": 4
+    },
+    {
+      "path": "/serveis/fotografia-video",
+      "count": 4
+    },
+    {
+      "path": "/recursos/festivals-dansa-europa",
+      "count": 3
+    },
+    {
+      "path": "/recursos/distribucio-musical-sense-plataformes",
+      "count": 3
+    },
+    {
+      "path": "/recursos/bandcamp-musics-presencia-professional",
+      "count": 3
+    }
+  ],
+  "by_lang": {
+    "en": 44
+  },
+  "by_section": {
+    "inici": 233,
+    "#que-fem": 51,
+    "#per-qui": 44,
+    "#quisom": 41,
+    "#contacte": 40,
+    "#com-treballem": 36,
+    "#recursos": 24,
+    "recursos": 110,
+    "comenca": 8,
+    "serveis": 27,
+    "legal": 8,
+    "tags": 12,
+    "resources": 6
+  },
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 325
+      "count": 327
     },
     {
       "name": "Safari",
@@ -41,12 +263,12 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 394
+      "count": 395
     },
     {
       "name": "Android",
       "id": "Android",
-      "count": 117
+      "count": 118
     },
     {
       "name": "iOS",
@@ -68,12 +290,12 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 317
+      "count": 318
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 214
+      "count": 215
     },
     {
       "name": "desktophd",
@@ -90,12 +312,12 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 514
+      "count": 515
     },
     {
       "name": "United States",
       "id": "US",
-      "count": 131
+      "count": 132
     },
     {
       "name": "France",
