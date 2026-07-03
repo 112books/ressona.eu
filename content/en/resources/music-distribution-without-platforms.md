@@ -21,7 +21,7 @@ If you have your own website on your own domain, you already have 90% of the inf
 What you need to add on top:
 
 - **A page for each release** with information, artwork and a download or play button
-- **An optional payment system** if you want to charge (Stripe, Ko-fi, or simply a bank account number)
+- **An optional payment system** if you want to charge ([Stripe](https://stripe.com/payments/payment-links), [Ko-fi](https://ko-fi.com/), or simply a bank account number)
 - **A mailing list** to notify fans when new music drops
 
 With these three elements you have a complete independent distribution infrastructure.
@@ -65,9 +65,9 @@ Some podcast apps even download episodes automatically. This is exactly what man
 
 The "pay what you want" model that Bandcamp popularised isn't Bandcamp's property. You can implement it on your own website with simple tools:
 
-- **Ko-fi**: direct support platform. Allows "buying" an album and receiving the file as a download. Ko-fi charges 0% if you use Stripe directly (Stripe charges its standard fee of ~1.4% + €0.25).
-- **Stripe Payment Links**: generate a payment link for a product (your album) and send the file by email once the transaction completes.
-- **Gumroad**: digital product sales platform. Charges 10% per transaction but is very easy to use.
+- **[Ko-fi](https://ko-fi.com/)**: direct support platform. Allows "buying" an album and receiving the file as a download. Ko-fi charges 0% if you use Stripe directly (Stripe charges its standard fee of ~1.4% + €0.25).
+- **[Stripe Payment Links](https://stripe.com/payments/payment-links)**: generate a payment link for a product (your album) and send the file by email once the transaction completes.
+- **[Gumroad](https://gumroad.com/)**: digital product sales platform. Charges 10% per transaction but is very easy to use.
 - **Free direct download**: simply a link to a ZIP file on your server. No barrier, no intermediary, no commission.
 
 ## The mailing list as distribution channel
@@ -75,9 +75,9 @@ The "pay what you want" model that Bandcamp popularised isn't Bandcamp's propert
 The mailing list is the most underrated direct distribution channel that exists. An email to your subscribers with a download link is distribution. No algorithm deciding whether they receive it. No platform taking a percentage. No data going to any third party.
 
 Ethical mailing list tools:
-- **Brevo** (formerly Sendinblue): free plan up to 300 emails/day. French company.
-- **Mailchimp**: the most well-known, American, free up to 500 contacts.
-- **Listmonk**: free software, self-hostable. Zero commissions, zero third-party data.
+- **[Brevo](https://www.brevo.com/)** (formerly Sendinblue): free plan up to 300 emails/day. French company.
+- **[Mailchimp](https://mailchimp.com/)**: the most well-known, American, free up to 500 contacts.
+- **[Listmonk](https://listmonk.app/)**: free software, self-hostable. Zero commissions, zero third-party data.
 
 ## Peertube for music videos
 

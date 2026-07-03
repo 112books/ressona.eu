@@ -123,7 +123,7 @@ No hi ha una resposta única. Però aquí tens algunes preguntes per orientar la
 
 **Sobre valors:** Si el teu projecte artístic té una dimensió política o ideològica, la plataforma que tries forma part del missatge. Publicar a Amazon Music mentres critiques el capitalisme de plataformes és una contradicció que el teu públic pot notar.
 
-**Sobre distribució:** Cap distribuïdor et força a estar a totes les plataformes. Pots triar. DistroKid, TuneCore i CD Baby permeten seleccionar on vols distribuir.
+**Sobre distribució:** Cap distribuïdor et força a estar a totes les plataformes. Pots triar. [DistroKid](https://distrokid.com/), [TuneCore](https://www.tunecore.com/) i [CD Baby](https://cdbaby.com/) permeten seleccionar on vols distribuir.
 
 ## El que no canvia
 

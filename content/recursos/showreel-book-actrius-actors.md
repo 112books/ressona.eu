@@ -7,13 +7,13 @@ tags: ["materials-professionals", "actors"]
 category: identitat
 ---
 
-Un casting agent no llegeix la teva bio. Un director de càsting no t'espera per explicar-li qui ets. Tens trenta segons —quan hi ha sort, seixanta— perquè el teu showreel convenci que val la pena convocar-te.
+Un casting agent no llegeix la teva bio. Un director de càsting no t'espera per explicar-li qui ets. Tens trenta segons —quan hi ha sort, seixanta— perquè el teu *showreel* convenci que val la pena convocar-te.
 
-El showreel i el book fotogràfic no són "materials opcionals per quan et va bé fer-los". Són els documents de presentació professional bàsics de qualsevol actor o actriu que vulgui ser pres en consideració per agències, directors i productores. Tenir-los mal fets és gairebé pitjor que no tenir-los.
+El *showreel* (vídeo resum de les teves millors interpretacions) i el *book* fotogràfic (àlbum de fotografies professionals) no són "materials opcionals per quan et va bé fer-los". Són els documents de presentació professional bàsics de qualsevol actriu o actor que vulgui ser pres en consideració per agències, directors i productores. Tenir-los mal fets és gairebé pitjor que no tenir-los.
 
 ## El showreel: funció i estructura
 
-El showreel és un vídeo de presentació que reuneix fragments de les teves millors interpretacions. La seva funció no és mostrar tot el que has fet: és convèncer en el mínim temps possible que saps actuar i que ets bankable per a un cert tipus de papers.
+El *showreel* és un vídeo de presentació que reuneix fragments de les teves millors interpretacions. La seva funció no és mostrar tot el que has fet: és convèncer en el mínim temps possible que saps actuar i que ets *bankable* (adequat comercialment) per a un cert tipus de papers.
 
 **Durada ideal: 90 segons – 2 minuts.** Per sota, sembla que no tens material. Per sobre, la majoria de professionals no arriben al final. Si tens material de qualitat per a més temps, considera fer versions editades per a contextos específics.
 
@@ -65,9 +65,9 @@ La situació més habitual per a actors en formació o amb poca trajectòria en 
 
 ## El book fotogràfic
 
-El book és el teu CV visual. Arriba abans que tu, s'envia per correu, es consulta en bases de dades d'agències. Ha de ser clar, net i actual.
+El *book* és el teu CV visual. Arriba abans que tu, s'envia per correu, es consulta en bases de dades d'agències. Ha de ser clar, net i actual.
 
-**Fotos de càsting (headshots):** Fons neutre o discret, cara a càmera, llum clara que no emmascarui els teus trets. L'objectiu és que el director sàpiga exactament com ets: edat, físic, expressió natural. Cap filtre, cap retoc que canviï la teva aparença real. Si arriben al càsting i no t'assembles a la foto, és un problema.
+**Fotos de càsting (*headshots*):** Fons neutre o discret, cara a càmera, llum clara que no emmascarui els teus trets. L'objectiu és que el director sàpiga exactament com ets: edat, físic, expressió natural. Cap filtre, cap retoc que canviï la teva aparença real. Si arriben al càsting i no t'assembles a la foto, és un problema.
 
 **Fotos de premsa o de personatge:** Aquí hi ha més llibertat. Ambientació, expressió, vestuari que suggereixi un tipus de paper. Útils per a promoció, per a presentació a festivals o per a projectes concrets. No substitueixen els headshots, els complementen.
 

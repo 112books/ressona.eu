@@ -123,7 +123,7 @@ There's no single right answer. But here are some questions to guide your decisi
 
 **On values:** If your artistic project has a political or ideological dimension, the platform you choose is part of the message. Publishing on Amazon Music while critiquing platform capitalism is a contradiction your audience may notice.
 
-**On distribution:** No distributor forces you to be on every platform. You can choose. DistroKid, TuneCore and CD Baby all let you select where you distribute.
+**On distribution:** No distributor forces you to be on every platform. You can choose. [DistroKid](https://distrokid.com/), [TuneCore](https://www.tunecore.com/) and [CD Baby](https://cdbaby.com/) all let you select where you distribute.
 
 ## What doesn't change
 

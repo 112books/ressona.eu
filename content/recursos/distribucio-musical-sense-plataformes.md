@@ -21,7 +21,7 @@ Si tens un web propi amb el teu domini, ja tens el 90% de la infraestructura que
 El que cal afegir per sobre d'això és:
 
 - **Una pàgina per a cada llançament** amb informació, portada i el botó de descàrrega o reproducció
-- **Un sistema de pagament optatiu** si vols cobrar (Stripe, Ko-fi, o simplement un número de compte)
+- **Un sistema de pagament optatiu** si vols cobrar ([Stripe](https://stripe.com/es/payments/payment-links), [Ko-fi](https://ko-fi.com/), o simplement un número de compte)
 - **Una llista de correu** per avisar els fans quan surt música nova
 
 Amb aquests tres elements tens una infraestructura de distribució independent completa.
@@ -65,9 +65,9 @@ Algunes aplicacions de podcasts permeten fins i tot descarregar els episodis aut
 
 El model "paga el que vulguis" que va popularitzar Bandcamp no és propietat de Bandcamp. Pots implementar-lo al teu web amb eines senzilles:
 
-- **Ko-fi**: plataforma de suport directe. Permet "comprar" un àlbum i rebre el fitxer com a descàrrega. Ko-fi cobra el 0% si uses Stripe directament (Stripe cobra la seva comissió estàndard ~1,4% + 0,25€).
-- **Stripe Payment Links**: genera un enllaç de pagament per a un producte (el teu àlbum) i envia el fitxer per email un cop completada la transacció.
-- **Gumroad**: plataforma de venda de productes digitals. Cobra el 10% per transacció però és molt senzilla d'usar.
+- **[Ko-fi](https://ko-fi.com/)**: plataforma de suport directe. Permet "comprar" un àlbum i rebre el fitxer com a descàrrega. Ko-fi cobra el 0% si uses Stripe directament (Stripe cobra la seva comissió estàndard ~1,4% + 0,25€).
+- **[Stripe Payment Links](https://stripe.com/es/payments/payment-links)**: genera un enllaç de pagament per a un producte (el teu àlbum) i envia el fitxer per email un cop completada la transacció.
+- **[Gumroad](https://gumroad.com/)**: plataforma de venda de productes digitals. Cobra el 10% per transacció però és molt senzilla d'usar.
 - **Descàrrega gratuïta directa**: simplement un enllaç a un fitxer ZIP al teu servidor. Sense barrera, sense intermediari, sense comissió.
 
 ## La llista de correu com a canal de distribució
@@ -75,9 +75,9 @@ El model "paga el que vulguis" que va popularitzar Bandcamp no és propietat de 
 La llista de correu és el canal de distribució directa més infravalorat que existeix. Un email als teus subscriptors amb un enllaç de descàrrega és distribució. Sense algorisme que decideixi si el reben. Sense plataforma que es quedi un percentatge. Sense dades que vagin a parar a cap tercer.
 
 Eines ètiques per a llistes de correu:
-- **Brevo** (abans Sendinblue): pla gratuït fins a 300 emails/dia. Empresa francesa.
-- **Mailchimp**: el més conegut, americà, fins a 500 contactes gratuït.
-- **Listmonk**: programari lliure i auto-allotjable. Zero comissions, zero dades a tercers.
+- **[Brevo](https://www.brevo.com/)** (abans Sendinblue): pla gratuït fins a 300 emails/dia. Empresa francesa.
+- **[Mailchimp](https://mailchimp.com/)**: el més conegut, americà, fins a 500 contactes gratuït.
+- **[Listmonk](https://listmonk.app/)**: programari lliure i auto-allotjable. Zero comissions, zero dades a tercers.
 
 ## Peertube per als vídeos musicals
 
