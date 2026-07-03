@@ -79,13 +79,13 @@ Hi ha diversos canals, cadascun amb avantatges i inconvenients:
 <div class="resource-steps__item">
 <span class="resource-steps__num">02</span>
 
-**Plataformes de portfoli.** Behance i Dribbble reuneixen milers de dissenyadors amb el seu treball publicat. Pots buscar per estil, per especialitat o per mots clau. El problema és que veus el millor de cada un, no la feina real d'un encàrrec amb restriccions i client real.
+**Plataformes de portfoli.** <a href="https://www.behance.net/" target="_blank" rel="noopener">Behance</a> i <a href="https://dribbble.com/" target="_blank" rel="noopener">Dribbble</a> reuneixen milers de dissenyadors amb el seu treball publicat. Pots buscar per estil, per especialitat o per mots clau. El problema és que veus el millor de cada un, no la feina real d'un encàrrec amb restriccions i client real.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">03</span>
 
-**Plataformes de freelance.** Fiverr, Upwork, 99designs i similars ofereixen dissenyadors de tot el món a preus molt variats. Pots trobar talent real, però has de ser molt curós avaluant portfolis i llegint ressenyes. Els preus molt baixos sovint impliquen feina de baixa qualitat o mal servei.
+**Plataformes de freelance.** <a href="https://www.fiverr.com/" target="_blank" rel="noopener">Fiverr</a>, <a href="https://www.upwork.com/" target="_blank" rel="noopener">Upwork</a>, <a href="https://99designs.es/" target="_blank" rel="noopener">99designs</a> i similars ofereixen dissenyadors de tot el món a preus molt variats. Pots trobar talent real, però has de ser molt curós avaluant portfolis i llegint ressenyes. Els preus molt baixos sovint impliquen feina de baixa qualitat o mal servei.
 </div>
 
 <div class="resource-steps__item">
