@@ -2976,3 +2976,125 @@ img, svg { display: block; }
     transform: none;
   }
 }
+
+/* ── Brevo Newsletter (footer) ─────────────────────────── */
+.footer-newsletter {
+  grid-column: 1 / -1;
+  padding-top: 40px;
+  margin-top: 8px;
+  border-top: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 48px;
+  align-items: start;
+}
+.footer-newsletter__kicker {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 10px;
+}
+.footer-newsletter__desc {
+  font-size: 0.85rem;
+  color: var(--text-subtle);
+  line-height: 1.6;
+  margin: 0;
+}
+/* Brevo form overrides — dark theme */
+.footer-newsletter .sib-form {
+  background: transparent !important;
+  text-align: left !important;
+  padding: 0;
+}
+.footer-newsletter #sib-container {
+  background: transparent !important;
+  border: none !important;
+  padding: 0;
+  text-align: left !important;
+  max-width: 100% !important;
+}
+.footer-newsletter .sib-form-block {
+  text-align: left !important;
+  padding: 4px 0 !important;
+}
+.footer-newsletter .entry__label {
+  font-family: var(--font-body) !important;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+  color: var(--text-subtle) !important;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.footer-newsletter .input {
+  font-family: var(--font-body) !important;
+  font-size: 0.9rem !important;
+  color: var(--text) !important;
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(192,169,179,0.2) !important;
+  border-radius: 2px !important;
+  padding: 10px 12px !important;
+  width: 100%;
+  box-sizing: border-box;
+}
+.footer-newsletter .input:focus {
+  border-color: rgba(253,191,104,0.4) !important;
+  outline: none !important;
+}
+.footer-newsletter .input::placeholder {
+  color: rgba(217,208,213,0.35) !important;
+}
+.footer-newsletter .sib-form-block__button {
+  font-family: var(--font-body) !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  background-color: var(--gold) !important;
+  color: #1d2c34 !important;
+  border: none !important;
+  border-radius: 2px !important;
+  padding: 10px 24px !important;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  text-align: left;
+}
+.footer-newsletter .sib-form-block__button:hover { opacity: 0.85; }
+.footer-newsletter .entry__error {
+  font-size: 0.75rem !important;
+  color: #ff9090 !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 2px 0 !important;
+}
+.footer-newsletter #error-message {
+  background: rgba(80,19,69,0.25) !important;
+  border-color: rgba(80,19,69,0.5) !important;
+  color: var(--text) !important;
+  max-width: 100% !important;
+}
+.footer-newsletter #success-message {
+  background: rgba(253,191,104,0.1) !important;
+  border-color: rgba(253,191,104,0.3) !important;
+  max-width: 100% !important;
+}
+.footer-newsletter #success-message .sib-form-message-panel__inner-text,
+.footer-newsletter #success-message .sib-icon { color: var(--gold) !important; }
+.footer-newsletter .brevo-gdpr {
+  font-size: 0.7rem;
+  color: rgba(217,208,213,0.4);
+  line-height: 1.5;
+  margin: 8px 0 4px;
+}
+.footer-newsletter .brevo-gdpr a {
+  color: rgba(217,208,213,0.5);
+  text-decoration: underline;
+}
+.footer-newsletter .entry__specification { display: none !important; }
+.footer-newsletter .declaration-block-icon { display: none !important; }
+@media (max-width: 768px) {
+  .footer-newsletter {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

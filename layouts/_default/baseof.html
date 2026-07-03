@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="dark">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' gc.zgo.at 'unsafe-inline'; img-src 'self' data:; connect-src 'self' ressona.goatcounter.com formspree.io; base-uri 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://sibforms.com; font-src 'self' https://assets.brevo.com; script-src 'self' gc.zgo.at 'unsafe-inline' https://sibforms.com https://www.google.com https://www.gstatic.com; img-src 'self' data: https://www.gstatic.com; connect-src 'self' ressona.goatcounter.com formspree.io https://76cdbf1c.sibforms.com https://www.google.com; frame-src https://www.google.com; form-action 'self' https://76cdbf1c.sibforms.com; base-uri 'self'">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), interest-cohort=()">
   <title>{{ if .IsHome }}{{ i18n "hero_brand" }} · {{ i18n "hero_tagline" }}{{ if and .IsHome (eq .Site.Language.Lang "ca") }} a Barcelona{{ end }}{{ else }}{{ .Title }} · {{ i18n "hero_brand" }}{{ end }}</title>
@@ -33,6 +33,7 @@
   <link rel="preload" href="/fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="dns-prefetch" href="https://ressona.goatcounter.com">
   <link rel="preconnect" href="https://ressona.goatcounter.com" crossorigin>
+  <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
   {{ $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint "sha256" }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
   {{ if .Site.Params.goatcounter }}
@@ -342,6 +343,20 @@
     }
   })();
   </script>
+  <script>
+  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+  window.LOCALE = 'en';
+  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "La informació introduïda no és vàlida. // The information provided is invalid.";
+  window.REQUIRED_ERROR_MESSAGE = "Aquest camp és obligatori. // This field cannot be left blank.";
+  window.GENERIC_INVALID_MESSAGE = "La informació introduïda no és vàlida. // The information provided is invalid.";
+  window.INVALID_NUMBER = "La informació introduïda no és vàlida. // The information provided is invalid.";
+  window.INVALID_DATE = "Please enter a valid date";
+  window.REQUIRED_MULTISELECT_MESSAGE = 'Please select at least 1 option';
+  window.translation = { common: { selectedList: '{quantity} list selected', selectedLists: '{quantity} lists selected', selectedOption: '{quantity} selected', selectedOptions: '{quantity} selected' } };
+  var AUTOHIDE = Boolean(0);
+  </script>
+  <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LeXlUItAAAAAEXYWurezhvEN7uRaBg5dXepfdLn&hl=en" async defer></script>
   <script>
   (function() {
     var isEN = document.documentElement.lang === 'en';

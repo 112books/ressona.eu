@@ -47,6 +47,15 @@
         <span class="footer-powered-text">Powered by <a href="https://linuxbcn.com" target="_blank" rel="noopener noreferrer" aria-label="LinuxBCN (obre en nova pestanya)">LinuxBCN</a></span>
       </div>
     </div>
+    <div class="footer-newsletter" id="newsletter">
+      <div class="footer-newsletter__intro">
+        <span class="footer-newsletter__kicker">{{ if eq .Site.Language.Lang "en" }}Newsletter{{ else }}Butlletí{{ end }}</span>
+        <p class="footer-newsletter__desc">{{ if eq .Site.Language.Lang "en" }}Monthly resources for artists: guides, tools and what's happening in the arts scene.{{ else }}Recursos mensuals per a artistes: guies, eines i el que passa a l'escena cultural.{{ end }}</p>
+      </div>
+      <div class="footer-newsletter__form">
+        {{ partial "newsletter-form.html" . }}
+      </div>
+    </div>
     <div class="footer-legal">
       <a href="{{ i18n "footer_link_legal_notice" }}">{{ i18n "footer_legal_notice" }}</a>
       <a href="{{ i18n "footer_link_privacy" }}">{{ i18n "footer_privacy" }}</a>
