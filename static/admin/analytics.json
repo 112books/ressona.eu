@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03T06:12:27.914878Z",
+  "generated": "2026-07-03T06:16:09.319551Z",
   "period": {
     "start": "2025-07-03",
     "end": "2026-07-03"
@@ -10,9 +10,154 @@
   "hits": [],
   "by_lang": {},
   "by_section": {},
-  "browsers": [],
-  "systems": [],
-  "sizes": [],
-  "locations": [],
-  "refs": []
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 325
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 302
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 20
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 3
+    },
+    {
+      "name": "Edge",
+      "id": "Edge",
+      "count": 2
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 394
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 117
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 99
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 31
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 11
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 317
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 214
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 68
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 53
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 514
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 131
+    },
+    {
+      "name": "France",
+      "id": "FR",
+      "count": 2
+    },
+    {
+      "name": "Cyprus",
+      "id": "CY",
+      "count": 1
+    },
+    {
+      "name": "Germany",
+      "id": "DE",
+      "count": 1
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 1
+    },
+    {
+      "name": "Ireland",
+      "id": "IE",
+      "count": 1
+    },
+    {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 280
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 9
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 6
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 2
+    },
+    {
+      "name": "bing.com",
+      "id": "bing.com",
+      "count": 1
+    },
+    {
+      "name": "localhost:1313",
+      "id": "localhost:1313",
+      "count": 1
+    }
+  ]
 }
