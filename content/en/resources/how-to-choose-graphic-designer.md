@@ -5,7 +5,7 @@ translationKey: "blog-choose-graphic-designer"
 date: 2026-07-03
 author: "Ressona"
 tags: ["visual-identity", "digital-tools"]
-category: identity
+category: identitat
 ---
 
 A moment will come — if it hasn't already — when you'll need a logo that isn't a randomly chosen Google font. Or a concert poster that doesn't look like it was made in ten minutes on Canva. Or a complete visual identity you can apply consistently to everything you do.

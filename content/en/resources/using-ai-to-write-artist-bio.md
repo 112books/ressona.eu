@@ -5,7 +5,7 @@ translationKey: "blog-ai-artist-bio"
 date: 2026-07-02
 author: "Ressona"
 tags: ["digital-tools", "digital-identity", "professional-materials"]
-category: ai
+category: ia
 ---
 
 A language model can write an artist bio in ten seconds. The problem isn't the speed: it's that, without direction, it produces exactly the kind of text a festival programmer discards at the first sentence — full of adjectives that say nothing, structured like the thousand other bios the same model has already read.
