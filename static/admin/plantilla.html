@@ -173,7 +173,8 @@ body {
   justify-content: center;
 }
 
-.type-cita .canvas-icon { display: none; }
+.type-cita .canvas-icon { display: flex; color: var(--gold); margin-bottom: 24px; }
+.type-cita .canvas-icon svg { width: 64px; height: 64px; }
 .type-cita .canvas-title {
   font-family: var(--font-display);
   font-weight: 800;
@@ -566,7 +567,7 @@ function initApp() {
     layout.className = 'canvas-layout type-' + t;
     var isProces = t === 'proces';
     var isRecurs = t === 'recurs';
-    iconEl.style.display = (t === 'cita' || isProces || isRecurs) ? 'none' : 'flex';
+    iconEl.style.display = (isProces || isRecurs) ? 'none' : 'flex';
     stepEl.style.display = isProces ? 'block' : 'none';
     catEl.style.display = isRecurs ? 'block' : 'none';
     urlEl.style.display = isRecurs ? 'block' : 'none';
