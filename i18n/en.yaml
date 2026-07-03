@@ -47,6 +47,13 @@ aud_visual: Visual arts
 aud_visual_desc: Portfolio, gallery. For galleries and collectors.
 aud_emerging: Emerging
 aud_emerging_desc: The first step. The foundation. Everything to build on.
+aud_more: "Learn more →"
+aud_music_url: "/en/per-a-qui/musicians/"
+aud_actors_url: "/en/per-a-qui/actors-actresses/"
+aud_circus_url: "/en/per-a-qui/circus/"
+aud_dance_url: "/en/per-a-qui/dance/"
+aud_visual_url: "/en/per-a-qui/visual-artists/"
+aud_emerging_url: "/en/per-a-qui/emerging-artists/"
 
 section_quisom_label: — 03
 section_quisom_title: Who we are

@@ -47,6 +47,13 @@ aud_visual: Arts plàstiques
 aud_visual_desc: Portfolio, galeria. Per a galeries i col·leccionistes.
 aud_emerging: Emergents
 aud_emerging_desc: El primer pas. La base. Tot per construir.
+aud_more: "Saber-ne més →"
+aud_music_url: "/per-a-qui/musics/"
+aud_actors_url: "/per-a-qui/actrius-actors/"
+aud_circus_url: "/per-a-qui/circ/"
+aud_dance_url: "/per-a-qui/dansa/"
+aud_visual_url: "/per-a-qui/arts-plastiques/"
+aud_emerging_url: "/per-a-qui/creadors-emergents/"
 
 section_quisom_label: — 03
 section_quisom_title: Qui som
