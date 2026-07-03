@@ -75,7 +75,7 @@ El book és el teu CV visual. Arriba abans que tu, s'envia per correu, es consul
 
 <div class="resource-callout">
 
-Les fotos de càsting han de ser netes, actuals i tècnicament correctes. A **Pocallum** treballen amb actors i actrius per a sessions de book professional: headshots i fotos de premsa amb il·luminació i retoc adequats per als estàndards del sector. [pocallum.cat](https://pocallum.cat)
+Les fotos de càsting han de ser netes, actuals i tècnicament correctes. Ressona treballa amb **Pocallum** per a sessions de book professional amb actors i actrius: headshots i fotos de premsa amb il·luminació i retoc adequats per als estàndards del sector. [pocallum.cat](https://pocallum.cat)
 
 </div>
 

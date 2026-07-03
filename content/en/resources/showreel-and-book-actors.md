@@ -75,7 +75,7 @@ The photo book is your visual CV. It arrives before you do, gets sent by email, 
 
 <div class="resource-callout">
 
-Casting photographs must be clean, current and technically correct. At **Pocallum** they work with actors and actresses on professional photo book sessions: headshots and press photographs with lighting and retouching suited to industry standards. [pocallum.cat](https://pocallum.cat)
+Casting photographs must be clean, current and technically correct. Ressona works with **Pocallum** for professional photo book sessions with actors and actresses: headshots and press photographs with lighting and retouching suited to industry standards. [pocallum.cat](https://pocallum.cat)
 
 </div>
 

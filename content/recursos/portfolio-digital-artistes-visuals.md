@@ -121,7 +121,7 @@ L'ordre de lectura habitual d'un portfolio digital professional: presentació �
 
 <div class="resource-callout">
 
-La documentació fotogràfica professional de l'obra és la base de tot portfolio sòlid. A **Pocallum** treballen específicament amb artistes visuals per a la documentació d'obra: il·luminació controlada, gestió del color i formats adaptats tant per a web com per a impressió i enviament a galeries. [pocallum.cat](https://pocallum.cat)
+La documentació fotogràfica professional de l'obra és la base de tot portfolio sòlid. Ressona treballa amb **Pocallum** específicament per a la documentació d'obra d'artistes visuals: il·luminació controlada, gestió del color i formats adaptats tant per a web com per a impressió i enviament a galeries. [pocallum.cat](https://pocallum.cat)
 
 </div>
 

@@ -1,6 +1,7 @@
 ---
 title: "Finding Representation: Agent, Booker and Manager for Artists"
 description: "Who does what, when it's worth having them, and how to get someone to represent you. A guide for musicians, actors, dancers and performing artists."
+translationKey: "blog-buscar-representacio"
 date: 2026-07-02
 tags: ["professional-materials"]
 category: legal

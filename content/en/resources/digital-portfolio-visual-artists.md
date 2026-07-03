@@ -121,7 +121,7 @@ The typical reading order of a professional digital portfolio: introduction → 
 
 <div class="resource-callout">
 
-Professional photographic documentation of the work is the foundation of any solid portfolio. At **Pocallum** they work specifically with visual artists for artwork documentation: controlled lighting, colour management, and formats adapted for both web use and print and gallery submissions. [pocallum.cat](https://pocallum.cat)
+Professional photographic documentation of the work is the foundation of any solid portfolio. Ressona works with **Pocallum** specifically for artwork documentation with visual artists: controlled lighting, colour management, and formats adapted for both web use and print and gallery submissions. [pocallum.cat](https://pocallum.cat)
 
 </div>
 

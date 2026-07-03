@@ -1,6 +1,7 @@
 ---
 title: "Promoure un espectacle o concert: el pla de comunicació mínim"
 description: "Estrena, concert, exposició. La promoció no comença la setmana abans: comença dos mesos abans. Aquí tens el marc mínim per omplir la sala sense dependre d'un gabinet de premsa."
+translationKey: "blog-promoure-espectacle-pla-comunicacio"
 date: 2026-07-02
 tags: ["materials-professionals", "xarxes-socials"]
 category: identitat

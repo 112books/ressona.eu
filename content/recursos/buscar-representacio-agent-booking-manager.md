@@ -1,6 +1,7 @@
 ---
 title: "Buscar representació: agent, booker i manager per a artistes"
 description: "Qui fa qué, quan val la pena tenir-ne i com aconseguir que algú vulgui representar-te. Guia per a músics, actrius i actors, dansaires i artistes escènics."
+translationKey: "blog-buscar-representacio"
 date: 2026-07-02
 tags: ["materials-professionals"]
 category: legal
