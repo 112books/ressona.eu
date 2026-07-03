@@ -1,132 +1,108 @@
 ---
 title: "Digital portfolio for visual artists: how to present your work to galleries and collectors"
-description: "A digital portfolio is not an Instagram. It has a different function, a different tone, and different conventions. Here is how to prepare one that opens real doors."
+description: "A digital portfolio is not an Instagram. It has a different function, a different tone and different conventions. Here's how to prepare one that opens real doors."
 translationKey: "blog-digital-portfolio-visual-artists"
 date: 2026-07-02
 tags: ["professional-materials", "digital-identity"]
 category: identitat
 ---
 
-Having work posted on Instagram is not the same as having a professional portfolio. Social media serves many purposes — visibility, community, creative process — but it is not designed to communicate with galleries, collectors, curators, or residency calls. For that you need a different document: a different structure, a different tone, and a different level of control.
+Having work on Instagram is not having a professional portfolio. Social media serves many purposes — visibility, community, creative process — but it isn't designed to communicate with galleries, collectors, curators or residency calls. For that you need a different document: different structure, different tone, different level of control.
 
-The fundamental difference: Instagram is a continuous feed that followers consume passively. A portfolio is a document that someone consults actively and deliberately when they already have an interest in you. That changes everything: the selection of works, their presentation, the information accompanying each piece, and how the whole is structured.
+The fundamental difference: Instagram is a continuous stream the follower passively consumes. A portfolio is a document someone consults actively and deliberately when they already have interest in you. This changes everything: the selection of works, their presentation, the information accompanying each piece and how the whole is structured.
 
-## What a digital portfolio for visual artists must contain
+## What a digital portfolio for visual artists must have
 
 <div class="resource-steps">
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">01</span>
+<span class="resource-steps__number">01</span>
 
-**Brief introduction: who you are, where you work, what your work is about.** A single paragraph. Not a chronological biography, not a list of prizes, not an abstract statement of intent. One statement that positions you: where you come from, which tradition or current you work within, what the thematic or formal core of your practice is. If you cannot synthesise this in five lines, your artistic proposition is not yet clear enough — and that is the first problem to solve.
+**Brief presentation — who you are, where you work, what your work is.** One paragraph. Not a chronological biography, not a list of prizes, not an abstract statement of intent. One sentence that situates: where you're from, which tradition or current you work within, what is the thematic or formal core of your practice. If you can't synthesise it in five lines, you don't yet have a clear enough artistic proposition — and that's the first problem to solve.
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">02</span>
+<span class="resource-steps__number">02</span>
 
-**Body of work: between 15 and 25 pieces, the best you have made.** Not all of them. Selection is part of the artistic work and speaks as loudly as the works themselves. A portfolio of 60 pieces is not a portfolio — it is an archive. A gallery receiving 60 images will not look at all of them: it will look at 10 and decide. Choose for them, but choose well.
+**Body of work — between 15 and 25 pieces, your best. Not all you've made.** Selection is part of the artistic work and says as much as the works themselves. A portfolio of 60 pieces is not a portfolio: it's an archive. A gallery receiving 60 images doesn't look at all of them — it looks at 10 and decides. Choose for them, but choose well.
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">03</span>
+<span class="resource-steps__number">03</span>
 
-**Technical sheets for each piece.** Title, medium, support, dimensions, year of creation. If the work is available, the price — unless confidential — or "price on request" if you prefer to negotiate case by case. Without a technical sheet, the image is decoration, not professional documentation.
+**Technical sheets for each piece — Title, technique, support/medium, dimensions, year of production.** If the work is available, the price if not confidential, or "price on request" if you prefer to negotiate case by case. Without a technical sheet, the image is decoration, not professional documentation.
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">04</span>
+<span class="resource-steps__number">04</span>
 
-**Artistic CV: what actually matters.** Solo and group exhibitions (with year, title and venue), artist residencies, relevant awards and grants, and public or private collections in which your work appears. An artistic CV is not a work CV: it does not include your university degree unless it is in the arts, nor your day jobs. It includes what builds your trajectory as an artist.
+**Artistic CV — what really matters.** Solo and group exhibitions (with year, title and space), artist residencies, relevant awards and grants, public or private collections that hold your work. The artistic CV is not a work CV: it doesn't include your university degree if not in the arts, nor your day jobs. It includes what builds your trajectory as an artist.
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">05</span>
+<span class="resource-steps__number">05</span>
 
-**Direct contact.** An email address. Not a generic contact form, not a link to Instagram, not "follow me to find out more". An email address to which a gallery or collector can write right now. Surprisingly, many portfolios do not include one.
+**Direct contact — an email address.** Not a generic contact form, not a link to Instagram, not "follow me to find out more". An email address a gallery or collector can write to right now. Surprisingly, many portfolios don't have one.
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">06</span>
+<span class="resource-steps__number">06</span>
 
-**Downloadable PDF version.** There are contexts — open calls, residencies, venues without internet access, art fairs — where PDF is the standard format. Prepare a 10–15 page version, well laid out, with the same selection as your digital portfolio. It must be attachable to an email without exceeding 20 MB.
+**Downloadable PDF version** — there are contexts — open calls, residencies, rooms without internet, art fairs — where PDF is the standard format. Prepare a 10–15 page version, well laid out, with the same selection as the digital portfolio. Must be attachable to an email without being 20MB.
 </div>
 
 </div>
 
 ## How to organise the works
 
-Order is not neutral. How you present your works says a great deal about how you understand your own practice.
+Order is not neutral. How you present works says a lot about how you understand your own practice.
 
-**By series:** The best option when your work is articulated in coherent bodies — a painterly series, a photographic project, a set of related installations. It allows visitors to understand the depth of your work within a particular theme or form. Recommended if you have two or three solid series.
+**By series:** Best option when work is articulated in coherent groups — a painting series, a photography project, a related set of installations. Allows the visitor to understand the depth of your work on a theme or form. Recommended if you have two or three solid series.
 
-**By year:** Useful when your work has evolved significantly and you want to show a trajectory. The risk: it may imply that the most recent work is inherently better, when there may be older work that is superior. Use it if chronology is part of the discourse, not merely a convention.
+**By year:** Useful when your work has evolved significantly and you want to show the trajectory. Risk: may seem that recent work is better by default, when older work may be superior. Use it if chronology is part of the discourse, not just a convention.
 
-**By medium or material:** Appropriate for artists working across very different supports (ceramics, printmaking, painting, installation). It allows visitors to navigate to what interests them. The risk: it can fragment a coherent overall vision if there is no clear thread running through it.
+**By technique or material:** Suitable for artists working across very different media (ceramics, printmaking, painting, installation). Allows visitors to navigate what interests them. Risk: can fragment a coherent overall vision if there's no clear connecting thread.
 
-In all cases, the first work is the most important. Not the most recent, not the one that sold best, but the one that best represents who you are and what you do.
+In all cases, the first work is the most important. Not the most recent, not the best-selling, but the one that best represents who you are and what you do.
 
-## The first digital impression
+## The digital first impression
 
-Galleries and curators spend an average of two minutes looking at a portfolio. Sometimes less. In those two minutes they need to find: who you are (introduction), what you do (first pieces), whether there is depth (enough work to see a body of practice), and how to contact you.
+Galleries and curators look at a portfolio in two minutes on average. Sometimes less. In those two minutes they need to find: who you are (presentation), what you do (first pieces), whether there's depth (enough work to see a body of work), and how to contact you.
 
-If any of these four elements is hard to find or does not exist, the portfolio is not fulfilling its function, regardless of the quality of the work.
+If any of these four elements is hard to find or absent, the portfolio doesn't fulfil its function, regardless of the quality of the work.
 
-The typical reading order of a professional digital portfolio: introduction → first three pieces → CV → contact. Everything that falls outside this sequence is secondary. Design the portfolio to work in this order.
+The usual reading order of a professional digital portfolio: presentation → first three pieces → CV → contact. Everything that doesn't fit this path is accessory. Design the portfolio to work in this order.
 
 ## Common mistakes
 
 <div class="resource-checklist">
 
-<div class="resource-checklist__item">
-<span class="resource-checklist__icon" aria-hidden="true">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-</span>
-<div>
-<h3>Artwork photos taken in poor light or with visible wall</h3>
-<p>Photographic documentation of the work is as important as the work itself. A painting photographed under overhead lighting that causes glare, with the studio wall visible in the background, or with a colour that is distorted from the original is not professional documentation. The gallery context demands that the photo of the work is exactly what it appears to be: a professional photograph of the work.</p>
-</div>
+<div class="resource-checklist__item resource-checklist__item--no">
+<span class="resource-checklist__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+<div class="resource-checklist__text"><strong>Poor-quality artwork photos with bad lighting or visible wall.</strong> Documentation photography is as important as the work. A painting photographed with overhead light creating glare, with the studio wall in the background, or with colour distorted from the original is not professional documentation. The gallery context requires that the photo of the work looks like what it is: a professional photo of the work.</div>
 </div>
 
-<div class="resource-checklist__item">
-<span class="resource-checklist__icon" aria-hidden="true">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-</span>
-<div>
-<h3>Mixing very disparate styles without context</h3>
-<p>If your work is radically different across periods or projects, mixing them without explanation creates confusion. A curator who sees intimate watercolours alongside large-format installations with no discernible thread does not know which artist they are dealing with. Either you make the diversity explicit as part of your discourse, or you select what is most relevant for the context you are addressing.</p>
-</div>
+<div class="resource-checklist__item resource-checklist__item--no">
+<span class="resource-checklist__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+<div class="resource-checklist__text"><strong>Mixing very disparate styles without context.</strong> If your work is radically different across periods or projects, mixing without explanation creates confusion. A curator seeing intimate watercolours alongside large-format installations with no connecting thread doesn't know which artist they're facing. Either you articulate diversity as part of your discourse, or you select what's most relevant for the context you're addressing.</div>
 </div>
 
-<div class="resource-checklist__item">
-<span class="resource-checklist__icon" aria-hidden="true">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-</span>
-<div>
-<h3>Price visible to everyone when you do not want to negotiate publicly</h3>
-<p>If you display the price on your public digital portfolio, you are defining the conversation before it has begun. This can work for work with a fixed price and no room for negotiation. But if you prefer to adapt the price to the context — commercial gallery, private collector, public institution, acquisition for a collection — it is better to use "price on request" and keep the conversation open.</p>
-</div>
+<div class="resource-checklist__item resource-checklist__item--no">
+<span class="resource-checklist__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+<div class="resource-checklist__text"><strong>Visible pricing for everything when you don't want to negotiate publicly.</strong> If you put prices in the public digital portfolio, you're defining the conversation before having it. Can work for works with fixed prices and no negotiation margin. But if you prefer to adapt the price to context (commercial gallery, private collector, public institution, collection acquisition), better to say "price on request" and keep the conversation open.</div>
 </div>
 
-<div class="resource-checklist__item">
-<span class="resource-checklist__icon" aria-hidden="true">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-</span>
-<div>
-<h3>An identical portfolio for every context</h3>
-<p>The portfolio you send to a commercial gallery is not the same as the one you send to an open call for a research residency, which is not the same as the one you present at an art fair. The body of work may be the same, but the selection, the order, and the weight you give each element changes. Prepare versions adapted to the main contexts you address.</p>
-</div>
+<div class="resource-checklist__item resource-checklist__item--no">
+<span class="resource-checklist__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+<div class="resource-checklist__text"><strong>Identical portfolio for all contexts.</strong> The portfolio you send to a commercial gallery is not the same as one for a research residency call, which is not the same as one for an art fair. The body of work can be the same, but the selection, order and weight you give each element changes. Prepare adapted versions for your main contexts.</div>
 </div>
 
 </div>
 
-<div class="resource-callout">
+<div class="resource-callout"><h3>Professional photographic documentation is the foundation of any solid portfolio</h3><p>Ressona works with <strong><a href="https://pocallum.cat" target="_blank" rel="noopener">Pocallum</a></strong> specifically for artwork documentation by visual artists: controlled lighting, colour management and formats adapted for web, print and gallery submissions.</p></div>
 
-Professional photographic documentation of the work is the foundation of any solid portfolio. Ressona works with **Pocallum** specifically for artwork documentation with visual artists: controlled lighting, colour management, and formats adapted for both web use and print and gallery submissions. [pocallum.cat](https://pocallum.cat)
+## A portfolio is a working tool
 
-</div>
+A digital portfolio is not a place to "put works" in case someone sees them. It is a working tool that gets updated, adapted and actively sent in specific contexts. The difference between an artist who gets exhibitions and one who doesn't is often not the quality of the work: it's the quality of how they present it.
 
-## The portfolio as an active tool
-
-A digital portfolio is not a place to "put your work" in case someone happens to see it. It is a working tool that is updated, adapted, and actively sent in specific contexts. The difference between an artist who gets exhibitions and one who does not is often not the quality of the work — it is the quality of how they present themselves.
-
-At Ressona we support visual artists in building their professional digital identity: website, bio, strategy, and presentation materials adapted to the art market. If you would like to review how you present yourself, [contact us](/en/#contacte).
+Ressona supports visual artists in building their professional digital identity: website, bio, strategy and presentation materials adapted to the art market. If you want to review how you present yourself, [contact us](/en/#contacte).
