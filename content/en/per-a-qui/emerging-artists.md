@@ -68,7 +68,9 @@ The starting point isn't perfection. It's having the minimum pieces in order, so
 
 - [How to write an artist bio](/en/resources/artist-bio/)
 - [Press photos for artists](/en/resources/press-photos/)
+- [Styling and image guide for artists](/en/resources/styling-image-artists/)
 - [What is an EPK and what it's for](/en/resources/what-is-an-epk/)
+- [Promoting a show: the minimum communication plan](/en/resources/promoting-a-show-communication-plan/)
 - [Own website vs Linktree: when to switch](/en/resources/website-vs-linktree/)
 
 ---

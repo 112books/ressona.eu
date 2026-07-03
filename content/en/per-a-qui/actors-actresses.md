@@ -88,8 +88,10 @@ Every professional in the industry uses different search tools and criteria. Kno
 
 ## Related articles
 
-- [Showreel and book for actors and actresses](/en/resources/showreel-and-book-actors/)
+- [Showreel and book for actors and actresses](/en/resources/showreel-book-actors-actresses/)
 - [Digital press kit for actors and actresses](/en/resources/digital-press-kit-actors/)
+- [Styling and image guide for artists](/en/resources/styling-image-artists/)
+- [Promoting a show: the minimum communication plan](/en/resources/promoting-a-show-communication-plan/)
 - [Press photos for artists](/en/resources/press-photos/)
 - [Digital identity for actors and actresses](/en/resources/digital-identity-actors-actresses/)
 

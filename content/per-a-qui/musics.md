@@ -92,6 +92,10 @@ No cal tenir-ho tot alhora. Però sí cal tenir-ho en ordre. Aquí el recorregut
 
 - [Que és un EPK i per a que serveix](/recursos/que-es-un-epk/)
 - [EPK per a músics: el que un programador necessita](/recursos/epk-musics/)
+- [Rider tècnic: què és i com fer-lo bé](/recursos/rider-tecnic/)
+- [El rider adaptat: per formació i per tipus d'espai](/recursos/rider-tecnic-per-formacio-i-espai/)
+- [Guia d'estilisme i imatge per a artistes](/recursos/estilisme-imatge-artistes/)
+- [Promoure un espectacle: el pla de comunicació mínim](/recursos/promoure-un-espectacle-pla-comunicacio/)
 - [Fotos de premsa per a artistes](/recursos/fotos-de-premsa/)
 - [Com escriure una bio d'artista](/recursos/bio-artista/)
 - [Distribució digital de música](/recursos/distribucio-digital-musica/)

@@ -92,6 +92,10 @@ You don't need everything at once. But you do need things in the right order. He
 
 - [What is an EPK and what is it for](/en/resources/what-is-an-epk/)
 - [EPK for musicians: what a promoter needs](/en/resources/epk-musicians/)
+- [Technical rider: what it is and how to write one](/en/resources/technical-rider/)
+- [The adapted rider: by formation and venue type](/en/resources/technical-rider-by-formation-venue/)
+- [Styling and image guide for artists](/en/resources/styling-image-artists/)
+- [Promoting a show: the minimum communication plan](/en/resources/promoting-a-show-communication-plan/)
 - [Press photos for artists](/en/resources/press-photos/)
 - [How to write an artist bio](/en/resources/artist-bio/)
 - [Digital music distribution](/en/resources/music-digital-distribution/)

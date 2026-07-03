@@ -89,6 +89,8 @@ Cada oportunitat arriba acompanyada d'algú que ha de prendre una decisió ràpi
 ## Articles relacionats
 
 - [Presentar un projecte a un festival: com preparar la candidatura](/recursos/presentar-projecte-festival/)
+- [Promoure un espectacle: el pla de comunicació mínim](/recursos/promoure-un-espectacle-pla-comunicacio/)
+- [Festivals de dansa contemporània a Europa](/recursos/festivals-dansa-europa/)
 - [Fotos de premsa per a artistes](/recursos/fotos-de-premsa/)
 - [Que és un EPK i per a que serveix](/recursos/que-es-un-epk/)
 - [EPK per a companyies de dansa i circ](/recursos/epk-dansa-circ/)

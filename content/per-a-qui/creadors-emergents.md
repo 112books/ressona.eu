@@ -68,7 +68,9 @@ El punt de partida no és la perfecció. És tenir les peces mínimes en ordre, 
 
 - [Com escriure una bio d'artista](/recursos/bio-artista/)
 - [Fotos de premsa per a artistes](/recursos/fotos-de-premsa/)
+- [Guia d'estilisme i imatge per a artistes](/recursos/estilisme-imatge-artistes/)
 - [Que és un EPK i per a que serveix](/recursos/que-es-un-epk/)
+- [Promoure un espectacle: el pla de comunicació mínim](/recursos/promoure-un-espectacle-pla-comunicacio/)
 - [Web pròpia vs Linktree: quan canviar](/recursos/web-artista-vs-linktree/)
 
 ---

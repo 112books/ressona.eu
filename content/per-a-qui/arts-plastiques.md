@@ -93,6 +93,7 @@ El circuit de les arts visuals té les seves pròpies convencions. No és el mat
 - [Portfolio digital per a artistes visuals](/recursos/portfolio-digital-artistes-visuals/)
 - [EPK per a arts plàstiques: el dossier artístic professional](/recursos/epk-arts-plastiques/)
 - [Dossier per a beques i subvencions culturals](/recursos/dossier-beques-subvencions/)
+- [Promoure un espectacle: el pla de comunicació mínim](/recursos/promoure-un-espectacle-pla-comunicacio/)
 - [Fotografies professionals per a artistes](/recursos/fotos-de-premsa/)
 
 ---

@@ -93,6 +93,7 @@ The visual arts circuit has its own conventions. It's not the same as the music 
 - [Digital portfolio for visual artists](/en/resources/digital-portfolio-visual-artists/)
 - [EPK for visual arts: the professional artistic dossier](/en/resources/epk-visual-arts/)
 - [Dossier for cultural grants and subsidies](/en/resources/grants-dossier-artists/)
+- [Promoting a show: the minimum communication plan](/en/resources/promoting-a-show-communication-plan/)
 - [Professional photos for artists](/en/resources/press-photos/)
 
 ---

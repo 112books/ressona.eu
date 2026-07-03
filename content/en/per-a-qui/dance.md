@@ -89,6 +89,8 @@ Every opportunity comes with someone who has to make a quick decision about whet
 ## Related articles
 
 - [Pitching a project to a festival: how to prepare your submission](/en/resources/pitch-festival/)
+- [Promoting a show: the minimum communication plan](/en/resources/promoting-a-show-communication-plan/)
+- [Contemporary dance festivals in Europe](/en/resources/dance-festivals-europe/)
 - [Press photos for artists](/en/resources/press-photos/)
 - [What is an EPK and what is it for](/en/resources/what-is-an-epk/)
 - [EPK for dance and circus companies](/en/resources/epk-dance-circus/)

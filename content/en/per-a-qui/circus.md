@@ -88,7 +88,9 @@ Opportunities for a circus company don't all arrive through the same channel. Ea
 
 ## Related articles
 
-- [Technical rider: how to prepare it and what it's for](/en/resources/technical-rider/)
+- [Technical rider: what it is and how to write one](/en/resources/technical-rider/)
+- [The adapted rider: by formation and venue type](/en/resources/technical-rider-by-formation-venue/)
+- [Promoting a show: the minimum communication plan](/en/resources/promoting-a-show-communication-plan/)
 - [EPK for dance and circus companies](/en/resources/epk-dance-circus/)
 - [Pitching a project to a festival: how to prepare your submission](/en/resources/pitch-festival/)
 - [Press photos for artists](/en/resources/press-photos/)

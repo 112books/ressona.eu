@@ -89,6 +89,8 @@ Les oportunitats per a una companyia de circ no arriben totes per la mateixa via
 ## Articles relacionats
 
 - [Rider tècnic: com preparar-lo i per a que serveix](/recursos/rider-tecnic/)
+- [El rider adaptat: per formació i per tipus d'espai](/recursos/rider-tecnic-per-formacio-i-espai/)
+- [Promoure un espectacle: el pla de comunicació mínim](/recursos/promoure-un-espectacle-pla-comunicacio/)
 - [EPK per a companyies de dansa i circ](/recursos/epk-dansa-circ/)
 - [Presentar un projecte a un festival: com preparar la candidatura](/recursos/presentar-projecte-festival/)
 - [Fotos de premsa per a artistes](/recursos/fotos-de-premsa/)
