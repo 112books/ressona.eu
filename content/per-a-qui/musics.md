@@ -53,27 +53,27 @@ No cal tenir-ho tot alhora. Però sí cal tenir-ho en ordre. Aquí el recorregut
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">01</span>
-**Web pròpia.** El centre de la teva identitat digital. Independentment de quines plataformes existeixin o desapareguin, el teu domini és teu. Ha d'incloure bio, música, dates, premsa i contacte. Ressona treballa amb LinuxBCN per construir webs d'artista ràpides, optimitzades per a cercadors i fàcils de mantenir.
+<strong>Web pròpia.</strong> El centre de la teva identitat digital. Independentment de quines plataformes existeixin o desapareguin, el teu domini és teu. Ha d'incloure bio, música, dates, premsa i contacte. Ressona treballa amb LinuxBCN per construir webs d'artista ràpides, optimitzades per a cercadors i fàcils de mantenir.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">02</span>
-**EPK / press kit digital.** La versió concentrada i sempre actualitzada del que un professional necessita saber de tu. Bio en dues longituds, fotos descarregables, vídeos de directe, rider tècnic i contacte. Un sol enllaç que pots enviar a qualsevol programador o periodista. Llegeix la guia completa: <a href="/recursos/epk-musics/">EPK per a músics</a>.
+<strong>EPK / press kit digital.</strong> La versió concentrada i sempre actualitzada del que un professional necessita saber de tu. Bio en dues longituds, fotos descarregables, vídeos de directe, rider tècnic i contacte. Un sol enllaç que pots enviar a qualsevol programador o periodista. Llegeix la guia completa: <a href="/recursos/epk-musics/">EPK per a músics</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">03</span>
-**Fotos de premsa professionals.** No les que fa un amic amb bona voluntat. Fotos pensades per a ús editorial: llum, composició i format adequats per a cartells, portades de premsa i xarxes. Ressona treballa amb Pocallum per a les sessions fotogràfiques d'artistes. Llegeix: <a href="/recursos/fotos-de-premsa/">fotos de premsa per a artistes</a>.
+<strong>Fotos de premsa professionals.</strong> No les que fa un amic amb bona voluntat. Fotos pensades per a ús editorial: llum, composició i format adequats per a cartells, portades de premsa i xarxes. Ressona treballa amb Pocallum per a les sessions fotogràfiques d'artistes. Llegeix: <a href="/recursos/fotos-de-premsa/">fotos de premsa per a artistes</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">04</span>
-**Presència a plataformes de streaming.** Spotify for Artists, Bandcamp, Apple Music: cada plataforma té el seu públic i la seva lògica. La distribució digital no és tan complicada com sembla, però cal fer-la bé des del principi. Llegeix: <a href="/recursos/distribucio-digital-musica/">distribució digital de música</a>.
+<strong>Presència a plataformes de streaming.</strong> Spotify for Artists, Bandcamp, Apple Music: cada plataforma té el seu públic i la seva lògica. La distribució digital no és tan complicada com sembla, però cal fer-la bé des del principi. Llegeix: <a href="/recursos/distribucio-digital-musica/">distribució digital de música</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
-**Xarxes amb estratègia.** Publicar per publicar no construeix res. Cal una veu reconeixible, un ritme sostenible i contingut que aporti valor real als seguidors. La bio és el punt de partida: llegeix <a href="/recursos/bio-artista/">com escriure una bio d'artista</a> que funcioni tant al web com a Instagram.
+<strong>Xarxes amb estratègia.</strong> Publicar per publicar no construeix res. Cal una veu reconeixible, un ritme sostenible i contingut que aporti valor real als seguidors. La bio és el punt de partida: llegeix <a href="/recursos/bio-artista/">com escriure una bio d'artista</a> que funcioni tant al web com a Instagram.
 </div>
 
 </div>

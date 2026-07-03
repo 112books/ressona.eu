@@ -53,27 +53,27 @@ You don't need everything at once. But you do need things in the right order. He
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">01</span>
-**Your own website.** The centre of your digital identity. Whatever platforms come and go, your domain is yours. It needs a bio, music, dates, press section and contact. Ressona works with LinuxBCN to build artist websites that are fast, search-engine optimised and easy to maintain.
+<strong>Your own website.</strong> The centre of your digital identity. Whatever platforms come and go, your domain is yours. It needs a bio, music, dates, press section and contact. Ressona works with LinuxBCN to build artist websites that are fast, search-engine optimised and easy to maintain.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">02</span>
-**EPK / digital press kit.** The concentrated, always-updated version of what a professional needs to know about you. Bio in two lengths, downloadable photos, live videos, technical rider and contact. One link you can send to any promoter or journalist. Read the full guide: <a href="/en/resources/what-is-an-epk/">what is an EPK</a>.
+<strong>EPK / digital press kit.</strong> The concentrated, always-updated version of what a professional needs to know about you. Bio in two lengths, downloadable photos, live videos, technical rider and contact. One link you can send to any promoter or journalist. Read the full guide: <a href="/en/resources/what-is-an-epk/">what is an EPK</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">03</span>
-**Professional press photos.** Not the ones a well-meaning friend takes. Photos designed for editorial use: lighting, composition and format suited for posters, press covers and social media. Ressona works with Pocallum for artist photo sessions. Read: <a href="/en/resources/press-photos/">press photos for artists</a>.
+<strong>Professional press photos.</strong> Not the ones a well-meaning friend takes. Photos designed for editorial use: lighting, composition and format suited for posters, press covers and social media. Ressona works with Pocallum for artist photo sessions. Read: <a href="/en/resources/press-photos/">press photos for artists</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">04</span>
-**Streaming platform presence.** Spotify for Artists, Bandcamp, Apple Music: each platform has its own audience and logic. Digital distribution isn't as complicated as it seems, but it needs to be done right from the start. Read: <a href="/en/resources/music-digital-distribution/">digital music distribution</a>.
+<strong>Streaming platform presence.</strong> Spotify for Artists, Bandcamp, Apple Music: each platform has its own audience and logic. Digital distribution isn't as complicated as it seems, but it needs to be done right from the start. Read: <a href="/en/resources/music-digital-distribution/">digital music distribution</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
-**Social media with strategy.** Posting for the sake of posting builds nothing. You need a recognisable voice, a sustainable rhythm and content that gives real value to your followers. Your bio is the starting point — read <a href="/en/resources/artist-bio/">how to write an artist bio</a> that works both on your website and on Instagram.
+<strong>Social media with strategy.</strong> Posting for the sake of posting builds nothing. You need a recognisable voice, a sustainable rhythm and content that gives real value to your followers. Your bio is the starting point — read <a href="/en/resources/artist-bio/">how to write an artist bio</a> that works both on your website and on Instagram.
 </div>
 
 </div>

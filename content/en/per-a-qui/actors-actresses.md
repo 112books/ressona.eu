@@ -51,27 +51,27 @@ Every professional in the industry uses different search tools and criteria. Kno
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">01</span>
-**An up-to-date showreel.** The central piece of your professional identity. It should show your best recent work, with a range of registers if you have them. Maximum length: 2-3 minutes. It needs to be accessible via streaming (YouTube or a password-protected Vimeo if needed) and updated as your career progresses. A showreel from 2019 says you haven't worked since 2019.
+<strong>An up-to-date showreel.</strong> The central piece of your professional identity. It should show your best recent work, with a range of registers if you have them. Maximum length: 2-3 minutes. It needs to be accessible via streaming (YouTube or a password-protected Vimeo if needed) and updated as your career progresses. A showreel from 2019 says you haven't worked since 2019.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">02</span>
-**Digital press kit.** Professional bio in two lengths (short for programmes, long for dossiers), CV by discipline (theatre, film, TV, voice-over), downloadable press photos and links to all your audiovisual material. Everything in a single web space, accessible from one link. Read: <a href="/en/resources/digital-press-kit-actors/">digital press kit for actors and actresses</a>.
+<strong>Digital press kit.</strong> Professional bio in two lengths (short for programmes, long for dossiers), CV by discipline (theatre, film, TV, voice-over), downloadable press photos and links to all your audiovisual material. Everything in a single web space, accessible from one link. Read: <a href="/en/resources/digital-press-kit-actors/">digital press kit for actors and actresses</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">03</span>
-**Casting platforms.** An up-to-date profile on the platforms relevant to your market: Casting.es, Mandy.com, Backstage (for international markets), ActorsAccess. Each platform has its own logic and audience. The key is keeping them current — an outdated profile is worse than having none at all.
+<strong>Casting platforms.</strong> An up-to-date profile on the platforms relevant to your market: Casting.es, Mandy.com, Backstage (for international markets), ActorsAccess. Each platform has its own logic and audience. The key is keeping them current — an outdated profile is worse than having none at all.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">04</span>
-**Your own website.** Your digital space, independent of any platform. Includes your showreel, full CV, professional photos and a direct contact form. Unlike casting platforms, your website doesn't filter you or put you in direct competition with a hundred other profiles — you're the only protagonist.
+<strong>Your own website.</strong> Your digital space, independent of any platform. Includes your showreel, full CV, professional photos and a direct contact form. Unlike casting platforms, your website doesn't filter you or put you in direct competition with a hundred other profiles — you're the only protagonist.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
-**Professional photos: headshot and in action.** The headshot is your calling card on every platform. It must be current, well-lit and represent how you look now. Action shots show registers, stage presence and versatility. Ressona works with Pocallum for actor and actress photo sessions. Read: <a href="/en/resources/press-photos/">press photos for artists</a>.
+<strong>Professional photos: headshot and in action.</strong> The headshot is your calling card on every platform. It must be current, well-lit and represent how you look now. Action shots show registers, stage presence and versatility. Ressona works with Pocallum for actor and actress photo sessions. Read: <a href="/en/resources/press-photos/">press photos for artists</a>.
 </div>
 
 </div>

@@ -17,27 +17,27 @@ Emergent no és sinònim d'inexpert. Vol dir nouvingut al sector professional �
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">01</span>
-**Una bio professional.** En dues longituds: curta (tres línies per a Instagram, formularis i presentacions ràpides) i llarga (un paràgraf per a dossiers i premsa). És el primer que et demanarà absolutament tothom — organitzadors, periodistes, galeries, programadors, jurat de beques. Sense una bio clara i actualitzada, cada oportunitat comença amb una demora. Llegeix: <a href="/recursos/bio-artista/">com escriure una bio d'artista</a>.
+<strong>Una bio professional.</strong> En dues longituds: curta (tres línies per a Instagram, formularis i presentacions ràpides) i llarga (un paràgraf per a dossiers i premsa). És el primer que et demanarà absolutament tothom — organitzadors, periodistes, galeries, programadors, jurat de beques. Sense una bio clara i actualitzada, cada oportunitat comença amb una demora. Llegeix: <a href="/recursos/bio-artista/">com escriure una bio d'artista</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">02</span>
-**Fotos de premsa mínimes.** Un retrat professional i una foto en acció o en context de treball. Sense aquest parell, no pots enviar res a cap programador, periodista ni promotor. No és un luxe: és el mínim funcional. Les fotos de mòbil fetes per un amic amb bona voluntat no compleixen la funció. Ressona treballa amb Pocallum per a les sessions fotogràfiques d'artistes en fase inicial. Llegeix: <a href="/recursos/fotos-de-premsa/">fotos de premsa per a artistes</a>.
+<strong>Fotos de premsa mínimes.</strong> Un retrat professional i una foto en acció o en context de treball. Sense aquest parell, no pots enviar res a cap programador, periodista ni promotor. No és un luxe: és el mínim funcional. Les fotos de mòbil fetes per un amic amb bona voluntat no compleixen la funció. Ressona treballa amb Pocallum per a les sessions fotogràfiques d'artistes en fase inicial. Llegeix: <a href="/recursos/fotos-de-premsa/">fotos de premsa per a artistes</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">03</span>
-**Una adreça de contacte professional.** `nom@nomartistic.com` en lloc de `nomartistic2003@gmail.com`. És un detall petit que té un impacte desproporcionat en com et perceben. Un domini propi costa pocs euros l'any i dóna una senyal clara que prens el teu projecte seriosament. Ressona treballa amb LinuxBCN per configurar correu professional per a artistes.
+<strong>Una adreça de contacte professional.</strong> `nom@nomartistic.com` en lloc de `nomartistic2003@gmail.com`. És un detall petit que té un impacte desproporcionat en com et perceben. Un domini propi costa pocs euros l'any i dóna una senyal clara que prens el teu projecte seriosament. Ressona treballa amb LinuxBCN per configurar correu professional per a artistes.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">04</span>
-**Un punt de presència digital.** Pot ser un Linktree o una pàgina senzilla al principi — però l'objectiu és tenir web pròpia en un termini raonable. El motiu: les plataformes canvien les seves condicions, desapareixen o perden rellevància. El teu domini és l'únic actiu digital que controles completament. Llegeix el debat: <a href="/recursos/web-artista-vs-linktree/">web pròpia vs Linktree</a>.
+<strong>Un punt de presència digital.</strong> Pot ser un Linktree o una pàgina senzilla al principi — però l'objectiu és tenir web pròpia en un termini raonable. El motiu: les plataformes canvien les seves condicions, desapareixen o perden rellevància. El teu domini és l'únic actiu digital que controles completament. Llegeix el debat: <a href="/recursos/web-artista-vs-linktree/">web pròpia vs Linktree</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
-**Un EPK mínim.** No ha de ser perfecte — ha de ser funcional i actualitzat. Bio, fotos descarregables, descripció del projecte i contacte. Un EPK desactualitzat és pitjor que no tenir-ne: projecta descuido. L'objectiu és tenir un document que puguis enviar avui i que representi bé on ets ara. Llegeix: <a href="/recursos/que-es-un-epk/">que és un EPK i per a que serveix</a>.
+<strong>Un EPK mínim.</strong> No ha de ser perfecte — ha de ser funcional i actualitzat. Bio, fotos descarregables, descripció del projecte i contacte. Un EPK desactualitzat és pitjor que no tenir-ne: projecta descuido. L'objectiu és tenir un document que puguis enviar avui i que representi bé on ets ara. Llegeix: <a href="/recursos/que-es-un-epk/">que és un EPK i per a que serveix</a>.
 </div>
 
 </div>

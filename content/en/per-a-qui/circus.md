@@ -51,27 +51,27 @@ Opportunities for a circus company don't all arrive through the same channel. Ea
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">01</span>
-**Complete technical EPK.** For circus, the technical rider is the most critical document. It must specify minimum stage dimensions, required rigging height, rigging points and maximum loads, set-up and strike times, the number of technicians required and electrical requirements. Without a clear rider, negotiation with any festival or venue is impossible. Read the guide: <a href="/en/resources/epk-dance-circus/">EPK for dance and circus companies</a>.
+<strong>Complete technical EPK.</strong> For circus, the technical rider is the most critical document. It must specify minimum stage dimensions, required rigging height, rigging points and maximum loads, set-up and strike times, the number of technicians required and electrical requirements. Without a clear rider, negotiation with any festival or venue is impossible. Read the guide: <a href="/en/resources/epk-dance-circus/">EPK for dance and circus companies</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">02</span>
-**Video of the piece (not a compilation).** The video a programmer needs is not a highlights reel from the company's last few years. They need to see the specific piece being proposed: its structure, rhythm, real duration and technical quality. The ideal format is a recording of a complete professional performance, or the best ten minutes in a real performance context. A clean, well-recorded video always beats a polished production of a different piece.
+<strong>Video of the piece (not a compilation).</strong> The video a programmer needs is not a highlights reel from the company's last few years. They need to see the specific piece being proposed: its structure, rhythm, real duration and technical quality. The ideal format is a recording of a complete professional performance, or the best ten minutes in a real performance context. A clean, well-recorded video always beats a polished production of a different piece.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">03</span>
-**Professional action photos.** Circus is visually powerful — the photos must capture movement and risk without trickery. A static studio shot conveys nothing about the piece. Images need to show the work in live performance, with stage lighting and spatial context. Ressona works with Pocallum for performing arts photography. Read: <a href="/en/resources/press-photos/">press photos for artists</a>.
+<strong>Professional action photos.</strong> Circus is visually powerful — the photos must capture movement and risk without trickery. A static studio shot conveys nothing about the piece. Images need to show the work in live performance, with stage lighting and spatial context. Ressona works with Pocallum for performing arts photography. Read: <a href="/en/resources/press-photos/">press photos for artists</a>.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">04</span>
-**Website with downloadable PDF technical rider.** The technical rider must be available as a downloadable PDF from the company website, without the programmer having to request it by email. The website is the centre of digital identity: it must include the technical rider, photo gallery, videos, touring history and direct contact. Ressona works with LinuxBCN to build performing arts company websites optimised for search engines and easy to maintain.
+<strong>Website with downloadable PDF technical rider.</strong> The technical rider must be available as a downloadable PDF from the company website, without the programmer having to request it by email. The website is the centre of digital identity: it must include the technical rider, photo gallery, videos, touring history and direct contact. Ressona works with LinuxBCN to build performing arts company websites optimised for search engines and easy to maintain.
 </div>
 
 <div class="resource-steps__item">
 <span class="resource-steps__num">05</span>
-**Presence in specialist directories.** Circostrada is the reference directory for contemporary European circus; FEDEC is the European federation of circus schools. Appearing in them is not automatic and guarantees no contracts, but it is the map that programmers and co-producers in the sector navigate. Presence is a necessary condition for international distribution.
+<strong>Presence in specialist directories.</strong> Circostrada is the reference directory for contemporary European circus; FEDEC is the European federation of circus schools. Appearing in them is not automatic and guarantees no contracts, but it is the map that programmers and co-producers in the sector navigate. Presence is a necessary condition for international distribution.
 </div>
 
 </div>
