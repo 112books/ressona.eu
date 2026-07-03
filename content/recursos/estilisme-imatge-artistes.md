@@ -23,15 +23,15 @@ Els artistes que construeixen una imatge consistent no ho fan per ego. Ho fan pe
 
 No per copiar-los: per entendre com funciona el procés.
 
-**David Bowie** va construir identitats visuals completes —Ziggy Stardust, Aladdin Sane, el Duc Blanc— que eren inseparables de la música de cada etapa. Cada transformació era coherent des de dins.
+**[David Bowie](https://www.davidbowie.com/)** va construir identitats visuals completes —Ziggy Stardust, Aladdin Sane, el Duc Blanc— que eren inseparables de la música de cada etapa. Cada transformació era coherent des de dins.
 
-**Björk** col·labora des dels anys 90 amb dissenyadors, escultors i artistes visuals per crear universos complets: vestit de cigne d'Alexander McQueen, col·laboració amb Nick Knight, portades de Inez & Vinoodh. La seva imatge és una obra d'art en si mateixa.
+**[Björk](https://bjork.com/)** col·labora des dels anys 90 amb dissenyadors, escultors i artistes visuals per crear universos complets: vestit de cigne d'Alexander McQueen, col·laboració amb Nick Knight, portades de Inez & Vinoodh. La seva imatge és una obra d'art en si mateixa.
 
-**FKA Twigs** treballa la seva estètica com a extensió de la seva dansa i la seva música. Cada foto és coreografiada com un moviment.
+**[FKA Twigs](https://www.fkatwigs.com/)** treballa la seva estètica com a extensió de la seva dansa i la seva música. Cada foto és coreografiada com un moviment.
 
-**Rosalía** ha construït una identitat que barreja flamenc, estètica urbana i referències a la cultura popular espanyola amb una consistència visual impressionant —de les fotos de premsa als seus directes.
+**[Rosalía](https://www.rosalia.com/)** ha construït una identitat que barreja flamenc, estètica urbana i referències a la cultura popular espanyola amb una consistència visual impressionant —de les fotos de premsa als seus directes.
 
-**Nick Cave** porta dècades amb una imatge que no canvia però que és absolutament seva: el negre, la seriositat, la intensitat visual que anticipa perfectament la seva música.
+**[Nick Cave](https://www.nickcave.com/)** porta dècades amb una imatge que no canvia però que és absolutament seva: el negre, la seriositat, la intensitat visual que anticipa perfectament la seva música.
 
 La pregunta no és "com me'ls copio". La pregunta és: **quin univers visual és el teu, i com es veu?**
 

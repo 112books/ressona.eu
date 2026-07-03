@@ -23,15 +23,15 @@ Artists who build consistent images do not do so out of ego. They do it because 
 
 Not to copy them: to understand how the process works.
 
-**David Bowie** built complete visual identities — Ziggy Stardust, Aladdin Sane, the Thin White Duke — that were inseparable from the music of each period. Every transformation was coherent from within.
+**[David Bowie](https://www.davidbowie.com/)** built complete visual identities — Ziggy Stardust, Aladdin Sane, the Thin White Duke — that were inseparable from the music of each period. Every transformation was coherent from within.
 
-**Björk** has collaborated since the 1990s with designers, sculptors and visual artists to create complete universes: Alexander McQueen's swan dress, collaboration with Nick Knight, covers shot by Inez & Vinoodh. Her image is a work of art in itself.
+**[Björk](https://bjork.com/)** has collaborated since the 1990s with designers, sculptors and visual artists to create complete universes: Alexander McQueen's swan dress, collaboration with Nick Knight, covers shot by Inez & Vinoodh. Her image is a work of art in itself.
 
-**FKA Twigs** works her aesthetic as an extension of her dance and music. Every photo is choreographed like a movement.
+**[FKA Twigs](https://www.fkatwigs.com/)** works her aesthetic as an extension of her dance and music. Every photo is choreographed like a movement.
 
-**Rosalía** has built an identity that blends flamenco, urban aesthetics and references to Spanish popular culture with impressive visual consistency — from press photos to her live shows.
+**[Rosalía](https://www.rosalia.com/)** has built an identity that blends flamenco, urban aesthetics and references to Spanish popular culture with impressive visual consistency — from press photos to her live shows.
 
-**Nick Cave** has spent decades with an image that does not change but is absolutely his own: the black, the seriousness, the visual intensity that perfectly anticipates his music.
+**[Nick Cave](https://www.nickcave.com/)** has spent decades with an image that does not change but is absolutely his own: the black, the seriousness, the visual intensity that perfectly anticipates his music.
 
 The question is not "how do I copy them". The question is: **what is your visual universe, and how does it look?**
 
