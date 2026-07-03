@@ -338,7 +338,7 @@
       <div class="kpi"><dt>30 dies</dt><dd><div class="kpi-value" id="kpi-30d">—</div><div class="kpi-sub">últims 30 dies</div></dd></div>
       <div class="kpi"><dt>total any</dt><dd><div class="kpi-value" id="kpi-total">—</div><div class="kpi-sub" id="sub-total"></div></dd></div>
       <div class="kpi"><dt>mitjana/dia</dt><dd><div class="kpi-value" id="kpi-pps">—</div><div class="kpi-sub">visites diàries (mitjana)</div></dd></div>
-      <div class="kpi"><dt>tendència</dt><dd><div class="kpi-value" id="kpi-trend">—</div><div class="kpi-sub">28d vs 28d anterior</div></dd></div>
+      <div class="kpi"><dt>tendència</dt><dd><div class="kpi-value" id="kpi-trend">—</div><div class="kpi-sub" id="sub-trend">28d vs 28d anterior</div></dd></div>
     </dl>
 
     <!-- Tabs -->
@@ -525,6 +525,7 @@ function renderAll(data) {
   renderTrend(data);
   renderWeekday(data);
   renderLang(data);
+  renderDepth(data);
   renderSections(data);
   renderPages(data);
   renderRecursos(data);
@@ -708,9 +709,9 @@ async function renderRecursos(data) {
     const caItems = manifestToItems(caManifest, hitsMap);
     const enItems = manifestToItems(enManifest, hitsMap);
     if (!caItems.length) document.getElementById('recursos-wrap').innerHTML = '<span class="empty">Sense recursos publicats.</span>';
-    else renderBars('recursos-wrap', caItems, { withLinks: true, colorClass: 'gold' });
+    else renderBars('recursos-wrap', caItems, { withLinks: true, alwaysShowPct: true });
     if (!enItems.length) document.getElementById('recursos-en-wrap').innerHTML = '<span class="empty">Sense recursos EN publicats.</span>';
-    else renderBars('recursos-en-wrap', enItems, { withLinks: true, colorClass: 'ink2' });
+    else renderBars('recursos-en-wrap', enItems, { withLinks: true, colorClass: 'ink2', alwaysShowPct: true });
   } catch(e) {
     const fallback = hits.filter(h => /\/(recursos|resources)\//.test(h.path)).map(h => ({
       name: h.path.replace(/^\/(en\/)?resources?\//, '').replace(/\/$/, '') || h.path,
@@ -810,15 +811,23 @@ function renderDepth(data) {
 
 /* ══ TENDÈNCIA ═══════════════════════════════════════════════ */
 function renderTrend(data) {
-  const hbd  = data.hits_by_day || [];
-  const curr = sumDays(hbd, daysAgo(28), daysAgo(1));
-  const prev = sumDays(hbd, daysAgo(56), daysAgo(29));
-  const el   = document.getElementById('kpi-trend');
+  const hbd = data.hits_by_day || [];
+  const el  = document.getElementById('kpi-trend');
+  const sub = document.getElementById('sub-trend');
   if (!el) return;
-  if (!prev) { el.textContent = '—'; return; }
-  const pct  = Math.round((curr - prev) / prev * 100);
-  el.textContent = (pct >= 0 ? '+' : '') + pct + '%';
-  el.style.color = pct >= 0 ? '#fdbf68' : '#c0a9b3';
+  for (const days of [28, 14, 7]) {
+    const curr = sumDays(hbd, daysAgo(days),     daysAgo(1));
+    const prev = sumDays(hbd, daysAgo(days * 2), daysAgo(days + 1));
+    if (prev > 0) {
+      const pct = Math.round((curr - prev) / prev * 100);
+      el.textContent = (pct >= 0 ? '+' : '') + pct + '%';
+      el.style.color = pct >= 0 ? '#fdbf68' : '#c0a9b3';
+      if (sub) sub.textContent = days + 'd vs ' + days + 'd anterior';
+      return;
+    }
+  }
+  el.textContent = '—';
+  if (sub) sub.textContent = 'sense prou dades';
 }
 
 /* ══ DIA DE LA SETMANA ═══════════════════════════════════════ */
@@ -835,7 +844,7 @@ function renderWeekday(data) {
   });
   const avgs = counts.map((c, i) => occur[i] ? Math.round(c / occur[i]) : 0);
   const items = DAYS.map((name, i) => ({ name, count: avgs[i] }));
-  renderBars('weekday-wrap', items, { colorClass: 'ink2' });
+  renderBars('weekday-wrap', items, { barWidthByTotal: true, alwaysShowPct: true });
 }
 
 /* ══ FUNNEL HOME → SERVEIS ═══════════════════════════════════ */
@@ -1088,6 +1097,7 @@ function renderBars(containerId, items, opts = {}) {
   items.forEach(item => {
     const pct  = Math.round(item.count/max*100);
     const gpct = Math.round(item.count/total*100);
+    const barW = opts.barWidthByTotal ? gpct : pct;
     const name = String(item.name || '?');
 
     const row   = document.createElement('div'); row.className = 'bar-row';
@@ -1105,9 +1115,11 @@ function renderBars(containerId, items, opts = {}) {
     const fill  = document.createElement('div');
     fill.className = 'bar-fill' + (opts.colorClass ? ' '+opts.colorClass : '');
     fill.style.width = '0%';
-    fill.dataset.w = pct;
-    if (gpct > 12) {
-      const sp = document.createElement('span'); sp.className = 'bar-pct'; sp.textContent = gpct+'%';
+    fill.dataset.w = barW;
+    if (opts.alwaysShowPct ? gpct > 0 : gpct > 12) {
+      const sp = document.createElement('span'); sp.className = 'bar-pct';
+      sp.textContent = gpct + '%';
+      sp.style.color = barW > 30 ? 'var(--invert)' : 'var(--ink3)';
       fill.appendChild(sp);
     }
     track.appendChild(fill);
