@@ -1,5 +1,5 @@
 ---
-title: "What should a digital press kit for an actor include in 2026"
+title: "What should a digital press kit for actors and actresses include in 2026"
 description: "Your digital press kit is your professional calling card. Discover which elements are essential and how to make it work for you around the clock."
 translationKey: "blog-actor-presskit"
 type: resources
@@ -11,7 +11,7 @@ category: epk
 
 A casting director opens your profile. They have twenty-five tabs open and three minutes to decide whether to call you or move on to the next person. In that moment, your press kit is the only salesperson working on your behalf.
 
-A digital press kit for an actor is not a luxury reserved for big names. It is a basic professional tool that determines whether you make it to the audition stage or get filtered out before anyone even considers you. And in 2026, "having a PDF gathering dust on Google Drive" does not count.
+A digital press kit for an actor or actress is not a luxury reserved for big names. It is a basic professional tool that determines whether you make it to the audition stage or get filtered out before anyone even considers you. And in 2026, "having a PDF gathering dust on Google Drive" does not count.
 
 ## What a digital press kit is and why it differs from a PDF
 
@@ -37,7 +37,7 @@ The usage licence must be clear. Productions need to know they can use your phot
 - **Short bio** (50-80 words): for programmes, festival websites, production sheets. Must include your name, training if relevant, three or four notable credits, and one element that sets you apart.
 - **Long bio** (200-300 words): for press dossiers, interviews, presentations. Can be more narrative and contextualise your career trajectory.
 
-Always write in the third person. "Joan is an actor trained at Institut del Teatre", not "I am an actor".
+Always write in the third person. "Júlia is an actress trained at Institut del Teatre", not "I am an actress".
 
 ### 3. An up-to-date showreel
 
@@ -77,7 +77,7 @@ An outdated press kit is not neutral. It communicates that the artist is not act
 
 ## How to make your press kit work on its own
 
-A well-built digital press kit is not just an information sheet. It is a passive marketing tool. When it appears in Google results when someone searches your name, when AIs answering questions about actors in Barcelona index it, when a director shares it with a colleague, it works for you without you doing anything.
+A well-built digital press kit is not just an information sheet. It is a passive marketing tool. When it appears in Google results when someone searches your name, when AIs answering questions about actors and actresses in Barcelona index it, when a director shares it with a colleague, it works for you without you doing anything.
 
 For this to happen, it needs three things: **to be on its own domain** (not a third-party platform), **to have content that search engines can read** (not everything in PDFs or images), and **to be kept up to date**.
 
