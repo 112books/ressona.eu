@@ -87,5 +87,5 @@ Si vols que et construïm el press kit digital o revisem el que ja tens, [explic
 
 - [Què és un EPK i per a què serveix](/recursos/que-es-un-epk/) — la guia general del press kit digital per a qualsevol disciplina artística
 - [Showreel i book d'actrius i actors](/recursos/showreel-book-actrius-actors/) — com preparar el material audiovisual i fotogràfic per a càstings
-- [Identitat digital per a actors](/recursos/identitat-digital-actors/) — web, perfils i presència en línia per al sector de les arts escèniques
+- [Identitat digital per a actrius i actors](/recursos/identitat-digital-actrius-actors/) — web, perfils i presència en línia per al sector de les arts escèniques
 - [Fotos de premsa professionals](/recursos/fotos-de-premsa/) — per a saber com han de ser les fotografies del teu press kit

@@ -86,7 +86,7 @@ Every professional in the industry uses different search tools and criteria. Kno
 - [Showreel and book for actors and actresses](/en/resources/showreel-and-book-actors/)
 - [Digital press kit for actors and actresses](/en/resources/digital-press-kit-actors/)
 - [Press photos for artists](/en/resources/press-photos/)
-- [Digital identity for actors and actresses](/en/resources/digital-identity-actors/)
+- [Digital identity for actors and actresses](/en/resources/digital-identity-actors-actresses/)
 
 ---
 

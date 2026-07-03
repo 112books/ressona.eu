@@ -86,7 +86,7 @@ Cada professional del sector utilitza eines i criteris de cerca diferents. Conè
 - [Showreel i book per a actrius i actors](/recursos/showreel-book-actrius-actors/)
 - [Press kit digital per a actors i actrius](/recursos/press-kit-digital-actors/)
 - [Fotos de premsa per a artistes](/recursos/fotos-de-premsa/)
-- [Identitat digital per a actors i actrius](/recursos/identitat-digital-actors/)
+- [Identitat digital per a actrius i actors](/recursos/identitat-digital-actrius-actors/)
 
 ---
 

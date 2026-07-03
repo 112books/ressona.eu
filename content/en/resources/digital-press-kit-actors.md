@@ -87,5 +87,5 @@ If you want us to build your digital press kit or review what you already have, 
 
 - [What Is an EPK and What Is It For](/en/resources/what-is-an-epk/) — the general guide to digital press kits for any artistic discipline
 - [Showreel and Photo Book for Actors](/en/resources/showreel-and-book-actors/) — how to prepare audiovisual and photographic material for castings
-- [Digital Identity for Actors](/en/resources/digital-identity-actors/) — website, profiles and online presence for the performing arts
+- [Digital Identity for Actors and Actresses](/en/resources/digital-identity-actors-actresses/) — website, profiles and online presence for the performing arts
 - [Professional Press Photos](/en/resources/press-photos/) — what your press kit photos need to look like

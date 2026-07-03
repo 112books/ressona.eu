@@ -1,6 +1,6 @@
 ---
-title: "Identitat digital per a actors: el que necessites per treballar al sector"
-description: "Guia pràctica per a actors que volen construir una presència digital professional: press kit, plataformes de càsting, web i xarxes socials."
+title: "Identitat digital per a actrius i actors: el que necessites per treballar al sector"
+description: "Guia pràctica per a actrius i actors que volen construir una presència digital professional: press kit, plataformes de càsting, web i xarxes socials."
 translationKey: "blog-actor-identity"
 type: recursos
 date: 2026-06-26
@@ -9,7 +9,7 @@ tags: ["identitat-digital", "materials-professionals"]
 category: identitat
 ---
 
-Un director de càsting no busca al mateix lloc que un promotor musical. Un actor necessita estar visible per a productores, directors i agències de representació — no necessàriament per al públic general. La identitat digital d'un actor ha d'estar construïda per a qui pren decisions de contractació, no per a qui compra entrades.
+Un director de càsting no busca al mateix lloc que un promotor musical. Una actriu o actor necessita estar visible per a productores, directors i agències de representació — no necessàriament per al públic general. La identitat digital d'una actriu o actor ha d'estar construïda per a qui pren decisions de contractació, no per a qui compra entrades.
 
 Aquesta distinció canvia completament com s'ha de construir la presència en línia.
 
@@ -37,7 +37,7 @@ El primer que fa qualsevol director o productora quan el teu nom els arriba per 
 
 ### Plataformes de càsting especialitzades
 
-A Catalunya i Espanya s'utilitzen plataformes com [Casting.es](https://www.casting.es/), [LatinCast](https://www.latincast.com/) o [Mandy.com](https://www.mandy.com/) per a produccions internacionals. Tenir un perfil actualitzat en almenys una o dues és imprescindible per als actors que busquen feina en audiovisual i publicitat. Però el perfil de càsting **no substitueix** el press kit: té un format molt restringit i no pots controlar com et presents.
+A Catalunya i Espanya s'utilitzen plataformes com [Casting.es](https://www.casting.es/), [LatinCast](https://www.latincast.com/) o [Mandy.com](https://www.mandy.com/) per a produccions internacionals. Tenir un perfil actualitzat en almenys una o dues és imprescindible per a les actrius i actors que busquen feina en audiovisual i publicitat. Però el perfil de càsting **no substitueix** el press kit: té un format molt restringit i no pots controlar com et presents.
 
 </div>
 
@@ -65,7 +65,7 @@ Al teatre i al cinema independent, la majoria dels projectes s'articulen per xar
 
 ### Web pròpia (domini propi)
 
-La teva adreça web permanent. Ha de tenir: headshot i fotos d'acció en alta resolució, bio en dos formats, historial de treballs, showreel, habilitats (idiomes, moviment, cant) i contacte directe. No és un CV en PDF: és una pàgina que Google indexa i que qui et busca troba en 10 segons.
+La teva adreça web permanent. Ha de tenir: *headshot* i fotos d'acció en alta resolució, bio en dos formats, historial de treballs, *showreel*, habilitats (idiomes, moviment, cant) i contacte directe. No és un CV en PDF: és una pàgina que Google indexa i que qui et busca troba en 10 segons.
 
 </div>
 
@@ -76,7 +76,7 @@ La teva adreça web permanent. Ha de tenir: headshot i fotos d'acció en alta re
 
 ### Press kit digital (EPK)
 
-El document de referència que envies o enlaces quan algú et demana material. En el cas dels actors, l'EPK és especialment important per a companyies de teatre que presenten projectes a festivals, per a actors que treballen en altres mercats (europeus, internacionals) i per a qualsevol context on el perfil de plataforma de càsting és insuficient.
+El document de referència que envies o enlaces quan algú et demana material. En el cas de les actrius i actors, l'EPK és especialment important per a companyies de teatre que presenten projectes a festivals, per a qui treballa en altres mercats (europeus, internacionals) i per a qualsevol context on el perfil de plataforma de càsting és insuficient.
 
 </div>
 
@@ -89,27 +89,27 @@ Un perfil de plataforma de càsting (Casting.es, Mandy, LatinCast) té un format
 - No controles el disseny ni la presentació
 - No pots afegir context ni narrativa
 - No apareix als resultats de Google de manera destacada
-- No és adequat per a presentar-se a festivals, programadors o coproduccion internacionals
+- No és adequat per a presentar-se a festivals, programadors o coproduccions internacionals
 
 El press kit digital és el que controles tu. L'URL que comparteixes, la imatge que projectes, el text que et descriu.
 
-Per als actors que treballen tant en teatre com en audiovisual, calen les dues coses: el perfil de plataforma per als processos de càsting i el press kit per a tot el rest.
+Per a les actrius i actors que treballen tant en teatre com en audiovisual, calen les dues coses: el perfil de plataforma per als processos de càsting i el press kit per a tot el rest.
 
-## El showreel: el document més important que tens
+## El *showreel*: el document més important que tens
 
-Per a un actor, el showreel és equivalent al rider per a un músic: sense ell, no pots optar a molts processos. Però molts actors el negliegeixen o el mantenen desactualitzat.
+Per a una actriu o actor, el *showreel* és equivalent al rider per a un músic: sense ell, no pots optar a molts processos. Però moltes actrius i molts actors el neglegeixen o el mantenen desactualitzat.
 
 Tres regles bàsiques:
 
 - **Comença per la teva millor escena**, no per títols o crèdits
 - **Màxim tres minuts** — un director de càsting decideix en els primers trenta segons
-- **Actualitza'l** quan tens material nou rellevant; un showreel de 2019 diu que no has treballat des del 2019
+- **Actualitza'l** quan tens material nou rellevant; un *showreel* de 2019 diu que no has treballat des del 2019
 
-Un showreel curt amb tres escenes bones d'aquest any val més que un de deu minuts amb material de fa cinc anys.
+Un *showreel* curt amb tres escenes bones d'aquest any val més que un de deu minuts amb material de fa cinc anys.
 
 ## Les habilitats que cal especificar (i com)
 
-El perfil d'un actor ha d'incloure habilitats específiques que determinen per a quins projectes ets viable:
+El perfil d'una actriu o actor ha d'incloure habilitats específiques que determinen per a quins projectes ets viable:
 
 - **Idiomes**: nivell real, no aspiracional. "Anglès C1 parlat" o "castellà nadiu, català nadiu". No "nocions de francès" si no pots mantenir una conversa en rodatge.
 - **Moviment i disciplines físiques**: dansa (especifica l'estil), combat escènic, acrobàcia, equitació, natació.
@@ -121,6 +121,6 @@ Exagerar genera problemes en els rodatges i destrueix la confiança dels directo
 
 ---
 
-Per aprofundir en el press kit digital per a actors, llegeix [Què ha de tenir un press kit digital d'actor](/recursos/press-kit-digital-actors/).
+Per aprofundir en el press kit digital per a actrius i actors, llegeix [Què ha de tenir un press kit digital d'actriu o actor](/recursos/press-kit-digital-actors/).
 
-Si vols que t'ajudem a construir la teva identitat digital professional, [explica'ns el teu projecte](/#contacte).
+A Ressona construïm la web professional per a actrius i actors: domini propi, press kit digital integrat i visibilitat als cercadors des del primer dia. Si vols que ho posem en marxa, [explica'ns el teu projecte](/#contacte).

@@ -1,6 +1,6 @@
 ---
-title: "Digital identity for actors: what you need to work in the industry"
-description: "Practical guide for actors building a professional digital presence: press kit, casting platforms, website and social media."
+title: "Digital identity for actors and actresses: what you need to work in the industry"
+description: "Practical guide for actors and actresses building a professional digital presence: press kit, casting platforms, website and social media."
 translationKey: "blog-actor-identity"
 type: resources
 date: 2026-06-26
@@ -9,7 +9,7 @@ tags: ["digital-identity", "professional-materials"]
 category: identitat
 ---
 
-A casting director doesn't look in the same place as a music promoter. An actor needs to be visible to production companies, directors and talent agencies — not necessarily to the general public. An actor's digital identity must be built for the people who make hiring decisions, not for ticket buyers.
+A casting director doesn't look in the same place as a music promoter. Actors and actresses need to be visible to production companies, directors and talent agencies — not necessarily to the general public. Their digital identity must be built for the people who make hiring decisions, not for ticket buyers.
 
 This distinction completely changes how an online presence should be constructed.
 
@@ -37,7 +37,7 @@ The first thing any director or production company does when your name reaches t
 
 ### Specialist casting platforms
 
-In the UK and internationally, platforms such as Spotlight, Mandy.com, Casting Networks and Casting Call Pro are used by casting directors. Having an updated profile on at least one or two of them is essential for actors seeking work in screen and advertising. But a casting profile does **not replace** a press kit — it has a very constrained format and you can't control how you present yourself.
+In the UK and internationally, platforms such as [Spotlight](https://www.spotlight.com/), [Mandy.com](https://www.mandy.com/), [Casting Networks](https://castingnetworks.com/) and Casting Call Pro are used by casting directors. Having an updated profile on at least one or two of them is essential for actors and actresses seeking work in screen and advertising. But a casting profile does **not replace** a press kit — it has a very constrained format and you can't control how you present yourself.
 
 </div>
 
@@ -76,7 +76,7 @@ Your permanent web address. It must include: headshot and action photos in high 
 
 ### Digital press kit (EPK)
 
-The reference document you send or link to when someone asks for material. For actors, the EPK is especially important for theatre companies presenting projects to festivals, for actors working in other markets (European, international), and for any context where a casting platform profile is insufficient.
+The reference document you send or link to when someone asks for material. For actors and actresses, the EPK is especially important for theatre companies presenting projects to festivals, for those working in other markets (European, international), and for any context where a casting platform profile is insufficient.
 
 </div>
 
@@ -93,11 +93,11 @@ A casting platform profile (Spotlight, Mandy, Casting Networks) has a fixed form
 
 The digital press kit is what you control. The URL you share, the image you project, the text that describes you.
 
-For actors working in both theatre and screen, you need both: the platform profile for casting processes, and the press kit for everything else.
+For actors and actresses working in both theatre and screen, you need both: the platform profile for casting processes, and the press kit for everything else.
 
 ## The showreel: the most important document you have
 
-For an actor, the showreel is the equivalent of a technical rider for a musician: without it, you can't be considered for many projects. But many actors neglect it or leave it outdated.
+For an actor or actress, the showreel is the equivalent of a technical rider for a musician: without it, you can't be considered for many projects. But many performers neglect it or leave it outdated.
 
 Three basic rules:
 
@@ -109,7 +109,7 @@ A short showreel with three strong scenes from this year is worth more than a te
 
 ## Skills that need to be stated (and how)
 
-An actor's profile must include specific skills that determine which projects you're viable for:
+An actor or actress's profile must include specific skills that determine which projects you're viable for:
 
 - **Languages**: real level, not aspirational. "Spanish C1 spoken" or "English native, Welsh conversational". Not "some French" if you can't hold a conversation on set.
 - **Movement and physical disciplines**: dance (specify style), stage combat, acrobatics, horse riding, swimming.
@@ -121,6 +121,6 @@ Overstating skills causes problems on set and destroys directors' trust. Being p
 
 ---
 
-For more detail on the press kit for actors, read [What an actor's digital press kit needs](/en/resources/digital-press-kit-actors/).
+For more detail on the press kit for actors and actresses, read [What a digital press kit for actors and actresses needs](/en/resources/digital-press-kit-actors/).
 
-If you'd like help building your professional digital identity, [tell us about your project](/en/#contacte).
+At Ressona we build professional websites for actors and actresses: your own domain, integrated digital press kit and search engine visibility from day one. [Tell us about your project](/en/#contacte).

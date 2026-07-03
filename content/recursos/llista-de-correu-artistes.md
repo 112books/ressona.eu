@@ -12,7 +12,7 @@ Però hi ha una condició fonamental: la llista ha d'estar construïda amb conse
 
 ## El marc legal: RGPD en termes pràctics
 
-El Reglament General de Protecció de Dades (RGPD) de la Unió Europea —conegut en anglès com GDPR— regula com pots recollir, guardar i usar adreces de correu electrònic. Per a un artista que vol enviar newsletters, les regles bàsiques són aquestes:
+El [Reglament General de Protecció de Dades (RGPD)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) de la Unió Europea —conegut en anglès com GDPR— regula com pots recollir, guardar i usar adreces de correu electrònic. Per a un artista que vol enviar newsletters, les regles bàsiques són aquestes:
 
 **Consentiment explícit i actiu.** Ningú pot estar a la teva llista sense haver-ho demanat de manera activa. Una casella pre-marcada no és consentiment vàlid. Un formulari on la persona escriu el seu email i prem "subscriure's" sí que ho és. Que algú et segueixi a Instagram no és consentiment per rebre emails.
 
@@ -26,7 +26,7 @@ El Reglament General de Protecció de Dades (RGPD) de la Unió Europea —conegu
 
 <div class="resource-callout">
 <h3>Multes reals, no teoria</h3>
-<p>L'AEPD (Agència Espanyola de Protecció de Dades) ha multat empreses petites per enviar emails comercials sense consentiment. Les sancions per infracció lleu comencen en 10.000€; les greus arriben als 20 milions o el 4% de la facturació global. Per a un artista individual, la conseqüència més probable d'una denúncia és una amonestació i l'ordre de depurar la llista —però el risc reputacional és igual de real.</p>
+<p>L'[AEPD](https://www.aepd.es/) (Agència Espanyola de Protecció de Dades) ha multat empreses petites per enviar emails comercials sense consentiment. Les sancions per infracció lleu comencen en 10.000€; les greus arriben als 20 milions o el 4% de la facturació global. Per a un artista individual, la conseqüència més probable d'una denúncia és una amonestació i l'ordre de depurar la llista —però el risc reputacional és igual de real.</p>
 </div>
 
 ## Contactes propis vs. contactes públics

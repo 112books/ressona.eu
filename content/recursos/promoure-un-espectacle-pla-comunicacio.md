@@ -16,45 +16,45 @@ Aquí tens el pla de comunicació mínim per a qualsevol event artístic: concer
 <div class="resource-steps">
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">8 setmanes abans</span>
+<span class="resource-steps__num">−8</span>
 
-**Crea els materials base.** Fotografia d'espectacle o d'artista (si no en tens, és el moment de fer-la). Textos: nota de premsa, bio curta (100 paraules), descripció de l'event (50 paraules). Imatge gràfica: cartell o visual per a xarxes. Sense aquests elements, tot el que ve a continuació és improvisar.
+**8 setmanes: Crea els materials base.** Fotografia d'espectacle o d'artista (si no en tens, és el moment de fer-la). Textos: nota de premsa, bio curta (100 paraules), descripció de l'event (50 paraules). Imatge gràfica: cartell o visual per a xarxes. Sense aquests elements, tot el que ve a continuació és improvisar.
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">6 setmanes abans</span>
+<span class="resource-steps__num">−6</span>
 
-**Envia la nota de premsa als mitjans.** Els mitjans especialitzats en cultura i arts treballen amb setmanes d'antelació. Una nota de premsa enviada la setmana de l'event arriba tard. Llista de contactes: periodistes de cultura locals i nacionals, programadors d'agenda, blogs i canals especialitzats.
+**6 setmanes: Envia la nota de premsa als mitjans.** Els mitjans especialitzats en cultura i arts treballen amb setmanes d'antelació. Una nota de premsa enviada la setmana de l'event arriba tard. Llista de contactes: periodistes de cultura locals i nacionals, programadors d'agenda, blogs i canals especialitzats.
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">4 setmanes abans</span>
+<span class="resource-steps__num">−4</span>
 
-**Comença la comunicació a xarxes.** Primer post: anunci de data i lloc. Contingut progressiu durant les 4 setmanes: procés d'assaig, making-of, persones implicades, motivació del projecte. No és publicitat —és construir un relat que generi ganes de venir.
+**4 setmanes: Comença la comunicació a xarxes.** Primer post: anunci de data i lloc. Contingut progressiu durant les 4 setmanes: procés d'assaig, making-of, persones implicades, motivació del projecte. No és publicitat —és construir un relat que generi ganes de venir.
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">2 setmanes abans</span>
+<span class="resource-steps__num">−2</span>
 
-**Activa la teva xarxa personal.** Missatge directe (no broadcast) a les persones que saps que vindran: amics, companys, col·legues. Demana'ls que comparteixin, no que comprin. La gent compra per recomanació, no per anunci.
+**2 setmanes: Activa la teva xarxa personal.** Missatge directe (no broadcast) a les persones que saps que vindran: amics, companys, col·legues. Demana'ls que comparteixin, no que comprin. La gent compra per recomanació, no per anunci.
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">1 setmana abans</span>
+<span class="resource-steps__num">−1</span>
 
-**Contingut de compte enrere.** Darrer recordatori a xarxes. Story diària. Si tens llista de correu: envia un email. Si tens premsa confirmada: penja les mencions a les teves xarxes.
+**1 setmana: Contingut de compte enrere.** Darrer recordatori a xarxes. Story diària. Si tens llista de correu: envia un email. Si tens premsa confirmada: penja les mencions a les teves xarxes.
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">El dia</span>
+<span class="resource-steps__num">Dia</span>
 
-**Documenta.** Fotògraf o vídeo de l'event (mínim mòbil en 4K). El contingut de l'event és el millor material per a la propera promoció. Una bona foto de sala plena val per sis mesos de storytelling.
+**El dia: Documenta.** Fotògraf o vídeo de l'event (mínim mòbil en 4K). El contingut de l'event és el millor material per a la propera promoció. Una bona foto de sala plena val per sis mesos de storytelling.
 </div>
 
 <div class="resource-steps__item">
-<span class="resource-steps__num">Setmana següent</span>
+<span class="resource-steps__num">+1</span>
 
-**Comunicació post-event.** Fotos i vídeo de l'event a xarxes. Agraïment públic. Si hi ha premsa publicada, comparteix-la. El post-event construeix credibilitat per a la propera data.
+**Setmana següent: Comunicació post-event.** Fotos i vídeo de l'event a xarxes. Agraïment públic. Si hi ha premsa publicada, comparteix-la. El post-event construeix credibilitat per a la propera data.
 </div>
 
 </div>
