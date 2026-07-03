@@ -98,6 +98,11 @@ deploy_prod() {
     warn "No estàs a '${BRANCH_PROD}'. Saltant..."
     git checkout "$BRANCH_PROD" || exit 1
   fi
+  print "Sincronitzant amb remot..."
+  git pull --rebase "$REMOTE" "$BRANCH_PROD" || {
+    err "Pull/rebase fallat. Resol els conflictes manualment i torna a executar."
+    exit 1
+  }
   print "Pujant a GitHub (branca ${BRANCH_PROD})..."
   dim "El GitHub Action construirà i desplegarà a GitHub Pages."
   git push "$REMOTE" "$BRANCH_PROD" || exit 1
