@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-04T00:45:28.304008Z",
+  "generated": "2026-07-04T00:50:15.718935Z",
   "period": {
     "start": "2025-07-04",
     "end": "2026-07-04"
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-06-20",
-      "count": 14
+      "count": 13
     },
     {
       "date": "2026-06-21",
@@ -93,7 +93,7 @@
     },
     {
       "date": "2026-07-04",
-      "count": 8
+      "count": 9
     }
   ],
   "hits": [
@@ -228,10 +228,10 @@
     "#quisom": 43,
     "#contacte": 41,
     "#com-treballem": 38,
-    "recursos": 145,
+    "recursos": 146,
     "#recursos": 24,
     "comenca": 9,
-    "serveis": 26,
+    "serveis": 25,
     "legal": 9,
     "resources": 8,
     "tags": 12,
@@ -241,7 +241,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 387
+      "count": 388
     },
     {
       "name": "Safari",
@@ -268,7 +268,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 441
+      "count": 442
     },
     {
       "name": "Android",
@@ -295,7 +295,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 357
+      "count": 358
     },
     {
       "name": "phone",
@@ -317,7 +317,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 566
+      "count": 567
     },
     {
       "name": "United States",
