@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-03T23:53:14.328705Z",
+  "generated": "2026-07-04T00:41:48.590574Z",
   "period": {
-    "start": "2025-07-03",
-    "end": "2026-07-03"
+    "start": "2025-07-04",
+    "end": "2026-07-04"
   },
-  "total": 640,
+  "total": 735,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-06-20",
-      "count": 15
+      "count": 14
     },
     {
       "date": "2026-06-21",
@@ -89,53 +89,73 @@
     },
     {
       "date": "2026-07-03",
-      "count": 12
+      "count": 102
+    },
+    {
+      "date": "2026-07-04",
+      "count": 6
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 224
+      "count": 263
     },
     {
       "path": "/#que-fem",
-      "count": 46
+      "count": 48
     },
     {
       "path": "/#per-qui",
-      "count": 39
+      "count": 41
     },
     {
       "path": "/#quisom",
-      "count": 36
+      "count": 38
     },
     {
       "path": "/#contacte",
-      "count": 35
+      "count": 36
     },
     {
       "path": "/#com-treballem",
-      "count": 31
+      "count": 33
+    },
+    {
+      "path": "/recursos",
+      "count": 22
     },
     {
       "path": "/#recursos",
       "count": 21
     },
     {
-      "path": "/recursos",
-      "count": 19
-    },
-    {
       "path": "/en",
-      "count": 9
+      "count": 11
     },
     {
       "path": "/comenca",
-      "count": 8
+      "count": 9
     },
     {
       "path": "/recursos/drets-imatges-promocionals",
       "count": 7
+    },
+    {
+      "path": "/recursos/viatjant-amb-jazz-per-europa",
+      "count": 6
+    },
+    {
+      "path": "/recursos/press-kit-digital-actors",
+      "count": 6
+    },
+    {
+      "path": "/recursos/per-que-web-propia-instagram",
+      "count": 6
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 6
     },
     {
       "path": "/serveis/estrategia-xarxes",
@@ -146,15 +166,19 @@
       "count": 6
     },
     {
-      "path": "/recursos/viatjant-amb-jazz-per-europa",
-      "count": 5
-    },
-    {
       "path": "/recursos/xarxes-socials-artistes",
       "count": 5
     },
     {
-      "path": "/recursos/per-que-web-propia-instagram",
+      "path": "/recursos/rider-tecnic",
+      "count": 5
+    },
+    {
+      "path": "/recursos/presentar-projecte-festival",
+      "count": 5
+    },
+    {
+      "path": "/recursos/que-es-un-epk",
       "count": 5
     },
     {
@@ -174,27 +198,15 @@
       "count": 5
     },
     {
-      "path": "/en/#que-fem",
-      "count": 5
-    },
-    {
       "path": "/recursos/perseguint-el-duende",
       "count": 4
     },
     {
-      "path": "/recursos/rider-tecnic",
+      "path": "/recursos/llibre-artista-gira-disc",
       "count": 4
     },
     {
-      "path": "/recursos/presentar-projecte-festival",
-      "count": 4
-    },
-    {
-      "path": "/recursos/que-es-un-epk",
-      "count": 4
-    },
-    {
-      "path": "/recursos/press-kit-digital-actors",
+      "path": "/recursos/identitat-digital-musics",
       "count": 4
     },
     {
@@ -202,35 +214,28 @@
       "count": 4
     },
     {
-      "path": "/recursos/festivals-dansa-europa",
-      "count": 3
-    },
-    {
-      "path": "/recursos/distribucio-musical-sense-plataformes",
-      "count": 3
-    },
-    {
-      "path": "/recursos/bandcamp-musics-presencia-professional",
-      "count": 3
+      "path": "/legal/avis-legal",
+      "count": 4
     }
   ],
   "by_lang": {
-    "en": 44
+    "en": 49
   },
   "by_section": {
-    "inici": 233,
-    "#que-fem": 51,
-    "#per-qui": 44,
-    "#quisom": 41,
-    "#contacte": 40,
-    "#com-treballem": 36,
+    "inici": 274,
+    "#que-fem": 54,
+    "#per-qui": 46,
+    "#quisom": 43,
+    "#contacte": 41,
+    "#com-treballem": 38,
+    "recursos": 145,
     "#recursos": 24,
-    "recursos": 110,
-    "comenca": 8,
-    "serveis": 27,
-    "legal": 8,
+    "comenca": 9,
+    "serveis": 26,
+    "legal": 9,
+    "resources": 8,
     "tags": 12,
-    "resources": 6
+    "per-a-qui": 6
   },
   "browsers": [
     {
@@ -354,7 +359,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 280
+      "count": 330
     },
     {
       "name": "ig",
@@ -364,12 +369,12 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 6
+      "count": 8
     },
     {
       "name": "www.facebook.com",
       "id": "www.facebook.com",
-      "count": 2
+      "count": 3
     },
     {
       "name": "bing.com",
