@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-04T00:41:48.590574Z",
+  "generated": "2026-07-04T00:45:28.304008Z",
   "period": {
     "start": "2025-07-04",
     "end": "2026-07-04"
   },
-  "total": 735,
+  "total": 737,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -93,13 +93,13 @@
     },
     {
       "date": "2026-07-04",
-      "count": 6
+      "count": 8
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 263
+      "count": 265
     },
     {
       "path": "/#que-fem",
@@ -222,7 +222,7 @@
     "en": 49
   },
   "by_section": {
-    "inici": 274,
+    "inici": 276,
     "#que-fem": 54,
     "#per-qui": 46,
     "#quisom": 43,
@@ -241,7 +241,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 385
+      "count": 387
     },
     {
       "name": "Safari",
@@ -273,7 +273,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 147
+      "count": 149
     },
     {
       "name": "iOS",
@@ -300,7 +300,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 249
+      "count": 251
     },
     {
       "name": "desktophd",
@@ -322,7 +322,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 162
+      "count": 164
     },
     {
       "name": "France",
@@ -359,7 +359,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 330
+      "count": 332
     },
     {
       "name": "ig",
