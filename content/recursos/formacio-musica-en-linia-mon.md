@@ -23,7 +23,7 @@ La clau és saber quina plataforma s'ajusta a allò que busques. No és el matei
 
 ## Plataformes de professors particulars en línia
 
-**[ArtistWorks](https://artistworks.com/)** té un model diferent dels altres: graves un vídeo de la teva pràctica (un exercici, un fragment, una peça) i el professor — professionals d'altíssim nivell, com Tommy Emmanuel per a guitarra acústica, Nathan East per a baix, ou Darol Anger per a violí de jazz — et dóna feedback personalitzat en vídeo. No és un curs gravat: és tutoria real. Molt efectiu per a instruments on el feedback visual és crucial.
+**[ArtistWorks](https://artistworks.com/)** té un model diferent dels altres: graves un vídeo de la teva pràctica (un exercici, un fragment, una peça) i el professor — professionals d'altíssim nivell, com Tommy Emmanuel per a guitarra acústica, Nathan East per a baix, o Darol Anger per a violí de jazz — et dóna feedback personalitzat en vídeo. No és un curs gravat: és tutoria real. Molt efectiu per a instruments on el feedback visual és crucial.
 
 **[Lessonface](https://www.lessonface.com/)** és una plataforma de professors particulars en línia amb un focus especial en instruments poc comuns i professors especialitzats. Inclou instruments orientals, música antigua, instruments d'arreu del món. La qualitat és alta perquè el sistema de valoracions és transparent. Per a instruments específics o poc habituals, és de les millors opcions.
 

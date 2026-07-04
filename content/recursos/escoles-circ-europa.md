@@ -39,7 +39,7 @@ França té una xarxa molt rica d'escoles regionals — per exemple a Toulouse, 
 
 No hi ha una escola de circ de nivell superior equivalent al CNAC o l'ESAC a Catalunya, però hi ha recursos sòlids per als primers anys de formació:
 
-- **[Carampa (Madrid)](https://www.carampa.com/)**: l'escola de circ de referència a Espanya. Programes de formació professional de dos i tres anys. Molts artistes catalans s'hi han format abans de dar el salt a Europa.
+- **[Carampa (Madrid)](https://www.carampa.com/)**: l'escola de circ de referència a Espanya. Programes de formació professional de dos i tres anys. Molts artistes catalans s'hi han format abans de donar el salt a Europa.
 - **[FIRA de Tàrrega](https://www.firatarrega.cat/)**: el festival i mercat de circ i arts de carrer de referència a Catalunya. No és escola, però és el lloc on es veuen les tendències del sector i on es fa xarxa professional real.
 
 **L'[Escola de Circ Rogelio Rivel](https://www.circ-rogeliorivel.cat/) és el punt de partida per a molts circ­artistes catalans.** L'escola municipal de Barcelona que porta el nom del llegendari pallasso i acròbata Rogelio Rivel (Sants, 1899 — Barcelona, 1982) és molt més que un centre d'iniciació: és el lloc on generacions d'artistes de circ han fet els seus primers passos en acrobàcia, malabars, equilibri i clown, i des d'on molts han acabat accedint a les grans escoles europees. El nom no és casualitat — Rivel va ser un dels circ­artistes catalans més reconeguts internacionalment del segle XX, i l'escola que porta el seu nom ha mantingut viva la tradició de formar artistes de circ des de la base. Per a qui comença a Barcelona, és el primer graó d'un camí que pot acabar al CNAC o a l'ESAC.

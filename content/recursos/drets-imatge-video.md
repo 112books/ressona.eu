@@ -91,7 +91,7 @@ Hi ha dues capes que l'organitzador no pot autoritzar per si sol:
 
 - *Videomaker contractat per l'organitzador*: si el festival et contracta per a fer el vídeo oficial, el festival ha d'haver cobert els drets dels artistes en els contractes d'actuació. Demana-ho per escrit abans de gravar — si hi ha un problema de drets, el reclamarien contra tu.
 
-- *Gravació per a xarxes pròpies sense acreditació*: gramar i publicar un vídeo d'un concert sense autorització (ni de la sala ni de l'artista) és tècnicament una infracció dels drets connexos de l'intèrpret, encara que sigui en un espai públic. En la pràctica, la majoria d'artistes ho toleren o fins i tot ho agraeixen si el material és de qualitat. Però des del punt de vista legal, la tolerància no és autorització.
+- *Gravació per a xarxes pròpies sense acreditació*: gravar i publicar un vídeo d'un concert sense autorització (ni de la sala ni de l'artista) és tècnicament una infracció dels drets connexos de l'intèrpret, encara que sigui en un espai públic. En la pràctica, la majoria d'artistes ho toleren o fins i tot ho agraeixen si el material és de qualitat. Però des del punt de vista legal, la tolerància no és autorització.
 
 - *Videoclip o documental a partir de material de concert*: aquí la situació és clara. Cal autorització escrita de l'artista. No és negociable.
 
