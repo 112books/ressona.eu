@@ -84,7 +84,7 @@ LinkedIn és bilingüe per naturalesa: tens perfil en diversos idiomes. Crea el 
 
 **Vegeu també:**
 - [Xarxes socials per a artistes: guia global](/recursos/xarxes-socials-artistes-guia-global/)
-- [EPK per a artistes](/recursos/que-es-epk-artistes/)
+- [EPK per a artistes](/recursos/que-es-un-epk/)
 - [Networking per a artistes](/recursos/networking-artistes/)
 
 Ressona acompanya artistes a construir la presència digital professional. [Parla amb nosaltres](/#contacte).

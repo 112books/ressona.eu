@@ -60,7 +60,7 @@ El que surt d'un bon curs d'estiu no és un certificat. Són tres o quatre relac
 **Articles relacionats:**
 - [Escoles de música a Catalunya](/recursos/escoles-musica-catalunya/)
 - [Formació de música en línia: les millors escoles del món](/recursos/formacio-musica-en-linia-mon/)
-- [Ruta de música clàssica i òpera per Europa](/recursos/musica-classica-opera-europa/)
+- [Ruta de música clàssica i òpera per Europa](/recursos/ruta-classica-opera-europa/)
 
 ---
 

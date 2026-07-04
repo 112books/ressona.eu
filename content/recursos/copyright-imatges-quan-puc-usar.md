@@ -80,6 +80,6 @@ Si trobes una imatge i no saps d'on és:
 **Vegeu també:**
 - [Drets d'imatge en vídeo](/recursos/drets-imatge-video/)
 - [Registrar i protegir l'obra artística](/recursos/registrar-protegir-obra-artistica/)
-- [Fotos de premsa per a artistes](/recursos/fotos-premsa-artistes/)
+- [Fotos de premsa per a artistes](/recursos/fotos-de-premsa/)
 
 Ressona treballa amb Pocallum per a la fotografia professional d'artistes. Quan tens les teves pròpies fotos professionals, el problema del copyright és teu — no de ningú altre. [Parla amb nosaltres](/#contacte).

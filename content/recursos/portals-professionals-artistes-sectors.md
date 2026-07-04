@@ -85,7 +85,7 @@ Prioritat: assegura't que les tues fitxes als 2-3 portals més rellevants per al
 
 **Vegeu també:**
 - [Xarxes socials per a artistes: guia global](/recursos/xarxes-socials-artistes-guia-global/)
-- [EPK per a artistes: el teu dossier de presentació professional](/recursos/que-es-epk-artistes/)
+- [EPK per a artistes: el teu dossier de presentació professional](/recursos/que-es-un-epk/)
 - [Networking per a artistes](/recursos/networking-artistes/)
 
 Ressona acompanya artistes a construir la presència digital professional per als portals i directoris del sector. [Parla amb nosaltres](/#contacte).
