@@ -11,7 +11,7 @@ Copyright doesn't need to be registered. In the European author system, the righ
 
 ## How automatic copyright works in Europe
 
-The **Directive 2001/29/EC** and Spain's **Intellectual Property Law** (consolidated text approved by RDL 1/1996) establish that any original work — literary, musical, visual, dramatic, audiovisual — is protected from the moment of its creation without any procedure or payment.
+**[Directive 2001/29/EC of the European Parliament and of the Council of 22 May 2001](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0029)** on the harmonisation of certain aspects of copyright in the information society, and Spain's **[Royal Legislative Decree 1/1996 of 12 April (Intellectual Property Law, LPI)](https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930)** establish that any original work — literary, musical, visual, dramatic, audiovisual — is protected from the moment of its creation without any procedure or payment. Article 10 LPI defines protected works; Articles 14–23 establish moral rights (inalienable) and exploitation rights (reproduction, distribution, public communication, transformation).
 
 Protection lasts **the entire life of the author plus 70 years** (in European territory). After 70 years post mortem, the work enters the public domain.
 

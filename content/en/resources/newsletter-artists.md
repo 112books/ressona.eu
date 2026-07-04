@@ -1,115 +1,85 @@
 ---
-title: "Why every artist needs a newsletter"
-description: "Instagram could disappear tomorrow. Your mailing list can't. A newsletter is the only audience that truly belongs to you."
-date: 2026-06-16
-tags: ["digital-tools", "social-media"]
-category: xarxes
+title: "Newsletter for artists: the list that's yours forever"
+description: "Substack, Brevo, Listmonk. Why a newsletter is the most stable digital asset an artist can have, how to start one from scratch, and which platform to choose."
 translationKey: "blog-newsletter-artists"
+date: 2026-07-06
+tags: ["newsletter", "email-marketing", "social-media", "communication"]
+category: xarxes
 ---
 
-Social networks lend you an audience. A newsletter gives you one you own. When Instagram changes its algorithm or TikTok gets banned in a market, your followers are trapped on the platform. Your mailing list follows you anywhere.
+Social media gives you visibility but it doesn't give you the list. If Instagram tomorrow decides to close your account, or if the algorithm stops showing your content, you lose all contact with your audience. A newsletter is different: the subscriber list is yours. No platform can take it away.
 
-## What an artist newsletter is for
+## Why the newsletter is the most valuable digital asset
 
-It's not for sending advertising. It's for maintaining a direct connection with the people who matter: those who pay to see you, buy your records, follow your work. It works for:
+**You arrive directly.** An email goes to the inbox of someone who has actively chosen to receive your updates. There's no algorithm deciding whether to show it or not. The open rate of a well-maintained newsletter is typically 30–50%, compared to 3–8% organic reach on Instagram.
 
-- Announcing concerts, premieres and releases before anyone else
-- Sharing things you wouldn't put on Instagram — the creative process, the story behind a piece
-- Selling tickets and merch directly, without intermediaries
-- Staying in touch with audiences you've lost on social media
-- Building a community that actively chooses to follow you
+**The list is yours.** If you change platforms, you migrate the list. If the platform shuts down, you still have the list. Whether you have ten subscribers or ten thousand, no external company controls whether your message gets through.
 
-## What to write
+**It works for any discipline.** The newsletter doesn't require photogenic work, knowing how to make video, or having time to post every day. Once a month, written well, is enough.
 
-<div class="resource-checklist">
-
-<div class="resource-checklist__item">
-<span class="resource-checklist__icon" aria-hidden="true">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-</span>
-<div>
-<h3>What happens behind the scenes</h3>
-<p>Rehearsal photos, creative decisions, mistakes and lessons learned. What you wouldn't show on Instagram because "it's not perfect". In a newsletter, imperfection is connection.</p>
-</div>
-</div>
-
-<div class="resource-checklist__item">
-<span class="resource-checklist__icon" aria-hidden="true">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-</span>
-<div>
-<h3>News with priority access</h3>
-<p>A new album, a tour, a premiere. Newsletter subscribers should find out first — that's the privilege you offer them in exchange for their email address.</p>
-</div>
-</div>
-
-<div class="resource-checklist__item">
-<span class="resource-checklist__icon" aria-hidden="true">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-</span>
-<div>
-<h3>Recommendations and references</h3>
-<p>Music you're listening to, a book that changed your perspective, a fellow artist who deserves attention. Sharing your intellectual universe builds artistic brand better than any promotional post.</p>
-</div>
-</div>
-
-<div class="resource-checklist__item">
-<span class="resource-checklist__icon" aria-hidden="true">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-</span>
-<div>
-<h3>Exclusive offers</h3>
-<p>Early access to tickets, discounts for subscribers, access to open rehearsals or exclusive content. If subscribing has no concrete benefits, people won't do it.</p>
-</div>
-</div>
-
-</div>
+---
 
 ## How often to send
 
-Less and consistent beats more and irregular. For most artists, **once a month** is enough. Twice a month if you have a lot to say. Weekly, only if you have a very clear format and genuinely enough real content.
+**Once a month** is the minimum frequency to maintain connection. Twice a month is the maximum advisable for artists who aren't producing professional content full-time. The key isn't frequency — it's consistency. A newsletter that arrives the first Wednesday of every month becomes something people anticipate. One that arrives whenever you remember doesn't build habit.
 
-The worst mistake is going months without sending anything and then sending three newsletters in one week when you have a concert to promote.
+---
 
-## Which tool to use
+## Which platform to choose
 
-There are three main approaches, each with a different logic:
+### For data sovereignty: Listmonk (open source, self-hosted)
 
-### All-in-one: platforms that already include a mailing list
+**[Listmonk](https://listmonk.app/)** is an open-source newsletter server that you install on your own hosting. Subscriber data is entirely yours and never goes to any third-party company. Ressona works with LinuxBCN for the installation and configuration of Listmonk for artists.
 
-Some platforms you're already using as an artist let you message your followers without needing a separate tool:
+**Best for**: artists who already have hosting, or who want maximum data sovereignty.
 
-- **Bandcamp** — if you have followers on Bandcamp, you can message them directly. It's not a full newsletter, but it's a direct line to people who've already bought your music.
-- **Substack** — combines newsletter, blog and paid subscriptions in one place. Very popular with creators. Free until you activate paid subscriptions.
-- **Patreon** — if you're already working with patronage, it includes tiered messaging to your supporters.
+### For European ease of use: Brevo
 
-### Independent newsletter tools (free or freemium)
+**[Brevo](https://www.brevo.com/)** (formerly Sendinblue) is a European platform (Paris), GDPR-compliant, with a generous free plan (up to 300 emails/day). Far more privacy-respecting than its North American alternatives.
 
-If you want a mailing list separate from your platforms:
+**Best for**: artists who want an easy-to-use solution without technical setup.
 
-- **Brevo (ex-Sendinblue)** — free plan up to 300 emails/day, good automation tools
-- **Beehiiv** — designed for creators, clean interface, generous free plan
-- **Mailchimp** — widely known, but the free plan has been cut back considerably and the interface has grown complex; there are better alternatives now
+### For editorial content: Substack
 
-None of these require technical knowledge. You can have your first newsletter sent within an hour.
+**[Substack](https://substack.com/)** allows long-form content newsletters and paid subscriptions. It has its own discovery network. It's North American, so if data residency matters to you, that's worth noting.
 
-### Custom solution: full data sovereignty
+**Best for**: artists who want a rich editorial newsletter and may want to monetise it.
 
-If privacy and total control matter to you — and they should, your fans' email addresses are your most valuable digital asset — the best option is your own setup. [LinuxBCN](https://linuxbcn.com) builds newsletter systems based on free/open source software (such as Listmonk or Mautic) hosted on your own server: no third-party company accesses your list, no platform can cancel your account, no algorithm decides who receives your emails. You have complete control over your data and deliverability. It's the solution Ressona recommends for artists who want to build their digital communication on solid, lasting foundations.
+### Avoid for privacy: Mailchimp
 
-## How to get your first subscribers
+**Mailchimp** is North American, has had security incidents, and has progressively restricted its free plan. Brevo is better in every respect for someone starting out.
 
-Never buy email lists. Ever. Besides being unethical, engagement is zero and you risk being flagged as spam.
+---
 
-What actually works:
+## Structure of a newsletter for artists
 
-- A subscription form on your website (visible, not buried in the footer)
-- Mention it at concerts: "If you want to hear about upcoming shows first, subscribe to my newsletter"
-- Link in your Instagram bio with a clear incentive ("get the setlist from the next concert by email")
-- Cross-promotion with fellow artists: mentioning each other in your respective newsletters
+**A personal headline.** Not "Newsletter from X", but "I finished the mural today" or "Three things that happened in the studio."
 
-## A newsletter is a long-term bet
+**One main thing.** One work, one concert, one reflection. Not a list of things. One.
 
-Don't expect immediate results. A list of 200 highly engaged people is worth more than 10,000 passive Instagram followers. These are the people who'll buy the album on release day, come to the concert, recommend you to their friends.
+**A context or process note.** "What I struggled with most in this piece" or "The decision that changed everything on the new album."
 
-Start now, even with 10 people. Consistency is what builds the community.
+**One clear call to action (CTA).** Just one: "Get tickets", "Come to the opening", "Listen to the new single."
+
+**A human sign-off.** You speak, not "the X team."
+
+---
+
+## How to grow subscribers
+
+**Offer something in return.** An exclusive download, early access to tickets, a high-resolution image.
+
+**Promote it on social media.** Every three or four weeks, a post on Instagram: "If you want my updates straight to your inbox, the link is in the bio."
+
+**Form on your website.** Anyone who visits your site should be able to subscribe in fewer than two clicks.
+
+**Publish in your own language.** If you work in Welsh, Basque, Breton, Galician — send your newsletter in that language. Your community will find it, and the intimacy of a minority language newsletter is a bond that generic English content can't replicate.
+
+---
+
+**See also:**
+- [Social media for artists: complete guide](/en/resources/social-media-artists-guide/)
+- [Instagram for artists](/en/resources/instagram-artists/)
+- [Documenting your creative process](/en/resources/documenting-creative-process/)
+
+Ressona works with LinuxBCN for newsletter configuration for artists with full data sovereignty. [Get in touch](/en/#contacte).

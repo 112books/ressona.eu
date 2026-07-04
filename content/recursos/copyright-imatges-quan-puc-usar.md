@@ -11,7 +11,7 @@ Usar una imatge que has trobat a internet sense permís és una de les infraccio
 
 ## De qui és el copyright d'una fotografia?
 
-En el sistema d'autor europeu (Directiva 2001/29/CE, incorporada a la Llei de Propietat Intel·lectual espanyola), el copyright d'una fotografia pertany a la persona que la fa — el fotògraf. No la persona que surt a la fotografia, no qui contracta el fotògraf, no qui publica la fotografia.
+En el sistema d'autor europeu, el copyright d'una fotografia pertany a la persona que la fa — el fotògraf. Així ho estableix la **[Directiva 2001/29/CE del Parlament Europeu i del Consell, de 22 de maig de 2001](https://eur-lex.europa.eu/legal-content/CA/TXT/?uri=CELEX:32001L0029)**, relativa a l'harmonització de determinats aspectes dels drets d'autor en la societat de la informació, incorporada a l'ordenament espanyol a través del **[Reial decret legislatiu 1/1996, de 12 d'abril, pel qual s'aprova el text refós de la Llei de Propietat Intel·lectual](https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930)** (LPI). No la persona que surt a la fotografia, no qui contracta el fotògraf, no qui publica la fotografia.
 
 **Hi ha excepcions importants:**
 - Si el fotògraf la fa en el marc d'una relació laboral (com a treballador assalariat d'una empresa), normalment el copyright el té l'empresa.
@@ -26,7 +26,7 @@ Tres situacions en les quals pots usar una imatge sense demanar autorització:
 
 **2. La imatge té llicència Creative Commons que permet el teu ús.** (Vegeu la secció de CC a continuació.)
 
-**3. La teva ús és cita o referència amb fins d'il·lustració o crítica.** La LPI espanyola admet la reproducció parcial d'obres per a fins educatius, d'anàlisi o de crítica, amb identificació de l'autor i la font. Però és un dret restringit — no val per a usos comercials generals.
+**3. La teva ús és cita o referència amb fins d'il·lustració o crítica.** L'article 32 de la LPI admet la reproducció de fragments d'obres per a fins de cita, crítica, ressenya o anàlisi, sempre que s'identifiqui l'autor i la font i que no es substitueixi l'obra original. És un dret restringit — no val per a usos comercials generals ni per a reproduccions completes.
 
 ## Llicències Creative Commons: mapa ràpid
 

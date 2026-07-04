@@ -19,7 +19,7 @@ The distinction matters because the relationship you need to build is different,
 
 ## Spain's Patronage Law
 
-**Law 49/2002** on the tax regime for non-profit entities and fiscal incentives for patronage is the reference legal framework. It establishes tax deductions for individuals and companies making donations to cultural projects:
+**[Law 49/2002 of 23 December](https://www.boe.es/buscar/act.php?id=BOE-A-2002-25039)** on the tax regime for non-profit entities and fiscal incentives for patronage is the reference legal framework. It establishes tax deductions for individuals and companies making donations to cultural projects:
 
 - **Individuals**: 80% deduction on donations up to €150, and 35% on amounts above this threshold (up to 75% if the donation is repeated for three or more consecutive years).
 - **Companies**: 40% deduction on donations from Corporation Tax (up to 50% with donation loyalty over three years or more).

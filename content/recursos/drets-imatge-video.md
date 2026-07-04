@@ -11,7 +11,7 @@ Gravar un vídeo i publicar-lo sense tenir en compte els drets d'imatge és un d
 
 ## Qui té dret d'imatge?
 
-Tota persona té dret a la seva pròpia imatge — és un dret fonamental recollit a la **Llei Orgànica 1/1982** de protecció civil del dret a l'honor, la intimitat personal i familiar i la pròpia imatge, i al **Reglament General de Protecció de Dades (RGPD)** de la UE.
+Tota persona té dret a la seva pròpia imatge — és un dret fonamental recollit a la **[Llei Orgànica 1/1982, de 5 de maig](https://www.boe.es/buscar/act.php?id=BOE-A-1982-11196)**, de protecció civil del dret a l'honor, la intimitat personal i familiar i la pròpia imatge, i al **[Reglament (UE) 2016/679 del Parlament Europeu (RGPD)](https://eur-lex.europa.eu/legal-content/CA/TXT/?uri=CELEX%3A32016R0679)**, d'aplicació directa a tot l'Estat des del 25 de maig de 2018.
 
 Això vol dir que, en principi, necessites autorització de qualsevol persona que aparegui identificable en un vídeo si vas a fer-ne un ús que vagi més enllà de l'ús estrictament privat.
 
@@ -40,7 +40,12 @@ Quan necessites gravar persones identificables per a ús professional, has de fe
 - Si hi ha contraprestació econòmica o si és a títol gratuït.
 - La possibilitat de revocar el consentiment (important: el RGPD permet la revocació en qualsevol moment per a dades personals, cosa que crea tensions amb els contractes de llicència).
 
-Recursos: **[APDCAT](https://apdcat.gencat.cat/)** (Autoritat Catalana de Protecció de Dades) té models de formulari de consentiment disponibles. Per a projectes professionals, val la pena que un advocat especialitzat en dret audiovisual revisi el teu model release.
+Recursos oficials:
+- **[APDCAT](https://apdcat.gencat.cat/)** (Autoritat Catalana de Protecció de Dades): models de formulari de consentiment disponibles.
+- **[AEPD](https://www.aepd.es/)** (Agència Espanyola de Protecció de Dades): guies i formularis model per a recollida de consentiment.
+- **[Guia pràctica de l'AEPD sobre dret d'imatge i protecció de dades](https://www.aepd.es/guias/guia-derecho-al-honor.pdf)**: document específic sobre la intersecció entre dret d'imatge i RGPD.
+
+Per a projectes professionals, val la pena que un advocat especialitzat en dret audiovisual revisi el teu model release.
 
 ## Espai públic vs privat
 
@@ -52,7 +57,7 @@ En un espai privat (teatre, sala de concerts, galeria, estudi) normalment has de
 
 ## Menors d'edat
 
-Per a menors d'edat (menors de 18 anys), la norma és estricta: necessites l'autorització escrita del pare, mare o tutor legal, sempre que la imatge del menor sigui identificable. No hi ha excepcions per a espai públic ni per a usos no comercials si la imatge és clarament identificable.
+Per a menors d'edat (menors de 18 anys), la norma és estricta: necessites l'autorització escrita del pare, mare o tutor legal, sempre que la imatge del menor sigui identificable. Així ho estableix la **[Llei Orgànica 1/1996, de 15 de gener, de protecció jurídica del menor](https://www.boe.es/buscar/act.php?id=BOE-A-1996-1069)**. No hi ha excepcions per a espai públic ni per a usos no comercials si la imatge és clarament identificable.
 
 ## Drets d'imatge en vídeos de concerts i actuacions
 

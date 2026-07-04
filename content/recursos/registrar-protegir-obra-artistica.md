@@ -11,7 +11,7 @@ El copyright no cal registrar-lo. En el sistema europeu d'autoria, el dret sobre
 
 ## Com funciona el copyright automàtic a Europa
 
-La **Directiva 2001/29/CE** i la **Llei de Propietat Intel·lectual espanyola** (Text refós aprovat per RDL 1/1996) estableixen que qualsevol obra original — literària, musical, plàstica, dramàtica, audiovisual — està protegida des del moment de la seva creació sense necessitat de cap tràmit ni pagament.
+La **[Directiva 2001/29/CE del Parlament Europeu i del Consell](https://eur-lex.europa.eu/legal-content/CA/TXT/?uri=CELEX:32001L0029)** i el **[Reial decret legislatiu 1/1996, de 12 d'abril (Llei de Propietat Intel·lectual, LPI)](https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930)** estableixen que qualsevol obra original — literària, musical, plàstica, dramàtica, audiovisual — està protegida des del moment de la seva creació sense necessitat de cap tràmit ni pagament. L'article 10 de la LPI defineix les obres protegides; l'article 14 estableix els drets morals (irrenunciables i inalienables); els articles 17-23 regulen els drets d'explotació (reproducció, distribució, comunicació pública, transformació).
 
 La protecció dura **tota la vida de l'autor més 70 anys** (en territori europeu). Passats els 70 anys post mortem, l'obra passa al domini públic.
 

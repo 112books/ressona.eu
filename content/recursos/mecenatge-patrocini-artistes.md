@@ -19,7 +19,7 @@ La distinció importa perquè la relació que has de construir és diferent, el 
 
 ## La Llei de Mecenatge a Espanya
 
-La **Llei 49/2002 de règim fiscal de les entitats sense fins lucratius i dels incentius fiscals al mecenatge** és el marc legal de referència. Estableix les deduccions fiscals que poden aplicar les persones físiques i les empreses quan fan donacions a projectes culturals:
+La **[Llei 49/2002, de 23 de desembre, de règim fiscal de les entitats sense fins lucratius i dels incentius fiscals al mecenatge](https://www.boe.es/buscar/act.php?id=BOE-A-2002-25039)** és el marc legal de referència. Estableix les deduccions fiscals que poden aplicar les persones físiques i les empreses quan fan donacions a projectes culturals:
 
 - **Persones físiques**: deducció del 80% de la donació fins a 150€, i del 35% de l'import que superi aquest llindar (fins al 75% si la donació es repeteix tres anys consecutius o més).
 - **Empreses**: deducció del 40% de la donació en l'Impost de Societats (fins al 50% si hi ha fidelitat de donació durant tres anys o més).

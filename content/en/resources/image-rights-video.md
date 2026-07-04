@@ -11,7 +11,7 @@ Filming a video and publishing it without considering image rights is one of the
 
 ## Who has image rights?
 
-Every person has the right to their own image — it is a fundamental right enshrined in Spain's **Organic Law 1/1982** on civil protection of the right to honour, personal and family privacy and one's own image, and in the EU's **General Data Protection Regulation (GDPR)**.
+Every person has the right to their own image — it is a fundamental right enshrined in Spain's **[Organic Law 1/1982 of 5 May](https://www.boe.es/buscar/act.php?id=BOE-A-1982-11196)** on civil protection of the right to honour, personal and family privacy and one's own image, and in **[EU Regulation 2016/679 (GDPR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679)**, directly applicable across all EU member states since 25 May 2018. The GDPR is implemented in Spain through **[Organic Law 3/2018 (LOPDGDD)](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673)**.
 
 This means that, in principle, you need authorisation from any person who appears identifiably in a video if you intend to use it beyond strictly private purposes.
 
