@@ -7,25 +7,23 @@ tags: ["beques", "inaem", "espanya", "finançament"]
 category: ajudes
 ---
 
-L'**[INAEM — Institut Nacional de les Arts Escèniques i de la Música](https://www.culturaydeporte.gob.es/inaem/portada.html)** és l'organisme del Ministeri de Cultura d'Espanya que gestiona el gruix del finançament estatal per a les arts escèniques i la música. Les subvencions que convoca cada any representen desenes de milions d'euros en ajudes directes a artistes, companyies, sales i festivals. Molts artistes catalans mai no les demanen. Alguns per desconeixement, d'altres per la percepció —parcialment correcta— que el sistema afavoreix les grans estructures. Però hi ha convocatòries pensades per a artistes individuals i companyies petites que val la pena conèixer.
+L'**[INAEM — Institut Nacional de les Arts Escèniques i de la Música](https://www.cultura.gob.es/cultura/artesescenicas/portada.html)** és l'organisme del Ministeri de Cultura d'Espanya que gestiona el gruix del finançament estatal per a les arts escèniques i la música. Les subvencions que convoca cada any representen desenes de milions d'euros en ajudes directes a artistes, companyies, sales i festivals. Molts artistes catalans mai no les demanen. Alguns per desconeixement, d'altres per la percepció —parcialment correcta— que el sistema afavoreix les grans estructures. Però hi ha convocatòries pensades per a artistes individuals i companyies petites que val la pena conèixer.
 
 ## Principals programes de l'INAEM
 
-**Ajudes a la creació i producció de les arts escèniques**: subvencions per a la producció de noves obres de teatre, dansa, circ i arts de carrer. Inclou residències de creació, ajudes a la dramatúrgia i suport a formats experimentals.
+**[Ajudes al teatre i al circ](https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/general/99/995859/ficha/995859-2025.html)**: subvencions per a la producció de noves obres de teatre, circ contemporani i arts de carrer. Inclou residències de creació, programació estable, festivals i suport a formats experimentals. La convocatòria 2025 va publicar-se al BOE al primer trimestre de l'any.
 
-**Ajudes a la distribució i exhibició**: per a companyies que volen girar. Inclou l'accés a la Xarxa de Teatres d'Espanya i el suport a la presència en mercats professionals com FIRA de Tàrrega, BiTes o els principals festivals de l'estat.
+**[Ajudes a la música, la lírica i la dansa](https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/general/05/052260/ficha/052260-2025.html)**: el programa més ampli, dotat amb 8 milions d'euros el 2025. Inclou línies per a gires, festivals, enregistrament, programació estable i residències artístiques amb encàrrec de composició. Contempla suport específic per a jazz, música clàssica contemporània, música tradicional i fusió. Convocatòria oberta al primer trimestre; [informació general del programa de música i dansa](https://www.cultura.gob.es/cultura/artesescenicas/sc/ayudas-subvenciones/musica-danza.html).
 
-**Ajudes a la música**: el programa més ampli, amb línies per a producció musical, enregistrament, distribució i presència en festivals. Inclou suport específic per a músics de jazz, música clàssica contemporània, música tradicional i fusió.
+**[Ajudes a la distribució i exhibició d'arts escèniques](https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones/ayudas-y-subvenciones/artesescenicas.html)**: per a companyies que volen girar a escala estatal. Inclou suport a la presència en mercats professionals com [FIRA de Tàrrega](https://firatarrega.cat/) o els principals festivals de l'estat, i accés a la Xarxa de Teatres d'Espanya.
 
-**Beques de residència i mobilitat**: l'INAEM col·labora amb centres i residències nacionals i internacionals per a oferir beques a artistes en fase de creació. Algunes van lligades a espais específics (Residència d'Artistes a Madrid, La Nave Amo), d'altres permeten mobilitat lliure.
+**[Beques de creació en residència i mobilitat](https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones/ayudas-y-subvenciones/promoarte/proyectos-artisticos-residencia.html)**: l'INAEM finança estades i producció de projectes a centres de creació públics com [Tabacalera](https://www.tabacalera.net/) (Madrid) i altres espais de la xarxa nacional. Algunes convocatòries permeten mobilitat lliure internacional.
 
-**Ajudes al circ**: programes específics per a companyies de circ contemporani i arts de carrer, inclosos ajudes a la creació de nous espectacles i suport a la distribució als circuits estatals.
-
-**Ajudes a les arts visuals**: beques per a comissaris, artistes visuals i projectes d'exhibició en l'àmbit de la plàstica contemporània.
+**[Ajudes a les arts visuals i la creació contemporània](https://www.cultura.gob.es/cultura/creacion-contemporanea/becas-ayudas-y-subvenciones.html)**: beques per a artistes visuals, comissaris i projectes d'investigació i producció en l'àmbit de la plàstica i la creació contemporània. Inclou ajudes específiques per a producció i investigació artística. [Catàleg complet d'ajudes a arts visuals](https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones/ayudas-y-subvenciones/promoarte.html).
 
 ## Com accedir a les subvencions de l'INAEM
 
-Les convocatòries s'obren un o dos cops l'any, normalment al primer trimestre (gener-febrer) per a projectes de l'any en curs. Es tramiten íntegrament a través de la **[Seu Electrònica del Ministeri de Cultura](https://sede.mcu.gob.es/)**, amb certificat digital o Cl@ve.
+Les convocatòries s'obren un o dos cops l'any, normalment al primer trimestre (gener-febrer) per a projectes de l'any en curs. Es tramiten íntegrament a través de la **[Seu Electrònica del Ministeri de Cultura](https://sede.mcu.gob.es/)**, amb certificat digital o Cl@ve. El [catàleg complet de beques i ajudes del Ministeri](https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones.html) centralitza totes les convocatòries obertes i tancades.
 
 Requisits habituals:
 - **Alta a la Seguretat Social com a autònom** o constitució com a persona jurídica (associació, SL, SA, cooperativa). Les sol·licituds individuals sense alta a la SS rarament prosperen.
@@ -37,10 +35,10 @@ Requisits habituals:
 
 Més enllà de l'INAEM, el Ministeri de Cultura gestiona:
 
-- **Ajudes a l'edició musical** (per a discogràfiques independents i artistes que autoediten).
-- **Beques de l'Acadèmia Espanyola de Belles Arts a Roma**: per a artistes plàstics, arquitectes i músics. Molt competitiva, molt valorada al sector.
+- **Ajudes a l'edició musical** (per a discogràfiques independents i artistes que autoediten): dins el catàleg d'arts escèniques i música del Ministeri.
+- **[Beques de l'Acadèmia Espanyola de Belles Arts a Roma](https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones/becas.html)**: per a artistes plàstics, arquitectes i músics. Molt competitiva, molt valorada al sector. Les beques del Ministeri (FormARTE, CULTUREX i les de Roma) estan totes al catàleg oficial de beques.
 - **Programa de col·laboració amb comunitats autònomes**: alguns programes es gestionen conjuntament entre el Ministeri i la Generalitat de Catalunya.
-- **Pla de Foment de la Indústria Musical**: suport a la internacionalització de la música espanyola a través de ICEX i altres vies.
+- **Pla de Foment de la Indústria Musical**: suport a la internacionalització de la música espanyola a través d'[ICEX](https://www.icex.es/) i altres vies.
 
 ## El Consell d'Arts d'Aragó, País Basc, Madrid...
 
