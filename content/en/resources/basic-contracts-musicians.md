@@ -1,6 +1,6 @@
 ---
-title: "Basic Contracts Every Musician Should Know"
-description: "Fee agreements, rights transfers, technical riders, record deals. You don't need to be a lawyer, but you do need to know what you're signing and what it means."
+title: "Basic contracts every musician should know"
+description: "Performance contracts, rights assignment, record deals, SGAE. You don't need to be a lawyer, but you do need to know what papers you're signing and what they're for."
 translationKey: "blog-basic-contracts-musicians"
 date: 2026-07-01
 draft: false
@@ -13,7 +13,7 @@ Most legal problems musicians face do not come from bad intentions. They come fr
 
 This is not legal advice — for that, you need a lawyer specialised in intellectual property and entertainment law. What we offer here is the map: which contracts exist, what each one covers, and which points you should always review before signing.
 
-## The Performance Contract
+## The performance contract
 
 This is the document that formalises a live performance: who performs, where, when, how much they are paid and under what conditions.
 
@@ -59,9 +59,9 @@ This is the document that formalises a live performance: who performs, where, wh
 
 </div>
 
-## The Rights Transfer Agreement
+## The rights assignment contract
 
-When you transfer rights over a song, an album or any work, you are transferring (fully or partially) the ability to exploit it commercially. Signing this incorrectly can have consequences years — or decades — later.
+When you assign rights over a song, an album or any work, you are transferring (fully or partially) the ability to exploit it commercially. Signing this incorrectly can have consequences years — or decades — later.
 
 **Critical points to review:**
 
@@ -73,7 +73,7 @@ When you transfer rights over a song, an album or any work, you are transferring
 </span>
 <div>
 <h3>Exclusivity and territory</h3>
-<p>Is the transfer exclusive (only that company can exploit it) or non-exclusive (you can transfer the same rights to others)? Does it cover the whole world or a specific territory? A worldwide exclusive transfer is very different from a non-exclusive transfer for one country.</p>
+<p>Is the assignment exclusive (only that company can exploit it) or non-exclusive (you can assign the same rights to others)? Does it cover the whole world or a specific territory? A worldwide exclusive assignment is very different from a non-exclusive assignment for one country.</p>
 </div>
 </div>
 
@@ -83,7 +83,7 @@ When you transfer rights over a song, an album or any work, you are transferring
 </span>
 <div>
 <h3>Duration</h3>
-<p>Are you transferring rights for a fixed term (5 years, 10 years) or indefinitely? If there is no expiry date, what conditions allow you to reclaim the rights? Contracts "for the full term of copyright protection" can mean 70 years after your death.</p>
+<p>Are you assigning rights for a fixed term (5 years, 10 years) or indefinitely? If there is no expiry date, what conditions allow you to reclaim the rights? Contracts "for the full term of copyright protection" can mean 70 years after your death.</p>
 </div>
 </div>
 
@@ -93,7 +93,7 @@ When you transfer rights over a song, an album or any work, you are transferring
 </span>
 <div>
 <h3>Which rights exactly</h3>
-<p>Reproduction, distribution, public communication, transformation, synchronisation (use in audiovisual)... Each right is independent. A contract may transfer distribution rights but retain synchronisation — and that is where the major money is in film, advertising and video game placements.</p>
+<p>Reproduction, distribution, public communication, adaptation, synchronisation (use in audiovisual)... Each right is independent. A contract may assign distribution rights but retain synchronisation — and that is where the major money is in film, advertising and video game placements.</p>
 </div>
 </div>
 
@@ -103,13 +103,13 @@ When you transfer rights over a song, an album or any work, you are transferring
 </span>
 <div>
 <h3>Remuneration and accounting</h3>
-<p>How is the transfer compensated? Flat fee, royalty percentage, advance against royalties? If there is an advance, which revenues are used to recoup it? How are accountings made: annually, semi-annually? Do you have audit rights?</p>
+<p>How is the assignment compensated? Flat fee, royalty percentage, advance against royalties? If there is an advance, which revenues are used to recoup it? How are accountings issued: annually, semi-annually? Do you have audit rights?</p>
 </div>
 </div>
 
 </div>
 
-## Record Deals and Distribution Agreements
+## Record deals and distribution agreements
 
 The streaming era has changed standard agreements significantly, but some classic terms remain:
 
@@ -117,27 +117,29 @@ The streaming era has changed standard agreements significantly, but some classi
 
 **Licence agreement:** You produce the music and licence the master for a specific territory and period. You retain ownership of the master. Better for artists who self-produce.
 
-**Digital distributor:** You are not transferring rights — the distributor acts as an intermediary to place your music on streaming platforms. They take a percentage or annual fee. Read the conditions for master reversion if you leave the distributor: some retain your catalogue for months.
+**Digital distributor:** You are not assigning rights — the distributor acts as an intermediary to place your music on streaming platforms. They take a percentage or annual fee. Read the conditions for catalogue reversion if you leave the distributor: some retain your music for months.
 
-**360° contract:** The label participates in all artist income: live, merchandise, advertising, licences. In return, there is usually a marketing support commitment. Negotiate carefully the percentage applied to each income type.
+**360° contract:** The label participates in all artist income: live shows, merchandising, advertising, licences. In return, there is usually a marketing support commitment. Negotiate carefully the percentage applied to each income type.
 
-## Collecting Societies
+## What happens with SGAE
 
-When you register your works with a collecting society ([ASCAP](https://www.ascap.com/), [BMI](https://www.bmi.com/) or [SESAC](https://www.sesac.com/) in the US; [PRS for Music](https://www.prsformusic.com/) in the UK; [SACEM](https://www.sacem.fr/) in France; [GEMA](https://www.gema.de/) in Germany; [SGAE](https://www.sgae.es/) in Spain), you are delegating the collective management of your public performance and mechanical reproduction rights. The society collects and distributes on your behalf.
+When you register your works with [SGAE](https://www.sgae.es) (Spain's authors' rights collective management society, equivalent to [PRS](https://www.prsformusic.com) in the UK or [ASCAP](https://www.ascap.com)/[BMI](https://www.bmi.com) in the US) as an author or publisher, you are delegating the collective management of your public communication and mechanical reproduction rights. SGAE collects and distributes on your behalf.
 
 Key points many authors miss:
-- Collecting societies manage public performance rights (concerts, radio, TV, public spaces) and mechanical rights (streaming, digital sales). Synchronisation rights are typically negotiated directly by the rights holder.
-- Registering a work does not mean transferring ownership. You remain the author. The society manages collection on your behalf in exchange for a commission.
-- If you release music with a digital distributor and are not registered with a collecting society, your public performance royalties from venues and broadcasts are likely not being collected.
+
+- SGAE manages public communication rights (concerts, radio, TV, public spaces) and mechanical reproduction rights (streaming, digital sales). Synchronisation rights are not managed by SGAE — those are negotiated directly by the rights holder.
+- Registering a work with SGAE is not assigning ownership of it. You remain the author. SGAE manages the collection on your behalf in exchange for a commission.
+- If you release music through a digital distributor and you are not registered with a collective management society, your public communication royalties from venues and broadcasts are likely not being collected.
 
 ## Practical recommendation
 
-For standard performance contracts with moderate fees, a well-drafted template signed by both parties is sufficient. For agreements with labels, platforms, or significant rights transfers, investing in a consultation with a lawyer specialised in intellectual property is one of the best investments you can make as a professional musician.
+For standard performance contracts with moderate fees, a well-drafted template signed by both parties is sufficient. For agreements with labels, platforms, or significant rights assignments, investing in a consultation with a lawyer specialised in intellectual property is one of the best investments you can make as a professional musician.
 
-At Ressona we help artists build their digital identity and professional structure. If you have questions about how to present yourself to the market or what steps to take to professionalise your career, [get in touch](/en/#contacte).
+At Ressona we help artists build their digital identity and professional structure. If you have questions about how to present yourself to the market or what steps to take to professionalise your career, [write to us](/en/#contacte).
 
 ## Related articles
 
-- [How to Price Your Work as an Artist](/en/resources/pricing-your-work-as-an-artist/) — methodology for calculating rates and holding them in negotiation
-- [Technical Rider for Musicians](/en/resources/technical-rider/) — the document that accompanies the performance contract
-- [Finding Representation: Agent, Booker or Manager](/en/resources/finding-representation-agent-booking-manager/) — when it is time to have representation and how to find it
+- [How to price your work as an artist](/en/resources/how-to-price-your-work/) — methodology for calculating rates and holding them in negotiation
+- [Taxes for creative freelancers](/en/resources/taxes-creative-freelancers/) — VAT, income tax and self-employment contributions in the cultural sector
+- [Technical rider for musicians](/en/resources/technical-rider-musicians/) — the document that accompanies the performance contract
+- [Finding representation: agent, booker or manager](/en/resources/finding-representation/) — when it is time to have representation and how to find it
