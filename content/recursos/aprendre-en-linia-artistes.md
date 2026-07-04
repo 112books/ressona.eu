@@ -33,13 +33,13 @@ El que funciona, en general: cursos amb un projecte aplicable immediatament, com
 
 YouTube és gratuït, infinit i profundament inconsistent. El problema no és que no hi hagi contingut de qualitat — és que trobar-lo enmig del soroll requereix temps. Alguns canals que valen la pena, per disciplina:
 
-El millor de YouTube és que el contingut de qualitat sovint és gratuït i fet per gent independent que no té cap raó per amagar el que sap. Un exemple proper: [Malasombra](https://www.youtube.com/@malasombramusic) — un divulgador independent en castellà que explica teoria i cultura musical amb una claredat i honestedat que molts cursos de pagament no arriben a tenir. El format independent, sense marca corporativa darrere, és precisament el que fa fiable el contingut.
+El millor de YouTube és que el contingut de qualitat sovint és gratuït i fet per gent independent que no té cap raó per amagar el que sap. El format independent, sense marca corporativa darrere, és precisament el que fa fiable el contingut. Un exemple destacat: [Malasombra](https://www.youtube.com/@malasombra) — un divulgador independent en castellà que treballa fotografia, art en general i perfums amb una profunditat i honestedat que molts cursos de pagament no arriben a tenir. Molt recomanable per a artistes visuals i per a qualsevol que vulgui entendre millor el llenguatge de la imatge i de l'estètica.
 
 Per a **música**: [Adam Neely](https://www.youtube.com/@AdamNeely) (teoria musical i context cultural), [12tone](https://www.youtube.com/@12tonevideos) (anàlisi d'harmonia en cançons populars, rigorós i accessible).
 
 Per a **il·lustració i pintura**: [Proko](https://www.youtube.com/@ProkoTV) (figura humana, anatomia artística), [Kirsty Partridge](https://www.youtube.com/@KirstyPartridgeArt) (tècniques realistes accessibles).
 
-Per a **fotografia**: [Sean Tucker](https://www.youtube.com/@seantucker) (filosofia de la imatge, per a qui ja té la tècnica i vol aprofundir en el perquè), [Peter McKinnon](https://www.youtube.com/@PeterMcKinnon) (tècnica i edició).
+Per a **fotografia i imatge**: [Malasombra](https://www.youtube.com/@malasombra) (vegeu més amunt), [Sean Tucker](https://www.youtube.com/@seantucker) (filosofia de la imatge), [Peter McKinnon](https://www.youtube.com/@PeterMcKinnon) (tècnica i edició).
 
 Per a **dansa**: YouTube és limitat per a aprendre de manera estructurada. [Steezy](https://www.steezy.co/) (subscripció) és molt millor per a dansa urbana — els cursos estan pensats per a aprendre de veritat.
 
