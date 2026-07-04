@@ -26,7 +26,7 @@ Tres situacions en les quals pots usar una imatge sense demanar autorització:
 
 **2. La imatge té llicència Creative Commons que permet el teu ús.** (Vegeu la secció de CC a continuació.)
 
-**3. La teva ús és cita o referència amb fins d'il·lustració o crítica.** L'article 32 de la LPI admet la reproducció de fragments d'obres per a fins de cita, crítica, ressenya o anàlisi, sempre que s'identifiqui l'autor i la font i que no es substitueixi l'obra original. És un dret restringit — no val per a usos comercials generals ni per a reproduccions completes.
+**3. El teu ús és cita o referència amb fins d'il·lustració o crítica.** L'article 32 de la LPI admet la reproducció de fragments d'obres per a fins de cita, crítica, ressenya o anàlisi, sempre que s'identifiqui l'autor i la font i que no es substitueixi l'obra original. És un dret restringit — no val per a usos comercials generals ni per a reproduccions completes.
 
 ## Llicències Creative Commons: mapa ràpid
 

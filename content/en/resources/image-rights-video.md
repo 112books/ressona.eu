@@ -62,6 +62,56 @@ Filming your own concert and publishing the video involves three layers of right
 
 In practice, many concerts are filmed with a visible notice at the entrance stating that filming may occur for promotional use. That notice has limited legal value but establishes a context of expectation.
 
+## Common practical cases at concerts and performances
+
+Concerts concentrate three rights that are often confused: **image rights** (LO 1/1982), **performer's rights** (neighbouring rights, LPI Arts. 105–113) and **copyright over the recording** (belonging to whoever holds the camera). Once you understand the differences, practical cases resolve themselves.
+
+### Case A: the photographer or videomaker at a public concert
+
+**Real question**: can I film and distribute material from a concert if I have the organiser's permission? Is that enough?
+
+The short answer: **no, it is not enough**. The organiser's permission gives you access to the space and, at most, logistical authorisation to film. But the organiser cannot assign rights they don't hold.
+
+There are two layers the organiser cannot authorise on their own:
+
+**1. Performer's rights (neighbouring rights).** [Article 108 of the LPI](https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930) gives performers the exclusive right to authorise the fixation (recording), reproduction and public communication of their performances. That means: filming a concert and publishing it requires the performer's or label's authorisation — not just the venue's or festival's. The only exception is if the artist has explicitly assigned these rights to the organiser in their contract — common in large-format festival contracts, but not universal.
+
+**2. Personal image rights.** Beyond neighbouring rights, every person (including artists on stage) has image rights. For commercial use of recorded material, additional authorisation is required.
+
+**Concrete examples:**
+
+- *Accredited press photographer*: the festival or venue gives you a press accreditation. That accreditation typically includes explicit conditions: "images are for editorial use (news, review, information) and not for commercial use." Publishing photos in a concert review: ✅. Selling photos to a brand or using them for advertising: ❌ without additional artist authorisation.
+
+- *Videomaker contracted by the organiser*: if the festival hires you to make the official video, the festival must have covered the artists' rights in their performance contracts. Ask for this in writing before filming — if there is a rights issue, the claim could come against you.
+
+- *Self-filming for your own social media without accreditation*: filming and publishing a concert video without authorisation (neither from the venue nor the artist) is technically an infringement of the performer's neighbouring rights, even in a public space. In practice, most artists tolerate or even appreciate it if the material is quality. But legally, tolerance is not authorisation.
+
+- *Music video or documentary from concert material*: the situation here is clear. Written authorisation from the artist is required. Non-negotiable.
+
+---
+
+### Case B: the artist and videos of their own concert
+
+**Real question**: can I use videos made of my concert as if they were mine?
+
+It depends entirely on who made them and under what conditions. There is a very common misconception: because you are in the video and it is your concert, you think the images are yours. They are not necessarily.
+
+**What you DO have as an artist:** performer's rights over your performance (LPI Art. 105 et seq.). Nobody can commercially exploit a recording of your performance without your authorisation.
+
+**What you do NOT automatically have:** copyright over the recording or photographs made by someone else. The person holding the camera is the author of the images (LPI Art. 5), regardless of who appears in them or who paid for the ticket.
+
+**Concrete examples:**
+
+- *A fan films the concert on their phone and posts it to YouTube*: the fan holds copyright over the video; you hold performer's rights over your performance. Neither can commercially exploit the material without the other. In practice: you can ask them to remove it (you have performer's rights) or share it and appreciate it (tolerance). If you want to use it on your own channel, ask the fan explicitly.
+
+- *A journalist or blogger publishes concert video*: the content belongs to the journalist for editorial use. You cannot take that video and post it to your Instagram without their permission, even though you are the one in it.
+
+- *You contracted a videomaker to record the concert*: if the contract does not specify rights transfer, the videomaker retains copyright over the recording. You paid for the filming service, not for the rights. **The golden rule: every contract with photographers or videomakers must include an explicit rights transfer clause** — which uses, for how long, in which territories, and whether it is exclusive or not.
+
+- *The festival organiser recorded the concert*: without a prior agreement, the organiser may hold rights over that recording as a "collective work" if they organised and directed the audiovisual production. If you want to use the footage, discuss it with them — in writing.
+
+**The practical rule for artists:** if you want concert material to be yours, hire the videomaker or photographer yourself, before the concert, with a contract including rights transfer. Everything you did not commission and contract belongs to someone else.
+
 ---
 
 **See also:**
