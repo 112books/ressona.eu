@@ -53,7 +53,7 @@ Un bon llibre editorial comença per les fotografies. No cal un fotògraf de Cel
 
 **Fotolibre A4 apaïsat.** El format clàssic, el que fa que les imatges respirin. Entre 48 i 96 pàgines. Enquadernació cosida o encolada. Tapa tova o dura.
 
-**Cuaderno de tour / zine.** Format més petit (A5, DL), gramatge inferior, preu de producció molt més baix. S'autofinança fàcilment i és prou barat per a vendre o regalar a concerts. No pretén ser un objecte de col·lecció però és molt efectiu com a record de la gira.
+**Quadern de tour / zine.** Format més petit (A5, DL), gramatge inferior, preu de producció molt més baix. S'autofinança fàcilment i és prou barat per a vendre o regalar a concerts. No pretén ser un objecte de col·lecció però és molt efectiu com a record de la gira.
 
 **Catàleg d'exposició.** Format variable. El que importa és la qualitat de la reproducció de l'obra — necessita una impressió de qualitat i un paper que faci justícia als colors de l'obra original.
 

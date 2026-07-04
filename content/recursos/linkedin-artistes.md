@@ -72,7 +72,7 @@ LinkedIn premia el contingut que genera conversa professional. Formats que funci
 
 **Recomanació de recursos per al sector.** Artistes que ajuden altres artistes (o clients) a entendre el sector construeixen autoritat.
 
-**Mai**: fotos de vacances, contenido purament personal, opinions polítiques (pot perjudicar la percepció professional).
+**Mai**: fotos de vacances, contingut purament personal, opinions polítiques (pot perjudicar la percepció professional).
 
 ---
 
