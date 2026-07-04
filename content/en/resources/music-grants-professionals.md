@@ -50,7 +50,7 @@ Some grants specifically cover recording and disc production:
 
 Prizes that include financial endowment function effectively as grants:
 
-- **[National Music Prize (Ministry of Culture)](https://www.culturaydeporte.gob.es/)**: recognition and endowment for Spanish musicians and composers.
+- **[National Music Prize (Ministry of Culture)](https://www.cultura.gob.es/)**: recognition and endowment for Spanish musicians and composers.
 - **International composition competitions**: many international festivals (Huddersfield, Darmstadt, Donaueschingen) include prizes with financial endowment for selected or awarded composers.
 
 ## Searching by sector

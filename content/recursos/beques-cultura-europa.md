@@ -29,7 +29,7 @@ El punt d'entrada per a artistes a Espanya és el **[Punt d'Informació de Creat
 
 - **Mobilitat per a professionals de la cultura**: beques individuals per a formació, residències i intercanvis en altres països europeus.
 - **Associacions per a la cooperació**: per a organitzacions que volen desenvolupar projectes conjunts educatius o de formació.
-- **Projecces d'Esport i Cultura**: per a organitzacions que treballen en l'ús de la cultura o les arts en contextos socials.
+- **Projectes d'Esport i Cultura**: per a organitzacions que treballen en l'ús de la cultura o les arts en contextos socials.
 
 La gestió per a Espanya és a través de l'**[Agencia Nacional Erasmus+ SEPIE](https://www.sepie.es/)**, que publica les convocatòries i gestiona les sol·licituds nacionals.
 

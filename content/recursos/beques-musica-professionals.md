@@ -54,7 +54,7 @@ Algunes ajudes cobreixen específicament l'enregistrament i la producció discog
 
 Els premis que inclouen dotació econòmica funcionen de fet com a beques:
 
-- **[Premi Nacional de Música (Ministeri de Cultura)](https://www.culturaydeporte.gob.es/)**: reconeixement i dotació per a músics i compositors espanyols.
+- **[Premi Nacional de Música (Ministeri de Cultura)](https://www.cultura.gob.es/)**: reconeixement i dotació per a músics i compositors espanyols.
 - **[Premi de la Música Catalana](https://premisdelamusicacatalana.cat/)**: reconeixement al sector musical català.
 - **Concursos internacionals de composició**: molts festivals internacionals (Huddersfield, Darmstadt, Donaueschingen) inclouen premis amb dotació per a compositores seleccionades o premiades.
 
