@@ -81,7 +81,7 @@ La resposta curta: **no, no n'hi ha prou**. El permís de l'organitzador et dona
 
 Hi ha dues capes que l'organitzador no pot autoritzar per si sol:
 
-**1. Els drets de l'artista intèrpret (drets connexos).** L'[article 108 de la LPI](https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930) atorga als artistes intèrprets el dret exclusiu d'autoritzar la fixació (enregistrament), la reproducció i la comunicació pública de les seves actuacions. És a dir: gravar un concert i publicar-lo requereix l'autorització del músic o de la companyia, no només de la sala o el festival. La única excepció és si l'artista ha cedit explícitament aquests drets a l'organitzador en el seu contracte — cosa que passa en molts contractes de festival de gran format, però no en tots.
+**1. Els drets de l'artista intèrpret (drets connexos).** Els [articles 106, 107 i 108 de la LPI](https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930) atorguen als artistes intèrprets el dret exclusiu d'autoritzar, respectivament, la **fixació** (enregistrament, art. 106), la **reproducció** de les fixacions (art. 107) i la **comunicació pública** (art. 108) de les seves actuacions. És a dir: gravar un concert i publicar-lo requereix l'autorització del músic o de la companyia, no només de la sala o el festival. La única excepció és si l'artista ha cedit explícitament aquests drets a l'organitzador en el seu contracte — cosa que passa en molts contractes de festival de gran format, però no en tots.
 
 **2. El dret d'imatge personal.** A banda dels drets connexos, qualsevol persona (inclosos els artistes a escenari) té dret d'imatge. Per a ús comercial del material gravat cal una autorització addicional.
 

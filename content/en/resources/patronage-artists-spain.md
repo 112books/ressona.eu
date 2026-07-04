@@ -21,8 +21,8 @@ The distinction matters because the relationship you need to build is different,
 
 **[Law 49/2002 of 23 December](https://www.boe.es/buscar/act.php?id=BOE-A-2002-25039)** on the tax regime for non-profit entities and fiscal incentives for patronage is the reference legal framework. It establishes tax deductions for individuals and companies making donations to cultural projects:
 
-- **Individuals**: 80% deduction on donations up to €150, and 35% on amounts above this threshold (up to 75% if the donation is repeated for three or more consecutive years).
-- **Companies**: 40% deduction on donations from Corporation Tax (up to 50% with donation loyalty over three years or more).
+- **Individuals**: 80% deduction on donations up to €250, and 40% on amounts above this threshold (up to 45% if the donation is repeated for two or more consecutive years to the same entity). Rates in force since 1 January 2024 (RDL 6/2023).
+- **Companies**: 40% deduction on donations from Corporation Tax (up to 50% with donation loyalty over two or more consecutive years).
 
 But there is a fundamental requirement: **the donation recipient must be a recognised non-profit entity** (foundation, association declared of public utility, etc.). If you're self-employed or have an SL, you cannot directly receive donations with tax incentives. You need to channel them through a non-profit entity or foundation acting as intermediary.
 

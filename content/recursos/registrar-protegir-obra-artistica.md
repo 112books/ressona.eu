@@ -25,7 +25,7 @@ A Catalunya, el registre es fa a través del **[Departament de Cultura de la Gen
 
 El registre és voluntari però té utilitat pràctica: en un conflicte judicial, una inscripció registral és una prova de data i autoria molt difícil d'impugnar.
 
-**Limitació important**: el registre és manual i comporta tràmits. Per a una obra individual importantfra, val la pena. Per a la producció contínua d'un músic, fotògraf o il·lustrador, registrar cada obra individualment no és operatiu.
+**Limitació important**: el registre és manual i comporta tràmits. Per a una obra individual important, val la pena. Per a la producció contínua d'un músic, fotògraf o il·lustrador, registrar cada obra individualment no és operatiu.
 
 ## SafeCreative: registre digital automàtic
 

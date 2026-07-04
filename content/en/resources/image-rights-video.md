@@ -74,7 +74,7 @@ The short answer: **no, it is not enough**. The organiser's permission gives you
 
 There are two layers the organiser cannot authorise on their own:
 
-**1. Performer's rights (neighbouring rights).** [Article 108 of the LPI](https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930) gives performers the exclusive right to authorise the fixation (recording), reproduction and public communication of their performances. That means: filming a concert and publishing it requires the performer's or label's authorisation — not just the venue's or festival's. The only exception is if the artist has explicitly assigned these rights to the organiser in their contract — common in large-format festival contracts, but not universal.
+**1. Performer's rights (neighbouring rights).** [Articles 106, 107 and 108 of the LPI](https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930) give performers the exclusive right to authorise, respectively, the **fixation** (recording, Art. 106), **reproduction** of fixations (Art. 107) and **public communication** (Art. 108) of their performances. That means: filming a concert and publishing it requires the performer's or label's authorisation — not just the venue's or festival's. The only exception is if the artist has explicitly assigned these rights to the organiser in their contract — common in large-format festival contracts, but not universal.
 
 **2. Personal image rights.** Beyond neighbouring rights, every person (including artists on stage) has image rights. For commercial use of recorded material, additional authorisation is required.
 

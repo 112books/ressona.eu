@@ -21,8 +21,8 @@ La distinció importa perquè la relació que has de construir és diferent, el 
 
 La **[Llei 49/2002, de 23 de desembre, de règim fiscal de les entitats sense fins lucratius i dels incentius fiscals al mecenatge](https://www.boe.es/buscar/act.php?id=BOE-A-2002-25039)** és el marc legal de referència. Estableix les deduccions fiscals que poden aplicar les persones físiques i les empreses quan fan donacions a projectes culturals:
 
-- **Persones físiques**: deducció del 80% de la donació fins a 150€, i del 35% de l'import que superi aquest llindar (fins al 75% si la donació es repeteix tres anys consecutius o més).
-- **Empreses**: deducció del 40% de la donació en l'Impost de Societats (fins al 50% si hi ha fidelitat de donació durant tres anys o més).
+- **Persones físiques**: deducció del 80% de la donació fins a 250€, i del 40% de l'import que superi aquest llindar (fins al 45% si la donació es repeteix durant dos anys consecutius o més a la mateixa entitat). Percentatges vigents des de l'1 de gener de 2024 (RDL 6/2023).
+- **Empreses**: deducció del 40% de la donació en l'Impost de Societats (fins al 50% si hi ha fidelitat de donació durant dos anys o més consecutius).
 
 Però hi ha un requisit fonamental: **el receptor de la donació ha de ser una entitat sense ànim de lucre reconeguda** (fundació, associació declarada d'utilitat pública, etc.). Si ets autònom o tens una SL, no pots rebre directament donacions amb incentiu fiscal. Has de canalitzar-les a través d'una entitat sense ànim de lucre o d'una fundació que actuï d'intermediari.
 
