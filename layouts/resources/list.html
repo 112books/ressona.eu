@@ -12,6 +12,8 @@
 {{ $iconAjudes    := `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>` }}
 {{ $iconIa        := `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4M22 5h-4M4 17v2M5 18H3"/></svg>` }}
 {{ $iconOnTocar   := `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>` }}
+{{ $iconFormacio  := `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>` }}
+{{ $iconCreacio   := `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7z"/><line x1="10" y1="21" x2="14" y2="21"/></svg>` }}
 
 {{ $cats := slice
   (dict "slug" "distribucio"  "label" "Distribution"           "icon" $iconDistribucio)
@@ -24,10 +26,12 @@
   (dict "slug" "legal"        "label" "Legal & rights"          "icon" $iconLegal)
   (dict "slug" "ajudes"       "label" "Grants & funding"        "icon" $iconAjudes)
   (dict "slug" "ia"           "label" "AI for artists"          "icon" $iconIa)
-  (dict "slug" "on-tocar"    "label" "Where to play & listen"  "icon" $iconOnTocar)
+  (dict "slug" "on-tocar"     "label" "Where to play & listen"  "icon" $iconOnTocar)
+  (dict "slug" "formacio"     "label" "Training"                "icon" $iconFormacio)
+  (dict "slug" "creacio"      "label" "Creation & process"      "icon" $iconCreacio)
 }}
 
-{{ $icons := dict "distribucio" $iconDistribucio "identitat" $iconIdentitat "comunicacio" $iconComunicacio "xarxes" $iconXarxes "projectes" $iconProjectes "epk" $iconEpk "rider" $iconRider "legal" $iconLegal "ajudes" $iconAjudes "ia" $iconIa "on-tocar" $iconOnTocar }}
+{{ $icons := dict "distribucio" $iconDistribucio "identitat" $iconIdentitat "comunicacio" $iconComunicacio "xarxes" $iconXarxes "projectes" $iconProjectes "epk" $iconEpk "rider" $iconRider "legal" $iconLegal "ajudes" $iconAjudes "ia" $iconIa "on-tocar" $iconOnTocar "formacio" $iconFormacio "creacio" $iconCreacio }}
 
 <section class="section section--recursos">
   <div class="section-inner section-inner--narrow">
