@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-04T23:49:41.807932Z",
+  "generated": "2026-07-05T00:44:46.920518Z",
   "period": {
-    "start": "2025-07-04",
-    "end": "2026-07-04"
+    "start": "2025-07-05",
+    "end": "2026-07-05"
   },
-  "total": 738,
+  "total": 770,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 125
+      "count": 120
     },
     {
       "date": "2026-06-28",
@@ -93,45 +93,49 @@
     },
     {
       "date": "2026-07-04",
-      "count": 10
+      "count": 46
+    },
+    {
+      "date": "2026-07-05",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 266
+      "count": 277
     },
     {
       "path": "/#que-fem",
-      "count": 48
+      "count": 49
     },
     {
       "path": "/#per-qui",
-      "count": 41
+      "count": 42
     },
     {
       "path": "/#quisom",
-      "count": 38
+      "count": 39
     },
     {
       "path": "/#contacte",
-      "count": 36
+      "count": 37
     },
     {
       "path": "/#com-treballem",
-      "count": 33
+      "count": 34
     },
     {
       "path": "/recursos",
-      "count": 22
+      "count": 23
     },
     {
       "path": "/#recursos",
-      "count": 21
+      "count": 22
     },
     {
       "path": "/en",
-      "count": 11
+      "count": 12
     },
     {
       "path": "/comenca",
@@ -139,6 +143,10 @@
     },
     {
       "path": "/recursos/drets-imatges-promocionals",
+      "count": 7
+    },
+    {
+      "path": "/en/#que-fem",
       "count": 7
     },
     {
@@ -154,7 +162,19 @@
       "count": 6
     },
     {
-      "path": "/en/#que-fem",
+      "path": "/en/#contacte",
+      "count": 6
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 6
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 6
+    },
+    {
+      "path": "/en/#per-qui",
       "count": 6
     },
     {
@@ -182,23 +202,11 @@
       "count": 5
     },
     {
-      "path": "/en/#contacte",
-      "count": 5
-    },
-    {
-      "path": "/en/#com-treballem",
-      "count": 5
-    },
-    {
-      "path": "/en/#quisom",
-      "count": 5
-    },
-    {
-      "path": "/en/#per-qui",
-      "count": 5
-    },
-    {
       "path": "/recursos/perseguint-el-duende",
+      "count": 4
+    },
+    {
+      "path": "/en/resources",
       "count": 4
     },
     {
@@ -212,36 +220,32 @@
     {
       "path": "/serveis/fotografia-video",
       "count": 4
-    },
-    {
-      "path": "/legal/avis-legal",
-      "count": 4
     }
   ],
   "by_lang": {
-    "en": 49
+    "en": 55
   },
   "by_section": {
-    "inici": 277,
-    "#que-fem": 54,
-    "#per-qui": 46,
-    "#quisom": 43,
-    "#contacte": 41,
-    "#com-treballem": 38,
-    "recursos": 146,
-    "#recursos": 24,
+    "inici": 289,
+    "#que-fem": 56,
+    "#per-qui": 48,
+    "#quisom": 45,
+    "#contacte": 43,
+    "#com-treballem": 40,
+    "recursos": 150,
+    "#recursos": 25,
     "comenca": 9,
     "serveis": 25,
-    "legal": 9,
     "resources": 8,
-    "tags": 12,
-    "per-a-qui": 6
+    "legal": 9,
+    "per-a-qui": 12,
+    "tags": 11
   },
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 400
+      "count": 401
     },
     {
       "name": "Safari",
@@ -273,7 +277,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 160
+      "count": 161
     },
     {
       "name": "iOS",
@@ -300,7 +304,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 262
+      "count": 263
     },
     {
       "name": "desktophd",
@@ -322,7 +326,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 174
+      "count": 175
     },
     {
       "name": "France",
@@ -359,7 +363,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 333
+      "count": 353
     },
     {
       "name": "ig",
