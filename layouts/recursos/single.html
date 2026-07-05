@@ -66,6 +66,8 @@
       (dict "slug" "ajudes"      "labelCA" "Beques i ajudes"    "labelEN" "Grants & funding")
       (dict "slug" "ia"          "labelCA" "IA per a artistes"  "labelEN" "AI for artists")
       (dict "slug" "on-tocar"   "labelCA" "On tocar i escoltar" "labelEN" "Where to play & listen")
+      (dict "slug" "formacio"   "labelCA" "Formació"            "labelEN" "Training")
+      (dict "slug" "creacio"    "labelCA" "Creació i procés"    "labelEN" "Creation & process")
     }}
     <div class="article-cats-nav">
       <p class="article-related__title">{{ if eq $lang "en" }}Explore by topic{{ else }}Explorar per tema{{ end }}</p>
@@ -86,15 +88,18 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": {{ .Title | jsonify }},
   "description": {{ .Description | jsonify }},
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
   "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
   "author": { "@type": "Organization", "@id": "https://ressona.eu/#organization", "name": "Ressona" },
   "publisher": { "@id": "https://ressona.eu/#organization" },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ .Permalink }}" },
   "url": "{{ .Permalink }}",
-  "inLanguage": "{{ $lang }}"
+  "inLanguage": "{{ $lang }}",
+  "image": "https://ressona.eu/img/ressona-eu-rounded.png",
+  "wordCount": {{ countwords .Content }}
 }
 </script>
 {{ end }}

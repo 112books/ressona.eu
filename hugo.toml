@@ -35,5 +35,9 @@ enableRobotsTXT = true
   taxonomy = ["HTML"]
   term     = ["HTML"]
 
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
 [build]
   writeStats = false
