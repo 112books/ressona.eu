@@ -15,7 +15,7 @@ L'instrument de corda i arc de l'era barroca, predecessor del violoncel. Té sis
 
 - **On aprendre**: l'ESMUC (Barcelona) té professors de viola da gamba. El Conservatori Superior de Música de Madrid també. Per a formació especialitzada, els cursos d'estiu de **[Saintes](https://www.festivalbaroquedesaintes.org/)** (França) i **[Bruges](https://www.musicallia.com/)** (Bèlgica) compten amb mestres de referència internacional.
 - **En línia**: l'oferta estructurada és escassa. La **[Viola da Gamba Society](https://vdgs.org.uk/)** (Regne Unit) té recursos i un directori de professors.
-- **Referent**: Jordi Savall (català) és el violagambista més important del món. Les seves gravacions amb Hespèrion XXI són el punt de partida imprescindible.
+- **Referent**: **[Jordi Savall](https://jordisavall.com/)** (català) és el violagambista més important del món. Les seves gravacions amb Hespèrion XXI són el punt de partida imprescindible.
 
 ## Clavicèmbal
 
@@ -23,7 +23,7 @@ L'instrument de teclat predecessor del piano (corda pinçada en lloc de percutid
 
 - **On aprendre**: ESMUC, Conservatori Superior Municipal de Barcelona. Cursos d'estiu a Itàlia (Accademia Chigiana, Siena) i Alemanya.
 - **En línia**: **[Tonebase](https://tonebase.co/)** ha ampliat el seu catàleg a instruments d'època, amb professors especialitzats en repertori antic.
-- **Referents**: Scott Ross, Gustav Leonhardt, Trevor Pinnock — tres escoles d'interpretació molt diferenciades que representen tradicions nacionals i estètiques pròpies.
+- **Referents**: **[Scott Ross](https://www.youtube.com/channel/UCqUJc0ktbdMaCh-wVMVXORw)**, **[Gustav Leonhardt](https://www.youtube.com/channel/UCl9ylVFNB29fiiNcCTua6NA)**, **[Trevor Pinnock](https://trevorpinnock.com/)** — tres escoles d'interpretació molt diferenciades que representen tradicions nacionals i estètiques pròpies.
 
 ## Theremin
 

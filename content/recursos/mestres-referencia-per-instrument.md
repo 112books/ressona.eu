@@ -11,23 +11,23 @@ Aprendre un instrument és inseparable d'aprendre qui el toca bé. No per imitar
 
 ## Guitarra clàssica
 
-- **Andrés Segovia**: el fundador del repertori modern. El seu mètode i les seves edicions encara circulen. Escoltar-lo és entendre d'on ve tot.
-- **John Williams**: tècnica impecable, repertori amplíssim. Les seves gravacions de Bach i Rodrigo són referències indiscutibles.
-- **David Russell**: per a qui vol entendre la musicalitat per damunt de la pirotècnia. Moltes masterclasses disponibles a YouTube.
+- **[Andrés Segovia](https://www.youtube.com/@Andr%C3%A9sSegovia1)**: el fundador del repertori modern. El seu mètode i les seves edicions encara circulen. Escoltar-lo és entendre d'on ve tot.
+- **[John Williams](https://www.johnwilliamsguitarnotes.com/)**: tècnica impecable, repertori amplíssim. Les seves gravacions de Bach i Rodrigo són referències indiscutibles.
+- **[David Russell](https://www.davidrussellguitar.com/)**: per a qui vol entendre la musicalitat per damunt de la pirotècnia. Moltes masterclasses disponibles a YouTube.
 - Per a guitarra clàssica online: el canal de **[Bradford Werner](https://www.thisisclassicalguitar.com/)** és un dels recursos gratuïts més complets del web.
 
 ## Guitarra elèctrica / jazz / moderna
 
-- **Wes Montgomery**: el pare del jazz modern en guitarra. L'octau, la manera de frasejar — tot ve d'ell.
+- **[Wes Montgomery](https://www.youtube.com/channel/UCmr_ZV6kjCf7EKO-VDcriVw)**: el pare del jazz modern en guitarra. L'octau, la manera de frasejar — tot ve d'ell.
 - **[Pat Metheny](https://www.patmetheny.com/)**: per a qui vol entendre com la guitarra pot ser orquestra. Les seves masterclasses i entrevistes a YouTube són material pedagògic excel·lent.
 - **[Tommy Emmanuel](https://www.tommyemmanuel.com/)**: per a guitarra fingerstyle acústica. A **[ArtistWorks](https://artistworks.com/)** té un curs online amb feedback personal.
 - **Adam Neely** (baix, però els seus vídeos de teoria s'apliquen a la guitarra): **[YouTube](https://www.youtube.com/@AdamNeely)** — el millor recurs gratuït de teoria musical aplicada.
 
 ## Piano
 
-- **Glenn Gould**: per a Bach. Les seves Variacions Goldberg (1955 i 1981) i els seus escrits sobre interpretació defineixen una manera de pensar el piano.
-- **Martha Argerich**: per a Chopin, Schumann, Ravel. El seu exemple ensenya que el ritme és la primera i última llei.
-- **Brad Mehldau**: per a jazz contemporani. Els seus "Art of the Trio" i les gravacions en solitari mostren com integrar Bach, Radiohead i Coltrane en un sol llenguatge.
+- **[Glenn Gould](https://www.glenngould.ca/)**: per a Bach. Les seves Variacions Goldberg (1955 i 1981) i els seus escrits sobre interpretació defineixen una manera de pensar el piano.
+- **[Martha Argerich](https://www.deutschegrammophon.com/en/artists/marthaargerich)**: per a Chopin, Schumann, Ravel. El seu exemple ensenya que el ritme és la primera i última llei.
+- **[Brad Mehldau](https://www.bradmehldaumusic.com/)**: per a jazz contemporani. Els seus "Art of the Trio" i les gravacions en solitari mostren com integrar Bach, Radiohead i Coltrane en un sol llenguatge.
 - Pedagogs: **[Tonebase](https://tonebase.co/)** — plataforma online específica per a instruments clàssics (piano, cello, violí) amb professors d'institucions com Juilliard i Curtis.
 
 ## Veu

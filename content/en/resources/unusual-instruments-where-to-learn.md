@@ -15,7 +15,7 @@ The bowed string instrument of the Baroque era, predecessor of the cello. It has
 
 - **Where to learn**: specialist conservatories in Europe — the **[Schola Cantorum Basiliensis](https://www.schola-cantorum.ch/)** in Basel is one of the leading institutions for early music performance. In the UK, the Royal College of Music and the Royal Academy of Music both offer viola da gamba.
 - **Online**: structured courses are scarce. The **[Viola da Gamba Society](https://vdgs.org.uk/)** (UK) has resources and a teacher directory.
-- **Reference**: Jordi Savall (Catalan) is the most important viola da gambist in the world. His recordings with Hespèrion XXI are the essential starting point. Paolo Pandolfo is another key contemporary reference.
+- **Reference**: **[Jordi Savall](https://jordisavall.com/)** (Catalan) is the most important viola da gambist in the world. His recordings with Hespèrion XXI are the essential starting point. Paolo Pandolfo is another key contemporary reference.
 
 ## Harpsichord
 
@@ -23,7 +23,7 @@ The keyboard instrument that preceded the piano (plucked strings rather than str
 
 - **Where to learn**: major conservatories with early music departments — Basel, The Hague (Royal Conservatoire), London. Summer courses in Italy (Accademia Chigiana, Siena) and Germany are well established.
 - **Online**: **[Tonebase](https://tonebase.co/)** has expanded its catalogue to include period instruments, with professors specialising in early repertoire.
-- **References**: Scott Ross, Gustav Leonhardt, Trevor Pinnock — three very different interpretive schools representing distinct national traditions and aesthetics.
+- **References**: **[Scott Ross](https://www.youtube.com/channel/UCqUJc0ktbdMaCh-wVMVXORw)**, **[Gustav Leonhardt](https://www.youtube.com/channel/UCl9ylVFNB29fiiNcCTua6NA)**, **[Trevor Pinnock](https://trevorpinnock.com/)** — three very different interpretive schools representing distinct national traditions and aesthetics.
 
 ## Theremin
 
