@@ -4,6 +4,7 @@ description: "LinkedIn isn't for musicians or actors, many say. But it depends w
 date: 2026-06-12
 tags: ["social-media", "digital-tools"]
 category: identitat
+categories: ["identitat", "xarxes"]
 translationKey: "blog-artist-on-linkedin"
 ---
 

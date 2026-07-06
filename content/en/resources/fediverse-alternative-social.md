@@ -5,6 +5,7 @@ translationKey: "blog-fediverse-alternative-social"
 date: 2026-07-06
 tags: ["mastodon", "bluesky", "fediverse", "digital-sovereignty"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 When Elon Musk bought Twitter in 2022, thousands of artists and creators left. Many found an ecosystem of platforms they hadn't known existed: Mastodon, Pixelfed, PeerTube, Funkwhale, Bookwyrm. All share one characteristic: they're not owned by a large corporation, there's no algorithm manipulating what you see, and your data isn't used for advertising.

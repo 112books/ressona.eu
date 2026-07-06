@@ -5,6 +5,7 @@ translationKey: "blog-newsletter-artists"
 date: 2026-07-06
 tags: ["newsletter", "email-marketing", "social-media", "communication"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 Social media gives you visibility but it doesn't give you the list. If Instagram tomorrow decides to close your account, or if the algorithm stops showing your content, you lose all contact with your audience. A newsletter is different: the subscriber list is yours. No platform can take it away.

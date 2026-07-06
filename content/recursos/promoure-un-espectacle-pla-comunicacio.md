@@ -5,6 +5,7 @@ translationKey: "blog-promoure-espectacle-pla-comunicacio"
 date: 2026-07-02
 tags: ["materials-professionals", "xarxes-socials"]
 category: identitat
+categories: ["identitat", "comunicacio"]
 ---
 
 La majoria d'espectacles no fracassen per falta de qualitat. Fracassen per falta de visibilitat. I la majoria de problemes de visibilitat no es resolen la setmana anterior a l'estrena: es generen dos mesos abans, quan no s'ha fet res.

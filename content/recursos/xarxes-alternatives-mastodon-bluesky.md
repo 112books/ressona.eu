@@ -5,6 +5,7 @@ translationKey: "blog-fediverse-alternative-social"
 date: 2026-07-06
 tags: ["mastodon", "bluesky", "fediverse", "sobirania-digital"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 Quan el 2022 Elon Musk va comprar Twitter, milers d'artistes i creadors van marxar. Molts van trobar un ecosistema de plataformes que no coneixien: Mastodon, Pixelfed, PeerTube, Funkwhale, Bookwyrm. Totes comparteixen una característica: no son propietat d'una gran corporació, no hi ha un algoritme que manipuli el que veus, i les teves dades no s'usen per publicitat.

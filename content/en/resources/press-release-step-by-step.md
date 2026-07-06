@@ -7,6 +7,7 @@ date: 2026-07-03
 author: "Ressona"
 tags: ["professional-materials", "communication"]
 category: epk
+categories: ["epk", "comunicacio"]
 ---
 
 A press release is not a long email. It is not a summary of your artistic project. It is not your biography with a date added at the end. It is a one-page document that answers five questions in order and that a journalist can publish with minimal editing.

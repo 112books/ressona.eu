@@ -4,6 +4,7 @@ description: "Creative block on social media is real. Here are 20 content ideas 
 date: 2026-06-11
 tags: ["social-media", "digital-tools", "content"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 translationKey: "blog-social-content-artists"
 ---
 

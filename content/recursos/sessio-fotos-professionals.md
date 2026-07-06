@@ -4,6 +4,7 @@ description: "Tot el que cal fer abans, durant i després d'una sessió fotogrà
 date: 2026-06-20
 tags: ["fotografia", "materials-professionals", "identitat-visual"]
 category: epk
+categories: ["epk", "identitat"]
 translationKey: "blog-professional-photo-session"
 ---
 

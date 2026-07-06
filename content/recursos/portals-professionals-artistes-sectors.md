@@ -5,6 +5,7 @@ translationKey: "blog-professional-portals-artists"
 date: 2026-07-06
 tags: ["portals", "distribucio", "xarxes-socials", "sector"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 Les xarxes socials son per al públic general. Els portals professionals son per als professionals del sector: programadors, galeries, editors, directors de càsting, comissaris i periodistes. Son dues presències diferents amb objectius diferents. Un artista que té Instagram però no té presència als portals del seu sector és invisible per als qui decideixen programar, exhibir o distribuir la seva obra.

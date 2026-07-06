@@ -5,6 +5,7 @@ translationKey: "blog-instagram-artists"
 date: 2026-07-06
 tags: ["instagram", "social-media", "content", "formats"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 Instagram remains the reference platform for visual artists, musicians, and any creator whose work is photographable or filmable. Discovery has shifted — Reels have displaced the feed — but the platform is still where programmers, gallery directors, and journalists go to find artists. Understanding how it works prevents wasting time on content that reaches no one.

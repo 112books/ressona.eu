@@ -7,6 +7,7 @@ date: 2026-06-26
 author: "Ressona"
 tags: ["photography", "professional-materials"]
 category: epk
+categories: ["epk", "identitat"]
 featured: true
 ---
 

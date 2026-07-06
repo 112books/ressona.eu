@@ -7,6 +7,7 @@ date: 2026-06-26
 author: "Ressona"
 tags: ["xarxes-socials", "eines-digitals", "contingut"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 featured: true
 ---
 

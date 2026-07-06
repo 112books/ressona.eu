@@ -253,7 +253,7 @@
     <p class="section-tagline">{{ i18n "section_recursos_tagline" }}</p>
     <div class="recursos-home-cats">
       {{ range $homeCats }}
-      {{ $count := len (where $articles ".Params.category" .slug) }}
+      {{ $count := len (where $articles ".Params.category" .slug | append (where $articles ".Params.categories" "intersect" (slice .slug))) }}
       {{ if gt $count 0 }}
       <a href="{{ $hubURL }}#cat-{{ .slug }}" class="recursos-home-cat">
         <span class="recursos-home-cat__icon" aria-hidden="true">{{ .icon | safeHTML }}</span>

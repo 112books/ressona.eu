@@ -5,6 +5,7 @@ translationKey: "blog-youtube-artists"
 date: 2026-07-06
 tags: ["youtube", "xarxes-socials", "video", "seo"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 YouTube no és una plataforma de descobriment ràpid. No et convertirà en viral de la nit al dia. Però el contingut que puges avui pot ser trobat en una cerca d'aquí a tres anys. És la plataforma del contingut durador: concerts, tutorials, documentals de procés, sessions acústiques, making-of. La lògica no és "quants views tinc avui", sinó "quantes persones troben el meu treball gràcies a una cerca".

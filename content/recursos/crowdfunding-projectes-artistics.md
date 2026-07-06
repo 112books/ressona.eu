@@ -7,6 +7,7 @@ draft: false
 author: "Ressona"
 tags: ["beques-festivals", "materials-professionals"]
 category: ajudes
+categories: ["ajudes", "projectes"]
 ---
 
 El crowdfunding no és un pla B per quan no hi ha diners. Fet bé, és una eina de validació, de construcció de comunitat i de prevenenda que permet produir projectes que d'una altra manera no sortirien.

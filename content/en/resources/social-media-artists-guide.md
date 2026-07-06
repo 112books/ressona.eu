@@ -5,6 +5,7 @@ translationKey: "blog-social-media-artists-guide"
 date: 2026-07-06
 tags: ["social-media", "communication", "digital-strategy", "content"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 The question isn't "do I need to be on social media?" The question is "which ones and how?" Platforms are not equal, audiences are not equal, and the time they require is not equal. An artist publishing on five platforms without a clear strategy wastes time and energy. An artist who chooses two or three platforms well and works them consistently builds a real audience.

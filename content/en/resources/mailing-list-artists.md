@@ -4,6 +4,7 @@ description: "Your mailing list is the only direct communication channel that's 
 date: 2026-07-02
 tags: ["professional-materials", "social-media", "digital-identity"]
 category: identitat
+categories: ["identitat", "comunicacio"]
 translationKey: "blog-mailing-list-artists"
 ---
 

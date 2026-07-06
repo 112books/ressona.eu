@@ -5,6 +5,7 @@ translationKey: "blog-tiktok-artists"
 date: 2026-07-06
 tags: ["tiktok", "social-media", "content", "video"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 TikTok has the most powerful discovery algorithm of any platform. A creator with zero followers can get a hundred thousand views on their first video if the content connects. But it's not the right platform for everyone, and there are privacy and data sovereignty considerations worth understanding clearly before you decide whether to join.

@@ -7,6 +7,7 @@ draft: false
 author: "Ressona"
 tags: ["grants-festivals", "professional-materials"]
 category: ajudes
+categories: ["ajudes", "projectes"]
 ---
 
 Crowdfunding is not a plan B when there is no money. Done right, it is a validation tool, a community-building exercise and a pre-sale mechanism that makes it possible to produce projects that would otherwise never happen.

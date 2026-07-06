@@ -7,6 +7,7 @@ date: 2026-06-26
 author: "Ressona"
 tags: ["professional-materials", "digital-identity"]
 category: identitat
+categories: ["identitat", "epk"]
 ---
 
 A festival programmer reads the first sentence of your bio. If they can't immediately understand who you are and why you're relevant to their audience, they move on to the next artist. Not for lack of time — for an excess of options.

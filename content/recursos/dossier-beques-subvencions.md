@@ -4,6 +4,7 @@ description: "Un dossier per a beques no és un press kit. Té una estructura di
 date: 2026-06-15
 tags: ["beques-festivals", "materials-professionals", "finançament"]
 category: ajudes
+categories: ["ajudes", "projectes"]
 translationKey: "blog-grants-dossier-artists"
 ---
 

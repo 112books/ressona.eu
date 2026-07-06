@@ -4,6 +4,7 @@ description: "Everything you need to do before, during and after a photo session
 date: 2026-06-20
 tags: ["photography", "materials-professionals", "visual-identity"]
 category: epk
+categories: ["epk", "identitat"]
 translationKey: "blog-professional-photo-session"
 ---
 

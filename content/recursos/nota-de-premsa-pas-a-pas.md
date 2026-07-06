@@ -7,6 +7,7 @@ date: 2026-07-03
 author: "Ressona"
 tags: ["materials-professionals", "comunicacio"]
 category: epk
+categories: ["epk", "comunicacio"]
 ---
 
 Una nota de premsa no és un correu llarg. No és un resum del teu projecte artístic. No és la teva biografia amb una data afegida al final. És un document d'una pàgina que respon cinc preguntes en ordre i que un periodista pot publicar amb mínimes modificacions.

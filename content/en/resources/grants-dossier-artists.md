@@ -4,6 +4,7 @@ description: "A grants dossier is not a press kit. It has a different structure,
 date: 2026-06-15
 tags: ["grants-festivals", "materials-professionals", "funding"]
 category: ajudes
+categories: ["ajudes", "projectes"]
 translationKey: "blog-grants-dossier-artists"
 ---
 

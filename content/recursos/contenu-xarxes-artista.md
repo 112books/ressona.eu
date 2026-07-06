@@ -4,6 +4,7 @@ description: "El bloqueig creatiu a les xarxes és real. Aquí tens 20 idees de 
 date: 2026-06-11
 tags: ["xarxes-socials", "eines-digitals", "contingut"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 translationKey: "blog-social-content-artists"
 ---
 

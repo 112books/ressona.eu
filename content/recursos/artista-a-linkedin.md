@@ -4,6 +4,7 @@ description: "LinkedIn no és per a músics ni actors, diuen molts. Però depèn
 date: 2026-06-12
 tags: ["xarxes-socials", "eines-digitals"]
 category: identitat
+categories: ["identitat", "xarxes"]
 translationKey: "blog-artist-on-linkedin"
 ---
 

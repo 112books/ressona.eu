@@ -5,6 +5,7 @@ translationKey: "blog-instagram-artists"
 date: 2026-07-06
 tags: ["instagram", "xarxes-socials", "continguts", "formats"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 Instagram continua sent la plataforma de referència per a artistes visuals, músics i qualsevol creador amb obra fotografiable o filmable. El descobriment ha canviat — els Reels han desplaçat el feed — però la plataforma segueix sent on els programadors, galeristes i periodistes van a buscar artistes. Entendre com funciona evita perdre temps en contingut que no arriba a ningú.

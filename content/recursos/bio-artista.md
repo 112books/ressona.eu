@@ -7,6 +7,7 @@ date: 2026-06-26
 author: "Ressona"
 tags: ["materials-professionals", "identitat-digital"]
 category: identitat
+categories: ["identitat", "epk"]
 ---
 
 Un programador de festival llegeix la primera frase de la teva bio. Si no entén immediatament qui ets i per a quin públic ets rellevant, passa al següent artista. No per falta de temps: per sobreabundància d'opcions.

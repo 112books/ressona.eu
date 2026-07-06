@@ -5,6 +5,7 @@ translationKey: "blog-linkedin-artists"
 date: 2026-07-06
 tags: ["linkedin", "social-media", "networking", "communication"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 LinkedIn is the platform many artists ignore because "it's for business people". In many cases, they're right. But there are artist profiles for whom LinkedIn is the most effective professional platform, far above Instagram. The key is knowing whether your work fits LinkedIn's context.

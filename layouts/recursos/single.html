@@ -73,7 +73,7 @@
       <p class="article-related__title">{{ if eq $lang "en" }}Explore by topic{{ else }}Explorar per tema{{ end }}</p>
       <div class="article-cats-nav__pills">
         {{ range $cats }}
-        {{ if where $sectionPages ".Params.category" .slug }}
+        {{ if or (where $sectionPages ".Params.category" .slug) (where $sectionPages ".Params.categories" "intersect" (slice .slug)) }}
         <a href="{{ $hubURL }}#cat-{{ .slug }}" class="article-cats-nav__pill{{ if eq $thisCat .slug }} article-cats-nav__pill--active{{ end }}">
           {{ if eq $lang "en" }}{{ .labelEN }}{{ else }}{{ .labelCA }}{{ end }}
         </a>

@@ -4,6 +4,7 @@ description: "La llista de correu és l'únic canal de comunicació directa que 
 date: 2026-07-02
 tags: ["materials-professionals", "xarxes-socials", "identitat-digital"]
 category: identitat
+categories: ["identitat", "comunicacio"]
 translationKey: "blog-mailing-list-artists"
 ---
 

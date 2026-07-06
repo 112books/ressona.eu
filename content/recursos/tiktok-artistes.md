@@ -5,6 +5,7 @@ translationKey: "blog-tiktok-artists"
 date: 2026-07-06
 tags: ["tiktok", "xarxes-socials", "continguts", "video"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 TikTok té l'algoritme de descobriment més potent de totes les plataformes. Un creador sense cap seguidor pot aconseguir cent mil visualitzacions al primer vídeo si el contingut connecta. Però no és la plataforma adequada per a tothom, i hi ha consideracions de privacitat i sobirania de dades que cal tenir clares abans de decidir si hi entres.

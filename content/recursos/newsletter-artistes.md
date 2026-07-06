@@ -5,6 +5,7 @@ translationKey: "blog-newsletter-artists"
 date: 2026-07-06
 tags: ["newsletter", "email-marketing", "xarxes-socials", "comunicacio"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 Les xarxes socials et donen visibilitat però no et donen la llista. Si Instagram demà decideix tancar-te el compte, o si l'algoritme deixa de mostrar el teu contingut, perds tot el contacte amb la teva audiència. Una newsletter és diferent: la llista de subscriptors és teva. Cap plataforma te la pot treure.

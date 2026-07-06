@@ -5,6 +5,7 @@ translationKey: "blog-music-platforms-artists"
 date: 2026-07-06
 tags: ["bandcamp", "music", "distribution", "platforms"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 For an independent musician, digital distribution is the foundation of presence. But not all platforms serve the same purpose: Bandcamp is for selling directly to fans, Spotify is for mass discovery, SoundCloud is for demos and feedback, and aggregation platforms (DistroKid, Amuse) are the bridge between your music and the streaming services. Understanding the difference prevents a lot of mistakes.

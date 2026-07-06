@@ -5,6 +5,7 @@ translationKey: "blog-music-platforms-artists"
 date: 2026-07-06
 tags: ["bandcamp", "musica", "distribucio", "plataformes"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 Per a un músic independent, la distribució digital és la base de la presència. Però no totes les plataformes serveixen per a la mateixa cosa: Bandcamp és per a vendre directament als fans, Spotify és per al descobriment massiu, SoundCloud és per a demos i feedback, i les plataformes d'agregació (DistroKid, Amuse) son el pont entre la teva música i les plataformes de streaming. Entendre la diferència evita molts errors.

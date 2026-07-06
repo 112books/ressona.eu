@@ -5,6 +5,7 @@ translationKey: "blog-promoure-espectacle-pla-comunicacio"
 date: 2026-07-02
 tags: ["professional-materials", "social-media"]
 category: identitat
+categories: ["identitat", "comunicacio"]
 ---
 
 Most shows that don't fill the venue fail not because of quality, but because of visibility. The problem rarely starts the week before — it starts two months before, when there's still time to build an audience and activate the right channels.

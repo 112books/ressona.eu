@@ -5,6 +5,7 @@ translationKey: "blog-youtube-artists"
 date: 2026-07-06
 tags: ["youtube", "social-media", "video", "seo"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 YouTube is not a fast-discovery platform. It won't make you go viral overnight. But content you upload today can be found in a search three years from now. It's the platform of lasting content: concerts, tutorials, process documentaries, acoustic sessions, making-of films. The logic isn't "how many views do I have today" — it's "how many people find my work through a search".

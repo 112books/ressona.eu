@@ -5,6 +5,7 @@ translationKey: "blog-professional-portals-artists"
 date: 2026-07-06
 tags: ["portals", "distribution", "social-media", "sector"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 Social media is for the general public. Professional portals are for sector professionals: programmers, galleries, publishers, casting directors, curators, and journalists. These are two different presences with different objectives. An artist who has Instagram but no presence in their sector's professional portals is invisible to the people who decide to programme, exhibit, or distribute their work.

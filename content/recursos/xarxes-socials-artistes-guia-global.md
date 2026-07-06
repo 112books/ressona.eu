@@ -5,6 +5,7 @@ translationKey: "blog-social-media-artists-guide"
 date: 2026-07-06
 tags: ["xarxes-socials", "comunicacio", "estrategia-digital", "continguts"]
 category: xarxes
+categories: ["xarxes", "comunicacio"]
 ---
 
 La pregunta no és "haig d'estar a les xarxes?". La pregunta és "a quines i com?". Les plataformes no son iguals, els públics no son iguals, i el temps que requereixen no és igual. Un artista que publica en cinc plataformes sense estratègia clara malbarata temps i energia. Un artista que tria bé dues o tres plataformes i les treballa amb consistència construeix una audiència real.

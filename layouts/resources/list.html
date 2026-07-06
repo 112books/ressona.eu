@@ -41,7 +41,7 @@
     {{/* ── Category nav ────────────────────────────────── */}}
     <nav class="recursos-cat-nav" aria-label="Resource categories">
       {{ range $cats }}
-      {{ $catPages := where $allPages ".Params.category" .slug }}
+      {{ $catPages := where $allPages ".Params.category" .slug | append (where $allPages ".Params.categories" "intersect" (slice .slug)) }}
       {{ if $catPages }}
       <a href="#cat-{{ .slug }}" class="recursos-cat-nav__item">
         <span class="recursos-cat-nav__icon" aria-hidden="true">{{ .icon | safeHTML }}</span>
@@ -89,7 +89,7 @@
 
     {{/* ── By category ──────────────────────────────────── */}}
     {{ range $cats }}
-    {{ $catPages := where $allPages ".Params.category" .slug }}
+    {{ $catPages := where $allPages ".Params.category" .slug | append (where $allPages ".Params.categories" "intersect" (slice .slug)) }}
     {{ if $catPages }}
     <div class="recursos-section" id="cat-{{ .slug }}">
       <div class="recursos-section__header">
