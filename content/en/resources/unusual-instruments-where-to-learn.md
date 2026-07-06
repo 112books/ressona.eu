@@ -31,7 +31,7 @@ The only instrument played without physical contact. Controlled by the position 
 
 - **Where to learn**: in-person options are very limited worldwide. The key reference is **[Carolina Eyck](https://carolinaeyck.com/)**, Dutch thereminist who created the main pedagogical method (the "Eyck Method") and offers online courses on her website.
 - **Community**: **[Theremin World](https://thereminworld.com/)** — forum, resources and teacher directory. The global community is active and very welcoming for beginners.
-- **Where to start**: the Moog Theremini is the most affordable digital version for learning, with assisted tuning that makes the first steps easier.
+- **Where to start**: the **[Moog Theremini](https://www.moogmusic.com/products/theremini)** is the most affordable digital version for learning, with assisted tuning that makes the first steps easier.
 
 ## Oud
 

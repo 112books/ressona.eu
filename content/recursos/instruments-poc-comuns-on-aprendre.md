@@ -31,7 +31,7 @@ L'únic instrument que es toca sense contacte físic. Es controla per la posici�
 
 - **On aprendre**: l'oferta presencial és molt limitada arreu del món. La referent és **[Carolina Eyck](https://carolinaeyck.com/)**, theremista holandesa que ha creat el principal mètode pedagògic (el "Eyck Method") i ofereix cursos en línia al seu web.
 - **Comunitat**: **[Theremin World](https://thereminworld.com/)** — fòrum, recursos i directori de professors. La comunitat global és activa i molt accessible per a principiants.
-- **On començar**: Moog Theremini és la versió digital més assequible per a aprendre, amb afinació assistida que facilita els primers passos.
+- **On començar**: el **[Moog Theremini](https://www.moogmusic.com/products/theremini)** és la versió digital més assequible per a aprendre, amb afinació assistida que facilita els primers passos.
 
 ## Oud
 
