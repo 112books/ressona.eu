@@ -53,7 +53,7 @@ El carrillon és un instrument de percussió de campanes fixes, tocades des d'un
 
 L'Arundo donax (canya gegant mediterrània) és el material del qual es fan les anques de clarinet, oboè, fagot i saxo. Al voltant d'aquest material existeix una comunitat de lutiers, intèrprets i investigadors molt activa.
 
-- **[Festival Arundo Donax](https://arundodonax.org/)**: festival dedicat als instruments de canya, amb tallers de construcció, concerts i investigació sobre les propietats acústiques de la canya. Molt específic però extraordinàriament ric per a oboistes, clarinetistes i lutiers.
+- **[Festival Arundo Donax](https://arundodonax2009.blogspot.com)**: festival dedicat als instruments de canya, amb tallers de construcció, concerts i investigació sobre les propietats acústiques de la canya. Molt específic però extraordinàriament ric per a oboistes, clarinetistes i lutiers.
 - **Instruments de canya de tradició mediterrània**: flaviol, gralla, tenora, tible (de la cobla catalana), caramella. La **[Escola de Música Tradicional](https://www.escolademusica.cat/)** i les agrupacions de cultura popular en preserven la transmissió directa.
 - Per a oboè i fagot professionals: la fabricació i ajust d'anques pròpies és una habilitat que els millors intèrprets dominen. Alguns festivals de música de cambra i orquestres ofereixen tallers específics de fabricació d'anques.
 

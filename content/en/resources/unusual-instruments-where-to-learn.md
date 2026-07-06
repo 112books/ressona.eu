@@ -53,7 +53,7 @@ The carillon is a percussion instrument of fixed bells, played from a manual key
 
 Arundo donax (giant Mediterranean cane) is the material from which clarinet, oboe, bassoon and saxophone reeds are made. A lively community of luthiers, performers and researchers has formed around this material.
 
-- **[Festival Arundo Donax](https://arundodonax.org/)**: a festival dedicated to reed instruments, with construction workshops, concerts and research into the acoustic properties of cane. Highly specific but extraordinarily rich for oboists, clarinettists and instrument makers.
+- **[Festival Arundo Donax](https://arundodonax2009.blogspot.com)**: a festival dedicated to reed instruments, with construction workshops, concerts and research into the acoustic properties of cane. Highly specific but extraordinarily rich for oboists, clarinettists and instrument makers.
 - **Mediterranean cane traditions**: flaviol, gralla, tenora — instruments central to Catalan popular music culture. These traditions are preserved through direct transmission in folk music associations and popular culture groups.
 - For professional oboe and bassoon: making and adjusting your own reeds is a skill that leading performers master. Some chamber music festivals and orchestras offer dedicated reed-making workshops.
 

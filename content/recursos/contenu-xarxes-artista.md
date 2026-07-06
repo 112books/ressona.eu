@@ -1,5 +1,5 @@
 ---
-title: "Qué publicar a les xarxes si ets artista (i no saps qué dir)"
+title: "Què publicar a les xarxes si ets artista (i no saps què dir)"
 description: "El bloqueig creatiu a les xarxes és real. Aquí tens 20 idees de contingut que funcionen per a músics, actors, ballarins i artistes visuals, sense necessitat de ser influencer."
 date: 2026-06-11
 tags: ["xarxes-socials", "eines-digitals", "contingut"]
@@ -7,7 +7,7 @@ category: xarxes
 translationKey: "blog-social-content-artists"
 ---
 
-La majoria d'artistes fallen a les xarxes no per falta de talent ni de contingut, sinó per falta d'estructura. Quan et toca publicar i no saps qué dir, acabes no publicant. O publicant alguna cosa mediocre que no representa el teu treball.
+La majoria d'artistes fallen a les xarxes no per falta de talent ni de contingut, sinó per falta d'estructura. Quan et toca publicar i no saps què dir, acabes no publicant. O publicant alguna cosa mediocre que no representa el teu treball.
 
 Aquí tens un arsenal de formats per a artistes que funcionen de veritat.
 
@@ -19,7 +19,7 @@ No ets un influencer. El teu negoci no és crear contingut digital — és crear
 
 ### Sobre el teu procés creatiu
 
-**1. El moment de la inspiració** — Qué estava passant quan va arribar la idea per a una peça, una cançó o un espectacle? No cal que sigui espectacular: els moments quotidians connecten millor que les epifanies.
+**1. El moment de la inspiració** — Què estava passant quan va arribar la idea per a una peça, una cançó o un espectacle? No cal que sigui espectacular: els moments quotidians connecten millor que les epifanies.
 
 **2. L'obra en procés** — Una foto d'assaig, un esbós de partitura, un fragment d'escena sense acabar. La imperfecció és atractiva quan és intencionada.
 
@@ -31,11 +31,11 @@ No ets un influencer. El teu negoci no és crear contingut digital — és crear
 
 ### Sobre la teva obra
 
-**6. La historia darrere d'una peça** — Per qué vas escriure/crear/interpretar aquella obra? Qué significava per a tu en aquell moment?
+**6. La historia darrere d'una peça** — Per què vas escriure/crear/interpretar aquella obra? Què significava per a tu en aquell moment?
 
-**7. Un fragment amb context** — No publiquis un vídeo de 3 minuts sense context. Publica 30 segons amb una frase que expliqui qué estàs mirant.
+**7. Un fragment amb context** — No publiquis un vídeo de 3 minuts sense context. Publica 30 segons amb una frase que expliqui què estàs mirant.
 
-**8. La peça favorita del repertori** — I per qué. Les opinions genuïnes diferencien.
+**8. La peça favorita del repertori** — I per què. Les opinions genuïnes diferencien.
 
 **9. Una col·laboració** — Presentar un músic, actor, dissenyador o tècnic amb qui treballes. Les mencions generen comunitat i reciprocitat.
 
@@ -43,7 +43,7 @@ No ets un influencer. El teu negoci no és crear contingut digital — és crear
 
 ### Sobre el teu univers de referències
 
-**11. Un artista que admires i per qué** — No per quedar bé, sinó per revelar el teu gust i les teves influències.
+**11. Un artista que admires i per què** — No per quedar bé, sinó per revelar el teu gust i les teves influències.
 
 **12. Un disc, un llibre, una pel·lícula que t'ha impactat** — El context artístic del que fas.
 
@@ -61,7 +61,7 @@ No ets un influencer. El teu negoci no és crear contingut digital — és crear
 
 **18. Darrere l'escenari el dia del concert** — El que passa entre bastidors. La tensió, l'alegria, l'adrenalina.
 
-**19. La reflexió post-concert** — Qué ha anat bé, qué canviaries, qué t'ha emocionat. L'honestedat guanya.
+**19. La reflexió post-concert** — Què ha anat bé, què canviaries, què t'ha emocionat. L'honestedat guanya.
 
 **20. Contingut de temporada** — Primavera, tardor, festes. El teu treball en context del temps que fa. Sona banal però funciona.
 
