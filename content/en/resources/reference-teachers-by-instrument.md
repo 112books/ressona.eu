@@ -19,8 +19,8 @@ Learning an instrument is inseparable from learning who plays it well. Not to im
 ## Electric Guitar / Jazz / Contemporary
 
 - **Wes Montgomery**: the father of modern jazz guitar. The octave technique, the phrasing — it all comes from him.
-- **Pat Metheny**: for those who want to understand how the guitar can be an orchestra. His masterclasses and YouTube interviews are excellent pedagogical material.
-- **Tommy Emmanuel**: for acoustic fingerstyle guitar. At **[ArtistWorks](https://artistworks.com/)** he offers an online course with personal feedback.
+- **[Pat Metheny](https://www.patmetheny.com/)**: for those who want to understand how the guitar can be an orchestra. His masterclasses and YouTube interviews are excellent pedagogical material.
+- **[Tommy Emmanuel](https://www.tommyemmanuel.com/)**: for acoustic fingerstyle guitar. At **[ArtistWorks](https://artistworks.com/)** he offers an online course with personal feedback.
 - **Adam Neely** (bass, but his theory videos apply directly to guitar): **[YouTube](https://www.youtube.com/@AdamNeely)** — the best free resource for applied music theory.
 
 ## Piano
@@ -40,7 +40,7 @@ Learning an instrument is inseparable from learning who plays it well. Not to im
 ## Bass
 
 - **Jaco Pastorius**: redefined what was possible on the electric bass. The album "Jaco Pastorius" (1976) is mandatory listening.
-- **Victor Wooten**: extreme technique and musicality. His book "The Music Lesson" is as good a pedagogue as his performances.
+- **[Victor Wooten](https://www.victorwooten.com/)**: extreme technique and musicality. His book "[The Music Lesson](https://www.victorwooten.com/music-lesson)" is as good a pedagogue as his performances.
 - **[Scott's Bass Lessons](https://www.scottsbasslessons.com/)**: the reference online platform for bass. Excellent library of structured content for all styles and levels.
 
 ## Drums
@@ -52,13 +52,13 @@ Learning an instrument is inseparable from learning who plays it well. Not to im
 ## Violin
 
 - **Jascha Heifetz**: the absolute technical standard of the 20th century. Listening to him and comparing him to any other violinist is understanding what is possible.
-- **Hilary Hahn**: for contemporary technique and musicality. Very active on social media, sharing her practice process openly.
+- **[Hilary Hahn](https://www.hilaryhahn.com/)**: for contemporary technique and musicality. Very active on social media, sharing her practice process openly.
 - **Nathan Milstein**: for unaccompanied Bach. His Partitas and Sonatas are the reference every violinist should know.
 - **[Tonebase](https://tonebase.co/)**: violin courses with professors from Juilliard and Colburn.
 
 ## Saxophone
 
-- **John Coltrane**: "A Love Supreme" and "Giant Steps" define two poles of what the saxophone can do in jazz.
+- **[John Coltrane](https://www.johncoltrane.com/)**: "A Love Supreme" and "Giant Steps" define two poles of what the saxophone can do in jazz.
 - **Charlie Parker**: bebop, harmony, speed — everything passes through Bird.
 - The **[Jamey Aebersold](https://www.jazzbooks.com/)** method: the way to study jazz with play-alongs that remains the standard. Hundreds of volumes for all levels and styles.
 

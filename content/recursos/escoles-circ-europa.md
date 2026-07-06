@@ -7,9 +7,20 @@ tags: ["formacio", "circ", "europa", "escoles"]
 category: formacio
 ---
 
-El circ contemporani és una disciplina jove — com a camp pedagògic formal, té menys de cinquanta anys. Les escoles que en van definir l'ensenyament van néixer principalment a França, Bèlgica i el Regne Unit entre els anys 70 i 90, i avui formen una xarxa europea de referència que exporta professionals als circuits de tot el món. Per a qui vol una formació seriosa en circ contemporani, aquí el mapa.
+El circ contemporani és una disciplina jove — com a camp pedagògic formal, té menys de cinquanta anys. Les escoles que en van definir l'ensenyament van néixer principalment a França, Bèlgica i el Regne Unit entre els anys 70 i 90, i avui formen una xarxa europea de referència que exporta professionals als circuits de tot el món. Per a qui vol una formació seriosa en circ contemporani, aquí el mapa — de Catalunya cap al món.
 
-## Les escoles de referència
+## A Catalunya
+
+**L'[Escola de Circ Rogelio Rivel](https://www.circ-rogeliorivel.cat/) és el punt de partida per a molts circ­artistes catalans.** L'escola municipal de Barcelona que porta el nom del llegendari pallasso i acròbata Rogelio Rivel (Sants, 1899 — Barcelona, 1982) és molt més que un centre d'iniciació: és el lloc on generacions d'artistes de circ han fet els seus primers passos en acrobàcia, malabars, equilibri i clown, i des d'on molts han acabat accedint a les grans escoles europees. El nom no és casualitat — Rivel va ser un dels circ­artistes catalans més reconeguts internacionalment del segle XX, i l'escola que porta el seu nom ha mantingut viva la tradició de formar artistes de circ des de la base. Per a qui comença a Barcelona, és el primer graó d'un camí que pot acabar al CNAC o a l'ESAC.
+
+## A Espanya
+
+No hi ha una escola de circ de nivell superior equivalent al CNAC o l'ESAC a Catalunya, però hi ha recursos sòlids per als primers anys de formació:
+
+- **[Carampa (Madrid)](https://www.carampa.com/)**: l'escola de circ de referència a Espanya. Programes de formació professional de dos i tres anys. Molts artistes catalans s'hi han format abans de donar el salt a Europa.
+- **[FIRA de Tàrrega](https://www.firatarrega.cat/)**: el festival i mercat de circ i arts de carrer de referència a Catalunya. No és escola, però és el lloc on es veuen les tendències del sector i on es fa xarxa professional real.
+
+## A Europa
 
 **[CNAC — Centre National des Arts du Cirque (Châlons-en-Champagne, França)](https://www.cnac.fr/)**
 
@@ -34,15 +45,6 @@ Programa de quatre anys (Bachelor). Excel·lent per a disciplines de circ i perf
 **Escoles regionals a França**
 
 França té una xarxa molt rica d'escoles regionals — per exemple a Toulouse, Bordeaux, Montpellier i Nantes — que ofereixen formació prèvia al CNAC i perfils molt diversos. Són sovint la via d'entrada al sistema de formació professional francès per a candidats que encara no tenen el nivell d'accés a les grans escoles nacionals.
-
-## A Catalunya i Espanya
-
-No hi ha una escola de circ de nivell superior equivalent al CNAC o l'ESAC a Catalunya, però hi ha recursos sòlids per als primers anys de formació:
-
-- **[Carampa (Madrid)](https://www.carampa.com/)**: l'escola de circ de referència a Espanya. Programes de formació professional de dos i tres anys. Molts artistes catalans s'hi han format abans de donar el salt a Europa.
-- **[FIRA de Tàrrega](https://www.firatarrega.cat/)**: el festival i mercat de circ i arts de carrer de referència a Catalunya. No és escola, però és el lloc on es veuen les tendències del sector i on es fa xarxa professional real.
-
-**L'[Escola de Circ Rogelio Rivel](https://www.circ-rogeliorivel.cat/) és el punt de partida per a molts circ­artistes catalans.** L'escola municipal de Barcelona que porta el nom del llegendari pallasso i acròbata Rogelio Rivel (Sants, 1899 — Barcelona, 1982) és molt més que un centre d'iniciació: és el lloc on generacions d'artistes de circ han fet els seus primers passos en acrobàcia, malabars, equilibri i clown, i des d'on molts han acabat accedint a les grans escoles europees. El nom no és casualitat — Rivel va ser un dels circ­artistes catalans més reconeguts internacionalment del segle XX, i l'escola que porta el seu nom ha mantingut viva la tradició de formar artistes de circ des de la base. Per a qui comença a Barcelona, és el primer graó d'un camí que pot acabar al CNAC o a l'ESAC.
 
 ## La xarxa europea: FEDEC
 

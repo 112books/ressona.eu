@@ -19,8 +19,8 @@ Aprendre un instrument és inseparable d'aprendre qui el toca bé. No per imitar
 ## Guitarra elèctrica / jazz / moderna
 
 - **Wes Montgomery**: el pare del jazz modern en guitarra. L'octau, la manera de frasejar — tot ve d'ell.
-- **Pat Metheny**: per a qui vol entendre com la guitarra pot ser orquestra. Les seves masterclasses i entrevistes a YouTube són material pedagògic excel·lent.
-- **Tommy Emmanuel**: per a guitarra fingerstyle acústica. A **[ArtistWorks](https://artistworks.com/)** té un curs online amb feedback personal.
+- **[Pat Metheny](https://www.patmetheny.com/)**: per a qui vol entendre com la guitarra pot ser orquestra. Les seves masterclasses i entrevistes a YouTube són material pedagògic excel·lent.
+- **[Tommy Emmanuel](https://www.tommyemmanuel.com/)**: per a guitarra fingerstyle acústica. A **[ArtistWorks](https://artistworks.com/)** té un curs online amb feedback personal.
 - **Adam Neely** (baix, però els seus vídeos de teoria s'apliquen a la guitarra): **[YouTube](https://www.youtube.com/@AdamNeely)** — el millor recurs gratuït de teoria musical aplicada.
 
 ## Piano
@@ -40,7 +40,7 @@ Aprendre un instrument és inseparable d'aprendre qui el toca bé. No per imitar
 ## Baix
 
 - **Jaco Pastorius**: va redefinir el que era possible en el baix elèctric. El disc "Jaco Pastorius" (1976) és obligatori.
-- **Victor Wooten**: tècnica i musicalitat extremes. El seu llibre "The Music Lesson" és tan bon pedagog com les seves actuacions.
+- **[Victor Wooten](https://www.victorwooten.com/)**: tècnica i musicalitat extremes. El seu llibre "[The Music Lesson](https://www.victorwooten.com/music-lesson)" és tan bon pedagog com les seves actuacions.
 - **[Scott's Bass Lessons](https://www.scottsbasslessons.com/)**: plataforma online de referència per a baix. Molt bona biblioteca de contingut estructurat.
 
 ## Bateria
@@ -52,13 +52,13 @@ Aprendre un instrument és inseparable d'aprendre qui el toca bé. No per imitar
 ## Violí
 
 - **Jascha Heifetz**: l'estàndard tècnic absolut del segle XX. Escoltar-lo i comparar-lo amb qualsevol altre violinista és entendre el que és possible.
-- **Hilary Hahn**: per a tècnica i musicalitat contemporànies. Molt activa a xarxes, comparteix el seu procés de pràctica.
+- **[Hilary Hahn](https://www.hilaryhahn.com/)**: per a tècnica i musicalitat contemporànies. Molt activa a xarxes, comparteix el seu procés de pràctica.
 - **Nathan Milstein**: per a Bach sense acompanyament. Les seves Partites i Sonates són la referència que tot violinista hauria de conèixer.
 - **[Tonebase](https://tonebase.co/)**: cursos de violí amb professors de Juilliard i Colburn.
 
 ## Saxòfon
 
-- **John Coltrane**: "A Love Supreme" i "Giant Steps" defineixen dos pols del que el saxo pot fer en jazz.
+- **[John Coltrane](https://www.johncoltrane.com/)**: "A Love Supreme" i "Giant Steps" defineixen dos pols del que el saxo pot fer en jazz.
 - **Charlie Parker**: el bop, l'harmonia, la velocitat — tot passa per Bird.
 - El mètode **[Jamey Aebersold](https://www.jazzbooks.com/)**: la manera d'estudiar jazz amb "play-alongs" que segueix sent l'estàndard. Centenars de volums per a tots els nivells i estils.
 

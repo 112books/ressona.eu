@@ -7,9 +7,20 @@ tags: ["training", "circus", "europe", "schools"]
 category: formacio
 ---
 
-Contemporary circus is a young discipline — as a formal pedagogical field, it is less than fifty years old. The schools that defined its teaching emerged primarily in France, Belgium and the United Kingdom between the 1970s and 1990s, and today form a European reference network that exports professionals to circuits worldwide. For anyone seeking serious training in contemporary circus, here is the map.
+Contemporary circus is a young discipline — as a formal pedagogical field, it is less than fifty years old. The schools that defined its teaching emerged primarily in France, Belgium and the United Kingdom between the 1970s and 1990s, and today form a European reference network that exports professionals to circuits worldwide. For anyone seeking serious training in contemporary circus, here is the map — from Catalonia out to the world.
 
-## The reference schools
+## In Catalonia
+
+**[Escola de Circ Rogelio Rivel (Barcelona)](https://www.circ-rogeliorivel.cat/)** is the starting point for many Catalan circus artists. Barcelona's municipal circus school, named after the legendary clown and acrobat Rogelio Rivel (Sants, 1899 — Barcelona, 1982), is far more than an introductory centre: it is the place where generations of circus artists have taken their first steps in acrobatics, juggling, equilibristics and clown, and from where many have gone on to access the great European schools. The name is no coincidence — Rivel was one of the most internationally recognised Catalan circus artists of the 20th century, and the school bearing his name has kept alive the tradition of training circus artists from the ground up. For anyone starting out in Barcelona, this is the first rung of a path that can end at CNAC or ESAC.
+
+## In Spain
+
+There is no higher circus school equivalent to the CNAC or ESAC in Catalonia, but there are solid resources for the early years of training:
+
+- **[Carampa (Madrid)](https://www.carampa.com/)**: the reference circus school in Spain. Two- and three-year professional training programmes. Many Catalan and Spanish artists have trained here before making the leap to Europe.
+- **[FIRA de Tàrrega](https://www.firatarrega.cat/)**: Catalonia's reference festival and market for circus and street arts. Not a school, but the place where you see the sector's trends and build real professional networks.
+
+## In Europe
 
 **[CNAC — Centre National des Arts du Cirque (Châlons-en-Champagne, France)](https://www.cnac.fr/)**
 
@@ -34,14 +45,6 @@ A four-year Bachelor programme. Excellent for circus and performance disciplines
 **Regional schools in France**
 
 France has a very rich network of regional schools — in Toulouse, Bordeaux, Montpellier and Nantes, among others — offering training that feeds into the national schools. They are often the entry point into the French professional training system for candidates who do not yet have the level required for the large national schools.
-
-## If you're based in Catalonia or Spain
-
-There is no higher circus school equivalent to the CNAC or ESAC in Catalonia, but there are solid resources for the early years of training:
-
-- **[Carampa (Madrid)](https://www.carampa.com/)**: the reference circus school in Spain. Two- and three-year professional training programmes. Many Catalan and Spanish artists have trained here before making the leap to Europe.
-- **[Escola de Circ Rogelio Rivel (Barcelona)](https://www.circ-rogeliorivel.cat/)**: Barcelona's municipal circus school. Introductory and intermediate programmes. For access to the European professional circuit, the next step is usually a European higher-level school.
-- **[FIRA de Tàrrega](https://www.firatarrega.cat/)**: Catalonia's reference festival and market for circus and street arts. Not a school, but the place where you see the sector's trends and build real professional networks.
 
 ## The European network: FEDEC
 
