@@ -7,11 +7,11 @@ tags: ["benestar", "artista-independent", "burnout", "sostenibilitat"]
 category: creacio
 ---
 
-L'artista independent rarament parla obertament de l'impacte emocional de la seva feina. Parla de projectes, de bolos, de beques, de col·laboracions. Però la combinació d'incertesa econòmica crònica, jornades sense límits, exposició pública constant i la dificultat de separar la identitat personal del treball professional té un cost que és molt real i poc reconegut. El burnout artístic no és una debilitat: és el resultat previsible d'unes condicions de treball que ningú ha dissenyat per ser sostenibles.
+L'artista independent rarament parla obertament de l'impacte emocional de la seva feina. Parla de projectes, de bolos, de beques, de col·laboracions. Però la combinació d'incertesa econòmica crònica, jornades sense límits, exposició pública constant i la dificultat de separar la identitat personal del treball professional té un cost que és molt real i poc reconegut. El *burnout* —esgotament professional intens— artístic no és una debilitat: és el resultat previsible d'unes condicions de treball que ningú ha dissenyat per ser sostenibles.
 
-## Com és el burnout artístic (i com es diferencia del cansament)
+## Com és el *burnout* artístic (i com es diferencia del cansament)
 
-El cansament es resol amb descans. El burnout no. Els signes: deixar de gaudir d'activitats que abans donaven satisfacció, no poder desconnectar fins i tot quan no treballes, sensació de buit o d'estar "fent els moviments" sense estar-hi realment, dificultat per prendre decisions simples, irritabilitat desproporcionada als estímuls.
+El cansament es resol amb descans. El *burnout* no. Els signes: deixar de gaudir d'activitats que abans donaven satisfacció, no poder desconnectar fins i tot quan no treballes, sensació de buit o d'estar "fent els moviments" sense estar-hi realment, dificultat per prendre decisions simples, irritabilitat desproporcionada als estímuls.
 
 La distinció pràctica: si un cap de setmana de repòs et deixa amb energia, és cansament. Si tornes igual o pitjor, val la pena parar i mirar el que passa.
 
@@ -40,7 +40,7 @@ Cap d'aquestes coses és glamurosa. No apareixeran en cap entrevista sobre "el s
 
 ## Quan cal ajuda professional
 
-Si els signes de burnout persisteixen malgrat canvis en la rutina, si l'afectació és sobre la capacitat de funcionar en la vida quotidiana, o si hi ha símptomes d'ansietat o depressió que duren més de dues setmanes, val la pena parlar amb un professional de la salut mental.
+Si els signes de *burnout* persisteixen malgrat canvis en la rutina, si l'afectació és sobre la capacitat de funcionar en la vida quotidiana, o si hi ha símptomes d'ansietat o depressió que duren més de dues setmanes, val la pena parlar amb un professional de la salut mental.
 
 Alguns recursos a Catalunya: el **[Col·legi Oficial de Psicologia de Catalunya](https://www.copc.cat/)** manté un directori de psicòlegs i pot ajudar a trobar un professional adequat. El **[Sistema de Salut de Catalunya](https://salutweb.gencat.cat/)** ofereix atenció psicològica a través del metge de família per a casos que ho requereixin.
 
