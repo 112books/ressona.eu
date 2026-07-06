@@ -39,19 +39,19 @@ Aprendre un instrument és inseparable d'aprendre qui el toca bé. No per imitar
 
 ## Baix
 
-- **Jaco Pastorius**: va redefinir el que era possible en el baix elèctric. El disc "Jaco Pastorius" (1976) és obligatori.
+- **[Jaco Pastorius](https://jacopastorius.com/)**: va redefinir el que era possible en el baix elèctric. El disc "Jaco Pastorius" (1976) és obligatori.
 - **[Victor Wooten](https://www.victorwooten.com/)**: tècnica i musicalitat extremes. El seu llibre "[The Music Lesson](https://www.victorwooten.com/music-lesson)" és tan bon pedagog com les seves actuacions.
 - **[Scott's Bass Lessons](https://www.scottsbasslessons.com/)**: plataforma online de referència per a baix. Molt bona biblioteca de contingut estructurat.
 
 ## Bateria
 
-- **Tony Williams**: revolucionari del jazz dels anys 60 amb Miles Davis. El seu timing i creativitat rítmica continuen sent estudiats.
-- **Steve Gadd**: el músic de sessió definitiu. Ha tocat en més enregistraments de referència que probablement cap altre bateria.
+- **[Tony Williams](https://www.bluenote.com/artist/anthony-williams-tony-williams/)**: revolucionari del jazz dels anys 60 amb Miles Davis. El seu timing i creativitat rítmica continuen sent estudiats.
+- **[Steve Gadd](https://www.drstevegadd.com/)**: el músic de sessió definitiu. Ha tocat en més enregistraments de referència que probablement cap altre bateria.
 - **[Drumeo](https://www.drumeo.com/)**: la millor plataforma online per a bateria. Professors com Mike Johnston i Jared Falk. Contingut per a tots els nivells i estils.
 
 ## Violí
 
-- **Jascha Heifetz**: l'estàndard tècnic absolut del segle XX. Escoltar-lo i comparar-lo amb qualsevol altre violinista és entendre el que és possible.
+- **[Jascha Heifetz](https://jaschaheifetz.com/)**: l'estàndard tècnic absolut del segle XX. Escoltar-lo i comparar-lo amb qualsevol altre violinista és entendre el que és possible.
 - **[Hilary Hahn](https://www.hilaryhahn.com/)**: per a tècnica i musicalitat contemporànies. Molt activa a xarxes, comparteix el seu procés de pràctica.
 - **Nathan Milstein**: per a Bach sense acompanyament. Les seves Partites i Sonates són la referència que tot violinista hauria de conèixer.
 - **[Tonebase](https://tonebase.co/)**: cursos de violí amb professors de Juilliard i Colburn.
@@ -59,7 +59,7 @@ Aprendre un instrument és inseparable d'aprendre qui el toca bé. No per imitar
 ## Saxòfon
 
 - **[John Coltrane](https://www.johncoltrane.com/)**: "A Love Supreme" i "Giant Steps" defineixen dos pols del que el saxo pot fer en jazz.
-- **Charlie Parker**: el bop, l'harmonia, la velocitat — tot passa per Bird.
+- **[Charlie Parker](https://charlieparkermusic.com/)**: el bop, l'harmonia, la velocitat — tot passa per Bird.
 - El mètode **[Jamey Aebersold](https://www.jazzbooks.com/)**: la manera d'estudiar jazz amb "play-alongs" que segueix sent l'estàndard. Centenars de volums per a tots els nivells i estils.
 
 ## Com usar aquest mapa

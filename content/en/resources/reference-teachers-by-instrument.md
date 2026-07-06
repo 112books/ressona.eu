@@ -11,23 +11,23 @@ Learning an instrument is inseparable from learning who plays it well. Not to im
 
 ## Classical Guitar
 
-- **Andrés Segovia**: the founder of the modern repertoire. His method and editions are still in circulation. Listening to him means understanding where everything comes from.
-- **John Williams**: impeccable technique, enormous repertoire. His recordings of Bach and Rodrigo are undisputed references.
-- **David Russell**: for those who want to understand musicality above pyrotechnics. Many masterclasses available on YouTube.
+- **[Andrés Segovia](https://www.youtube.com/@Andr%C3%A9sSegovia1)**: the founder of the modern repertoire. His method and editions are still in circulation. Listening to him means understanding where everything comes from.
+- **[John Williams](https://www.johnwilliamsguitarnotes.com/)**: impeccable technique, enormous repertoire. His recordings of Bach and Rodrigo are undisputed references.
+- **[David Russell](https://www.davidrussellguitar.com/)**: for those who want to understand musicality above pyrotechnics. Many masterclasses available on YouTube.
 - For classical guitar online: **[Bradford Werner's](https://www.thisisclassicalguitar.com/)** channel is one of the most comprehensive free resources on the web.
 
 ## Electric Guitar / Jazz / Contemporary
 
-- **Wes Montgomery**: the father of modern jazz guitar. The octave technique, the phrasing — it all comes from him.
+- **[Wes Montgomery](https://www.youtube.com/channel/UCmr_ZV6kjCf7EKO-VDcriVw)**: the father of modern jazz guitar. The octave technique, the phrasing — it all comes from him.
 - **[Pat Metheny](https://www.patmetheny.com/)**: for those who want to understand how the guitar can be an orchestra. His masterclasses and YouTube interviews are excellent pedagogical material.
 - **[Tommy Emmanuel](https://www.tommyemmanuel.com/)**: for acoustic fingerstyle guitar. At **[ArtistWorks](https://artistworks.com/)** he offers an online course with personal feedback.
 - **Adam Neely** (bass, but his theory videos apply directly to guitar): **[YouTube](https://www.youtube.com/@AdamNeely)** — the best free resource for applied music theory.
 
 ## Piano
 
-- **Glenn Gould**: for Bach. His Goldberg Variations (1955 and 1981) and his writings on interpretation define a way of thinking about the piano.
-- **Martha Argerich**: for Chopin, Schumann, Ravel. Her example teaches that rhythm is the first and last law.
-- **Brad Mehldau**: for contemporary jazz. His "Art of the Trio" recordings and solo work show how to integrate Bach, Radiohead and Coltrane into a single language.
+- **[Glenn Gould](https://www.glenngould.ca/)**: for Bach. His Goldberg Variations (1955 and 1981) and his writings on interpretation define a way of thinking about the piano.
+- **[Martha Argerich](https://www.deutschegrammophon.com/en/artists/marthaargerich)**: for Chopin, Schumann, Ravel. Her example teaches that rhythm is the first and last law.
+- **[Brad Mehldau](https://www.bradmehldaumusic.com/)**: for contemporary jazz. His "Art of the Trio" recordings and solo work show how to integrate Bach, Radiohead and Coltrane into a single language.
 - Pedagogical platforms: **[Tonebase](https://tonebase.co/)** — online platform specifically for classical instruments (piano, cello, violin) with professors from institutions like Juilliard and Curtis.
 
 ## Voice
@@ -39,19 +39,19 @@ Learning an instrument is inseparable from learning who plays it well. Not to im
 
 ## Bass
 
-- **Jaco Pastorius**: redefined what was possible on the electric bass. The album "Jaco Pastorius" (1976) is mandatory listening.
+- **[Jaco Pastorius](https://jacopastorius.com/)**: redefined what was possible on the electric bass. The album "Jaco Pastorius" (1976) is mandatory listening.
 - **[Victor Wooten](https://www.victorwooten.com/)**: extreme technique and musicality. His book "[The Music Lesson](https://www.victorwooten.com/music-lesson)" is as good a pedagogue as his performances.
 - **[Scott's Bass Lessons](https://www.scottsbasslessons.com/)**: the reference online platform for bass. Excellent library of structured content for all styles and levels.
 
 ## Drums
 
-- **Tony Williams**: revolutionary jazz drummer of the 1960s with Miles Davis. His timing and rhythmic creativity are still studied.
-- **Steve Gadd**: the definitive session musician. He has played on more landmark recordings than probably any other drummer.
+- **[Tony Williams](https://www.bluenote.com/artist/anthony-williams-tony-williams/)**: revolutionary jazz drummer of the 1960s with Miles Davis. His timing and rhythmic creativity are still studied.
+- **[Steve Gadd](https://www.drstevegadd.com/)**: the definitive session musician. He has played on more landmark recordings than probably any other drummer.
 - **[Drumeo](https://www.drumeo.com/)**: the best online platform for drums. Instructors like Mike Johnston and Jared Falk. Content for all levels and styles.
 
 ## Violin
 
-- **Jascha Heifetz**: the absolute technical standard of the 20th century. Listening to him and comparing him to any other violinist is understanding what is possible.
+- **[Jascha Heifetz](https://jaschaheifetz.com/)**: the absolute technical standard of the 20th century. Listening to him and comparing him to any other violinist is understanding what is possible.
 - **[Hilary Hahn](https://www.hilaryhahn.com/)**: for contemporary technique and musicality. Very active on social media, sharing her practice process openly.
 - **Nathan Milstein**: for unaccompanied Bach. His Partitas and Sonatas are the reference every violinist should know.
 - **[Tonebase](https://tonebase.co/)**: violin courses with professors from Juilliard and Colburn.
@@ -59,7 +59,7 @@ Learning an instrument is inseparable from learning who plays it well. Not to im
 ## Saxophone
 
 - **[John Coltrane](https://www.johncoltrane.com/)**: "A Love Supreme" and "Giant Steps" define two poles of what the saxophone can do in jazz.
-- **Charlie Parker**: bebop, harmony, speed — everything passes through Bird.
+- **[Charlie Parker](https://charlieparkermusic.com/)**: bebop, harmony, speed — everything passes through Bird.
 - The **[Jamey Aebersold](https://www.jazzbooks.com/)** method: the way to study jazz with play-alongs that remains the standard. Hundreds of volumes for all levels and styles.
 
 ## How to use this map
