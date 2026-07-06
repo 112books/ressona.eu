@@ -1,3 +1,12 @@
+---
+title: "El negoci dels festivals pop-rock: gentrificació, preus i el que no et conten"
+description: "Qui hi ha darrere dels grans festivals? Anàlisi del model de negoci: propietat corporativa, preus d'entrada, salaris d'artistes emergents i impacte al territori."
+date: 2026-07-03
+tags: ["festivals", "sector-musical", "on-tocar", "negoci"]
+category: on-tocar
+translationKey: "business-pop-rock-festivals"
+---
+
 # EL NEGOCI DELS FESTIVALS POP-ROCK
 ## Gentrificació, preus, turisme i el que no et conten
 
