@@ -61,11 +61,11 @@ Per a música antiga específicament, el canal **[Early Music Online a YouTube](
 
 **Necessites un títol reconegut?** Si la resposta és sí, Berklee Online, BIMM o ABRSM. Cap altra plataforma d'aquesta llista ofereix títols amb reconeixement acadèmic o institucional real.
 
-**Vols feedback personal d'un professor real?** ArtistWorks per a instruments (feedback en vídeo amb professors professionals). TakeLessons o Lessonface per a professors particulars en temps real. Les plataformes de cursos gravats (JamPlay, Drumeo, Pianote) no ofereixen feedback personal.
+**Vols feedback personal d'un professor real?** **[ArtistWorks](https://artistworks.com/)** per a instruments (feedback en vídeo amb professors professionals). **[TakeLessons](https://takelessons.com/)** o **[Lessonface](https://www.lessonface.com/)** per a professors particulars en temps real. Les plataformes de cursos gravats (**[JamPlay](https://www.jamplay.com/)**, **[Drumeo](https://www.drumeo.com/)**, **[Pianote](https://www.pianote.com/)**) no ofereixen feedback personal.
 
-**Busques un instrument específic?** JamPlay per a guitarra, Drumeo per a bateria, Pianote o Playground per a piano, Learn Jazz Standards per a jazz, SingWise per a veu. Per a instruments poc habituals, Lessonface és l'opció més versàtil.
+**Busques un instrument específic?** **[JamPlay](https://www.jamplay.com/)** per a guitarra, **[Drumeo](https://www.drumeo.com/)** per a bateria, **[Pianote](https://www.pianote.com/)** o **[Playground Sessions](https://www.playgroundsessions.com/)** per a piano, **[Learn Jazz Standards](https://www.learnjazzstandards.com/)** per a jazz, **[SingWise](https://www.singwise.com/)** per a veu. Per a instruments poc habituals, **[Lessonface](https://www.lessonface.com/)** és l'opció més versàtil.
 
-**Tens pressupost limitat?** YouTube + Learn Jazz Standards (gratuït en bona part) + Open Yale Courses + Coursera auditat és una combinació que no costa res i cobreix teoria, estils i instruments a bon nivell. No dóna títol ni feedback, però per a autoaprenentatge estructurat és un punt de partida real.
+**Tens pressupost limitat?** **[YouTube](https://www.youtube.com/)** + **[Learn Jazz Standards](https://www.learnjazzstandards.com/)** (gratuït en bona part) + **[Open Yale Courses](https://oyc.yale.edu/)** + **[Coursera](https://www.coursera.org/)** auditat és una combinació que no costa res i cobreix teoria, estils i instruments a bon nivell. No dóna títol ni feedback, però per a autoaprenentatge estructurat és un punt de partida real.
 
 ---
 

@@ -63,7 +63,7 @@ Per completar la formació o accedir a professors de primer nivell mundial, els 
 
 ## Flamenc
 
-Barcelona té una oferta de flamenc real, no turística. Les escoles especialitzades al **Raval** i a **Gràcia** ofereixen formació en tècnica flamenca, tant per a ball com per a guitarra i cant. Les **peñas flamencas** — associacions culturals vinculades a la comunitat andalusa i als aficionats al flamenc — continuen sent un espai d'aprenentatge no formal però ric en tradició i en contacte directe amb el gènere. Per a qui vol aprendre flamenc seriosament, combinar una escola tècnica amb la participació en peñas és el camí que fan molts intèrprets.
+Barcelona té una oferta de flamenc real, no turística. **[Taller Flamenco](https://www.tallerflamenco.com/)** al Raval és una de les escoles de referència, amb formació en ball, guitarra i cant. A Gràcia i a Sants hi ha professors particulars i petits centres especialitzats que es localitzen millor a través de les peñas. Les **peñas flamencas** — associacions culturals vinculades a la comunitat andalusa i als aficionats al flamenc — continuen sent un espai d'aprenentatge no formal però ric en tradició i en contacte directe amb el gènere. Per a qui vol aprendre flamenc seriosament, combinar una escola tècnica amb la participació en peñas és el camí que fan molts intèrprets.
 
 ## Com triar l'escola adequada
 
