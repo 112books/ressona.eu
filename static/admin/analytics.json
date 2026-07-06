@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-05T23:52:44.488772Z",
+  "generated": "2026-07-06T01:47:53.714458Z",
   "period": {
-    "start": "2025-07-05",
-    "end": "2026-07-05"
+    "start": "2025-07-06",
+    "end": "2026-07-06"
   },
-  "total": 771,
+  "total": 773,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -97,13 +97,17 @@
     },
     {
       "date": "2026-07-05",
-      "count": 2
+      "count": 3
+    },
+    {
+      "date": "2026-07-06",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 278
+      "count": 279
     },
     {
       "path": "/#que-fem",
@@ -226,7 +230,7 @@
     "en": 55
   },
   "by_section": {
-    "inici": 290,
+    "inici": 291,
     "#que-fem": 56,
     "#per-qui": 48,
     "#quisom": 45,
@@ -238,7 +242,7 @@
     "serveis": 25,
     "resources": 8,
     "legal": 9,
-    "per-a-qui": 12,
+    "per-a-qui": 13,
     "tags": 11
   },
   "browsers": [
@@ -368,7 +372,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 354
+      "count": 355
     },
     {
       "name": "ig",
