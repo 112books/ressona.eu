@@ -24,8 +24,6 @@ No cedirem les vostres dades a tercers sense el vostre consentiment exprés, exc
 - **GoatCounter** — analítica web sense cookies. Processa dades de manera anonimitzada (sense emmagatzemar adreces IP completes). Política de privacitat: [goatcounter.com/help/privacy](https://www.goatcounter.com/help/privacy).
 - **Formspree** (Formspree, Inc., EUA) — gestió del formulari de contacte. Processa el nom, l'adreça de correu electrònic i el missatge que ens envieu. Política de privacitat: [formspree.io/legal/privacy-policy](https://formspree.io/legal/privacy-policy). La transferència de dades als EUA es realitza emparant-se en les Clàusules Contractuals Estàndard aprovades per la Comissió Europea.
 - **Brevo/Sibforms** (Brevo SAS, França) — gestió de la subscripció al butlletí de notícies. Processa el nom i l'adreça de correu electrònic dels subscriptors. Política de privacitat: [brevo.com/legal/privacypolicy](https://www.brevo.com/legal/privacypolicy/).
-- **Google reCAPTCHA** (Google LLC, EUA) — protecció antiespaM del formulari de subscripció. reCAPTCHA analitza el comportament de l'usuari al navegador per determinar si es tracta d'un humà o un robot. Processa dades del dispositiu i estableix cookies. Política de privacitat de Google: [policies.google.com/privacy](https://policies.google.com/privacy). La transferència de dades als EUA es realitza emparant-se en les Clàusules Contractuals Estàndard.
-
 **Drets**
 
 Podeu exercir els vostres drets d'accés, rectificació, supressió, oposició, limitació i portabilitat escrivint-nos a hola@ressona.eu. Si considereu que el tractament no s'ajusta a la normativa, podeu presentar una reclamació davant l'Agència Espanyola de Protecció de Dades (aepd.es).

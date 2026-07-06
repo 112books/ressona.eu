@@ -24,8 +24,6 @@ We will not share your data with third parties without your express consent, exc
 - **GoatCounter** — cookie-free web analytics. Processes data in anonymised form (without storing full IP addresses). Privacy policy: [goatcounter.com/help/privacy](https://www.goatcounter.com/help/privacy).
 - **Formspree** (Formspree, Inc., USA) — contact form processing. Processes the name, email address, and message you send us. Privacy policy: [formspree.io/legal/privacy-policy](https://formspree.io/legal/privacy-policy). Data transfers to the USA are made under Standard Contractual Clauses approved by the European Commission.
 - **Brevo/Sibforms** (Brevo SAS, France) — newsletter subscription management. Processes the name and email address of subscribers. Privacy policy: [brevo.com/legal/privacypolicy](https://www.brevo.com/legal/privacypolicy/).
-- **Google reCAPTCHA** (Google LLC, USA) — anti-spam protection for the subscription form. reCAPTCHA analyses user behaviour in the browser to determine whether the user is a human or a bot. It processes device data and sets cookies. Google's privacy policy: [policies.google.com/privacy](https://policies.google.com/privacy). Data transfers to the USA are made under Standard Contractual Clauses.
-
 **Your rights**
 
 You may exercise your rights of access, rectification, erasure, objection, restriction, and portability by writing to hola@ressona.eu. If you consider that processing does not comply with applicable law, you may lodge a complaint with the Spanish Data Protection Agency (aepd.es).
