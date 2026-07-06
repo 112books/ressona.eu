@@ -80,7 +80,8 @@ def main():
 
         for stat in path_item.get("stats", []):
             date  = (stat.get("day") or "")[:10]
-            count = stat.get("daily", 0)
+            # GoatCounter API: try "daily" first, fall back to "count"
+            count = stat.get("daily", 0) or stat.get("count", 0)
             if not count:
                 continue
             total      += count
@@ -91,18 +92,35 @@ def main():
             if date:
                 hits_by_day[date] = hits_by_day.get(date, 0) + count
 
+        # Fallback: use top-level count if stats[] gave no data
+        if path_total == 0:
+            path_total = path_item.get("count", 0)
+            if path_total > 0:
+                total += path_total
+                if lang:
+                    by_lang[lang]       = by_lang.get(lang, 0) + path_total
+                by_section[section] = by_section.get(section, 0) + path_total
+
         if path_total > 0:
             hits_pages[path] = hits_pages.get(path, 0) + path_total
 
     hits_by_day_list = [{"date": k, "count": v} for k, v in sorted(hits_by_day.items())]
+
+    # Fallback chart: if path-level stats gave no daily data, use /stats/total breakdown
+    total_data   = safe_get(raw, "total_data") or {}
+    total_stats  = safe_get(total_data, "stats") or []
+    if not hits_by_day_list and total_stats:
+        hits_by_day_list = [
+            {"date": s.get("day", "")[:10], "count": s.get("daily", 0) or s.get("count", 0)}
+            for s in total_stats
+            if (s.get("daily", 0) or s.get("count", 0)) > 0
+        ]
     hits_top = sorted(
         [{"path": k, "count": v} for k, v in hits_pages.items()],
         key=lambda x: x["count"], reverse=True
     )[:30]
 
-    total_data   = safe_get(raw, "total_data") or {}
-    total_stats  = safe_get(total_data, "stats") or []
-    total_from_api = sum(s.get("daily", 0) for s in total_stats)
+    total_from_api = sum(s.get("daily", 0) or s.get("count", 0) for s in total_stats)
     total_unique   = sum(s.get("unique", 0) for s in total_stats)
 
     # GoatCounter API v0: GET /stats/{page} → {"stats": [{id, name, count}]}
