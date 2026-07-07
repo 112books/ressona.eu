@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-06T23:55:05.926904Z",
+  "generated": "2026-07-07T01:45:27.160783Z",
   "period": {
-    "start": "2025-07-06",
-    "end": "2026-07-06"
+    "start": "2025-07-07",
+    "end": "2026-07-07"
   },
-  "total": 773,
+  "total": 838,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 120
+      "count": 113
     },
     {
       "date": "2026-06-28",
@@ -101,56 +101,68 @@
     },
     {
       "date": "2026-07-06",
-      "count": 1
+      "count": 73
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 279
+      "count": 299
     },
     {
       "path": "/#que-fem",
-      "count": 49
+      "count": 54
     },
     {
       "path": "/#per-qui",
-      "count": 42
+      "count": 46
     },
     {
       "path": "/#quisom",
-      "count": 39
+      "count": 43
     },
     {
       "path": "/#contacte",
-      "count": 37
+      "count": 39
     },
     {
       "path": "/#com-treballem",
-      "count": 34
-    },
-    {
-      "path": "/recursos",
-      "count": 23
+      "count": 38
     },
     {
       "path": "/#recursos",
-      "count": 22
+      "count": 27
+    },
+    {
+      "path": "/recursos",
+      "count": 26
     },
     {
       "path": "/en",
-      "count": 12
+      "count": 14
     },
     {
       "path": "/comenca",
-      "count": 9
-    },
-    {
-      "path": "/recursos/drets-imatges-promocionals",
-      "count": 7
+      "count": 12
     },
     {
       "path": "/en/#que-fem",
+      "count": 9
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 8
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 8
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 8
+    },
+    {
+      "path": "/recursos/drets-imatges-promocionals",
       "count": 7
     },
     {
@@ -170,18 +182,6 @@
       "count": 6
     },
     {
-      "path": "/en/#com-treballem",
-      "count": 6
-    },
-    {
-      "path": "/en/#quisom",
-      "count": 6
-    },
-    {
-      "path": "/en/#per-qui",
-      "count": 6
-    },
-    {
       "path": "/serveis/estrategia-xarxes",
       "count": 6
     },
@@ -198,6 +198,10 @@
       "count": 5
     },
     {
+      "path": "/en/#recursos",
+      "count": 5
+    },
+    {
       "path": "/recursos/presentar-projecte-festival",
       "count": 5
     },
@@ -206,44 +210,40 @@
       "count": 5
     },
     {
+      "path": "/legal/avis-legal",
+      "count": 5
+    },
+    {
+      "path": "/per-a-qui/musics",
+      "count": 4
+    },
+    {
       "path": "/recursos/perseguint-el-duende",
       "count": 4
     },
     {
       "path": "/en/resources",
       "count": 4
-    },
-    {
-      "path": "/recursos/llibre-artista-gira-disc",
-      "count": 4
-    },
-    {
-      "path": "/recursos/identitat-digital-musics",
-      "count": 4
-    },
-    {
-      "path": "/serveis/fotografia-video",
-      "count": 4
     }
   ],
   "by_lang": {
-    "en": 55
+    "en": 64
   },
   "by_section": {
-    "inici": 291,
-    "#que-fem": 56,
-    "#per-qui": 48,
-    "#quisom": 45,
-    "#contacte": 43,
-    "#com-treballem": 40,
-    "recursos": 150,
-    "#recursos": 25,
-    "comenca": 9,
+    "inici": 313,
+    "#que-fem": 63,
+    "#per-qui": 54,
+    "#quisom": 51,
+    "#contacte": 45,
+    "#com-treballem": 46,
+    "#recursos": 32,
+    "recursos": 160,
+    "comenca": 12,
     "serveis": 25,
-    "resources": 8,
-    "legal": 9,
-    "per-a-qui": 13,
-    "tags": 11
+    "legal": 10,
+    "per-a-qui": 14,
+    "resources": 6,
+    "tags": 7
   },
   "browsers": [
     {
@@ -372,7 +372,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 355
+      "count": 373
     },
     {
       "name": "ig",
