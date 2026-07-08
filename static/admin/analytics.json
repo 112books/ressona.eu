@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-07T23:42:43.514354Z",
+  "generated": "2026-07-08T01:18:41.188103Z",
   "period": {
-    "start": "2025-07-07",
-    "end": "2026-07-07"
+    "start": "2025-07-08",
+    "end": "2026-07-08"
   },
-  "total": 838,
+  "total": 841,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -102,12 +102,16 @@
     {
       "date": "2026-07-06",
       "count": 73
+    },
+    {
+      "date": "2026-07-07",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 299
+      "count": 300
     },
     {
       "path": "/#que-fem",
@@ -123,7 +127,7 @@
     },
     {
       "path": "/#contacte",
-      "count": 39
+      "count": 40
     },
     {
       "path": "/#com-treballem",
@@ -131,7 +135,7 @@
     },
     {
       "path": "/#recursos",
-      "count": 27
+      "count": 28
     },
     {
       "path": "/recursos",
@@ -230,13 +234,13 @@
     "en": 64
   },
   "by_section": {
-    "inici": 313,
+    "inici": 314,
     "#que-fem": 63,
     "#per-qui": 54,
     "#quisom": 51,
-    "#contacte": 45,
+    "#contacte": 46,
     "#com-treballem": 46,
-    "#recursos": 32,
+    "#recursos": 33,
     "recursos": 160,
     "comenca": 12,
     "serveis": 25,
