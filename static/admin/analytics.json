@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-11T23:40:08.160812Z",
+  "generated": "2026-07-12T01:19:13.052650Z",
   "period": {
-    "start": "2025-07-11",
-    "end": "2026-07-11"
+    "start": "2025-07-12",
+    "end": "2026-07-12"
   },
-  "total": 869,
+  "total": 875,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -118,24 +118,32 @@
     {
       "date": "2026-07-10",
       "count": 6
+    },
+    {
+      "date": "2026-07-11",
+      "count": 5
+    },
+    {
+      "date": "2026-07-12",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 309
+      "count": 311
     },
     {
       "path": "/#que-fem",
-      "count": 57
+      "count": 58
     },
     {
       "path": "/#per-qui",
-      "count": 47
+      "count": 48
     },
     {
       "path": "/#quisom",
-      "count": 44
+      "count": 45
     },
     {
       "path": "/#contacte",
@@ -143,7 +151,7 @@
     },
     {
       "path": "/#com-treballem",
-      "count": 39
+      "count": 40
     },
     {
       "path": "/recursos",
@@ -246,12 +254,12 @@
     "en": 64
   },
   "by_section": {
-    "inici": 323,
-    "#que-fem": 66,
-    "#per-qui": 55,
-    "#quisom": 52,
+    "inici": 325,
+    "#que-fem": 67,
+    "#per-qui": 56,
+    "#quisom": 53,
     "#contacte": 47,
-    "#com-treballem": 47,
+    "#com-treballem": 48,
     "recursos": 169,
     "#recursos": 34,
     "comenca": 14,
@@ -270,7 +278,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 399
+      "count": 400
     },
     {
       "name": "Firefox",
@@ -302,7 +310,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 111
+      "count": 112
     },
     {
       "name": "Windows",
@@ -319,7 +327,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 442
+      "count": 443
     },
     {
       "name": "phone",
@@ -346,7 +354,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 189
+      "count": 190
     },
     {
       "name": "France",
@@ -393,7 +401,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 383
+      "count": 384
     },
     {
       "name": "ig",
@@ -404,6 +412,11 @@
       "name": "Google",
       "id": "Google",
       "count": 8
+    },
+    {
+      "name": "linuxbcn.com",
+      "id": "linuxbcn.com",
+      "count": 5
     },
     {
       "name": "www.facebook.com",
