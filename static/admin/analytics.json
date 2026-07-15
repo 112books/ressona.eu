@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-14T23:39:19.214995Z",
+  "generated": "2026-07-15T01:07:10.863823Z",
   "period": {
-    "start": "2025-07-14",
-    "end": "2026-07-14"
+    "start": "2025-07-15",
+    "end": "2026-07-15"
   },
-  "total": 876,
+  "total": 878,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -77,7 +77,7 @@
     },
     {
       "date": "2026-06-30",
-      "count": 65
+      "count": 64
     },
     {
       "date": "2026-07-01",
@@ -133,13 +133,13 @@
     },
     {
       "date": "2026-07-14",
-      "count": 1
+      "count": 4
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 311
+      "count": 313
     },
     {
       "path": "/#que-fem",
@@ -259,22 +259,22 @@
     }
   ],
   "by_lang": {
-    "en": 65
+    "en": 66
   },
   "by_section": {
-    "inici": 325,
+    "inici": 327,
     "#que-fem": 67,
     "#per-qui": 56,
     "#quisom": 53,
     "#contacte": 47,
     "#com-treballem": 48,
-    "recursos": 169,
+    "recursos": 168,
     "#recursos": 34,
     "comenca": 14,
     "serveis": 25,
     "legal": 10,
     "per-a-qui": 14,
-    "resources": 7,
+    "resources": 8,
     "tags": 7
   },
   "browsers": [
@@ -424,7 +424,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 9
+      "count": 10
     },
     {
       "name": "ig",
