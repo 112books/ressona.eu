@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-16T21:52:15.971775Z",
+  "generated": "2026-07-16T22:44:28.695382Z",
   "period": {
     "start": "2025-07-16",
     "end": "2026-07-16"
   },
-  "total": 925,
+  "total": 907,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-06-20",
-      "count": 15
+      "count": 13
     },
     {
       "date": "2026-06-21",
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 125
+      "count": 113
     },
     {
       "date": "2026-06-28",
@@ -73,15 +73,15 @@
     },
     {
       "date": "2026-06-29",
-      "count": 12
+      "count": 11
     },
     {
       "date": "2026-06-30",
-      "count": 65
+      "count": 64
     },
     {
       "date": "2026-07-01",
-      "count": 85
+      "count": 83
     },
     {
       "date": "2026-07-02",
@@ -140,9 +140,147 @@
       "count": 31
     }
   ],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits": [
+    {
+      "path": "/",
+      "count": 316
+    },
+    {
+      "path": "/#que-fem",
+      "count": 61
+    },
+    {
+      "path": "/#per-qui",
+      "count": 50
+    },
+    {
+      "path": "/#quisom",
+      "count": 47
+    },
+    {
+      "path": "/#contacte",
+      "count": 43
+    },
+    {
+      "path": "/#com-treballem",
+      "count": 42
+    },
+    {
+      "path": "/recursos",
+      "count": 32
+    },
+    {
+      "path": "/#recursos",
+      "count": 31
+    },
+    {
+      "path": "/en",
+      "count": 15
+    },
+    {
+      "path": "/comenca",
+      "count": 14
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 10
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 9
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 9
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 9
+    },
+    {
+      "path": "/recursos/drets-imatges-promocionals",
+      "count": 8
+    },
+    {
+      "path": "/recursos/viatjant-amb-jazz-per-europa",
+      "count": 7
+    },
+    {
+      "path": "/recursos/xarxes-socials-artistes",
+      "count": 6
+    },
+    {
+      "path": "/en/#recursos",
+      "count": 6
+    },
+    {
+      "path": "/recursos/press-kit-digital-actors",
+      "count": 6
+    },
+    {
+      "path": "/recursos/per-que-web-propia-instagram",
+      "count": 6
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 6
+    },
+    {
+      "path": "/serveis/estrategia-xarxes",
+      "count": 6
+    },
+    {
+      "path": "/serveis/identitat-visual",
+      "count": 6
+    },
+    {
+      "path": "/per-a-qui/musics",
+      "count": 5
+    },
+    {
+      "path": "/recursos/ruta-jazz-europa",
+      "count": 5
+    },
+    {
+      "path": "/recursos/rider-tecnic",
+      "count": 5
+    },
+    {
+      "path": "/recursos/presentar-projecte-festival",
+      "count": 5
+    },
+    {
+      "path": "/recursos/que-es-un-epk",
+      "count": 5
+    },
+    {
+      "path": "/legal/avis-legal",
+      "count": 5
+    },
+    {
+      "path": "/recursos/perseguint-el-duende",
+      "count": 4
+    }
+  ],
+  "by_lang": {
+    "en": 72
+  },
+  "by_section": {
+    "inici": 331,
+    "#que-fem": 71,
+    "#per-qui": 59,
+    "#quisom": 56,
+    "#contacte": 49,
+    "#com-treballem": 51,
+    "recursos": 173,
+    "#recursos": 37,
+    "comenca": 14,
+    "serveis": 25,
+    "per-a-qui": 16,
+    "legal": 10,
+    "resources": 8,
+    "tags": 7
+  },
   "browsers": [
     {
       "name": "Chrome",
