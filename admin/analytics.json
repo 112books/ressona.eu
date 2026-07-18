@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-17T23:39:45.540919Z",
+  "generated": "2026-07-18T01:11:52.826819Z",
   "period": {
-    "start": "2025-07-17",
-    "end": "2026-07-17"
+    "start": "2025-07-18",
+    "end": "2026-07-18"
   },
   "total": 932,
   "total_unique": 0,
@@ -85,7 +85,7 @@
     },
     {
       "date": "2026-07-02",
-      "count": 93
+      "count": 92
     },
     {
       "date": "2026-07-03",
@@ -142,6 +142,10 @@
     {
       "date": "2026-07-16",
       "count": 28
+    },
+    {
+      "date": "2026-07-17",
+      "count": 1
     }
   ],
   "hits": [
@@ -267,7 +271,7 @@
     }
   ],
   "by_lang": {
-    "en": 87
+    "en": 88
   },
   "by_section": {
     "inici": 336,
@@ -276,13 +280,13 @@
     "#quisom": 59,
     "#contacte": 50,
     "#com-treballem": 54,
-    "recursos": 174,
+    "recursos": 173,
     "#recursos": 39,
     "comenca": 14,
     "serveis": 26,
     "per-a-qui": 16,
     "legal": 10,
-    "resources": 9,
+    "resources": 10,
     "tags": 6,
     "services": 2
   },
@@ -463,6 +467,11 @@
     {
       "name": "bing.com",
       "id": "bing.com",
+      "count": 1
+    },
+    {
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
       "count": 1
     },
     {
