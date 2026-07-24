@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-23T23:45:14.221861Z",
+  "generated": "2026-07-24T01:18:52.870455Z",
   "period": {
-    "start": "2025-07-23",
-    "end": "2026-07-23"
+    "start": "2025-07-24",
+    "end": "2026-07-24"
   },
-  "total": 942,
+  "total": 990,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-06-20",
-      "count": 13
+      "count": 15
     },
     {
       "date": "2026-06-21",
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 113
+      "count": 125
     },
     {
       "date": "2026-06-28",
@@ -73,23 +73,23 @@
     },
     {
       "date": "2026-06-29",
-      "count": 11
+      "count": 12
     },
     {
       "date": "2026-06-30",
-      "count": 64
+      "count": 65
     },
     {
       "date": "2026-07-01",
-      "count": 83
+      "count": 85
     },
     {
       "date": "2026-07-02",
-      "count": 91
+      "count": 96
     },
     {
       "date": "2026-07-03",
-      "count": 99
+      "count": 102
     },
     {
       "date": "2026-07-04",
@@ -158,150 +158,19 @@
     {
       "date": "2026-07-22",
       "count": 1
+    },
+    {
+      "date": "2026-07-23",
+      "count": 21
+    },
+    {
+      "date": "2026-07-24",
+      "count": 1
     }
   ],
-  "hits": [
-    {
-      "path": "/",
-      "count": 321
-    },
-    {
-      "path": "/#que-fem",
-      "count": 63
-    },
-    {
-      "path": "/#per-qui",
-      "count": 51
-    },
-    {
-      "path": "/#quisom",
-      "count": 48
-    },
-    {
-      "path": "/#contacte",
-      "count": 43
-    },
-    {
-      "path": "/#com-treballem",
-      "count": 43
-    },
-    {
-      "path": "/recursos",
-      "count": 33
-    },
-    {
-      "path": "/#recursos",
-      "count": 32
-    },
-    {
-      "path": "/en",
-      "count": 18
-    },
-    {
-      "path": "/comenca",
-      "count": 14
-    },
-    {
-      "path": "/en/#que-fem",
-      "count": 13
-    },
-    {
-      "path": "/en/#com-treballem",
-      "count": 12
-    },
-    {
-      "path": "/en/#quisom",
-      "count": 12
-    },
-    {
-      "path": "/en/#per-qui",
-      "count": 12
-    },
-    {
-      "path": "/recursos/drets-imatges-promocionals",
-      "count": 8
-    },
-    {
-      "path": "/recursos/viatjant-amb-jazz-per-europa",
-      "count": 7
-    },
-    {
-      "path": "/en/#recursos",
-      "count": 7
-    },
-    {
-      "path": "/en/#contacte",
-      "count": 7
-    },
-    {
-      "path": "/serveis/identitat-visual",
-      "count": 7
-    },
-    {
-      "path": "/recursos/xarxes-socials-artistes",
-      "count": 6
-    },
-    {
-      "path": "/recursos/press-kit-digital-actors",
-      "count": 6
-    },
-    {
-      "path": "/recursos/per-que-web-propia-instagram",
-      "count": 6
-    },
-    {
-      "path": "/serveis/estrategia-xarxes",
-      "count": 6
-    },
-    {
-      "path": "/per-a-qui/musics",
-      "count": 5
-    },
-    {
-      "path": "/recursos/ruta-jazz-europa",
-      "count": 5
-    },
-    {
-      "path": "/recursos/rider-tecnic",
-      "count": 5
-    },
-    {
-      "path": "/en/resources",
-      "count": 5
-    },
-    {
-      "path": "/recursos/presentar-projecte-festival",
-      "count": 5
-    },
-    {
-      "path": "/recursos/que-es-un-epk",
-      "count": 5
-    },
-    {
-      "path": "/legal/avis-legal",
-      "count": 5
-    }
-  ],
-  "by_lang": {
-    "en": 99
-  },
-  "by_section": {
-    "inici": 339,
-    "#que-fem": 76,
-    "#per-qui": 63,
-    "#quisom": 60,
-    "#contacte": 50,
-    "#com-treballem": 55,
-    "recursos": 172,
-    "#recursos": 39,
-    "comenca": 14,
-    "serveis": 26,
-    "per-a-qui": 16,
-    "resources": 16,
-    "legal": 10,
-    "tags": 4,
-    "services": 2
-  },
+  "hits": [],
+  "by_lang": {},
+  "by_section": {},
   "browsers": [
     {
       "name": "Chrome",
@@ -454,17 +323,22 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 411
+      "count": 416
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 15
+      "count": 16
     },
     {
       "name": "ig",
       "id": "ig",
       "count": 9
+    },
+    {
+      "name": "l.instagram.com",
+      "id": "l.instagram.com",
+      "count": 8
     },
     {
       "name": "linuxbcn.com",
@@ -477,6 +351,11 @@
       "count": 3
     },
     {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 2
+    },
+    {
       "name": "bing.com",
       "id": "bing.com",
       "count": 1
@@ -484,16 +363,6 @@
     {
       "name": "duckduckgo.com",
       "id": "duckduckgo.com",
-      "count": 1
-    },
-    {
-      "name": "localhost:1313",
-      "id": "localhost:1313",
-      "count": 1
-    },
-    {
-      "name": "chatgpt.com",
-      "id": "chatgpt.com",
       "count": 1
     }
   ]
