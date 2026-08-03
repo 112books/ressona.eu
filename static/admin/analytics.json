@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-02T23:46:04.336156Z",
+  "generated": "2026-08-03T01:22:40.291502Z",
   "period": {
-    "start": "2025-08-02",
-    "end": "2026-08-02"
+    "start": "2025-08-03",
+    "end": "2026-08-03"
   },
   "total": 970,
   "total_unique": 0,
@@ -89,7 +89,7 @@
     },
     {
       "date": "2026-07-03",
-      "count": 93
+      "count": 91
     },
     {
       "date": "2026-07-04",
@@ -178,6 +178,10 @@
     {
       "date": "2026-07-30",
       "count": 3
+    },
+    {
+      "date": "2026-08-03",
+      "count": 2
     }
   ],
   "hits": [
@@ -303,7 +307,7 @@
     }
   ],
   "by_lang": {
-    "en": 111
+    "en": 113
   },
   "by_section": {
     "inici": 343,
@@ -312,21 +316,22 @@
     "#quisom": 62,
     "#com-treballem": 57,
     "#contacte": 51,
-    "recursos": 174,
+    "recursos": 172,
     "#recursos": 40,
     "comenca": 14,
     "serveis": 26,
     "per-a-qui": 16,
-    "resources": 28,
+    "resources": 29,
     "legal": 10,
     "tags": 4,
+    "start": 1,
     "services": 2
   },
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 497
+      "count": 499
     },
     {
       "name": "Safari",
@@ -358,7 +363,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 193
+      "count": 195
     },
     {
       "name": "iOS",
@@ -385,7 +390,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 320
+      "count": 322
     },
     {
       "name": "desktophd",
@@ -420,6 +425,11 @@
       "count": 9
     },
     {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 5
+    },
+    {
       "name": "United Kingdom",
       "id": "GB",
       "count": 4
@@ -427,11 +437,6 @@
     {
       "name": "France",
       "id": "FR",
-      "count": 3
-    },
-    {
-      "name": "Netherlands",
-      "id": "NL",
       "count": 3
     },
     {
@@ -484,7 +489,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 21
+      "count": 22
     },
     {
       "name": "ig",
