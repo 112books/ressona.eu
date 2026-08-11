@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-11T02:56:21.813556Z",
+  "generated": "2026-08-11T04:11:21.079141Z",
   "period": {
     "start": "2025-08-11",
     "end": "2026-08-11"
   },
-  "total": 1033,
+  "total": 996,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-06-20",
-      "count": 15
+      "count": 13
     },
     {
       "date": "2026-06-21",
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 125
+      "count": 114
     },
     {
       "date": "2026-06-28",
@@ -73,27 +73,27 @@
     },
     {
       "date": "2026-06-29",
-      "count": 12
+      "count": 11
     },
     {
       "date": "2026-06-30",
-      "count": 65
+      "count": 64
     },
     {
       "date": "2026-07-01",
-      "count": 85
+      "count": 83
     },
     {
       "date": "2026-07-02",
-      "count": 96
+      "count": 91
     },
     {
       "date": "2026-07-03",
-      "count": 102
+      "count": 89
     },
     {
       "date": "2026-07-04",
-      "count": 46
+      "count": 44
     },
     {
       "date": "2026-07-05",
@@ -212,14 +212,154 @@
       "count": 1
     }
   ],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits": [
+    {
+      "path": "/",
+      "count": 330
+    },
+    {
+      "path": "/#que-fem",
+      "count": 66
+    },
+    {
+      "path": "/#per-qui",
+      "count": 54
+    },
+    {
+      "path": "/#quisom",
+      "count": 51
+    },
+    {
+      "path": "/#com-treballem",
+      "count": 46
+    },
+    {
+      "path": "/#contacte",
+      "count": 44
+    },
+    {
+      "path": "/recursos",
+      "count": 36
+    },
+    {
+      "path": "/#recursos",
+      "count": 34
+    },
+    {
+      "path": "/en",
+      "count": 19
+    },
+    {
+      "path": "/comenca",
+      "count": 15
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 14
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 12
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 12
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 12
+    },
+    {
+      "path": "/recursos/drets-imatges-promocionals",
+      "count": 8
+    },
+    {
+      "path": "/recursos/viatjant-amb-jazz-per-europa",
+      "count": 7
+    },
+    {
+      "path": "/en/#recursos",
+      "count": 7
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 7
+    },
+    {
+      "path": "/serveis/identitat-visual",
+      "count": 7
+    },
+    {
+      "path": "/en/resources/artistic-residency",
+      "count": 6
+    },
+    {
+      "path": "/recursos/ruta-jazz-europa",
+      "count": 6
+    },
+    {
+      "path": "/recursos/perseguint-el-duende",
+      "count": 6
+    },
+    {
+      "path": "/recursos/xarxes-socials-artistes",
+      "count": 6
+    },
+    {
+      "path": "/en/resources",
+      "count": 6
+    },
+    {
+      "path": "/recursos/press-kit-digital-actors",
+      "count": 6
+    },
+    {
+      "path": "/recursos/per-que-web-propia-instagram",
+      "count": 6
+    },
+    {
+      "path": "/serveis/estrategia-xarxes",
+      "count": 6
+    },
+    {
+      "path": "/per-a-qui/musics",
+      "count": 5
+    },
+    {
+      "path": "/recursos/rider-tecnic",
+      "count": 5
+    },
+    {
+      "path": "/recursos/presentar-projecte-festival",
+      "count": 5
+    }
+  ],
+  "by_lang": {
+    "en": 127
+  },
+  "by_section": {
+    "inici": 349,
+    "#que-fem": 80,
+    "#per-qui": 66,
+    "#quisom": 63,
+    "#com-treballem": 58,
+    "#contacte": 51,
+    "recursos": 170,
+    "#recursos": 41,
+    "comenca": 15,
+    "serveis": 28,
+    "resources": 40,
+    "per-a-qui": 17,
+    "legal": 10,
+    "start": 2,
+    "tags": 4,
+    "services": 2
+  },
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 525
+      "count": 526
     },
     {
       "name": "Safari",
@@ -261,7 +401,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 83
+      "count": 84
     },
     {
       "name": "Linux",
@@ -288,7 +428,7 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 62
+      "count": 63
     }
   ],
   "locations": [
@@ -315,7 +455,7 @@
     {
       "name": "France",
       "id": "FR",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Netherlands",
