@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-10T23:22:35.173122Z",
+  "generated": "2026-08-11T00:42:31.581214Z",
   "period": {
-    "start": "2025-08-10",
-    "end": "2026-08-10"
+    "start": "2025-08-11",
+    "end": "2026-08-11"
   },
-  "total": 995,
+  "total": 996,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -206,6 +206,10 @@
     {
       "date": "2026-08-09",
       "count": 2
+    },
+    {
+      "date": "2026-08-10",
+      "count": 1
     }
   ],
   "hits": [
@@ -331,7 +335,7 @@
     }
   ],
   "by_lang": {
-    "en": 126
+    "en": 127
   },
   "by_section": {
     "inici": 349,
@@ -347,8 +351,8 @@
     "resources": 40,
     "per-a-qui": 17,
     "legal": 10,
+    "start": 2,
     "tags": 4,
-    "start": 1,
     "services": 2
   },
   "browsers": [
