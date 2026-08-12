@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T16:42:22.342685Z",
+  "generated": "2026-08-12T17:46:51.714743Z",
   "period": {
     "start": "2025-08-12",
     "end": "2026-08-12"
@@ -435,83 +435,7 @@
       "count": 66
     }
   ],
-  "locations": [
-    {
-      "name": "Spain",
-      "id": "ES",
-      "count": 779
-    },
-    {
-      "name": "United States",
-      "id": "US",
-      "count": 203
-    },
-    {
-      "name": "Germany",
-      "id": "DE",
-      "count": 10
-    },
-    {
-      "name": "Ecuador",
-      "id": "EC",
-      "count": 9
-    },
-    {
-      "name": "France",
-      "id": "FR",
-      "count": 9
-    },
-    {
-      "name": "Netherlands",
-      "id": "NL",
-      "count": 7
-    },
-    {
-      "name": "Poland",
-      "id": "PL",
-      "count": 6
-    },
-    {
-      "name": "Australia",
-      "id": "AU",
-      "count": 5
-    },
-    {
-      "name": "United Kingdom",
-      "id": "GB",
-      "count": 4
-    },
-    {
-      "name": "Portugal",
-      "id": "PT",
-      "count": 4
-    },
-    {
-      "name": "Brazil",
-      "id": "BR",
-      "count": 2
-    },
-    {
-      "name": "Canada",
-      "id": "CA",
-      "count": 2
-    },
-    {
-      "name": "Taiwan",
-      "id": "TW",
-      "count": 2
-    },
-    {
-      "name": "Andorra",
-      "id": "AD",
-      "count": 1
-    },
-    {
-      "name": "Cyprus",
-      "id": "CY",
-      "count": 1
-    }
-  ],
+  "locations": [],
   "refs": [
     {
       "name": "Desconegut",
