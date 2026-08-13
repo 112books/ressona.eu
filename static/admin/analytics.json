@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-12T23:27:18.989194Z",
+  "generated": "2026-08-13T00:51:26.908079Z",
   "period": {
-    "start": "2025-08-12",
-    "end": "2026-08-12"
+    "start": "2025-08-13",
+    "end": "2026-08-13"
   },
-  "total": 1005,
+  "total": 1014,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -93,7 +93,7 @@
     },
     {
       "date": "2026-07-04",
-      "count": 43
+      "count": 42
     },
     {
       "date": "2026-07-05",
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-07-06",
-      "count": 73
+      "count": 70
     },
     {
       "date": "2026-07-07",
@@ -214,6 +214,10 @@
     {
       "date": "2026-08-11",
       "count": 10
+    },
+    {
+      "date": "2026-08-12",
+      "count": 13
     }
   ],
   "hits": [
@@ -251,7 +255,7 @@
     },
     {
       "path": "/en",
-      "count": 19
+      "count": 20
     },
     {
       "path": "/comenca",
@@ -259,34 +263,34 @@
     },
     {
       "path": "/en/#que-fem",
-      "count": 14
+      "count": 15
     },
     {
       "path": "/en/#com-treballem",
-      "count": 12
+      "count": 13
     },
     {
       "path": "/en/#quisom",
-      "count": 12
+      "count": 13
     },
     {
       "path": "/en/#per-qui",
-      "count": 12
+      "count": 13
     },
     {
       "path": "/recursos/drets-imatges-promocionals",
       "count": 8
     },
     {
-      "path": "/recursos/viatjant-amb-jazz-per-europa",
-      "count": 7
-    },
-    {
       "path": "/en/#recursos",
-      "count": 7
+      "count": 8
     },
     {
       "path": "/en/#contacte",
+      "count": 8
+    },
+    {
+      "path": "/recursos/viatjant-amb-jazz-per-europa",
       "count": 7
     },
     {
@@ -339,20 +343,20 @@
     }
   ],
   "by_lang": {
-    "en": 128
+    "en": 141
   },
   "by_section": {
-    "inici": 358,
-    "#que-fem": 80,
-    "#per-qui": 66,
-    "#quisom": 63,
-    "#com-treballem": 58,
-    "#contacte": 51,
-    "recursos": 169,
-    "#recursos": 41,
+    "inici": 359,
+    "#que-fem": 81,
+    "#per-qui": 67,
+    "#quisom": 64,
+    "#com-treballem": 59,
+    "#contacte": 52,
+    "recursos": 165,
+    "#recursos": 42,
     "comenca": 15,
     "serveis": 28,
-    "resources": 41,
+    "resources": 47,
     "per-a-qui": 17,
     "legal": 10,
     "start": 2,
@@ -521,7 +525,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 27
+      "count": 29
     },
     {
       "name": "ig",
@@ -552,11 +556,6 @@
       "name": "duckduckgo.com",
       "id": "duckduckgo.com",
       "count": 2
-    },
-    {
-      "name": "bing.com",
-      "id": "bing.com",
-      "count": 1
     }
   ]
 }
