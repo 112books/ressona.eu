@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-15T06:15:52.795776Z",
+  "generated": "2026-08-15T07:19:19.362322Z",
   "period": {
     "start": "2025-08-15",
     "end": "2026-08-15"
   },
-  "total": 1064,
+  "total": 1020,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-06-20",
-      "count": 15
+      "count": 13
     },
     {
       "date": "2026-06-21",
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 125
+      "count": 114
     },
     {
       "date": "2026-06-28",
@@ -73,27 +73,27 @@
     },
     {
       "date": "2026-06-29",
-      "count": 12
+      "count": 11
     },
     {
       "date": "2026-06-30",
-      "count": 65
+      "count": 64
     },
     {
       "date": "2026-07-01",
-      "count": 85
+      "count": 83
     },
     {
       "date": "2026-07-02",
-      "count": 96
+      "count": 91
     },
     {
       "date": "2026-07-03",
-      "count": 102
+      "count": 89
     },
     {
       "date": "2026-07-04",
-      "count": 46
+      "count": 42
     },
     {
       "date": "2026-07-05",
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-07-06",
-      "count": 73
+      "count": 68
     },
     {
       "date": "2026-07-07",
@@ -228,9 +228,149 @@
       "count": 3
     }
   ],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits": [
+    {
+      "path": "/",
+      "count": 340
+    },
+    {
+      "path": "/#que-fem",
+      "count": 66
+    },
+    {
+      "path": "/#per-qui",
+      "count": 54
+    },
+    {
+      "path": "/#quisom",
+      "count": 51
+    },
+    {
+      "path": "/#com-treballem",
+      "count": 46
+    },
+    {
+      "path": "/#contacte",
+      "count": 44
+    },
+    {
+      "path": "/recursos",
+      "count": 36
+    },
+    {
+      "path": "/#recursos",
+      "count": 34
+    },
+    {
+      "path": "/en",
+      "count": 20
+    },
+    {
+      "path": "/comenca",
+      "count": 16
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 15
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 13
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 13
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 13
+    },
+    {
+      "path": "/recursos/drets-imatges-promocionals",
+      "count": 8
+    },
+    {
+      "path": "/en/#recursos",
+      "count": 8
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 8
+    },
+    {
+      "path": "/recursos/viatjant-amb-jazz-per-europa",
+      "count": 7
+    },
+    {
+      "path": "/serveis/identitat-visual",
+      "count": 7
+    },
+    {
+      "path": "/en/resources/artistic-residency",
+      "count": 6
+    },
+    {
+      "path": "/recursos/ruta-jazz-europa",
+      "count": 6
+    },
+    {
+      "path": "/recursos/perseguint-el-duende",
+      "count": 6
+    },
+    {
+      "path": "/recursos/xarxes-socials-artistes",
+      "count": 6
+    },
+    {
+      "path": "/en/resources",
+      "count": 6
+    },
+    {
+      "path": "/recursos/press-kit-digital-actors",
+      "count": 6
+    },
+    {
+      "path": "/recursos/per-que-web-propia-instagram",
+      "count": 6
+    },
+    {
+      "path": "/serveis/estrategia-xarxes",
+      "count": 6
+    },
+    {
+      "path": "/per-a-qui/musics",
+      "count": 5
+    },
+    {
+      "path": "/recursos/rider-tecnic",
+      "count": 5
+    },
+    {
+      "path": "/recursos/presentar-projecte-festival",
+      "count": 5
+    }
+  ],
+  "by_lang": {
+    "en": 147
+  },
+  "by_section": {
+    "inici": 360,
+    "#que-fem": 81,
+    "#per-qui": 67,
+    "#quisom": 64,
+    "#com-treballem": 59,
+    "#contacte": 52,
+    "recursos": 163,
+    "#recursos": 42,
+    "comenca": 16,
+    "serveis": 28,
+    "resources": 53,
+    "per-a-qui": 17,
+    "legal": 10,
+    "start": 2,
+    "tags": 4,
+    "services": 2
+  },
   "browsers": [
     {
       "name": "Chrome",
