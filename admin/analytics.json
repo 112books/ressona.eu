@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T20:07:37.711762Z",
+  "generated": "2026-08-15T21:08:54.709915Z",
   "period": {
     "start": "2025-08-15",
     "end": "2026-08-15"
@@ -375,12 +375,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 552
+      "count": 553
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 472
+      "count": 473
     },
     {
       "name": "Firefox",
@@ -402,7 +402,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 612
+      "count": 613
     },
     {
       "name": "Android",
@@ -417,7 +417,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 92
+      "count": 93
     },
     {
       "name": "Linux",
@@ -434,7 +434,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 526
+      "count": 527
     },
     {
       "name": "phone",
@@ -444,7 +444,7 @@
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 148
+      "count": 149
     },
     {
       "name": "tablet",
@@ -456,7 +456,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 787
+      "count": 788
     },
     {
       "name": "United States",
@@ -519,13 +519,13 @@
       "count": 2
     },
     {
-      "name": "Andorra",
-      "id": "AD",
-      "count": 1
+      "name": "Venezuela",
+      "id": "VE",
+      "count": 2
     },
     {
-      "name": "Cyprus",
-      "id": "CY",
+      "name": "Andorra",
+      "id": "AD",
       "count": 1
     }
   ],
