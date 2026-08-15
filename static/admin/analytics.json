@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-14T23:09:27.702811Z",
+  "generated": "2026-08-15T00:28:08.969035Z",
   "period": {
-    "start": "2025-08-14",
-    "end": "2026-08-14"
+    "start": "2025-08-15",
+    "end": "2026-08-15"
   },
-  "total": 1017,
+  "total": 1020,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -222,12 +222,16 @@
     {
       "date": "2026-08-13",
       "count": 5
+    },
+    {
+      "date": "2026-08-14",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 339
+      "count": 340
     },
     {
       "path": "/#que-fem",
@@ -263,7 +267,7 @@
     },
     {
       "path": "/comenca",
-      "count": 15
+      "count": 16
     },
     {
       "path": "/en/#que-fem",
@@ -347,10 +351,10 @@
     }
   ],
   "by_lang": {
-    "en": 146
+    "en": 147
   },
   "by_section": {
-    "inici": 359,
+    "inici": 360,
     "#que-fem": 81,
     "#per-qui": 67,
     "#quisom": 64,
@@ -358,9 +362,9 @@
     "#contacte": 52,
     "recursos": 163,
     "#recursos": 42,
-    "comenca": 15,
+    "comenca": 16,
     "serveis": 28,
-    "resources": 52,
+    "resources": 53,
     "per-a-qui": 17,
     "legal": 10,
     "start": 2,
@@ -529,12 +533,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 446
+      "count": 447
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 31
+      "count": 32
     },
     {
       "name": "ig",
