@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-19T23:11:15.700197Z",
+  "generated": "2026-08-20T00:27:18.579765Z",
   "period": {
-    "start": "2025-08-19",
-    "end": "2026-08-19"
+    "start": "2025-08-20",
+    "end": "2026-08-20"
   },
-  "total": 1038,
+  "total": 1043,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -157,7 +157,7 @@
     },
     {
       "date": "2026-07-23",
-      "count": 20
+      "count": 19
     },
     {
       "date": "2026-07-24",
@@ -238,12 +238,16 @@
     {
       "date": "2026-08-18",
       "count": 2
+    },
+    {
+      "date": "2026-08-19",
+      "count": 6
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 343
+      "count": 344
     },
     {
       "path": "/#que-fem",
@@ -298,6 +302,10 @@
       "count": 13
     },
     {
+      "path": "/en/resources",
+      "count": 8
+    },
+    {
       "path": "/recursos/drets-imatges-promocionals",
       "count": 8
     },
@@ -311,10 +319,6 @@
     },
     {
       "path": "/recursos/viatjant-amb-jazz-per-europa",
-      "count": 7
-    },
-    {
-      "path": "/en/resources",
       "count": 7
     },
     {
@@ -363,19 +367,19 @@
     }
   ],
   "by_lang": {
-    "en": 159
+    "en": 164
   },
   "by_section": {
-    "inici": 364,
+    "inici": 365,
     "#que-fem": 83,
     "#per-qui": 69,
     "#quisom": 65,
     "#com-treballem": 60,
     "#contacte": 53,
-    "recursos": 160,
+    "recursos": 159,
     "#recursos": 43,
     "comenca": 16,
-    "resources": 63,
+    "resources": 68,
     "serveis": 28,
     "per-a-qui": 18,
     "legal": 10,
@@ -544,12 +548,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 452
+      "count": 456
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 35
+      "count": 36
     },
     {
       "name": "chatgpt.com",
