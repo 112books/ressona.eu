@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-20T23:13:24.668358Z",
+  "generated": "2026-08-21T00:30:16.972939Z",
   "period": {
-    "start": "2025-08-20",
-    "end": "2026-08-20"
+    "start": "2025-08-21",
+    "end": "2026-08-21"
   },
-  "total": 1043,
+  "total": 1053,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -144,6 +144,10 @@
       "count": 26
     },
     {
+      "date": "2026-07-17",
+      "count": 1
+    },
+    {
       "date": "2026-07-20",
       "count": 8
     },
@@ -169,7 +173,7 @@
     },
     {
       "date": "2026-07-29",
-      "count": 4
+      "count": 3
     },
     {
       "date": "2026-07-30",
@@ -177,7 +181,7 @@
     },
     {
       "date": "2026-08-03",
-      "count": 6
+      "count": 4
     },
     {
       "date": "2026-08-04",
@@ -242,28 +246,32 @@
     {
       "date": "2026-08-19",
       "count": 6
+    },
+    {
+      "date": "2026-08-20",
+      "count": 12
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 344
+      "count": 348
     },
     {
       "path": "/#que-fem",
-      "count": 67
+      "count": 68
     },
     {
       "path": "/#per-qui",
-      "count": 55
+      "count": 56
     },
     {
       "path": "/#quisom",
-      "count": 52
+      "count": 53
     },
     {
       "path": "/#com-treballem",
-      "count": 47
+      "count": 48
     },
     {
       "path": "/#contacte",
@@ -367,19 +375,19 @@
     }
   ],
   "by_lang": {
-    "en": 164
+    "en": 167
   },
   "by_section": {
-    "inici": 365,
-    "#que-fem": 83,
-    "#per-qui": 69,
-    "#quisom": 65,
-    "#com-treballem": 60,
+    "inici": 369,
+    "#que-fem": 84,
+    "#per-qui": 70,
+    "#quisom": 66,
+    "#com-treballem": 61,
     "#contacte": 53,
-    "recursos": 159,
+    "recursos": 158,
     "#recursos": 43,
     "comenca": 16,
-    "resources": 68,
+    "resources": 71,
     "serveis": 28,
     "per-a-qui": 18,
     "legal": 10,
@@ -548,17 +556,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 456
+      "count": 459
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 36
+      "count": 42
     },
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 11
+      "count": 12
     },
     {
       "name": "ig",
@@ -583,7 +591,7 @@
     {
       "name": "duckduckgo.com",
       "id": "duckduckgo.com",
-      "count": 3
+      "count": 4
     },
     {
       "name": "www.facebook.com",
