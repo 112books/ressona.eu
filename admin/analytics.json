@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-23T23:08:37.811416Z",
+  "generated": "2026-08-24T00:29:14.379052Z",
   "period": {
-    "start": "2025-08-23",
-    "end": "2026-08-23"
+    "start": "2025-08-24",
+    "end": "2026-08-24"
   },
-  "total": 1064,
+  "total": 1066,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -213,7 +213,7 @@
     },
     {
       "date": "2026-08-12",
-      "count": 13
+      "count": 11
     },
     {
       "date": "2026-08-13",
@@ -254,16 +254,20 @@
     {
       "date": "2026-08-22",
       "count": 4
+    },
+    {
+      "date": "2026-08-23",
+      "count": 4
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 348
+      "count": 349
     },
     {
       "path": "/#que-fem",
-      "count": 68
+      "count": 69
     },
     {
       "path": "/#per-qui",
@@ -379,19 +383,19 @@
     }
   ],
   "by_lang": {
-    "en": 178
+    "en": 176
   },
   "by_section": {
-    "inici": 370,
-    "#que-fem": 85,
+    "inici": 371,
+    "#que-fem": 86,
     "#per-qui": 71,
     "#quisom": 66,
     "#com-treballem": 61,
     "#contacte": 53,
-    "recursos": 158,
+    "recursos": 160,
     "#recursos": 43,
     "comenca": 16,
-    "resources": 78,
+    "resources": 76,
     "serveis": 28,
     "per-a-qui": 18,
     "legal": 10,
@@ -566,7 +570,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 44
+      "count": 45
     },
     {
       "name": "chatgpt.com",
@@ -589,14 +593,14 @@
       "count": 7
     },
     {
-      "name": "linuxbcn.com",
-      "id": "linuxbcn.com",
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
       "count": 5
     },
     {
-      "name": "duckduckgo.com",
-      "id": "duckduckgo.com",
-      "count": 4
+      "name": "linuxbcn.com",
+      "id": "linuxbcn.com",
+      "count": 5
     },
     {
       "name": "www.facebook.com",
