@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-24T23:11:46.051420Z",
+  "generated": "2026-08-25T00:28:29.553456Z",
   "period": {
-    "start": "2025-08-24",
-    "end": "2026-08-24"
+    "start": "2025-08-25",
+    "end": "2026-08-25"
   },
-  "total": 1066,
+  "total": 1067,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -213,7 +213,7 @@
     },
     {
       "date": "2026-08-12",
-      "count": 11
+      "count": 10
     },
     {
       "date": "2026-08-13",
@@ -258,6 +258,10 @@
     {
       "date": "2026-08-23",
       "count": 4
+    },
+    {
+      "date": "2026-08-24",
+      "count": 2
     }
   ],
   "hits": [
@@ -383,7 +387,7 @@
     }
   ],
   "by_lang": {
-    "en": 176
+    "en": 177
   },
   "by_section": {
     "inici": 371,
@@ -395,7 +399,7 @@
     "recursos": 160,
     "#recursos": 43,
     "comenca": 16,
-    "resources": 76,
+    "resources": 77,
     "serveis": 28,
     "per-a-qui": 18,
     "legal": 10,
@@ -570,7 +574,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 45
+      "count": 46
     },
     {
       "name": "chatgpt.com",
@@ -595,7 +599,7 @@
     {
       "name": "duckduckgo.com",
       "id": "duckduckgo.com",
-      "count": 5
+      "count": 6
     },
     {
       "name": "linuxbcn.com",
