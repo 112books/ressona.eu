@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-25T23:14:08.577599Z",
+  "generated": "2026-08-26T00:29:38.366129Z",
   "period": {
-    "start": "2025-08-25",
-    "end": "2026-08-25"
+    "start": "2025-08-26",
+    "end": "2026-08-26"
   },
-  "total": 1067,
+  "total": 1071,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -262,6 +262,14 @@
     {
       "date": "2026-08-24",
       "count": 2
+    },
+    {
+      "date": "2026-08-25",
+      "count": 1
+    },
+    {
+      "date": "2026-08-26",
+      "count": 3
     }
   ],
   "hits": [
@@ -299,11 +307,11 @@
     },
     {
       "path": "/en",
-      "count": 22
+      "count": 23
     },
     {
       "path": "/en/#que-fem",
-      "count": 17
+      "count": 18
     },
     {
       "path": "/comenca",
@@ -346,6 +354,10 @@
       "count": 7
     },
     {
+      "path": "/en/resources/hard-rock-heavy-metal-europe",
+      "count": 6
+    },
+    {
       "path": "/en/resources/artistic-residency",
       "count": 6
     },
@@ -374,10 +386,6 @@
       "count": 6
     },
     {
-      "path": "/en/resources/hard-rock-heavy-metal-europe",
-      "count": 5
-    },
-    {
       "path": "/en/resources/travelling-with-jazz-europe",
       "count": 5
     },
@@ -387,11 +395,11 @@
     }
   ],
   "by_lang": {
-    "en": 177
+    "en": 181
   },
   "by_section": {
-    "inici": 371,
-    "#que-fem": 86,
+    "inici": 372,
+    "#que-fem": 87,
     "#per-qui": 71,
     "#quisom": 66,
     "#com-treballem": 61,
@@ -399,7 +407,7 @@
     "recursos": 160,
     "#recursos": 43,
     "comenca": 16,
-    "resources": 77,
+    "resources": 79,
     "serveis": 28,
     "per-a-qui": 18,
     "legal": 10,
@@ -416,7 +424,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 478
+      "count": 481
     },
     {
       "name": "Firefox",
@@ -448,7 +456,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 143
+      "count": 146
     },
     {
       "name": "Windows",
@@ -475,7 +483,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 344
+      "count": 347
     },
     {
       "name": "desktophd",
@@ -505,6 +513,11 @@
       "count": 13
     },
     {
+      "name": "Australia",
+      "id": "AU",
+      "count": 10
+    },
+    {
       "name": "France",
       "id": "FR",
       "count": 10
@@ -513,11 +526,6 @@
       "name": "Ecuador",
       "id": "EC",
       "count": 9
-    },
-    {
-      "name": "Australia",
-      "id": "AU",
-      "count": 7
     },
     {
       "name": "Netherlands",
@@ -574,7 +582,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 46
+      "count": 47
     },
     {
       "name": "chatgpt.com",
@@ -592,14 +600,14 @@
       "count": 8
     },
     {
-      "name": "112books.github.io",
-      "id": "112books.github.io",
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
       "count": 7
     },
     {
-      "name": "duckduckgo.com",
-      "id": "duckduckgo.com",
-      "count": 6
+      "name": "112books.github.io",
+      "id": "112books.github.io",
+      "count": 7
     },
     {
       "name": "linuxbcn.com",
