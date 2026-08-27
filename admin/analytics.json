@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-26T21:21:50.370492Z",
+  "generated": "2026-08-27T02:18:18.903952Z",
   "period": {
-    "start": "2025-08-26",
-    "end": "2026-08-26"
+    "start": "2025-08-27",
+    "end": "2026-08-27"
   },
-  "total": 1071,
+  "total": 1072,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-08-26",
-      "count": 3
+      "count": 4
     }
   ],
   "hits": [
@@ -395,7 +395,7 @@
     }
   ],
   "by_lang": {
-    "en": 181
+    "en": 182
   },
   "by_section": {
     "inici": 372,
@@ -407,7 +407,7 @@
     "recursos": 160,
     "#recursos": 43,
     "comenca": 16,
-    "resources": 79,
+    "resources": 80,
     "serveis": 28,
     "per-a-qui": 18,
     "legal": 10,
@@ -620,8 +620,8 @@
       "count": 3
     },
     {
-      "name": "www.perplexity.ai",
-      "id": "www.perplexity.ai",
+      "name": "www.bing.com",
+      "id": "www.bing.com",
       "count": 2
     }
   ]
