@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-31T17:15:45.663316Z",
+  "generated": "2026-08-31T22:04:50.572110Z",
   "period": {
     "start": "2025-08-31",
     "end": "2026-08-31"
   },
-  "total": 1088,
+  "total": 1161,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-06-20",
-      "count": 13
+      "count": 15
     },
     {
       "date": "2026-06-21",
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 116
+      "count": 125
     },
     {
       "date": "2026-06-28",
@@ -73,27 +73,27 @@
     },
     {
       "date": "2026-06-29",
-      "count": 11
+      "count": 12
     },
     {
       "date": "2026-06-30",
-      "count": 64
+      "count": 65
     },
     {
       "date": "2026-07-01",
-      "count": 83
+      "count": 85
     },
     {
       "date": "2026-07-02",
-      "count": 91
+      "count": 96
     },
     {
       "date": "2026-07-03",
-      "count": 89
+      "count": 102
     },
     {
       "date": "2026-07-04",
-      "count": 43
+      "count": 46
     },
     {
       "date": "2026-07-05",
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-07-06",
-      "count": 68
+      "count": 73
     },
     {
       "date": "2026-07-07",
@@ -141,7 +141,7 @@
     },
     {
       "date": "2026-07-16",
-      "count": 26
+      "count": 28
     },
     {
       "date": "2026-07-17",
@@ -149,11 +149,11 @@
     },
     {
       "date": "2026-07-20",
-      "count": 8
+      "count": 9
     },
     {
       "date": "2026-07-21",
-      "count": 3
+      "count": 4
     },
     {
       "date": "2026-07-22",
@@ -161,7 +161,7 @@
     },
     {
       "date": "2026-07-23",
-      "count": 19
+      "count": 21
     },
     {
       "date": "2026-07-24",
@@ -173,7 +173,7 @@
     },
     {
       "date": "2026-07-29",
-      "count": 3
+      "count": 4
     },
     {
       "date": "2026-07-30",
@@ -181,7 +181,7 @@
     },
     {
       "date": "2026-08-03",
-      "count": 4
+      "count": 6
     },
     {
       "date": "2026-08-04",
@@ -190,6 +190,10 @@
     {
       "date": "2026-08-05",
       "count": 13
+    },
+    {
+      "date": "2026-08-06",
+      "count": 1
     },
     {
       "date": "2026-08-07",
@@ -213,11 +217,11 @@
     },
     {
       "date": "2026-08-12",
-      "count": 10
+      "count": 13
     },
     {
       "date": "2026-08-13",
-      "count": 4
+      "count": 5
     },
     {
       "date": "2026-08-14",
@@ -225,7 +229,7 @@
     },
     {
       "date": "2026-08-15",
-      "count": 12
+      "count": 13
     },
     {
       "date": "2026-08-16",
@@ -233,19 +237,23 @@
     },
     {
       "date": "2026-08-17",
-      "count": 7
+      "count": 8
+    },
+    {
+      "date": "2026-08-18",
+      "count": 2
     },
     {
       "date": "2026-08-19",
-      "count": 5
+      "count": 6
     },
     {
       "date": "2026-08-20",
-      "count": 11
+      "count": 12
     },
     {
       "date": "2026-08-21",
-      "count": 7
+      "count": 9
     },
     {
       "date": "2026-08-22",
@@ -253,7 +261,7 @@
     },
     {
       "date": "2026-08-23",
-      "count": 2
+      "count": 4
     },
     {
       "date": "2026-08-24",
@@ -269,11 +277,11 @@
     },
     {
       "date": "2026-08-27",
-      "count": 4
+      "count": 5
     },
     {
       "date": "2026-08-28",
-      "count": 10
+      "count": 17
     },
     {
       "date": "2026-08-29",
@@ -284,148 +292,9 @@
       "count": 2
     }
   ],
-  "hits": [
-    {
-      "path": "/",
-      "count": 349
-    },
-    {
-      "path": "/#que-fem",
-      "count": 69
-    },
-    {
-      "path": "/#per-qui",
-      "count": 56
-    },
-    {
-      "path": "/#quisom",
-      "count": 53
-    },
-    {
-      "path": "/#com-treballem",
-      "count": 48
-    },
-    {
-      "path": "/#contacte",
-      "count": 45
-    },
-    {
-      "path": "/recursos",
-      "count": 36
-    },
-    {
-      "path": "/#recursos",
-      "count": 35
-    },
-    {
-      "path": "/en",
-      "count": 24
-    },
-    {
-      "path": "/en/#que-fem",
-      "count": 18
-    },
-    {
-      "path": "/comenca",
-      "count": 16
-    },
-    {
-      "path": "/en/#per-qui",
-      "count": 15
-    },
-    {
-      "path": "/en/#com-treballem",
-      "count": 13
-    },
-    {
-      "path": "/en/#quisom",
-      "count": 13
-    },
-    {
-      "path": "/en/resources",
-      "count": 8
-    },
-    {
-      "path": "/recursos/drets-imatges-promocionals",
-      "count": 8
-    },
-    {
-      "path": "/en/#recursos",
-      "count": 8
-    },
-    {
-      "path": "/en/#contacte",
-      "count": 8
-    },
-    {
-      "path": "/recursos/viatjant-amb-jazz-per-europa",
-      "count": 7
-    },
-    {
-      "path": "/serveis/identitat-visual",
-      "count": 7
-    },
-    {
-      "path": "/en/resources/hard-rock-heavy-metal-europe",
-      "count": 6
-    },
-    {
-      "path": "/en/resources/artistic-residency",
-      "count": 6
-    },
-    {
-      "path": "/recursos/ruta-jazz-europa",
-      "count": 6
-    },
-    {
-      "path": "/recursos/perseguint-el-duende",
-      "count": 6
-    },
-    {
-      "path": "/recursos/xarxes-socials-artistes",
-      "count": 6
-    },
-    {
-      "path": "/recursos/press-kit-digital-actors",
-      "count": 6
-    },
-    {
-      "path": "/recursos/per-que-web-propia-instagram",
-      "count": 6
-    },
-    {
-      "path": "/serveis/estrategia-xarxes",
-      "count": 6
-    },
-    {
-      "path": "/en/resources/digital-portfolio-visual-artists",
-      "count": 5
-    },
-    {
-      "path": "/en/resources/travelling-with-jazz-europe",
-      "count": 5
-    }
-  ],
-  "by_lang": {
-    "en": 191
-  },
-  "by_section": {
-    "inici": 373,
-    "#que-fem": 87,
-    "#per-qui": 71,
-    "#quisom": 66,
-    "#com-treballem": 61,
-    "#contacte": 53,
-    "recursos": 165,
-    "#recursos": 43,
-    "comenca": 16,
-    "resources": 86,
-    "serveis": 28,
-    "per-a-qui": 17,
-    "legal": 11,
-    "start": 2,
-    "tags": 9
-  },
+  "hits": [],
+  "by_lang": {},
+  "by_section": {},
   "browsers": [
     {
       "name": "Chrome",
@@ -435,7 +304,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 486
+      "count": 500
     },
     {
       "name": "Firefox",
@@ -457,7 +326,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 642
+      "count": 656
     },
     {
       "name": "Android",
@@ -499,7 +368,7 @@
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 165
+      "count": 179
     },
     {
       "name": "tablet",
@@ -511,7 +380,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 809
+      "count": 823
     },
     {
       "name": "United States",
