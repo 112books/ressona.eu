@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-02T21:22:58.548769Z",
+  "generated": "2026-09-02T23:37:57.900894Z",
   "period": {
     "start": "2025-09-02",
     "end": "2026-09-02"
   },
-  "total": 1129,
+  "total": 1210,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "date": "2026-06-18",
-      "count": 37
+      "count": 38
     },
     {
       "date": "2026-06-19",
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-06-20",
-      "count": 12
+      "count": 15
     },
     {
       "date": "2026-06-21",
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 117
+      "count": 125
     },
     {
       "date": "2026-06-28",
@@ -73,27 +73,27 @@
     },
     {
       "date": "2026-06-29",
-      "count": 11
+      "count": 12
     },
     {
       "date": "2026-06-30",
-      "count": 64
+      "count": 65
     },
     {
       "date": "2026-07-01",
-      "count": 83
+      "count": 85
     },
     {
       "date": "2026-07-02",
-      "count": 91
+      "count": 96
     },
     {
       "date": "2026-07-03",
-      "count": 89
+      "count": 102
     },
     {
       "date": "2026-07-04",
-      "count": 43
+      "count": 46
     },
     {
       "date": "2026-07-05",
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-07-06",
-      "count": 68
+      "count": 73
     },
     {
       "date": "2026-07-07",
@@ -141,7 +141,7 @@
     },
     {
       "date": "2026-07-16",
-      "count": 26
+      "count": 28
     },
     {
       "date": "2026-07-17",
@@ -149,7 +149,7 @@
     },
     {
       "date": "2026-07-20",
-      "count": 8
+      "count": 9
     },
     {
       "date": "2026-07-21",
@@ -161,7 +161,7 @@
     },
     {
       "date": "2026-07-23",
-      "count": 19
+      "count": 21
     },
     {
       "date": "2026-07-24",
@@ -173,7 +173,7 @@
     },
     {
       "date": "2026-07-29",
-      "count": 3
+      "count": 4
     },
     {
       "date": "2026-07-30",
@@ -181,7 +181,7 @@
     },
     {
       "date": "2026-08-03",
-      "count": 4
+      "count": 6
     },
     {
       "date": "2026-08-04",
@@ -190,6 +190,10 @@
     {
       "date": "2026-08-05",
       "count": 13
+    },
+    {
+      "date": "2026-08-06",
+      "count": 1
     },
     {
       "date": "2026-08-07",
@@ -213,11 +217,11 @@
     },
     {
       "date": "2026-08-12",
-      "count": 12
+      "count": 13
     },
     {
       "date": "2026-08-13",
-      "count": 4
+      "count": 5
     },
     {
       "date": "2026-08-14",
@@ -225,7 +229,7 @@
     },
     {
       "date": "2026-08-15",
-      "count": 12
+      "count": 13
     },
     {
       "date": "2026-08-16",
@@ -233,19 +237,23 @@
     },
     {
       "date": "2026-08-17",
-      "count": 7
+      "count": 8
+    },
+    {
+      "date": "2026-08-18",
+      "count": 2
     },
     {
       "date": "2026-08-19",
-      "count": 5
+      "count": 6
     },
     {
       "date": "2026-08-20",
-      "count": 11
+      "count": 12
     },
     {
       "date": "2026-08-21",
-      "count": 7
+      "count": 9
     },
     {
       "date": "2026-08-22",
@@ -253,7 +261,7 @@
     },
     {
       "date": "2026-08-23",
-      "count": 2
+      "count": 4
     },
     {
       "date": "2026-08-24",
@@ -269,15 +277,15 @@
     },
     {
       "date": "2026-08-27",
-      "count": 4
+      "count": 5
     },
     {
       "date": "2026-08-28",
-      "count": 10
+      "count": 17
     },
     {
       "date": "2026-08-29",
-      "count": 2
+      "count": 5
     },
     {
       "date": "2026-08-30",
@@ -289,151 +297,12 @@
     },
     {
       "date": "2026-09-01",
-      "count": 19
+      "count": 26
     }
   ],
-  "hits": [
-    {
-      "path": "/",
-      "count": 350
-    },
-    {
-      "path": "/#que-fem",
-      "count": 70
-    },
-    {
-      "path": "/#per-qui",
-      "count": 57
-    },
-    {
-      "path": "/#quisom",
-      "count": 54
-    },
-    {
-      "path": "/#com-treballem",
-      "count": 49
-    },
-    {
-      "path": "/#contacte",
-      "count": 46
-    },
-    {
-      "path": "/recursos",
-      "count": 37
-    },
-    {
-      "path": "/#recursos",
-      "count": 36
-    },
-    {
-      "path": "/en",
-      "count": 27
-    },
-    {
-      "path": "/en/#que-fem",
-      "count": 21
-    },
-    {
-      "path": "/en/#per-qui",
-      "count": 18
-    },
-    {
-      "path": "/comenca",
-      "count": 17
-    },
-    {
-      "path": "/en/#com-treballem",
-      "count": 16
-    },
-    {
-      "path": "/en/#quisom",
-      "count": 16
-    },
-    {
-      "path": "/en/resources",
-      "count": 10
-    },
-    {
-      "path": "/en/#recursos",
-      "count": 9
-    },
-    {
-      "path": "/en/#contacte",
-      "count": 9
-    },
-    {
-      "path": "/recursos/drets-imatges-promocionals",
-      "count": 8
-    },
-    {
-      "path": "/recursos/viatjant-amb-jazz-per-europa",
-      "count": 7
-    },
-    {
-      "path": "/serveis/identitat-visual",
-      "count": 7
-    },
-    {
-      "path": "/en/resources/hard-rock-heavy-metal-europe",
-      "count": 6
-    },
-    {
-      "path": "/en/resources/travelling-with-jazz-europe",
-      "count": 6
-    },
-    {
-      "path": "/en/resources/artistic-residency",
-      "count": 6
-    },
-    {
-      "path": "/recursos/ruta-jazz-europa",
-      "count": 6
-    },
-    {
-      "path": "/recursos/perseguint-el-duende",
-      "count": 6
-    },
-    {
-      "path": "/recursos/xarxes-socials-artistes",
-      "count": 6
-    },
-    {
-      "path": "/recursos/press-kit-digital-actors",
-      "count": 6
-    },
-    {
-      "path": "/recursos/per-que-web-propia-instagram",
-      "count": 6
-    },
-    {
-      "path": "/serveis/estrategia-xarxes",
-      "count": 6
-    },
-    {
-      "path": "/en/resources/digital-portfolio-visual-artists",
-      "count": 5
-    }
-  ],
-  "by_lang": {
-    "en": 228
-  },
-  "by_section": {
-    "inici": 377,
-    "#que-fem": 91,
-    "#per-qui": 75,
-    "#quisom": 70,
-    "#com-treballem": 65,
-    "#contacte": 55,
-    "recursos": 165,
-    "#recursos": 45,
-    "comenca": 17,
-    "resources": 106,
-    "serveis": 26,
-    "per-a-qui": 19,
-    "legal": 10,
-    "start": 2,
-    "tags": 6
-  },
+  "hits": [],
+  "by_lang": {},
+  "by_section": {},
   "browsers": [
     {
       "name": "Chrome",
