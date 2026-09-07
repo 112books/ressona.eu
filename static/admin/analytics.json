@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-06T22:29:06.323371Z",
+  "generated": "2026-09-07T00:24:32.513857Z",
   "period": {
-    "start": "2025-09-06",
-    "end": "2026-09-06"
+    "start": "2025-09-07",
+    "end": "2026-09-07"
   },
-  "total": 1140,
+  "total": 1142,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -306,6 +306,14 @@
     {
       "date": "2026-09-05",
       "count": 1
+    },
+    {
+      "date": "2026-09-06",
+      "count": 1
+    },
+    {
+      "date": "2026-09-07",
+      "count": 1
     }
   ],
   "hits": [
@@ -378,6 +386,10 @@
       "count": 9
     },
     {
+      "path": "/en/resources/circus-schools-europe",
+      "count": 8
+    },
+    {
       "path": "/recursos/drets-imatges-promocionals",
       "count": 8
     },
@@ -387,10 +399,6 @@
     },
     {
       "path": "/en/resources/travelling-with-jazz-europe",
-      "count": 7
-    },
-    {
-      "path": "/en/resources/circus-schools-europe",
       "count": 7
     },
     {
@@ -431,7 +439,7 @@
     }
   ],
   "by_lang": {
-    "en": 240
+    "en": 241
   },
   "by_section": {
     "inici": 379,
@@ -440,10 +448,10 @@
     "#quisom": 71,
     "#com-treballem": 65,
     "#contacte": 55,
-    "recursos": 165,
+    "recursos": 166,
     "#recursos": 45,
     "comenca": 17,
-    "resources": 113,
+    "resources": 114,
     "serveis": 26,
     "per-a-qui": 20,
     "legal": 8,
@@ -454,7 +462,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 668
+      "count": 669
     },
     {
       "name": "Safari",
@@ -496,7 +504,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 119
+      "count": 120
     },
     {
       "name": "Linux",
@@ -513,7 +521,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 605
+      "count": 606
     },
     {
       "name": "phone",
@@ -573,14 +581,14 @@
       "count": 9
     },
     {
-      "name": "Poland",
-      "id": "PL",
+      "name": "United Kingdom",
+      "id": "GB",
       "count": 9
     },
     {
-      "name": "United Kingdom",
-      "id": "GB",
-      "count": 8
+      "name": "Poland",
+      "id": "PL",
+      "count": 9
     },
     {
       "name": "Switzerland",
@@ -612,7 +620,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 487
+      "count": 488
     },
     {
       "name": "Google",
@@ -622,7 +630,7 @@
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 14
+      "count": 15
     },
     {
       "name": "ig",
