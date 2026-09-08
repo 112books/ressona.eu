@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-07T23:04:37.239766Z",
+  "generated": "2026-09-08T01:36:06.889915Z",
   "period": {
-    "start": "2025-09-07",
-    "end": "2026-09-07"
+    "start": "2025-09-08",
+    "end": "2026-09-08"
   },
-  "total": 1142,
+  "total": 1148,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -313,13 +313,13 @@
     },
     {
       "date": "2026-09-07",
-      "count": 1
+      "count": 7
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 351
+      "count": 352
     },
     {
       "path": "/#que-fem",
@@ -378,6 +378,10 @@
       "count": 10
     },
     {
+      "path": "/recursos/drets-imatges-promocionals",
+      "count": 9
+    },
+    {
       "path": "/en/#recursos",
       "count": 9
     },
@@ -387,10 +391,6 @@
     },
     {
       "path": "/en/resources/circus-schools-europe",
-      "count": 8
-    },
-    {
-      "path": "/recursos/drets-imatges-promocionals",
       "count": 8
     },
     {
@@ -439,19 +439,19 @@
     }
   ],
   "by_lang": {
-    "en": 241
+    "en": 245
   },
   "by_section": {
-    "inici": 379,
+    "inici": 380,
     "#que-fem": 92,
     "#per-qui": 76,
     "#quisom": 71,
     "#com-treballem": 65,
     "#contacte": 55,
-    "recursos": 166,
+    "recursos": 167,
     "#recursos": 45,
     "comenca": 17,
-    "resources": 114,
+    "resources": 118,
     "serveis": 26,
     "per-a-qui": 20,
     "legal": 8,
@@ -620,12 +620,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 488
+      "count": 489
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 60
+      "count": 64
     },
     {
       "name": "chatgpt.com",
