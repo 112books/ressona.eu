@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa Música Clàssica i Òpera Europa · Ressona</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', system-ui, sans-serif; background: #0a1020; color: #d9d0d5; }
+  #map { width: 100%; height: 100vh; }
+  .controls {
+    position: absolute; top: 10px; right: 10px; z-index: 1000;
+    background: rgba(10,16,32,0.93); border: 1px solid rgba(200,168,75,0.3);
+    padding: 10px 14px; display: flex; flex-direction: column; gap: 6px;
+    font-size: 11px; letter-spacing: .07em; text-transform: uppercase;
+  }
+  .ctrl-btn {
+    background: transparent; border: 1px solid rgba(200,168,75,0.35);
+    color: #d9d0d5; padding: 5px 10px; cursor: pointer; font-size: 10px;
+    letter-spacing: .08em; text-transform: uppercase; text-align: left;
+    transition: all .15s;
+  }
+  .ctrl-btn:hover, .ctrl-btn.active { background: #c8a84b; color: #0a1020; border-color: #c8a84b; }
+  .ctrl-label { color: rgba(217,208,213,0.45); font-size: 9px; margin-bottom: 2px; }
+  .leaflet-popup-content-wrapper {
+    background: #0a1020; color: #d9d0d5; border: 1px solid rgba(200,168,75,0.3);
+    border-radius: 2px; box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+  }
+  .leaflet-popup-tip { background: #0a1020; }
+  .leaflet-popup-content { margin: 12px 14px; font-size: 12px; line-height: 1.6; min-width: 180px; }
+  .pop-name { font-weight: 600; color: #c8a84b; margin-bottom: 3px; font-size: 13px; }
+  .pop-type { font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+    color: rgba(217,208,213,0.5); margin-bottom: 5px; }
+  .pop-info { color: rgba(217,208,213,0.8); margin-bottom: 5px; }
+  .pop-link a { color: #5a9fd4; text-decoration: none; font-size: 11px; }
+  .pop-link a:hover { color: #c8a84b; }
+  .marker-custom { width: 12px; height: 12px; border-radius: 50%; box-shadow: 0 0 6px rgba(0,0,0,0.6); }
+  .marker-festival { background: #c8a84b; border: 2px solid #f0d07a; }
+  .marker-opera    { background: #a02040; border: 2px solid #d04060; }
+  .marker-sala     { background: #2a6fa8; border: 2px solid #5a9fd4; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="controls">
+  <div class="ctrl-label">Filtrar per</div>
+  <button class="ctrl-btn active" onclick="filterType('all',this)">Tot</button>
+  <button class="ctrl-btn" onclick="filterType('festival',this)">Festivals</button>
+  <button class="ctrl-btn" onclick="filterType('opera',this)">Òpera</button>
+  <button class="ctrl-btn" onclick="filterType('sala',this)">Sales</button>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+const map = L.map('map', { zoomControl: true, scrollWheelZoom: false }).setView([48.5, 10.5], 4);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+  maxZoom: 18
+}).addTo(map);
+
+function makeIcon(type) {
+  const cls = 'marker-' + type;
+  return L.divIcon({ className: 'marker-custom ' + cls, iconSize: [12,12], iconAnchor: [6,6], popupAnchor: [0,-8] });
+}
+
+const typeLabel = { festival: '🎭 Festival', opera: '🎼 Teatre d\'òpera', sala: '🎹 Sala de concerts' };
+
+const locations = [
+  // VIENA
+  { type:'opera',    name:'Wiener Staatsoper',        city:'Viena, Àustria',     desc:'Des de 1869. Prop de 300 representacions per temporada, canvi diari de títol. La programació d\'òpera més densa d\'Europa.',                      url:'https://www.wiener-staatsoper.at/', lat:48.2032, lng:16.3695 },
+  { type:'sala',     name:'Wiener Musikverein',        city:'Viena, Àustria',     desc:'Des de 1870. La sala de concerts amb millor acústica del món. Seu dels Wiener Philharmoniker i del Concert de Cap d\'Any.',                         url:'https://www.musikverein.at/',       lat:48.2003, lng:16.3724 },
+  { type:'festival', name:'Wien Modern',               city:'Viena, Àustria',     mes:'Novembre', desc:'Des de 1988. Festival de música contemporània i avantguarda al Konzerthaus i altres espais de Viena.',                              url:'https://www.wienmodern.at/',        lat:48.2007, lng:16.3810 },
+  // SALZBURG
+  { type:'festival', name:'Salzburger Festspiele',     city:'Salzburg, Àustria',  mes:'Juliol–agost', desc:'Des de 1920. El festival de música clàssica i òpera més important del món. Sis setmanes, llista d\'espera per a entrades.', url:'https://www.salzburgerfestspiele.at/en', lat:47.7980, lng:13.0413 },
+  { type:'sala',     name:'Mozarteum',                 city:'Salzburg, Àustria',  desc:'Des de 1914. Escola superior de música i sala de concerts. Concerts tot l\'any; epicentre de la vida musical de Salzburg fora del festival.',    url:'https://www.mozarteum.at/',         lat:47.7983, lng:13.0447 },
+  // BAYREUTH
+  { type:'festival', name:'Bayreuther Festspiele',     city:'Bayreuth, Alemanya', mes:'Juliol–agost', desc:'Des de 1876. Fundat per Richard Wagner. Única programació: les òperes de Wagner. Llistes d\'espera superiors a deu anys.', url:'https://www.bayreuther-festspiele.de/en/', lat:49.9456, lng:11.5713 },
+  // MILÀ
+  { type:'opera',    name:'Teatro alla Scala',         city:'Milà, Itàlia',       desc:'Des de 1778. El teatre d\'òpera amb major pes simbòlic del món. Verdi, Puccini, Callas, Karajan. La temporada obre el 7 de desembre.',           url:'https://www.teatroallascala.org/', lat:45.4673, lng:9.1895 },
+  // VERONA
+  { type:'festival', name:'Arena di Verona',           city:'Verona, Itàlia',     mes:'Juny–setembre', desc:'Amfiteatre romà del segle I. El major escenari d\'òpera a l\'aire lliure del món: 22.000 persones. Aida, Carmen, Turandot.', url:'https://www.arena.it/en/',          lat:45.4384, lng:10.9942 },
+  // DRESDEN
+  { type:'opera',    name:'Semperoper Dresden',        city:'Dresden, Alemanya',  desc:'Des de 1841 (reconstruïda 1985). Considerada l\'edifici d\'òpera més bonic d\'Europa. Seu de la Staatskapelle Dresden, activa des de 1548.',     url:'https://www.semperoper.de/en.html', lat:51.0533, lng:13.7333 },
+  { type:'festival', name:'Dresdner Musikfestspiele',  city:'Dresden, Alemanya',  mes:'Maig–juny', desc:'Des de 1978. Festival de música clàssica i contemporània a Dresden i els seus voltants. Múltiples venues, diverses disciplines.',  url:'https://www.musikfestspiele.com/en/', lat:51.0508, lng:13.7398 },
+  // LEIPZIG
+  { type:'sala',     name:'Gewandhaus zu Leipzig',     city:'Leipzig, Alemanya',  desc:'Des de 1743. Una de les orquestres simfòniques amb més prestigi del món. Mendelssohn i Mahler van ser directors titulars.',                       url:'https://www.gewandhaus.de/',        lat:51.3397, lng:12.3764 },
+  { type:'sala',     name:'Thomaskirche / Bach-Museum',city:'Leipzig, Alemanya',  desc:'Bach va ser Kantor de la Thomaskirche 27 anys. Concerts polifònics cada divendres i dissabte. El Bach-Museum, adjacent, és el millor arxiu sobre el compositor.', url:'https://www.bach-leipzig.de/en/', lat:51.3402, lng:12.3742 },
+  // AMSTERDAM
+  { type:'sala',     name:'Concertgebouw',             city:'Amsterdam, Holanda', desc:'Des de 1888. Una de les tres sales amb millor acústica del món (amb el Musikverein de Viena i el Symphony Hall de Boston). Royal Concertgebouw Orchestra.', url:'https://www.concertgebouw.nl/en', lat:52.3562, lng:4.8783 },
+  { type:'festival', name:'Holland Festival',          city:'Amsterdam, Holanda', mes:'Juny', desc:'Des de 1947. Festival internacional d\'arts escèniques: òpera contemporània, teatre musical i performance. Cada juny a Amsterdam.',   url:'https://www.hollandfestival.nl/en', lat:52.3680, lng:4.9036 },
+  // PRAGA
+  { type:'opera',    name:'Estates Theatre',           city:'Praga, República Txeca', desc:'Des de 1783. Aquí Mozart va estrenar Don Giovanni el 1787. Un dels teatres barrocs millor conservats d\'Europa. Segueix programant òpera.', url:'https://www.narodni-divadlo.cz/en/estates-theatre', lat:50.0853, lng:14.4200 },
+  { type:'festival', name:'Prague Spring Festival',    city:'Praga, República Txeca', mes:'Maig', desc:'Des de 1946. Obre cada any amb Má Vlast de Smetana interpretada per la Czech Philharmonic. Un dels rituals d\'inici de temporada més emotius d\'Europa.', url:'https://www.festival.cz/en/', lat:50.0826, lng:14.4260 },
+  // BARCELONA
+  { type:'opera',    name:'Gran Teatre del Liceu',     city:'Barcelona, Espanya', desc:'Des de 1847 (reconstruït 1999). Un dels grans teatres d\'òpera de la Mediterrània. Temporada d\'octubre a juliol. Cor del Liceu de renom mundial.', url:'https://www.liceubarcelona.cat/', lat:41.3796, lng:2.1723 },
+  { type:'sala',     name:'Palau de la Música Catalana', city:'Barcelona, Espanya', desc:'Des de 1908 (Domènech i Montaner). Patrimoni de la Humanitat UNESCO. El millor exemple de modernisme musical del món: vitralls, ceràmica i una acústica excepcional.', url:'https://www.palaumusica.cat/ca', lat:41.3874, lng:2.1752 },
+];
+
+let allMarkers = [];
+const clusterGroup = L.markerClusterGroup({ maxClusterRadius: 40 });
+
+locations.forEach(loc => {
+  const icon = makeIcon(loc.type);
+  const tLabel = typeLabel[loc.type] + (loc.mes ? ' · ' + loc.mes : '');
+  const popup = `
+    <div class="pop-name">${loc.name}</div>
+    <div class="pop-type">${tLabel}</div>
+    <div class="pop-info">${loc.city}<br>${loc.desc}</div>
+    ${loc.url ? `<div class="pop-link"><a href="${loc.url}" target="_blank" rel="noopener noreferrer">↗ ${loc.url.replace(/^https?:\/\/(www\.)?/,'').split('/')[0]}</a></div>` : ''}
+  `;
+  const marker = L.marker([loc.lat, loc.lng], { icon }).bindPopup(popup, { maxWidth: 280 });
+  marker._locType = loc.type;
+  allMarkers.push(marker);
+  clusterGroup.addLayer(marker);
+});
+
+map.addLayer(clusterGroup);
+
+function filterType(type, btn) {
+  document.querySelectorAll('.ctrl-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  clusterGroup.clearLayers();
+  allMarkers.forEach(m => {
+    if (type === 'all' || m._locType === type) clusterGroup.addLayer(m);
+  });
+}
+</script>
+</body>
+</html>

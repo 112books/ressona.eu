@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa Techno Europa · Ressona</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', system-ui, sans-serif; background: #1a1a2e; color: #d9d0d5; }
+  #map { width: 100%; height: 100vh; }
+  .controls {
+    position: absolute; top: 10px; right: 10px; z-index: 1000;
+    background: rgba(26,26,46,0.93); border: 1px solid rgba(255,64,129,0.25);
+    padding: 10px 14px; display: flex; flex-direction: column; gap: 6px;
+    font-size: 11px; letter-spacing: .07em; text-transform: uppercase;
+  }
+  .ctrl-btn {
+    background: transparent; border: 1px solid rgba(255,64,129,0.3);
+    color: #d9d0d5; padding: 5px 10px; cursor: pointer; font-size: 10px;
+    letter-spacing: .08em; text-transform: uppercase; text-align: left;
+    transition: all .15s;
+  }
+  .ctrl-btn:hover, .ctrl-btn.active { background: #ff4081; color: #1a1a2e; border-color: #ff4081; }
+  .ctrl-label { color: rgba(217,208,213,0.45); font-size: 9px; margin-bottom: 2px; }
+  .leaflet-popup-content-wrapper {
+    background: #1a1a2e; color: #d9d0d5; border: 1px solid rgba(255,64,129,0.3);
+    border-radius: 2px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  }
+  .leaflet-popup-tip { background: #1a1a2e; }
+  .leaflet-popup-content { margin: 12px 14px; font-size: 12px; line-height: 1.6; min-width: 180px; }
+  .pop-name { font-weight: 600; color: #ff4081; margin-bottom: 3px; font-size: 13px; }
+  .pop-type { font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+    color: rgba(217,208,213,0.5); margin-bottom: 5px; }
+  .pop-info { color: rgba(217,208,213,0.8); margin-bottom: 5px; }
+  .pop-link a { color: #651fff; text-decoration: none; font-size: 11px; }
+  .pop-link a:hover { color: #ff4081; }
+  .marker-festival { background: #ff4081; border: 2px solid #ff80ab; }
+  .marker-club     { background: #651fff; border: 2px solid #9c4dcc; }
+  .marker-custom {
+    width: 12px; height: 12px; border-radius: 50%;
+    box-shadow: 0 0 6px rgba(0,0,0,0.6);
+  }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="controls">
+  <div class="ctrl-label">Filtrar per</div>
+  <button class="ctrl-btn active" onclick="filterType('all',this)">Tot</button>
+  <button class="ctrl-btn" onclick="filterType('festival',this)">Festivals</button>
+  <button class="ctrl-btn" onclick="filterType('club',this)">Clubs</button>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+const map = L.map('map', { zoomControl: true, scrollWheelZoom: false }).setView([50.0, 10.5], 4);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+  maxZoom: 18
+}).addTo(map);
+
+function makeIcon(type) {
+  const cls = type === 'festival' ? 'marker-festival' : 'marker-club';
+  return L.divIcon({ className: 'marker-custom ' + cls, iconSize: [12, 12], iconAnchor: [6, 6], popupAnchor: [0, -8] });
+}
+
+const locations = [
+  // FESTIVALS
+  { type:'festival', name:'Time Warp', city:'Mannheim, Alemanya', mes:'Abril', desc:'Techno de referència en espai industrial. Des de 1994, el festival indoor europeu més influent.', url:'https://www.time-warp.de/', lat:49.4875, lng:8.4660 },
+  { type:'festival', name:'Terraforma', city:'Milà, Itàlia', mes:'Juny', desc:'Techno experimental en un bosc. Artistes d\'avantguarda i entorn natural únic.', url:'https://terraformafestival.com/', lat:45.4654, lng:9.1859 },
+  { type:'festival', name:'Sónar', city:'Barcelona, Espanya', mes:'Juny', desc:'Música avançada, club i experimental. La porta d\'entrada espanyola al circuit internacional.', url:'https://sonar.es/', lat:41.3784, lng:2.1585 },
+  { type:'festival', name:'Awakenings Festival', city:'Amsterdam, Holanda', mes:'Juny', desc:'Techno pur, lineup d\'elit. Un dels festivals més importants d\'Europa.', url:'https://awakenings.com/', lat:52.3676, lng:4.9041 },
+  { type:'festival', name:'Junction 2', city:'Londres, UK', mes:'Juny', desc:'Hard techno en espai industrial de Londres. Programació de primer nivell.', url:'https://junction2.co.uk/', lat:51.5234, lng:-0.2054 },
+  { type:'festival', name:'Fusion Festival', city:'Lärz, Alemanya', mes:'Juny/Juliol', desc:'Festival DIY llegendari en base soviètica abandonada. Sense patrocinadors, sense premsa. L\'anomalia del circuit.', url:'https://www.fusion-festival.de/', lat:53.3667, lng:12.7333 },
+  { type:'festival', name:'Horst Arts & Music', city:'Vilvoorde, Bèlgica', mes:'Juny', desc:'Techno, art i multidisciplinarietat. Un dels millors festivals de Bèlgica.', url:'https://horstfestival.be/', lat:50.9281, lng:4.4281 },
+  { type:'festival', name:'Monegros Desert Festival', city:'Fraga, Aragó', mes:'Juliol', desc:'Hard techno i trance al desert d\'Aragó. Un clàssic de l\'escena espanyola des dels anys 90.', url:'https://www.monegros.net/', lat:41.5232, lng:0.3523 },
+  { type:'festival', name:'Unknown Festival', city:'Tisno, Croàcia', mes:'Juliol', desc:'Format íntim al mar Adriàtic. Techno i house, ambient de comunitat.', url:'https://unknownfestival.com/', lat:43.8117, lng:15.6408 },
+  { type:'festival', name:'Dour Festival', city:'Dour, Bèlgica', mes:'Juliol', desc:'Festival eclèctic amb fort component techno i rave. Diverses escenes i ambient festiu.', url:'https://www.dourfestival.eu/', lat:50.3958, lng:3.7769 },
+  { type:'festival', name:'Dekmantel', city:'Amsterdam, Holanda', mes:'Agost', desc:'El festival més curós de l\'escena global. Programació editorial, sense concessions.', url:'https://dekmantel.com/', lat:52.3376, lng:4.8885 },
+  { type:'festival', name:'Neopop', city:'Viana do Castelo, Portugal', mes:'Agost', desc:'Hard techno, industrial i EBM. Una cita imprescindible del circuit europeu d\'estiu.', url:'https://neopop.net/', lat:41.6919, lng:-8.8340 },
+  { type:'festival', name:'Atonal', city:'Berlín, Alemanya', mes:'Agost', desc:'Techno experimental i post-industrial al Kraftwerk de Berlín. L\'escena d\'avantguarda europea.', url:'https://berlin-atonal.com/', lat:52.5044, lng:13.4483 },
+  { type:'festival', name:'Dimensions', city:'Pula, Croàcia', mes:'Setembre', desc:'Techno profund i house al mar. Recinte fortalesa, ambient únic.', url:'https://dimensionsfestival.com/', lat:44.8683, lng:13.8481 },
+  { type:'festival', name:'ADE — Amsterdam Dance Event', city:'Amsterdam, Holanda', mes:'Octubre', desc:'Música + indústria. 100 venues, desenes de festes, i el lloc on es decideix el circuit de l\'any vinent.', url:'https://www.amsterdam-dance-event.nl/', lat:52.3750, lng:4.8984 },
+  { type:'festival', name:'Unsound', city:'Cracòvia, Polònia', mes:'Octubre', desc:'Experimental, techno d\'autor i cura editorial extrema. La cita intel·lectual de la tardor.', url:'https://www.unsound.pl/', lat:50.0647, lng:19.9450 },
+  { type:'festival', name:'Club to Club', city:'Torí, Itàlia', mes:'Novembre', desc:'Festival indoor d\'hivern. Techno i experimental, un dels millors lineups de la temporada.', url:'https://www.clubtoclub.it/', lat:45.0703, lng:7.6869 },
+
+  // CLUBS
+  { type:'club', name:'Berghain / Panorama Bar', city:'Berlín, Alemanya', desc:'La referència absoluta. Techno dur i house en un edifici industrial icònic. Sessions de 12+ hores.', url:'https://berghain.berlin/', lat:52.5107, lng:13.4437 },
+  { type:'club', name:'Tresor', city:'Berlín, Alemanya', desc:'Des de 1991. Techno industrial en formigó, l\'esperit de la reunificació. Un dels clubs amb millor so de la ciutat.', url:'https://tresorberlin.com/', lat:52.5095, lng:13.4267 },
+  { type:'club', name:'Watergate', city:'Berlín, Alemanya', desc:'A la vora del Spree. Techno i house de qualitat, finestres panoràmiques, un dels millors sistemes de so de Berlín.', url:'https://water-gate.de/', lat:52.4998, lng:13.4456 },
+  { type:'club', name:'About Blank', city:'Berlín, Alemanya', desc:'Espai alternatiu, techno experimental i festes LGBTQ+. Jardí exterior, ambient divers.', url:'https://aboutblank.li/', lat:52.4978, lng:13.4715 },
+  { type:'club', name:'Sisyphos', city:'Berlín, Alemanya', desc:'Recinte industrial, festes llargues fins al dilluns. Ambient de comunitat i pluralitat d\'espais.', url:'https://www.sisyphos-berlin.de/', lat:52.4856, lng:13.5247 },
+  { type:'club', name:'Robert Johnson', city:'Offenbach/Frankfurt, Alemanya', desc:'Un dels clubs més influents d\'Europa des dels anys 90. House i techno de qualitat, so llegendari.', url:'https://www.robert-johnson.de/', lat:50.1005, lng:8.7639 },
+  { type:'club', name:'Institut für Zukunft', city:'Leipzig, Alemanya', desc:'El cor de l\'escena techno de Leipzig. Industrial, experimental, un dels millors secrets d\'Alemanya.', url:'https://www.ifz.li/', lat:51.3397, lng:12.3731 },
+  { type:'club', name:'Radion', city:'Amsterdam, Holanda', desc:'Successor del llegendari Trouw. Funktion-One, espai gran, programació d\'alta qualitat.', url:'https://www.radion.nl/', lat:52.3674, lng:4.8335 },
+  { type:'club', name:'Shelter', city:'Amsterdam, Holanda', desc:'Sota la torre A\'DAM. Techno i house, vistes a la IJ, programació consistent.', url:'https://www.shelteramsterdam.nl/', lat:52.3840, lng:4.9009 },
+  { type:'club', name:'Fabric', city:'Londres, UK', desc:'Des de 1999. Tres rooms, sistema Bodysonic. Tancat el 2016, reobert per pressió popular. La institució de la nit londinenca.', url:'https://fabriclondon.com/', lat:51.5187, lng:-0.0997 },
+  { type:'club', name:'Fold', city:'Londres, UK', desc:'East London, so industrial potent. Hard techno i escena rave, alguns dels millors lineups de la capital.', url:'https://foldlondon.com/', lat:51.5289, lng:-0.0157 },
+  { type:'club', name:'Sub Club', city:'Glasgow, Escòcia', desc:'Des de 1987. 400 persones, so fet a mida. Consistentment en les llistes de millors clubs del món.', url:'https://www.subclub.co.uk/', lat:55.8598, lng:-4.2525 },
+  { type:'club', name:'Rex Club', city:'París, França', desc:'Des de 1981. El club electrònic de referència de París. Laurent Garnier va construir la seva llegenda aquí.', url:'https://www.rexclub.com/', lat:48.8701, lng:2.3490 },
+  { type:'club', name:'Concrete', city:'París, França', desc:'Club flotant al Sena. Sessions de 48 hores, no es permeten telèfons. El techno més pur de París.', url:'https://concreteparis.fr/', lat:48.8459, lng:2.3743 },
+  { type:'club', name:'Fuse', city:'Brussel·les, Bèlgica', desc:'Des de 1994. El club de referència de Brussel·les, consistent i sense concessions al llarg de trenta anys.', url:'https://www.fuse.be/', lat:50.8401, lng:4.3488 },
+  { type:'club', name:'Hive Club', city:'Zuric, Suïssa', desc:'El referent del techno de Zuric. So potent, programació exigent, residents locals de qualitat.', url:'https://www.hiveclub.ch/', lat:47.3898, lng:8.5179 },
+  { type:'club', name:'Ankali', city:'Praga, Rep. Txeca', desc:'La referència electrònica de Praga. Funktion-One, programació que barreja emergents locals i visites internacionals.', url:'https://ankaliprague.com/', lat:50.0900, lng:14.4780 },
+  { type:'club', name:'Input', city:'Barcelona, Espanya', desc:'El club de techno de referència de Barcelona. Espai industrial al port, Martin Audio, programació consistent.', url:'https://inputbcn.com/', lat:41.3602, lng:2.1803 },
+  { type:'club', name:'Nitsa Club (Sala Apolo)', city:'Barcelona, Espanya', desc:'Des de 1993, la cita setmanal de referència de l\'escena electrònica de Barcelona. Ha programat pràcticament tothom.', url:'https://www.sala-apolo.com/nitsa-club/', lat:41.3754, lng:2.1667 },
+  { type:'club', name:'Mondo Disko', city:'Madrid, Espanya', desc:'Des de 1997, la referència electrònica de Madrid. House i techno, programació que ha aguantat el pas del temps.', url:'https://www.mondodisko.es/', lat:40.4308, lng:-3.6986 },
+];
+
+let allMarkers = [];
+const clusterGroup = L.markerClusterGroup({ maxClusterRadius: 40 });
+
+locations.forEach(loc => {
+  const icon = makeIcon(loc.type);
+  const label = loc.mes ? `<div class="pop-type">${loc.type === 'festival' ? '🎪 Festival · ' + loc.mes : '🎛 Club'}</div>` : `<div class="pop-type">🎛 Club</div>`;
+  const popup = `
+    <div class="pop-name">${loc.name}</div>
+    ${label}
+    <div class="pop-info">${loc.city}<br>${loc.desc}</div>
+    ${loc.url ? `<div class="pop-link"><a href="${loc.url}" target="_blank" rel="noopener noreferrer">↗ ${loc.url.replace(/^https?:\/\/(www\.)?/,'').split('/')[0]}</a></div>` : ''}
+  `;
+  const marker = L.marker([loc.lat, loc.lng], { icon })
+    .bindPopup(popup, { maxWidth: 260 });
+  marker._locType = loc.type;
+  allMarkers.push(marker);
+  clusterGroup.addLayer(marker);
+});
+
+map.addLayer(clusterGroup);
+
+function filterType(type, btn) {
+  document.querySelectorAll('.ctrl-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  clusterGroup.clearLayers();
+  allMarkers.forEach(m => {
+    if (type === 'all' || m._locType === type) clusterGroup.addLayer(m);
+  });
+}
+</script>
+</body>
+</html>

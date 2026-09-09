@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <title>Arrels en Moviment — Mapa de Folk i Música Tradicional per Europa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #1a1a1a; }
+
+    .header {
+      background: #182414;
+      color: #f5f5f0;
+      padding: 20px 30px;
+      text-align: center;
+      border-bottom: 3px solid #5a8a3a;
+    }
+    .header h1 { font-size: 26px; font-weight: 600; margin-bottom: 5px; }
+    .header p { font-size: 14px; color: #aaa; }
+
+    .controls {
+      background: #2c2c2c;
+      padding: 15px 30px;
+      border-bottom: 1px solid #444;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .controls button {
+      padding: 8px 18px;
+      border: 2px solid #5a8a3a;
+      background: transparent;
+      color: #f5f5f0;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .controls button:hover, .controls button.active {
+      background: #5a8a3a;
+      color: #fff;
+    }
+    .controls .legend {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      font-size: 13px;
+      color: #aaa;
+    }
+    .legend-dot {
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .legend-dot.festival { background: #f5c842; }
+    .legend-dot.sala { background: #5a8a3a; }
+    .legend-dot.centre { background: #c0a9b3; }
+
+    #map { height: calc(100vh - 140px); width: 100%; }
+
+    .popup-content { min-width: 220px; }
+    .popup-content h3 {
+      margin: 0 0 6px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #1a2a14;
+    }
+    .popup-content .meta {
+      font-size: 12px;
+      color: #888;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .popup-content p {
+      margin: 0 0 10px;
+      font-size: 13px;
+      color: #555;
+      line-height: 1.4;
+    }
+    .popup-content a {
+      color: #5a8a3a;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .popup-content a:hover { text-decoration: underline; }
+
+    .leaflet-popup-content-wrapper {
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .leaflet-popup-content { margin: 14px 16px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Arrels en Moviment</h1>
+    <p>Festivals i venues de folk i música tradicional per Europa — Mapa interactiu per a Ressona.eu</p>
+  </div>
+
+  <div class="controls">
+    <button onclick="filterAll()" class="active" id="btn-all">Tots</button>
+    <button onclick="filterFestivals()" id="btn-festivals">Festivals</button>
+    <button onclick="filterSales()" id="btn-sales">Sales</button>
+    <button onclick="filterCentres()" id="btn-centres">Centres</button>
+    <div class="legend">
+      <span><span class="legend-dot festival"></span> Festivals</span>
+      <span><span class="legend-dot sala"></span> Sales</span>
+      <span><span class="legend-dot centre"></span> Centres</span>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <script>
+    var map = L.map('map').setView([48.0, 5.0], 4);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors',
+      maxZoom: 18
+    }).addTo(map);
+
+    var festivalIcon = L.divIcon({
+      className: 'custom-marker',
+      html: '<div style="width:16px;height:16px;background:#f5c842;border-radius:50%;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>',
+      iconSize: [16, 16],
+      iconAnchor: [8, 8]
+    });
+
+    var salaIcon = L.divIcon({
+      className: 'custom-marker',
+      html: '<div style="width:14px;height:14px;background:#5a8a3a;border-radius:50%;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>',
+      iconSize: [14, 14],
+      iconAnchor: [7, 7]
+    });
+
+    var centreIcon = L.divIcon({
+      className: 'custom-marker',
+      html: '<div style="width:14px;height:14px;background:#c0a9b3;border-radius:50%;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>',
+      iconSize: [14, 14],
+      iconAnchor: [7, 7]
+    });
+
+    var locations = [
+      // FESTIVALS - CATALUNYA
+      { name: "Tradicionàrius", type: "festival", city: "Barcelona", address: "Espai Jove Boca Nord, Carrer Artesania 47, 08017", lat: 41.4042, lng: 2.1382, url: "https://www.tradicionarius.cat/", desc: "Cicle de folk i músiques del món de gener a març. Referència imprescindible a Barcelona." },
+      { name: "Fira Mediterrània de Manresa", type: "festival", city: "Manresa", address: "Manresa, Barcelona", lat: 41.7314, lng: 1.8242, url: "https://www.firaditerranea.cat/", desc: "El gran mercat europeu de músiques tradicionals i del món. Cada octubre." },
+
+      // SALES - BARCELONA
+      { name: "L'Auditori", type: "sala", city: "Barcelona", address: "Carrer de Lepant 150, 08013", lat: 41.3906, lng: 2.1821, url: "https://www.auditori.cat/", desc: "Cicles de músiques del món i folk en format sala de concerts." },
+      { name: "Palau de la Música Catalana", type: "sala", city: "Barcelona", address: "Carrer de Palau de la Música 4-6, 08003", lat: 41.3872, lng: 2.1752, url: "https://www.palaumusica.cat/", desc: "Concerts de folk i tradició en un espai incomparable." },
+      { name: "Heliogàbal", type: "sala", city: "Barcelona", address: "Carrer de Ramón y Cajal 80, 08012", lat: 41.4025, lng: 2.1667, url: "https://www.heliogabal.com/", desc: "Sala íntima a Gràcia. Folk contemporani i música arrelada emergent." },
+
+      // FESTIVALS - GALÍCIA / ESPANYA
+      { name: "Festival de Música Celta d'Ortigueira", type: "festival", city: "Ortigueira", address: "Ortigueira, A Coruña, Galícia", lat: 43.6893, lng: -7.8558, url: "https://www.festivaldeortigueira.com/", desc: "El festival celta de referència de la península. Cada juliol, concerts oberts a la ria." },
+      { name: "WOMAD Cáceres", type: "festival", city: "Cáceres", address: "Cáceres, Extremadura", lat: 39.4724, lng: -6.3726, url: "https://www.womad.es/", desc: "La versió espanyola del WOMAD. 50 concerts de 20 països. Cada maig." },
+
+      // FESTIVALS - IRLANDA
+      { name: "Willie Clancy Summer School", type: "festival", city: "Miltown Malbay", address: "Miltown Malbay, Comtat Clare, Irlanda", lat: 52.8567, lng: -9.4088, url: "https://www.scoilsamhraidhwillieclancy.com/", desc: "Una setmana de juliol dedicada a la música tradicional irlandesa. Sessions de pub, uilleann pipes i fiddle." },
+      { name: "Fleadh Cheoil na hÉireann", type: "festival", city: "Irlanda (itinerant)", address: "Seu canviant cada any", lat: 53.4129, lng: -8.2439, url: "https://www.fleadhcheoil.ie/", desc: "El festival de música trad irlandesa més gran del país. Agost, seu diferent cada any." },
+
+      // FESTIVALS - ESCÒCIA
+      { name: "Celtic Connections", type: "festival", city: "Glasgow", address: "Glasgow, Escòcia", lat: 55.8617, lng: -4.2583, url: "https://www.celticconnections.com/", desc: "El festival folk d'hivern més gran del món. Tres setmanes de gener, 300 concerts a Glasgow." },
+
+      // FESTIVALS - ANGLATERRA
+      { name: "Cambridge Folk Festival", type: "festival", city: "Cambridge", address: "Cherry Hinton Hall, Cambridge, Anglaterra", lat: 52.1851, lng: 0.1548, url: "https://www.cambridgefolkfestival.co.uk/", desc: "El festival folk més prestigiós d'Anglaterra, des de 1965. Juliol." },
+      { name: "Sidmouth Folk Festival", type: "festival", city: "Sidmouth", address: "Sidmouth, Devon, Anglaterra", lat: 50.6794, lng: -3.2345, url: "https://www.sidmouthfolkfestival.co.uk/", desc: "Set dies d'agost de folk, dansa i tradició britànica a la costa de Devon." },
+
+      // FESTIVALS - BRETANYA (FRANÇA)
+      { name: "Festival Interceltique de Lorient", type: "festival", city: "Lorient", address: "Lorient, Bretanya, França", lat: 47.7481, lng: -3.3700, url: "https://www.festival-interceltique.bzh/", desc: "El festival celta més gran del món. 10 dies d'agost, 750.000 visitants, 4.500 artistes." },
+      { name: "Festival de Cornouaille", type: "festival", city: "Quimper", address: "Quimper, Bretanya, França", lat: 47.9967, lng: -4.0968, url: "https://www.festival-cornouaille.bzh/", desc: "Música i dansa bretona al centre de Quimper. Cada juliol." },
+
+      // FESTIVALS - ALEMANYA
+      { name: "TFF Rudolstadt", type: "festival", city: "Rudolstadt", address: "Rudolstadt, Turíngia, Alemanya", lat: 50.7197, lng: 11.3388, url: "https://www.tff-rudolstadt.de/", desc: "El festival folk i world music més gran d'Alemanya. 100 concerts, juliol." },
+
+      // FESTIVALS - DINAMARCA
+      { name: "Tønder Festival", type: "festival", city: "Tønder", address: "Tønder, Dinamarca", lat: 54.9352, lng: 8.8660, url: "https://www.tf.dk/", desc: "El festival folk i acoustic del nord d'Europa. Des de 1975. 25.000 visitants, agost." },
+
+      // FESTIVALS - NORUEGA
+      { name: "Telemarkfestivalen", type: "festival", city: "Kviteseid", address: "Kviteseid, Telemark, Noruega", lat: 59.3977, lng: 8.4960, url: "https://www.telemarkfestivalen.no/", desc: "El festival de folk noruec per excel·lència. Hardingfele i vells tunes en entorn natural. Juliol." },
+
+      // FESTIVALS - FINLÀNDIA
+      { name: "Kaustinen Folk Music Festival", type: "festival", city: "Kaustinen", address: "Kaustinen, Finlàndia Central", lat: 63.5494, lng: 23.6963, url: "https://www.kaustinen.net/", desc: "El gran festival de folk finlandès, des de 1968. Violí finlandès ràpid i alegre. Juliol." },
+
+      // FESTIVALS - BALCANS
+      { name: "Dragačevski Sabor — Guca", type: "festival", city: "Guca", address: "Guca, Sèrbia", lat: 43.9048, lng: 20.2197, url: "https://www.guca.rs/", desc: "500.000 visitants, desenes d'orquestres i trompetes balcàniques. Cinc dies d'agost. Reserva amb mesos d'antelació." },
+      { name: "Sziget Folk Village", type: "festival", city: "Budapest", address: "Ilha Óbuda, Budapest, Hongria", lat: 47.5316, lng: 19.0533, url: "https://szigetfestival.com/", desc: "Escenaris de folk hongarès, balcànic i europeu dins el gran Sziget Festival. Agost." }
+    ];
+
+    var markers = [];
+    var clusterGroup = L.markerClusterGroup({ maxClusterRadius: 40 });
+
+    locations.forEach(function(loc) {
+      var icon = loc.type === 'festival' ? festivalIcon :
+                 loc.type === 'sala' ? salaIcon : centreIcon;
+
+      var typeLabel = loc.type === 'festival' ? 'Festival' :
+                      loc.type === 'sala' ? 'Sala / Venue' : 'Centre cultural';
+
+      var popup = '<div class="popup-content">' +
+        '<h3>' + loc.name + '</h3>' +
+        '<div class="meta">' + typeLabel + ' · ' + loc.city + '</div>' +
+        '<p>' + loc.address + '</p>' +
+        '<p>' + loc.desc + '</p>' +
+        (loc.url ? '<a href="' + loc.url + '" target="_blank" rel="noopener">Visita el web →</a>' : '') +
+        '</div>';
+
+      var marker = L.marker([loc.lat, loc.lng], { icon: icon })
+        .bindPopup(popup);
+
+      marker.locType = loc.type;
+      markers.push(marker);
+      clusterGroup.addLayer(marker);
+    });
+
+    map.addLayer(clusterGroup);
+
+    function filterAll() {
+      clusterGroup.clearLayers();
+      markers.forEach(function(m) { clusterGroup.addLayer(m); });
+      setActive('btn-all');
+    }
+    function filterFestivals() {
+      clusterGroup.clearLayers();
+      markers.filter(function(m) { return m.locType === 'festival'; })
+             .forEach(function(m) { clusterGroup.addLayer(m); });
+      setActive('btn-festivals');
+    }
+    function filterSales() {
+      clusterGroup.clearLayers();
+      markers.filter(function(m) { return m.locType === 'sala'; })
+             .forEach(function(m) { clusterGroup.addLayer(m); });
+      setActive('btn-sales');
+    }
+    function filterCentres() {
+      clusterGroup.clearLayers();
+      markers.filter(function(m) { return m.locType === 'centre'; })
+             .forEach(function(m) { clusterGroup.addLayer(m); });
+      setActive('btn-centres');
+    }
+    function setActive(id) {
+      ['btn-all','btn-festivals','btn-sales','btn-centres'].forEach(function(b) {
+        document.getElementById(b).classList.remove('active');
+      });
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</body>
+</html>
