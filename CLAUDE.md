@@ -129,3 +129,13 @@ Regles per als articles:
 4. **Contrast**: text sempre llegible sobre fons fosc
 5. **Asimetria + espai negatiu**: trets de disseny fonamentals
 6. **Blocs de color**: gold, red, blue com a fons de serveis i perfils
+
+---
+
+## Control horari
+
+Skill actiu: `gestor-hores` — registra automàticament el temps de treball per sessió.
+
+- Logs a `.taques/ressona.eu/YYYY-MM-DD.md` (creat automàticament)
+- Comandes: `/time-log [tasca] [hores]`, `/time-report [periode]`, `/time-config [hores] [tarifa]`
+- No modificar manualment els fitxers `.taques/` — són append-only
