@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-09T23:34:53.394118Z",
+  "generated": "2026-09-10T01:38:41.496893Z",
   "period": {
-    "start": "2025-09-09",
-    "end": "2026-09-09"
+    "start": "2025-09-10",
+    "end": "2026-09-10"
   },
-  "total": 1149,
+  "total": 1153,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 117
+      "count": 116
     },
     {
       "date": "2026-06-28",
@@ -89,7 +89,7 @@
     },
     {
       "date": "2026-07-03",
-      "count": 89
+      "count": 88
     },
     {
       "date": "2026-07-04",
@@ -181,7 +181,7 @@
     },
     {
       "date": "2026-08-03",
-      "count": 4
+      "count": 5
     },
     {
       "date": "2026-08-04",
@@ -318,12 +318,16 @@
     {
       "date": "2026-09-08",
       "count": 1
+    },
+    {
+      "date": "2026-09-09",
+      "count": 5
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 352
+      "count": 353
     },
     {
       "path": "/#que-fem",
@@ -414,6 +418,14 @@
       "count": 7
     },
     {
+      "path": "/en/resources/dance-festivals-europe",
+      "count": 6
+    },
+    {
+      "path": "/en/resources/cultural-grants-europe",
+      "count": 6
+    },
+    {
       "path": "/en/resources/artistic-residency",
       "count": 6
     },
@@ -432,30 +444,22 @@
     {
       "path": "/recursos/press-kit-digital-actors",
       "count": 6
-    },
-    {
-      "path": "/recursos/per-que-web-propia-instagram",
-      "count": 6
-    },
-    {
-      "path": "/serveis/estrategia-xarxes",
-      "count": 6
     }
   ],
   "by_lang": {
-    "en": 246
+    "en": 250
   },
   "by_section": {
-    "inici": 380,
+    "inici": 381,
     "#que-fem": 92,
     "#per-qui": 76,
     "#quisom": 71,
     "#com-treballem": 65,
     "#contacte": 55,
-    "recursos": 167,
+    "recursos": 166,
     "#recursos": 45,
     "comenca": 17,
-    "resources": 119,
+    "resources": 123,
     "serveis": 26,
     "per-a-qui": 20,
     "legal": 8,
@@ -624,12 +628,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 490
+      "count": 491
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 64
+      "count": 66
     },
     {
       "name": "chatgpt.com",
