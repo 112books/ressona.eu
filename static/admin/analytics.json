@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-11T23:35:39.786168Z",
+  "generated": "2026-09-12T01:44:13.186785Z",
   "period": {
-    "start": "2025-09-11",
-    "end": "2026-09-11"
+    "start": "2025-09-12",
+    "end": "2026-09-12"
   },
   "total": 1153,
   "total_unique": 0,
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 116
+      "count": 114
     },
     {
       "date": "2026-06-28",
@@ -293,7 +293,7 @@
     },
     {
       "date": "2026-09-02",
-      "count": 8
+      "count": 9
     },
     {
       "date": "2026-09-03",
@@ -322,6 +322,10 @@
     {
       "date": "2026-09-09",
       "count": 5
+    },
+    {
+      "date": "2026-09-11",
+      "count": 1
     }
   ],
   "hits": [
@@ -447,7 +451,7 @@
     }
   ],
   "by_lang": {
-    "en": 250
+    "en": 252
   },
   "by_section": {
     "inici": 381,
@@ -461,10 +465,10 @@
     "comenca": 17,
     "resources": 123,
     "serveis": 26,
-    "per-a-qui": 20,
+    "per-a-qui": 22,
     "legal": 8,
     "start": 2,
-    "tags": 6
+    "tags": 4
   },
   "browsers": [
     {
@@ -633,7 +637,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 66
+      "count": 67
     },
     {
       "name": "chatgpt.com",
