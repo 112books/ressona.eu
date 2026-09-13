@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-12T23:28:38.605534Z",
+  "generated": "2026-09-13T01:34:32.959889Z",
   "period": {
-    "start": "2025-09-12",
-    "end": "2026-09-12"
+    "start": "2025-09-13",
+    "end": "2026-09-13"
   },
   "total": 1153,
   "total_unique": 0,
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 114
+      "count": 113
     },
     {
       "date": "2026-06-28",
@@ -89,7 +89,7 @@
     },
     {
       "date": "2026-07-03",
-      "count": 88
+      "count": 89
     },
     {
       "date": "2026-07-04",
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-08-27",
-      "count": 4
+      "count": 3
     },
     {
       "date": "2026-08-28",
@@ -325,6 +325,10 @@
     },
     {
       "date": "2026-09-11",
+      "count": 1
+    },
+    {
+      "date": "2026-09-12",
       "count": 1
     }
   ],
@@ -451,7 +455,7 @@
     }
   ],
   "by_lang": {
-    "en": 252
+    "en": 250
   },
   "by_section": {
     "inici": 381,
@@ -460,7 +464,7 @@
     "#quisom": 71,
     "#com-treballem": 65,
     "#contacte": 55,
-    "recursos": 166,
+    "recursos": 168,
     "#recursos": 45,
     "comenca": 17,
     "resources": 123,
@@ -468,7 +472,7 @@
     "per-a-qui": 22,
     "legal": 8,
     "start": 2,
-    "tags": 4
+    "tags": 2
   },
   "browsers": [
     {
@@ -637,7 +641,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 67
+      "count": 68
     },
     {
       "name": "chatgpt.com",
