@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-13T23:42:36.101585Z",
+  "generated": "2026-09-14T01:52:54.086492Z",
   "period": {
-    "start": "2025-09-13",
-    "end": "2026-09-13"
+    "start": "2025-09-14",
+    "end": "2026-09-14"
   },
-  "total": 1153,
+  "total": 1154,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 113
+      "count": 112
     },
     {
       "date": "2026-06-28",
@@ -181,7 +181,7 @@
     },
     {
       "date": "2026-08-03",
-      "count": 5
+      "count": 6
     },
     {
       "date": "2026-08-04",
@@ -285,7 +285,7 @@
     },
     {
       "date": "2026-08-31",
-      "count": 23
+      "count": 22
     },
     {
       "date": "2026-09-01",
@@ -330,6 +330,10 @@
     {
       "date": "2026-09-12",
       "count": 1
+    },
+    {
+      "date": "2026-09-13",
+      "count": 2
     }
   ],
   "hits": [
@@ -455,7 +459,7 @@
     }
   ],
   "by_lang": {
-    "en": 250
+    "en": 249
   },
   "by_section": {
     "inici": 381,
@@ -464,10 +468,10 @@
     "#quisom": 71,
     "#com-treballem": 65,
     "#contacte": 55,
-    "recursos": 168,
+    "recursos": 170,
     "#recursos": 45,
     "comenca": 17,
-    "resources": 123,
+    "resources": 122,
     "serveis": 26,
     "per-a-qui": 22,
     "legal": 8,
@@ -478,12 +482,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 681
+      "count": 682
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 512
+      "count": 515
     },
     {
       "name": "Firefox",
@@ -515,12 +519,12 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 152
+      "count": 155
     },
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 125
+      "count": 126
     },
     {
       "name": "Linux",
@@ -542,12 +546,12 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 370
+      "count": 373
     },
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 181
+      "count": 182
     },
     {
       "name": "tablet",
@@ -559,7 +563,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 834
+      "count": 837
     },
     {
       "name": "United States",
@@ -641,7 +645,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 68
+      "count": 71
     },
     {
       "name": "chatgpt.com",
