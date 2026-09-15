@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-14T22:47:51.309620Z",
+  "generated": "2026-09-15T01:01:04.189784Z",
   "period": {
-    "start": "2025-09-14",
-    "end": "2026-09-14"
+    "start": "2025-09-15",
+    "end": "2026-09-15"
   },
-  "total": 1154,
+  "total": 1162,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 112
+      "count": 111
     },
     {
       "date": "2026-06-28",
@@ -81,7 +81,7 @@
     },
     {
       "date": "2026-07-01",
-      "count": 82
+      "count": 81
     },
     {
       "date": "2026-07-02",
@@ -241,7 +241,7 @@
     },
     {
       "date": "2026-08-20",
-      "count": 11
+      "count": 12
     },
     {
       "date": "2026-08-21",
@@ -334,12 +334,16 @@
     {
       "date": "2026-09-13",
       "count": 2
+    },
+    {
+      "date": "2026-09-14",
+      "count": 9
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 353
+      "count": 354
     },
     {
       "path": "/#que-fem",
@@ -371,19 +375,19 @@
     },
     {
       "path": "/en",
-      "count": 28
+      "count": 30
     },
     {
       "path": "/en/#que-fem",
-      "count": 22
+      "count": 23
+    },
+    {
+      "path": "/comenca",
+      "count": 19
     },
     {
       "path": "/en/#per-qui",
       "count": 19
-    },
-    {
-      "path": "/comenca",
-      "count": 17
     },
     {
       "path": "/en/#quisom",
@@ -459,19 +463,19 @@
     }
   ],
   "by_lang": {
-    "en": 249
+    "en": 256
   },
   "by_section": {
-    "inici": 381,
-    "#que-fem": 92,
+    "inici": 384,
+    "#que-fem": 93,
     "#per-qui": 76,
     "#quisom": 71,
     "#com-treballem": 65,
     "#contacte": 55,
-    "recursos": 170,
+    "recursos": 168,
     "#recursos": 45,
-    "comenca": 17,
-    "resources": 122,
+    "comenca": 19,
+    "resources": 126,
     "serveis": 26,
     "per-a-qui": 22,
     "legal": 8,
@@ -645,12 +649,12 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 71
+      "count": 76
     },
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 15
+      "count": 16
     },
     {
       "name": "ig",
@@ -673,14 +677,14 @@
       "count": 7
     },
     {
-      "name": "linuxbcn.com",
-      "id": "linuxbcn.com",
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
       "count": 5
     },
     {
-      "name": "www.facebook.com",
-      "id": "www.facebook.com",
-      "count": 4
+      "name": "linuxbcn.com",
+      "id": "linuxbcn.com",
+      "count": 5
     },
     {
       "name": "www.bing.com",
