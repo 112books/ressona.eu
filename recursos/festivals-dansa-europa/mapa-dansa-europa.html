@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <title>Viatge Sense Parar de Moure't — Mapa de Festivals de Dansa per Europa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #1a1a1a; }
+
+    .header {
+      background: #1e1428;
+      color: #f5f5f0;
+      padding: 20px 30px;
+      text-align: center;
+      border-bottom: 3px solid #8b5cf6;
+    }
+    .header h1 { font-size: 26px; font-weight: 600; margin-bottom: 5px; }
+    .header p { font-size: 14px; color: #aaa; }
+
+    .controls {
+      background: #2c2c2c;
+      padding: 15px 30px;
+      border-bottom: 1px solid #444;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .controls button {
+      padding: 7px 15px;
+      border: 2px solid #8b5cf6;
+      background: transparent;
+      color: #f5f5f0;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .controls button:hover, .controls button.active {
+      background: #8b5cf6;
+      color: #fff;
+    }
+    .controls .legend {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      font-size: 12px;
+      color: #aaa;
+    }
+    .legend-dot {
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .legend-dot.contemporania { background: #8b5cf6; }
+    .legend-dot.folk { background: #5a8a3a; }
+    .legend-dot.flamenc { background: #c0392b; }
+    .legend-dot.urbana { background: #e67e22; }
+    .legend-dot.circuit { background: #f5c842; }
+
+    #map { height: calc(100vh - 148px); width: 100%; }
+
+    .popup-content { min-width: 220px; }
+    .popup-content h3 {
+      margin: 0 0 6px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #2a1a3a;
+    }
+    .popup-content .meta {
+      font-size: 12px;
+      color: #888;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .popup-content p {
+      margin: 0 0 10px;
+      font-size: 13px;
+      color: #555;
+      line-height: 1.4;
+    }
+    .popup-content a {
+      color: #8b5cf6;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .popup-content a:hover { text-decoration: underline; }
+
+    .leaflet-popup-content-wrapper {
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .leaflet-popup-content { margin: 14px 16px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Viatge Sense Parar de Moure't</h1>
+    <p>Festivals de dansa per Europa — Mapa interactiu per a Ressona.eu</p>
+  </div>
+
+  <div class="controls">
+    <button onclick="filterAll()" class="active" id="btn-all">Tots</button>
+    <button onclick="filterType('contemporania')" id="btn-contemporania">Contemporània</button>
+    <button onclick="filterType('folk')" id="btn-folk">Folk</button>
+    <button onclick="filterType('flamenc')" id="btn-flamenc">Flamenc</button>
+    <button onclick="filterType('urbana')" id="btn-urbana">Urbana</button>
+    <button onclick="filterType('circuit')" id="btn-circuit">Circuit</button>
+    <div class="legend">
+      <span><span class="legend-dot contemporania"></span> Contemporània</span>
+      <span><span class="legend-dot folk"></span> Folk</span>
+      <span><span class="legend-dot flamenc"></span> Flamenc</span>
+      <span><span class="legend-dot urbana"></span> Urbana</span>
+      <span><span class="legend-dot circuit"></span> Circuit</span>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <script>
+    var map = L.map('map').setView([44.0, 5.0], 4);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors',
+      maxZoom: 18
+    }).addTo(map);
+
+    function makeIcon(color, size) {
+      var s = size || 14;
+      return L.divIcon({
+        className: 'custom-marker',
+        html: '<div style="width:' + s + 'px;height:' + s + 'px;background:' + color + ';border-radius:50%;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>',
+        iconSize: [s, s],
+        iconAnchor: [s/2, s/2]
+      });
+    }
+
+    var icons = {
+      contemporania: makeIcon('#8b5cf6', 16),
+      folk: makeIcon('#5a8a3a', 14),
+      flamenc: makeIcon('#c0392b', 14),
+      urbana: makeIcon('#e67e22', 14),
+      circuit: makeIcon('#f5c842', 14)
+    };
+
+    var typeLabels = {
+      contemporania: 'Dansa contemporània',
+      folk: 'Folk i tradicional',
+      flamenc: 'Flamenc i dansa ibèrica',
+      urbana: 'Dansa urbana i social',
+      circuit: 'Festival de circuit'
+    };
+
+    var locations = [
+      // CONTEMPORÀNIA
+      { name: "ImPulsTanz", type: "contemporania", city: "Viena", address: "Viena, Àustria", lat: 48.2082, lng: 16.3738, url: "https://www.impulstanz.com/", desc: "El festival de dansa contemporània i formació més important d'Europa. Juliol–Agost." },
+      { name: "Tanz im August", type: "contemporania", city: "Berlín", address: "Berlín, Alemanya", lat: 52.5200, lng: 13.4050, url: "https://www.tanzimaugust.de/", desc: "El festival de dansa contemporània de referència d'Alemanya. Tres setmanes d'agost." },
+      { name: "Biennale Danza de Venècia", type: "contemporania", city: "Venècia", address: "Venècia, Itàlia", lat: 45.4408, lng: 12.3155, url: "https://www.labiennale.org/en/dance", desc: "La secció de dansa de la Biennale di Venezia. Juny, espais únics de Venècia." },
+      { name: "Deltebre Dansa", type: "contemporania", city: "Deltebre", address: "Deltebre, Delta de l'Ebre, Catalunya", lat: 40.7214, lng: 0.7001, url: "https://www.deltebiredansa.cat/", desc: "Festival contemporani en entorn natural excepcional al Delta de l'Ebre. Juliol." },
+      { name: "Dansa València", type: "contemporania", city: "València", address: "València, País Valencià", lat: 39.4699, lng: -0.3763, url: "https://www.dansavalencia.com/", desc: "Festival internacional de dansa contemporània. Març–Abril." },
+
+      // FOLK I TRADICIONAL
+      { name: "Le Grand Bal de l'Europe", type: "folk", city: "Gennetines", address: "Gennetines, Allier, França", lat: 46.508, lng: 3.183, url: "https://www.balleurope.com/", desc: "El gran mercat de ball folk europeu. 5.000 persones, 40 orquestres, ball les 24 hores. Agost." },
+      { name: "Tradicionàrius", type: "folk", city: "Barcelona", address: "Espai Jove Boca Nord, Barcelona", lat: 41.4042, lng: 2.1382, url: "https://www.tradicionarius.cat/", desc: "Cicle de folk, músiques del món i ball tradicional. Gener–Març, Barcelona." },
+      { name: "Folkarria Eco Festi-bal", type: "folk", city: "Madrid", address: "Madrid, Espanya", lat: 40.4168, lng: -3.7038, url: "https://www.folkarria.es/", desc: "Festival de ball i dansa popular. Música tradicional i ball social en format de proximitat." },
+
+      // FLAMENC
+      { name: "Bienal de Flamenco de Sevilla", type: "flamenc", city: "Sevilla", address: "Sevilla, Andalusia", lat: 37.3891, lng: -5.9845, url: "https://www.labienal.com/", desc: "El festival de flamenc més important del món. Setembre, anys parells." },
+      { name: "Festival de Jerez", type: "flamenc", city: "Jerez", address: "Jerez de la Frontera, Andalusia", lat: 36.6864, lng: -6.1372, url: "https://www.festivaldejerez.es/", desc: "Dues setmanes de febrer al cor de Jerez. Ballet flamenc i flamenc tradicional." },
+      { name: "Festival de Danza de Granada", type: "flamenc", city: "Granada", address: "Granada, Andalusia", lat: 37.1773, lng: -3.5986, url: "https://festivaldegranda.com/", desc: "Festival de dansa espanyola, ballet flamenc i dansa contemporània. Juny–Juliol." },
+      { name: "Ciutat Flamenco", type: "flamenc", city: "Barcelona", address: "Diverses sales de Barcelona", lat: 41.3905, lng: 2.1715, url: "https://ciutatflamenco.com/", desc: "Festival de flamenc contemporani a Barcelona. Octubre." },
+
+      // URBANA
+      { name: "Battle of the Year — Europe", type: "urbana", city: "Europa (itinerant)", address: "Seu variable cada any", lat: 48.8566, lng: 2.3522, url: "https://www.battleoftheyear.de/", desc: "La competició de breakdance més prestigiosa del món. Edicions europees i mundial." },
+      { name: "Red Bull BC One Cypher Europe", type: "urbana", city: "Europa (itinerant)", address: "Diverses ciutats europees", lat: 50.1109, lng: 8.6821, url: "https://www.redbullbcone.com/", desc: "Competicions de 1-on-1 breaking per tota Europa. Primavera–Estiu." },
+
+      // CIRCUIT
+      { name: "Sismògraf", type: "circuit", city: "Olot", address: "Olot, la Garrotxa, Catalunya", lat: 42.1807, lng: 2.4896, url: "https://www.sismograf.cat/", desc: "Festival de dansa i arts en moviment a la Garrotxa. Performances site-specific, residències. Primavera." },
+      { name: "Cádiz en Danza", type: "circuit", city: "Cadis", address: "Cadis, Andalusia", lat: 36.5271, lng: -6.2886, url: "https://www.cadizdanza.es/", desc: "Festival de dansa contemporània i urbana a la badia de Cadis. Octubre." },
+      { name: "Masdanza", type: "circuit", city: "Las Palmas", address: "Las Palmas de Gran Canaria, Canàries", lat: 28.1235, lng: -15.4366, url: "https://masdanza.com/", desc: "Festival internacional de dansa contemporània. Fort en programació llatinoamericana i africana. Octubre." },
+      { name: "Dantza Hirian / Lekuz Leku", type: "circuit", city: "Bilbao", address: "Bilbao i Euskadi", lat: 43.2627, lng: -2.9253, url: "https://dantzahirian.eus/", desc: "Dansa al carrer i als espais públics del País Basc. Performances en places i barris." }
+    ];
+
+    var markers = [];
+    var clusterGroup = L.markerClusterGroup({ maxClusterRadius: 40 });
+
+    locations.forEach(function(loc) {
+      var icon = icons[loc.type] || icons.circuit;
+      var typeLabel = typeLabels[loc.type] || loc.type;
+
+      var popup = '<div class="popup-content">' +
+        '<h3>' + loc.name + '</h3>' +
+        '<div class="meta">' + typeLabel + ' · ' + loc.city + '</div>' +
+        '<p>' + loc.address + '</p>' +
+        '<p>' + loc.desc + '</p>' +
+        (loc.url ? '<a href="' + loc.url + '" target="_blank" rel="noopener">Visita el web →</a>' : '') +
+        '</div>';
+
+      var marker = L.marker([loc.lat, loc.lng], { icon: icon }).bindPopup(popup);
+      marker.locType = loc.type;
+      markers.push(marker);
+      clusterGroup.addLayer(marker);
+    });
+
+    map.addLayer(clusterGroup);
+
+    function filterAll() {
+      clusterGroup.clearLayers();
+      markers.forEach(function(m) { clusterGroup.addLayer(m); });
+      setActive('btn-all');
+    }
+    function filterType(t) {
+      clusterGroup.clearLayers();
+      markers.filter(function(m) { return m.locType === t; })
+             .forEach(function(m) { clusterGroup.addLayer(m); });
+      var btnMap = { contemporania: 'btn-contemporania', folk: 'btn-folk', flamenc: 'btn-flamenc', urbana: 'btn-urbana', circuit: 'btn-circuit' };
+      setActive(btnMap[t]);
+    }
+    function setActive(id) {
+      ['btn-all','btn-contemporania','btn-folk','btn-flamenc','btn-urbana','btn-circuit'].forEach(function(b) {
+        document.getElementById(b).classList.remove('active');
+      });
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+      .m { font-family: 'Syne', 'Arial Black', sans-serif; font-weight: 800; fill: #d49a2a; }
+    </style>
+  </defs>
+  <text x="50" y="92" class="m" font-size="110" text-anchor="middle" transform="scale(-1,1)">R</text>
+</svg>

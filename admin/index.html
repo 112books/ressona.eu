@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Stats · Ressona</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+
+  <!-- ══ CONFIGURACIÓ ═══════════════════════════════════════════
+       setup.sh omple aquests valors automàticament.
+       Per canviar la contrasenya: echo -n "nova" | sha256sum
+  ═══════════════════════════════════════════════════════════════ -->
+  <script>
+  const CFG = {
+    siteName:     'Ressona',
+    gcUrl:        'https://ressona.goatcounter.com',
+    pwHash:       'ec689a6b20231cab576cd7604ab478777e3e23bd4e4822dbc841779afa57fbbf',
+    dataUrl:      'analytics.json',
+    sectionNames: {"inici":"Inici","legal":"Legal","serveis":"Serveis"},
+    // Token API de GoatCounter (llegit-only). Genera'l a:
+    // https://ressona.goatcounter.com/-/settings/api
+    gcToken:      '206crclbj2pcbho30o74l772d16ecx4dbbvwm319fuungm9zv3n',
+  };
+
+  async function sha256(msg) {
+    const b = new TextEncoder().encode(msg);
+    const h = await crypto.subtle.digest('SHA-256', b);
+    return [...new Uint8Array(h)].map(b => b.toString(16).padStart(2,'0')).join('');
+  }
+  async function tryLogin() {
+    const pwd = document.getElementById('pwd').value;
+    const h = await sha256(pwd);
+    if (h !== CFG.pwHash) { document.getElementById('login-err').textContent = 'Contrasenya incorrecta'; return; }
+    sessionStorage.setItem('resona_admin', '1');
+    document.getElementById('login').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    loadData();
+  }
+  if (sessionStorage.getItem('resona_admin') === '1') {
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('login').style.display = 'none';
+      document.getElementById('dashboard').style.display = 'block';
+      if (window.initDashboard) initDashboard();
+    });
+  } else {
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('login').style.display = 'flex';
+      document.getElementById('login-btn').addEventListener('click', tryLogin);
+      document.getElementById('pwd').addEventListener('keydown', e => { if (e.key === 'Enter') tryLogin(); });
+    });
+  }
+  </script>
+
+  <style>
+    /* ── Variables ──────────────────────────────────────────── */
+    :root {
+      --bg:      #34454c;
+      --ink:     #d9d0d5;
+      --invert:  #0c0b09;
+      --ink2:    rgba(192,169,179,0.5);
+      --ink3:    rgba(192,169,179,0.4);
+      --accent:  #fdbf68;
+      --accent2: #501345;
+      --border:  rgba(192,169,179,0.1);
+      --surface: #2b3b41;
+      --warn:    #a83232;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'IBM Plex Mono', 'Courier New', monospace;
+      font-size: 13px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── Login ──────────────────────────────────────────────── */
+    #login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .login-box {
+      width: 300px;
+      padding: 2.5rem;
+      border: 1px solid var(--border);
+    }
+    .login-logo {
+      color: var(--ink3);
+      letter-spacing: .15em;
+      font-size: 11px;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+    .login-logo em { color: var(--accent); font-style: normal; }
+    #pwd {
+      width: 100%;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--border);
+      padding: .5rem 0;
+      font-family: inherit;
+      font-size: 15px;
+      color: var(--ink);
+      outline: none;
+      margin-bottom: 1.5rem;
+      letter-spacing: .1em;
+    }
+    #pwd:focus { border-bottom-color: var(--accent); }
+    .btn {
+      background: var(--accent);
+      color: var(--invert);
+      border: none;
+      padding: .55rem 1.25rem;
+      font-family: inherit;
+      font-size: 12px;
+      letter-spacing: .08em;
+      cursor: pointer;
+    }
+    .btn:hover { background: var(--accent2); color: #fff; }
+    #login-err { min-height: 1.4em; color: var(--warn); font-size: 11px; margin-top: .75rem; }
+
+    /* ── Topbar ─────────────────────────────────────────────── */
+    #dashboard { display: none; }
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: .75rem 2rem;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 20;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .topbar-logo { display: flex; align-items: center; gap: .75rem; text-decoration: none; }
+    .topbar-logo .nav-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.35rem; color: var(--ink); letter-spacing: normal; text-transform: none; line-height: 1; white-space: nowrap; }
+    .topbar-logo .nav-logo .flip-r { display: inline-block; transform: scaleX(-1); color: var(--accent); }
+    .topbar-logo .nav-logo .shift-up { vertical-align: 0.12em; font-size: 0.85em; }
+    .topbar-logo .nav-logo .shift-down { vertical-align: -0.12em; font-size: 0.85em; }
+    .topbar-logo .logo-sep { color: var(--ink3); font-size: 10px; letter-spacing: .15em; text-transform: uppercase; font-family: 'IBM Plex Mono', monospace; }
+    .topbar-meta { flex: 1; min-width: 0; }
+    .topbar-gen { font-size: 10px; color: var(--ink3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .topbar-gen strong { color: var(--ink2); }
+    .topbar-actions { display: flex; gap: .6rem; align-items: center; flex-shrink: 0; }
+    .btn-sm {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--ink3);
+      padding: .5rem 1rem;
+      font-family: inherit;
+      font-size: 13px;
+      letter-spacing: .06em;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn-sm:hover { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+
+    /* ── Layout ─────────────────────────────────────────────── */
+    .dash-body { padding: 2rem; max-width: 1080px; margin: 0 auto; }
+
+    /* ── Banner ─────────────────────────────────────────────── */
+    .banner { padding: .85rem 1.1rem; margin-bottom: 1.5rem; font-size: 12px; line-height: 1.5; }
+    .banner-error   { background: rgba(168,50,50,0.12); border: 1px solid rgba(168,50,50,0.3); color: var(--warn); }
+    .banner-loading { color: var(--ink3); font-size: 12px; }
+
+    /* ── KPIs ───────────────────────────────────────────────── */
+    .kpis { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; margin-bottom: 2rem; list-style: none; }
+    .kpi { border: 1px solid var(--border); padding: 1.2rem 1.5rem; }
+    .kpi dt { color: var(--ink3); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; margin-bottom: .4rem; font-weight: 400; }
+    .kpi-value { font-size: 2.4rem; color: var(--ink); line-height: 1; margin-bottom: .25rem; letter-spacing: -.01em; }
+    .kpi-value.accent { color: var(--accent); }
+    .kpi-sub { color: var(--ink3); font-size: 10px; letter-spacing: .04em; }
+
+    /* ── Tabs ───────────────────────────────────────────────── */
+    .tabs { display: flex; border-bottom: 1px solid var(--border); margin-bottom: 2rem; }
+    .tab-btn {
+      background: none; border: none; border-bottom: 2px solid transparent;
+      color: var(--ink3); font-family: inherit; font-size: 11px;
+      letter-spacing: .14em; text-transform: uppercase;
+      padding: .65rem 1.2rem; cursor: pointer; position: relative; bottom: -1px;
+    }
+    .tab-btn:hover { color: var(--ink); }
+    .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── Section title ──────────────────────────────────────── */
+    .section-title {
+      color: var(--ink3); font-size: 10px; font-weight: 400;
+      letter-spacing: .15em; text-transform: uppercase;
+      margin: 2rem 0 1rem; padding-bottom: .4rem; border-bottom: 1px solid var(--border);
+    }
+    .section-title:first-child { margin-top: 0; }
+
+    /* ── Chart ──────────────────────────────────────────────── */
+    .chart-controls { display: flex; gap: .4rem; margin-bottom: 1rem; flex-wrap: wrap; align-items: center; }
+    .chart-sep { width: 1px; height: 24px; background: var(--border); margin: 0 .2rem; }
+    .period-btn, .group-btn {
+      background: transparent; border: 1px solid var(--border);
+      color: var(--ink3); padding: .22rem .6rem; font-family: inherit;
+      font-size: 10px; letter-spacing: .08em; text-transform: uppercase; cursor: pointer;
+    }
+    .period-btn:hover, .group-btn:hover { border-color: var(--ink3); color: var(--ink); }
+    .period-btn.active, .group-btn.active { border-color: var(--accent); color: var(--accent); }
+    .chart-wrap { border: 1px solid var(--border); padding: 1.25rem 1.25rem .75rem; height: 220px; position: relative; }
+    .chart-wrap canvas { position: absolute; top: 1.25rem; left: 1.25rem; right: 1.25rem; bottom: .75rem; width: calc(100% - 2.5rem) !important; height: calc(100% - 2rem) !important; }
+    .chart-summary { font-size: 11px; color: var(--ink3); margin-top: .6rem; }
+    .chart-summary strong { color: var(--ink2); }
+    .chart-summary .hl { color: var(--accent); }
+
+    /* ── Bars ───────────────────────────────────────────────── */
+    .bars { display: flex; flex-direction: column; gap: .55rem; }
+    .bar-row { display: grid; grid-template-columns: 150px 1fr 52px; align-items: center; gap: .75rem; }
+    .bar-label { font-size: 11px; color: var(--ink2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: right; }
+    .bar-label a { color: inherit; text-decoration: none; }
+    .bar-label a:hover { color: var(--accent); }
+    .bar-track { background: var(--surface); height: 22px; position: relative; overflow: hidden; border: 1px solid var(--border); }
+    .bar-fill { height: 100%; width: 0; background: var(--accent); transition: width .9s cubic-bezier(.4,0,.2,1); display: flex; align-items: center; }
+    .bar-fill.blue   { background: var(--accent2); }
+    .bar-fill.green  { background: var(--accent); }
+    .bar-fill.ink2   { background: var(--ink2); }
+    .bar-pct { font-size: 10px; color: var(--invert); position: absolute; right: 5px; }
+    .bar-count { font-size: 11px; color: var(--ink); text-align: right; }
+
+    /* ── Lang bar ───────────────────────────────────────────── */
+    .lang-bar { display: flex; height: 26px; margin-bottom: .6rem; overflow: hidden; border: 1px solid var(--border); }
+    .lang-seg { display: flex; align-items: center; justify-content: center; color: #fff; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; transition: width .8s ease; }
+    .lang-ca { background: var(--accent); }
+    .lang-en { background: var(--ink3); }
+    .lang-es { background: var(--accent2); }
+    .lang-fr { background: var(--ink2); }
+    .lang-other { background: rgba(192,169,179,0.15); }
+    .lang-detail { display: flex; gap: 1.5rem; color: var(--ink3); font-size: 11px; flex-wrap: wrap; }
+
+    /* ── Device cards ───────────────────────────────────────── */
+    .device-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.5rem; }
+    .device-card { border: 1px solid var(--border); padding: 1rem 1.25rem; display: flex; flex-direction: column; align-items: center; gap: .3rem; }
+    .device-icon { font-size: 1.6rem; line-height: 1; }
+    .device-label { font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink3); }
+    .device-count { font-size: 2rem; color: var(--ink); line-height: 1; }
+    .device-pct { font-size: 10px; color: var(--ink3); }
+
+    /* ── Grid 2 columnes ────────────────────────────────────── */
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+
+    /* ── Insight ────────────────────────────────────────────── */
+    .insight {
+      background: var(--surface); border-left: 3px solid var(--accent);
+      padding: 1rem 1.25rem; margin-top: 1.5rem;
+      font-size: 11px; color: var(--ink2); line-height: 1.9;
+    }
+    .insight .label {
+      font-size: 10px; letter-spacing: .15em; text-transform: uppercase;
+      color: var(--accent); margin-bottom: .4rem; display: block;
+    }
+    .insight em { color: var(--ink); font-style: normal; }
+    .insight-line::before { content: '→ '; color: var(--accent); }
+    .funnel-note { margin-top: .75rem; font-size: 11px; color: var(--ink2); border-top: 1px solid rgba(192,169,179,0.1); padding-top: .6rem; }
+    .funnel-note strong { color: var(--accent); }
+
+    /* ── Empty ──────────────────────────────────────────────── */
+    .empty { color: var(--ink3); font-size: 11px; font-style: italic; padding: .4rem 0; display: block; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    /* ── Responsive ─────────────────────────────────────────── */
+    @media (max-width: 1080px) { .kpis { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 860px) {
+      .kpis { grid-template-columns: repeat(2, 1fr); }
+      .grid-2 { grid-template-columns: 1fr; gap: 1.5rem; }
+      .dash-body { padding: 1rem; }
+      .topbar { padding: .6rem 1rem; }
+      .bar-row { grid-template-columns: 90px 1fr 40px; gap: .5rem; }
+      .bar-label { font-size: 10px; }
+    }
+    @media (max-width: 600px) {
+      .topbar-meta { display: none; }
+      .topbar-actions { gap: .35rem; flex-wrap: wrap; }
+      .btn-sm { font-size: 9px; padding: 3px 6px; }
+    }
+    @media (max-width: 480px) {
+      .tabs { overflow-x: auto; }
+      .tab-btn { padding: .6rem .9rem; white-space: nowrap; }
+      .device-grid { gap: .6rem; }
+      .kpis { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══ DASHBOARD ════════════════════════════════════════════ -->
+  <div id="login">
+    <div class="login-box">
+      <div class="login-logo"><em>Ressona</em> / Admin</div>
+      <input type="password" id="pwd" placeholder="Contrasenya" aria-label="Contrasenya" autocomplete="current-password">
+      <button class="btn" id="login-btn">Entrar</button>
+      <div id="login-err"></div>
+    </div>
+  </div>
+  <div id="dashboard">
+
+  <div class="topbar">
+    <div class="topbar-logo" id="topbar-logo">
+      <span class="nav-logo"><span class="flip-r">R</span>e<span class="shift-up">s</span><span class="shift-down">s</span><span class="shift-down">o</span>na</span>
+      <span class="logo-sep">/ Stats</span>
+    </div>
+    <div class="topbar-meta">
+      <div class="topbar-gen" id="topbar-gen">carregant…</div>
+    </div>
+    <div class="topbar-actions">
+      <a href="https://github.com/112books/ressona.eu/actions/workflows/fetch-analytics.yml" class="btn-sm" target="_blank" rel="noopener noreferrer" title="Dispara una actualització manual a GitHub Actions">↻ Actualitza</a>
+      <a id="gc-link" class="btn-sm" target="_blank" rel="noopener noreferrer">↗ GoatCounter</a>
+      <a href="/admin/plantilla.html" class="btn-sm">Plantilla</a>
+      <a href="/admin/brand/" class="btn-sm" title="Guia d'estil de marca">◈ Marca</a>
+      <a href="/" class="btn-sm" target="_blank" rel="noopener noreferrer">↗ Web</a>
+    </div>
+  </div>
+
+  <main class="dash-body">
+    <h1 class="sr-only">Ressona — Estadístiques</h1>
+    <div id="banner"></div>
+
+    <!-- KPIs -->
+    <dl class="kpis">
+      <div class="kpi"><dt>avui</dt><dd><div class="kpi-value accent" id="kpi-avui">—</div><div class="kpi-sub" id="sub-avui"></div></dd></div>
+      <div class="kpi"><dt>7 dies</dt><dd><div class="kpi-value" id="kpi-7d">—</div><div class="kpi-sub">últims 7 dies</div></dd></div>
+      <div class="kpi"><dt>30 dies</dt><dd><div class="kpi-value" id="kpi-30d">—</div><div class="kpi-sub">últims 30 dies</div></dd></div>
+      <div class="kpi"><dt>total any</dt><dd><div class="kpi-value" id="kpi-total">—</div><div class="kpi-sub" id="sub-total"></div></dd></div>
+      <div class="kpi"><dt>mitjana/dia</dt><dd><div class="kpi-value" id="kpi-pps">—</div><div class="kpi-sub">visites diàries (mitjana)</div></dd></div>
+      <div class="kpi"><dt>tendència</dt><dd><div class="kpi-value" id="kpi-trend">—</div><div class="kpi-sub" id="sub-trend">28d vs 28d anterior</div></dd></div>
+    </dl>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab-btn active" onclick="showTab('temporal',this)">Temporal</button>
+      <button class="tab-btn" onclick="showTab('pagines',this)">Pàgines</button>
+      <button class="tab-btn" onclick="showTab('dispositius',this)">Dispositius</button>
+    </div>
+
+    <!-- TAB: Temporal -->
+    <div id="tab-temporal" class="tab-panel active">
+      <div class="chart-controls">
+        <button class="period-btn active" data-days="7">7d</button>
+        <button class="period-btn" data-days="30">30d</button>
+        <button class="period-btn" data-days="90">3m</button>
+        <button class="period-btn" data-days="365">1a</button>
+        <div class="chart-sep"></div>
+        <button class="group-btn active" data-group="day">dia</button>
+        <button class="group-btn" data-group="week">setm.</button>
+        <button class="group-btn" data-group="month">mes</button>
+      </div>
+      <div class="chart-wrap"><canvas id="chart-canvas"></canvas></div>
+      <div class="chart-summary" id="chart-summary"></div>
+      <h2 class="section-title">visites per dia de la setmana</h2>
+      <div id="weekday-wrap" class="bars"></div>
+
+      <div id="insight-temporal" class="insight" style="display:none">
+        <span class="label">// observació</span>
+        <div id="insight-temporal-body"></div>
+      </div>
+    </div>
+
+    <!-- TAB: Pàgines -->
+    <div id="tab-pagines" class="tab-panel">
+      <h2 class="section-title">profunditat de navegació</h2>
+      <div id="depth-wrap" class="bars"></div>
+      <div id="depth-note" style="font-size:10px;color:var(--ink3);margin-top:.4rem"></div>
+
+      <h2 class="section-title">visites per idioma</h2>
+      <div id="lang-wrap"></div>
+
+      <h2 class="section-title">seccions més visitades</h2>
+      <div id="sections-wrap" class="bars"></div>
+
+      <h2 class="section-title">pàgines top</h2>
+      <div id="pages-wrap" class="bars"></div>
+
+      <h2 class="section-title">articles de recursos CA — tots</h2>
+      <div id="recursos-wrap" class="bars"></div>
+
+      <h2 class="section-title">articles de recursos EN — tots</h2>
+      <div id="recursos-en-wrap" class="bars"></div>
+
+      <h2 class="section-title">promo web debut — /comenca/</h2>
+      <div id="promo-wrap"></div>
+
+      <h2 class="section-title">funnel home → serveis → debut</h2>
+      <div id="funnel-wrap"></div>
+
+      <h2 class="section-title">origen del trànsit</h2>
+      <div id="origin-wrap" class="bars"></div>
+
+      <h2 class="section-title">referrers detallats</h2>
+      <div id="refs-wrap" class="bars"></div>
+
+      <h2 class="section-title">localització</h2>
+      <div id="locations-wrap" class="bars"></div>
+
+      <div id="insight-pagines" class="insight" style="display:none">
+        <span class="label">// observació</span>
+        <div id="insight-pagines-body"></div>
+      </div>
+    </div>
+
+    <!-- TAB: Dispositius -->
+    <div id="tab-dispositius" class="tab-panel">
+      <h2 class="section-title">tipus de dispositiu</h2>
+      <div class="device-grid">
+        <div class="device-card"><div class="device-icon">📱</div><div class="device-label">Mòbil</div><div class="device-count" id="dev-mobile">—</div><div class="device-pct" id="dev-mobile-pct"></div></div>
+        <div class="device-card"><div class="device-icon">⬜</div><div class="device-label">Tauleta</div><div class="device-count" id="dev-tablet">—</div><div class="device-pct" id="dev-tablet-pct"></div></div>
+        <div class="device-card"><div class="device-icon">🖥</div><div class="device-label">Escriptori</div><div class="device-count" id="dev-desktop">—</div><div class="device-pct" id="dev-desktop-pct"></div></div>
+      </div>
+      <div class="grid-2">
+        <div>
+          <h2 class="section-title">navegadors</h2>
+          <div id="browsers-wrap" class="bars"></div>
+        </div>
+        <div>
+          <h2 class="section-title">sistemes operatius</h2>
+          <div id="systems-wrap" class="bars"></div>
+        </div>
+      </div>
+      <div id="insight-dispositius" class="insight" style="display:none">
+        <span class="label">// observació</span>
+        <div id="insight-dispositius-body"></div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+/* ══ INIT ════════════════════════════════════════════════════ */
+function initDashboard() {
+document.getElementById('gc-link').href = CFG.gcUrl;
+document.title = 'Stats · ' + CFG.siteName;
+loadData();
+}
+
+/* ══ TABS ═════════════════════════════════════════════════════ */
+function showTab(id, btn) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
+  btn.classList.add('active');
+}
+
+/* ══ ESTAT GLOBAL ═════════════════════════════════════════════ */
+let globalData = null;
+let visitsChart = null;
+let chartPeriodDays = 7;
+let chartGroup = 'day';
+
+document.querySelectorAll('.period-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    chartPeriodDays = parseInt(btn.dataset.days, 10);
+    document.querySelectorAll('.period-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    if (globalData) renderChart(globalData);
+  });
+});
+document.querySelectorAll('.group-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    chartGroup = btn.dataset.group;
+    document.querySelectorAll('.group-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    if (globalData) renderChart(globalData);
+  });
+});
+
+/* ══ CARREGA DADES ════════════════════════════════════════════ */
+async function loadData() {
+  setBanner('loading', 'carregant estadístiques…');
+  try {
+    const r = await fetch(CFG.dataUrl + '?t=' + Date.now());
+    if (!r.ok) throw new Error('No s\'ha pogut carregar analytics.json (codi ' + r.status + ')');
+    const data = await r.json();
+    if (!data || !data.generated) throw new Error('analytics.json buit — el workflow encara no ha corregut');
+    globalData = data;
+    clearBanner();
+    renderAll(data);
+  } catch (e) {
+    setBanner('error', e.message);
+    document.getElementById('topbar-gen').textContent = 'error carregant dades';
+  }
+}
+
+/* ══ RENDER PRINCIPAL ════════════════════════════════════════ */
+function renderAll(data) {
+  const hbd   = data.hits_by_day || [];
+  const today = isoToday();
+
+  const avui  = sumDays(hbd, today, today);
+  const set7  = sumDays(hbd, daysAgo(7), today);
+  const mes30 = sumDays(hbd, daysAgo(30), today);
+  const total = data.total || 0;
+  const p     = data.period || {};
+
+  setText('kpi-avui',  fmt(avui));
+  setText('sub-avui',  avui === 1 ? '1 visita avui' : fmt(avui) + ' visites avui');
+  setText('kpi-7d',    fmt(set7));
+  setText('kpi-30d',   fmt(mes30));
+  setText('kpi-total', fmt(total));
+  setText('sub-total', fmtPeriod(p.start, p.end));
+  const daysWithData = hbd.filter(d => d.count > 0).length;
+  setText('kpi-pps',   daysWithData > 0 ? (total / daysWithData).toFixed(1) : '—');
+
+  const gen = data.generated
+    ? new Date(data.generated).toLocaleString('ca-ES', {day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'})
+    : '–';
+  document.getElementById('topbar-gen').innerHTML = 'Actualitzat: <strong>' + gen + '</strong>';
+
+  renderChart(data);
+  renderTrend(data);
+  renderWeekday(data);
+  renderLang(data);
+  renderDepth(data);
+  renderSections(data);
+  renderPages(data);
+  renderRecursos(data);
+  renderPromo(data);
+  renderFunnel(data);
+  renderOrigin(data);
+  renderRefs(data);
+  renderLocations(data);
+  renderDevices(data);
+  renderBrowsersSystems(data);
+  renderInsightTemporal(data);
+  renderInsightPagines(data);
+  renderInsightDispositius(data);
+
+  requestAnimationFrame(() => {
+    document.querySelectorAll('[data-w]').forEach(el => {
+      el.style.width = el.dataset.w + '%';
+    });
+  });
+}
+
+/* ══ CHART.JS ════════════════════════════════════════════════ */
+function renderChart(data) {
+  if (typeof Chart === 'undefined') return;
+  const hbd      = data.hits_by_day || [];
+  const filtered = hbd.filter(d => d.date >= daysAgo(chartPeriodDays));
+  const grouped  = groupHits(filtered, chartGroup);
+  const labels   = grouped.map(g => g.label);
+  const values   = grouped.map(g => g.count);
+
+  if (visitsChart) {
+    visitsChart.data.labels = labels;
+    visitsChart.data.datasets[0].data = values;
+    visitsChart.update();
+  } else {
+    const ctx = document.getElementById('chart-canvas').getContext('2d');
+    Chart.defaults.color = 'rgba(192,169,179,0.4)';
+    Chart.defaults.font.family = "'IBM Plex Mono','Courier New',monospace";
+    Chart.defaults.font.size   = 10;
+    visitsChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [{
+          label: 'Visites', data: values,
+          borderColor: '#fdbf68',
+          backgroundColor: ctx2 => {
+            const g = ctx2.chart.ctx.createLinearGradient(0, 0, 0, ctx2.chart.height);
+            g.addColorStop(0, 'rgba(253,191,104,0.18)');
+            g.addColorStop(1, 'rgba(253,191,104,0.01)');
+            return g;
+          },
+          fill: true, tension: 0.3,
+          pointRadius: values.length > 60 ? 0 : 3,
+          pointHoverRadius: 5,
+          pointBackgroundColor: '#fdbf68',
+          borderWidth: 1.5,
+        }],
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        scales: {
+          x: { grid: { color: 'rgba(192,169,179,0.06)' }, ticks: { color: 'rgba(192,169,179,0.4)', maxTicksLimit: 10 }, border: { color: 'rgba(192,169,179,0.1)' } },
+          y: { grid: { color: 'rgba(192,169,179,0.06)' }, ticks: { color: 'rgba(192,169,179,0.4)' }, border: { color: 'rgba(192,169,179,0.1)' }, beginAtZero: true },
+        },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#2b3b41', borderColor: 'rgba(192,169,179,0.15)', borderWidth: 1,
+            titleColor: '#d9d0d5', bodyColor: 'rgba(192,169,179,0.5)', padding: 10,
+            callbacks: { label: c => ' ' + c.parsed.y.toLocaleString('ca-ES') + ' visites' },
+          },
+        },
+      },
+    });
+  }
+
+  if (grouped.length) {
+    const ttl = grouped.reduce((s,g) => s+g.count, 0);
+    const max = grouped.reduce((a,b) => a.count>b.count?a:b);
+    const avg = Math.round(ttl / grouped.length);
+    const lbl = chartGroup==='day'?'dia':chartGroup==='week'?'setmana':'mes';
+    document.getElementById('chart-summary').innerHTML =
+      'Total: <strong>' + fmt(ttl) + '</strong> · ' +
+      'Mitjana/' + lbl + ': <strong>' + fmt(avg) + '</strong> · ' +
+      'Pic: <span class="hl">' + fmt(max.count) + '</span> (' + max.label + ')';
+  }
+}
+
+function groupHits(days, groupBy) {
+  if (groupBy === 'day') return days.map(d => ({ label: fmtDateShort(d.date), count: d.count }));
+  const buckets = {};
+  days.forEach(d => {
+    let key;
+    if (groupBy === 'week') {
+      const dt = new Date(d.date + 'T12:00:00');
+      const mon = new Date(dt);
+      mon.setDate(dt.getDate() - ((dt.getDay()+6)%7));
+      key = mon.toISOString().slice(0,10);
+    } else {
+      key = d.date.slice(0,7);
+    }
+    buckets[key] = (buckets[key]||0) + d.count;
+  });
+  return Object.keys(buckets).sort().map(k => ({
+    label: groupBy==='week' ? 'S.'+fmtDateShort(k) : fmtMonth(k),
+    count: buckets[k],
+  }));
+}
+
+/* ══ PÀGINES TAB ═════════════════════════════════════════════ */
+function renderLang(data) {
+  const el = document.getElementById('lang-wrap');
+  const by_lang = Object.assign({}, data.by_lang || {});
+  const explicitTotal = Object.values(by_lang).reduce((s,v) => s+v, 0);
+  const globalTotal = data.total || 0;
+  const caImplicit = globalTotal - explicitTotal;
+  if (caImplicit > 0) by_lang['ca'] = (by_lang['ca'] || 0) + caImplicit;
+  const total = Object.values(by_lang).reduce((s,v) => s+v, 0);
+  if (!total) { el.innerHTML = '<span class="empty">sense dades d\'idioma</span>'; return; }
+
+  const entries = Object.entries(by_lang).sort((a,b) => b[1]-a[1]);
+  const segs = entries.map(([lang, count]) => {
+    const pct = Math.round(count/total*100);
+    const cls = ['ca','en','es','fr'].includes(lang) ? 'lang-'+lang : 'lang-other';
+    return pct > 0
+      ? '<div class="lang-seg '+cls+'" style="width:0%" data-w="'+pct+'%">'+(pct>8?lang.toUpperCase()+' '+pct+'%':'')+'</div>'
+      : '';
+  }).join('');
+
+  const detail = entries.map(([lang, count]) => {
+    const NAMES = {ca:'Català',es:'Castellà',en:'Anglès',fr:'Francès',de:'Alemany',it:'Italià',pt:'Portuguès'};
+    return '<span>'+(NAMES[lang]||lang)+': '+fmt(count)+'</span>';
+  }).join('');
+
+  el.innerHTML = '<div class="lang-bar">' + segs + '</div><div class="lang-detail">' + detail + '</div>';
+
+  requestAnimationFrame(() => {
+    el.querySelectorAll('[data-w]').forEach(el2 => { el2.style.width = el2.dataset.w; });
+  });
+}
+
+function renderSections(data) {
+  const sections = data.by_section || {};
+  const items = Object.entries(sections)
+    .map(([k,v]) => ({ name: CFG.sectionNames[k] || k, count: v }))
+    .sort((a,b) => b.count - a.count);
+  renderBars('sections-wrap', items);
+}
+
+function renderPages(data) {
+  const hits = (data.hits || []).slice(0, 15);
+  const items = hits.map(h => ({ name: h.path, count: h.count, href: h.path }));
+  renderBars('pages-wrap', items, { withLinks: true, colorClass: 'ink2' });
+}
+
+async function renderRecursos(data) {
+  const hits = data.hits || [];
+  const hitsMap = {};
+  hits.filter(h => /\/(recursos|resources)\//.test(h.path)).forEach(h => {
+    hitsMap[h.path.replace(/\/$/, '')] = h.count;
+  });
+
+  document.getElementById('recursos-wrap').innerHTML = '<span class="empty">carregant…</span>';
+  document.getElementById('recursos-en-wrap').innerHTML = '<span class="empty">carregant…</span>';
+
+  function manifestToItems(manifest, hitsMap) {
+    return manifest.map(p => ({
+      name: p.slug,
+      count: hitsMap[p.url.replace(/\/$/, '')] || 0,
+      href: p.url
+    })).sort((a, b) => b.count - a.count);
+  }
+
+  try {
+    const [caManifest, enManifest] = await Promise.all([
+      fetch('/recursos/index.json').then(r => r.json()),
+      fetch('/en/resources/index.json').then(r => r.json())
+    ]);
+    const caItems = manifestToItems(caManifest, hitsMap);
+    const enItems = manifestToItems(enManifest, hitsMap);
+    if (!caItems.length) document.getElementById('recursos-wrap').innerHTML = '<span class="empty">Sense recursos publicats.</span>';
+    else renderBars('recursos-wrap', caItems, { withLinks: true, alwaysShowPct: true });
+    if (!enItems.length) document.getElementById('recursos-en-wrap').innerHTML = '<span class="empty">Sense recursos EN publicats.</span>';
+    else renderBars('recursos-en-wrap', enItems, { withLinks: true, colorClass: 'ink2', alwaysShowPct: true });
+  } catch(e) {
+    const fallback = hits.filter(h => /\/(recursos|resources)\//.test(h.path)).map(h => ({
+      name: h.path.replace(/^\/(en\/)?resources?\//, '').replace(/\/$/, '') || h.path,
+      count: h.count, href: h.path
+    }));
+    if (!fallback.length) {
+      document.getElementById('recursos-wrap').innerHTML = '<span class="empty">Sense visites als articles de recursos encara.</span>';
+      document.getElementById('recursos-en-wrap').innerHTML = '<span class="empty">No s\'ha pogut carregar el manifest.</span>';
+    } else {
+      renderBars('recursos-wrap', fallback, { withLinks: true, colorClass: 'gold' });
+      document.getElementById('recursos-en-wrap').innerHTML = '<span class="empty">No s\'ha pogut carregar el manifest.</span>';
+    }
+  }
+}
+
+function renderRefs(data) {
+  const refs = (data.refs || []).slice(0, 10);
+  if (!refs.length) {
+    document.getElementById('refs-wrap').innerHTML =
+      '<span class="empty">Sense referrers — el trànsit directe (marcadors, URL escrita) no genera referrer. Normal en webs nous.</span>';
+    return;
+  }
+  renderBars('refs-wrap', refs, { colorClass: 'blue' });
+}
+
+function renderLocations(data) {
+  renderBars('locations-wrap', (data.locations||[]).slice(0,15), { colorClass: 'green' });
+}
+
+/* ══ DISPOSITIUS TAB ═════════════════════════════════════════ */
+function renderDevices(data) {
+  const sizes = data.sizes || [];
+  let mobile = 0, tablet = 0, desktop = 0;
+  sizes.forEach(s => {
+    const id = (s.id||s.name||'').toLowerCase();
+    const c  = s.count || 0;
+    if (id === 'phone')                                       mobile  += c;
+    else if (id === 'tablet')                                 tablet  += c;
+    else if (['desktop','desktophd','larger'].includes(id))   desktop += c;
+    else {
+      const w = parseInt(id, 10);
+      if (!isNaN(w)) {
+        if (w < 768) mobile += c;
+        else if (w < 1200) tablet += c;
+        else desktop += c;
+      }
+    }
+  });
+  const total = mobile + tablet + desktop || 1;
+  const pct = n => total > 1 ? Math.round(n/total*100) + '%' : '';
+
+  setText('dev-mobile',      mobile  > 0 ? fmt(mobile)  : '—');
+  setText('dev-mobile-pct',  mobile  > 0 ? pct(mobile)  : '');
+  setText('dev-tablet',      tablet  > 0 ? fmt(tablet)  : '—');
+  setText('dev-tablet-pct',  tablet  > 0 ? pct(tablet)  : '');
+  setText('dev-desktop',     desktop > 0 ? fmt(desktop) : '—');
+  setText('dev-desktop-pct', desktop > 0 ? pct(desktop) : '');
+}
+
+const BROWSER_ICON = { chrome:'🟡',chromium:'🟡',firefox:'🦊',safari:'🔵',edge:'🔷',opera:'🔴',samsung:'📱',brave:'🦁',vivaldi:'🔴',ie:'🔵' };
+const OS_ICON      = { windows:'🪟',macos:'🍎',mac:'🍎',linux:'🐧',android:'🤖',ios:'📱',iphone:'📱',ipad:'📱',chromeos:'🟡',ubuntu:'🐧',debian:'🐧' };
+
+function renderBrowsersSystems(data) {
+  const browsers = (data.browsers||[]).map(b => ({ name: getIcon(b.name||'',BROWSER_ICON)+' '+(b.name||'?'), count: b.count }));
+  const systems  = (data.systems ||[]).map(s => ({ name: getIcon(s.name||'',OS_ICON)     +' '+(s.name||'?'), count: s.count }));
+  renderBars('browsers-wrap', browsers);
+  renderBars('systems-wrap',  systems);
+}
+
+/* ══ PROFUNDITAT DE NAVEGACIÓ ════════════════════════════════ */
+function renderDepth(data) {
+  const hits  = data.hits || [];
+  const total = data.total || 1;
+  const home     = hits.filter(h => /^\/?(en\/?)?$/.test(h.path)).reduce((s,h) => s+h.count, 0);
+  const sections = hits.filter(h => h.path.includes('#')).reduce((s,h) => s+h.count, 0);
+  const serveis  = hits.filter(h => h.path.includes('/serveis/')).reduce((s,h) => s+h.count, 0);
+  const recursos = hits.filter(h => /\/(recursos|resources)\//.test(h.path)).reduce((s,h) => s+h.count, 0);
+  const altres   = total - home - sections - serveis - recursos;
+
+  const items = [
+    { name: 'Portada (entrada)',        count: home,     title: 'Visites que arriben a la home' },
+    { name: 'Seccions (exploren)',       count: sections, title: 'Naveguen per les seccions de la pàgina' },
+    { name: 'Serveis (compromís alt)',   count: serveis,  title: 'Arriben a pàgines de servei específiques' },
+    { name: 'Recursos (blog/guies)',     count: recursos, title: 'Arriben als articles de la secció de recursos' },
+    { name: 'Altres (legal…)',           count: altres,   title: 'Legal i altres pàgines' },
+  ].filter(i => i.count > 0);
+
+  renderBars('depth-wrap', items, { colorClass: 'ink2' });
+
+  const beyond = sections + serveis;
+  const beyondPct = Math.round(beyond / total * 100);
+  const noteEl = document.getElementById('depth-note');
+  if (noteEl) noteEl.textContent =
+    '→ ' + beyondPct + '% del trànsit va més lluny de la portada' +
+    (serveis > 0 ? ' · ' + Math.round(serveis/total*100) + '% arriba a un servei concret' : '') + '.';
+}
+
+/* ══ TENDÈNCIA ═══════════════════════════════════════════════ */
+function renderTrend(data) {
+  const hbd = data.hits_by_day || [];
+  const el  = document.getElementById('kpi-trend');
+  const sub = document.getElementById('sub-trend');
+  if (!el) return;
+  for (const days of [28, 14, 7]) {
+    const curr = sumDays(hbd, daysAgo(days),     daysAgo(1));
+    const prev = sumDays(hbd, daysAgo(days * 2), daysAgo(days + 1));
+    if (prev > 0) {
+      const pct = Math.round((curr - prev) / prev * 100);
+      el.textContent = (pct >= 0 ? '+' : '') + pct + '%';
+      el.style.color = pct >= 0 ? '#fdbf68' : '#c0a9b3';
+      if (sub) sub.textContent = days + 'd vs ' + days + 'd anterior';
+      return;
+    }
+  }
+  el.textContent = '—';
+  if (sub) sub.textContent = 'sense prou dades';
+}
+
+/* ══ DIA DE LA SETMANA ═══════════════════════════════════════ */
+function renderWeekday(data) {
+  const hbd = data.hits_by_day || [];
+  if (!hbd.length) return;
+  const DAYS = ['Dg','Dl','Dm','Dc','Dj','Dv','Ds'];
+  const counts = [0,0,0,0,0,0,0];
+  const occur  = [0,0,0,0,0,0,0];
+  hbd.forEach(({date, count}) => {
+    const d = new Date(date + 'T12:00:00').getDay();
+    counts[d] += count;
+    occur[d]++;
+  });
+  const avgs = counts.map((c, i) => occur[i] ? Math.round(c / occur[i]) : 0);
+  const items = DAYS.map((name, i) => ({ name, count: avgs[i] }));
+  renderBars('weekday-wrap', items, { barWidthByTotal: true, alwaysShowPct: true });
+}
+
+/* ══ FUNNEL HOME → SERVEIS ═══════════════════════════════════ */
+function renderFunnel(data) {
+  const el    = document.getElementById('funnel-wrap');
+  if (!el) return;
+  const hits  = data.hits || [];
+  const total = data.total || 1;
+  const homeCount     = hits.filter(h => h.path === '/' || h.path === '/en' || h.path === '/en/').reduce((s,h) => s+h.count, 0);
+  const serveisHits   = hits.filter(h => /\/serveis\//.test(h.path));
+  const serveisCount  = serveisHits.reduce((s,h) => s+h.count, 0);
+  const sectionCount  = hits.filter(h => /#/.test(h.path)).reduce((s,h) => s+h.count, 0);
+
+  if (!homeCount && !serveisCount) {
+    el.innerHTML = '<span class="empty">sense dades de funnel encara</span>';
+    return;
+  }
+
+  const comenzaCount = hits.filter(h => /^\/(comenca|en\/start)\/?$/.test(h.path)).reduce((s,h) => s+h.count, 0);
+
+  if (!homeCount && !serveisCount && !comenzaCount) {
+    el.innerHTML = '<span class="empty">sense dades de funnel encara</span>';
+    return;
+  }
+
+  const rows = [
+    { label: 'Home (/)',              count: homeCount,     pct: Math.round(homeCount/total*100),     cls: 'ink2' },
+    { label: 'Seccions (#hash)',      count: sectionCount,  pct: Math.round(sectionCount/total*100),  cls: 'ink2' },
+    { label: 'Serveis',               count: serveisCount,  pct: Math.round(serveisCount/total*100),  cls: 'ink2' },
+    { label: 'Debut web (/comenca/)', count: comenzaCount,  pct: Math.round(comenzaCount/total*100),  cls: 'gold' },
+  ];
+  el.innerHTML = rows.map(r =>
+    '<div class="bar-row">' +
+    '<div class="bar-label">' + r.label + '</div>' +
+    '<div class="bar-track"><div class="bar-fill ' + r.cls + '" style="width:' + Math.max(r.pct, r.count > 0 ? 1 : 0) + '%">' +
+    (r.pct > 8 ? '<span class="bar-pct">' + r.pct + '%</span>' : '') + '</div></div>' +
+    '<div class="bar-count">' + fmt(r.count) + '</div>' +
+    '</div>'
+  ).join('');
+
+  const notes = [];
+  if (serveisCount > 0 && homeCount > 0) {
+    notes.push('De cada 100 visites a la home, <strong>' + Math.round(serveisCount/homeCount*100) + '</strong> arriben a un servei.');
+  }
+  if (comenzaCount > 0 && homeCount > 0) {
+    notes.push('<strong>' + Math.round(comenzaCount/homeCount*100) + '%</strong> de la home acaba a /comenca/ (intent de contractació).');
+  }
+  if (notes.length) el.innerHTML += '<div class="funnel-note">' + notes.join(' ') + '</div>';
+}
+
+/* ══ PROMO WEB DEBUT ════════════════════════════════════════ */
+function renderPromo(data) {
+  const el = document.getElementById('promo-wrap');
+  if (!el) return;
+  const hits  = data.hits || [];
+  const hbd   = data.hits_by_day || [];
+  const total = data.total || 1;
+
+  const caCount = hits.filter(h => /^\/comenca\/?$/.test(h.path)).reduce((s,h) => s+h.count, 0);
+  const enCount = hits.filter(h => /^\/en\/start\/?$/.test(h.path)).reduce((s,h) => s+h.count, 0);
+  const combined = caCount + enCount;
+
+  const today   = isoToday();
+  const hbd7    = hbd.filter(d => d.date >= daysAgo(7));
+  const hbd7p   = hbd.filter(d => d.date >= daysAgo(14) && d.date < daysAgo(7));
+
+  /* visites diàries /comenca/ via hits_by_day no les tenim desagregades per pàgina
+     (GoatCounter agrega tot), però podem mostrar les totals del període */
+  const pctTotal = combined ? Math.round(combined / total * 100) : 0;
+
+  if (!combined) {
+    el.innerHTML = '<span class="empty">Encara no hi ha visites registrades a /comenca/ ni /en/start/. Les dades apareixeran a la propera sincronització.</span>';
+    return;
+  }
+
+  const rows = [
+    { label: 'CA — /comenca/',   count: caCount,   pct: total > 1 ? Math.round(caCount/total*100)   : 0, href: '/comenca/'   },
+    { label: 'EN — /en/start/',  count: enCount,   pct: total > 1 ? Math.round(enCount/total*100)   : 0, href: '/en/start/'  },
+    { label: 'Total combinat',   count: combined,  pct: pctTotal,                                         href: null          },
+  ];
+
+  el.innerHTML = rows.map(r =>
+    '<div class="bar-row">' +
+    '<div class="bar-label">' + (r.href ? '<a href="' + r.href + '" target="_blank" rel="noopener noreferrer" style="color:inherit">' + r.label + '</a>' : r.label) + '</div>' +
+    '<div class="bar-track"><div class="bar-fill gold" style="width:' + Math.max(r.pct, r.count > 0 ? 2 : 0) + '%">' +
+    (r.pct > 8 ? '<span class="bar-pct">' + r.pct + '%</span>' : '') + '</div></div>' +
+    '<div class="bar-count">' + fmt(r.count) + '</div>' +
+    '</div>'
+  ).join('') +
+  '<div class="funnel-note">El <strong>' + pctTotal + '%</strong> del trànsit total arriba a la pàgina de debut. ' +
+  (caCount > enCount ? 'La versió catalana lidera.' : enCount > caCount ? 'La versió anglesa lidera.' : 'CA i EN empatades.') + '</div>';
+}
+
+/* ══ ORIGEN DEL TRÀNSIT ══════════════════════════════════════ */
+function renderOrigin(data) {
+  const refs = data.refs || [];
+  const SEARCH = ['google','bing','duckduckgo','yahoo','ecosia','brave search','qwant'];
+  const SOCIAL  = ['instagram','facebook','twitter','x.com','linkedin','tiktok','youtube','threads'];
+  let cercadors = 0, xarxes = 0, directe = 0, altres = 0;
+  refs.forEach(r => {
+    const name = (r.name || '').toLowerCase();
+    if (name === 'desconegut' || name === 'unknown' || !name) directe += r.count;
+    else if (SEARCH.some(s => name.includes(s))) cercadors += r.count;
+    else if (SOCIAL.some(s => name.includes(s))) xarxes += r.count;
+    else altres += r.count;
+  });
+  const items = [
+    { name: 'Directe / Desconegut', count: directe },
+    { name: 'Cercadors (Google, Bing…)', count: cercadors },
+    { name: 'Xarxes socials', count: xarxes },
+    { name: 'Altres webs', count: altres },
+  ].filter(i => i.count > 0).sort((a,b) => b.count - a.count);
+  renderBars('origin-wrap', items, { colorClass: 'blue' });
+}
+
+/* ══ INSIGHTS ════════════════════════════════════════════════ */
+function renderInsightTemporal(data) {
+  const hbd = data.hits_by_day || [];
+  if (!hbd.length) return;
+  const total7  = sumDays(hbd, daysAgo(7),  isoToday());
+  const total30 = sumDays(hbd, daysAgo(30), isoToday());
+  const prev30  = sumDays(hbd, daysAgo(60), daysAgo(31));
+  const avg7    = Math.round(total7 / 7);
+  const max     = hbd.reduce((a,b) => a.count>b.count?a:b, hbd[0]);
+
+  const DAYS_CA = ['Diumenge','Dilluns','Dimarts','Dimecres','Dijous','Divendres','Dissabte'];
+  const dayCounts = [0,0,0,0,0,0,0], dayOccur = [0,0,0,0,0,0,0];
+  hbd.forEach(({date, count}) => {
+    const d = new Date(date + 'T12:00:00').getDay();
+    dayCounts[d] += count; dayOccur[d]++;
+  });
+  const dayAvgs = dayCounts.map((c, i) => dayOccur[i] ? c / dayOccur[i] : 0);
+  const bestDay = dayAvgs.indexOf(Math.max(...dayAvgs));
+
+  const lines = [
+    'Mitjana dels últims 7 dies: <em>' + fmt(avg7) + ' visites/dia</em>.',
+    'El dia amb més trànsit va ser el <em>' + fmtDateShort(max.date) + '</em> amb <em>' + fmt(max.count) + ' visites</em>.',
+    total30 > 0 ? 'Aquest mes (30d): <em>' + fmt(total30) + ' visites</em>' + (prev30 > 0 ? ' — mes anterior: ' + fmt(prev30) : '') + '.' : '',
+    dayAvgs[bestDay] > 0 ? 'El <em>' + DAYS_CA[bestDay] + '</em> és el dia amb més trànsit de mitjana. Ideal per publicar a xarxes.' : '',
+  ].filter(Boolean);
+  showInsight('temporal', lines);
+}
+
+function renderInsightPagines(data) {
+  const total = data.total || 0;
+  if (!total) return;
+  const lines = [];
+  const NAMES = {ca:'Català',es:'Castellà',en:'Anglès',fr:'Francès',de:'Alemany',it:'Italià',pt:'Portuguès'};
+
+  const by_lang = Object.assign({}, data.by_lang || {});
+  const explicitTotal = Object.values(by_lang).reduce((s,v) => s+v, 0);
+  const caImplicit = total - explicitTotal;
+  if (caImplicit > 0) by_lang['ca'] = (by_lang['ca'] || 0) + caImplicit;
+  const byLang = Object.entries(by_lang).sort((a,b)=>b[1]-a[1]);
+  const bySec  = Object.entries(data.by_section||{}).sort((a,b)=>b[1]-a[1]);
+
+  if (byLang.length) {
+    const [lang, cnt] = byLang[0];
+    lines.push('L\'idioma principal és el <em>' + (NAMES[lang]||lang) + '</em> (' + Math.round(cnt/total*100) + '% del trànsit).');
+    if (byLang.length > 1) {
+      const [l2, c2] = byLang[1];
+      lines.push('L\'<em>' + (NAMES[l2]||l2) + '</em> representa el ' + Math.round(c2/total*100) + '% — audiència internacional present.');
+    }
+  }
+  if (bySec.length) {
+    const [sec, cnt] = bySec[0];
+    const name = CFG.sectionNames[sec] || sec;
+    lines.push('La secció més visitada és <em>' + name + '</em> amb ' + fmt(cnt) + ' visites (' + Math.round(cnt/total*100) + '% del total).');
+  }
+
+  const refs = data.refs || [];
+  const SEARCH = ['google','bing','duckduckgo','yahoo','ecosia'];
+  const SOCIAL  = ['instagram','facebook','twitter','x.com','linkedin','tiktok'];
+  let cercadors = 0, xarxes = 0, directe = 0;
+  refs.forEach(r => {
+    const name = (r.name||'').toLowerCase();
+    if (!name || name === 'desconegut') directe += r.count;
+    else if (SEARCH.some(s => name.includes(s))) cercadors += r.count;
+    else if (SOCIAL.some(s => name.includes(s))) xarxes += r.count;
+    else directe += r.count;
+  });
+  if (!refs.length) directe = total;
+  const directePct = Math.round(directe/total*100);
+  if (directePct > 70) lines.push('<em>' + directePct + '% del trànsit és directe</em> — el teu públic ja et coneix o ve des de xarxes sense rastre (Instagram Stories, WhatsApp).');
+  if (cercadors > 0) lines.push('<em>' + fmt(cercadors) + ' visites</em> des de cercadors — el SEO comença a funcionar.');
+  if (xarxes > 0) lines.push('<em>' + fmt(xarxes) + ' visites</em> des de xarxes socials.');
+
+  const locs = data.locations || [];
+  if (locs.length) {
+    const top = locs[0];
+    const topPct = Math.round(top.count/total*100);
+    lines.push('<em>' + topPct + '% del trànsit</em> ve de <em>' + top.name + '</em>.' + (locs[1] ? ' Seguit de ' + locs[1].name + ' (' + Math.round(locs[1].count/total*100) + '%).' : ''));
+  }
+
+  showInsight('pagines', lines);
+}
+
+function renderInsightDispositius(data) {
+  const lines = [];
+  const sizes = data.sizes || [];
+  const browsers = data.browsers || [];
+  const systems  = data.systems  || [];
+
+  let mobile = 0, desktop = 0, total = 0;
+  sizes.forEach(s => {
+    const id = (s.id||'').toLowerCase();
+    const c  = s.count||0;
+    total += c;
+    if (id === 'phone') mobile += c;
+    if (['desktop','desktophd','larger'].includes(id)) desktop += c;
+  });
+  if (total > 0) {
+    const mPct = Math.round(mobile/total*100);
+    if (mPct > 60) lines.push('<em>' + mPct + '% de mòbil</em>: prioritza l\'experiència mòbil en disseny i velocitat de càrrega.');
+    else if (mPct < 40) lines.push('<em>' + Math.round(desktop/total*100) + '% d\'escriptori</em>: els visitants accedeixen principalment des d\'ordinador.');
+    else lines.push('Trànsit equilibrat entre mòbil (<em>' + mPct + '%</em>) i escriptori (<em>' + Math.round(desktop/total*100) + '%</em>).');
+  }
+  if (browsers.length) {
+    const tot = browsers.reduce((s,b)=>s+b.count,0)||1;
+    const top = browsers[0];
+    lines.push('<em>' + top.name + '</em> és el navegador principal (' + Math.round(top.count/tot*100) + '% dels usuaris): assegura la compatibilitat com a prioritat.');
+  }
+  if (systems.length) {
+    const tot = systems.reduce((s,b)=>s+b.count,0)||1;
+    const top = systems[0];
+    lines.push('Sistema operatiu principal: <em>' + top.name + '</em> (' + Math.round(top.count/tot*100) + '%).');
+  }
+  showInsight('dispositius', lines);
+}
+
+function showInsight(id, lines) {
+  if (!lines.length) return;
+  const el = document.getElementById('insight-' + id);
+  const body = document.getElementById('insight-' + id + '-body');
+  el.style.display = 'block';
+  body.innerHTML = lines.map(l => '<div class="insight-line">' + l + '</div>').join('');
+}
+
+/* ══ UTILITAT: renderBars ════════════════════════════════════ */
+function renderBars(containerId, items, opts = {}) {
+  const el = document.getElementById(containerId);
+  if (!items || !items.length) {
+    el.innerHTML = '<span class="empty">sense dades</span>';
+    return;
+  }
+  const max   = items[0].count || 1;
+  const total = items.reduce((s,i) => s+i.count, 0) || 1;
+  el.className = 'bars';
+  el.innerHTML = '';
+  items.forEach(item => {
+    const pct  = Math.round(item.count/max*100);
+    const gpct = Math.round(item.count/total*100);
+    const barW = opts.barWidthByTotal ? gpct : pct;
+    const name = String(item.name || '?');
+
+    const row   = document.createElement('div'); row.className = 'bar-row';
+    const label = document.createElement('div'); label.className = 'bar-label'; label.title = name;
+
+    if (opts.withLinks && item.href) {
+      const a = document.createElement('a');
+      a.href = item.href; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = name;
+      label.appendChild(a);
+    } else {
+      label.textContent = name;
+    }
+
+    const track = document.createElement('div'); track.className = 'bar-track';
+    const fill  = document.createElement('div');
+    fill.className = 'bar-fill' + (opts.colorClass ? ' '+opts.colorClass : '');
+    fill.style.width = '0%';
+    fill.dataset.w = barW;
+    if (opts.alwaysShowPct ? gpct > 0 : gpct > 12) {
+      const sp = document.createElement('span'); sp.className = 'bar-pct';
+      sp.textContent = gpct + '%';
+      sp.style.color = barW > 30 ? 'var(--invert)' : 'var(--ink3)';
+      fill.appendChild(sp);
+    }
+    track.appendChild(fill);
+
+    const count = document.createElement('div'); count.className = 'bar-count'; count.textContent = fmt(item.count);
+
+    row.appendChild(label); row.appendChild(track); row.appendChild(count);
+    el.appendChild(row);
+  });
+}
+
+/* ══ UTILITATS ═══════════════════════════════════════════════ */
+const fmt      = n => (n==null||isNaN(n)) ? '—' : Number(n).toLocaleString('ca-ES');
+const isoToday = () => new Date().toISOString().slice(0,10);
+const setText  = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
+
+function daysAgo(n) {
+  const d = new Date(); d.setDate(d.getDate()-n);
+  return d.toISOString().slice(0,10);
+}
+function sumDays(hbd, from, to) {
+  return (hbd||[]).filter(d => d.date>=from && d.date<=to).reduce((s,d) => s+(d.count||0), 0);
+}
+function getIcon(name, map) {
+  const n = name.toLowerCase();
+  for (const key of Object.keys(map)) { if (n.includes(key)) return map[key]; }
+  return '·';
+}
+function fmtDateShort(str) {
+  if (!str) return '';
+  return new Date(str+'T12:00:00').toLocaleDateString('ca-ES', {day:'numeric',month:'short'});
+}
+function fmtMonth(ym) {
+  const [y,m] = ym.split('-');
+  return new Date(+y,+m-1,1).toLocaleDateString('ca-ES',{month:'short',year:'2-digit'});
+}
+function fmtPeriod(start, end) {
+  if (!start||!end) return '';
+  const f = s => new Date(s+'T12:00:00').toLocaleDateString('ca-ES',{day:'numeric',month:'short',year:'numeric'});
+  return f(start)+' – '+f(end);
+}
+function setBanner(type, msg) {
+  const el = document.getElementById('banner');
+  el.className = 'banner banner-' + type;
+  el.innerHTML = msg;
+}
+function clearBanner() {
+  const el = document.getElementById('banner');
+  el.className = ''; el.textContent = '';
+}
+
+/* ══ SINCRONITZAR DES DE GOATCOUNTER ════════════════════════════ */
+async function syncFromGoatCounter() {
+  if (!CFG.gcToken) {
+    setBanner('error',
+      'Afegeix el token API a CFG.gcToken. ' +
+      'Genera\'l a <a href="' + CFG.gcUrl + '/-/settings/api" target="_blank" style="color:inherit">' +
+      CFG.gcUrl + '/-/settings/api</a>'
+    );
+    return;
+  }
+  const btn = document.getElementById('gc-sync-btn');
+  btn.textContent = '↻ …';
+  btn.disabled = true;
+  setBanner('loading', 'Connectant amb GoatCounter…');
+
+  try {
+    const end   = isoToday();
+    const start = daysAgo(365);
+    const base  = CFG.gcUrl + '/api/v0';
+    const hdrs  = { 'Authorization': 'Bearer ' + CFG.gcToken };
+
+    setBanner('loading', 'Descarregant estadístiques (7 consultes)…');
+    const [hitsR, totalR, browsersR, systemsR, sizesR, locationsR, refsR] = await Promise.all([
+      gcFetch(base + '/stats/hits?start='      + start + '&end=' + end + '&limit=100', hdrs),
+      gcFetch(base + '/stats/total?start='     + start + '&end=' + end,                hdrs),
+      gcFetch(base + '/stats/browsers?start='  + start + '&end=' + end + '&limit=10',  hdrs),
+      gcFetch(base + '/stats/systems?start='   + start + '&end=' + end + '&limit=10',  hdrs),
+      gcFetch(base + '/stats/sizes?start='     + start + '&end=' + end + '&limit=10',  hdrs),
+      gcFetch(base + '/stats/locations?start=' + start + '&end=' + end + '&limit=15',  hdrs),
+      gcFetch(base + '/stats/toprefs?start='   + start + '&end=' + end + '&limit=10',  hdrs),
+    ]);
+
+    const data = gcProcess(hitsR, totalR, browsersR, systemsR, sizesR, locationsR, refsR, start, end);
+    globalData = data;
+    clearBanner();
+    renderAll(data);
+  } catch (e) {
+    const isCors = e.message.includes('CORS') || e.message.includes('Failed to fetch') || e.message.includes('Load failed');
+    setBanner('error', 'Error sincronitzant: ' + e.message +
+      (isCors ? ' — Safari pot bloquejar goatcounter.com. Prova en Chrome/Firefox, o comprova que el token sigui vàlid.' : ''));
+  } finally {
+    btn.textContent = '↻ Sincronitza';
+    btn.disabled = false;
+  }
+}
+
+async function gcFetch(url, headers) {
+  const r = await fetch(url, { headers });
+  if (!r.ok) throw new Error('GoatCounter ' + r.status + ' a ' + url.split('?')[0].split('/').pop());
+  return r.json();
+}
+
+function gcProcess(hitsR, totalR, browsersR, systemsR, sizesR, locationsR, refsR, start, end) {
+  const LANGS = new Set(['ca','es','en','fr','de','it','pt']);
+
+  function extractLang(path) {
+    const parts = (path||'').replace(/^\/|\/$/g,'').split('/').filter(Boolean);
+    if (parts.length && LANGS.has(parts[0])) return parts[0];
+    if (parts.length >= 2 && LANGS.has(parts[1])) return parts[1];
+    return null;
+  }
+  function extractSection(path) {
+    if (!path) return 'inici';
+    const parts = (path||'').replace(/^\/|\/$/g,'').split('/').filter(Boolean);
+    if (!parts.length) return 'inici';
+    let idx = LANGS.has(parts[0]) ? 1 : 0;
+    if (idx === 0 && parts.length > 1 && LANGS.has(parts[1])) idx = 2;
+    return idx < parts.length ? parts[idx] : 'inici';
+  }
+  function normItems(stats) {
+    return (stats||[])
+      .map(i => ({ name: i.name||i.browser||i.system||i.id||'?', id: i.id||i.name||'?', count: i.count||0 }))
+      .filter(i => i.count > 0)
+      .sort((a,b) => b.count - a.count);
+  }
+
+  const by_lang = {}, by_section = {}, hits_by_day = {}, hits_pages = {};
+  let total = 0;
+
+  ((hitsR && hitsR.hits) || []).forEach(pathItem => {
+    const path = pathItem.path || '';
+    const lang = extractLang(path);
+    const sec  = extractSection(path);
+    let pTotal = 0;
+    (pathItem.stats || []).forEach(stat => {
+      const date  = (stat.day||'').slice(0,10);
+      const count = stat.daily || 0;
+      if (!count) return;
+      total += count; pTotal += count;
+      if (lang) by_lang[lang] = (by_lang[lang]||0) + count;
+      by_section[sec] = (by_section[sec]||0) + count;
+      if (date) hits_by_day[date] = (hits_by_day[date]||0) + count;
+    });
+    if (pTotal > 0) hits_pages[path] = (hits_pages[path]||0) + pTotal;
+  });
+
+  return {
+    generated:    new Date().toISOString(),
+    period:       { start, end },
+    total,
+    total_unique: (totalR && totalR.total_unique) || 0,
+    hits_by_day:  Object.entries(hits_by_day).sort(([a],[b]) => a.localeCompare(b)).map(([date,count]) => ({date,count})),
+    hits:         Object.entries(hits_pages).sort(([,a],[,b]) => b-a).slice(0,30).map(([path,count]) => ({path,count})),
+    by_lang,
+    by_section,
+    browsers:  normItems(browsersR  && browsersR.stats),
+    systems:   normItems(systemsR   && systemsR.stats),
+    sizes:     normItems(sizesR     && sizesR.stats),
+    locations: normItems(locationsR && locationsR.stats),
+    refs:      normItems(refsR      && refsR.stats),
+  };
+}
+</script>
+</body>
+</html>
