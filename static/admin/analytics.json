@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-23T07:14:49.349437Z",
+  "generated": "2026-09-23T13:03:29.895740Z",
   "period": {
     "start": "2025-09-23",
     "end": "2026-09-23"
   },
-  "total": 1312,
+  "total": 1205,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "date": "2026-06-18",
-      "count": 38
+      "count": 37
     },
     {
       "date": "2026-06-19",
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-06-20",
-      "count": 15
+      "count": 11
     },
     {
       "date": "2026-06-21",
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-06-27",
-      "count": 125
+      "count": 110
     },
     {
       "date": "2026-06-28",
@@ -73,27 +73,27 @@
     },
     {
       "date": "2026-06-29",
-      "count": 12
+      "count": 11
     },
     {
       "date": "2026-06-30",
-      "count": 65
+      "count": 63
     },
     {
       "date": "2026-07-01",
-      "count": 85
+      "count": 81
     },
     {
       "date": "2026-07-02",
-      "count": 96
+      "count": 85
     },
     {
       "date": "2026-07-03",
-      "count": 102
+      "count": 83
     },
     {
       "date": "2026-07-04",
-      "count": 46
+      "count": 41
     },
     {
       "date": "2026-07-05",
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-07-06",
-      "count": 73
+      "count": 69
     },
     {
       "date": "2026-07-07",
@@ -141,7 +141,7 @@
     },
     {
       "date": "2026-07-16",
-      "count": 28
+      "count": 26
     },
     {
       "date": "2026-07-17",
@@ -149,7 +149,7 @@
     },
     {
       "date": "2026-07-20",
-      "count": 9
+      "count": 8
     },
     {
       "date": "2026-07-21",
@@ -192,10 +192,6 @@
       "count": 13
     },
     {
-      "date": "2026-08-06",
-      "count": 1
-    },
-    {
       "date": "2026-08-07",
       "count": 2
     },
@@ -221,7 +217,7 @@
     },
     {
       "date": "2026-08-13",
-      "count": 5
+      "count": 4
     },
     {
       "date": "2026-08-14",
@@ -229,7 +225,7 @@
     },
     {
       "date": "2026-08-15",
-      "count": 13
+      "count": 12
     },
     {
       "date": "2026-08-16",
@@ -237,15 +233,15 @@
     },
     {
       "date": "2026-08-17",
-      "count": 8
+      "count": 7
     },
     {
       "date": "2026-08-18",
-      "count": 2
+      "count": 1
     },
     {
       "date": "2026-08-19",
-      "count": 6
+      "count": 5
     },
     {
       "date": "2026-08-20",
@@ -253,7 +249,7 @@
     },
     {
       "date": "2026-08-21",
-      "count": 9
+      "count": 8
     },
     {
       "date": "2026-08-22",
@@ -261,7 +257,7 @@
     },
     {
       "date": "2026-08-23",
-      "count": 4
+      "count": 2
     },
     {
       "date": "2026-08-24",
@@ -277,15 +273,15 @@
     },
     {
       "date": "2026-08-27",
-      "count": 5
+      "count": 3
     },
     {
       "date": "2026-08-28",
-      "count": 17
+      "count": 11
     },
     {
       "date": "2026-08-29",
-      "count": 5
+      "count": 2
     },
     {
       "date": "2026-08-30",
@@ -293,11 +289,11 @@
     },
     {
       "date": "2026-08-31",
-      "count": 23
+      "count": 22
     },
     {
       "date": "2026-09-01",
-      "count": 26
+      "count": 20
     },
     {
       "date": "2026-09-02",
@@ -305,7 +301,7 @@
     },
     {
       "date": "2026-09-03",
-      "count": 2
+      "count": 1
     },
     {
       "date": "2026-09-04",
@@ -336,16 +332,12 @@
       "count": 1
     },
     {
-      "date": "2026-09-12",
-      "count": 1
-    },
-    {
       "date": "2026-09-13",
-      "count": 5
+      "count": 2
     },
     {
       "date": "2026-09-14",
-      "count": 10
+      "count": 9
     },
     {
       "date": "2026-09-15",
@@ -357,7 +349,7 @@
     },
     {
       "date": "2026-09-17",
-      "count": 3
+      "count": 1
     },
     {
       "date": "2026-09-18",
@@ -365,7 +357,7 @@
     },
     {
       "date": "2026-09-19",
-      "count": 7
+      "count": 6
     },
     {
       "date": "2026-09-20",
@@ -377,21 +369,155 @@
     },
     {
       "date": "2026-09-22",
-      "count": 11
-    },
-    {
-      "date": "2026-09-23",
-      "count": 1
+      "count": 10
     }
   ],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits": [
+    {
+      "path": "/",
+      "count": 359
+    },
+    {
+      "path": "/#que-fem",
+      "count": 73
+    },
+    {
+      "path": "/#per-qui",
+      "count": 60
+    },
+    {
+      "path": "/#quisom",
+      "count": 56
+    },
+    {
+      "path": "/#com-treballem",
+      "count": 50
+    },
+    {
+      "path": "/#contacte",
+      "count": 47
+    },
+    {
+      "path": "/recursos",
+      "count": 38
+    },
+    {
+      "path": "/#recursos",
+      "count": 37
+    },
+    {
+      "path": "/en",
+      "count": 31
+    },
+    {
+      "path": "/en/#que-fem",
+      "count": 24
+    },
+    {
+      "path": "/comenca",
+      "count": 20
+    },
+    {
+      "path": "/en/#per-qui",
+      "count": 20
+    },
+    {
+      "path": "/en/#quisom",
+      "count": 17
+    },
+    {
+      "path": "/en/#com-treballem",
+      "count": 16
+    },
+    {
+      "path": "/en/resources/circus-schools-europe",
+      "count": 13
+    },
+    {
+      "path": "/en/resources",
+      "count": 10
+    },
+    {
+      "path": "/en/resources/travelling-with-jazz-europe",
+      "count": 9
+    },
+    {
+      "path": "/recursos/drets-imatges-promocionals",
+      "count": 9
+    },
+    {
+      "path": "/en/#recursos",
+      "count": 9
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 9
+    },
+    {
+      "path": "/en/resources/digital-portfolio-visual-artists",
+      "count": 8
+    },
+    {
+      "path": "/en/resources/hard-rock-heavy-metal-europe",
+      "count": 7
+    },
+    {
+      "path": "/en/resources/linkedin-artists",
+      "count": 7
+    },
+    {
+      "path": "/en/resources/cultural-grants-europe",
+      "count": 7
+    },
+    {
+      "path": "/recursos/viatjant-amb-jazz-per-europa",
+      "count": 7
+    },
+    {
+      "path": "/serveis/identitat-visual",
+      "count": 7
+    },
+    {
+      "path": "/en/resources/summer-masterclasses-music-europe",
+      "count": 6
+    },
+    {
+      "path": "/en/resources/dance-festivals-europe",
+      "count": 6
+    },
+    {
+      "path": "/en/resources/artistic-residency",
+      "count": 6
+    },
+    {
+      "path": "/recursos/ruta-jazz-europa",
+      "count": 6
+    }
+  ],
+  "by_lang": {
+    "en": 290
+  },
+  "by_section": {
+    "inici": 390,
+    "#que-fem": 97,
+    "#per-qui": 80,
+    "#quisom": 73,
+    "#com-treballem": 66,
+    "#contacte": 56,
+    "recursos": 166,
+    "#recursos": 46,
+    "comenca": 20,
+    "resources": 156,
+    "serveis": 26,
+    "per-a-qui": 19,
+    "legal": 8,
+    "start": 2
+  },
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 715
+      "count": 716
     },
     {
       "name": "Safari",
@@ -418,7 +544,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 719
+      "count": 720
     },
     {
       "name": "Android",
@@ -450,7 +576,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 653
+      "count": 654
     },
     {
       "name": "phone",
@@ -527,7 +653,7 @@
     {
       "name": "Italy",
       "id": "IT",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Aruba",
