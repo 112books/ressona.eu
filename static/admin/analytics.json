@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-23T21:50:40.355856Z",
+  "generated": "2026-09-24T00:03:01.552568Z",
   "period": {
-    "start": "2025-09-23",
-    "end": "2026-09-23"
+    "start": "2025-09-24",
+    "end": "2026-09-24"
   },
-  "total": 1205,
+  "total": 1206,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -89,11 +89,11 @@
     },
     {
       "date": "2026-07-03",
-      "count": 83
+      "count": 82
     },
     {
       "date": "2026-07-04",
-      "count": 41
+      "count": 40
     },
     {
       "date": "2026-07-05",
@@ -357,7 +357,7 @@
     },
     {
       "date": "2026-09-19",
-      "count": 6
+      "count": 7
     },
     {
       "date": "2026-09-20",
@@ -370,6 +370,10 @@
     {
       "date": "2026-09-22",
       "count": 10
+    },
+    {
+      "date": "2026-09-23",
+      "count": 2
     }
   ],
   "hits": [
@@ -495,7 +499,7 @@
     }
   ],
   "by_lang": {
-    "en": 290
+    "en": 293
   },
   "by_section": {
     "inici": 390,
@@ -507,9 +511,9 @@
     "recursos": 166,
     "#recursos": 46,
     "comenca": 20,
-    "resources": 156,
+    "resources": 159,
     "serveis": 26,
-    "per-a-qui": 19,
+    "per-a-qui": 17,
     "legal": 8,
     "start": 2
   },
@@ -675,17 +679,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 511
+      "count": 512
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 89
+      "count": 91
     },
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 23
+      "count": 24
     },
     {
       "name": "ig",
