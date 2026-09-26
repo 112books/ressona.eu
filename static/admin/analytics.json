@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-25T22:51:53.935907Z",
+  "generated": "2026-09-26T00:59:04.937519Z",
   "period": {
-    "start": "2025-09-25",
-    "end": "2026-09-25"
+    "start": "2025-09-26",
+    "end": "2026-09-26"
   },
-  "total": 1207,
+  "total": 1214,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -93,7 +93,7 @@
     },
     {
       "date": "2026-07-04",
-      "count": 40
+      "count": 39
     },
     {
       "date": "2026-07-05",
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-07-06",
-      "count": 69
+      "count": 68
     },
     {
       "date": "2026-07-07",
@@ -333,7 +333,7 @@
     },
     {
       "date": "2026-09-13",
-      "count": 2
+      "count": 3
     },
     {
       "date": "2026-09-14",
@@ -378,12 +378,16 @@
     {
       "date": "2026-09-24",
       "count": 2
+    },
+    {
+      "date": "2026-09-25",
+      "count": 8
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 359
+      "count": 360
     },
     {
       "path": "/#que-fem",
@@ -415,11 +419,11 @@
     },
     {
       "path": "/en",
-      "count": 31
+      "count": 32
     },
     {
       "path": "/en/#que-fem",
-      "count": 24
+      "count": 25
     },
     {
       "path": "/comenca",
@@ -434,12 +438,16 @@
       "count": 17
     },
     {
+      "path": "/en/resources/circus-schools-europe",
+      "count": 16
+    },
+    {
       "path": "/en/#com-treballem",
       "count": 16
     },
     {
-      "path": "/en/resources/circus-schools-europe",
-      "count": 14
+      "path": "/en/resources/digital-portfolio-visual-artists",
+      "count": 10
     },
     {
       "path": "/en/resources",
@@ -460,10 +468,6 @@
     {
       "path": "/en/#contacte",
       "count": 9
-    },
-    {
-      "path": "/en/resources/digital-portfolio-visual-artists",
-      "count": 8
     },
     {
       "path": "/en/resources/hard-rock-heavy-metal-europe",
@@ -503,21 +507,21 @@
     }
   ],
   "by_lang": {
-    "en": 296
+    "en": 304
   },
   "by_section": {
-    "inici": 390,
-    "#que-fem": 97,
+    "inici": 392,
+    "#que-fem": 98,
     "#per-qui": 80,
     "#quisom": 73,
     "#com-treballem": 66,
     "#contacte": 56,
-    "recursos": 164,
+    "recursos": 162,
     "#recursos": 46,
     "comenca": 20,
-    "resources": 162,
+    "resources": 166,
     "serveis": 26,
-    "per-a-qui": 17,
+    "per-a-qui": 19,
     "legal": 8,
     "start": 2
   },
@@ -683,17 +687,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 512
+      "count": 513
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 91
+      "count": 94
     },
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 25
+      "count": 27
     },
     {
       "name": "ig",
