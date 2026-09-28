@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-27T21:40:59.807855Z",
+  "generated": "2026-09-28T00:03:11.764822Z",
   "period": {
-    "start": "2025-09-27",
-    "end": "2026-09-27"
+    "start": "2025-09-28",
+    "end": "2026-09-28"
   },
-  "total": 1220,
+  "total": 1222,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -93,7 +93,7 @@
     },
     {
       "date": "2026-07-04",
-      "count": 37
+      "count": 36
     },
     {
       "date": "2026-07-05",
@@ -257,7 +257,7 @@
     },
     {
       "date": "2026-08-23",
-      "count": 2
+      "count": 3
     },
     {
       "date": "2026-08-24",
@@ -277,7 +277,7 @@
     },
     {
       "date": "2026-08-28",
-      "count": 11
+      "count": 10
     },
     {
       "date": "2026-08-29",
@@ -389,6 +389,10 @@
     },
     {
       "date": "2026-09-27",
+      "count": 3
+    },
+    {
+      "date": "2026-09-28",
       "count": 1
     }
   ],
@@ -443,7 +447,7 @@
     },
     {
       "path": "/en/resources/circus-schools-europe",
-      "count": 18
+      "count": 19
     },
     {
       "path": "/en/#quisom",
@@ -455,7 +459,7 @@
     },
     {
       "path": "/en/resources/digital-portfolio-visual-artists",
-      "count": 10
+      "count": 11
     },
     {
       "path": "/en/resources",
@@ -515,7 +519,7 @@
     }
   ],
   "by_lang": {
-    "en": 311
+    "en": 313
   },
   "by_section": {
     "inici": 392,
@@ -527,7 +531,7 @@
     "recursos": 161,
     "#recursos": 46,
     "comenca": 20,
-    "resources": 173,
+    "resources": 175,
     "serveis": 26,
     "per-a-qui": 19,
     "legal": 8,
@@ -542,7 +546,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 550
+      "count": 551
     },
     {
       "name": "Firefox",
@@ -564,7 +568,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 723
+      "count": 724
     },
     {
       "name": "Android",
@@ -596,7 +600,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 665
+      "count": 666
     },
     {
       "name": "phone",
@@ -623,7 +627,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 242
+      "count": 243
     },
     {
       "name": "Germany",
@@ -700,12 +704,12 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 96
+      "count": 98
     },
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 30
+      "count": 31
     },
     {
       "name": "duckduckgo.com",
