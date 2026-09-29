@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T13:27:28.992377Z",
+  "generated": "2026-09-29T18:55:46.176646Z",
   "period": {
     "start": "2025-09-29",
     "end": "2026-09-29"
@@ -541,12 +541,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 730
+      "count": 733
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 556
+      "count": 557
     },
     {
       "name": "Firefox",
@@ -578,12 +578,12 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 182
+      "count": 183
     },
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 150
+      "count": 153
     },
     {
       "name": "Linux",
@@ -600,12 +600,12 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 667
+      "count": 670
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 411
+      "count": 412
     },
     {
       "name": "desktophd",
@@ -637,7 +637,7 @@
     {
       "name": "Netherlands",
       "id": "NL",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Denmark",
@@ -680,20 +680,71 @@
       "count": 7
     },
     {
+      "name": "Brazil",
+      "id": "BR",
+      "count": 6
+    },
+    {
       "name": "Aruba",
       "id": "AW",
       "count": 5
     },
     {
-      "name": "Brazil",
-      "id": "BR",
+      "name": "Canada",
+      "id": "CA",
+      "count": 5
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 516
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 101
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 31
+    },
+    {
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
+      "count": 9
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 9
+    },
+    {
+      "name": "l.instagram.com",
+      "id": "l.instagram.com",
+      "count": 8
+    },
+    {
+      "name": "112books.github.io",
+      "id": "112books.github.io",
+      "count": 7
+    },
+    {
+      "name": "www.bing.com",
+      "id": "www.bing.com",
+      "count": 6
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
       "count": 5
     },
     {
-      "name": "Canada",
-      "id": "CA",
-      "count": 4
+      "name": "copilot.com",
+      "id": "copilot.com",
+      "count": 5
     }
-  ],
-  "refs": []
+  ]
 }
