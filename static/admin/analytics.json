@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T06:18:55.875424Z",
+  "generated": "2026-09-29T13:27:28.992377Z",
   "period": {
     "start": "2025-09-29",
     "end": "2026-09-29"
@@ -695,56 +695,5 @@
       "count": 4
     }
   ],
-  "refs": [
-    {
-      "name": "Desconegut",
-      "id": "Desconegut",
-      "count": 516
-    },
-    {
-      "name": "Google",
-      "id": "Google",
-      "count": 101
-    },
-    {
-      "name": "chatgpt.com",
-      "id": "chatgpt.com",
-      "count": 31
-    },
-    {
-      "name": "duckduckgo.com",
-      "id": "duckduckgo.com",
-      "count": 9
-    },
-    {
-      "name": "ig",
-      "id": "ig",
-      "count": 9
-    },
-    {
-      "name": "l.instagram.com",
-      "id": "l.instagram.com",
-      "count": 8
-    },
-    {
-      "name": "112books.github.io",
-      "id": "112books.github.io",
-      "count": 7
-    },
-    {
-      "name": "www.bing.com",
-      "id": "www.bing.com",
-      "count": 6
-    },
-    {
-      "name": "www.facebook.com",
-      "id": "www.facebook.com",
-      "count": 5
-    },
-    {
-      "name": "copilot.com",
-      "id": "copilot.com",
-      "count": 5
-    }
-  ]
+  "refs": []
 }
