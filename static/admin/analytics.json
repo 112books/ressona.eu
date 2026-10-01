@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T16:43:33.396780Z",
+  "generated": "2026-10-01T21:26:35.043378Z",
   "period": {
     "start": "2025-10-01",
     "end": "2026-10-01"
@@ -549,7 +549,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 739
+      "count": 743
     },
     {
       "name": "Safari",
@@ -581,7 +581,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 233
+      "count": 234
     },
     {
       "name": "iOS",
@@ -591,7 +591,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 157
+      "count": 160
     },
     {
       "name": "Linux",
@@ -608,12 +608,12 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 674
+      "count": 676
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 413
+      "count": 414
     },
     {
       "name": "desktophd",
@@ -623,14 +623,14 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 77
+      "count": 78
     }
   ],
   "locations": [
     {
       "name": "Spain",
       "id": "ES",
-      "count": 870
+      "count": 873
     },
     {
       "name": "United States",
@@ -683,14 +683,14 @@
       "count": 8
     },
     {
-      "name": "Switzerland",
-      "id": "CH",
+      "name": "Brazil",
+      "id": "BR",
       "count": 7
     },
     {
-      "name": "Brazil",
-      "id": "BR",
-      "count": 6
+      "name": "Switzerland",
+      "id": "CH",
+      "count": 7
     },
     {
       "name": "Aruba",
