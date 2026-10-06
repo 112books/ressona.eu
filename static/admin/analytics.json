@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-05T22:57:09.446115Z",
+  "generated": "2026-10-06T02:36:42.795068Z",
   "period": {
-    "start": "2025-10-05",
-    "end": "2026-10-05"
+    "start": "2025-10-06",
+    "end": "2026-10-06"
   },
-  "total": 1259,
+  "total": 1276,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-07-06",
-      "count": 67
+      "count": 66
     },
     {
       "date": "2026-07-07",
@@ -141,7 +141,7 @@
     },
     {
       "date": "2026-07-16",
-      "count": 25
+      "count": 26
     },
     {
       "date": "2026-07-17",
@@ -353,7 +353,7 @@
     },
     {
       "date": "2026-09-18",
-      "count": 4
+      "count": 3
     },
     {
       "date": "2026-09-19",
@@ -418,6 +418,14 @@
     {
       "date": "2026-10-04",
       "count": 8
+    },
+    {
+      "date": "2026-10-05",
+      "count": 17
+    },
+    {
+      "date": "2026-10-06",
+      "count": 1
     }
   ],
   "hits": [
@@ -455,19 +463,19 @@
     },
     {
       "path": "/en",
-      "count": 34
+      "count": 35
     },
     {
       "path": "/en/resources/circus-schools-europe",
-      "count": 26
+      "count": 27
     },
     {
       "path": "/en/#que-fem",
-      "count": 26
+      "count": 27
     },
     {
       "path": "/en/#per-qui",
-      "count": 21
+      "count": 22
     },
     {
       "path": "/comenca",
@@ -475,18 +483,18 @@
     },
     {
       "path": "/en/#quisom",
-      "count": 17
+      "count": 18
     },
     {
       "path": "/en/#com-treballem",
-      "count": 16
-    },
-    {
-      "path": "/en/resources/digital-portfolio-visual-artists",
-      "count": 11
+      "count": 17
     },
     {
       "path": "/en/resources/summer-masterclasses-music-europe",
+      "count": 13
+    },
+    {
+      "path": "/en/resources/digital-portfolio-visual-artists",
       "count": 11
     },
     {
@@ -498,16 +506,20 @@
       "count": 10
     },
     {
+      "path": "/en/#recursos",
+      "count": 10
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 10
+    },
+    {
       "path": "/en/resources/travelling-with-jazz-europe",
       "count": 9
     },
     {
-      "path": "/en/#recursos",
-      "count": 9
-    },
-    {
-      "path": "/en/#contacte",
-      "count": 9
+      "path": "/en/resources/dance-festivals-europe",
+      "count": 8
     },
     {
       "path": "/en/resources/linkedin-artists",
@@ -515,10 +527,6 @@
     },
     {
       "path": "/en/resources/hard-rock-heavy-metal-europe",
-      "count": 7
-    },
-    {
-      "path": "/en/resources/dance-festivals-europe",
       "count": 7
     },
     {
@@ -543,29 +551,30 @@
     }
   ],
   "by_lang": {
-    "en": 334
+    "en": 353
   },
   "by_section": {
-    "inici": 397,
-    "#que-fem": 101,
-    "#per-qui": 82,
-    "#quisom": 74,
-    "#com-treballem": 66,
-    "#contacte": 56,
-    "recursos": 169,
-    "#recursos": 46,
-    "resources": 192,
+    "inici": 398,
+    "#que-fem": 102,
+    "#per-qui": 83,
+    "#quisom": 75,
+    "#com-treballem": 67,
+    "#contacte": 57,
+    "recursos": 167,
+    "#recursos": 47,
+    "resources": 202,
     "comenca": 20,
     "serveis": 26,
     "per-a-qui": 20,
     "legal": 8,
-    "start": 2
+    "start": 2,
+    "services": 2
   },
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 781
+      "count": 782
     },
     {
       "name": "Safari",
@@ -597,7 +606,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 245
+      "count": 246
     },
     {
       "name": "iOS",
@@ -629,7 +638,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 429
+      "count": 430
     },
     {
       "name": "desktophd",
@@ -714,21 +723,21 @@
       "count": 7
     },
     {
-      "name": "Aruba",
-      "id": "AW",
-      "count": 5
+      "name": "Canada",
+      "id": "CA",
+      "count": 6
     }
   ],
   "refs": [
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 519
+      "count": 522
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 114
+      "count": 118
     },
     {
       "name": "chatgpt.com",
@@ -738,7 +747,7 @@
     {
       "name": "duckduckgo.com",
       "id": "duckduckgo.com",
-      "count": 10
+      "count": 12
     },
     {
       "name": "ig",
@@ -751,14 +760,14 @@
       "count": 8
     },
     {
-      "name": "112books.github.io",
-      "id": "112books.github.io",
+      "name": "www.bing.com",
+      "id": "www.bing.com",
       "count": 7
     },
     {
-      "name": "www.bing.com",
-      "id": "www.bing.com",
-      "count": 6
+      "name": "112books.github.io",
+      "id": "112books.github.io",
+      "count": 7
     },
     {
       "name": "copilot.com",
