@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-06T21:19:24.471144Z",
+  "generated": "2026-10-07T01:03:55.406966Z",
   "period": {
-    "start": "2025-10-06",
-    "end": "2026-10-06"
+    "start": "2025-10-07",
+    "end": "2026-10-07"
   },
-  "total": 1276,
+  "total": 1278,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -425,6 +425,10 @@
     },
     {
       "date": "2026-10-06",
+      "count": 2
+    },
+    {
+      "date": "2026-10-07",
       "count": 1
     }
   ],
@@ -526,19 +530,19 @@
       "count": 8
     },
     {
+      "path": "/en/resources/cultural-grants-europe",
+      "count": 8
+    },
+    {
+      "path": "/recursos/que-es-un-epk",
+      "count": 8
+    },
+    {
       "path": "/en/resources/hard-rock-heavy-metal-europe",
       "count": 7
     },
     {
-      "path": "/en/resources/cultural-grants-europe",
-      "count": 7
-    },
-    {
       "path": "/recursos/viatjant-amb-jazz-per-europa",
-      "count": 7
-    },
-    {
-      "path": "/recursos/que-es-un-epk",
       "count": 7
     },
     {
@@ -551,7 +555,7 @@
     }
   ],
   "by_lang": {
-    "en": 353
+    "en": 354
   },
   "by_section": {
     "inici": 398,
@@ -560,9 +564,9 @@
     "#quisom": 75,
     "#com-treballem": 67,
     "#contacte": 57,
-    "recursos": 167,
+    "recursos": 168,
     "#recursos": 47,
-    "resources": 202,
+    "resources": 203,
     "comenca": 20,
     "serveis": 26,
     "per-a-qui": 20,
@@ -574,7 +578,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 783
+      "count": 784
     },
     {
       "name": "Safari",
@@ -606,7 +610,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 246
+      "count": 247
     },
     {
       "name": "iOS",
@@ -638,7 +642,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 430
+      "count": 431
     },
     {
       "name": "desktophd",
@@ -655,7 +659,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 885
+      "count": 886
     },
     {
       "name": "United States",
@@ -732,7 +736,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 522
+      "count": 524
     },
     {
       "name": "Google",
@@ -762,7 +766,7 @@
     {
       "name": "www.bing.com",
       "id": "www.bing.com",
-      "count": 7
+      "count": 8
     },
     {
       "name": "112books.github.io",
