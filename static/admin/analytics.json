@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T09:08:55.450201Z",
+  "generated": "2026-10-10T15:35:58.908462Z",
   "period": {
     "start": "2025-10-10",
     "end": "2026-10-10"
@@ -590,12 +590,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 793
+      "count": 796
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 570
+      "count": 572
     },
     {
       "name": "Firefox",
@@ -617,7 +617,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 739
+      "count": 740
     },
     {
       "name": "Android",
@@ -627,17 +627,17 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 193
+      "count": 195
     },
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 184
+      "count": 185
     },
     {
       "name": "Linux",
       "id": "Linux",
-      "count": 54
+      "count": 55
     },
     {
       "name": "Chrome OS",
@@ -649,12 +649,12 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 701
+      "count": 704
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 439
+      "count": 441
     },
     {
       "name": "desktophd",
@@ -676,12 +676,12 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 248
+      "count": 249
     },
     {
       "name": "Germany",
       "id": "DE",
-      "count": 40
+      "count": 41
     },
     {
       "name": "Netherlands",
@@ -701,7 +701,7 @@
     {
       "name": "France",
       "id": "FR",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Australia",
@@ -719,6 +719,16 @@
       "count": 10
     },
     {
+      "name": "Brazil",
+      "id": "BR",
+      "count": 9
+    },
+    {
+      "name": "Switzerland",
+      "id": "CH",
+      "count": 9
+    },
+    {
       "name": "Indonesia",
       "id": "ID",
       "count": 9
@@ -727,16 +737,6 @@
       "name": "Poland",
       "id": "PL",
       "count": 9
-    },
-    {
-      "name": "Brazil",
-      "id": "BR",
-      "count": 8
-    },
-    {
-      "name": "Switzerland",
-      "id": "CH",
-      "count": 8
     },
     {
       "name": "Canada",
