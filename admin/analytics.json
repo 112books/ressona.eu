@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-12T19:26:23.196422Z",
+  "generated": "2026-10-13T01:40:20.205297Z",
   "period": {
-    "start": "2025-10-12",
-    "end": "2026-10-12"
+    "start": "2025-10-13",
+    "end": "2026-10-13"
   },
-  "total": 1299,
+  "total": 1303,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -137,7 +137,7 @@
     },
     {
       "date": "2026-07-15",
-      "count": 30
+      "count": 29
     },
     {
       "date": "2026-07-16",
@@ -277,7 +277,7 @@
     },
     {
       "date": "2026-08-28",
-      "count": 9
+      "count": 8
     },
     {
       "date": "2026-08-29",
@@ -446,6 +446,10 @@
     {
       "date": "2026-10-11",
       "count": 1
+    },
+    {
+      "date": "2026-10-12",
+      "count": 6
     }
   ],
   "hits": [
@@ -554,6 +558,10 @@
       "count": 8
     },
     {
+      "path": "/en/resources/press-photos",
+      "count": 7
+    },
+    {
       "path": "/en/resources/hard-rock-heavy-metal-europe",
       "count": 7
     },
@@ -564,14 +572,10 @@
     {
       "path": "/serveis/identitat-visual",
       "count": 7
-    },
-    {
-      "path": "/en/resources/press-photos",
-      "count": 6
     }
   ],
   "by_lang": {
-    "en": 371
+    "en": 377
   },
   "by_section": {
     "inici": 403,
@@ -580,9 +584,9 @@
     "#quisom": 75,
     "#com-treballem": 67,
     "#contacte": 57,
-    "recursos": 168,
+    "recursos": 166,
     "#recursos": 47,
-    "resources": 218,
+    "resources": 224,
     "comenca": 20,
     "serveis": 26,
     "per-a-qui": 20,
@@ -594,7 +598,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 805
+      "count": 806
     },
     {
       "name": "Safari",
@@ -636,7 +640,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 192
+      "count": 193
     },
     {
       "name": "Linux",
@@ -668,7 +672,7 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 86
+      "count": 87
     }
   ],
   "locations": [
@@ -752,12 +756,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 538
+      "count": 540
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 125
+      "count": 128
     },
     {
       "name": "chatgpt.com",
@@ -767,7 +771,7 @@
     {
       "name": "duckduckgo.com",
       "id": "duckduckgo.com",
-      "count": 12
+      "count": 15
     },
     {
       "name": "www.bing.com",
