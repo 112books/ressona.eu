@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-13T21:36:19.182856Z",
+  "generated": "2026-10-14T00:40:59.521001Z",
   "period": {
-    "start": "2025-10-13",
-    "end": "2026-10-13"
+    "start": "2025-10-14",
+    "end": "2026-10-14"
   },
-  "total": 1303,
+  "total": 1310,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -141,7 +141,7 @@
     },
     {
       "date": "2026-07-16",
-      "count": 26
+      "count": 25
     },
     {
       "date": "2026-07-17",
@@ -421,7 +421,7 @@
     },
     {
       "date": "2026-10-05",
-      "count": 17
+      "count": 16
     },
     {
       "date": "2026-10-06",
@@ -450,6 +450,10 @@
     {
       "date": "2026-10-12",
       "count": 6
+    },
+    {
+      "date": "2026-10-13",
+      "count": 9
     }
   ],
   "hits": [
@@ -487,19 +491,19 @@
     },
     {
       "path": "/en",
-      "count": 36
+      "count": 37
     },
     {
       "path": "/en/resources/circus-schools-europe",
-      "count": 31
+      "count": 32
     },
     {
       "path": "/en/#que-fem",
-      "count": 27
+      "count": 28
     },
     {
       "path": "/en/#per-qui",
-      "count": 23
+      "count": 24
     },
     {
       "path": "/comenca",
@@ -546,6 +550,10 @@
       "count": 10
     },
     {
+      "path": "/en/resources/hard-rock-heavy-metal-europe",
+      "count": 9
+    },
+    {
       "path": "/en/resources/cultural-grants-europe",
       "count": 9
     },
@@ -562,10 +570,6 @@
       "count": 7
     },
     {
-      "path": "/en/resources/hard-rock-heavy-metal-europe",
-      "count": 7
-    },
-    {
       "path": "/recursos/viatjant-amb-jazz-per-europa",
       "count": 7
     },
@@ -575,30 +579,29 @@
     }
   ],
   "by_lang": {
-    "en": 377
+    "en": 383
   },
   "by_section": {
-    "inici": 403,
-    "#que-fem": 102,
-    "#per-qui": 84,
+    "inici": 404,
+    "#que-fem": 103,
+    "#per-qui": 85,
     "#quisom": 75,
     "#com-treballem": 67,
     "#contacte": 57,
-    "recursos": 166,
+    "recursos": 167,
     "#recursos": 47,
-    "resources": 224,
+    "resources": 229,
     "comenca": 20,
     "serveis": 26,
     "per-a-qui": 20,
     "legal": 8,
-    "start": 2,
-    "services": 2
+    "start": 2
   },
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 812
+      "count": 813
     },
     {
       "name": "Safari",
@@ -630,7 +633,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 251
+      "count": 252
     },
     {
       "name": "Windows",
@@ -662,7 +665,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 444
+      "count": 445
     },
     {
       "name": "desktophd",
@@ -679,7 +682,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 890
+      "count": 891
     },
     {
       "name": "United States",
@@ -756,12 +759,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 540
+      "count": 541
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 128
+      "count": 131
     },
     {
       "name": "chatgpt.com",
@@ -776,7 +779,7 @@
     {
       "name": "www.bing.com",
       "id": "www.bing.com",
-      "count": 10
+      "count": 11
     },
     {
       "name": "ig",
