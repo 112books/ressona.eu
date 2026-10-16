@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-15T22:43:18.272250Z",
+  "generated": "2026-10-16T00:50:55.076409Z",
   "period": {
-    "start": "2025-10-15",
-    "end": "2026-10-15"
+    "start": "2025-10-16",
+    "end": "2026-10-16"
   },
-  "total": 1315,
+  "total": 1318,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -161,7 +161,7 @@
     },
     {
       "date": "2026-07-23",
-      "count": 21
+      "count": 20
     },
     {
       "date": "2026-07-24",
@@ -361,7 +361,7 @@
     },
     {
       "date": "2026-09-20",
-      "count": 18
+      "count": 17
     },
     {
       "date": "2026-09-21",
@@ -385,7 +385,7 @@
     },
     {
       "date": "2026-09-26",
-      "count": 6
+      "count": 7
     },
     {
       "date": "2026-09-27",
@@ -458,6 +458,14 @@
     {
       "date": "2026-10-14",
       "count": 6
+    },
+    {
+      "date": "2026-10-15",
+      "count": 2
+    },
+    {
+      "date": "2026-10-16",
+      "count": 2
     }
   ],
   "hits": [
@@ -499,7 +507,7 @@
     },
     {
       "path": "/en/resources/circus-schools-europe",
-      "count": 33
+      "count": 34
     },
     {
       "path": "/en/#que-fem",
@@ -523,7 +531,7 @@
     },
     {
       "path": "/en/resources/summer-masterclasses-music-europe",
-      "count": 14
+      "count": 16
     },
     {
       "path": "/en/resources/digital-portfolio-visual-artists",
@@ -583,7 +591,7 @@
     }
   ],
   "by_lang": {
-    "en": 386
+    "en": 391
   },
   "by_section": {
     "inici": 405,
@@ -592,9 +600,9 @@
     "#quisom": 75,
     "#com-treballem": 67,
     "#contacte": 57,
-    "recursos": 169,
+    "recursos": 167,
     "#recursos": 47,
-    "resources": 229,
+    "resources": 234,
     "comenca": 20,
     "serveis": 26,
     "per-a-qui": 20,
@@ -605,12 +613,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 824
+      "count": 825
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 575
+      "count": 576
     },
     {
       "name": "Firefox",
@@ -642,12 +650,12 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 209
+      "count": 210
     },
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 197
+      "count": 198
     },
     {
       "name": "Linux",
@@ -669,12 +677,12 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 445
+      "count": 446
     },
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 200
+      "count": 201
     },
     {
       "name": "tablet",
@@ -721,7 +729,7 @@
     {
       "name": "Australia",
       "id": "AU",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Italy",
@@ -756,7 +764,7 @@
     {
       "name": "Canada",
       "id": "CA",
-      "count": 6
+      "count": 7
     }
   ],
   "refs": [
@@ -768,7 +776,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 134
+      "count": 137
     },
     {
       "name": "chatgpt.com",
@@ -783,7 +791,7 @@
     {
       "name": "www.bing.com",
       "id": "www.bing.com",
-      "count": 11
+      "count": 13
     },
     {
       "name": "ig",
