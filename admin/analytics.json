@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-16T22:15:29.385655Z",
+  "generated": "2026-10-17T00:51:04.205840Z",
   "period": {
-    "start": "2025-10-16",
-    "end": "2026-10-16"
+    "start": "2025-10-17",
+    "end": "2026-10-17"
   },
-  "total": 1318,
+  "total": 1328,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -465,7 +465,7 @@
     },
     {
       "date": "2026-10-16",
-      "count": 2
+      "count": 12
     }
   ],
   "hits": [
@@ -499,7 +499,7 @@
     },
     {
       "path": "/en",
-      "count": 38
+      "count": 39
     },
     {
       "path": "/#recursos",
@@ -507,15 +507,15 @@
     },
     {
       "path": "/en/resources/circus-schools-europe",
-      "count": 34
+      "count": 35
     },
     {
       "path": "/en/#que-fem",
-      "count": 29
+      "count": 30
     },
     {
       "path": "/en/#per-qui",
-      "count": 25
+      "count": 26
     },
     {
       "path": "/comenca",
@@ -523,11 +523,11 @@
     },
     {
       "path": "/en/#quisom",
-      "count": 18
+      "count": 19
     },
     {
       "path": "/en/#com-treballem",
-      "count": 17
+      "count": 18
     },
     {
       "path": "/en/resources/summer-masterclasses-music-europe",
@@ -542,6 +542,14 @@
       "count": 11
     },
     {
+      "path": "/en/#recursos",
+      "count": 11
+    },
+    {
+      "path": "/en/#contacte",
+      "count": 11
+    },
+    {
       "path": "/en/resources/travelling-with-jazz-europe",
       "count": 10
     },
@@ -551,14 +559,6 @@
     },
     {
       "path": "/recursos/drets-imatges-promocionals",
-      "count": 10
-    },
-    {
-      "path": "/en/#recursos",
-      "count": 10
-    },
-    {
-      "path": "/en/#contacte",
       "count": 10
     },
     {
@@ -591,21 +591,21 @@
     }
   ],
   "by_lang": {
-    "en": 391
+    "en": 401
   },
   "by_section": {
-    "inici": 405,
-    "#que-fem": 104,
-    "#per-qui": 86,
-    "#quisom": 75,
-    "#com-treballem": 67,
-    "#contacte": 57,
+    "inici": 406,
+    "#que-fem": 105,
+    "#per-qui": 87,
+    "#quisom": 76,
+    "#com-treballem": 68,
+    "#contacte": 58,
     "recursos": 167,
-    "#recursos": 47,
-    "resources": 234,
+    "#recursos": 48,
+    "resources": 236,
     "comenca": 20,
     "serveis": 26,
-    "per-a-qui": 20,
+    "per-a-qui": 21,
     "legal": 8,
     "start": 2
   },
@@ -776,12 +776,12 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 137
+      "count": 138
     },
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 33
+      "count": 40
     },
     {
       "name": "duckduckgo.com",
