@@ -184,12 +184,30 @@ img, svg { display: block; }
   font-family: var(--font-display);
   font-size: 2rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #ece4d9 20%, var(--gold) 55%, var(--red) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  /* La «R» invertida és text pla en --gold: no ha de dependre mai d'una capa
+     background-clip:text. Si aquesta capa falla (passa en alguns Chromium/Brave)
+     el glif es repinta amb colors clars i apareix la «R» blanca. */
+  color: var(--gold);
   letter-spacing: -0.02em;
   white-space: nowrap;
+}
+
+/* Gradients de la marca: només sobre el tram «essona», mai sobre la «R».
+   Així el fons degradat no pot quedar mai a la vista darrere del glif de la R. */
+.brand-grad {
+  background-image: linear-gradient(135deg, #ece4d9 0%, #ece4d9 8%, var(--gold) 48%, var(--red) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+@supports not ((-webkit-background-clip: text) or (background-clip: text)) {
+  .brand-grad {
+    background-image: none;
+    color: inherit;
+    -webkit-text-fill-color: currentColor;
+  }
 }
 
 .nav-logo .shift-up {
@@ -206,13 +224,19 @@ img, svg { display: block; }
   display: inline-block;
   transform: scaleX(-1);
   overflow: visible;
+  /* Color sòlid explícit: el glif sempre s'ha de pintar amb --gold, mai heretar
+     un farciment transparent d'un pare amb background-clip:text. */
   color: var(--gold);
   -webkit-text-fill-color: var(--gold);
+  background: none;
 }
 
-.hero-brand .flip-r {
+.hero-brand .flip-r,
+.nav-logo .flip-r,
+.footer-logo .flip-r {
   color: var(--gold);
   -webkit-text-fill-color: var(--gold);
+  background: none;
 }
 
 .shift-up {
@@ -482,14 +506,13 @@ img, svg { display: block; }
   font-weight: 800;
   line-height: 0.88;
   letter-spacing: -0.03em;
-  background: linear-gradient(135deg, #ece4d9 20%, var(--gold) 55%, var(--red) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  /* La paraula ja no porta el degradat: el duu el tram «essona» (.brand-grad).
+     Així la «R» és un glif de color pla i no pot sortir mai blanca. */
+  color: var(--gold);
   -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
   padding: 0;
   user-select: none;
-  transform: translateZ(0);
 }
 
 @keyframes heroResonance {
@@ -1251,10 +1274,7 @@ img, svg { display: block; }
   font-family: var(--font-display);
   font-size: 1.15rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #ece4d9 20%, var(--gold) 55%, var(--red) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--gold);
   display: block;
   margin-bottom: 4px;
   white-space: nowrap;
