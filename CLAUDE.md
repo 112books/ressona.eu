@@ -42,6 +42,19 @@ Músics, actors, circ, dansa, arts plàstiques, creadors emergents.
 - Títols dinàmics (p. ex. "Avís legal · Ressona")
 - humans.txt
 
+## Logotip (wordmark «Яessona»)
+Markup idèntic al hero, header i footer:
+
+```html
+<span class="flip-r">R</span><span class="brand-grad">e<span class="shift-up">s</span><span class="shift-down">s</span><span class="shift-down">o</span>na</span>
+```
+
+- **La «R» invertida (`.flip-r`) és text pla en `--gold`**: `color` + `-webkit-text-fill-color` daurats i `background: none` explícit; el mirall es fa amb `transform: scaleX(-1)`. **No ha de dependre mai d'una capa `background-clip: text`**: si aquesta capa falla o es repinta en un pla separat (s'ha vist en algunes compilacions de Chromium/Brave), queda a la vista el crema `#ece4d9` del degradat de sota i el glif apareix **blanc**. Incident: 2026-10-18, commit `cab24e7`.
+- **El degradat viu a `.brand-grad`**, que només embolcalla «essona»: `linear-gradient(135deg, #ece4d9 0%, #ece4d9 8%, var(--gold) 48%, var(--red) 100%)` retallat a text. Els stops 8/48 reprodueixen el degradat original (20/55/100) descomptant l'amplada de la R.
+- **Prohibit**: `background-clip: text` o `-webkit-text-fill-color: transparent` sobre l'element que conté la R; `transform: translateZ(0)` al `.hero-brand` (forçava capa GPU i afavoria el repintat fantasma).
+- `@supports not ((-webkit-background-clip: text) or (background-clip: text))` → el wordmark es pinta daurat sòlid, mai invisible.
+- Artwork canònic (SVG, mateixa R invertida): portada de la guia de marca `static/admin/brand/index.html` i `static/img/ressona-logo*.svg`.
+
 ## Animacions
 - **Hero brand**: ressonància (`heroResonance`, CSS, 1.4s)
 - **Tagline**: typing efecte amb cursor gold (JS, 35-60ms per char, 800ms delay)
@@ -129,6 +142,7 @@ Regles per als articles:
 4. **Contrast**: text sempre llegible sobre fons fosc
 5. **Asimetria + espai negatiu**: trets de disseny fonamentals
 6. **Blocs de color**: gold, red, blue com a fons de serveis i perfils
+7. **Wordmark**: la «R» sempre en color pla (`--gold`), el degradat només a `.brand-grad` — mai `background-clip: text` sobre la R (vegeu § Logotip)
 
 ---
 
