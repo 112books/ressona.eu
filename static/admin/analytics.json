@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-17T23:32:43.930914Z",
+  "generated": "2026-10-18T01:41:44.701710Z",
   "period": {
-    "start": "2025-10-17",
-    "end": "2026-10-17"
+    "start": "2025-10-18",
+    "end": "2026-10-18"
   },
-  "total": 1328,
+  "total": 1332,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -466,6 +466,10 @@
     {
       "date": "2026-10-16",
       "count": 12
+    },
+    {
+      "date": "2026-10-17",
+      "count": 4
     }
   ],
   "hits": [
@@ -507,7 +511,7 @@
     },
     {
       "path": "/en/resources/circus-schools-europe",
-      "count": 35
+      "count": 36
     },
     {
       "path": "/en/#que-fem",
@@ -534,11 +538,11 @@
       "count": 16
     },
     {
-      "path": "/en/resources/digital-portfolio-visual-artists",
-      "count": 11
+      "path": "/en/resources",
+      "count": 12
     },
     {
-      "path": "/en/resources",
+      "path": "/en/resources/digital-portfolio-visual-artists",
       "count": 11
     },
     {
@@ -591,7 +595,7 @@
     }
   ],
   "by_lang": {
-    "en": 401
+    "en": 405
   },
   "by_section": {
     "inici": 406,
@@ -602,7 +606,7 @@
     "#contacte": 58,
     "recursos": 167,
     "#recursos": 48,
-    "resources": 236,
+    "resources": 240,
     "comenca": 20,
     "serveis": 26,
     "per-a-qui": 21,
@@ -771,12 +775,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 543
+      "count": 544
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 138
+      "count": 139
     },
     {
       "name": "chatgpt.com",
@@ -791,7 +795,7 @@
     {
       "name": "www.bing.com",
       "id": "www.bing.com",
-      "count": 13
+      "count": 14
     },
     {
       "name": "ig",
