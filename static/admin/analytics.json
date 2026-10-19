@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-18T23:51:31.896291Z",
+  "generated": "2026-10-19T01:58:51.748476Z",
   "period": {
-    "start": "2025-10-18",
-    "end": "2026-10-18"
+    "start": "2025-10-19",
+    "end": "2026-10-19"
   },
-  "total": 1332,
+  "total": 1348,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -89,11 +89,11 @@
     },
     {
       "date": "2026-07-03",
-      "count": 82
+      "count": 83
     },
     {
       "date": "2026-07-04",
-      "count": 36
+      "count": 37
     },
     {
       "date": "2026-07-05",
@@ -181,7 +181,7 @@
     },
     {
       "date": "2026-08-03",
-      "count": 6
+      "count": 4
     },
     {
       "date": "2026-08-04",
@@ -202,10 +202,6 @@
     {
       "date": "2026-08-09",
       "count": 2
-    },
-    {
-      "date": "2026-08-10",
-      "count": 1
     },
     {
       "date": "2026-08-11",
@@ -273,7 +269,7 @@
     },
     {
       "date": "2026-08-27",
-      "count": 3
+      "count": 4
     },
     {
       "date": "2026-08-28",
@@ -333,7 +329,7 @@
     },
     {
       "date": "2026-09-13",
-      "count": 3
+      "count": 2
     },
     {
       "date": "2026-09-14",
@@ -470,6 +466,14 @@
     {
       "date": "2026-10-17",
       "count": 4
+    },
+    {
+      "date": "2026-10-18",
+      "count": 16
+    },
+    {
+      "date": "2026-10-19",
+      "count": 1
     }
   ],
   "hits": [
@@ -498,28 +502,28 @@
       "count": 47
     },
     {
+      "path": "/en",
+      "count": 41
+    },
+    {
       "path": "/recursos",
       "count": 39
     },
     {
-      "path": "/en",
-      "count": 39
+      "path": "/en/resources/circus-schools-europe",
+      "count": 38
     },
     {
       "path": "/#recursos",
       "count": 37
     },
     {
-      "path": "/en/resources/circus-schools-europe",
-      "count": 36
-    },
-    {
       "path": "/en/#que-fem",
-      "count": 30
+      "count": 32
     },
     {
       "path": "/en/#per-qui",
-      "count": 26
+      "count": 28
     },
     {
       "path": "/comenca",
@@ -527,7 +531,7 @@
     },
     {
       "path": "/en/#quisom",
-      "count": 19
+      "count": 20
     },
     {
       "path": "/en/#com-treballem",
@@ -539,7 +543,7 @@
     },
     {
       "path": "/en/resources",
-      "count": 12
+      "count": 13
     },
     {
       "path": "/en/resources/digital-portfolio-visual-artists",
@@ -562,15 +566,15 @@
       "count": 10
     },
     {
+      "path": "/en/resources/cultural-grants-europe",
+      "count": 10
+    },
+    {
       "path": "/recursos/drets-imatges-promocionals",
       "count": 10
     },
     {
       "path": "/en/resources/hard-rock-heavy-metal-europe",
-      "count": 9
-    },
-    {
-      "path": "/en/resources/cultural-grants-europe",
       "count": 9
     },
     {
@@ -586,38 +590,37 @@
       "count": 7
     },
     {
-      "path": "/en/resources/artistic-residency",
+      "path": "/en/resources/music-platforms-artists",
       "count": 7
     },
     {
-      "path": "/recursos/viatjant-amb-jazz-per-europa",
+      "path": "/en/resources/music-digital-distribution",
       "count": 7
     }
   ],
   "by_lang": {
-    "en": 405
+    "en": 420
   },
   "by_section": {
-    "inici": 406,
-    "#que-fem": 105,
-    "#per-qui": 87,
-    "#quisom": 76,
+    "inici": 408,
+    "#que-fem": 107,
+    "#per-qui": 89,
+    "#quisom": 77,
     "#com-treballem": 68,
     "#contacte": 58,
-    "recursos": 167,
+    "recursos": 165,
+    "resources": 249,
     "#recursos": 48,
-    "resources": 240,
     "comenca": 20,
     "serveis": 26,
-    "per-a-qui": 21,
-    "legal": 8,
-    "start": 2
+    "per-a-qui": 25,
+    "legal": 8
   },
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 843
+      "count": 844
     },
     {
       "name": "Safari",
@@ -654,7 +657,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 220
+      "count": 221
     },
     {
       "name": "iOS",
@@ -691,7 +694,7 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 90
+      "count": 91
     }
   ],
   "locations": [
@@ -703,7 +706,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 256
+      "count": 257
     },
     {
       "name": "Germany",
@@ -775,22 +778,22 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 544
+      "count": 546
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 139
+      "count": 142
     },
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 40
+      "count": 41
     },
     {
       "name": "duckduckgo.com",
       "id": "duckduckgo.com",
-      "count": 15
+      "count": 17
     },
     {
       "name": "www.bing.com",
