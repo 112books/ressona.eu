@@ -71,6 +71,8 @@ def main():
     total       = 0
     hits_by_day = {}
     hits_pages  = {}
+    pages_daily    = {}
+    sections_daily = {}
 
     for path_item in hits_list:
         path    = path_item.get("path", "")
@@ -91,6 +93,10 @@ def main():
             by_section[section] = by_section.get(section, 0) + count
             if date:
                 hits_by_day[date] = hits_by_day.get(date, 0) + count
+                pages_daily.setdefault(path, {})
+                pages_daily[path][date] = pages_daily[path].get(date, 0) + count
+                sections_daily.setdefault(section, {})
+                sections_daily[section][date] = sections_daily[section].get(date, 0) + count
 
         # Fallback: use top-level count if stats[] gave no data
         if path_total == 0:
@@ -120,6 +126,14 @@ def main():
         key=lambda x: x["count"], reverse=True
     )[:30]
 
+    def sort_daily(daily_map):
+        return {
+            key: dict(sorted(series.items()))
+            for key, series in sorted(
+                daily_map.items(), key=lambda kv: sum(kv[1].values()), reverse=True
+            )
+        }
+
     total_from_api = sum(s.get("daily", 0) or s.get("count", 0) for s in total_stats)
     total_unique   = sum(s.get("unique", 0) for s in total_stats)
 
@@ -139,6 +153,8 @@ def main():
         "hits":         hits_top,
         "by_lang":      by_lang,
         "by_section":   by_section,
+        "pages_daily":    sort_daily(pages_daily),
+        "sections_daily": sort_daily(sections_daily),
         "browsers":     norm_items(browsers_raw),
         "systems":      norm_items(systems_raw),
         "sizes":        norm_items(sizes_raw),
