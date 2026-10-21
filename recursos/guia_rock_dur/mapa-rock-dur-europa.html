@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa Rock Dur Europa · Ressona</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', system-ui, sans-serif; background: #1a0a00; color: #d9d0d5; }
+  #map { width: 100%; height: 100vh; }
+  .controls {
+    position: absolute; top: 10px; right: 10px; z-index: 1000;
+    background: rgba(26,10,0,0.93); border: 1px solid rgba(230,81,0,0.3);
+    padding: 10px 14px; display: flex; flex-direction: column; gap: 6px;
+    font-size: 11px; letter-spacing: .07em; text-transform: uppercase;
+  }
+  .ctrl-btn {
+    background: transparent; border: 1px solid rgba(230,81,0,0.35);
+    color: #d9d0d5; padding: 5px 10px; cursor: pointer; font-size: 10px;
+    letter-spacing: .08em; text-transform: uppercase; text-align: left;
+    transition: all .15s;
+  }
+  .ctrl-btn:hover, .ctrl-btn.active { background: #e65100; color: #fff; border-color: #e65100; }
+  .ctrl-label { color: rgba(217,208,213,0.45); font-size: 9px; margin-bottom: 2px; }
+  .leaflet-popup-content-wrapper {
+    background: #1a0a00; color: #d9d0d5; border: 1px solid rgba(230,81,0,0.3);
+    border-radius: 2px; box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+  }
+  .leaflet-popup-tip { background: #1a0a00; }
+  .leaflet-popup-content { margin: 12px 14px; font-size: 12px; line-height: 1.6; min-width: 180px; }
+  .pop-name { font-weight: 600; color: #e65100; margin-bottom: 3px; font-size: 13px; }
+  .pop-type { font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+    color: rgba(217,208,213,0.5); margin-bottom: 5px; }
+  .pop-info { color: rgba(217,208,213,0.8); margin-bottom: 5px; }
+  .pop-link a { color: #ff8f00; text-decoration: none; font-size: 11px; }
+  .pop-link a:hover { color: #e65100; }
+  .marker-custom { width: 12px; height: 12px; border-radius: 50%; box-shadow: 0 0 6px rgba(0,0,0,0.6); }
+  .marker-festival { background: #e65100; border: 2px solid #ff8f00; }
+  .marker-venue    { background: #b71c1c; border: 2px solid #e53935; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="controls">
+  <div class="ctrl-label">Filtrar per</div>
+  <button class="ctrl-btn active" onclick="filterType('all',this)">Tot</button>
+  <button class="ctrl-btn" onclick="filterType('festival',this)">Festivals</button>
+  <button class="ctrl-btn" onclick="filterType('venue',this)">Venues / Clubs</button>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+const map = L.map('map', { zoomControl: true, scrollWheelZoom: false }).setView([48.5, 5.0], 4);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+  maxZoom: 18
+}).addTo(map);
+
+function makeIcon(type) {
+  const cls = type === 'festival' ? 'marker-festival' : 'marker-venue';
+  return L.divIcon({ className: 'marker-custom ' + cls, iconSize: [12,12], iconAnchor: [6,6], popupAnchor: [0,-8] });
+}
+
+const locations = [
+  // FESTIVALS
+  { type:'festival', name:'Rock Fest Barcelona', city:'Santa Coloma de Gramenet', mes:'Juny/Juliol', desc:'Festival internacional de rock dur i metal. Iron Maiden, Judas Priest, Scorpions, Kiss.', url:'https://rockfestbarcelona.com/', lat:41.4509, lng:2.1953 },
+  { type:'festival', name:'Resurrection Fest', city:'Viveiro, Galícia', mes:'Juliol', desc:'Metal extrem de referència europea. 30.000+ assistents.', url:'https://www.resurrectionfest.es/', lat:43.6617, lng:-7.5960 },
+  { type:'festival', name:'Download Festival', city:'Donington Park, UK', mes:'Juny', desc:'El festival de rock i metal de referència mundial. Successor del Monsters of Rock. 110.000+ assistents.', url:'https://downloadfestival.co.uk/', lat:52.8417, lng:-1.3780 },
+  { type:'festival', name:'Bloodstock', city:'Walton-on-Trent, UK', mes:'Agost', desc:'Metal pur i dur, 20.000 assistents, alta fidelitat a les escenes underground.', url:'https://www.bloodstock.uk.com/', lat:52.7222, lng:-1.6142 },
+  { type:'festival', name:'Wacken Open Air', city:'Wacken, Alemanya', mes:'Agost', desc:'El festival de metal més gran del món. Des de 1990. 80.000+ assistents.', url:'https://www.wacken.com/', lat:54.0762, lng:9.3479 },
+  { type:'festival', name:'Rock am Ring', city:'Nürburgring, Alemanya', mes:'Juny', desc:'Festival doble de rock dur i metal. 80.000+ assistents.', url:'https://www.rock-am-ring.com/', lat:50.3356, lng:6.9477 },
+  { type:'festival', name:'Hellfest', city:'Clisson, França', mes:'Juny', desc:'El festival de metal extrem de referència mundial. Death, black, thrash, doom. 60.000+ assistents.', url:'https://www.hellfest.fr/', lat:47.0837, lng:-1.2795 },
+  { type:'festival', name:'Graspop Metal Meeting', city:'Dessel, Bèlgica', mes:'Juny', desc:'Metal extrem europeu de referència. 50.000+ assistents.', url:'https://www.graspop.be/', lat:51.2388, lng:5.1175 },
+  { type:'festival', name:'Copenhell', city:'Copenhagen, Dinamarca', mes:'Juny', desc:'La cita de metal escandinava de referència.', url:'https://www.copenhell.dk/', lat:55.6761, lng:12.5683 },
+  { type:'festival', name:'Roskilde', city:'Roskilde, Dinamarca', mes:'Juliol', desc:'Un dels festivals europeus més grans. 130.000+ assistents, fort component rock dur.', url:'https://www.roskilde-festival.dk/', lat:55.6449, lng:12.0800 },
+  { type:'festival', name:"Pol'and'Rock", city:'Kostrzyn, Polònia', mes:'Agost', desc:'Un dels festivals europeus més grans (500.000+ assistents). Fort component rock dur.', url:'https://polandrock.pl/', lat:52.5884, lng:14.6393 },
+  { type:'festival', name:'Canet Rock', city:'Canet de Mar, Catalunya', mes:'Juliol', desc:'Festival de rock català des de 1975. Inclou rock dur.', url:'https://www.canetrock.cat/', lat:41.5872, lng:2.5792 },
+
+  // VENUES / CLUBS
+  { type:'venue', name:'Razzmatazz', city:'Barcelona', desc:'Herència de la Zeleste. Cinc sales, 2.100 persones. Hard rock, metal, punk, indie.', url:'https://www.salarazzmatazz.com/', lat:41.3993, lng:2.1894 },
+  { type:'venue', name:'Sala Apolo', city:'Barcelona', desc:'80 anys d\'història. Rock dur des dels 70, programació eclèctica.', url:'https://www.sala-apolo.com/', lat:41.3754, lng:2.1667 },
+  { type:'venue', name:'Sala Bikini', city:'Barcelona', desc:'Hard rock i metal internacional, Les Corts.', url:'https://www.bikini.cat/', lat:41.3880, lng:2.1335 },
+  { type:'venue', name:'Sala Caracol', city:'Madrid', desc:'Referent del rock dur i metal a Madrid.', url:'https://www.salacaracol.com/', lat:40.4063, lng:-3.7078 },
+  { type:'venue', name:'Kafe Antzokia', city:'Bilbao', desc:'Referent cultural del rock radical basc.', url:'https://www.kafeantzokia.eus/', lat:43.2627, lng:-2.9253 },
+  { type:'venue', name:'Sala Jimmy Jazz', city:'Vitoria-Gasteiz', desc:'Club referent de l\'escena punk-hardcore basca.', url:'https://www.jimmyjazz.es/', lat:42.8467, lng:-2.6726 },
+  { type:'venue', name:'O2 Academy Birmingham', city:'Birmingham, UK', desc:'La ciutat natal del heavy metal. Black Sabbath, Judas Priest.', url:'https://academymusicgroup.com/o2academybirmingham/', lat:52.4826, lng:-1.8946 },
+  { type:'venue', name:'Hammersmith Apollo', city:'Londres, UK', desc:'Venue icònic del rock dur londinenc. Led Zeppelin, Iron Maiden.', url:'https://www.hammersmithapollo.com/', lat:51.4932, lng:-0.2246 },
+];
+
+let allMarkers = [];
+const clusterGroup = L.markerClusterGroup({ maxClusterRadius: 40 });
+
+locations.forEach(loc => {
+  const icon = makeIcon(loc.type);
+  const typeLabel = loc.type === 'festival'
+    ? `🎸 Festival${loc.mes ? ' · ' + loc.mes : ''}`
+    : '🎸 Venue / Club';
+  const popup = `
+    <div class="pop-name">${loc.name}</div>
+    <div class="pop-type">${typeLabel}</div>
+    <div class="pop-info">${loc.city}<br>${loc.desc}</div>
+    ${loc.url ? `<div class="pop-link"><a href="${loc.url}" target="_blank" rel="noopener noreferrer">↗ ${loc.url.replace(/^https?:\/\/(www\.)?/,'').split('/')[0]}</a></div>` : ''}
+  `;
+  const marker = L.marker([loc.lat, loc.lng], { icon }).bindPopup(popup, { maxWidth: 260 });
+  marker._locType = loc.type;
+  allMarkers.push(marker);
+  clusterGroup.addLayer(marker);
+});
+
+map.addLayer(clusterGroup);
+
+function filterType(type, btn) {
+  document.querySelectorAll('.ctrl-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  clusterGroup.clearLayers();
+  allMarkers.forEach(m => {
+    if (type === 'all' || m._locType === type) clusterGroup.addLayer(m);
+  });
+}
+</script>
+</body>
+</html>

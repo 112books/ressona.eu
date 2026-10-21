@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa Jazz Europa · Ressona</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', system-ui, sans-serif; background: #0a1020; color: #d9d0d5; }
+  #map { width: 100%; height: 100vh; }
+  .controls {
+    position: absolute; top: 10px; right: 10px; z-index: 1000;
+    background: rgba(10,16,32,0.93); border: 1px solid rgba(200,168,75,0.3);
+    padding: 10px 14px; display: flex; flex-direction: column; gap: 6px;
+    font-size: 11px; letter-spacing: .07em; text-transform: uppercase;
+  }
+  .ctrl-btn {
+    background: transparent; border: 1px solid rgba(200,168,75,0.35);
+    color: #d9d0d5; padding: 5px 10px; cursor: pointer; font-size: 10px;
+    letter-spacing: .08em; text-transform: uppercase; text-align: left;
+    transition: all .15s;
+  }
+  .ctrl-btn:hover, .ctrl-btn.active { background: #c8a84b; color: #0a1020; border-color: #c8a84b; }
+  .ctrl-label { color: rgba(217,208,213,0.45); font-size: 9px; margin-bottom: 2px; }
+  .leaflet-popup-content-wrapper {
+    background: #0a1020; color: #d9d0d5; border: 1px solid rgba(200,168,75,0.3);
+    border-radius: 2px; box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+  }
+  .leaflet-popup-tip { background: #0a1020; }
+  .leaflet-popup-content { margin: 12px 14px; font-size: 12px; line-height: 1.6; min-width: 180px; }
+  .pop-name { font-weight: 600; color: #c8a84b; margin-bottom: 3px; font-size: 13px; }
+  .pop-type { font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+    color: rgba(217,208,213,0.5); margin-bottom: 5px; }
+  .pop-info { color: rgba(217,208,213,0.8); margin-bottom: 5px; }
+  .pop-link a { color: #5a9fd4; text-decoration: none; font-size: 11px; }
+  .pop-link a:hover { color: #c8a84b; }
+  .marker-custom { width: 12px; height: 12px; border-radius: 50%; box-shadow: 0 0 6px rgba(0,0,0,0.6); }
+  .marker-festival { background: #c8a84b; border: 2px solid #f0d07a; }
+  .marker-club     { background: #2a6fa8; border: 2px solid #5a9fd4; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="controls">
+  <div class="ctrl-label">Filtrar per</div>
+  <button class="ctrl-btn active" onclick="filterType('all',this)">Tot</button>
+  <button class="ctrl-btn" onclick="filterType('festival',this)">Festivals</button>
+  <button class="ctrl-btn" onclick="filterType('club',this)">Clubs</button>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+const map = L.map('map', { zoomControl: true, scrollWheelZoom: false }).setView([49.5, 6.0], 4);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+  maxZoom: 18
+}).addTo(map);
+
+function makeIcon(type) {
+  const cls = type === 'festival' ? 'marker-festival' : 'marker-club';
+  return L.divIcon({ className: 'marker-custom ' + cls, iconSize: [12,12], iconAnchor: [6,6], popupAnchor: [0,-8] });
+}
+
+const locations = [
+  // FESTIVALS
+  { type:'festival', name:'Jazz sur Seine', city:'París, França', mes:'Octubre', desc:'Quinze dies que transformen París: 25 clubs, centenars de concerts, molts d\'entrada gratuïta.', url:'https://www.parisjazzclub.net/' , lat:48.8566, lng:2.3522 },
+  { type:'festival', name:'EFG London Jazz Festival', city:'Londres, UK', mes:'Novembre', desc:'De les grans sales com el Barbican fins als pubs del Tamesi. Un dels festivals urbans de jazz més importants d\'Europa.', url:'https://www.efglondonjazzfestival.org.uk/', lat:51.5074, lng:-0.1278 },
+  { type:'festival', name:'Copenhagen Jazz Festival', city:'Copenhaguen, Dinamarca', mes:'Juliol', desc:'1.500 concerts en 10 dies, molts gratuïts als parcs, places i canals. El festival de jazz de carrer més gran del món.', url:'https://jazz.dk/en/', lat:55.6761, lng:12.5683 },
+  { type:'festival', name:'Red Light Jazz', city:'Amsterdam, Holanda', mes:'Juny', desc:'Tres dies que transformen els carrers del barri antic en un circuit obert de jazz. Entrada gratuïta.', url:'https://redlightjazz.com/', lat:52.3676, lng:4.9041 },
+  { type:'festival', name:'Jazzfest Berlin', city:'Berlín, Alemanya', mes:'Novembre', desc:'Des de 1964, un dels festivals amb major pes curatorial d\'Europa. Programa allò que interessa, no allò que ven.', url:'https://www.berlinerfestspiele.de/en/jazzfest-berlin', lat:52.5200, lng:13.4050 },
+  { type:'festival', name:'Jazz Fest Wien', city:'Viena, Àustria', mes:'Juliol', desc:'Festival estival de jazz a la capital de la música clàssica europea. Sales de referència i espais a l\'aire lliure.', url:'https://www.viennajazzfestival.com/', lat:48.2082, lng:16.3738 },
+  { type:'festival', name:'Montreux Jazz Festival', city:'Montreux, Suïssa', mes:'Juliol', desc:'Des de 1967, el festival de jazz amb més aura llegendària d\'Europa. Miles Davis, Ray Charles, David Bowie, Prince. El 2026: 3–18 juliol.', url:'https://www.montreuxjazzfestival.com/en/', lat:46.4300, lng:6.9113 },
+  { type:'festival', name:'Festival de Jazz de Barcelona', city:'Barcelona, Espanya', mes:'Novembre', desc:'Des de 1966, un dels festivals degans de l\'Estat. Noms internacionals i escena local, al Palau de la Música i sales de la ciutat.', url:'https://www.jazz.barcelona/', lat:41.3851, lng:2.1734 },
+  { type:'festival', name:'Heineken Jazzaldia', city:'Sant Sebastià, Espanya', mes:'Juliol', desc:'Des de 1966, un dels festivals millor situats d\'Europa: escenaris a la Plaça de la Trinitat amb el mar de la Concha de fons.', url:'https://www.jazzaldia.eus/', lat:43.3183, lng:-1.9812 },
+  { type:'festival', name:'Roma Jazz Festival', city:'Roma, Itàlia', mes:'Novembre', desc:'Festival anual al cor de Roma. Jazz italià i internacional, amb la Casa del Jazz com a epicentre.', url:'https://romajazzfestival.it/', lat:41.9028, lng:12.4964 },
+
+  // CLUBS
+  { type:'club', name:'Duc des Lombards', city:'París, França', desc:'El cor de la Rue des Lombards: en cent metres de carrer, els tres millors clubs de jazz de París. Sessions fins a les 3 de la matinada.', url:'https://www.ducdeslombards.com/', lat:48.8601, lng:2.3490 },
+  { type:'club', name:'Ronnie Scott\'s', city:'Londres, UK', desc:'Obert el 1959 al Soho. Set concerts a la setmana, artistes internacionals i residències llargues. La institució del jazz londinenc.', url:'https://www.ronniescotts.co.uk/', lat:51.5133, lng:-0.1327 },
+  { type:'club', name:'Jazzhus Montmartre', city:'Copenhaguen, Dinamarca', desc:'Fundat el 1959. Miles Davis, Bill Evans i Dexter Gordon hi van tocar. La referència del jazz escandinau.', url:'https://jazzhusmontmartre.dk/', lat:55.6806, lng:12.5768 },
+  { type:'club', name:'Bimhuis', city:'Amsterdam, Holanda', desc:'Des de 1974 al costat del port. Referència europea per a la improvisació i el jazz d\'avantguarda.', url:'https://www.bimhuis.com/', lat:52.3752, lng:4.9183 },
+  { type:'club', name:'Quasimodo', city:'Berlín, Alemanya', desc:'Des de 1975, el punt de trobada nocturn de l\'escena jazzística de Berlín. Improvisació lliure i fusió jazz-electrònica.', url:'https://www.quasimodo.de/', lat:52.5062, lng:13.3231 },
+  { type:'club', name:'Porgy & Bess', city:'Viena, Àustria', desc:'Obert el 1993. Centre de gravetat del jazz vienès: del mainstream a la improvisació més arriscada. Respectat a tot Europa.', url:'https://www.porgy.at/', lat:48.2120, lng:16.3710 },
+  { type:'club', name:'Jamboree', city:'Barcelona, Espanya', desc:'Al cor del Barri Gòtic, jazz i soul des dels anys 60. La sala de jazz viva més antiga de Barcelona.', url:'https://www.jamboree.cat/', lat:41.3809, lng:2.1738 },
+  { type:'club', name:'Casa del Jazz', city:'Roma, Itàlia', desc:'Oberta el 2005 en una vil·la dels anys 40 a l\'EUR. Jardins, auditori i programació que combina jazz italià i internacional.', url:'https://www.casadeljazz.com/', lat:41.8678, lng:12.4811 },
+];
+
+let allMarkers = [];
+const clusterGroup = L.markerClusterGroup({ maxClusterRadius: 40 });
+
+locations.forEach(loc => {
+  const icon = makeIcon(loc.type);
+  const typeLabel = loc.type === 'festival'
+    ? `🎷 Festival${loc.mes ? ' · ' + loc.mes : ''}`
+    : '🎷 Club';
+  const popup = `
+    <div class="pop-name">${loc.name}</div>
+    <div class="pop-type">${typeLabel}</div>
+    <div class="pop-info">${loc.city}<br>${loc.desc}</div>
+    ${loc.url ? `<div class="pop-link"><a href="${loc.url}" target="_blank" rel="noopener noreferrer">↗ ${loc.url.replace(/^https?:\/\/(www\.)?/,'').split('/')[0]}</a></div>` : ''}
+  `;
+  const marker = L.marker([loc.lat, loc.lng], { icon }).bindPopup(popup, { maxWidth: 260 });
+  marker._locType = loc.type;
+  allMarkers.push(marker);
+  clusterGroup.addLayer(marker);
+});
+
+map.addLayer(clusterGroup);
+
+function filterType(type, btn) {
+  document.querySelectorAll('.ctrl-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  clusterGroup.clearLayers();
+  allMarkers.forEach(m => {
+    if (type === 'all' || m._locType === type) clusterGroup.addLayer(m);
+  });
+}
+</script>
+</body>
+</html>

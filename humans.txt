@@ -1,0 +1,17 @@
+/* TEAM */
+Developer: LinuxBCN
+Contact: hola@ressona.eu
+Instagram: @ressona_identitat_digital
+Location: Barcelona, Catalonia
+
+/* SITE */
+Language: Catalan, English
+Standards: HTML5, CSS3, WCAG 2.1 AA (partial conformance)
+Accessibility: /legal/accessibilitat/
+Backend: Static site (Hugo)
+Hosting: GitHub Pages
+
+/* THANKS */
+GoatCounter — privacy-friendly analytics
+GitHub Pages — hosting
+Leaflet — interactive maps
