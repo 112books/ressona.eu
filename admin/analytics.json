@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T15:41:10.146337Z",
+  "generated": "2026-10-21T19:42:27.391398Z",
   "period": {
     "start": "2025-10-21",
     "end": "2026-10-21"
@@ -2075,12 +2075,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 865
+      "count": 866
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 584
+      "count": 586
     },
     {
       "name": "Firefox",
@@ -2102,7 +2102,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 756
+      "count": 757
     },
     {
       "name": "Android",
@@ -2117,7 +2117,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 205
+      "count": 207
     },
     {
       "name": "Linux",
@@ -2134,12 +2134,12 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 754
+      "count": 755
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 458
+      "count": 460
     },
     {
       "name": "desktophd",
@@ -2156,7 +2156,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 906
+      "count": 908
     },
     {
       "name": "United States",
@@ -2199,6 +2199,11 @@
       "count": 11
     },
     {
+      "name": "Ecuador",
+      "id": "EC",
+      "count": 11
+    },
+    {
       "name": "Italy",
       "id": "IT",
       "count": 11
@@ -2207,11 +2212,6 @@
       "name": "Portugal",
       "id": "PT",
       "count": 11
-    },
-    {
-      "name": "Ecuador",
-      "id": "EC",
-      "count": 10
     },
     {
       "name": "Switzerland",
