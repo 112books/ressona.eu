@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T01:50:51.850470Z",
+  "generated": "2026-10-28T07:36:00.243748Z",
   "period": {
     "start": "2025-10-28",
     "end": "2026-10-28"
@@ -2169,7 +2169,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 899
+      "count": 900
     },
     {
       "name": "Safari",
@@ -2216,7 +2216,7 @@
     {
       "name": "Linux",
       "id": "Linux",
-      "count": 58
+      "count": 59
     },
     {
       "name": "Chrome OS",
@@ -2243,7 +2243,7 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 118
+      "count": 119
     }
   ],
   "locations": [
