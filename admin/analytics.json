@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-28T23:41:18.446395Z",
+  "generated": "2026-10-29T03:01:35.874054Z",
   "period": {
-    "start": "2025-10-28",
-    "end": "2026-10-28"
+    "start": "2025-10-29",
+    "end": "2026-10-29"
   },
-  "total": 1408,
+  "total": 1413,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -506,6 +506,14 @@
     {
       "date": "2026-10-27",
       "count": 4
+    },
+    {
+      "date": "2026-10-28",
+      "count": 4
+    },
+    {
+      "date": "2026-10-29",
+      "count": 1
     }
   ],
   "hits": [
@@ -531,7 +539,7 @@
     },
     {
       "path": "/en/resources/circus-schools-europe",
-      "count": 47
+      "count": 48
     },
     {
       "path": "/#contacte",
@@ -567,7 +575,7 @@
     },
     {
       "path": "/en/resources/summer-masterclasses-music-europe",
-      "count": 19
+      "count": 20
     },
     {
       "path": "/en/#com-treballem",
@@ -610,6 +618,14 @@
       "count": 10
     },
     {
+      "path": "/en/resources/music-digital-distribution",
+      "count": 9
+    },
+    {
+      "path": "/en/resources/dance-festivals-europe",
+      "count": 9
+    },
+    {
       "path": "/recursos/que-es-un-epk",
       "count": 9
     },
@@ -620,18 +636,10 @@
     {
       "path": "/en/resources/music-platforms-artists",
       "count": 8
-    },
-    {
-      "path": "/en/resources/music-digital-distribution",
-      "count": 8
-    },
-    {
-      "path": "/en/resources/dance-festivals-europe",
-      "count": 8
     }
   ],
   "by_lang": {
-    "en": 467
+    "en": 472
   },
   "by_section": {
     "inici": 412,
@@ -639,7 +647,7 @@
     "#per-qui": 91,
     "#quisom": 78,
     "#com-treballem": 69,
-    "resources": 282,
+    "resources": 287,
     "#contacte": 58,
     "recursos": 173,
     "#recursos": 48,
@@ -876,7 +884,8 @@
       "2026-10-24": 2,
       "2026-10-25": 2,
       "2026-10-26": 1,
-      "2026-10-27": 1
+      "2026-10-27": 1,
+      "2026-10-29": 1
     },
     "/#contacte": {
       "2026-06-18": 3,
@@ -1088,7 +1097,8 @@
       "2026-10-15": 1,
       "2026-10-16": 1,
       "2026-10-23": 1,
-      "2026-10-24": 2
+      "2026-10-24": 2,
+      "2026-10-28": 1
     },
     "/en/#com-treballem": {
       "2026-06-18": 1,
@@ -1213,6 +1223,27 @@
       "2026-10-07": 1,
       "2026-10-18": 1
     },
+    "/en/resources/music-digital-distribution": {
+      "2026-07-20": 1,
+      "2026-07-26": 1,
+      "2026-08-24": 1,
+      "2026-08-29": 1,
+      "2026-09-01": 1,
+      "2026-10-05": 1,
+      "2026-10-18": 1,
+      "2026-10-20": 1,
+      "2026-10-28": 1
+    },
+    "/en/resources/dance-festivals-europe": {
+      "2026-07-17": 1,
+      "2026-08-20": 1,
+      "2026-08-30": 1,
+      "2026-08-31": 2,
+      "2026-09-09": 1,
+      "2026-09-26": 1,
+      "2026-10-05": 1,
+      "2026-10-28": 1
+    },
     "/recursos/que-es-un-epk": {
       "2026-06-26": 1,
       "2026-06-27": 1,
@@ -1239,25 +1270,6 @@
       "2026-09-28": 2,
       "2026-10-18": 1,
       "2026-10-20": 1
-    },
-    "/en/resources/music-digital-distribution": {
-      "2026-07-20": 1,
-      "2026-07-26": 1,
-      "2026-08-24": 1,
-      "2026-08-29": 1,
-      "2026-09-01": 1,
-      "2026-10-05": 1,
-      "2026-10-18": 1,
-      "2026-10-20": 1
-    },
-    "/en/resources/dance-festivals-europe": {
-      "2026-07-17": 1,
-      "2026-08-20": 1,
-      "2026-08-30": 1,
-      "2026-08-31": 2,
-      "2026-09-09": 1,
-      "2026-09-26": 1,
-      "2026-10-05": 1
     },
     "/en/resources/music-training-online-world": {
       "2026-08-28": 1,
@@ -1323,6 +1335,14 @@
       "2026-10-18": 1,
       "2026-10-22": 1,
       "2026-10-26": 1
+    },
+    "/en/resources/inaem-grants-spain": {
+      "2026-08-20": 1,
+      "2026-09-14": 1,
+      "2026-09-16": 1,
+      "2026-10-11": 1,
+      "2026-10-23": 1,
+      "2026-10-28": 1
     },
     "/en/resources/epk-visual-arts": {
       "2026-08-17": 1,
@@ -1399,13 +1419,6 @@
       "2026-09-02": 1,
       "2026-10-16": 1,
       "2026-10-20": 1
-    },
-    "/en/resources/inaem-grants-spain": {
-      "2026-08-20": 1,
-      "2026-09-14": 1,
-      "2026-09-16": 1,
-      "2026-10-11": 1,
-      "2026-10-23": 1
     },
     "/en/resources/what-is-an-epk": {
       "2026-08-12": 1,
@@ -1834,7 +1847,9 @@
       "2026-10-24": 4,
       "2026-10-25": 4,
       "2026-10-26": 3,
-      "2026-10-27": 4
+      "2026-10-27": 4,
+      "2026-10-28": 4,
+      "2026-10-29": 1
     },
     "recursos": {
       "2026-06-22": 3,
@@ -2169,7 +2184,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 902
+      "count": 903
     },
     {
       "name": "Safari",
@@ -2201,7 +2216,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 265
+      "count": 266
     },
     {
       "name": "Android",
@@ -2228,7 +2243,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 778
+      "count": 779
     },
     {
       "name": "phone",
@@ -2260,7 +2275,7 @@
     {
       "name": "United Kingdom",
       "id": "GB",
-      "count": 51
+      "count": 52
     },
     {
       "name": "Germany",
@@ -2327,12 +2342,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 572
+      "count": 573
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 167
+      "count": 170
     },
     {
       "name": "chatgpt.com",
@@ -2370,8 +2385,8 @@
       "count": 6
     },
     {
-      "name": "www.facebook.com",
-      "id": "www.facebook.com",
+      "name": "www.ecosia.org",
+      "id": "www.ecosia.org",
       "count": 5
     }
   ]
