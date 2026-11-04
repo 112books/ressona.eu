@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-03T22:05:27.600512Z",
+  "generated": "2026-11-04T09:59:57.352843Z",
   "period": {
-    "start": "2025-11-03",
-    "end": "2026-11-03"
+    "start": "2025-11-04",
+    "end": "2026-11-04"
   },
-  "total": 1467,
+  "total": 1474,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -530,6 +530,10 @@
     {
       "date": "2026-11-02",
       "count": 6
+    },
+    {
+      "date": "2026-11-03",
+      "count": 7
     }
   ],
   "hits": [
@@ -551,7 +555,7 @@
     },
     {
       "path": "/en/resources/circus-schools-europe",
-      "count": 52
+      "count": 55
     },
     {
       "path": "/#com-treballem",
@@ -638,31 +642,31 @@
       "count": 10
     },
     {
+      "path": "/en/resources/technical-rider",
+      "count": 10
+    },
+    {
       "path": "/en/resources/music-training-online-world",
+      "count": 9
+    },
+    {
+      "path": "/en/resources/music-platforms-artists",
       "count": 9
     },
     {
       "path": "/en/resources/dance-festivals-europe",
       "count": 9
-    },
-    {
-      "path": "/en/resources/technical-rider",
-      "count": 9
-    },
-    {
-      "path": "/recursos/que-es-un-epk",
-      "count": 9
     }
   ],
   "by_lang": {
-    "en": 506
+    "en": 513
   },
   "by_section": {
     "inici": 420,
     "#que-fem": 115,
     "#per-qui": 94,
     "#quisom": 81,
-    "resources": 309,
+    "resources": 316,
     "#com-treballem": 71,
     "#contacte": 60,
     "recursos": 182,
@@ -883,7 +887,8 @@
       "2026-10-29": 1,
       "2026-10-31": 1,
       "2026-11-01": 2,
-      "2026-11-02": 1
+      "2026-11-02": 1,
+      "2026-11-03": 3
     },
     "/#com-treballem": {
       "2026-06-18": 3,
@@ -1281,6 +1286,18 @@
       "2026-10-07": 1,
       "2026-10-18": 1
     },
+    "/en/resources/technical-rider": {
+      "2026-06-28": 1,
+      "2026-07-03": 1,
+      "2026-07-21": 1,
+      "2026-08-27": 1,
+      "2026-09-01": 1,
+      "2026-09-29": 1,
+      "2026-10-18": 1,
+      "2026-11-01": 1,
+      "2026-11-02": 1,
+      "2026-11-03": 1
+    },
     "/en/resources/music-training-online-world": {
       "2026-08-28": 1,
       "2026-09-16": 1,
@@ -1291,6 +1308,15 @@
       "2026-10-27": 1,
       "2026-11-01": 2
     },
+    "/en/resources/music-platforms-artists": {
+      "2026-08-07": 1,
+      "2026-08-09": 2,
+      "2026-08-28": 1,
+      "2026-09-28": 2,
+      "2026-10-18": 1,
+      "2026-10-20": 1,
+      "2026-11-03": 1
+    },
     "/en/resources/dance-festivals-europe": {
       "2026-07-17": 1,
       "2026-08-20": 1,
@@ -1300,17 +1326,6 @@
       "2026-09-26": 1,
       "2026-10-05": 1,
       "2026-10-28": 1
-    },
-    "/en/resources/technical-rider": {
-      "2026-06-28": 1,
-      "2026-07-03": 1,
-      "2026-07-21": 1,
-      "2026-08-27": 1,
-      "2026-09-01": 1,
-      "2026-09-29": 1,
-      "2026-10-18": 1,
-      "2026-11-01": 1,
-      "2026-11-02": 1
     },
     "/recursos/que-es-un-epk": {
       "2026-06-26": 1,
@@ -1330,14 +1345,6 @@
       "2026-10-07": 1,
       "2026-10-12": 1,
       "2026-10-19": 1
-    },
-    "/en/resources/music-platforms-artists": {
-      "2026-08-07": 1,
-      "2026-08-09": 2,
-      "2026-08-28": 1,
-      "2026-09-28": 2,
-      "2026-10-18": 1,
-      "2026-10-20": 1
     },
     "/en/resources/who-owns-music-platforms": {
       "2026-08-24": 1,
@@ -1409,6 +1416,13 @@
       "2026-10-06": 1,
       "2026-10-22": 1,
       "2026-10-23": 1
+    },
+    "/en/resources/catalan-arts-grants": {
+      "2026-08-03": 1,
+      "2026-09-09": 1,
+      "2026-09-16": 1,
+      "2026-10-12": 2,
+      "2026-11-03": 1
     },
     "/per-a-qui/musics": {
       "2026-07-03": 1,
@@ -1489,12 +1503,6 @@
       "2026-08-15": 1,
       "2026-10-10": 1
     },
-    "/en/resources/catalan-arts-grants": {
-      "2026-08-03": 1,
-      "2026-09-09": 1,
-      "2026-09-16": 1,
-      "2026-10-12": 2
-    },
     "/recursos/distribucio-digital-musica": {
       "2026-06-30": 1,
       "2026-07-02": 1,
@@ -1528,6 +1536,12 @@
       "2026-07-02": 1,
       "2026-07-03": 1,
       "2026-07-06": 1
+    },
+    "/en/resources/crowdfunding-artists": {
+      "2026-08-19": 1,
+      "2026-10-22": 1,
+      "2026-10-29": 1,
+      "2026-11-03": 1
     },
     "/en/resources/epk-dance-circus": {
       "2026-08-12": 1,
@@ -1613,11 +1627,6 @@
     "/en/resources/local-grants-artists": {
       "2026-08-21": 1,
       "2026-09-16": 1,
-      "2026-10-29": 1
-    },
-    "/en/resources/crowdfunding-artists": {
-      "2026-08-19": 1,
-      "2026-10-22": 1,
       "2026-10-29": 1
     },
     "/en/resources/finding-representation-agent-booking-manager": {
@@ -1915,7 +1924,8 @@
       "2026-10-30": 1,
       "2026-10-31": 6,
       "2026-11-01": 8,
-      "2026-11-02": 4
+      "2026-11-02": 4,
+      "2026-11-03": 7
     },
     "recursos": {
       "2026-06-22": 3,
@@ -2268,7 +2278,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 957
+      "count": 958
     },
     {
       "name": "Safari",
@@ -2300,7 +2310,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 290
+      "count": 291
     },
     {
       "name": "Android",
@@ -2327,7 +2337,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 824
+      "count": 825
     },
     {
       "name": "phone",
@@ -2359,7 +2369,7 @@
     {
       "name": "United Kingdom",
       "id": "GB",
-      "count": 55
+      "count": 56
     },
     {
       "name": "Germany",
@@ -2426,12 +2436,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 582
+      "count": 585
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 201
+      "count": 204
     },
     {
       "name": "chatgpt.com",
@@ -2446,7 +2456,7 @@
     {
       "name": "www.bing.com",
       "id": "www.bing.com",
-      "count": 18
+      "count": 19
     },
     {
       "name": "ig",
@@ -2464,14 +2474,14 @@
       "count": 7
     },
     {
-      "name": "copilot.com",
-      "id": "copilot.com",
+      "name": "www.ecosia.org",
+      "id": "www.ecosia.org",
       "count": 6
     },
     {
-      "name": "www.ecosia.org",
-      "id": "www.ecosia.org",
-      "count": 5
+      "name": "copilot.com",
+      "id": "copilot.com",
+      "count": 6
     }
   ]
 }
