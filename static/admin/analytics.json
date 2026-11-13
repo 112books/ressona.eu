@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-12T22:55:06.596159Z",
+  "generated": "2026-11-13T10:30:22.577797Z",
   "period": {
-    "start": "2025-11-12",
-    "end": "2026-11-12"
+    "start": "2025-11-13",
+    "end": "2026-11-13"
   },
-  "total": 1565,
+  "total": 1572,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -566,6 +566,14 @@
     {
       "date": "2026-11-11",
       "count": 6
+    },
+    {
+      "date": "2026-11-12",
+      "count": 5
+    },
+    {
+      "date": "2026-11-13",
+      "count": 2
     }
   ],
   "hits": [
@@ -579,7 +587,7 @@
     },
     {
       "path": "/en/resources/circus-schools-europe",
-      "count": 70
+      "count": 72
     },
     {
       "path": "/#per-qui",
@@ -619,7 +627,7 @@
     },
     {
       "path": "/en/resources/summer-masterclasses-music-europe",
-      "count": 32
+      "count": 33
     },
     {
       "path": "/en/#quisom",
@@ -691,12 +699,12 @@
     }
   ],
   "by_lang": {
-    "en": 574
+    "en": 581
   },
   "by_section": {
     "inici": 430,
     "#que-fem": 121,
-    "resources": 363,
+    "resources": 370,
     "#per-qui": 100,
     "#quisom": 87,
     "#com-treballem": 76,
@@ -877,7 +885,8 @@
       "2026-11-08": 2,
       "2026-11-09": 1,
       "2026-11-10": 3,
-      "2026-11-11": 1
+      "2026-11-11": 1,
+      "2026-11-12": 2
     },
     "/#per-qui": {
       "2026-06-18": 4,
@@ -1182,7 +1191,8 @@
       "2026-11-04": 1,
       "2026-11-09": 1,
       "2026-11-10": 1,
-      "2026-11-11": 1
+      "2026-11-11": 1,
+      "2026-11-12": 1
     },
     "/en/#quisom": {
       "2026-06-18": 1,
@@ -1445,6 +1455,16 @@
       "2026-10-06": 1,
       "2026-10-09": 1
     },
+    "/en/resources/inaem-grants-spain": {
+      "2026-08-20": 1,
+      "2026-09-14": 1,
+      "2026-09-16": 1,
+      "2026-10-11": 1,
+      "2026-10-23": 1,
+      "2026-10-28": 1,
+      "2026-11-07": 1,
+      "2026-11-13": 1
+    },
     "/en/per-a-qui/circus": {
       "2026-09-02": 1,
       "2026-09-11": 1,
@@ -1461,15 +1481,6 @@
       "2026-10-21": 1,
       "2026-10-23": 1,
       "2026-10-26": 2
-    },
-    "/en/resources/inaem-grants-spain": {
-      "2026-08-20": 1,
-      "2026-09-14": 1,
-      "2026-09-16": 1,
-      "2026-10-11": 1,
-      "2026-10-23": 1,
-      "2026-10-28": 1,
-      "2026-11-07": 1
     },
     "/en/resources/catalan-arts-grants": {
       "2026-08-03": 1,
@@ -1517,6 +1528,14 @@
       "2026-10-16": 1,
       "2026-10-20": 1,
       "2026-10-31": 1
+    },
+    "/en/resources/crowdfunding-artists": {
+      "2026-08-19": 1,
+      "2026-10-22": 1,
+      "2026-10-29": 1,
+      "2026-11-03": 1,
+      "2026-11-07": 1,
+      "2026-11-12": 1
     },
     "/en/resources/epk-visual-arts": {
       "2026-08-17": 1,
@@ -1610,13 +1629,6 @@
       "2026-06-19": 1,
       "2026-06-20": 1
     },
-    "/en/resources/crowdfunding-artists": {
-      "2026-08-19": 1,
-      "2026-10-22": 1,
-      "2026-10-29": 1,
-      "2026-11-03": 1,
-      "2026-11-07": 1
-    },
     "/en/resources/folk-traditional-music-europe": {
       "2026-08-16": 1,
       "2026-08-21": 1,
@@ -1649,6 +1661,13 @@
       "2026-08-15": 1,
       "2026-10-10": 1
     },
+    "/en/resources/social-media-artists-guide": {
+      "2026-08-11": 1,
+      "2026-08-29": 1,
+      "2026-09-18": 1,
+      "2026-10-23": 1,
+      "2026-11-13": 1
+    },
     "/recursos/bandcamp-musics-presencia-professional": {
       "2026-06-30": 2,
       "2026-07-01": 1,
@@ -1669,11 +1688,11 @@
       "2026-07-03": 1,
       "2026-07-06": 1
     },
-    "/en/resources/social-media-artists-guide": {
-      "2026-08-11": 1,
-      "2026-08-29": 1,
-      "2026-09-18": 1,
-      "2026-10-23": 1
+    "/en/resources/crowdfunding-artistic-projects": {
+      "2026-09-23": 1,
+      "2026-10-30": 1,
+      "2026-11-06": 1,
+      "2026-11-12": 1
     },
     "/recursos/bandcamp-plataformes-musica": {
       "2026-07-23": 1,
@@ -1733,11 +1752,6 @@
       "2026-10-06": 1,
       "2026-10-27": 1,
       "2026-11-09": 1
-    },
-    "/en/resources/crowdfunding-artistic-projects": {
-      "2026-09-23": 1,
-      "2026-10-30": 1,
-      "2026-11-06": 1
     },
     "/en/resources/music-architecture-buildings-sound": {
       "2026-09-17": 1,
@@ -2051,7 +2065,9 @@
       "2026-11-08": 4,
       "2026-11-09": 9,
       "2026-11-10": 6,
-      "2026-11-11": 5
+      "2026-11-11": 5,
+      "2026-11-12": 5,
+      "2026-11-13": 2
     },
     "recursos": {
       "2026-06-22": 3,
@@ -2434,7 +2450,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 1032
+      "count": 1034
     },
     {
       "name": "Safari",
@@ -2444,7 +2460,7 @@
     {
       "name": "Firefox",
       "id": "Firefox",
-      "count": 75
+      "count": 76
     },
     {
       "name": "Desconegut",
@@ -2461,7 +2477,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 836
+      "count": 838
     },
     {
       "name": "Windows",
@@ -2471,7 +2487,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 302
+      "count": 303
     },
     {
       "name": "iOS",
@@ -2493,12 +2509,12 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 887
+      "count": 889
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 533
+      "count": 534
     },
     {
       "name": "desktophd",
@@ -2520,7 +2536,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 278
+      "count": 279
     },
     {
       "name": "United Kingdom",
@@ -2573,6 +2589,11 @@
       "count": 12
     },
     {
+      "name": "Poland",
+      "id": "PL",
+      "count": 12
+    },
+    {
       "name": "Portugal",
       "id": "PT",
       "count": 12
@@ -2581,38 +2602,33 @@
       "name": "Indonesia",
       "id": "ID",
       "count": 11
-    },
-    {
-      "name": "Ireland",
-      "id": "IE",
-      "count": 11
     }
   ],
   "refs": [
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 600
+      "count": 601
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 244
+      "count": 249
     },
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 54
+      "count": 55
+    },
+    {
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
+      "count": 24
     },
     {
       "name": "www.bing.com",
       "id": "www.bing.com",
       "count": 24
-    },
-    {
-      "name": "duckduckgo.com",
-      "id": "duckduckgo.com",
-      "count": 23
     },
     {
       "name": "www.ecosia.org",
