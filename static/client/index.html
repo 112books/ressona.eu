@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Espai privat · Ressona</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- ══ PROTIP ════════════════════════════════════════════════
+       Portal privat del client. Accés per token a la URL (?t=...).
+       En producció, el token es valida contra el backend (Worker)
+       i només s'exposen camps client-facing. Aquí: dades fictícies
+       per a demostració (tokens demo-token-*).
+  ═══════════════════════════════════════════════════════════════ -->
+  <style>
+    :root {
+      --bg:      #34454c;
+      --ink:     #d9d0d5;
+      --ink2:    rgba(192,169,179,0.7);
+      --ink3:    rgba(192,169,179,0.45);
+      --accent:  #fdbf68;
+      --accent2: #501345;
+      --blue:    #c0a9b3;
+      --border:  rgba(192,169,179,0.12);
+      --surface: #2b3b41;
+      --ok:      #7fb069;
+      --warn:    #a83232;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { background: var(--bg); color: var(--ink); }
+    body {
+      font-family: 'Inter', sans-serif; font-weight: 300;
+      font-size: 16px; line-height: 1.7; min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+
+    /* Header */
+    .header { display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 0 2rem; border-bottom: 1px solid var(--border); margin-bottom: 2.5rem; }
+    .brand { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.6rem; color: var(--ink); text-decoration: none; }
+    .brand .flip-r { display: inline-block; transform: scaleX(-1); color: var(--accent); }
+    .brand .shift-up { vertical-align: 0.12em; font-size: 0.85em; }
+    .brand .shift-down { vertical-align: -0.12em; font-size: 0.85em; }
+    .header-meta { font-size: 11px; color: var(--ink3); letter-spacing: .12em; text-transform: uppercase; text-align: right; }
+
+    /* Hero del projecte */
+    .project-hero { margin-bottom: 3rem; }
+    .eyebrow { color: var(--accent); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; margin-bottom: .8rem; }
+    .project-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 2.4rem; line-height: 1.1; margin-bottom: .6rem; color: var(--ink); }
+    .project-sub { color: var(--ink2); font-size: 15px; max-width: 560px; }
+
+    /* Timeline */
+    .section { margin-bottom: 3rem; }
+    .section-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.1rem; color: var(--accent); margin-bottom: 1.2rem; letter-spacing: .02em; }
+    .timeline { position: relative; padding-left: 2rem; }
+    .timeline::before { content: ''; position: absolute; left: .55rem; top: .6rem; bottom: .6rem; width: 1px; background: var(--border); }
+    .tl { position: relative; padding: .75rem 0 1.5rem; }
+    .tl::before { content: ''; position: absolute; left: -1.55rem; top: .9rem; width: 12px; height: 12px; border-radius: 50%; background: var(--surface); border: 1px solid var(--ink3); transition: all .3s; }
+    .tl.done::before { background: var(--ok); border-color: var(--ok); }
+    .tl.current::before { background: var(--accent); border-color: var(--accent); box-shadow: 0 0 0 4px rgba(253,191,104,0.18); }
+    .tl.upcoming::before { background: transparent; border-color: var(--ink3); opacity: .5; }
+    .tl-title { font-size: 15px; color: var(--ink); margin-bottom: .2rem; }
+    .tl.current .tl-title { color: var(--accent); font-weight: 500; }
+    .tl.done .tl-title { color: var(--ink2); }
+    .tl.upcoming .tl-title { color: var(--ink3); }
+    .tl-desc { font-size: 13px; color: var(--ink3); line-height: 1.5; }
+    .tl-date { font-size: 11px; color: var(--ink3); margin-top: .3rem; letter-spacing: .06em; }
+
+    /* Cards de documents / factures */
+    .card-list { display: flex; flex-direction: column; gap: .8rem; }
+    .card { background: var(--surface); border: 1px solid var(--border); padding: 1rem 1.2rem; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; transition: border-color .2s; }
+    .card:hover { border-color: var(--accent); }
+    .card-info { flex: 1; min-width: 0; }
+    .card-title { font-size: 14px; color: var(--ink); margin-bottom: .2rem; }
+    .card-meta { font-size: 11px; color: var(--ink3); }
+    .card-action { color: var(--accent); font-size: 12px; text-decoration: none; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+    .card-action:hover { color: #fff; }
+    .status { display: inline-block; padding: .15rem .5rem; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; border: 1px solid var(--border); }
+    .status.pagada { color: var(--ok); border-color: var(--ok); }
+    .status.pendent { color: var(--accent); border-color: var(--accent); }
+    .status.borrador { color: var(--ink3); }
+
+    /* Missatges */
+    .msg { background: var(--surface); border-left: 2px solid var(--accent); padding: 1rem 1.2rem; margin-bottom: .8rem; }
+    .msg-meta { font-size: 11px; color: var(--ink3); margin-bottom: .4rem; letter-spacing: .06em; text-transform: uppercase; }
+    .msg-body { font-size: 14px; color: var(--ink2); }
+
+    /* Pròxims passos */
+    .next-steps { background: linear-gradient(135deg, rgba(253,191,104,0.08), rgba(80,19,69,0.08)); border: 1px solid var(--border); padding: 1.5rem; }
+    .next-steps h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1rem; color: var(--accent); margin-bottom: .8rem; }
+    .next-steps ul { padding-left: 1.2rem; color: var(--ink2); font-size: 14px; }
+    .next-steps li { margin-bottom: .4rem; }
+
+    /* Estat de càrrega / error */
+    .state-box { text-align: center; padding: 4rem 1rem; color: var(--ink3); }
+    .state-box h2 { font-family: 'Syne', sans-serif; font-weight: 700; color: var(--accent); margin-bottom: .8rem; }
+    .state-box p { max-width: 420px; margin: 0 auto; }
+
+    /* Footer */
+    footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); font-size: 11px; color: var(--ink3); display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
+    footer a { color: var(--ink3); text-decoration: none; }
+    footer a:hover { color: var(--accent); }
+
+    @media (max-width: 600px) {
+      .wrap { padding: 1.2rem 1rem 3rem; }
+      .project-title { font-size: 1.9rem; }
+      .header { flex-direction: column; align-items: flex-start; gap: .5rem; }
+      .header-meta { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="header">
+      <a class="brand" href="https://ressona.eu"><span class="flip-r">R</span>e<span class="shift-up">s</span><span class="shift-down">s</span><span class="shift-down">o</span>na</a>
+      <div class="header-meta">Espai privat del client</div>
+    </header>
+
+    <div id="app"></div>
+
+    <footer>
+      <span>© Ressona · espai privat</span>
+      <a href="mailto:hola@ressona.eu">hola@ressona.eu</a>
+    </footer>
+  </div>
+
+  <script>
+  /* ══ DADES D'EXEMPLE (fictícies, client-facing) ═══════════════ */
+  const CLIENTS = {
+    'demo-token-marbel-0000000000000000': {
+      nom: 'Mar Bel',
+      projecte: 'Web per a artistes',
+      estat: 'proposta-enviada',
+      creat: '2026-11-14',
+      missatge: 'Hola Mar, aquí tens el teu espai privat. Trobaràs tot el procés, els documents i les factures a mesura que avancem.',
+      passos: [
+        {t:'Sol·licitud rebuda', d:'Hem rebut la teva consulta del 14 de novembre.', data:'14 nov 2026', state:'done'},
+        {t:'Anàlisi i proposta', d:'Estudiem el teu cas i preparem una proposta.', data:'15 nov 2026', state:'done'},
+        {t:'Proposta enviada', d:'T\'hem enviat un mail amb 4 preguntes prèvies i un rang de preu (900–1.300 €).', data:'15 nov 2026', state:'current'},
+        {t:'Acceptació i inici', d:'Confirmació i factura del 50%.', data:'', state:'upcoming'},
+        {t:'En desenvolupament', d:'Treballem en la teva web.', data:'', state:'upcoming'},
+        {t:'Revisió i ajustos', d:'Et presentem el resultat per revisar.', data:'', state:'upcoming'},
+        {t:'Lliurament final', d:'Factura final i documentació.', data:'', state:'upcoming'},
+        {t:'Tancat', d:'Projecte completat.', data:'', state:'upcoming'}
+      ],
+      documents: [
+        {nom:'Proposta inicial (mail)', meta:'Enviada el 15 nov 2026', estat:'borrador', url:'#'}
+      ],
+      calendar: [
+        {data:'2026-11-18', hora:'10:00', tipus:'reunio', titol:'Reunió de kickoff', desc:'Videocall per revisar la proposta i les preguntes prèvies.'},
+        {data:'2026-11-25', hora:'', tipus:'fita', titol:'Lliurament de la proposta tancada', desc:'Pressupost final i calendari.'},
+        {data:'2026-12-02', hora:'', tipus:'factura', titol:'Factura 50% (inici)', desc:'Enviament de la factura inicial.'}
+      ],
+      factures: [],
+      missatges: [
+        {meta:'Ressona · 15 nov 2026', body:'Hola Mar! Hem llegit la teva consulta i ens encanta el projecte. T\'hem enviat 4 preguntes ràpides i un rang de preu. Respon-nos quan puguis i preparem un pressupost tancat.'}
+      ],
+      proxims: [
+        'Respondre les 4 preguntes del mail (reproductor, concerts, fotos, domini).',
+        'Un cop rebem la resposta, et preparem pressupost tancat i calendari.',
+        'Si el rang no encaixa amb el teu pressupost, digues-nos-ho i ajustem.'
+      ]
+    },
+    'demo-token-oriol-0000000000000000': {
+      nom: 'Oriol (Circ Vermell)',
+      projecte: 'Identitat visual',
+      estat: 'en-curs',
+      creat: '2026-11-10',
+      missatge: 'Hola Oriol, el projecte està en marxa. Aquí tens el seguiment i els documents compartits.',
+      passos: [
+        {t:'Sol·licitud rebuda', d:'Lead rebut per referència.', data:'10 nov 2026', state:'done'},
+        {t:'Anàlisi i proposta', d:'Proposta d\'identitat visual completa.', data:'11 nov 2026', state:'done'},
+        {t:'Proposta enviada', d:'Pressupost tancat 1.750 € acceptat.', data:'12 nov 2026', state:'done'},
+        {t:'Acceptació i inici', d:'Factura 50% (875 €) pagada.', data:'14 nov 2026', state:'done'},
+        {t:'En desenvolupament', d:'Treballem en el primer concepte de logo.', data:'14 nov 2026', state:'current'},
+        {t:'Revisió i ajustos', d:'Et presentem el resultat per revisar.', data:'', state:'upcoming'},
+        {t:'Lliurament final', d:'Factura final i documentació.', data:'', state:'upcoming'},
+        {t:'Tancat', d:'Projecte completat.', data:'', state:'upcoming'}
+      ],
+      documents: [
+        {nom:'Proposta completa', meta:'Enviada el 11 nov 2026', estat:'borrador', url:'#'},
+        {nom:'Concepte logo 1 (borrador)', meta:'Pujat el 14 nov 2026', estat:'borrador', url:'#'}
+      ],
+      calendar: [
+        {data:'2026-11-20', hora:'16:00', tipus:'revisio', titol:'Revisió concepte logo 1', desc:'Videocall per feedback.'},
+        {data:'2026-11-27', hora:'', tipus:'lliurament', titol:'Lliurament de la proposta final', desc:'Logo, paleta, tipografia, manual.'},
+        {data:'2026-12-04', hora:'', tipus:'factura', titol:'Factura final (50%)', desc:'Enviament de la factura final.'}
+      ],
+      factures: [
+        {num:'F-2026-014', tipus:'50% inici', import:'875 €', data:'13 nov 2026', estat:'pagada'},
+        {num:'—', tipus:'100% final', import:'875 €', data:'pendent', estat:'pendent'}
+      ],
+      missatges: [
+        {meta:'Ressona · 14 nov 2026', body:'Hem arrencat el treball. El primer concepte de logo està llest per revisar al portal. Dona\'ns feedback quan puguis.'}
+      ],
+      proxims: [
+        'Revisar el concepte de logo 1 i donar feedback.',
+        'Segona ronda de revisions (si cal).',
+        'Lliurament final: logo, paleta, tipografia, manual i plantilles.'
+      ]
+    }
+  };
+
+  /* ══ RENDER ═══════════════════════════════════════════════════ */
+  function getToken() {
+    const p = new URLSearchParams(location.search);
+    return p.get('t') || p.get('token') || '';
+  }
+
+  async function render() {
+    const app = document.getElementById('app');
+    const token = getToken();
+    if (!token) {
+      app.innerHTML = '<div class="state-box"><h2>Accés privat</h2><p>Aquest espai és privat. Si ets client de Ressona, usa l\'enllaç que t\'hem enviat per correu. Si has perdut l\'enllaç, escriu-nos a <a href="mailto:hola@ressona.eu" style="color:var(--accent)">hola@ressona.eu</a>.</p><p style="margin-top:1.5rem;font-size:12px;color:var(--ink3)">Demo: prova amb <a style="color:var(--accent)" href="?t=demo-token-marbel-0000000000000000">?t=demo-token-marbel-...</a> o <a style="color:var(--accent)" href="?t=demo-token-oriol-0000000000000000">?t=demo-token-oriol-...</a></p></div>';
+      return;
+    }
+    let c = CLIENTS[token];
+    const apiBase = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+      ? 'http://localhost:8010' : 'https://ressona.linuxbcn.com';
+    try {
+      const r = await fetch(apiBase + '/portal/' + encodeURIComponent(token));
+      if (r.ok) {
+        const data = await r.json();
+        c = mapApiToClient(data, token) || c;
+      }
+    } catch (e) { /* fallback a dades fictícies */ }
+    if (!c) {
+      app.innerHTML = '<div class="state-box"><h2>Enllaç no vàlid</h2><p>L\'enllaç que has utilitzat no és vàlid o ha caducat. Contacta amb nosaltres a <a href="mailto:hola@ressona.eu" style="color:var(--accent)">hola@ressona.eu</a> per obtenir un nou accés.</p></div>';
+      return;
+    }
+
+    const statusLabel = (c.estat || 'proposta-enviada');
+
+    app.innerHTML = `
+      <div class="project-hero">
+        <div class="eyebrow">Espai privat · ${escapeHtml(c.nom)}</div>
+        <h1 class="project-title">${escapeHtml(c.projecte)}</h1>
+        <p class="project-sub">${escapeHtml(c.missatge)}</p>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Procés del projecte</h2>
+        <div class="timeline">
+          ${c.passos.map(p => `
+            <div class="tl ${p.state}">
+              <div class="tl-title">${escapeHtml(p.t)}</div>
+              <div class="tl-desc">${escapeHtml(p.d)}</div>
+              ${p.data ? `<div class="tl-date">${escapeHtml(p.data)}</div>` : ''}
+            </div>
+          `).join('')}
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Documents</h2>
+        <div class="card-list">
+          ${c.documents.length ? c.documents.map(d => `
+            <div class="card">
+              <div class="card-info">
+                <div class="card-title">${escapeHtml(d.nom)}</div>
+                <div class="card-meta">${escapeHtml(d.meta)}</div>
+              </div>
+              <span class="status ${d.estat}">${d.estat}</span>
+              <a class="card-action" href="${d.url}">Descarregar →</a>
+            </div>
+          `).join('') : '<div style="color:var(--ink3);font-size:13px">Encara no hi ha documents compartits.</div>'}
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Calendari</h2>
+        <div class="card-list" id="calendar-list"></div>
+        <div style="display:flex;gap:.6rem;margin-top:1rem;flex-wrap:wrap">
+          <button class="card-action" id="btn-ics" style="background:none;border:1px solid var(--border);padding:.5rem .9rem;cursor:pointer;font-family:inherit;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)">Descarregar .ics →</button>
+          <button class="card-action" id="btn-sub" style="background:none;border:1px solid var(--border);padding:.5rem .9rem;cursor:pointer;font-family:inherit;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)">Subscriure's al feed →</button>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Factures</h2>
+        <div class="card-list">
+          ${c.factures.length ? c.factures.map(f => `
+            <div class="card">
+              <div class="card-info">
+                <div class="card-title">${escapeHtml(f.num)} · ${escapeHtml(f.tipus)}</div>
+                <div class="card-meta">${escapeHtml(f.data)}</div>
+              </div>
+              <div style="text-align:right">
+                <div style="font-size:15px;color:var(--ink);margin-bottom:.2rem">${escapeHtml(f.import)}</div>
+                <span class="status ${f.estat}">${f.estat}</span>
+              </div>
+              <a class="card-action" href="#">Veure →</a>
+            </div>
+          `).join('') : '<div style="color:var(--ink3);font-size:13px">Encara no hi ha factures.</div>'}
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Missatges</h2>
+        ${c.missatges.map(m => `
+          <div class="msg">
+            <div class="msg-meta">${escapeHtml(m.meta)}</div>
+            <div class="msg-body">${escapeHtml(m.body)}</div>
+          </div>
+        `).join('')}
+      </div>
+
+      <div class="next-steps">
+        <h3>Pròxims passos</h3>
+        <ul>${c.proxims.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>
+      </div>
+    `;
+
+    // Render calendari
+    const calList = document.getElementById('calendar-list');
+    if (calList) {
+      if (!c.calendar || !c.calendar.length) {
+        calList.innerHTML = '<div style="color:var(--ink3);font-size:13px">Encara no hi ha esdeveniments al calendari.</div>';
+      } else {
+        calList.innerHTML = c.calendar.map(e => `
+          <div class="card">
+            <div class="card-info">
+              <div class="card-title">${escapeHtml(e.titol)}</div>
+              <div class="card-meta">${escapeHtml(e.data)}${e.hora?' · '+escapeHtml(e.hora):''} · ${escapeHtml(e.desc||'')}</div>
+            </div>
+            <span class="status" style="color:${TIPUS_COLOR[e.tipus]||'var(--ink3)'};border-color:${TIPUS_COLOR[e.tipus]||'var(--ink3)'}">${TIPUS_LABEL[e.tipus]||e.tipus}</span>
+          </div>
+        `).join('');
+      }
+    }
+
+    // Botons
+    const btnIcs = document.getElementById('btn-ics');
+    if (btnIcs) btnIcs.addEventListener('click', () => {
+      const ics = buildIcs(c.calendar || [], 'Ressona - ' + c.nom);
+      const blob = new Blob([ics], {type:'text/calendar;charset=utf-8'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'ressona-' + c.nom.toLowerCase().replace(/\s+/g,'-') + '.ics';
+      document.body.appendChild(a); a.click(); document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    });
+    const btnSub = document.getElementById('btn-sub');
+    if (btnSub) btnSub.addEventListener('click', () => {
+      const feedUrl = apiBase + '/portal/' + token + '/calendar.ics';
+      alert('Subscriu-te al feed copiant aquesta URL al teu calendari:\n\n' + feedUrl + '\n\n(En producció, el backend servirà aquest feed.)');
+    });
+  }
+
+  // Helpers
+  const TIPUS_LABEL = {reunio:'Reunió', lliurament:'Lliurament', fita:'Fita', revisio:'Revisió', factura:'Factura', pagament:'Pagament'};
+  const TIPUS_COLOR = {reunio:'#fdbf68', lliurament:'#7fb069', fita:'#c0a9b3', revisio:'#fdbf68', factura:'#501345', pagament:'rgba(192,169,179,0.45)'};
+
+  function mapApiToClient(data, token) {
+    // Mapejar la resposta de l'API al format que espera la UI
+    const stepIdx = (data.passos || []).findIndex(p => p.state === 'current');
+    return {
+      nom: data.nom,
+      projecte: data.projecte || '',
+      estat: data.estat,
+      missatge: data.missatge || '',
+      passos: data.passos || [],
+      documents: (data.documents || []).map(d => ({ nom: d.nom || d.name, meta: d.meta || '', estat: d.estat || 'borrador', url: d.url || '#' })),
+      factures: (data.factures || []).map(f => ({ num: f.num, tipus: f.tipus, import: f.import, data: f.data, estat: f.estat })),
+      calendar: data.calendar || [],
+      missatges: data.missatges || [],
+      proxims: data.proxims || [],
+    };
+  }
+
+  function buildIcs(events, calName) {
+    const lines = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Ressona//Client Calendar//CA','CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:'+calName];
+    events.forEach((e, i) => {
+      const dt = e.data.replace(/-/g,'');
+      const start = e.hora ? dt + 'T' + e.hora.replace(':','') + '00' : dt;
+      const sh = e.hora ? parseInt(e.hora.split(':')[0]) : 0;
+      const sm = e.hora ? e.hora.split(':')[1] : '00';
+      const endH = e.hora ? (sh+1).toString().padStart(2,'0') : null;
+      const end = e.hora ? dt + 'T' + endH + sm + '00' : dt;
+      lines.push('BEGIN:VEVENT');
+      lines.push('UID:ressona-' + token + '-' + i + '@ressona.eu');
+      lines.push('DTSTART' + (e.hora ? ';TZID=Europe/Madrid' : ';VALUE=DATE') + ':' + start);
+      lines.push('DTEND' + (e.hora ? ';TZID=Europe/Madrid' : ';VALUE=DATE') + ':' + end);
+      lines.push('SUMMARY:' + e.titol);
+      if (e.desc) lines.push('DESCRIPTION:' + e.desc.replace(/\n/g,'\\n'));
+      lines.push('STATUS:CONFIRMED');
+      lines.push('END:VEVENT');
+    });
+    lines.push('END:VCALENDAR');
+    return lines.join('\r\n');
+  }
+
+  function escapeHtml(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  document.addEventListener('DOMContentLoaded', render);
+</script>
+</body>
+</html>

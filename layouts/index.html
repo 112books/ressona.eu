@@ -325,11 +325,19 @@
         status.className = 'contact-status';
         submit.disabled = true;
         submit.textContent = '…';
-        var data = new FormData(form);
-        fetch(form.action, {
+        var apiBase = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+          ? 'http://localhost:8010' : 'https://ressona.linuxbcn.com';
+        var data = {
+          nom: form.querySelector('#contact-name').value.trim(),
+          email: form.querySelector('#contact-email').value.trim(),
+          servei: form.querySelector('#contact-service').value,
+          missatge: form.querySelector('#contact-msg').value.trim(),
+          idioma: (document.documentElement.lang || 'ca').slice(0,2)
+        };
+        fetch(apiBase + '/clients/from-contact', {
           method: 'POST',
-          body: data,
-          headers: { 'Accept': 'application/json' }
+          body: JSON.stringify(data),
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }
         }).then(function(r) {
           if (r.ok) {
             status.textContent = '{{ i18n "form_ok" }}';

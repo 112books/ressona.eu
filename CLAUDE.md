@@ -78,6 +78,16 @@ Markup idèntic al hero, header i footer:
 - `sessionStorage` per mantenir sessió
 - NO staticrypt (el site públic és obert)
 
+## Gestió de clients
+- Panell: `static/admin/clients.html` (leads/clients) i `static/client/index.html` (portal client per token).
+- Auth via backend propi (JWT + TOTP) a `ressona.linuxbcn.com` (o localhost:8010 en dev). Sense SHA-256 client-side.
+- Dades de clients a `ressona-docs/clients/` (repo privat). Documentació: `ressona-docs/docs/process-client.md`.
+- Backend: `ressona-api/` (FastAPI, Python) hostejat a LinuxBCN. Repo: `112books/ressona-api` (privat).
+- Portal client accessible per token llarg a la URL (`?t=<token>`), no indexable.
+- Calendari per client: descàrrega `.ics` (RFC 5545) i feed subscribible (URL amb token).
+- Formulari de contacte (`/#contacte`) envia a `POST /clients/from-contact` (crea lead automàtic).
+- Portal client llegeix dades reals de l'API (`GET /portal/:token`) amb fallback a dades fictícies.
+
 ## Social media
 - Estratègia: `ressona-docs/xarxes/ESTRATEGIA.md` — IG/FB/LI, 1 cop/setmana, 5 formats
 - Generador: `/admin/plantilla.html` — 4 layouts (cita/servei/perfil/proces), 5 bgs, 6 icones, logo original, html2canvas → PNG download + clipboard, auth SHA-256
