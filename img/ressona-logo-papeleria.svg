@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 340 50">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ece4d9"/>
+      <stop offset="30%" stop-color="#ece4d9"/>
+      <stop offset="55%" stop-color="#d49a2a"/>
+      <stop offset="100%" stop-color="#c1121f"/>
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&amp;display=swap');
+    </style>
+  </defs>
+  <g font-family="Syne, 'Arial Black', sans-serif" font-weight="800" letter-spacing="-1.5">
+    <g transform="matrix(-1 0 0 1 22 0)">
+      <text x="4" y="40" fill="#d49a2a" font-size="42">R</text>
+    </g>
+    <text x="18" y="40" fill="url(#g)" font-size="42">e<tspan font-size="36" dy="-5">s</tspan><tspan font-size="36" dy="6">s</tspan><tspan font-size="36" dy="5">o</tspan>na</text>
+  </g>
+</svg>

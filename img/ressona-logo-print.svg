@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280">
+  <defs>
+    <linearGradient id="print-brand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ece4d9"/>
+      <stop offset="25%" stop-color="#ece4d9"/>
+      <stop offset="50%" stop-color="#d49a2a"/>
+      <stop offset="100%" stop-color="#c1121f"/>
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&amp;family=Syne:wght@800&amp;display=swap');
+      .pb { font-family: 'Syne', 'Arial Black', sans-serif; font-weight: 800; fill: url(#print-brand); }
+      .pg { fill: url(#print-brand); }
+      .pt { font-family: 'Inter', 'Helvetica Neue', sans-serif; font-weight: 300; fill: #d9d0d5; font-size: 16px; letter-spacing: 0.35em; }
+    </style>
+  </defs>
+
+  <!-- Full brand mark -->
+  <g transform="translate(120,160)">
+    <text x="-45" y="0" class="pg" font-size="170" text-anchor="middle" transform="scale(-1,1)">R</text>
+    <text x="22" y="0" class="pb" font-size="170" text-anchor="start">e</text>
+    <text x="82" y="-18" class="pb" font-size="145" text-anchor="start">s</text>
+    <text x="137" y="22" class="pb" font-size="145" text-anchor="start">s</text>
+    <text x="192" y="20" class="pb" font-size="145" text-anchor="start">o</text>
+    <text x="248" y="0" class="pb" font-size="170" text-anchor="start">n</text>
+    <text x="328" y="0" class="pb" font-size="170" text-anchor="start">a</text>
+  </g>
+
+  <!-- Tagline -->
+  <g transform="translate(300,225)">
+    <text x="0" y="0" class="pt" text-anchor="middle">Identitat digital per a artistes</text>
+  </g>
+</svg>
