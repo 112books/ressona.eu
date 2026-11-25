@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-24T12:59:39.120298Z",
+  "generated": "2026-11-25T05:06:05.230852Z",
   "period": {
-    "start": "2025-11-24",
-    "end": "2026-11-24"
+    "start": "2025-11-25",
+    "end": "2026-11-25"
   },
-  "total": 1698,
+  "total": 1707,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -185,7 +185,7 @@
     },
     {
       "date": "2026-08-03",
-      "count": 6
+      "count": 5
     },
     {
       "date": "2026-08-04",
@@ -210,10 +210,6 @@
     {
       "date": "2026-08-09",
       "count": 2
-    },
-    {
-      "date": "2026-08-10",
-      "count": 1
     },
     {
       "date": "2026-08-11",
@@ -505,11 +501,11 @@
     },
     {
       "date": "2026-10-26",
-      "count": 5
+      "count": 4
     },
     {
       "date": "2026-10-27",
-      "count": 4
+      "count": 5
     },
     {
       "date": "2026-10-28",
@@ -621,13 +617,13 @@
     },
     {
       "date": "2026-11-24",
-      "count": 1
+      "count": 12
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 391
+      "count": 392
     },
     {
       "path": "/en/resources/circus-schools-europe",
@@ -659,7 +655,7 @@
     },
     {
       "path": "/en/resources/summer-masterclasses-music-europe",
-      "count": 46
+      "count": 48
     },
     {
       "path": "/#recursos",
@@ -679,7 +675,7 @@
     },
     {
       "path": "/en/resources/linkedin-artists",
-      "count": 25
+      "count": 26
     },
     {
       "path": "/en/#quisom",
@@ -702,6 +698,10 @@
       "count": 15
     },
     {
+      "path": "/en/resources/music-training-online-world",
+      "count": 14
+    },
+    {
       "path": "/en/resources",
       "count": 14
     },
@@ -712,10 +712,6 @@
     {
       "path": "/en/#contacte",
       "count": 14
-    },
-    {
-      "path": "/en/resources/music-training-online-world",
-      "count": 13
     },
     {
       "path": "/en/resources/music-digital-distribution",
@@ -738,32 +734,31 @@
       "count": 12
     },
     {
-      "path": "/en/resources/digital-portfolio-visual-artists",
+      "path": "/en/resources/press-photos",
       "count": 11
     },
     {
-      "path": "/en/resources/hard-rock-heavy-metal-europe",
+      "path": "/en/resources/digital-portfolio-visual-artists",
       "count": 11
     }
   ],
   "by_lang": {
-    "en": 719
+    "en": 723
   },
   "by_section": {
-    "inici": 440,
-    "resources": 505,
+    "inici": 441,
+    "resources": 512,
     "#que-fem": 125,
     "#per-qui": 104,
     "#quisom": 90,
     "#com-treballem": 79,
     "#contacte": 66,
     "#recursos": 57,
-    "recursos": 163,
+    "recursos": 167,
     "comenca": 23,
     "per-a-qui": 21,
     "serveis": 17,
-    "legal": 5,
-    "start": 3
+    "legal": 5
   },
   "pages_daily": {
     "/": {
@@ -844,7 +839,8 @@
       "2026-11-15": 1,
       "2026-11-16": 1,
       "2026-11-18": 3,
-      "2026-11-19": 1
+      "2026-11-19": 1,
+      "2026-11-24": 1
     },
     "/en/resources/circus-schools-europe": {
       "2026-07-20": 1,
@@ -1164,7 +1160,8 @@
       "2026-11-17": 2,
       "2026-11-21": 2,
       "2026-11-22": 1,
-      "2026-11-23": 4
+      "2026-11-23": 4,
+      "2026-11-24": 2
     },
     "/#recursos": {
       "2026-06-22": 2,
@@ -1301,7 +1298,8 @@
       "2026-11-11": 1,
       "2026-11-15": 1,
       "2026-11-21": 1,
-      "2026-11-23": 1
+      "2026-11-23": 1,
+      "2026-11-24": 1
     },
     "/en/#quisom": {
       "2026-06-18": 1,
@@ -1396,6 +1394,21 @@
       "2026-11-10": 1,
       "2026-11-19": 2
     },
+    "/en/resources/music-training-online-world": {
+      "2026-08-28": 1,
+      "2026-09-16": 1,
+      "2026-10-02": 1,
+      "2026-10-07": 1,
+      "2026-10-12": 1,
+      "2026-10-23": 1,
+      "2026-10-27": 1,
+      "2026-11-01": 2,
+      "2026-11-04": 1,
+      "2026-11-15": 1,
+      "2026-11-17": 1,
+      "2026-11-22": 1,
+      "2026-11-24": 1
+    },
     "/en/resources": {
       "2026-06-27": 1,
       "2026-07-01": 1,
@@ -1440,20 +1453,6 @@
       "2026-10-31": 1,
       "2026-11-04": 1,
       "2026-11-06": 1
-    },
-    "/en/resources/music-training-online-world": {
-      "2026-08-28": 1,
-      "2026-09-16": 1,
-      "2026-10-02": 1,
-      "2026-10-07": 1,
-      "2026-10-12": 1,
-      "2026-10-23": 1,
-      "2026-10-27": 1,
-      "2026-11-01": 2,
-      "2026-11-04": 1,
-      "2026-11-15": 1,
-      "2026-11-17": 1,
-      "2026-11-22": 1
     },
     "/en/resources/music-digital-distribution": {
       "2026-07-20": 1,
@@ -1521,6 +1520,18 @@
       "2026-11-04": 1,
       "2026-11-16": 1
     },
+    "/en/resources/press-photos": {
+      "2026-08-20": 1,
+      "2026-08-21": 1,
+      "2026-09-01": 1,
+      "2026-10-05": 2,
+      "2026-10-07": 1,
+      "2026-10-12": 1,
+      "2026-10-19": 1,
+      "2026-11-11": 1,
+      "2026-11-18": 1,
+      "2026-11-24": 1
+    },
     "/en/resources/digital-portfolio-visual-artists": {
       "2026-08-15": 3,
       "2026-08-16": 1,
@@ -1541,17 +1552,6 @@
       "2026-10-13": 2,
       "2026-10-25": 1,
       "2026-11-16": 1
-    },
-    "/en/resources/press-photos": {
-      "2026-08-20": 1,
-      "2026-08-21": 1,
-      "2026-09-01": 1,
-      "2026-10-05": 2,
-      "2026-10-07": 1,
-      "2026-10-12": 1,
-      "2026-10-19": 1,
-      "2026-11-11": 1,
-      "2026-11-18": 1
     },
     "/en/resources/jazz-route-europe": {
       "2026-07-29": 1,
@@ -1698,6 +1698,12 @@
       "2026-11-18": 1,
       "2026-11-19": 1,
       "2026-11-22": 1
+    },
+    "/en/resources/time-management-independent-artist": {
+      "2026-09-01": 1,
+      "2026-09-26": 2,
+      "2026-11-20": 1,
+      "2026-11-24": 2
     },
     "/en/resources/folk-traditional-music-europe": {
       "2026-08-16": 1,
@@ -1851,6 +1857,13 @@
       "2026-11-21": 1,
       "2026-11-23": 2
     },
+    "/recursos/bandcamp-plataformes-musica": {
+      "2026-07-23": 1,
+      "2026-09-20": 1,
+      "2026-10-07": 1,
+      "2026-10-13": 1,
+      "2026-11-24": 1
+    },
     "/recursos/bandcamp-musics-presencia-professional": {
       "2026-06-30": 2,
       "2026-07-01": 1,
@@ -1881,11 +1894,6 @@
       "2026-11-20": 1,
       "2026-11-21": 1
     },
-    "/en/resources/time-management-independent-artist": {
-      "2026-09-01": 1,
-      "2026-09-26": 2,
-      "2026-11-20": 1
-    },
     "/recursos/beques-cultura-europa": {
       "2026-08-23": 1,
       "2026-10-14": 1,
@@ -1903,12 +1911,6 @@
       "2026-11-11": 1,
       "2026-11-14": 1,
       "2026-11-19": 1
-    },
-    "/recursos/bandcamp-plataformes-musica": {
-      "2026-07-23": 1,
-      "2026-09-20": 1,
-      "2026-10-07": 1,
-      "2026-10-13": 1
     },
     "/en/resources/technical-rider-by-formation-venue": {
       "2026-07-21": 1,
@@ -1971,6 +1973,10 @@
       "2026-11-12": 1,
       "2026-11-17": 1
     },
+    "/recursos/identitat-digital-actrius-actors": {
+      "2026-10-27": 1,
+      "2026-11-24": 2
+    },
     "/en/resources/website-vs-linktree": {
       "2026-10-12": 1,
       "2026-10-27": 1,
@@ -2015,11 +2021,6 @@
       "2026-08-03": 1,
       "2026-09-13": 1,
       "2026-11-08": 1
-    },
-    "/en/start": {
-      "2026-08-03": 1,
-      "2026-08-10": 1,
-      "2026-10-26": 1
     }
   },
   "sections_daily": {
@@ -2146,7 +2147,7 @@
       "2026-11-21": 10,
       "2026-11-22": 8,
       "2026-11-23": 7,
-      "2026-11-24": 1
+      "2026-11-24": 8
     },
     "inici": {
       "2026-06-12": 9,
@@ -2240,7 +2241,8 @@
       "2026-11-16": 1,
       "2026-11-18": 3,
       "2026-11-19": 1,
-      "2026-11-23": 1
+      "2026-11-23": 1,
+      "2026-11-24": 1
     },
     "recursos": {
       "2026-06-22": 3,
@@ -2281,6 +2283,7 @@
       "2026-10-14": 1,
       "2026-10-20": 1,
       "2026-10-21": 2,
+      "2026-10-27": 1,
       "2026-10-29": 1,
       "2026-10-30": 1,
       "2026-10-31": 1,
@@ -2291,7 +2294,8 @@
       "2026-11-12": 1,
       "2026-11-14": 2,
       "2026-11-16": 1,
-      "2026-11-17": 1
+      "2026-11-17": 1,
+      "2026-11-24": 3
     },
     "#que-fem": {
       "2026-06-18": 6,
@@ -2627,18 +2631,13 @@
       "2026-07-02": 1,
       "2026-07-03": 1,
       "2026-07-06": 1
-    },
-    "start": {
-      "2026-08-03": 1,
-      "2026-08-10": 1,
-      "2026-10-26": 1
     }
   },
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 1267
+      "count": 1273
     },
     {
       "name": "Safari",
@@ -2665,17 +2664,17 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 871
+      "count": 872
     },
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 514
+      "count": 518
     },
     {
       "name": "Android",
       "id": "Android",
-      "count": 321
+      "count": 322
     },
     {
       "name": "iOS",
@@ -2697,7 +2696,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 1126
+      "count": 1131
     },
     {
       "name": "phone",
@@ -2707,7 +2706,7 @@
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 205
+      "count": 206
     },
     {
       "name": "tablet",
@@ -2724,7 +2723,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 1014
+      "count": 1015
     },
     {
       "name": "United States",
@@ -2734,7 +2733,7 @@
     {
       "name": "United Kingdom",
       "id": "GB",
-      "count": 83
+      "count": 84
     },
     {
       "name": "Germany",
@@ -2744,7 +2743,7 @@
     {
       "name": "Netherlands",
       "id": "NL",
-      "count": 37
+      "count": 38
     },
     {
       "name": "Brazil",
@@ -2801,17 +2800,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 794
+      "count": 797
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 298
+      "count": 302
     },
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 56
+      "count": 57
     },
     {
       "name": "duckduckgo.com",
@@ -2821,7 +2820,7 @@
     {
       "name": "www.bing.com",
       "id": "www.bing.com",
-      "count": 26
+      "count": 27
     },
     {
       "name": "www.ecosia.org",
@@ -2831,7 +2830,7 @@
     {
       "name": "www.perplexity.ai",
       "id": "www.perplexity.ai",
-      "count": 10
+      "count": 11
     },
     {
       "name": "ig",
